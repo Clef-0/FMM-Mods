@@ -1,0 +1,17 @@
+edittag 0x2305
+
+editblock ShaderProperties 0
+
+editblock Arguments 6
+
+setfield Arg1 15
+setfield Arg2 15
+setfield Arg3 75
+setfield Arg4 25
+
+savetagchanges
+exit
+savetagchanges
+exit
+savetagchanges
+exit

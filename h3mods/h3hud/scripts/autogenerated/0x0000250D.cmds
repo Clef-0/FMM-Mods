@@ -1,0 +1,8 @@
+EditTag 0x0000250D
+EditBlock Rotation[0]
+EditBlock Animation[1]
+SetField XAngle -180
+exit
+exit
+SaveTagChanges
+exit

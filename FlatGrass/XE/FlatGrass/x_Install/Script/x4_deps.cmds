@@ -1,0 +1,46 @@
+--DEPS--
+dep add 6E23 6E24
+dep add 6E23 6E25
+dep remove 6E23 348A
+dep remove 6E23 3489
+dep remove 6E25 3489
+
+dep add 6E23 6E26
+dep add 6E23 6E27
+dep add 6E23 6E28
+dep add 6E23 6E29
+dep add 6E23 6E2A
+dep add 6E23 6E2B
+dep add 6E23 6E2C
+dep add 6E23 6E2D
+dep add 6E23 6E2E
+dep add 6E23 6E2F
+dep add 6E23 6E30
+dep add 6E23 6E31
+dep add 6E23 6E32
+dep add 6E23 6E33
+dep add 6E23 6E34
+dep add 6E23 6E35
+dep add 6E23 6E36
+dep add 6E23 6E37
+dep add 6E23 6E38
+dep add 6E23 6E39
+dep add 6E23 6E3A
+dep add 6E23 6E3B
+dep add 6E23 6E3C
+dep add 6E23 6E3D
+dep add 6E23 6E3E
+dep add 6E23 6E3F
+dep add 6E23 6E44
+dep add 6E23 6E45
+dep add 6E23 6E46
+dep add 6E23 6E47
+dep add 6E23 6E48
+dep add 6E23 6E49
+dep add 6E23 6E4A
+dep add 6E23 6E4B
+dep add 6E23 6E4C
+dep add 6E43 6E23
+
+dumplog x_Install-x4.txt
+exit

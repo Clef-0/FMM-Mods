@@ -1,0 +1,230 @@
+--TAG_SETUP--
+import 6D83 x_Forge\bridge_2x1.mode full
+import 6D84 x_Forge\bridge_2x2.mode full
+import 6D85 x_Forge\bridge_2x3.mode full
+import 6D86 x_Forge\bridge_2x5.mode full
+import 6D87 x_Forge\window_2x1.mode full
+import 6D88 x_Forge\window_2x2.mode full
+import 6D89 x_Forge\shared01.bitm full
+import 6D8A x_Forge\shared02.bitm full
+import 6D8B x_Forge\shared03.bitm full
+import 6D8C x_Forge\shared04.bitm full
+import 6D8D x_Forge\shared05.bitm full
+import 6D8E x_Forge\shared06.bitm full
+import 6D8F x_Forge\shared07.bitm full
+import 6D90 x_Forge\shared08.bitm full
+import 6D91 x_Forge\shared09.bitm full
+import 6D92 x_Forge\shared10.bitm full
+import 6D93 x_Forge\shared01.rmsh full
+import 6D94 x_Forge\shared02.rmsh full
+import 6D95 x_Forge\shared03.rmsh full
+import 6D96 x_Forge\shared04.rmsh full
+import 6D97 x_Forge\shared05.rmsh full
+import 6D98 x_Forge\shared06.rmsh full
+import 6D99 x_Forge\shared07.rmsh full
+import 6D9A x_Forge\shared08.rmsh full
+import 6D9B x_Forge\shared09.rmsh full
+import 6D9C x_Forge\shared10.rmsh full
+import 6D9D x_Forge\shared11.rmsh full
+import 6D9E x_Forge\shared12.rmsh full
+import 6D9F x_Forge\shared13.rmsh full
+import 6DA0 x_Forge\shared14.rmsh full
+import 6DA1 x_Forge\bridge_2x1.bloc full
+import 6DA2 x_Forge\bridge_2x2.bloc full
+import 6DA3 x_Forge\bridge_2x3.bloc full
+import 6DA4 x_Forge\bridge_2x5.bloc full
+import 6DA5 x_Forge\window_2x1.bloc full
+import 6DA6 x_Forge\window_2x2.bloc full
+import 6DA7 x_Forge\bridge_2x1.hlmt full
+import 6DA8 x_Forge\bridge_2x2.hlmt full
+import 6DA9 x_Forge\bridge_2x3.hlmt full
+import 6DAA x_Forge\bridge_2x5.hlmt full
+import 6DAB x_Forge\window_2x1.hlmt full
+import 6DAC x_Forge\window_2x2.hlmt full
+import 6DAD x_Forge\bridge_2x1.coll full
+import 6DAE x_Forge\bridge_2x2.coll full
+import 6DAF x_Forge\bridge_2x3.coll full
+import 6DB0 x_Forge\bridge_2x5.coll full
+import 6DB1 x_Forge\window_2x1.coll full
+import 6DB2 x_Forge\window_2x2.coll full
+import 6DB3 x_Forge\bridge_2x1.phmo full
+import 6DB4 x_Forge\bridge_2x2.phmo full
+import 6DB5 x_Forge\bridge_2x3.phmo full
+import 6DB6 x_Forge\bridge_2x5.phmo full
+import 6DB7 x_Forge\window_2x1.phmo full
+import 6DB8 x_Forge\window_2x2.phmo full
+import 6DB9 x_Forge\shared15.rmsh full
+import 6DBA x_Forge\shared16.rmsh full
+import 6DBB x_Forge\shared11.bitm full
+import 6DBC x_Forge\deadbody.bloc
+import 6DBD x_Forge\mongoose.vehi
+import 6DBE x_Forge\warthog.vehi
+import 6DBF x_Forge\block_2x2.bloc full
+import 6DC0 x_Forge\block_2x2.hlmt full
+import 6DC1 x_Forge\block_2x2.mode full
+import 6DC2 x_Forge\block_2x2.phmo full
+import 6DC3 x_Forge\block_2x2.coll full
+import 6DC4 x_Forge\block_2x1.bloc full
+import 6DC5 x_Forge\block_2x1.hlmt full
+import 6DC6 x_Forge\block_2x1.mode full
+import 6DC7 x_Forge\block_2x1.phmo full
+import 6DC8 x_Forge\block_2x1.coll full
+import 6DC9 x_Forge\block_3x3.bloc full
+import 6DCA x_Forge\block_3x3.hlmt full
+import 6DCB x_Forge\block_3x3.mode full
+import 6DCC x_Forge\block_3x3.phmo full
+import 6DCD x_Forge\block_3x3.coll full
+import 6DCE x_Forge\block_3x1.bloc full
+import 6DCF x_Forge\block_3x1.hlmt full
+import 6DD0 x_Forge\block_3x1.mode full
+import 6DD1 x_Forge\block_3x1.phmo full
+import 6DD2 x_Forge\block_3x1.coll full
+import 6DD3 x_Forge\block_4x4.bloc full
+import 6DD4 x_Forge\block_4x4.hlmt full
+import 6DD5 x_Forge\block_4x4.mode full
+import 6DD6 x_Forge\block_4x4.phmo full
+import 6DD7 x_Forge\block_4x4.coll full
+import 6DD8 x_Forge\block_5x5.bloc full
+import 6DD9 x_Forge\block_5x5.hlmt full
+import 6DDA x_Forge\block_5x5.mode full
+import 6DDB x_Forge\block_5x5.phmo full
+import 6DDC x_Forge\block_5x5.coll full
+import 6DDD x_Forge\block_5x1.bloc full
+import 6DDE x_Forge\block_5x1.hlmt full
+import 6DDF x_Forge\block_5x1.mode full
+import 6DE0 x_Forge\block_5x1.phmo full
+import 6DE1 x_Forge\block_5x1.coll full
+import 6DE2 x_Forge\block_10x5.bloc full
+import 6DE3 x_Forge\block_10x5.hlmt full
+import 6DE4 x_Forge\block_10x5.mode full
+import 6DE5 x_Forge\block_10x5.phmo full
+import 6DE6 x_Forge\block_10x5.coll full
+import 6DE7 x_Forge\block.rmsh full
+import 6DE8 x_Forge\killball_s_r.bloc full
+import 6DE9 x_Forge\killball_s_r.hlmt full
+import 6DEA x_Forge\killball_l_r.bloc full
+import 6DEB x_Forge\killball_l_r.hlmt full
+import 6DEC x_Forge\killball_s_p.bloc full
+import 6DED x_Forge\killball_s_p.hlmt full
+import 6DEE x_Forge\killball_l_p.bloc full
+import 6DEF x_Forge\killball_l_p.hlmt full
+import 6DF0 x_Forge\killball_small.mode full
+import 6DF1 x_Forge\killball_large.mode full
+import 6DF2 x_Forge\killball_small.coll full
+import 6DF3 x_Forge\killball_large.coll full
+import 6DF4 x_Forge\killball_small.effe full
+import 6DF5 x_Forge\killball_large.effe full
+import 6DF6 x_Forge\killball_small.jpt! full
+import 6DF7 x_Forge\killball_large.jpt! full
+import 6DF8 x_Forge\killball.rmsh full
+import 6DF9 x_Forge\light.bloc full
+import 6DFA x_Forge\light.hlmt full
+import 6DFB x_Forge\light.mode full
+import 6DFC x_Forge\light.phmo full
+import 6DFD x_Forge\light.ligh full
+import 6DFE x_Forge\redlight.bloc full
+import 6DFF x_Forge\redlight.ligh full
+import 6E00 x_Forge\bluelight.bloc full
+import 6E01 x_Forge\bluelight.ligh full
+import 6E02 x_Forge\greenlight.bloc full
+import 6E03 x_Forge\greenlight.ligh full
+import 6E04 x_Forge\yellowlight.bloc full
+import 6E05 x_Forge\yellowlight.ligh full
+import 6E06 x_Forge\sniper.weap full
+import 6E07 x_Forge\sniper.hlmt full
+import 6E08 x_Forge\sniper.mode full
+import 6E09 x_Forge\sniper_fp.mode full
+import 6E0A x_Forge\sniper_tv.rmsh full
+
+--MODEL_PORT--
+modeltest 6D83 x_Forge\Assets\Models\Bridges\bridge_2x1.dae
+modeltest 6D84 x_Forge\Assets\Models\Bridges\bridge_2x2.dae
+modeltest 6D85 x_Forge\Assets\Models\Bridges\bridge_2x3.dae
+modeltest 6D86 x_Forge\Assets\Models\Bridges\bridge_2x5.dae
+modeltest 6D87 x_Forge\Assets\Models\Windows\window_2x1.dae
+modeltest 6D88 x_Forge\Assets\Models\Windows\window_2x2.dae
+
+--TEXTURES--
+importbitmap x_Forge\Assets\Textures\Shared\Shared_01.dds 6D89
+importbitmap x_Forge\Assets\Textures\Shared\Shared_02.dds 6D8A
+importbitmap x_Forge\Assets\Textures\Shared\Shared_03.dds 6D8B
+importbitmap x_Forge\Assets\Textures\Shared\Shared_04.dds 6D8C
+importbitmap x_Forge\Assets\Textures\Shared\Shared_05.dds 6D8D
+importbitmap x_Forge\Assets\Textures\Shared\Shared_06.dds 6D8E
+importbitmap x_Forge\Assets\Textures\Shared\Shared_07.dds 6D8F
+importbitmap x_Forge\Assets\Textures\Shared\Shared_08.dds 6D90
+importbitmap x_Forge\Assets\Textures\Shared\Shared_09.dds 6D91
+importbitmap x_Forge\Assets\Textures\Shared\Shared_10.dds 6D92
+importbitmap x_Forge\Assets\Textures\Shared\Shared_11.dds 6DBB
+
+--STRINGS--
+stringid add xe_bridge_2x1
+stringid add xe_bridge_2x2
+stringid add xe_bridge_2x3
+stringid add xe_bridge_2x5
+stringid add xe_window_2x1
+stringid add xe_window_2x2
+stringid add xe_block_2x2
+stringid add xe_block_2x1
+stringid add xe_block_3x3
+stringid add xe_block_3x1
+stringid add xe_block_4x4
+stringid add xe_block_5x5
+stringid add xe_block_5x1
+stringid add xe_block_10x5
+stringid add xe_kball_small
+stringid add xe_kball_large
+stringid add xe_kballp_small
+stringid add xe_kballp_large
+stringid add xe_light
+stringid add xe_light_red
+stringid add xe_light_blue
+stringid add xe_light_green
+stringid add xe_light_yellow
+stringid add xe_weapon_sniper
+stringid add xe_vehicle_mongoose
+stringid add xe_vehicle_warthog
+stringid add xe_prop_deadbody
+
+--STRING_VALUES--
+edit 1221
+set english xe_bridge_2x1 Bridge-2X1(P)
+set english xe_bridge_2x2 Bridge-2X2(P)
+set english xe_bridge_2x3 Bridge-2X3(P)
+set english xe_bridge_2x5 Bridge-2X5(P)
+set english xe_window_2x1 Window-2X1(P)
+set english xe_window_2x2 Window-2X2(P)
+set english xe_block_2x2 Block-2X2(P)
+set english xe_block_2x1 Block-2X1(P)
+set english xe_block_3x3 Block-3X3(P)
+set english xe_block_3x1 Block-3X1(P)
+set english xe_block_4x4 Block-4X4(P)
+set english xe_block_5x5 Block-5X5(P)
+set english xe_block_5x1 Block-5X1(P)
+set english xe_block_10x5 Block-10X5(P)
+set english xe_kball_small KillBall-Small
+set english xe_kball_large KillBall-Large
+set english xe_kballp_small KillBall-Small(P)
+set english xe_kballp_large KillBall-Large(P)
+set english xe_light Light(P)
+set english xe_light_red Light-Red(P)
+set english xe_light_blue Light-Blue(P)
+set english xe_light_green Light-Green(P)
+set english xe_light_yellow Light-Yellow(P)
+set english xe_weapon_sniper Sniper-CQB
+set english xe_vehicle_mongoose Mongoose-FP
+set english xe_vehicle_warthog Warthog-FP
+set english xe_prop_deadbody Body
+
+--MENU--
+set english category_weapons WEAPONS
+set english category_vehicles VEHICLES
+set english category_equipment EQUIPMENT
+set english category_scenery SCENERY
+set english category_teleporters TELEPORTERS
+set english category_spawners SPAWNING
+set english category_goals GOALS/F+
+exit
+
+dumplog x_Forge-x1.txt
+exit

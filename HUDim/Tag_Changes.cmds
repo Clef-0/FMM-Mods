@@ -1,0 +1,3621 @@
+echo "TAG FIXES (weap tag changes = binocular)"
+
+import 00001DBA "HUDtextures\Weapons\CARBINE_00001DBA_CHDT.tag" full
+
+import 000025D5 "HUDtextures\Weapons\CARBINE_ACC_000025D5_CHDT.tag" full
+
+import 000025CC "HUDtextures\Weapons\CARBINE_DMG_000025CC_CHDT.tag" full
+
+import 000025BA "HUDtextures\Weapons\CARBINE_MAG_000025BA_CHDT.tag" full
+
+import 000025B1 "HUDtextures\Weapons\CARBINE_ROF_000025B1_CHDT.tag" full
+
+import 000023FE "HUDtextures\Weapons\CARBINE_PWR_000023FE_CHDT.tag" full
+
+import 000025C3 "HUDtextures\Weapons\CARBINE_RNG_000025C3_CHDT.tag" full
+
+import 00002459 "HUDtextures\Weapons\BEAM_RIFLE_00002459_CHDT.tag" full
+
+import 000021DE "HUDtextures\Weapons\FUEL_ROD_000021DE_CHDT.tag" full
+
+import 00000C1E "HUDtextures\Spartan\SPARTAN_00000C1E_CHDT.tag" full
+
+import 00001E48 "HUDtextures\Weapons\PLASMA_RIFLE_00001E48_CHDT.tag" full
+
+import 0000225A "HUDtextures\Weapons\PLASMA_PISTOL_0000225A_CHDT.tag" full
+
+import 00002423 "HUDtextures\Weapons\PLASMA_PISTOL_PWR_00002423_CHDT.tag" full
+
+import 000023F3 "HUDtextures\Weapons\PLASMA_RIFLE_PWR_000023F3_CHDT.tag" full
+
+import 000001BD "HUDtextures\Spartan\GLOBALS_000001BD_CHGD.tag" full
+
+import 000020BC "HUDtextures\Weapons\MAGNUM_000020BC_CHDT.tag" full
+
+import 00002412 "HUDtextures\Weapons\MAGNUM_DMG_00002412_CHDT.tag" full
+
+import 0000241B "HUDtextures\Weapons\MAGNUM_PWR_0000241B_CHDT.tag" full
+
+import 0000208E "HUDtextures\Weapons\MAULER_0000208E_CHDT.tag" full
+
+import 00002409 "HUDtextures\Weapons\MAULER_PWR_00002409_CHDT.tag" full
+
+import 00001F50 "HUDtextures\Weapons\SMG_00001F50_CHDT.tag" full
+
+import 000023D7 "HUDtextures\Weapons\SMG_ACC_000023D7_CHDT.tag" full
+
+import 000023E1 "HUDtextures\Weapons\SMG_DMG_000023E1_CHDT.tag" full
+
+import 000023EA "HUDtextures\Weapons\SMG_PWR_000023EA_CHDT.tag" full
+
+import 000023CC "HUDtextures\Weapons\SMG_ROF_000023CC_CHDT.tag" full
+
+import 00002057 "HUDtextures\Weapons\SPIKER_00002057_CHDT.tag" full
+
+import 0000322C "HUDtextures\Weapons\SENTINEL_BEAM_0000322C_CHDT.tag" full
+
+import 0000151E "HUDtextures\Weapons\ASSAULT_RIFLE_0000151E_WEAP.tag" full
+
+import 00001583 "HUDtextures\Weapons\ASSAULT_RIFLE_ACC_00001583_WEAP.tag" full
+
+import 00001581 "HUDtextures\Weapons\ASSAULT_RIFLE_DMG_00001581_WEAP.tag" full
+
+import 00001584 "HUDtextures\Weapons\ASSAULT_RIFLE_PWR_00001584_WEAP.tag" full
+
+import 00001582 "HUDtextures\Weapons\ASSAULT_RIFLE_ROF_00001582_WEAP.tag" full
+
+import 00001586 "HUDtextures\Weapons\BATTLE_RIFLE_DMG_00001586_WEAP.tag" full
+
+import 000014FF "HUDtextures\Weapons\BRUTE_SHOT_000014FF_WEAP.tag" full
+
+import 0000158A "HUDtextures\Weapons\DMR_DMG_0000158A_WEAP.tag" full
+
+import 0000150C "HUDtextures\Weapons\HAMMER_0000150C_WEAP.tag" full
+
+import 00001504 "HUDtextures\Weapons\MAULER_00001504_WEAP.tag" full
+
+import 00001592 "HUDtextures\Weapons\MAULER_PWR_00001592_WEAP.tag" full
+
+import 000014F8 "HUDtextures\Weapons\NEEDLER_000014F8_WEAP.tag" full
+
+import 0000157E "HUDtextures\Weapons\PISTOL_0000157E_WEAP.tag" full
+
+import 00001593 "HUDtextures\Weapons\PISTOL_DMG_00001593_WEAP.tag" full
+
+import 000014F7 "HUDtextures\Weapons\PLASMA_PISTOL_000014F7_WEAP.tag" full
+
+import 00001595 "HUDtextures\Weapons\PLASMA_PISTOL_PWR_00001595_WEAP.tag" full
+
+import 00001525 "HUDtextures\Weapons\PLASMA_RIFLE_00001525_WEAP.tag" full
+
+import 00001590 "HUDtextures\Weapons\PLASMA_RIFLE_PWR_00001590_WEAP.tag" full
+
+import 00001A45 "HUDtextures\Weapons\SHOTGUN_00001A45_WEAP.tag" full
+
+import 0000157D "HUDtextures\Weapons\SMG_0000157D_WEAP.tag" full
+
+import 0000158E "HUDtextures\Weapons\SMG_DMG_0000158E_WEAP.tag" full
+
+import 0000158C "HUDtextures\Weapons\SMG_ROF_0000158C_WEAP.tag" full
+
+import 00001500 "HUDtextures\Weapons\SPIKER_00001500_WEAP.tag" full
+
+import 0000159E "HUDtextures\Weapons\SWORD_0000159E_WEAP.tag" full
+
+echo "SPARTAN TAG CHANGES"
+
+edit C1E
+edit hudwidgets[21]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto 0x0C1E.chud_definition
+edit hudwidgets[22]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto 0x0C1E.chud_definition
+edit hudwidgets[23]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto 0x0C1E.chud_definition
+edit hudwidgets[29]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto 0x0C1E.chud_definition
+edit hudwidgets[33]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto 0x0C1E.chud_definition
+edit hudwidgets[34]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto 0x0C1E.chud_definition
+edit hudwidgets[35]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto 0x0C1E.chud_definition
+edit hudwidgets[36]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto 0x0C1E.chud_definition
+edit hudwidgets[37]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto 0x0C1E.chud_definition
+edit hudwidgets[38]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto 0x0C1E.chud_definition
+edit hudwidgets[31]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto 0x0C1E.chud_definition
+edit hudwidgets[31]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto hudwidgets[31]
+edit bitmapwidgets[1]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto hudwidgets[31]
+edit bitmapwidgets[2]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto hudwidgets[31]
+edit bitmapwidgets[3]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto 0x0C1E.chud_definition
+edit hudwidgets[19]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto 0x0C1E.chud_definition
+edit hudwidgets[21]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto 0x0C1E.chud_definition
+edit hudwidgets[22]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto 0x0C1E.chud_definition
+edit hudwidgets[23]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto 0x0C1E.chud_definition
+edit hudwidgets[30]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto 0x0C1E.chud_definition
+edit hudwidgets[32]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto 0x0C1E.chud_definition
+edit hudwidgets[33]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto 0x0C1E.chud_definition
+edit hudwidgets[34]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto 0x0C1E.chud_definition
+edit hudwidgets[35]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto 0x0C1E.chud_definition
+edit hudwidgets[36]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto 0x0C1E.chud_definition
+edit hudwidgets[37]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto 0x0C1E.chud_definition
+edit hudwidgets[38]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto 0x0C1E.chud_definition
+edit hudwidgets[29]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+
+exitto tags.dat
+savechanges
+
+echo "FORGE FIXES"
+
+edit 25F4
+edit hudwidgets[2]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield mirroroffsetx 0
+setfield mirroroffsety 0
+setfield offsetx 0
+setfield offsety 0
+setfield scalex 1
+setfield scaley 1
+exitto hudwidgets[2]
+edit bitmapwidgets[1]
+edit placementdata[0]
+setfield mirroroffsetx 0
+setfield mirroroffsety 0
+setfield offsetx 0
+setfield offsety -1
+setfield scalex 1
+setfield scaley 1
+exitto hudwidgets[2]
+edit bitmapwidgets[2]
+edit placementdata[0]
+setfield mirroroffsetx 0
+setfield mirroroffsety 0
+setfield offsetx 50
+setfield offsety -62
+setfield scalex 1.15
+setfield scaley 1.15
+exitto hudwidgets[2]
+edit bitmapwidgets[3]
+edit placementdata[0]
+setfield mirroroffsetx 0
+setfield mirroroffsety 0
+setfield offsetx 50
+setfield offsety -62
+setfield scalex 1.15
+setfield scaley 1.15
+exitto hudwidgets[2]
+edit bitmapwidgets[4]
+edit placementdata[0]
+setfield mirroroffsetx 0
+setfield mirroroffsety 0
+setfield offsetx 70
+setfield offsety 40
+setfield scalex 1
+setfield scaley 1
+exitto hudwidgets[2]
+edit bitmapwidgets[5]
+edit placementdata[0]
+setfield mirroroffsetx 0
+setfield mirroroffsety 0
+setfield offsetx 70
+setfield offsety 40
+setfield scalex 1
+setfield scaley 1
+exitto hudwidgets[2]
+edit bitmapwidgets[6]
+edit placementdata[0]
+setfield mirroroffsetx 0
+setfield mirroroffsety 0
+setfield offsetx 70
+setfield offsety 40
+setfield scalex 1
+setfield scaley 1
+exitto hudwidgets[2]
+edit bitmapwidgets[7]
+edit placementdata[0]
+setfield mirroroffsetx 0
+setfield mirroroffsety 0
+setfield offsetx 70
+setfield offsety 40
+setfield scalex 1
+setfield scaley 1
+exitto hudwidgets[2]
+edit placementdata[0]
+setfield mirroroffsetx 0
+setfield mirroroffsety 0
+setfield offsetx 122
+setfield offsety -84
+setfield scalex 1
+setfield scaley 1
+savechanges
+exitto tags.dat
+
+echo "WEAPON SCHEMATICS/TEXT RELOCATION"
+
+edit 2692
+edit hudwidgets[3]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx -50
+savechanges
+exitto 0x2692.chud_definition
+edit hudwidgets[0]
+edit bitmapwidgets[0]
+setfield BitmapSpriteIndex 23
+savechanges
+exitto tags.dat
+
+
+edit 1B8D
+edit HudWidgets[3]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[3]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 30
+setfield offsety -15
+setfield scalex 1.7
+setfield scaley 1.7
+savechanges
+exitto tags.dat
+
+edit 1D87
+edit hudwidgets[6]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[6]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 20
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+savechanges
+exitto tags.dat
+
+edit 2459
+edit hudwidgets[9]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[9]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 0
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+exitto 0x2459.chud_definition
+edit hudwidgets[2]
+edit bitmapwidgets[3]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto hudwidgets[2]
+edit bitmapwidgets[4]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+savechanges
+exitto tags.dat
+
+edit 1D19
+edit hudwidgets[6]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[6]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 0
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+savechanges
+exitto tags.dat
+
+edit 1DBA
+edit hudwidgets[5]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[5]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 0
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+savechanges
+exitto tags.dat
+
+edit 1E11
+edit hudwidgets[5]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[5]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 30
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+savechanges
+exitto tags.dat
+
+edit 31C5
+edit hudwidgets[1]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[1]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 0
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+savechanges
+exitto tags.dat
+
+edit 21DE
+edit hudwidgets[7]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[7]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 0
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+savechanges
+exitto tags.dat
+
+edit 31FC
+edit hudwidgets[5]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[5]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 10
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+savechanges
+exitto tags.dat
+
+edit 219D
+edit hudwidgets[3]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[3]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 0
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+savechanges
+exitto tags.dat
+
+edit 20BC
+edit hudwidgets[5]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[5]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx -20
+setfield offsety -23
+setfield scalex 1.7
+setfield scaley 1.7
+savechanges
+exitto tags.dat
+
+edit 215A
+edit hudwidgets[3]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[3]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 10
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+savechanges
+exitto tags.dat
+
+edit 20ED
+edit hudwidgets[5]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[5]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx -35
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+savechanges
+exitto tags.dat
+
+echo "plasma pistol"
+edit 225A
+edit hudwidgets[6]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[6]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx -35
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+exitto 0x225A.chud_definition
+edit hudwidgets[2]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+setfield mirroroffsetx 0
+setfield mirroroffsety 0
+exitto hudwidgets[2]
+edit bitmapwidgets[1]
+setfield Bitmap 1C91
+setfield BitmapSpriteIndex 10
+edit placementdata[0]
+setfield offsety 0
+setfield scalex 1.3
+setfield scaley 1.2
+exitto hudwidgets[2]
+edit bitmapwidgets[2]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto hudwidgets[2]
+edit bitmapwidgets[3]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto hudwidgets[2]
+edit bitmapwidgets[4]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto hudwidgets[2]
+edit bitmapwidgets[5]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto hudwidgets[2]
+edit bitmapwidgets[6]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+savechanges
+exitto tags.dat
+
+echo "plasma rifle"
+edit 1E48
+edit hudwidgets[5]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[5]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx -10
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+exitto 0x1E48.chud_definition
+edit hudwidgets[2]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield mirroroffsetx 1.2
+setfield mirroroffsety 1.2
+setfield scalex 1.18
+setfield scaley 1.18
+exitto bitmapwidgets[0]
+edit animationdata[0]
+setfield animation2 null
+exitto hudwidgets[2]
+edit bitmapwidgets[1]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto hudwidgets[2]
+edit bitmapwidgets[2]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto hudwidgets[2]
+edit bitmapwidgets[3]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto hudwidgets[2]
+edit bitmapwidgets[4]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+savechanges
+exitto tags.dat
+
+edit 2527
+edit hudwidgets[2]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[2]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx -10
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+savechanges
+exitto tags.dat
+
+edit 1C9F
+edit hudwidgets[7]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[7]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 0
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+savechanges
+exitto tags.dat
+
+edit 1EFE
+edit hudwidgets[6]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[6]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 0
+setfield offsety -23
+setfield scalex 1.7
+setfield scaley 1.7
+exitto 0x1EFE.chud_definition
+edit hudwidgets[2]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield mirroroffsetx 0.96
+savechanges
+exitto tags.dat
+
+edit 1F50
+edit hudwidgets[5]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[5]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 35
+setfield offsety -23
+setfield scalex 1.7
+setfield scaley 1.7
+savechanges
+exitto tags.dat
+
+edit 1F90
+edit hudwidgets[6]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[6]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 0
+setfield offsety -30
+setfield scalex 1.7
+setfield scaley 1.7
+savechanges
+exitto tags.dat
+
+edit 24AB
+edit hudwidgets[5]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[5]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 0
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+savechanges
+exitto tags.dat
+
+edit 2057
+edit hudwidgets[6]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[6]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx -20
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+savechanges
+exitto tags.dat
+
+edit 2439
+edit hudwidgets[5]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[5]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 0
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+savechanges
+exitto tags.dat
+
+edit 208E
+edit hudwidgets[6]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[6]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx -27
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+savechanges
+exitto tags.dat
+
+edit 322C
+edit HudWidgets[5]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[5]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx -35
+setfield offsety -23
+setfield scalex 1.2
+setfield scaley 1.2
+exitto bitmapwidgets[0]
+edit bitmap 00000C93
+savechanges
+exitto tags.dat
+
+echo "WEAPON VARIANT SCHEMATICS/TEXT RELOCATION"
+echo "V1 = AMMO, V2 = DAMAGE, V3 = ACCURACY, V4 = RATE OF FIRE, V5 = RANGE, V6 = POWER"
+
+
+echo "Carbine V1"
+edit 25BA
+edit hudwidgets[6]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[6]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 0
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+exitto hudwidgets[6]
+edit textwidgets[1]
+edit placementdata[0]
+setfield offsetx -50
+setfield offsety 30
+setfield scalex 0.95
+setfield scaley 0.95
+exitto 0x25BA.chud_definition
+edit hudwidgets[4]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic31
+exitto 0x25BA.chud_definition
+edit hudwidgets[5]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic31
+exitto hudwidgets[5]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic31
+exitto hudwidgets[5]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic31
+exitto hudwidgets[5]
+edit bitmapwidgets[3]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic31
+exitto hudwidgets[5]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic31
+exitto 0x25BA.chud_definition
+edit hudwidgets[2]
+edit bitmapwidgets[7]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto hudwidgets[2]
+edit bitmapwidgets[8]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+savechanges
+exitto tags.dat
+
+echo "Carbine V2"
+edit 25CC
+edit hudwidgets[5]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[5]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 18
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+exitto hudwidgets[5]
+edit textwidgets[1]
+edit placementdata[0]
+setfield offsetx -32
+setfield offsety 30
+setfield scalex 0.95
+setfield scaley 0.95
+exitto 0x25CC.chud_definition
+edit hudwidgets[4]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+exitto 0x25CC.chud_definition
+edit hudwidgets[6]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+exitto hudwidgets[6]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+exitto hudwidgets[6]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+exitto hudwidgets[6]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+setfield OutputColorB GlobalDynamic32
+exitto hudwidgets[6]
+edit textwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+setfield OutputColorB GlobalDynamic32
+exitto hudwidgets[6]
+edit textwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+setfield OutputColorB GlobalDynamic32
+savechanges
+exitto tags.dat
+
+savechanges
+exitto tags.dat
+
+echo "Carbine V3"
+edit 25D5
+edit hudwidgets[5]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[5]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 0
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+exitto hudwidgets[5]
+edit textwidgets[1]
+edit placementdata[0]
+setfield offsetx -25
+setfield offsety 30
+setfield scalex 0.95
+setfield scaley 0.95
+exitto 0x25D5.chud_definition
+edit hudwidgets[4]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+exitto 0x25D5.chud_definition
+edit hudwidgets[6]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+exitto hudwidgets[6]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+exitto hudwidgets[6]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+exitto hudwidgets[6]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+setfield OutputColorB GlobalDynamic33
+exitto hudwidgets[6]
+edit textwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+setfield OutputColorB GlobalDynamic33
+exitto hudwidgets[6]
+edit textwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+setfield OutputColorB GlobalDynamic33
+savechanges
+exitto tags.dat
+
+echo "Carbine V4"
+edit 25B1
+edit hudwidgets[5]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[5]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 25
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+exitto hudwidgets[5]
+edit textwidgets[1]
+edit placementdata[0]
+setfield offsetx -10
+setfield offsety 30
+setfield scalex 0.95
+setfield scaley 0.95
+exitto 0x25B1.chud_definition
+edit hudwidgets[4]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+exitto 0x25B1.chud_definition
+edit hudwidgets[6]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+exitto hudwidgets[6]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+exitto hudwidgets[6]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+exitto hudwidgets[6]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+setfield OutputColorB GlobalDynamic34
+exitto hudwidgets[6]
+edit textwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+setfield OutputColorB GlobalDynamic34
+exitto hudwidgets[6]
+edit textwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+setfield OutputColorB GlobalDynamic34
+savechanges
+exitto tags.dat
+
+echo "Carbine V5"
+edit 25C3
+edit hudwidgets[4]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[4]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 0
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+exitto hudwidgets[4]
+edit textwidgets[1]
+edit placementdata[0]
+setfield offsetx -35
+setfield offsety 30
+setfield scalex 0.95
+setfield scaley 0.95
+exitto 0x25C3.chud_definition
+edit hudwidgets[3]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic35
+exitto 0x25C3.chud_definition
+edit hudwidgets[7]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic35
+exitto hudwidgets[7]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic35
+exitto hudwidgets[7]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic35
+exitto hudwidgets[7]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic35
+setfield OutputColorB GlobalDynamic35
+exitto hudwidgets[7]
+edit textwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic35
+setfield OutputColorB GlobalDynamic35
+exitto hudwidgets[7]
+edit textwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic35
+setfield OutputColorB GlobalDynamic35
+savechanges
+exitto tags.dat
+
+echo "Carbine V6"
+edit 23FE
+edit hudwidgets[5]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[5]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 0
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+exitto hudwidgets[5]
+edit textwidgets[1]
+edit placementdata[0]
+setfield offsetx -35
+setfield offsety 30
+setfield scalex 0.95
+setfield scaley 0.95
+exitto 0x23FE.chud_definition
+edit hudwidgets[4]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto 0x23FE.chud_definition
+edit hudwidgets[6]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto hudwidgets[6]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto hudwidgets[6]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto hudwidgets[6]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+exitto hudwidgets[6]
+edit textwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+exitto hudwidgets[6]
+edit textwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+savechanges
+exitto tags.dat
+
+echo "Assault Rifle V2"
+edit 231F
+edit hudwidgets[3]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[3]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 30
+setfield offsety -15
+setfield scalex 1.7
+setfield scaley 1.7
+exitto hudwidgets[3]
+edit textwidgets[1]
+edit placementdata[0]
+setfield offsetx -35
+setfield offsety 27
+setfield scalex 0.95
+setfield scaley 0.95
+exitto 0x231F.chud_definition
+edit hudwidgets[2]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+exitto 0x231F.chud_definition
+edit hudwidgets[4]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+exitto hudwidgets[4]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+exitto hudwidgets[4]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+exitto hudwidgets[4]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+setfield OutputColorB GlobalDynamic32
+exitto hudwidgets[4]
+edit textwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+setfield OutputColorB GlobalDynamic32
+exitto hudwidgets[4]
+edit textwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+setfield OutputColorB GlobalDynamic32
+savechanges
+exitto tags.dat
+
+echo "Assault Rifle V3"
+edit 2342
+edit hudwidgets[3]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[3]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 30
+setfield offsety -15
+setfield scalex 1.7
+setfield scaley 1.7
+exitto hudwidgets[3]
+edit textwidgets[1]
+edit placementdata[0]
+setfield offsetx -28
+setfield offsety 27
+setfield scalex 0.95
+setfield scaley 0.95
+exitto 0x2342.chud_definition
+edit hudwidgets[2]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+exitto 0x2342.chud_definition
+edit hudwidgets[4]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+exitto hudwidgets[4]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+exitto hudwidgets[4]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+exitto hudwidgets[4]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+setfield OutputColorB GlobalDynamic33
+exitto hudwidgets[4]
+edit textwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+setfield OutputColorB GlobalDynamic33
+exitto hudwidgets[4]
+edit textwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+setfield OutputColorB GlobalDynamic33
+savechanges
+exitto tags.dat
+
+echo "Assault Rifle V4"
+edit 2334
+edit hudwidgets[3]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[3]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 30
+setfield offsety -20
+setfield scalex 1.7
+setfield scaley 1.7
+exitto hudwidgets[3]
+edit textwidgets[1]
+edit placementdata[0]
+setfield offsetx -20
+setfield offsety 25
+setfield scalex 0.95
+setfield scaley 0.95
+exitto 0x2334.chud_definition
+edit hudwidgets[2]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+exitto 0x2334.chud_definition
+edit hudwidgets[4]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+exitto hudwidgets[4]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+exitto hudwidgets[4]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+exitto hudwidgets[4]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+setfield OutputColorB GlobalDynamic34
+exitto hudwidgets[4]
+edit textwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+setfield OutputColorB GlobalDynamic34
+exitto hudwidgets[4]
+edit textwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+setfield OutputColorB GlobalDynamic34
+savechanges
+exitto tags.dat
+
+echo "Assault Rifle V6"
+edit 2353
+edit hudwidgets[3]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[3]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 15
+setfield offsety -15
+setfield scalex 1.7
+setfield scaley 1.7
+exitto hudwidgets[3]
+edit textwidgets[1]
+edit placementdata[0]
+setfield offsetx -37
+setfield offsety 27
+setfield scalex 0.95
+setfield scaley 0.95
+exitto 0x2353.chud_definition
+edit hudwidgets[2]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto 0x2353.chud_definition
+edit hudwidgets[4]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto hudwidgets[4]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto hudwidgets[4]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto hudwidgets[4]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+exitto hudwidgets[4]
+edit textwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+exitto hudwidgets[4]
+edit textwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+savechanges
+exitto tags.dat
+
+echo "Battle Rifle V1"
+edit 2361
+edit hudwidgets[4]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[4]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 50
+setfield offsety -23
+setfield scalex 1.7
+setfield scaley 1.7
+exitto hudwidgets[4]
+edit textwidgets[1]
+edit placementdata[0]
+setfield offsetx -55
+setfield offsety 30
+setfield scalex 0.95
+setfield scaley 0.95
+exitto 0x2361.chud_definition
+edit hudwidgets[6]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic31
+exitto 0x2361.chud_definition
+edit hudwidgets[5]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic31
+exitto hudwidgets[5]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic31
+exitto hudwidgets[5]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic31
+exitto hudwidgets[5]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic31
+setfield OutputColorB GlobalDynamic31
+exitto hudwidgets[5]
+edit textwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic31
+setfield OutputColorB GlobalDynamic31
+exitto hudwidgets[5]
+edit textwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic31
+setfield OutputColorB GlobalDynamic31
+
+exitto 0x2361.chud_definition
+edit hudwidgets[2]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield scalex 1.1
+setfield scaley 1.1
+savechanges
+exitto tags.dat
+
+echo "Battle Rifle V2"
+edit 236F
+edit hudwidgets[3]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[3]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 30
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+exitto hudwidgets[3]
+edit textwidgets[1]
+edit placementdata[0]
+setfield offsetx -35
+setfield offsety 30
+setfield scalex 0.95
+setfield scaley 0.95
+exitto 0x236F.chud_definition
+edit hudwidgets[4]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+exitto 0x236F.chud_definition
+edit hudwidgets[5]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+exitto hudwidgets[5]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+exitto hudwidgets[5]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+exitto hudwidgets[5]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+setfield OutputColorB GlobalDynamic32
+exitto hudwidgets[5]
+edit textwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+setfield OutputColorB GlobalDynamic32
+exitto hudwidgets[5]
+edit textwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+setfield OutputColorB GlobalDynamic32
+
+exitto 0x236F.chud_definition
+edit hudwidgets[2]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield scalex 1.1
+setfield scaley 1.1
+savechanges
+exitto tags.dat
+
+echo "Battle Rifle V3"
+edit 258B
+edit hudwidgets[4]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[4]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 15
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+exitto hudwidgets[4]
+edit textwidgets[1]
+edit placementdata[0]
+setfield offsetx -25
+setfield offsety 30
+setfield scalex 0.95
+setfield scaley 0.95
+exitto 0x258B.chud_definition
+edit hudwidgets[5]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+exitto 0x258B.chud_definition
+edit hudwidgets[6]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+exitto 0x258B.chud_definition
+edit hudwidgets[5]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+exitto hudwidgets[5]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+exitto hudwidgets[5]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+setfield OutputColorB GlobalDynamic33
+exitto hudwidgets[5]
+edit textwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+setfield OutputColorB GlobalDynamic33
+exitto hudwidgets[5]
+edit textwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+setfield OutputColorB GlobalDynamic33
+
+exitto 0x258B.chud_definition
+edit hudwidgets[2]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield scalex 1.1
+setfield scaley 1.1
+savechanges
+exitto tags.dat
+
+echo "Battle Rifle V4"
+edit 2581
+edit hudwidgets[4]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[4]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 35
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+exitto hudwidgets[4]
+edit textwidgets[1]
+edit placementdata[0]
+setfield offsetx -10
+setfield offsety 30
+setfield scalex 0.95
+setfield scaley 0.95
+exitto 0x2581.chud_definition
+edit hudwidgets[5]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+exitto 0x2581.chud_definition
+edit hudwidgets[6]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+exitto 0x2581.chud_definition
+edit hudwidgets[5]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+exitto hudwidgets[5]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+exitto hudwidgets[5]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+setfield OutputColorB GlobalDynamic34
+exitto hudwidgets[5]
+edit textwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+setfield OutputColorB GlobalDynamic34
+exitto hudwidgets[5]
+edit textwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+setfield OutputColorB GlobalDynamic34
+
+exitto 0x2581.chud_definition
+edit hudwidgets[2]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield scalex 1.1
+setfield scaley 1.1
+savechanges
+exitto tags.dat
+
+echo "Battle Rifle V5"
+edit 2595
+edit hudwidgets[4]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[4]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 10
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+exitto hudwidgets[4]
+edit textwidgets[1]
+edit placementdata[0]
+setfield offsetx -45
+setfield offsety 30
+setfield scalex 0.95
+setfield scaley 0.95
+exitto 0x2595.chud_definition
+edit hudwidgets[5]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic35
+exitto 0x2595.chud_definition
+edit hudwidgets[6]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic35
+exitto 0x2595.chud_definition
+edit hudwidgets[5]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic35
+exitto hudwidgets[5]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic35
+exitto hudwidgets[5]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic35
+setfield OutputColorB GlobalDynamic35
+exitto hudwidgets[5]
+edit textwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic35
+setfield OutputColorB GlobalDynamic35
+exitto hudwidgets[5]
+edit textwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic35
+setfield OutputColorB GlobalDynamic35
+
+exitto 0x2595.chud_definition
+edit hudwidgets[2]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield scalex 1.1
+setfield scaley 1.1
+savechanges
+exitto tags.dat
+
+echo "Battle Rifle V6"
+edit 2381
+edit hudwidgets[4]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[4]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 20
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+exitto hudwidgets[4]
+edit textwidgets[1]
+edit placementdata[0]
+setfield offsetx -40
+setfield offsety 30
+setfield scalex 0.95
+setfield scaley 0.95
+exitto 0x2381.chud_definition
+edit hudwidgets[5]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto 0x2381.chud_definition
+edit hudwidgets[6]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto 0x2381.chud_definition
+edit hudwidgets[5]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto hudwidgets[5]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto hudwidgets[5]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+exitto hudwidgets[5]
+edit textwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+exitto hudwidgets[5]
+edit textwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+savechanges
+exitto tags.dat
+
+echo "DMR V1"
+edit 259E
+edit hudwidgets[5]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[5]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 35
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+exitto hudwidgets[5]
+edit textwidgets[1]
+edit placementdata[0]
+setfield offsetx -50
+setfield offsety 30
+setfield scalex 0.95
+setfield scaley 0.95
+exitto 0x259E.chud_definition
+edit hudwidgets[4]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic31
+exitto 0x259E.chud_definition
+edit hudwidgets[6]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic31
+exitto hudwidgets[6]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic31
+exitto hudwidgets[6]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic31
+exitto hudwidgets[6]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic31
+setfield OutputColorB GlobalDynamic31
+exitto hudwidgets[6]
+edit textwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic31
+setfield OutputColorB GlobalDynamic31
+exitto hudwidgets[6]
+edit textwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic31
+setfield OutputColorB GlobalDynamic31
+savechanges
+exitto tags.dat
+
+echo "DMR V2"
+edit 2392
+edit hudwidgets[5]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[5]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 35
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+exitto hudwidgets[5]
+edit textwidgets[1]
+edit placementdata[0]
+setfield offsetx -25
+setfield offsety 30
+setfield scalex 0.95
+setfield scaley 0.95
+exitto 0x2392.chud_definition
+edit hudwidgets[4]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+exitto 0x2392.chud_definition
+edit hudwidgets[6]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+exitto hudwidgets[6]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+exitto hudwidgets[6]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+exitto hudwidgets[6]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+setfield OutputColorB GlobalDynamic33
+exitto hudwidgets[6]
+edit textwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+setfield OutputColorB GlobalDynamic33
+exitto hudwidgets[6]
+edit textwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+setfield OutputColorB GlobalDynamic33
+savechanges
+exitto tags.dat
+
+echo "DMR V3"
+edit 23B1
+edit hudwidgets[4]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[4]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 35
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+exitto hudwidgets[4]
+edit textwidgets[1]
+edit placementdata[0]
+setfield offsetx -35
+setfield offsety 15
+setfield scalex 0.95
+setfield scaley 0.95
+exitto 0x23B1.chud_definition
+edit hudwidgets[3]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+exitto 0x23B1.chud_definition
+edit hudwidgets[5]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+exitto hudwidgets[5]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+exitto hudwidgets[5]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+exitto hudwidgets[5]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+setfield OutputColorB GlobalDynamic32
+exitto hudwidgets[5]
+edit textwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+setfield OutputColorB GlobalDynamic32
+exitto hudwidgets[5]
+edit textwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+setfield OutputColorB GlobalDynamic32
+savechanges
+exitto tags.dat
+
+echo "DMR V4"
+edit 23A5
+edit hudwidgets[5]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[5]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 50
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+exitto hudwidgets[5]
+edit textwidgets[1]
+edit placementdata[0]
+setfield offsetx -10
+setfield offsety 20
+setfield scalex 0.95
+setfield scaley 0.95
+exitto 0x23A5.chud_definition
+edit hudwidgets[4]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+exitto 0x23A5.chud_definition
+edit hudwidgets[6]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+exitto hudwidgets[6]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+exitto hudwidgets[6]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+exitto hudwidgets[6]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+setfield OutputColorB GlobalDynamic34
+exitto hudwidgets[6]
+edit textwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+setfield OutputColorB GlobalDynamic34
+exitto hudwidgets[6]
+edit textwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+setfield OutputColorB GlobalDynamic34
+savechanges
+exitto tags.dat
+
+echo "DMR V5"
+edit 25A7
+edit hudwidgets[4]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[4]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 15
+setfield offsety -23
+setfield scalex 1.4
+setfield scaley 1.4
+exitto hudwidgets[4]
+edit textwidgets[1]
+edit placementdata[0]
+setfield offsetx -35
+setfield offsety 20
+setfield scalex 0.95
+setfield scaley 0.95
+exitto 0x25A7.chud_definition
+edit hudwidgets[5]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic35
+exitto 0x25A7.chud_definition
+edit hudwidgets[6]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic35
+exitto hudwidgets[6]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic35
+exitto hudwidgets[6]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic35
+exitto hudwidgets[6]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic35
+setfield OutputColorB GlobalDynamic35
+exitto hudwidgets[6]
+edit textwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic35
+setfield OutputColorB GlobalDynamic35
+exitto hudwidgets[6]
+edit textwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic35
+setfield OutputColorB GlobalDynamic35
+savechanges
+exitto tags.dat
+
+echo "DMR V6"
+edit 23C0
+edit hudwidgets[5]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[5]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 25
+setfield offsety -23
+setfield scalex 1.4
+setfield scaley 1.4
+exitto hudwidgets[5]
+edit textwidgets[1]
+edit placementdata[0]
+setfield offsetx -30
+setfield offsety 20
+setfield scalex 0.95
+setfield scaley 0.95
+exitto 0x23C0.chud_definition
+edit hudwidgets[4]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto 0x23C0.chud_definition
+edit hudwidgets[6]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto hudwidgets[6]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto hudwidgets[6]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto hudwidgets[6]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+exitto hudwidgets[6]
+edit textwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+exitto hudwidgets[6]
+edit textwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+savechanges
+exitto tags.dat
+
+echo "Mauler V6"
+edit 2409
+edit hudwidgets[6]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[6]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx -27
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+exitto hudwidgets[6]
+edit textwidgets[1]
+edit placementdata[0]
+setfield offsetx -25
+setfield offsety 30
+setfield scalex 0.95
+setfield scaley 0.95
+exitto 0x2409.chud_definition
+edit hudwidgets[3]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto hudwidgets[3]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto hudwidgets[3]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto hudwidgets[3]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+exitto hudwidgets[3]
+edit textwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+exitto hudwidgets[3]
+edit textwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+exitto 0x2409.chud_definition
+edit hudwidgets[4]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto 0x2409.chud_definition
+edit hudwidgets[7]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto hudwidgets[7]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto hudwidgets[7]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto hudwidgets[7]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+exitto hudwidgets[7]
+edit textwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+exitto hudwidgets[7]
+edit textwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+exitto 0x2409.chud_definition
+edit hudwidgets[3]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+exitto hudwidgets[3]
+edit textwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+exitto hudwidgets[3]
+edit textwidgets[2]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+savechanges
+exitto tags.dat
+
+echo "Magnum V2"
+edit 2412
+edit hudwidgets[5]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[5]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx -20
+setfield offsety -23
+setfield scalex 1.7
+setfield scaley 1.7
+exitto hudwidgets[5]
+edit textwidgets[1]
+edit placementdata[0]
+setfield offsetx -30
+setfield offsety 20
+setfield scalex 0.95
+setfield scaley 0.95
+exitto 0x2412.chud_definition
+edit hudwidgets[3]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+exitto hudwidgets[3]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+setfield OutputColorB GlobalDynamic32
+exitto hudwidgets[3]
+edit textwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+setfield OutputColorB GlobalDynamic32
+exitto hudwidgets[3]
+edit textwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+setfield OutputColorB GlobalDynamic32
+exitto hudwidgets[3]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+exitto hudwidgets[3]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+exitto 0x2412.chud_definition
+edit hudwidgets[4]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+exitto 0x2412.chud_definition
+edit hudwidgets[6]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+exitto hudwidgets[6]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+setfield OutputColorB GlobalDynamic32
+exitto hudwidgets[6]
+edit textwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+setfield OutputColorB GlobalDynamic32
+exitto hudwidgets[6]
+edit textwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+setfield OutputColorB GlobalDynamic32
+exitto hudwidgets[6]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+exitto hudwidgets[6]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+exitto hudwidgets[6]
+savechanges
+exitto tags.dat
+
+echo "Magnum V6"
+edit 241B
+edit hudwidgets[5]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[5]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx -20
+setfield offsety -23
+setfield scalex 1.7
+setfield scaley 1.7
+exitto hudwidgets[5]
+edit textwidgets[1]
+edit placementdata[0]
+setfield offsetx -30
+setfield offsety 20
+setfield scalex 0.95
+setfield scaley 0.95
+exitto 0x241B.chud_definition
+edit hudwidgets[3]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto hudwidgets[3]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto hudwidgets[3]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto hudwidgets[3]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+exitto hudwidgets[3]
+edit textwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+exitto hudwidgets[3]
+edit textwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+exitto 0x241B.chud_definition
+edit hudwidgets[4]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto 0x241B.chud_definition
+edit hudwidgets[7]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto hudwidgets[7]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto hudwidgets[7]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto hudwidgets[7]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+exitto hudwidgets[7]
+edit textwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+exitto hudwidgets[7]
+edit textwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+savechanges
+exitto tags.dat
+
+echo "Plasma Pistol V6"
+edit 2423
+edit hudwidgets[6]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[6]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx -35
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+exitto hudwidgets[6]
+edit textwidgets[1]
+edit placementdata[0]
+setfield offsetx -40
+setfield offsety 25
+setfield scalex 0.95
+setfield scaley 0.95
+exitto 0x2423.chud_definition
+edit hudwidgets[3]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+
+exitto hudwidgets[3]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto hudwidgets[3]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto hudwidgets[3]
+edit bitmapwidgets[3]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+exitto hudwidgets[3]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+
+exitto 0x2423.chud_definition
+edit hudwidgets[4]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto 0x2423.chud_definition
+edit hudwidgets[5]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+
+exitto hudwidgets[5]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto hudwidgets[5]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto hudwidgets[5]
+edit bitmapwidgets[3]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+exitto hudwidgets[5]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+
+exitto 0x2423.chud_definition
+edit hudwidgets[2]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+setfield mirroroffsetx 0
+setfield mirroroffsety 0
+exitto hudwidgets[2]
+edit bitmapwidgets[1]
+setfield Bitmap 1C91
+setfield BitmapSpriteIndex 10
+edit placementdata[0]
+setfield offsety 0
+setfield scalex 1.3
+setfield scaley 1.2
+exitto hudwidgets[2]
+edit bitmapwidgets[2]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto hudwidgets[2]
+edit bitmapwidgets[3]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto hudwidgets[2]
+edit bitmapwidgets[4]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto hudwidgets[2]
+edit bitmapwidgets[5]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto hudwidgets[2]
+edit bitmapwidgets[6]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+
+savechanges
+exitto tags.dat
+
+echo "Plasma Rifle V6"
+edit 23F3
+edit hudwidgets[6]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[6]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx -10
+setfield offsety -23
+setfield scalex 1.5
+setfield scaley 1.5
+exitto hudwidgets[6]
+edit textwidgets[1]
+edit placementdata[0]
+setfield offsetx -35
+setfield offsety 30
+setfield scalex 0.95
+setfield scaley 0.95
+exitto 0x23F3.chud_definition
+edit hudwidgets[3]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+
+exitto hudwidgets[3]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+exitto hudwidgets[3]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto hudwidgets[3]
+edit bitmapwidgets[3]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+exitto hudwidgets[3]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+
+exitto 0x23F3.chud_definition
+edit hudwidgets[4]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto 0x23F3.chud_definition
+edit hudwidgets[5]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+
+exitto hudwidgets[5]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto hudwidgets[5]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto hudwidgets[5]
+edit bitmapwidgets[3]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+exitto hudwidgets[5]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+
+exitto 0x23F3.chud_definition
+edit hudwidgets[2]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield mirroroffsetx 1.2
+setfield mirroroffsety 1.2
+setfield scalex 1.18
+setfield scaley 1.18
+exitto bitmapwidgets[0]
+edit animationdata[0]
+setfield animation2 null
+exitto hudwidgets[2]
+edit bitmapwidgets[1]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto hudwidgets[2]
+edit bitmapwidgets[2]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto hudwidgets[2]
+edit bitmapwidgets[3]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto hudwidgets[2]
+edit bitmapwidgets[4]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+
+savechanges
+exitto tags.dat
+
+echo "SMG V2"
+edit 23E1
+edit hudwidgets[5]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[5]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 35
+setfield offsety -23
+setfield scalex 1.7
+setfield scaley 1.7
+exitto hudwidgets[5]
+edit textwidgets[1]
+edit placementdata[0]
+setfield offsetx -30
+setfield offsety 20
+setfield scalex 0.95
+setfield scaley 0.95
+exitto 0x23E1.chud_definition
+edit hudwidgets[3]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+exitto hudwidgets[3]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+exitto hudwidgets[3]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+exitto hudwidgets[3]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+setfield OutputColorB GlobalDynamic32
+exitto hudwidgets[3]
+edit textwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+setfield OutputColorB GlobalDynamic32
+exitto hudwidgets[3]
+edit textwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+setfield OutputColorB GlobalDynamic32
+exitto 0x23E1.chud_definition
+edit hudwidgets[4]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+exitto 0x23E1.chud_definition
+edit hudwidgets[5]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+exitto 0x23E1.chud_definition
+edit hudwidgets[6]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+exitto hudwidgets[6]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+exitto hudwidgets[6]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+exitto hudwidgets[6]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+setfield OutputColorB GlobalDynamic32
+exitto hudwidgets[6]
+edit textwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+setfield OutputColorB GlobalDynamic32
+exitto hudwidgets[6]
+edit textwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+setfield OutputColorB GlobalDynamic32
+exitto hudwidgets[6]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic32
+savechanges
+exitto tags.dat
+
+echo "SMG V3"
+edit 23D7
+edit hudwidgets[4]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[4]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 35
+setfield offsety -23
+setfield scalex 1.7
+setfield scaley 1.7
+exitto hudwidgets[4]
+edit textwidgets[1]
+edit placementdata[0]
+setfield offsetx -30
+setfield offsety 30
+setfield scalex 0.95
+setfield scaley 0.95
+exitto 0x23D7.chud_definition
+edit hudwidgets[2]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+
+exitto hudwidgets[2]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+exitto hudwidgets[2]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+exitto hudwidgets[2]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+setfield OutputColorB GlobalDynamic33
+exitto hudwidgets[2]
+edit textwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+setfield OutputColorB GlobalDynamic33
+exitto hudwidgets[2]
+edit textwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+setfield OutputColorB GlobalDynamic33
+
+exitto 0x23D7.chud_definition
+edit hudwidgets[3]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+exitto 0x23D7.chud_definition
+edit hudwidgets[5]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+
+exitto hudwidgets[5]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+exitto hudwidgets[5]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+exitto hudwidgets[5]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+setfield OutputColorB GlobalDynamic33
+exitto hudwidgets[5]
+edit textwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+setfield OutputColorB GlobalDynamic33
+exitto hudwidgets[5]
+edit textwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic33
+setfield OutputColorB GlobalDynamic33
+
+savechanges
+exitto tags.dat
+
+echo "SMG V4"
+edit 23CC
+edit hudwidgets[5]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[5]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 35
+setfield offsety -23
+setfield scalex 1.7
+setfield scaley 1.7
+exitto hudwidgets[5]
+edit textwidgets[1]
+edit placementdata[0]
+setfield offsetx -10
+setfield offsety 20
+setfield scalex 0.95
+setfield scaley 0.95
+exitto 0x23CC.chud_definition
+edit hudwidgets[3]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+
+exitto hudwidgets[3]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+exitto hudwidgets[3]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+exitto hudwidgets[3]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+setfield OutputColorB GlobalDynamic34
+exitto hudwidgets[3]
+edit textwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+setfield OutputColorB GlobalDynamic34
+exitto hudwidgets[3]
+edit textwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+setfield OutputColorB GlobalDynamic34
+
+exitto 0x23CC.chud_definition
+edit hudwidgets[4]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+exitto 0x23CC.chud_definition
+edit hudwidgets[6]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+
+exitto hudwidgets[6]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+exitto hudwidgets[6]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+exitto hudwidgets[6]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+setfield OutputColorB GlobalDynamic34
+exitto hudwidgets[6]
+edit textwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+setfield OutputColorB GlobalDynamic34
+exitto hudwidgets[6]
+edit textwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic34
+setfield OutputColorB GlobalDynamic34
+
+savechanges
+exitto tags.dat
+
+echo "SMG V6"
+edit 23EA
+edit hudwidgets[4]
+edit BitmapWidgets[1]
+edit PlacementData[0]
+setfield ScaleX 0
+setfield ScaleY 0
+exitto hudwidgets[4]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsetx 35
+setfield offsety -23
+setfield scalex 1.7
+setfield scaley 1.7
+exitto hudwidgets[4]
+edit textwidgets[1]
+edit placementdata[0]
+setfield offsetx -30
+setfield offsety 30
+setfield scalex 0.95
+setfield scaley 0.95
+exitto 0x23EA.chud_definition
+edit hudwidgets[2]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+
+exitto hudwidgets[2]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto hudwidgets[2]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto hudwidgets[2]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+exitto hudwidgets[2]
+edit textwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+exitto hudwidgets[2]
+edit textwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+
+exitto 0x23EA.chud_definition
+edit hudwidgets[3]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto 0x23EA.chud_definition
+edit hudwidgets[5]
+edit bitmapwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+
+exitto hudwidgets[5]
+edit bitmapwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto hudwidgets[5]
+edit bitmapwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+exitto hudwidgets[5]
+edit textwidgets[0]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+exitto hudwidgets[5]
+edit textwidgets[1]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+exitto hudwidgets[5]
+edit textwidgets[2]
+edit renderdata[0]
+setfield OutputColorA GlobalDynamic36
+setfield OutputColorB GlobalDynamic36
+
+savechanges
+exitto tags.dat
+
+echo "Grenade Upscaling"
+
+edit C1E
+edit hudwidgets[2]
+edit placementdata[0]
+setfield offsetx -20
+setfield scalex 1.15
+setfield scaley 1.15
+exitto 0x0C1E.chud_definition
+edit hudwidgets[3]
+edit placementdata[0]
+setfield offsetx -14
+setfield scalex 1.15
+setfield scaley 1.15
+exitto 0x0C1E.chud_definition
+edit hudwidgets[4]
+edit placementdata[0]
+setfield offsetx -6
+setfield scalex 1.15
+setfield scaley 1.15
+exitto 0x0C1E.chud_definition
+edit hudwidgets[5]
+edit placementdata[0]
+setfield offsetx 0
+setfield scalex 1.15
+setfield scaley 1.15
+savechanges
+exitto tags.dat
+
+echo "Monitor HUD improvements"
+
+edit 25F4
+edit hudwidgets[1]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exitto hudwidgets[1]
+edit bitmapwidgets[1]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+savechanges
+exitto tags.dat
+
+
+echo "Damage Variant Binocular fix"
+
+edit 2412
+edit hudwidgets[2]
+edit statedata[0]
+setfield _28 1
+savechanges
+exitto tags.dat
+
+edit 23E1
+edit hudwidgets[2]
+edit statedata[0]
+setfield _28 1
+savechanges
+exitto tags.dat
+
+edit 23B1
+edit hudwidgets[2]
+edit statedata[0]
+setfield _28 1
+savechanges
+exitto tags.dat
+
+edit 236F
+edit hudwidgets[2]
+edit statedata[0]
+setfield _28 1
+savechanges
+exitto tags.dat
+
+echo "Blip Above/Below Indicator Removal"
+
+edit 12FD
+edit Sequences[4]
+edit Sprites[0]
+setfield Left 0.625
+setfield Right 0.9296875
+setfield Top 0.3125
+setfield Bottom 0.6171875
+setfield RegistrationPointX 0.1523438
+setfield RegistrationPointY 0.1523438
+exitto 0x12FD.bitmap
+edit Sequences[5]
+edit Sprites[0]
+setfield Left 0.625
+setfield Right 0.9296875
+setfield Top 0.3125
+setfield Bottom 0.6171875
+setfield RegistrationPointX 0.1523438
+setfield RegistrationPointY 0.1523438
+savechanges
+exitto tags.dat
+
+echo "Sniper Rifle Scope Upscaling"
+
+edit 1F90
+edit hudwidgets[3]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield scalex 2.3
+setfield scaley 2.3
+exitto hudwidgets[3]
+edit bitmapwidgets[1]
+edit placementdata[0]
+setfield scalex 2.8
+setfield scaley 2.8
+exitto hudwidgets[3]
+edit bitmapwidgets[2]
+edit placementdata[0]
+setfield scalex 1
+setfield scaley 1
+exitto hudwidgets[3]
+edit bitmapwidgets[3]
+edit placementdata[0]
+setfield scalex 1.7
+setfield scaley 1.7
+exitto hudwidgets[3]
+edit bitmapwidgets[4]
+edit placementdata[0]
+setfield scalex 3.3
+setfield scaley 0.75
+exitto hudwidgets[3]
+edit bitmapwidgets[5]
+edit placementdata[0]
+setfield scalex 1.2
+setfield scaley 1.2
+savechanges
+exitto tags.dat
+
+echo "Battle Rifle Scope Upscaling"
+
+edit 1D87
+edit hudwidgets[3]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield scalex 2.1
+setfield scaley 2.1
+exitto hudwidgets[3]
+edit bitmapwidgets[1]
+edit placementdata[0]
+setfield scalex 2.1
+setfield scaley 2.1
+exitto hudwidgets[3]
+edit bitmapwidgets[2]
+edit placementdata[0]
+setfield scalex 2.1
+setfield scaley 2.1
+exitto hudwidgets[3]
+edit bitmapwidgets[3]
+edit placementdata[0]
+setfield scalex 2.1
+setfield scaley 2.1
+savechanges
+exitto tags.dat
+
+echo "Battle Rifle V1 Scope Upscaling"
+
+edit 2361
+edit hudwidgets[3]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield scalex 2.1
+setfield scaley 2.1
+exitto hudwidgets[3]
+edit bitmapwidgets[1]
+edit placementdata[0]
+setfield scalex 2.1
+setfield scaley 2.1
+exitto hudwidgets[3]
+edit bitmapwidgets[2]
+edit placementdata[0]
+setfield scalex 2.1
+setfield scaley 2.1
+exitto hudwidgets[3]
+edit bitmapwidgets[3]
+edit placementdata[0]
+setfield scalex 2.1
+setfield scaley 2.1
+savechanges
+exitto tags.dat
+
+echo "Battle Rifle V3 Scope Upscaling"
+
+edit 258B
+edit hudwidgets[3]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield scalex 2.1
+setfield scaley 2.1
+exitto hudwidgets[3]
+edit bitmapwidgets[1]
+edit placementdata[0]
+setfield scalex 2.1
+setfield scaley 2.1
+exitto hudwidgets[3]
+edit bitmapwidgets[2]
+edit placementdata[0]
+setfield scalex 2.1
+setfield scaley 2.1
+exitto hudwidgets[3]
+edit bitmapwidgets[3]
+edit placementdata[0]
+setfield scalex 2.1
+setfield scaley 2.1
+savechanges
+exitto tags.dat
+
+echo "Battle Rifle V4 Scope Upscaling"
+
+edit 2581
+edit hudwidgets[3]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield scalex 2.1
+setfield scaley 2.1
+exitto hudwidgets[3]
+edit bitmapwidgets[1]
+edit placementdata[0]
+setfield scalex 2.1
+setfield scaley 2.1
+exitto hudwidgets[3]
+edit bitmapwidgets[2]
+edit placementdata[0]
+setfield scalex 2.1
+setfield scaley 2.1
+exitto hudwidgets[3]
+edit bitmapwidgets[3]
+edit placementdata[0]
+setfield scalex 2.1
+setfield scaley 2.1
+savechanges
+exitto tags.dat
+
+echo "Battle Rifle V5 Scope Upscaling"
+
+edit 2595
+edit hudwidgets[3]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield scalex 2.1
+setfield scaley 2.1
+exitto hudwidgets[3]
+edit bitmapwidgets[1]
+edit placementdata[0]
+setfield scalex 2.1
+setfield scaley 2.1
+exitto hudwidgets[3]
+edit bitmapwidgets[2]
+edit placementdata[0]
+setfield scalex 2.1
+setfield scaley 2.1
+exitto hudwidgets[3]
+edit bitmapwidgets[3]
+edit placementdata[0]
+setfield scalex 2.1
+setfield scaley 2.1
+savechanges
+exitto tags.dat
+
+echo "Battle Rifle V6 Scope Upscaling"
+
+edit 2381
+edit hudwidgets[3]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield scalex 2.1
+setfield scaley 2.1
+exitto hudwidgets[3]
+edit bitmapwidgets[1]
+edit placementdata[0]
+setfield scalex 2.1
+setfield scaley 2.1
+exitto hudwidgets[3]
+edit bitmapwidgets[2]
+edit placementdata[0]
+setfield scalex 2.1
+setfield scaley 2.1
+exitto hudwidgets[3]
+edit bitmapwidgets[3]
+edit placementdata[0]
+setfield scalex 2.1
+setfield scaley 2.1
+savechanges
+exitto tags.dat
+
+echo "DMR V5 Scope Upscaling"
+
+edit 25A7
+edit hudwidgets[3]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield scalex 2.3
+setfield scaley 2.3
+exitto hudwidgets[3]
+edit bitmapwidgets[1]
+edit placementdata[0]
+setfield scalex 2.8
+setfield scaley 2.8
+exitto hudwidgets[3]
+edit bitmapwidgets[2]
+edit placementdata[0]
+setfield scalex 1
+setfield scaley 1
+exitto hudwidgets[3]
+edit bitmapwidgets[3]
+edit placementdata[0]
+setfield scalex 3.3
+setfield scaley 0.75
+exitto hudwidgets[3]
+edit bitmapwidgets[4]
+edit placementdata[0]
+setfield scalex 3.3
+setfield scaley 0.75
+exitto hudwidgets[3]
+edit bitmapwidgets[5]
+edit placementdata[0]
+setfield scalex 1.2
+setfield scaley 1.2
+savechanges
+exitto tags.dat
+
+echo "SMG V3 Scope Upscaling"
+
+edit 23D7
+edit hudwidgets[0]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield scalex 2.1
+setfield scaley 2.1
+exitto hudwidgets[0]
+edit bitmapwidgets[1]
+edit placementdata[0]
+setfield scalex 2
+setfield scaley 2
+setfield mirroroffsetx 1.8
+setfield mirroroffsety -0.08
+exitto hudwidgets[0]
+edit bitmapwidgets[2]
+edit placementdata[0]
+setfield scalex 2
+setfield scaley 2
+setfield mirroroffsetx -0.05
+setfield mirroroffsety 1.8
+exitto hudwidgets[0]
+edit bitmapwidgets[3]
+edit placementdata[0]
+setfield scalex 2.1
+setfield scaley 2.1
+savechanges
+exitto tags.dat
+
+echo "Spartan Laser Scope Upscaling"
+
+edit 24AB
+edit hudwidgets[6]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield scalex 1.5
+setfield scaley 1.5
+exitto hudwidgets[6]
+edit bitmapwidgets[1]
+edit placementdata[0]
+setfield scalex 1.4
+setfield scaley 1.4
+exitto hudwidgets[6]
+edit bitmapwidgets[2]
+edit placementdata[0]
+setfield scalex 1.4
+setfield scaley -1.4
+setfield offsetx -15
+setfield offsety 0.5
+exitto hudwidgets[6]
+edit bitmapwidgets[3]
+edit placementdata[0]
+setfield scalex -1.4
+setfield scaley 1.4
+exitto hudwidgets[6]
+edit bitmapwidgets[4]
+edit placementdata[0]
+setfield mirroroffsety -1
+setfield offsety 155
+setfield scalex 1.4
+setfield scaley 1.4
+exitto hudwidgets[6]
+edit bitmapwidgets[5]
+edit placementdata[0]
+setfield scalex 1.4
+setfield scaley 1.4
+exitto hudwidgets[6]
+edit bitmapwidgets[6]
+edit placementdata[0]
+setfield offsetx 95
+setfield offsety 0
+setfield scalex 1.43
+setfield scaley 1.43
+exitto hudwidgets[6]
+edit bitmapwidgets[7]
+edit placementdata[0]
+setfield offsetx -96
+setfield offsety 0
+setfield scalex 1.43
+setfield scaley -1.43
+exitto hudwidgets[6]
+edit bitmapwidgets[8]
+edit placementdata[0]
+setfield offsetx -3
+setfield offsety -2
+setfield scalex 1.43
+setfield scaley 1.43
+exitto hudwidgets[6]
+edit bitmapwidgets[9]
+edit placementdata[0]
+setfield scalex 3
+setfield scaley 0
+setfield scalex -1.43
+setfield scaley 1.43
+exitto hudwidgets[6]
+edit textwidgets[0]
+edit placementdata[0]
+setfield offsety 168
+setfield scalex 1.2
+setfield scaley 1.2
+savechanges
+exitto tags.dat
+
+echo "Binocular Upscaling and stamina icon downscale"
+
+edit C1E
+edit hudwidgets[10]
+edit placementdata[0]
+setfield offsety -200
+setfield scalex 1.88
+setfield scaley 1.95
+exitto 0x0C1E.chud_definition
+edit hudwidgets[24]
+edit bitmapwidgets[2]
+edit placementdata[0]
+setfield scalex 0.6
+setfield scaley 0.6
+savechanges
+exitto tags.dat
+
+echo "Multiplayer intro fixes and improvements"
+//TODO: Make improvements for FFA, Multi team
+//TODO: Remove infection editor tag
+//BUG: Text widgets are glitched; enabling bit 0 for team gamemode makes it appear on ffa gamemode. occurs on slayer(fixed), oddball(?),
+//BROKEN: oddball + koth
+//MISSING: CTF + Assault
+
+echo "Multiplayer intro - Slayer"
+
+edit 15DB
+edit hudwidgets[0]
+edit bitmapwidgets[0]
+edit statedata[0]
+setfield _1Engine 1
+exitto hudwidgets[0]
+edit bitmapwidgets[1]
+edit statedata[0]
+setfield _1Engine 1
+exitto hudwidgets[0]
+edit bitmapwidgets[2]
+edit statedata[0]
+setfield _1Engine 1
+exitto 0x15DB.chud_definition
+edit hudwidgets[1]
+edit bitmapwidgets[0]
+edit statedata[0]
+setfield _1Engine 0
+exitto hudwidgets[1]
+edit bitmapwidgets[1]
+edit statedata[0]
+setfield _1Engine 0
+exitto hudwidgets[1]
+edit bitmapwidgets[2]
+edit statedata[0]
+setfield _1Engine 0
+exitto 0x15DB.chud_definition
+edit hudwidgets[2]
+edit bitmapwidgets[0]
+edit statedata[0]
+setfield _1Engine 1
+exitto hudwidgets[2]
+edit textwidgets[0]
+edit statedata[0]
+setfield _1Engine 0
+exitto hudwidgets[2]
+edit textwidgets[1]
+edit statedata[0]
+setfield _1Engine 0
+exitto 0x15DB.chud_definition
+edit hudwidgets[3]
+edit bitmapwidgets[0]
+edit statedata[0]
+setfield _1Engine 0
+exitto hudwidgets[3]
+edit textwidgets[0]
+edit statedata[0]
+setfield _1Engine 1
+exitto hudwidgets[3]
+edit textwidgets[1]
+edit statedata[0]
+setfield _1Engine 1
+savechanges
+exitto tags.dat
+
+echo "Multiplayer intro - Juggernaut"
+
+edit 15E0
+edit hudwidgets[0]
+edit bitmapwidgets[0]
+edit statedata[0]
+setfield _1Engine 0
+exitto hudwidgets[0]
+edit bitmapwidgets[1]
+edit statedata[0]
+setfield _1Engine 0
+exitto hudwidgets[0]
+edit bitmapwidgets[2]
+edit statedata[0]
+setfield _1Engine 0
+exitto 0x15E0.chud_definition
+edit hudwidgets[1]
+edit bitmapwidgets[0]
+edit statedata[0]
+setfield _1Engine 0
+exitto hudwidgets[1]
+edit textwidgets[0]
+edit statedata[0]
+setfield _1Engine 0
+savechanges
+exitto tags.dat
+
+echo "Multiplayer intro - Infection"
+
+edit 15E2
+edit hudwidgets[1]
+edit textwidgets[0]
+edit statedata[0]
+setfield _1Engine 0
+savechanges
+exitto tags.dat
+
+echo "Multiplayer intro - Monitor/Editor"
+
+edit 15DE
+edit hudwidgets[1]
+edit textwidgets[0]
+edit statedata[0]
+setfield _1Engine 0
+savechanges
+exitto tags.dat
+
+echo "Gamemode icon fixes (https://10.lithi.io/PXhxEV.png)"
+
+edit C1E
+echo "**INFECTION**"
+edit hudwidgets[16]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsety -40
+exitto 0x0C1E.chud_definition
+echo "**INFECTION LAST MAN**"
+edit hudwidgets[17]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsety -40
+exitto 0x0C1E.chud_definition
+echo "**JUGGERNAUT**"
+edit hudwidgets[11]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsety -40
+exitto 0x0C1E.chud_definition
+echo "**VIP**"
+edit hudwidgets[8]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield offsety -40
+exitto 0x0C1E.chud_definition
+
+echo "hitmarker disable"
+
+edit hudwidgets[20]
+edit bitmapwidgets[0]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exit
+exit
+edit bitmapwidgets[1]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+exit
+exit
+edit bitmapwidgets[2]
+edit placementdata[0]
+setfield scalex 0
+setfield scaley 0
+savechanges
+exitto tags.dat
+
+echo "WE DONE HERE BOYS GG"
+exit

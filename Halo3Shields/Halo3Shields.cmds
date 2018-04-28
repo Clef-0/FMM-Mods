@@ -1,0 +1,46 @@
+nametag 0x01DD objects\characters\masterchief\mp_masterchief\mp_masterchief
+nametag 0x1348 objects\characters\masterchief\mp_masterchief\mp_masterchief
+createtag effe
+nametag * objects\characters\masterchief\fx\shield\shield_collapse_H3
+importtag objects\characters\masterchief\fx\shield\shield_collapse_H3.effe files/sdeple.effe
+
+edittag objects\characters\masterchief\mp_masterchief\mp_masterchief.hlmt
+setfield NewDamageInfo[0].ShieldDepletedEffect objects\characters\masterchief\fx\shield\shield_collapse_H3.effe
+
+savetagchanges
+exitTo tags
+createtag effe
+
+nametag * objects\characters\masterchief\fx\shield\shield_down_H3
+importtag objects\characters\masterchief\fx\shield\shield_down_H3.effe files/sdown.effe
+edittag objects\characters\masterchief\mp_masterchief\mp_masterchief.bipd
+setfield Attachments[0].Attachment2 objects\characters\masterchief\fx\shield\shield_down_H3.effe
+RemoveBlockElements Attachments 4
+savetagchanges
+exitTo tags
+createtag effe
+
+nametag * objects\characters\masterchief\fx\shield\shield_recharge_H3
+importtag objects\characters\masterchief\fx\shield\shield_recharge_H3.effe files/srecha.effe
+edittag objects\characters\masterchief\mp_masterchief\mp_masterchief.hlmt
+setfield NewDamageInfo[0].ShieldRechargingEffect objects\characters\masterchief\fx\shield\shield_recharge_H3.effe
+savetagchanges
+exitTo tags
+createtag shit
+nametag * objects\characters\masterchief\fx\shield\impact_H3
+importtag objects\characters\masterchief\fx\shield\impact_H3.shit files/h3shit.shit
+edittag objects\characters\masterchief\mp_masterchief\mp_masterchief.hlmt
+setfield ShieldImpactFirstPerson objects\characters\masterchief\fx\shield\impact_H3.shit
+setfield ShieldImpactThirdPerson objects\characters\masterchief\fx\shield\impact_H3.shit
+savetagchanges
+exitTo tags
+createtag shit
+nametag * objects\characters\masterchief\fx\shield\overshield_H3
+importtag objects\characters\masterchief\fx\shield\overshield_H3.shit files/h3over.shit
+edittag objects\characters\masterchief\mp_masterchief\mp_masterchief.hlmt
+setfield OvershieldThirdPerson objects\characters\masterchief\fx\shield\overshield_H3.shit
+setfield OvershieldFirstPerson objects\characters\masterchief\fx\shield\overshield_H3.shit
+savetagchanges
+exitTo tags
+savetagnames
+quit

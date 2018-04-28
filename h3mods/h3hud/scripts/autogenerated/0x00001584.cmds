@@ -1,0 +1,4 @@
+EditTag 0x00001584
+SetField Flags3 0
+SaveTagChanges
+exit

@@ -1,0 +1,909 @@
+Tag Tool [1.0.5938.29681]
+
+Please report any bugs and feature requests at
+<https://github.com/camden-smallwood/TagTool/issues>.
+
+Reading tags...28910 tags loaded.
+- Detected target engine version 1.106708 cert_ms23.
+- This cache file was built on 3/20/2015 at 9:40 AM.
+Reading stringIDs...37495 strings loaded.
+
+Enter "help" to list available commands. Enter "exit" to quit.
+
+tags.dat> --TAG_SETUP--
+Unrecognized command: --TAG_SETUP--
+Use "help" to list available commands.
+
+tags.dat> import 6D83 x_Forge\bridge_2x1.mode full
+Imported 0x560 bytes.
+
+tags.dat> import 6D84 x_Forge\bridge_2x2.mode full
+Imported 0x560 bytes.
+
+tags.dat> import 6D85 x_Forge\bridge_2x3.mode full
+Imported 0x560 bytes.
+
+tags.dat> import 6D86 x_Forge\bridge_2x5.mode full
+Imported 0x560 bytes.
+
+tags.dat> import 6D87 x_Forge\window_2x1.mode full
+Imported 0x560 bytes.
+
+tags.dat> import 6D88 x_Forge\window_2x2.mode full
+Imported 0x560 bytes.
+
+tags.dat> import 6D89 x_Forge\shared01.bitm full
+Imported 0x250 bytes.
+
+tags.dat> import 6D8A x_Forge\shared02.bitm full
+Imported 0x250 bytes.
+
+tags.dat> import 6D8B x_Forge\shared03.bitm full
+Imported 0x250 bytes.
+
+tags.dat> import 6D8C x_Forge\shared04.bitm full
+Imported 0x250 bytes.
+
+tags.dat> import 6D8D x_Forge\shared05.bitm full
+Imported 0x250 bytes.
+
+tags.dat> import 6D8E x_Forge\shared06.bitm full
+Imported 0x250 bytes.
+
+tags.dat> import 6D8F x_Forge\shared07.bitm full
+Imported 0x250 bytes.
+
+tags.dat> import 6D90 x_Forge\shared08.bitm full
+Imported 0x250 bytes.
+
+tags.dat> import 6D91 x_Forge\shared09.bitm full
+Imported 0x250 bytes.
+
+tags.dat> import 6D92 x_Forge\shared10.bitm full
+Imported 0x250 bytes.
+
+tags.dat> import 6D93 x_Forge\shared01.rmsh full
+Imported 0xFA0 bytes.
+
+tags.dat> import 6D94 x_Forge\shared02.rmsh full
+Imported 0xFA0 bytes.
+
+tags.dat> import 6D95 x_Forge\shared03.rmsh full
+Imported 0xFA0 bytes.
+
+tags.dat> import 6D96 x_Forge\shared04.rmsh full
+Imported 0xFA0 bytes.
+
+tags.dat> import 6D97 x_Forge\shared05.rmsh full
+Imported 0xFA0 bytes.
+
+tags.dat> import 6D98 x_Forge\shared06.rmsh full
+Imported 0xFA0 bytes.
+
+tags.dat> import 6D99 x_Forge\shared07.rmsh full
+Imported 0xFA0 bytes.
+
+tags.dat> import 6D9A x_Forge\shared08.rmsh full
+Imported 0xFA0 bytes.
+
+tags.dat> import 6D9B x_Forge\shared09.rmsh full
+Imported 0xFA0 bytes.
+
+tags.dat> import 6D9C x_Forge\shared10.rmsh full
+Imported 0xFA0 bytes.
+
+tags.dat> import 6D9D x_Forge\shared11.rmsh full
+Imported 0xFA0 bytes.
+
+tags.dat> import 6D9E x_Forge\shared12.rmsh full
+Imported 0xFA0 bytes.
+
+tags.dat> import 6D9F x_Forge\shared13.rmsh full
+Imported 0xFA0 bytes.
+
+tags.dat> import 6DA0 x_Forge\shared14.rmsh full
+Imported 0xFA0 bytes.
+
+tags.dat> import 6DA1 x_Forge\bridge_2x1.bloc full
+Imported 0x250 bytes.
+
+tags.dat> import 6DA2 x_Forge\bridge_2x2.bloc full
+Imported 0x250 bytes.
+
+tags.dat> import 6DA3 x_Forge\bridge_2x3.bloc full
+Imported 0x250 bytes.
+
+tags.dat> import 6DA4 x_Forge\bridge_2x5.bloc full
+Imported 0x250 bytes.
+
+tags.dat> import 6DA5 x_Forge\window_2x1.bloc full
+Imported 0x250 bytes.
+
+tags.dat> import 6DA6 x_Forge\window_2x2.bloc full
+Imported 0x250 bytes.
+
+tags.dat> import 6DA7 x_Forge\bridge_2x1.hlmt full
+Imported 0x2B0 bytes.
+
+tags.dat> import 6DA8 x_Forge\bridge_2x2.hlmt full
+Imported 0x2B0 bytes.
+
+tags.dat> import 6DA9 x_Forge\bridge_2x3.hlmt full
+Imported 0x2B0 bytes.
+
+tags.dat> import 6DAA x_Forge\bridge_2x5.hlmt full
+Imported 0x2B0 bytes.
+
+tags.dat> import 6DAB x_Forge\window_2x1.hlmt full
+Imported 0x2B0 bytes.
+
+tags.dat> import 6DAC x_Forge\window_2x2.hlmt full
+Imported 0x2B0 bytes.
+
+tags.dat> import 6DAD x_Forge\bridge_2x1.coll full
+Imported 0xBD0 bytes.
+
+tags.dat> import 6DAE x_Forge\bridge_2x2.coll full
+Imported 0x8E0 bytes.
+
+tags.dat> import 6DAF x_Forge\bridge_2x3.coll full
+Imported 0xD10 bytes.
+
+tags.dat> import 6DB0 x_Forge\bridge_2x5.coll full
+Imported 0xD10 bytes.
+
+tags.dat> import 6DB1 x_Forge\window_2x1.coll full
+Imported 0x390 bytes.
+
+tags.dat> import 6DB2 x_Forge\window_2x2.coll full
+Imported 0x3910 bytes.
+
+tags.dat> import 6DB3 x_Forge\bridge_2x1.phmo full
+Imported 0x790 bytes.
+
+tags.dat> import 6DB4 x_Forge\bridge_2x2.phmo full
+Imported 0x790 bytes.
+
+tags.dat> import 6DB5 x_Forge\bridge_2x3.phmo full
+Imported 0x770 bytes.
+
+tags.dat> import 6DB6 x_Forge\bridge_2x5.phmo full
+Imported 0xAB0 bytes.
+
+tags.dat> import 6DB7 x_Forge\window_2x1.phmo full
+Imported 0x3E0 bytes.
+
+tags.dat> import 6DB8 x_Forge\window_2x2.phmo full
+Imported 0x480 bytes.
+
+tags.dat> import 6DB9 x_Forge\shared15.rmsh full
+Imported 0x860 bytes.
+
+tags.dat> import 6DBA x_Forge\shared16.rmsh full
+Imported 0xDE0 bytes.
+
+tags.dat> import 6DBB x_Forge\shared11.bitm full
+Imported 0x250 bytes.
+
+tags.dat> import 6DBC x_Forge\deadbody.bloc
+Imported 0x250 bytes.
+
+tags.dat> import 6DBD x_Forge\mongoose.vehi
+Imported 0x10A0 bytes.
+
+tags.dat> import 6DBE x_Forge\warthog.vehi
+Imported 0x1810 bytes.
+
+tags.dat> import 6DBF x_Forge\block_2x2.bloc full
+Imported 0x2F4 bytes.
+
+tags.dat> import 6DC0 x_Forge\block_2x2.hlmt full
+Imported 0x5FC bytes.
+
+tags.dat> import 6DC1 x_Forge\block_2x2.mode full
+Imported 0x12F0 bytes.
+
+tags.dat> import 6DC2 x_Forge\block_2x2.phmo full
+Imported 0x380 bytes.
+
+tags.dat> import 6DC3 x_Forge\block_2x2.coll full
+Imported 0x3A0 bytes.
+
+tags.dat> import 6DC4 x_Forge\block_2x1.bloc full
+Imported 0x2F4 bytes.
+
+tags.dat> import 6DC5 x_Forge\block_2x1.hlmt full
+Imported 0x5FC bytes.
+
+tags.dat> import 6DC6 x_Forge\block_2x1.mode full
+Imported 0x12F0 bytes.
+
+tags.dat> import 6DC7 x_Forge\block_2x1.phmo full
+Imported 0x380 bytes.
+
+tags.dat> import 6DC8 x_Forge\block_2x1.coll full
+Imported 0x3A0 bytes.
+
+tags.dat> import 6DC9 x_Forge\block_3x3.bloc full
+Imported 0x2F4 bytes.
+
+tags.dat> import 6DCA x_Forge\block_3x3.hlmt full
+Imported 0x5FC bytes.
+
+tags.dat> import 6DCB x_Forge\block_3x3.mode full
+Imported 0x12F0 bytes.
+
+tags.dat> import 6DCC x_Forge\block_3x3.phmo full
+Imported 0x380 bytes.
+
+tags.dat> import 6DCD x_Forge\block_3x3.coll full
+Imported 0x3A0 bytes.
+
+tags.dat> import 6DCE x_Forge\block_3x1.bloc full
+Imported 0x2F4 bytes.
+
+tags.dat> import 6DCF x_Forge\block_3x1.hlmt full
+Imported 0x5FC bytes.
+
+tags.dat> import 6DD0 x_Forge\block_3x1.mode full
+Imported 0x12F0 bytes.
+
+tags.dat> import 6DD1 x_Forge\block_3x1.phmo full
+Imported 0x380 bytes.
+
+tags.dat> import 6DD2 x_Forge\block_3x1.coll full
+Imported 0x3A0 bytes.
+
+tags.dat> import 6DD3 x_Forge\block_4x4.bloc full
+Imported 0x2F4 bytes.
+
+tags.dat> import 6DD4 x_Forge\block_4x4.hlmt full
+Imported 0x5FC bytes.
+
+tags.dat> import 6DD5 x_Forge\block_4x4.mode full
+Imported 0x12F0 bytes.
+
+tags.dat> import 6DD6 x_Forge\block_4x4.phmo full
+Imported 0x380 bytes.
+
+tags.dat> import 6DD7 x_Forge\block_4x4.coll full
+Imported 0x3A0 bytes.
+
+tags.dat> import 6DD8 x_Forge\block_5x5.bloc full
+Imported 0x2F4 bytes.
+
+tags.dat> import 6DD9 x_Forge\block_5x5.hlmt full
+Imported 0x5FC bytes.
+
+tags.dat> import 6DDA x_Forge\block_5x5.mode full
+Imported 0x12F0 bytes.
+
+tags.dat> import 6DDB x_Forge\block_5x5.phmo full
+Imported 0x380 bytes.
+
+tags.dat> import 6DDC x_Forge\block_5x5.coll full
+Imported 0x3A0 bytes.
+
+tags.dat> import 6DDD x_Forge\block_5x1.bloc full
+Imported 0x2F4 bytes.
+
+tags.dat> import 6DDE x_Forge\block_5x1.hlmt full
+Imported 0x5FC bytes.
+
+tags.dat> import 6DDF x_Forge\block_5x1.mode full
+Imported 0x12F0 bytes.
+
+tags.dat> import 6DE0 x_Forge\block_5x1.phmo full
+Imported 0x380 bytes.
+
+tags.dat> import 6DE1 x_Forge\block_5x1.coll full
+Imported 0x3A0 bytes.
+
+tags.dat> import 6DE2 x_Forge\block_10x5.bloc full
+Imported 0x2F4 bytes.
+
+tags.dat> import 6DE3 x_Forge\block_10x5.hlmt full
+Imported 0x5FC bytes.
+
+tags.dat> import 6DE4 x_Forge\block_10x5.mode full
+Imported 0x12F0 bytes.
+
+tags.dat> import 6DE5 x_Forge\block_10x5.phmo full
+Imported 0x380 bytes.
+
+tags.dat> import 6DE6 x_Forge\block_10x5.coll full
+Imported 0x3A0 bytes.
+
+tags.dat> import 6DE7 x_Forge\block.rmsh full
+Imported 0x690 bytes.
+
+tags.dat> import 6DE8 x_Forge\killball_s_r.bloc full
+Imported 0x3D8 bytes.
+
+tags.dat> import 6DE9 x_Forge\killball_s_r.hlmt full
+Imported 0x738 bytes.
+
+tags.dat> import 6DEA x_Forge\killball_l_r.bloc full
+Imported 0x3D8 bytes.
+
+tags.dat> import 6DEB x_Forge\killball_l_r.hlmt full
+Imported 0x738 bytes.
+
+tags.dat> import 6DEC x_Forge\killball_s_p.bloc full
+Imported 0x3D8 bytes.
+
+tags.dat> import 6DED x_Forge\killball_s_p.hlmt full
+Imported 0x738 bytes.
+
+tags.dat> import 6DEE x_Forge\killball_l_p.bloc full
+Imported 0x3D8 bytes.
+
+tags.dat> import 6DEF x_Forge\killball_l_p.hlmt full
+Imported 0x738 bytes.
+
+tags.dat> import 6DF0 x_Forge\killball_small.mode full
+Imported 0x5E4 bytes.
+
+tags.dat> import 6DF1 x_Forge\killball_large.mode full
+Imported 0x5E4 bytes.
+
+tags.dat> import 6DF2 x_Forge\killball_small.coll full
+Imported 0x3A0 bytes.
+
+tags.dat> import 6DF3 x_Forge\killball_large.coll full
+Imported 0x3A0 bytes.
+
+tags.dat> import 6DF4 x_Forge\killball_small.effe full
+Imported 0x6E0C bytes.
+
+tags.dat> import 6DF5 x_Forge\killball_large.effe full
+Imported 0x6E0C bytes.
+
+tags.dat> import 6DF6 x_Forge\killball_small.jpt! full
+Imported 0x130 bytes.
+
+tags.dat> import 6DF7 x_Forge\killball_large.jpt! full
+Imported 0x130 bytes.
+
+tags.dat> import 6DF8 x_Forge\killball.rmsh full
+Imported 0xA50 bytes.
+
+tags.dat> import 6DF9 x_Forge\light.bloc full
+Imported 0x3D8 bytes.
+
+tags.dat> import 6DFA x_Forge\light.hlmt full
+Imported 0x738 bytes.
+
+tags.dat> import 6DFB x_Forge\light.mode full
+Imported 0x560 bytes.
+
+tags.dat> import 6DFC x_Forge\light.phmo full
+Imported 0x380 bytes.
+
+tags.dat> import 6DFD x_Forge\light.ligh full
+Imported 0x110 bytes.
+
+tags.dat> import 6DFE x_Forge\redlight.bloc full
+Imported 0x3D8 bytes.
+
+tags.dat> import 6DFF x_Forge\redlight.ligh full
+Imported 0x110 bytes.
+
+tags.dat> import 6E00 x_Forge\bluelight.bloc full
+Imported 0x3D8 bytes.
+
+tags.dat> import 6E01 x_Forge\bluelight.ligh full
+Imported 0x110 bytes.
+
+tags.dat> import 6E02 x_Forge\greenlight.bloc full
+Imported 0x3D8 bytes.
+
+tags.dat> import 6E03 x_Forge\greenlight.ligh full
+Imported 0x110 bytes.
+
+tags.dat> import 6E04 x_Forge\yellowlight.bloc full
+Imported 0x3D8 bytes.
+
+tags.dat> import 6E05 x_Forge\yellowlight.ligh full
+Imported 0x110 bytes.
+
+tags.dat> import 6E06 x_Forge\sniper.weap full
+Imported 0xB70 bytes.
+
+tags.dat> import 6E07 x_Forge\sniper.hlmt full
+Imported 0x3C0 bytes.
+
+tags.dat> import 6E08 x_Forge\sniper.mode full
+Imported 0xA20 bytes.
+
+tags.dat> import 6E09 x_Forge\sniper_fp.mode full
+Imported 0xDF0 bytes.
+
+tags.dat> import 6E0A x_Forge\sniper_tv.rmsh full
+Imported 0xDB0 bytes.
+
+tags.dat> 
+
+tags.dat> --MODEL_PORT--
+Unrecognized command: --MODEL_PORT--
+Use "help" to list available commands.
+
+tags.dat> modeltest 6D83 x_Forge\Assets\Models\Bridges\bridge_2x1.dae
+Info,  T912: Load x_Forge\Assets\Models\Bridges\bridge_2x1.dae
+
+Info,  T912: Found a matching importer for this file format
+
+Info,  T912: Import root directory is 'x_Forge\Assets\Models\Bridges\'
+
+Info,  T912: Entering post processing pipeline
+
+Info,  T912: Removed 2 nodes and 0 animation channels (7 output nodes)
+
+Info,  T912: Kept 0 lights and 0 cameras
+
+Info,  T912: Moved 6 meshes to WCS (number of output meshes: 6)
+
+Info,  T912: Points: 0, Lines: 0, Triangles: 6, Polygons: 0 (Meshes, X = removed)
+
+Info,  T912: CalcTangentsProcess finished. Tangents have been calculated
+
+Info,  T912: JoinVerticesProcess finished | Verts in: 744 out: 449 | ~39.7%
+
+Info,  T912: Leaving post processing pipeline
+
+Assembling vertices...
+Building Blam mesh data...
+Writing resource data...
+Writing tag data...
+Model imported successfully!
+
+tags.dat> modeltest 6D84 x_Forge\Assets\Models\Bridges\bridge_2x2.dae
+Info,  T912: Load x_Forge\Assets\Models\Bridges\bridge_2x2.dae
+
+Info,  T912: Found a matching importer for this file format
+
+Info,  T912: Import root directory is 'x_Forge\Assets\Models\Bridges\'
+
+Info,  T912: Entering post processing pipeline
+
+Info,  T912: Removed 2 nodes and 0 animation channels (7 output nodes)
+
+Info,  T912: Kept 0 lights and 0 cameras
+
+Info,  T912: Moved 6 meshes to WCS (number of output meshes: 6)
+
+Info,  T912: Points: 0, Lines: 0, Triangles: 6, Polygons: 0 (Meshes, X = removed)
+
+Info,  T912: CalcTangentsProcess finished. Tangents have been calculated
+
+Info,  T912: JoinVerticesProcess finished | Verts in: 1284 out: 765 | ~40.4%
+
+Info,  T912: Leaving post processing pipeline
+
+Assembling vertices...
+Building Blam mesh data...
+Writing resource data...
+Writing tag data...
+Model imported successfully!
+
+tags.dat> modeltest 6D85 x_Forge\Assets\Models\Bridges\bridge_2x3.dae
+Info,  T912: Load x_Forge\Assets\Models\Bridges\bridge_2x3.dae
+
+Info,  T912: Found a matching importer for this file format
+
+Info,  T912: Import root directory is 'x_Forge\Assets\Models\Bridges\'
+
+Info,  T912: Entering post processing pipeline
+
+Info,  T912: Removed 2 nodes and 0 animation channels (12 output nodes)
+
+Info,  T912: Kept 0 lights and 0 cameras
+
+Info,  T912: Moved 11 meshes to WCS (number of output meshes: 11)
+
+Info,  T912: Points: 0, Lines: 0, Triangles: 11, Polygons: 0 (Meshes, X = removed)
+
+Info,  T912: CalcTangentsProcess finished. Tangents have been calculated
+
+Info,  T912: JoinVerticesProcess finished | Verts in: 1548 out: 942 | ~39.1%
+
+Info,  T912: Leaving post processing pipeline
+
+Assembling vertices...
+Building Blam mesh data...
+Writing resource data...
+Writing tag data...
+Model imported successfully!
+
+tags.dat> modeltest 6D86 x_Forge\Assets\Models\Bridges\bridge_2x5.dae
+Info,  T912: Load x_Forge\Assets\Models\Bridges\bridge_2x5.dae
+
+Info,  T912: Found a matching importer for this file format
+
+Info,  T912: Import root directory is 'x_Forge\Assets\Models\Bridges\'
+
+Info,  T912: Entering post processing pipeline
+
+Info,  T912: Removed 2 nodes and 0 animation channels (12 output nodes)
+
+Info,  T912: Kept 0 lights and 0 cameras
+
+Info,  T912: Moved 11 meshes to WCS (number of output meshes: 11)
+
+Info,  T912: Points: 0, Lines: 0, Triangles: 11, Polygons: 0 (Meshes, X = removed)
+
+Info,  T912: CalcTangentsProcess finished. Tangents have been calculated
+
+Info,  T912: JoinVerticesProcess finished | Verts in: 2016 out: 1121 | ~44.4%
+
+Info,  T912: Leaving post processing pipeline
+
+Assembling vertices...
+Building Blam mesh data...
+Writing resource data...
+Writing tag data...
+Model imported successfully!
+
+tags.dat> modeltest 6D87 x_Forge\Assets\Models\Windows\window_2x1.dae
+Info,  T912: Load x_Forge\Assets\Models\Windows\window_2x1.dae
+
+Info,  T912: Found a matching importer for this file format
+
+Info,  T912: Import root directory is 'x_Forge\Assets\Models\Windows\'
+
+Info,  T912: Entering post processing pipeline
+
+Info,  T912: Removed 2 nodes and 0 animation channels (8 output nodes)
+
+Info,  T912: Kept 0 lights and 0 cameras
+
+Info,  T912: Moved 7 meshes to WCS (number of output meshes: 7)
+
+Info,  T912: Points: 0, Lines: 0, Triangles: 7, Polygons: 0 (Meshes, X = removed)
+
+Info,  T912: CalcTangentsProcess finished. Tangents have been calculated
+
+Info,  T912: JoinVerticesProcess finished | Verts in: 1422 out: 959 | ~32.6%
+
+Info,  T912: Leaving post processing pipeline
+
+Assembling vertices...
+Building Blam mesh data...
+Writing resource data...
+Writing tag data...
+Model imported successfully!
+
+tags.dat> modeltest 6D88 x_Forge\Assets\Models\Windows\window_2x2.dae
+Info,  T912: Load x_Forge\Assets\Models\Windows\window_2x2.dae
+
+Info,  T912: Found a matching importer for this file format
+
+Info,  T912: Import root directory is 'x_Forge\Assets\Models\Windows\'
+
+Info,  T912: Entering post processing pipeline
+
+Info,  T912: Removed 2 nodes and 0 animation channels (10 output nodes)
+
+Info,  T912: Kept 0 lights and 0 cameras
+
+Info,  T912: Moved 9 meshes to WCS (number of output meshes: 9)
+
+Info,  T912: Points: 0, Lines: 0, Triangles: 9, Polygons: 0 (Meshes, X = removed)
+
+Info,  T912: CalcTangentsProcess finished. Tangents have been calculated
+
+Info,  T912: JoinVerticesProcess finished | Verts in: 3216 out: 2038 | ~36.6%
+
+Info,  T912: Leaving post processing pipeline
+
+Assembling vertices...
+Building Blam mesh data...
+Writing resource data...
+Writing tag data...
+Model imported successfully!
+
+tags.dat> 
+
+tags.dat> --TEXTURES--
+Unrecognized command: --TEXTURES--
+Use "help" to list available commands.
+
+tags.dat> importbitmap x_Forge\Assets\Textures\Shared\Shared_01.dds 6D89
+Loading textures.dat...
+Importing image...
+Overwriting...
+
+All done! Imported to:
+bitm 00006D89 [Offset = 0x7CD5610, Size = 0x260]
+
+tags.dat> importbitmap x_Forge\Assets\Textures\Shared\Shared_02.dds 6D8A
+Loading textures.dat...
+Importing image...
+Overwriting...
+
+All done! Imported to:
+bitm 00006D8A [Offset = 0x7CD5870, Size = 0x260]
+
+tags.dat> importbitmap x_Forge\Assets\Textures\Shared\Shared_03.dds 6D8B
+Loading textures.dat...
+Importing image...
+Overwriting...
+
+All done! Imported to:
+bitm 00006D8B [Offset = 0x7CD5AD0, Size = 0x260]
+
+tags.dat> importbitmap x_Forge\Assets\Textures\Shared\Shared_04.dds 6D8C
+Loading textures.dat...
+Importing image...
+Overwriting...
+
+All done! Imported to:
+bitm 00006D8C [Offset = 0x7CD5D30, Size = 0x260]
+
+tags.dat> importbitmap x_Forge\Assets\Textures\Shared\Shared_05.dds 6D8D
+Loading textures.dat...
+Importing image...
+Overwriting...
+
+All done! Imported to:
+bitm 00006D8D [Offset = 0x7CD5F90, Size = 0x260]
+
+tags.dat> importbitmap x_Forge\Assets\Textures\Shared\Shared_06.dds 6D8E
+Loading textures.dat...
+Importing image...
+Overwriting...
+
+All done! Imported to:
+bitm 00006D8E [Offset = 0x7CD61F0, Size = 0x260]
+
+tags.dat> importbitmap x_Forge\Assets\Textures\Shared\Shared_07.dds 6D8F
+Loading textures.dat...
+Importing image...
+Overwriting...
+
+All done! Imported to:
+bitm 00006D8F [Offset = 0x7CD6450, Size = 0x260]
+
+tags.dat> importbitmap x_Forge\Assets\Textures\Shared\Shared_08.dds 6D90
+Loading textures.dat...
+Importing image...
+Overwriting...
+
+All done! Imported to:
+bitm 00006D90 [Offset = 0x7CD66B0, Size = 0x260]
+
+tags.dat> importbitmap x_Forge\Assets\Textures\Shared\Shared_09.dds 6D91
+Loading textures.dat...
+Importing image...
+Overwriting...
+
+All done! Imported to:
+bitm 00006D91 [Offset = 0x7CD6910, Size = 0x260]
+
+tags.dat> importbitmap x_Forge\Assets\Textures\Shared\Shared_10.dds 6D92
+Loading textures.dat...
+Importing image...
+Overwriting...
+
+All done! Imported to:
+bitm 00006D92 [Offset = 0x7CD6B70, Size = 0x260]
+
+tags.dat> importbitmap x_Forge\Assets\Textures\Shared\Shared_11.dds 6DBB
+Loading textures.dat...
+Importing image...
+Overwriting...
+
+All done! Imported to:
+bitm 00006DBB [Offset = 0x7CF11E0, Size = 0x260]
+
+tags.dat> 
+
+tags.dat> --STRINGS--
+Unrecognized command: --STRINGS--
+Use "help" to list available commands.
+
+tags.dat> stringid add xe_bridge_2x1
+Added string "xe_bridge_2x1" as 0x00009277.
+
+tags.dat> stringid add xe_bridge_2x2
+Added string "xe_bridge_2x2" as 0x00009278.
+
+tags.dat> stringid add xe_bridge_2x3
+Added string "xe_bridge_2x3" as 0x00009279.
+
+tags.dat> stringid add xe_bridge_2x5
+Added string "xe_bridge_2x5" as 0x0000927A.
+
+tags.dat> stringid add xe_window_2x1
+Added string "xe_window_2x1" as 0x0000927B.
+
+tags.dat> stringid add xe_window_2x2
+Added string "xe_window_2x2" as 0x0000927C.
+
+tags.dat> stringid add xe_block_2x2
+Added string "xe_block_2x2" as 0x0000927D.
+
+tags.dat> stringid add xe_block_2x1
+Added string "xe_block_2x1" as 0x0000927E.
+
+tags.dat> stringid add xe_block_3x3
+Added string "xe_block_3x3" as 0x0000927F.
+
+tags.dat> stringid add xe_block_3x1
+Added string "xe_block_3x1" as 0x00009280.
+
+tags.dat> stringid add xe_block_4x4
+Added string "xe_block_4x4" as 0x00009281.
+
+tags.dat> stringid add xe_block_5x5
+Added string "xe_block_5x5" as 0x00009282.
+
+tags.dat> stringid add xe_block_5x1
+Added string "xe_block_5x1" as 0x00009283.
+
+tags.dat> stringid add xe_block_10x5
+Added string "xe_block_10x5" as 0x00009284.
+
+tags.dat> stringid add xe_kball_small
+Added string "xe_kball_small" as 0x00009285.
+
+tags.dat> stringid add xe_kball_large
+Added string "xe_kball_large" as 0x00009286.
+
+tags.dat> stringid add xe_kballp_small
+Added string "xe_kballp_small" as 0x00009287.
+
+tags.dat> stringid add xe_kballp_large
+Added string "xe_kballp_large" as 0x00009288.
+
+tags.dat> stringid add xe_light
+Added string "xe_light" as 0x00009289.
+
+tags.dat> stringid add xe_light_red
+Added string "xe_light_red" as 0x0000928A.
+
+tags.dat> stringid add xe_light_blue
+Added string "xe_light_blue" as 0x0000928B.
+
+tags.dat> stringid add xe_light_green
+Added string "xe_light_green" as 0x0000928C.
+
+tags.dat> stringid add xe_light_yellow
+Added string "xe_light_yellow" as 0x0000928D.
+
+tags.dat> stringid add xe_weapon_sniper
+Added string "xe_weapon_sniper" as 0x0000928E.
+
+tags.dat> stringid add xe_vehicle_mongoose
+Added string "xe_vehicle_mongoose" as 0x0000928F.
+
+tags.dat> stringid add xe_vehicle_warthog
+Added string "xe_vehicle_warthog" as 0x00009290.
+
+tags.dat> stringid add xe_prop_deadbody
+Added string "xe_prop_deadbody" as 0x00009291.
+
+tags.dat> 
+
+tags.dat> --STRING_VALUES--
+Unrecognized command: --STRING_VALUES--
+Use "help" to list available commands.
+
+tags.dat> edit 1221
+Tag 0x00001221.multilingual_unicode_string_list has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x1221.multilingual_unicode_string_list> set english xe_bridge_2x1 Bridge-2X1(P)
+String changed successfully.
+
+tags.dat\0x1221.multilingual_unicode_string_list> set english xe_bridge_2x2 Bridge-2X2(P)
+String changed successfully.
+
+tags.dat\0x1221.multilingual_unicode_string_list> set english xe_bridge_2x3 Bridge-2X3(P)
+String changed successfully.
+
+tags.dat\0x1221.multilingual_unicode_string_list> set english xe_bridge_2x5 Bridge-2X5(P)
+String changed successfully.
+
+tags.dat\0x1221.multilingual_unicode_string_list> set english xe_window_2x1 Window-2X1(P)
+String changed successfully.
+
+tags.dat\0x1221.multilingual_unicode_string_list> set english xe_window_2x2 Window-2X2(P)
+String changed successfully.
+
+tags.dat\0x1221.multilingual_unicode_string_list> set english xe_block_2x2 Block-2X2(P)
+String changed successfully.
+
+tags.dat\0x1221.multilingual_unicode_string_list> set english xe_block_2x1 Block-2X1(P)
+String changed successfully.
+
+tags.dat\0x1221.multilingual_unicode_string_list> set english xe_block_3x3 Block-3X3(P)
+String changed successfully.
+
+tags.dat\0x1221.multilingual_unicode_string_list> set english xe_block_3x1 Block-3X1(P)
+String changed successfully.
+
+tags.dat\0x1221.multilingual_unicode_string_list> set english xe_block_4x4 Block-4X4(P)
+String changed successfully.
+
+tags.dat\0x1221.multilingual_unicode_string_list> set english xe_block_5x5 Block-5X5(P)
+String changed successfully.
+
+tags.dat\0x1221.multilingual_unicode_string_list> set english xe_block_5x1 Block-5X1(P)
+String changed successfully.
+
+tags.dat\0x1221.multilingual_unicode_string_list> set english xe_block_10x5 Block-10X5(P)
+String changed successfully.
+
+tags.dat\0x1221.multilingual_unicode_string_list> set english xe_kball_small KillBall-Small
+String changed successfully.
+
+tags.dat\0x1221.multilingual_unicode_string_list> set english xe_kball_large KillBall-Large
+String changed successfully.
+
+tags.dat\0x1221.multilingual_unicode_string_list> set english xe_kballp_small KillBall-Small(P)
+String changed successfully.
+
+tags.dat\0x1221.multilingual_unicode_string_list> set english xe_kballp_large KillBall-Large(P)
+String changed successfully.
+
+tags.dat\0x1221.multilingual_unicode_string_list> set english xe_light Light(P)
+String changed successfully.
+
+tags.dat\0x1221.multilingual_unicode_string_list> set english xe_light_red Light-Red(P)
+String changed successfully.
+
+tags.dat\0x1221.multilingual_unicode_string_list> set english xe_light_blue Light-Blue(P)
+String changed successfully.
+
+tags.dat\0x1221.multilingual_unicode_string_list> set english xe_light_green Light-Green(P)
+String changed successfully.
+
+tags.dat\0x1221.multilingual_unicode_string_list> set english xe_light_yellow Light-Yellow(P)
+String changed successfully.
+
+tags.dat\0x1221.multilingual_unicode_string_list> set english xe_weapon_sniper Sniper-CQB
+String changed successfully.
+
+tags.dat\0x1221.multilingual_unicode_string_list> set english xe_vehicle_mongoose Mongoose-FP
+String changed successfully.
+
+tags.dat\0x1221.multilingual_unicode_string_list> set english xe_vehicle_warthog Warthog-FP
+String changed successfully.
+
+tags.dat\0x1221.multilingual_unicode_string_list> set english xe_prop_deadbody Body
+String changed successfully.
+
+tags.dat\0x1221.multilingual_unicode_string_list> 
+
+tags.dat\0x1221.multilingual_unicode_string_list> --MENU--
+Unrecognized command: --MENU--
+Use "help" to list available commands.
+
+tags.dat\0x1221.multilingual_unicode_string_list> set english category_weapons WEAPONS
+String changed successfully.
+
+tags.dat\0x1221.multilingual_unicode_string_list> set english category_vehicles VEHICLES
+String changed successfully.
+
+tags.dat\0x1221.multilingual_unicode_string_list> set english category_equipment EQUIPMENT
+String changed successfully.
+
+tags.dat\0x1221.multilingual_unicode_string_list> set english category_scenery SCENERY
+String changed successfully.
+
+tags.dat\0x1221.multilingual_unicode_string_list> set english category_teleporters TELEPORTERS
+String changed successfully.
+
+tags.dat\0x1221.multilingual_unicode_string_list> set english category_spawners SPAWNING
+String changed successfully.
+
+tags.dat\0x1221.multilingual_unicode_string_list> set english category_goals GOALS/F+
+String changed successfully.
+
+tags.dat\0x1221.multilingual_unicode_string_list> exit
+
+tags.dat> 
+
+tags.dat> dumplog x_Forge-x1.txt

@@ -1,0 +1,130 @@
+Tag Tool [1.5.6326.5539]
+
+Please report any bugs and/or feature requests at
+<https://gitlab.com/TheGuardians/TagTool/issues>.
+
+Enter "help" to list available commands. Enter "exit" to quit.
+
+tags> nametag 0x1d91 brsound1
+[Index: 0x1D91, Offset: 0x0285B77C, Size: 0x07C0] brsound1.sound
+
+tags> nametag 0x1d92 brsound2
+[Index: 0x1D92, Offset: 0x0285BF3C, Size: 0x05C0] brsound2.sound
+
+tags> nametag 0x1d93 brsound3
+[Index: 0x1D93, Offset: 0x0285C4FC, Size: 0x06F0] brsound3.sound
+
+tags> nametag 0x1d94 brsound4
+[Index: 0x1D94, Offset: 0x0285CBEC, Size: 0x02E0] brsound4.sound
+
+tags> nametag 0x1d95 brsound5
+[Index: 0x1D95, Offset: 0x0285CECC, Size: 0x0480] brsound5.sound
+
+tags> duplicatetag 0x1d91
+Tag duplicated successfully!
+New tag: snd! 00005729 [Offset = 0x7C7A5B4, Size = 0x7C0]
+
+tags> nametag * brsound6
+[Index: 0x5729, Offset: 0x07C7A5B4, Size: 0x07C0] brsound6.sound
+
+tags> nametag 0x1D89 brfiringeffect
+[Index: 0x1D89, Offset: 0x02851D0C, Size: 0x76C0] brfiringeffect.effect
+
+tags> 
+
+tags> importtag brsound1 resources/brsound1.snd!
+ERROR: Invalid tag name: brsound1
+
+tags> importtag brsound2.sound resources/brsound2.snd!
+Imported 0x5C0 bytes.
+
+tags> importtag brsound3.sound resources/brsound3.snd!
+Imported 0x6F0 bytes.
+
+tags> importtag brsound4.sound resources/brsound4.snd!
+Imported 0x2E0 bytes.
+
+tags> importtag brsound5.sound resources/brsound5.snd!
+Imported 0x480 bytes.
+
+tags> importtag brsound6.sound resources/brsound6.snd!
+Imported 0x550 bytes.
+
+tags> 
+
+tags> edittag brsound1.sound
+Tag (0x1D91) brsound1.sound has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x1D91) brsound1.sound> importsound resources/brsound1.mp3
+
+tags\(0x1D91) brsound1.sound> savetagchanges
+Done!
+
+tags\(0x1D91) brsound1.sound> exit
+
+tags> edittag brsound2.sound
+Tag (0x1D92) brsound2.sound has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x1D92) brsound2.sound> importsound resources/brsound2.mp3
+ERROR: Specified argument was out of the range of valid values.
+Parameter name: resourceIndex
+
+tags\(0x1D92) brsound2.sound> savetagchanges
+Done!
+
+tags\(0x1D92) brsound2.sound> exit
+
+tags> edittag brsound3.sound
+Tag (0x1D93) brsound3.sound has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x1D93) brsound3.sound> importsound resources/brsound3.mp3
+ERROR: Specified argument was out of the range of valid values.
+Parameter name: resourceIndex
+
+tags\(0x1D93) brsound3.sound> savetagchanges
+Done!
+
+tags\(0x1D93) brsound3.sound> exit
+
+tags> edittag brsound4.sound
+Tag (0x1D94) brsound4.sound has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x1D94) brsound4.sound> importsound resources/brsound4.mp3
+ERROR: Specified argument was out of the range of valid values.
+Parameter name: resourceIndex
+
+tags\(0x1D94) brsound4.sound> savetagchanges
+Done!
+
+tags\(0x1D94) brsound4.sound> exit
+
+tags> edittag brsound5.sound
+Tag (0x1D95) brsound5.sound has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x1D95) brsound5.sound> importsound resources/brsound5.mp3
+ERROR: Specified argument was out of the range of valid values.
+Parameter name: resourceIndex
+
+tags\(0x1D95) brsound5.sound> savetagchanges
+Done!
+
+tags\(0x1D95) brsound5.sound> exit
+
+tags> edittag brsound6.sound
+Tag (0x5729) brsound6.sound has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x5729) brsound6.sound> importsound resources/brsound6.mp3
+ERROR: Specified argument was out of the range of valid values.
+Parameter name: resourceIndex

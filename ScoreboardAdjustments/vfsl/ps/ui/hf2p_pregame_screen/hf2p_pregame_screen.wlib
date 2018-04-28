@@ -1,0 +1,576 @@
+classes   =   {
+   PregameScreen   =   {
+      sslClass   =   "UiPreGameScreen"
+      sslModule   =   "ui.hf2p_pregame_screen.hf2p_pregame_screen"
+      visible   =   False
+      handlers   =   {
+         handler_1   =   {
+            handlerName   =   "onLoadoutSelected"
+            source   =   "loadoutScreen.onPregameLoadoutAccepted"
+         }
+      }
+      elements   =   {
+         choiceLoadoutBtnPregame   =   {
+            x   =   1426
+            y   =   950
+            visible   =   False
+            events   =   {
+               buttonClick   =   {
+                  eventRemap   =   "loadoutChoiceClickPregame"
+               }
+            }
+            customProps   =   [
+               {
+                  propName   =   "label"
+                  propVal   =   {
+                     val   =   "carousel_select_loadout"
+                     __type   =   "ui_widget_desc_prop_string"
+                  }
+               }
+            ]
+            label   =   "carousel_select_loadout"
+            __type   =   "ui_menu_lib::welcomeLoginBtn"
+         }
+         gameMode   =   {
+            x   =   300
+            y   =   200
+            visible   =   False
+            elements   =   {
+               container   =   {
+                  elements   =   {
+                     gameModeAttach   =   {
+                        impl   =   {
+                           __type   =   "ui_widget_impl_gfx_image"
+                        }
+                        __type   =   "ui_widget_image"
+                     }
+                  }
+                  impl   =   {
+                     __type   =   "ui_widget_impl_gfx"
+                  }
+                  stateMap   =   {
+                     states   =   {
+                        blue   =   {
+                            transitionsIn   =   {
+                            any   =   {
+                                action   =   {
+                                    anim   =   "blue"
+                                    __type   =   "ui_widget_action_anim"
+                                }
+                            }
+                            }
+                        }
+                        red   =   {
+                            transitionsIn   =   {
+                            any   =   {
+                                action   =   {
+                                    anim   =   "red"
+                                    __type   =   "ui_widget_action_anim"
+                                }
+                            }
+                            }
+                        }
+                     }
+                  }
+                  __type   =   "ui_widget_container"
+               }
+               slayerModeIcon   =   {
+                  x   =   -80
+                  y   =   30
+                  visible   =   False
+                  fixed   =   False
+                  __type   =   "ui_icon_lib::slayerMode"
+               }
+               teamModeIcon   =   {
+                  x   =   -80
+                  y   =   30
+                  visible   =   False
+                  fixed   =   False
+                  __type   =   "ui_icon_lib::dominionMode"
+               }
+            }
+            impl   =   {
+               propMapping   =   {
+                  desc   =   {
+                     mapping   =   "container.textDesc.text"
+                  }
+                  head   =   {
+                     mapping   =   "container.textHeader.text"
+                  }
+               }
+               __type   =   "ui_widget_impl_gfx"
+            }
+            __type   =   "ui_prematch_lib::hf2p_TeamBoard"
+         }
+         loadoutScreen   =   {
+            layer   =   "Layer2"
+            __type   =   "hf2p_Loadout"
+         }
+         localTeam   =   {
+            x   =   617
+            y   =   456
+            visible   =   False
+            elements   =   {
+               bckg   =   {
+                  elements   =   {
+                     bg   =   {
+                        impl   =   {
+                           __type   =   "ui_widget_impl_gfx"
+                        }
+                        stateMap   =   {
+                           states   =   {
+                              blue   =   {
+                                 transitionsIn   =   {
+                                    any   =   {
+                                       action   =   {
+                                          anim   =   "blue"
+                                          __type   =   "ui_widget_action_anim"
+                                       }
+                                    }
+                                 }
+                              }
+                              orange   =   {
+                                 transitionsIn   =   {
+                                    any   =   {
+                                       action   =   {
+                                          anim   =   "orange"
+                                          __type   =   "ui_widget_action_anim"
+                                       }
+                                    }
+                                 }
+                              }
+                              purple   =   {
+                                 transitionsIn   =   {
+                                    any   =   {
+                                       action   =   {
+                                          anim   =   "purple"
+                                          __type   =   "ui_widget_action_anim"
+                                       }
+                                    }
+                                 }
+                              }
+                              brown   =   {
+                                 transitionsIn   =   {
+                                    any   =   {
+                                       action   =   {
+                                          anim   =   "brown"
+                                          __type   =   "ui_widget_action_anim"
+                                       }
+                                    }
+                                 }
+                              }
+                              gold   =   {
+                                 transitionsIn   =   {
+                                    any   =   {
+                                       action   =   {
+                                          anim   =   "gold"
+                                          __type   =   "ui_widget_action_anim"
+                                       }
+                                    }
+                                 }
+                              }
+                              pink   =   {
+                                 transitionsIn   =   {
+                                    any   =   {
+                                       action   =   {
+                                          anim   =   "pink"
+                                          __type   =   "ui_widget_action_anim"
+                                       }
+                                    }
+                                 }
+                              }
+                              observer   =   {
+                                 transitionsIn   =   {
+                                    any   =   {
+                                       action   =   {
+                                          anim   =   "observer"
+                                          __type   =   "ui_widget_action_anim"
+                                       }
+                                    }
+                                 }
+                              }
+                              green   =   {
+                                 transitionsIn   =   {
+                                    any   =   {
+                                       action   =   {
+                                          anim   =   "green"
+                                          __type   =   "ui_widget_action_anim"
+                                       }
+                                    }
+                                 }
+                              }
+                              red   =   {
+                                 transitionsIn   =   {
+                                    any   =   {
+                                       action   =   {
+                                          anim   =   "red"
+                                          __type   =   "ui_widget_action_anim"
+                                       }
+                                    }
+                                 }
+                              }
+                           }
+                        }
+                        __type   =   "ui_widget_container"
+                     }
+                  }
+                  impl   =   {
+                     __type   =   "ui_widget_impl_gfx"
+                  }
+                  __type   =   "ui_widget_container"
+               }
+            }
+            impl   =   {
+               propMapping   =   {
+                  text   =   {
+                     mapping   =   "bckg.textField.text"
+                  }
+               }
+               __type   =   "ui_widget_impl_gfx"
+            }
+            __type   =   "ui_prematch_lib::hf2p_TeamNotification"
+         }
+         scoreboardScreen   =   {
+            __type   =   "hf2p_scoreboard_ingame"
+         }
+         timer   =   {
+            x   =   1753
+            y   =   57
+            impl   =   {
+               propMapping   =   {
+                  text   =   {
+                     mapping   =   "textContainer.textField.text"
+                  }
+               }
+               __type   =   "ui_widget_impl_gfx"
+            }
+            bindings   =   {
+               text   =   {
+                  binding   =   "{GetTimeLeft()}"
+               }
+               visible   =   {
+                  binding   =   "{IsTimerVisible()}"
+               }
+            }
+            __type   =   "ui_prematch_lib::hf2p_Timer"
+         }
+         waitingInfo   =   {
+            x   =   1255
+            y   =   381
+            visible   =   False
+            customProps   =   [
+               {
+                  propName   =   "text"
+                  propVal   =   {
+                     val   =   "ingame_waiting_for_players"
+                     __type   =   "ui_widget_desc_prop_string"
+                  }
+               }
+            ]
+            __type   =   "hf2p_scoreboard_lib::sc_waitingInfo"
+         }
+         upcomingChallenges   =   {
+            __type   =   "hf2p_pregame_screen::UpcomingChallenges"
+         }
+      }
+      stateMap   =   {
+         startState   =   "Initial"
+         states   =   {
+            GameMode   =   {
+               layout   =   [
+                  {
+                     propName   =   "visible"
+                     propVal   =   {
+                        val   =   True
+                        __type   =   "ui_widget_desc_prop_bool"
+                     }
+                  }
+               ]
+               transitionsIn   =   {
+                  any   =   {
+                     action   =   {
+                        anim   =   "gameMode.fadeIn"
+                        __type   =   "ui_widget_action_anim"
+                     }
+                  }
+               }
+               transitionsOut   =   {
+                  any   =   {
+                     action   =   {
+                        anim   =   "gameMode.fadeOut"
+                        __type   =   "ui_widget_action_anim"
+                     }
+                  }
+               }
+            }
+            Initial   =   {
+               layout   =   [
+                  {
+                     propName   =   "visible"
+                     propVal   =   {
+                        __type   =   "ui_widget_desc_prop_bool"
+                     }
+                  }
+               ]
+               transitionsIn   =   {
+                  any   =   {
+                     action   =   {
+                        elements   =   {
+                           elem_1   =   {
+                              state   =   "loadoutScreen.Initial"
+                              __type   =   "ui_widget_action_state"
+                           }
+                           elem_2   =   {
+                              state   =   "scoreboardScreen.Initial"
+                              __type   =   "ui_widget_action_state"
+                           }
+                        }
+                        __type   =   "ui_widget_action_sequence"
+                     }
+                  }
+               }
+            }
+            Loadout   =   {
+               layout   =   [
+                  {
+                     propName   =   "visible"
+                     propVal   =   {
+                        val   =   True
+                        __type   =   "ui_widget_desc_prop_bool"
+                     }
+                  }
+               ]
+               transitionsIn   =   {
+                  any   =   {
+                     action   =   {
+                        state   =   "loadoutScreen.Initial"
+                        __type   =   "ui_widget_action_state"
+                     }
+                  }
+               }
+               transitionsOut   =   {
+                  any   =   {
+                     action   =   {
+                        state   =   "loadoutScreen.Initial"
+                        __type   =   "ui_widget_action_state"
+                     }
+                  }
+               }
+            }
+            Team   =   {
+               layout   =   [
+                  {
+                     propName   =   "visible"
+                     propVal   =   {
+                        val   =   True
+                        __type   =   "ui_widget_desc_prop_bool"
+                     }
+                  }
+               ]
+               transitionsIn   =   {
+                  any   =   {
+                     action   =   {
+                        anim   =   "localTeam.fadeIn"
+                        __type   =   "ui_widget_action_anim"
+                     }
+                  }
+               }
+               transitionsOut   =   {
+                  any   =   {
+                     action   =   {
+                        anim   =   "localTeam.fadeOut"
+                        __type   =   "ui_widget_action_anim"
+                     }
+                  }
+               }
+            }
+            Visible   =   {
+               layout   =   [
+                  {
+                     propName   =   "visible"
+                     propVal   =   {
+                        val   =   True
+                        __type   =   "ui_widget_desc_prop_bool"
+                     }
+                  }
+               ]
+            }
+            Waiting   =   {
+               layout   =   [
+                  {
+                     propName   =   "visible"
+                     propVal   =   {
+                        val   =   True
+                        __type   =   "ui_widget_desc_prop_bool"
+                     }
+                  }
+               ]
+            }
+            WaitingForPlayers   =   {
+               layout   =   [
+                  {
+                     propName   =   "visible"
+                     propVal   =   {
+                        val   =   True
+                        __type   =   "ui_widget_desc_prop_bool"
+                     }
+                  }
+               ]
+            }
+         }
+      }
+      bindings   =   {
+         DC   =   {
+            binding   =   "{new: 'ui.hf2p_pregame_screen.hf2p_pregame_screen.UiPreGameScreenVM'}"
+         }
+      }
+      layers   =   {
+         backLayer1   =   {
+            offset   =   -2
+         }
+         backLayer2   =   {
+            offset   =   -1
+         }
+      }
+      customProps   =   [
+         {
+            propName   =   "adelay"
+            propVal   =   {
+               __type   =   "ui_widget_desc_prop_int"
+            }
+         }
+      ]
+      __type   =   "hf2p_Loadout_lib::wc_container"
+   }
+   UpcomingChallenge   =   {
+      sslClass   =   "PregameChallenge"
+      sslModule   =   "ui.hf2p_pregame_screen.hf2p_pregame_screen"
+      elements   =   {
+         challengeSlideProgress   =   {
+            elements   =   {
+               completeElem   =   {
+                  bindings   =   {
+                     visible   =   {
+                        binding   =   "{false}"
+                     }
+                  }
+                  __type   =   "ui_challengesScreen_lib::ChallengeCompletePopup"
+               }
+               progressElem   =   {
+                  elements   =   {
+                     tfGetItem   =   {
+                        bindings   =   {
+                           visible   =   {
+                              binding   =   "{false}"
+                           }
+                        }
+                        __type   =   "ui_widget_container"
+                     }
+                     getItemBg   =   {
+                        bindings   =   {
+                           visible   =   {
+                              binding   =   "{false}"
+                           }
+                        }
+                        __type   =   "ui_challengesScreen_lib::getItemLirBgLine"
+                     }
+                  }
+                  __type   =   "hf2p_ChallengesScreen_lib::ChallengeProgressBar"
+               }
+               attachChallengeSide   =   {
+                  isCentered   =   True
+                  __type   =   "ui_challengesScreen_lib::attachPointIcon"
+               }
+            }
+            bindings   =   {
+               DC   =   {
+                  binding   =   "{new: 'ui.hf2p_pregame_screen.hf2p_pregame_screen.PregameChallengeVM', challenge = GetUpcomingChallengeCount() > (:idx) ? upcomingChallenges[(:idx)] : new {}}"
+               }
+            }
+            __type   =   "ui_challengesScreen_lib::challengeSideLabel"
+         }
+      }
+      bindings   =   {
+         DC   =   {
+            binding   =   "{this}"
+         }
+         frame   =   {
+            binding   =   "{GetUpcomingChallengeCount() > (:idx) ? 'init' : 1}"
+         }
+      }
+      __type   =   "hf2p_ChallengesScreen_lib::challengeSlidePopUp"
+   }
+   UpcomingChallenges   =   {
+      x   =   1520
+      y   =   625
+      fixed   =   False
+      mouseEnabled   =   False
+      mouseChildren   =   False
+      elements   =   {
+         challenge0   =   {
+            bindings   =   {
+               idx   =   {
+                  binding   =   "{0}"
+               }
+            }
+            __type   =   "hf2p_pregame_screen::UpcomingChallenge"
+         }
+         challenge1   =   {
+            bindings   =   {
+               idx   =   {
+                  binding   =   "{1}"
+               }
+            }
+            __type   =   "hf2p_pregame_screen::UpcomingChallenge"
+         }
+         challenge2   =   {
+            bindings   =   {
+               idx   =   {
+                  binding   =   "{2}"
+               }
+            }
+            __type   =   "hf2p_pregame_screen::UpcomingChallenge"
+         }
+         header   =   {
+            y   =   -40
+            fixed   =   False
+            elements   =   {
+               innerTf   =   {
+                  impl   =   {
+                     __type   =   "ui_widget_impl_gfx"
+                  }
+                  bindings   =   {
+                     textField   =   {
+                        binding   =   "{'ingame_upcoming_challenges'}"
+                     }
+                  }
+                  __type   =   "ui_widget_container"
+               }
+            }
+            impl   =   {
+               symbol   =   "upcomingChallengesTF"
+               __type   =   "ui_widget_impl_gfx"
+            }
+            bindings   =   {
+               anim   =   {
+                  binding   =   "{'c' + GetUpcomingChallengeCount()}"
+               }
+               visible   =   {
+                  binding   =   "{challengesState == 'fadeIn'}"
+               }
+            }
+            __type   =   "ui_widget_container"
+         }
+      }
+      bindings   =   {
+         DC   =   {
+            binding   =   "{upcomingChallenges}"
+         }
+         anim   =   {
+            binding   =   "{challengesState}"
+         }
+      }
+      __type   =   "ui_challengesScreen_lib::upcomingChallenges"
+   }
+}
+__type   =   "ui_wlib"

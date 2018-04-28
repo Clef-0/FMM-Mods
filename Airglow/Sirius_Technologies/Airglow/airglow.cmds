@@ -1,0 +1,485 @@
+echo --------------------------
+echo Vanilla 0.5.0.2 Tag Fixes
+echo --------------------------
+import 4F0E Sirius_Technologies\Airglow\Vanilla_Tag_Fixes\5024.cfxs
+import 4BCE Sirius_Technologies\Airglow\Vanilla_Tag_Fixes\4CE3.cfxs
+import 4A00 Sirius_Technologies\Airglow\Vanilla_Tag_Fixes\4B15.cfxs
+import 54E1 Sirius_Technologies\Airglow\Vanilla_Tag_Fixes\55EE.cfxs
+import 2EF8 Sirius_Technologies\Airglow\Vanilla_Tag_Fixes\2EF8.cfxs
+import 2EF9 Sirius_Technologies\Airglow\Vanilla_Tag_Fixes\2EF9.skya
+import 34CD Sirius_Technologies\Airglow\Vanilla_Tag_Fixes\34CD.cfxs
+import 3AA9 Sirius_Technologies\Airglow\Vanilla_Tag_Fixes\3AA9.cfxs
+import 3E0D Sirius_Technologies\Airglow\Vanilla_Tag_Fixes\3E0D.cfxs
+import 3E0E Sirius_Technologies\Airglow\Vanilla_Tag_Fixes\3E0E.skya
+import 3FD2 Sirius_Technologies\Airglow\Vanilla_Tag_Fixes\3FD2.cfxs
+import 3FD1 Sirius_Technologies\Airglow\Vanilla_Tag_Fixes\3FD1.cfxs
+import 3FDB Sirius_Technologies\Airglow\Vanilla_Tag_Fixes\3FDB.skya
+import 4228 Sirius_Technologies\Airglow\Vanilla_Tag_Fixes\4228.cfxs
+import 571D Sirius_Technologies\Airglow\Vanilla_Tag_Fixes\5822.cfxs
+import 523F Sirius_Technologies\Airglow\Vanilla_Tag_Fixes\5355.cfxs
+
+
+
+echo -----------------------------
+echo SSAO and GodRays on Standoff
+echo -----------------------------
+edit 4F0E
+setfield Flags15 18
+setfield Unknown27 0
+setfield Unknown28 0.5
+setfield Unknown29 0.5
+setfield Unknown30 1
+
+setfield Flags17 18
+setfield Unknown39 0
+setfield Unknown40 77
+setfield Unknown41 5.5
+setfield ColorR 0.9803921568627451
+setfield ColorG 0.6705882352941176
+setfield ColorB 0.1607843137254902
+setfield Unknown42 5000
+setfield Unknown43 0.82
+setfield Unknown44 0.1
+setfield Unknown45 1
+setfield Unknown46 4.4
+savechanges
+exit
+
+
+
+echo ----------------------------
+echo SSAO and GodRays on Narrows
+echo ----------------------------
+edit 4BCE
+setfield Flags15 18
+setfield Unknown27 0
+setfield Unknown28 0.5
+setfield Unknown29 0.5
+setfield Unknown30 1
+
+setfield Flags17 18
+setfield Unknown39 0
+setfield Unknown40 43
+setfield Unknown41 -54
+setfield ColorR 1
+setfield ColorG 1
+setfield ColorB 1
+setfield Unknown42 5000
+setfield Unknown43 0.82
+setfield Unknown44 0.1
+setfield Unknown45 1
+setfield Unknown46 8
+savechanges
+exit
+
+
+
+echo -----------------------------
+echo SSAO and GodRays on The Pitt
+echo -----------------------------
+edit 4A00
+setfield Flags15 18
+setfield Unknown27 0
+setfield Unknown28 0.5
+setfield Unknown29 0.5
+setfield Unknown30 1
+
+setfield Flags17 18
+setfield Unknown39 0
+setfield Unknown40 -49
+setfield Unknown41 -60
+setfield ColorR 0.9882352941176471
+setfield ColorG 0.6392156862745098
+setfield ColorB 0.1450980392156863
+setfield Unknown42 5000
+setfield Unknown43 0.5
+setfield Unknown44 0.15
+setfield Unknown45 2.5
+setfield Unknown46 4.4
+savechanges
+exit
+
+
+
+echo --------------------------------
+echo SSAO and GodRays on High Ground
+echo --------------------------------
+edit 54E1
+setfield Flags15 18
+setfield Unknown27 0
+setfield Unknown28 0.5
+setfield Unknown29 0.5
+setfield Unknown30 1
+
+setfield Flags17 18
+setfield Unknown39 0
+setfield Unknown40 55
+setfield Unknown41 205
+setfield ColorR 0.9686274509803922
+setfield ColorG 0.6941176470588235
+setfield ColorB 0.3019607843137255
+setfield Unknown42 5000
+setfield Unknown43 0.82
+setfield Unknown44 0.1
+setfield Unknown45 2.5
+setfield Unknown46 4.4
+savechanges
+exit
+
+
+
+echo -----------------------------
+echo SSAO and GodRays on Guardian
+echo -----------------------------
+edit 2EF8
+setfield Flags15 18
+setfield Unknown27 0
+setfield Unknown28 0.5
+setfield Unknown29 0.5
+setfield Unknown30 1
+
+setfield Flags17 18
+setfield Unknown39 0
+setfield Unknown40 70
+setfield Unknown41 40
+setfield ColorR 0.1647058823529412
+setfield ColorG 0.7764705882352941
+setfield ColorB 0.5764705882352941
+setfield Unknown42 500
+setfield Unknown43 0
+setfield Unknown44 1
+setfield Unknown45 3.5
+setfield Unknown46 10
+savechanges
+exit
+
+echo -----------------------
+echo Grav Lifts on Guardian
+echo -----------------------
+edit 2E8A
+SetField Crates[44].PaletteIndex 15
+SetField Crates[44].AllowedZonesets 1
+savechanges
+exit
+
+echo -----------------------------------
+echo Glowbugs and Glowflies on Guardian
+echo -----------------------------------
+edit 3475
+SetField ShaderProperties[0].Arguments[2].Arg1 700
+SetField ShaderProperties[0].Arguments[2].Arg2 150
+SetField ShaderProperties[0].Arguments[2].Arg3 50
+SetField ShaderProperties[0].Arguments[2].Arg4 1
+savechanges
+exit
+
+edit 3480
+SetField ShaderProperties[0].Arguments[2].Arg1 500
+SetField ShaderProperties[0].Arguments[2].Arg2 500
+SetField ShaderProperties[0].Arguments[2].Arg3 500
+SetField ShaderProperties[0].Arguments[2].Arg4 1
+SetField ShaderProperties[0].Arguments[18].Arg1 10
+SetField ShaderProperties[0].Arguments[18].Arg2 50
+SetField ShaderProperties[0].Arguments[18].Arg3 1
+SetField ShaderProperties[0].Arguments[18].Arg4 1
+savechanges
+exit
+
+
+
+echo --------------------------------
+echo SSAO and GodRays on Valhalla
+echo --------------------------------
+edit 34CD
+setfield Flags15 18
+setfield Unknown27 0
+setfield Unknown28 0.5
+setfield Unknown29 0.5
+setfield Unknown30 1
+
+setfield Flags17 18
+setfield Unknown39 0
+setfield Unknown40 44.5
+setfield Unknown41 27
+setfield ColorR 1
+setfield ColorG 1
+setfield ColorB 1
+setfield Unknown42 5000
+setfield Unknown43 0
+setfield Unknown44 0.1
+setfield Unknown45 1.2
+setfield Unknown46 6
+savechanges
+exit
+
+echo --------------------------
+echo Valhalla Glass Floors Fix
+echo --------------------------
+edit 3532
+import 0 Sirius_Technologies\Airglow\Bitmaps\Valhalla\00003532.dds
+exit
+
+edit 34F2
+SetField ShaderProperties[0].Arguments[7].Arg1 0.2
+SetField ShaderProperties[0].Arguments[7].Arg2 0.2
+SetField ShaderProperties[0].Arguments[7].Arg3 0.2
+SetField ShaderProperties[0].Arguments[7].Arg4 0.2
+SetField ShaderProperties[0].Arguments[9].Arg1 0.2
+SetField ShaderProperties[0].Arguments[9].Arg2 0.2
+SetField ShaderProperties[0].Arguments[9].Arg3 0.2
+SetField ShaderProperties[0].Arguments[9].Arg4 0.2
+SetField ShaderProperties[0].Arguments[10].Arg1 0.14
+SetField ShaderProperties[0].Arguments[10].Arg2 0.14
+SetField ShaderProperties[0].Arguments[10].Arg3 0.14
+SetField ShaderProperties[0].Arguments[10].Arg4 0.14
+SetField ShaderProperties[0].Arguments[11].Arg1 10
+SetField ShaderProperties[0].Arguments[11].Arg2 10
+SetField ShaderProperties[0].Arguments[11].Arg3 10
+SetField ShaderProperties[0].Arguments[11].Arg4 10
+savechanges
+exit
+
+edit 34F3
+SetField ShaderProperties[0].Arguments[7].Arg1 0.2
+SetField ShaderProperties[0].Arguments[7].Arg2 0.2
+SetField ShaderProperties[0].Arguments[7].Arg3 0.2
+SetField ShaderProperties[0].Arguments[7].Arg4 0.2
+SetField ShaderProperties[0].Arguments[9].Arg1 0.2
+SetField ShaderProperties[0].Arguments[9].Arg2 0.2
+SetField ShaderProperties[0].Arguments[9].Arg3 0.2
+SetField ShaderProperties[0].Arguments[9].Arg4 0.2
+SetField ShaderProperties[0].Arguments[10].Arg1 0.14
+SetField ShaderProperties[0].Arguments[10].Arg2 0.14
+SetField ShaderProperties[0].Arguments[10].Arg3 0.14
+SetField ShaderProperties[0].Arguments[10].Arg4 0.14
+SetField ShaderProperties[0].Arguments[11].Arg1 10
+SetField ShaderProperties[0].Arguments[11].Arg2 10
+SetField ShaderProperties[0].Arguments[11].Arg3 10
+SetField ShaderProperties[0].Arguments[11].Arg4 10
+savechanges
+exit
+
+edit 34E7
+SetField ShaderProperties[0].Arguments[7].Arg1 0.15
+SetField ShaderProperties[0].Arguments[7].Arg2 0.15
+SetField ShaderProperties[0].Arguments[7].Arg3 0.15
+SetField ShaderProperties[0].Arguments[7].Arg4 0.15
+SetField ShaderProperties[0].Arguments[8].Arg1 15
+SetField ShaderProperties[0].Arguments[8].Arg2 15
+SetField ShaderProperties[0].Arguments[8].Arg3 15
+SetField ShaderProperties[0].Arguments[8].Arg4 15
+savechanges
+exit
+
+
+
+echo --------------------
+echo SSAO on Diamondback
+echo --------------------
+edit 3AA9
+setfield Flags15 18
+setfield Unknown27 0
+setfield Unknown28 0.5
+setfield Unknown29 0.5
+setfield Unknown30 1
+savechanges
+exit
+
+echo ------------------------
+echo Brown Diamondback Flora
+echo ------------------------
+edit 3C45
+import 0 Sirius_Technologies\Airglow\Bitmaps\Diamondback\00003C45.dds
+exit
+
+
+
+echo -------------------------
+echo SSAO and GodRays on Edge
+echo -------------------------
+edit 3E0D
+setfield Flags15 18
+setfield Unknown27 0
+setfield Unknown28 0.5
+setfield Unknown29 0.5
+setfield Unknown30 1
+
+setfield Flags17 18
+setfield Unknown39 0
+setfield Unknown40 64
+setfield Unknown41 252
+setfield ColorR 0.3843137254901961
+setfield ColorG 0.9137254901960784
+setfield ColorB 0.9490196078431373
+setfield Unknown42 500
+setfield Unknown43 0.82
+setfield Unknown44 0.15
+setfield Unknown45 1
+setfield Unknown46 6
+savechanges
+exit
+
+echo ------------------
+echo Fog Tweak on Edge
+echo ------------------
+edit 3E0E
+SetField AtmosphereProperties[0].FogIntensity -8
+SetField AtmosphereProperties[2].FogIntensity -8
+SetField AtmosphereProperties[3].FogIntensity -8
+savechanges
+exit
+
+
+
+echo -----------------------------------------------
+echo SSAO, GodRays, and Color Fix on Reactor Indoor
+echo -----------------------------------------------
+edit 3FD2
+setfield Flags 18
+setfield OverexposureAmount -0.7
+setfield Base2 0.15
+setfield Base3 0.35
+
+setfield Flags15 18
+setfield Unknown27 0
+setfield Unknown28 0.5
+setfield Unknown29 0.5
+setfield Unknown30 1
+
+setfield Flags16 16
+
+setfield Flags17 18
+setfield Unknown39 0
+setfield Unknown40 50
+setfield Unknown41 39
+setfield ColorR 0.2
+setfield ColorG 0.1137254901960784
+setfield ColorB 0.0352941176470588
+setfield Unknown42 500
+setfield Unknown43 0
+setfield Unknown44 0.08
+setfield Unknown45 5
+setfield Unknown46 20
+savechanges
+exit
+
+echo ------------------------------------------------
+echo SSAO, GodRays, and Color Fix on Reactor Outdoor
+echo ------------------------------------------------
+edit 3FD1
+setfield Flags 18
+setfield OverexposureAmount -1.2
+setfield Base3 0.18
+
+setfield Flags15 18
+setfield Unknown27 0
+setfield Unknown28 0.5
+setfield Unknown29 0.5
+setfield Unknown30 1
+
+setfield Flags16 16
+
+setfield Flags17 18
+setfield Unknown39 0
+setfield Unknown40 50
+setfield Unknown41 39
+setfield ColorR 0.2
+setfield ColorG 0.1137254901960784
+setfield ColorB 0.0352941176470588
+setfield Unknown42 500
+setfield Unknown43 0
+setfield Unknown44 0.08
+setfield Unknown45 5
+setfield Unknown46 10
+savechanges
+exit
+
+echo -----------------------------
+echo Fog Tweak on Reactor Outdoor
+echo -----------------------------
+edit 3FDB
+SetField AtmosphereProperties[0].FogIntensity -25
+savechanges
+exit
+
+
+
+echo ---------------
+echo SSAO on Icebox
+echo ---------------
+edit 4228
+setfield Flags15 18
+setfield Unknown27 0
+setfield Unknown28 0.5
+setfield Unknown29 0.5
+setfield Unknown30 1
+savechanges
+exit
+
+
+
+echo --------------------------------
+echo SSAO and GodRays on Sandtrap
+echo --------------------------------
+edit 571D
+setfield Flags15 18
+setfield Unknown27 0
+setfield Unknown28 0.5
+setfield Unknown29 0.5
+setfield Unknown30 1
+
+setfield Flags17 18
+setfield Unknown39 0
+setfield Unknown40 -40
+setfield Unknown41 -35
+setfield ColorR 0.9607843137254902
+setfield ColorG 0.8235294117647059
+setfield ColorB 0.2352941176470588
+setfield Unknown42 500
+setfield Unknown43 0.5
+setfield Unknown44 0.1
+setfield Unknown45 1
+setfield Unknown46 10
+savechanges
+exit
+
+
+
+echo --------------------------------
+echo SSAO and GodRays on Last Resort
+echo --------------------------------
+edit 523F
+setfield BrightnessUnknown 1.3
+
+setfield Flags15 18
+setfield Unknown27 0
+setfield Unknown28 0.5
+setfield Unknown29 0.5
+setfield Unknown30 1
+
+setfield Flags17 18
+setfield Unknown39 0
+setfield Unknown40 53.1
+setfield Unknown41 173
+setfield ColorR 0.9607843137254902
+setfield ColorG 0.6156862745098039
+setfield ColorB 0.0509803921568627
+setfield Unknown42 5000
+setfield Unknown43 0.65
+setfield Unknown44 0.18
+setfield Unknown45 0.55
+setfield Unknown46 2
+savechanges
+exit
+
+
+
+echo --------------------------
+echo Glowing Forge Monitor Eye
+echo --------------------------
+edit 15A0
+setfield Functions[0].Flags 0
+savechanges
+exit
+
+exit

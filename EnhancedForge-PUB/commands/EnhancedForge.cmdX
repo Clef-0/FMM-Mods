@@ -1,0 +1,3784 @@
+STOP
+echo   reminder, end of TTCC tags list if you use TTCC
+
+echo  injecting wall models
+
+modeltest 3450 objects/wall_xxl.obj
+modeltest 344D objects/wall_xl.obj
+modeltest 344A objects/wall_l.obj
+modeltest 3447 objects/wall_m.obj
+modeltest 3444 objects/wall_s.obj
+
+echo  injecting box models
+
+modeltest 3441 objects/box_xxl.obj
+modeltest 343E objects/box_xl.obj
+modeltest 343B objects/box_l.obj
+modeltest 3438 objects/box_m.obj
+modeltest 3434 objects/box_s.obj
+
+echo  adding shaders to boxes
+
+edit 3441
+specifyshaders
+46B4
+exit
+
+edit 343E
+specifyshaders
+46B4
+exit
+
+edit 343B
+specifyshaders
+46B4
+exit
+
+edit 3438
+specifyshaders
+46B4
+exit
+
+edit 3434
+specifyshaders
+46B4
+exit
+
+echo  adding shaders to walls
+
+edit 3450
+specifyshaders
+46b4
+exit
+
+edit 344D
+specifyshaders
+46b4
+exit
+
+edit 344A
+specifyshaders
+46b4
+exit
+
+edit 3447
+specifyshaders
+46b4
+exit
+
+edit 3444
+specifyshaders
+46b4
+exit
+
+echo  making objects visible from further away to prevent them from disapearing when close. 
+
+edit 2ee9
+setfield BoundingRadius 1
+savechanges
+exit
+
+edit 3433
+SetField ReduceToL1SuperLow 0
+SetField ReduceToL2Low 0
+savechanges
+exit
+
+edit 2EEA
+setfield BoundingRadius 1
+savechanges
+exit
+
+edit 3437
+SetField ReduceToL1SuperLow 0
+SetField ReduceToL2Low 0
+savechanges
+exit
+
+edit 2EEB
+setfield BoundingRadius 1
+savechanges
+exit
+
+edit 343A
+SetField ReduceToL1SuperLow 0
+SetField ReduceToL2Low 0
+savechanges
+exit
+
+
+edit 2EEC
+setfield BoundingRadius 1
+savechanges
+exit
+
+edit 343D
+SetField ReduceToL1SuperLow 0
+SetField ReduceToL2Low 0
+savechanges
+exit
+
+edit 2EED
+setfield BoundingRadius 1
+savechanges
+exit
+
+edit 3440
+SetField ReduceToL1SuperLow 0
+SetField ReduceToL2Low 0
+savechanges
+exit
+
+echo  walls viewdistance
+
+edit 2EEE
+setfield BoundingRadius 1
+savechanges
+exit
+
+edit 3443
+SetField ReduceToL1SuperLow 0
+SetField ReduceToL2Low 0
+savechanges
+exit
+
+edit 2EEF
+setfield BoundingRadius 1
+savechanges
+exit
+
+edit 3446
+SetField ReduceToL1SuperLow 0
+SetField ReduceToL2Low 0
+savechanges
+exit
+
+edit 2EF0
+setfield BoundingRadius 1
+savechanges
+exit
+
+edit 3449
+SetField ReduceToL1SuperLow 0
+SetField ReduceToL2Low 0
+savechanges
+exit
+
+edit 2EF1
+setfield BoundingRadius 1
+savechanges
+exit
+
+edit 344C
+SetField ReduceToL1SuperLow 0
+SetField ReduceToL2Low 0
+savechanges
+exit
+
+edit 2EF2
+setfield BoundingRadius 1
+savechanges
+exit
+
+edit 344F
+SetField ReduceToL1SuperLow 0
+SetField ReduceToL2Low 0
+savechanges
+exit
+
+echo   create new string_id's:
+stringid add box_s
+stringid add box_m
+stringid add box_l
+stringid add box_xl
+stringid add box_xxl
+stringid add wall_s
+stringid add wall_m
+stringid add wall_l
+stringid add wall_xl
+stringid add wall_xxl
+stringid add elephant
+stringid add Gauss_Turret
+stringid add Chaingun_Turret
+stringid add Wraith_Turret
+
+stringid add warthog_pallete
+stringid add mongoose_pallete
+stringid add cornersandbag
+stringid add cornersandbag2
+stringid add sandbagblock
+stringid add sandbags
+stringid add twosandbags
+stringid add onesandbag
+stringid add opendroppod
+stringid add barriers
+
+stringid add Oddball
+stringid add flag
+stringid add Bomb
+stringid add plasma_pistol_pwr
+stringid add plasma_rifle
+stringid add plasma_riflev6
+stringid add assault_rifle_dmg
+stringid add assault_rifle_rof
+stringid add assault_rifle_acc
+stringid add assault_rifle_pwr
+stringid add battle_rifle_rof
+stringid add battle_rifle_acc
+stringid add battle_rifle_mag
+stringid add battle_rifle_dmg
+stringid add battle_rifle_rng
+stringid add battle_rifle_pwr
+stringid add dmr
+stringid add dmr_rng
+stringid add dmr_acc
+stringid add dmr_rof
+stringid add dmr_dmg
+stringid add dmr_mag
+stringid add dmr_pwr
+stringid add carbine_rof
+stringid add carbine_mag
+stringid add carbine_rng
+stringid add carbine_dmg
+stringid add carbine_acc
+stringid add carbine_pwr
+stringid add smg_rof
+stringid add smg_acc
+stringid add smg_dmg
+stringid add smg_pwr
+stringid add magnum_dmg
+stringid add magnum_pwr
+stringid add mauler_pwr
+
+stringid add BubbleShield
+stringid add DeployableCover
+stringid add PowerDrain
+stringid add radarjammer
+stringid add Regen
+stringid add flare
+stringid add tripmine
+stringid add yellowpowerdrain
+stringid add equip_lift
+stringid add scrambler
+
+stringid add Spartan
+stringid add Monitor
+stringid add Halogram
+
+stringid add lastR_Bridge
+stringid add lastR_Barricade
+stringid add lastR_Light
+stringid add lastR_Window
+stringid add lastR_Mascot
+stringid add lastR_walllight
+stringid add lastR_barriers
+stringid add lastR_Bigwheel
+stringid add lastR_OtherBarriers
+stringid add lastR_Plant1
+stringid add lastR_Plant2
+stringid add lastR_Plant3
+stringid add lastR_device_control
+
+stringid add pit_controlpanel
+stringid add pit_metal
+stringid add pit_keyboard
+stringid add pit_pcmonitor
+stringid add pit_filecabinet
+stringid add pit_sfilecabinet
+stringid add pit_chair
+stringid add pit_gravlift
+stringid add pit_bird
+stringid add pit_bird2
+stringid add pit_bird3
+stringid add pit_camera
+stringid add pit_table
+stringid add pit_largescreen
+stringid add pit_smallscreen
+stringid add pit_whitescreen
+stringid add pit_coveredcrate1
+stringid add pit_coveredcrate2
+stringid add pit_coveredmetal
+stringid add pit_coveredcrate3
+stringid add pit_cameramoving
+stringid add pit_missiles
+stringid add pit_loudspeaker
+stringid add pit_pelican
+stringid add pit_mirrorsink
+stringid add pit_fan
+stringid add pit_Brutepopup
+stringid add pit_jackalpopup
+stringid add pit_generator_heavy_kettle
+
+stringid add narrows_iceicle
+stringid add narrows_miceicle
+stringid add narrows_gravlift
+stringid add narrows_sentinel
+stringid add narrows_sentinel2
+stringid add narrows_core
+stringid add narrows_iceicle2
+stringid add narrows_iceicle3
+stringid add narrows_iceicle4
+
+stringid add Highground_bunkerlid
+stringid add Highground_chaingate
+stringid add Highground_Cardboardbox
+stringid add Highground_CardboardboxOpen
+stringid add Highground_Cboardboxrec
+stringid add Highground_Cboardbox2
+stringid add Highground_squaretable
+stringid add Highground_chaingate2
+stringid add Highground_ProwlerTurret
+stringid add Highground_Shelves
+stringid add Highground_Gate
+stringid add Highground_unknown
+
+stringid add Sandtrap_UsncMetal
+stringid add Sandtrap_GravityLift
+stringid add Sandtrap_Barrel
+stringid add Sandtrap_crowbar
+stringid add Sandtrap_Metal_plate
+stringid add Sandtrap_Davinci_egg
+stringid add Sandtrap_lightstick
+stringid add sandtrap_phantom_part1
+stringid add sandtrap_phantom_part2
+stringid add sandtrap_phantom_part3
+stringid add sandtrap_phantom_part4
+stringid add sandtrap_phantom_part5
+stringid add sandtrap_phantom_part6
+stringid add sandtrap_phantom_part7
+stringid add sandtrap_phantom_part8
+stringid add sandtrap_phantom_part9
+stringid add sandtrap_phantom_part10
+stringid add sandtrap_phantom_part11
+stringid add frigate
+stringid add warthog_troop
+stringid add warthog_civ
+stringid add warthog_dmg
+
+stringid add Guardian_GoldLift
+stringid add Guardian_MancannonLift
+stringid add Guardian_Mancannonlift2
+stringid add Guardian_Mancannonlift3
+stringid add Guardian_Minilift
+stringid add Guardian_Quadwing
+stringid add Guardian_vine1
+stringid add Guardian_vine2
+stringid add Guardian_vine3
+stringid add Guardian_blueholo
+stringid add Guardian_purpleholo
+stringid add midhologram1
+stringid add midhologram2
+stringid add midhologram3
+stringid add midhologram4
+stringid add midhologram5
+stringid add midhologram6
+stringid add nebulahologram
+stringid add windowhologram
+stringid add earthhologram
+stringid add ringhologram
+
+stringid add Diamondback_Gravitylift1
+stringid add Diamondback_Gravitylift2
+stringid add Diamondback_Gravitylift3
+stringid add Diamondback_Gravitylift4
+stringid add Diamondback_Gravitylift5
+stringid add Diamondback_Gravitylift6
+stringid add Diamondback_Crack
+stringid add Diamondback_Mancannon
+stringid add Diamondback_Mancannon2
+
+stringid add turf_Antenna
+stringid add turf_metalbox
+stringid add turf_hornet
+
+stringid add reactor_redlight
+stringid add reactor_bluelight
+stringid add reactor_yellowlight
+stringid add reactor_middle
+stringid add reactor_supplycasegold
+ 
+stringid add standoff_lights
+stringid add standoff_locker
+stringid add standoff_metalfence
+stringid add standoff_metalsheet
+stringid add standoff_undergrounddoor
+stringid add standoff_windowflaps
+stringid add standoff_switch
+stringid add standoff_light2
+stringid add standoff_windowflaps2
+stringid add standoff_Plant1
+stringid add standoff_Plant2
+stringid add standoff_Plant3
+stringid add satellite
+stringid add satellite2
+stringid add standofflight_red
+stringid add standofflight_white
+stringid add standofflight_blue
+
+stringid add valhalla_mancannonfx
+stringid add valhalla_mancannonfx2
+stringid add valhalla_mancannon
+stringid add valhalla_waterfalltop
+stringid add valhalla_waterfallmiddle
+stringid add valhalla_waterfallbottom
+stringid add skybox
+stringid add valhalla_Pulse
+stringid add valhalla_light
+
+Stringid add edge_wepholder
+Stringid add edge_Goldlift
+Stringid add edge_lift
+Stringid add edge_Gravlift
+Stringid add edge_RespawnPoint
+Stringid add edge_skybox
+Stringid add edge_Plasmapistol
+Stringid add edge_needler
+Stringid add edge_mauler
+Stringid add edge_beamrifle
+Stringid add edge_gravhammer
+Stringid add edge_assaultrifle
+Stringid add edge_BR
+Stringid add edge_smg
+Stringid add edge_energysword
+Stringid add edge_rockets
+Stringid add edge_shotgun
+
+Stringid add powerup_blue
+Stringid add powerup_red
+Stringid add powerup_yellow
+Stringid add frag_nade
+Stringid add plasma_nade
+Stringid add spike_nade
+Stringid add flame_nade
+Stringid add ammo
+Stringid add ammo_small
+
+Stringid add infect_start_point
+
+echo adding new string_id's to tag 1221.multilingual_unicode_string_list. So they appear in the forge list.
+edit 1221
+set english box_s "Box Small"
+set english box_m "Box Med"
+set english box_l "Box Large"
+set english box_xl "Box xLarge"
+set english box_xxl "Box xxLarge"
+set english wall_s "Wall Small"
+set english wall_m "Wall Med"
+set english wall_l "Wall Large"
+set english wall_xl "Wall xLarge"
+set english wall_xxl "Wall xxLarge"
+set english elephant "Elephant"
+set english Gauss_Turret "Gauss turret"
+set english Chaingun_Turret "Warthog turret"
+set english Wraith_Turret "Wraith Turret"
+set english barriers "Death Barrier Remover"
+set english skybox "Skybox #~"
+
+set english Oddball "Oddball"
+set english flag "Flag"
+set english Bomb "Bomb"
+set english plasma_pistol_pwr "Plasma Pistol PWR"
+set english plasma_rifle "Plasma Rifle"
+set english plasma_riflev6 "Plasma Rifle PWR"
+set english assault_rifle_dmg "Assault Rifle DMG"
+set english assault_rifle_rof "Assault Rifle ROF"
+set english assault_rifle_acc "Assault Rifle ACC"
+set english assault_rifle_pwr "Assault Rifle PWR"
+set english battle_rifle_rof "Battle Rifle ROF"
+set english battle_rifle_acc "Battle Rifle ACC"
+set english battle_rifle_mag "Battle Rifle MAG"
+set english battle_rifle_dmg "Battle Rifle DMG"
+set english battle_rifle_rng "Battle Rifle RNG"
+set english battle_rifle_pwr "Battle Rifle PWR"
+set english dmr "DMR"
+set english dmr_rng "DMR RNG"
+set english dmr_acc "DMR ACC"
+set english dmr_rof "DMR ROF"
+set english dmr_dmg "DMR DMG"
+set english dmr_mag "DMR MAG"
+set english dmr_pwr "DMR PWR"
+set english carbine_rof "Carbine ROF"
+set english carbine_mag "Carbine MAG"
+set english carbine_rng "Carbine RNG"
+set english carbine_dmg "Carbine DMG"
+set english carbine_acc "Carbine ACC"
+set english carbine_pwr "Carbine PWR"
+set english smg_rof "SMG ROF"
+set english smg_acc "SMG ACC"
+set english smg_dmg "SMG DMG"
+set english smg_pwr "SMG PWR"
+set english magnum_dmg "Magnum DMG"
+set english magnum_pwr "Magnum PWR"
+set english mauler_pwr "Mauler PWR"
+
+set english warthog_pallete "Warthog palette #"
+set english mongoose_pallete "Mongoose palette #"
+set english cornersandbag "Corner Sandbag #"
+set english cornersandbag2 "Corner Sandbag 2 #"
+set english sandbagblock "Sandbag end #"
+set english sandbags "Sandbag wall #"
+set english twosandbags "two sandbags #"
+set english onesandbag "One sandbag #"
+set english opendroppod "Open Drop Pod #"
+
+set english Spartan "Spartan"
+set english Monitor "Monitor"
+set english Halogram "Halogram"
+
+set english powerup_blue "Active Camo"
+set english powerup_red "Overshield"
+set english powerup_yellow "Custom Powerup"
+set english frag_nade "Frag Grenade"
+set english plasma_nade "Plasma Grenade"
+set english spike_nade "Spike Grenade"
+set english flame_nade "Firebomb Grenade"
+set english ammo "Ammo Crate"
+set english ammo_small "Ammo Crate, Small"
+
+set english BubbleShield "Active Bubble Shield"
+set english DeployableCover "Active Deployable Cover"
+set english PowerDrain "Active Power Drain"
+set english Regen "Active Health Regen"
+set english radarjammer "Active Radar Jammer"
+set english flare "Active Flare"
+set english tripmine "Active Tripmine"
+set english yellowpowerdrain "Active Weapon Jammer"
+set english equip_lift "Timed Gravlift"
+set english scrambler "AI Spawner ~"
+
+set english lastR_Bridge "Bridge *"
+set english lastR_Barricade "Metal Barricade"
+set english lastR_Light "Light"
+set english lastR_Window "Window"
+set english lastR_Mascot "Mascot"
+set english lastR_walllight "Wall light"
+set english lastR_barriers "Barriers 5102 +"
+set english lastR_Bigwheel "Bigwheel 510D +"
+set english lastR_OtherBarriers "Barriers 2 511c +"
+set english lastR_Plant1 "Plant 1 #"
+set english lastR_Plant2 "Plant 2 #"
+set english lastR_Plant3 "Plant 3 #"
+set english lastR_device_control "Device Control"
+
+set english pit_controlpanel "Control Panel"
+set english pit_metal "Metal"
+set english pit_keyboard "Keyboard"
+set english pit_pcmonitor "Monitor"
+set english pit_filecabinet "File Cabinet"
+set english pit_sfilecabinet "File Cabinet s"
+set english pit_chair "Chair"
+set english pit_gravlift "Gravity Lift *"
+set english pit_bird "Bird"
+set english pit_bird2 "Bird 2"
+set english pit_bird3 "Bird 3"
+set english pit_camera "Camera"
+set english pit_table "Table #"
+set english pit_largescreen "Large Screen #"
+set english pit_smallscreen "Small Screen #"
+set english pit_whitescreen "White Screen #*"
+set english pit_coveredcrate1 "Covered turret case #"
+set english pit_coveredcrate2 "Covered Crate #"
+set english pit_coveredmetal "Metal Crate #"
+set english pit_coveredcrate3 "Covered Crate 2 #"
+set english pit_cameramoving "Moving Camera #"
+set english pit_missiles "Missles #*"
+set english pit_loudspeaker "Loudspeaker #"
+set english pit_pelican "Pelican #*"
+set english pit_mirrorsink "Sink and Mirror #"
+set english pit_fan "fan 476D +"
+set english pit_Brutepopup "Brute 477A +"
+set english pit_jackalpopup "Jackal 4791 +"
+set english pit_generator_heavy_kettle "Large Generator #"
+
+set english narrows_iceicle "Iceicle"
+set english narrows_miceicle "Iceicle 2"
+set english narrows_gravlift "Gravity lift *"
+set english narrows_sentinel "sentinel"
+set english narrows_sentinel2 "sentinel 2"
+set english narrows_core "power core"
+set english narrows_iceicle2 "Iceicle 3"
+set english narrows_iceicle3 "iceicle 4"
+set english narrows_iceicle4 "iceicle 5"
+
+set english Highground_bunkerlid "Bunker Lid #"
+set english Highground_chaingate "Chain gate #"
+set english Highground_Cardboardbox "Cardboard box #"
+set english Highground_CardboardboxOpen "Cardboard Box Open #"
+set english Highground_Cboardboxrec "Cardboard box 2 #"
+set english Highground_Cboardbox2 "Cardboard Box 3 #"
+set english Highground_squaretable "Square table #"
+set english Highground_chaingate2 "Chain gate 2 #"
+set english Highground_ProwlerTurret "Prowler Turret"
+set english Highground_Shelves "Shelves #"
+set english Highground_Gate "gate 535F +*"
+set english Highground_unknown "unknown *"
+
+set english Sandtrap_UsncMetal "Usnc Lid"
+set english Sandtrap_GravityLift "Gravity lift *"
+set english Sandtrap_Barrel "Fancy Barrel"
+set english Sandtrap_crowbar "Crowbar"
+set english Sandtrap_Metal_plate "Metal plate"
+set english Sandtrap_Davinci_egg "Da vinci egg"
+set english Sandtrap_lightstick "Lightstick #"
+set english sandtrap_phantom_part1 "Phantom Part 1 #"
+set english sandtrap_phantom_part2 "Phantom Part 2 #"
+set english sandtrap_phantom_part3 "Phantom Part 3 #"
+set english sandtrap_phantom_part4 "Phantom Part 4 #"
+set english sandtrap_phantom_part5 "Phantom Part 5 #"
+set english sandtrap_phantom_part6 "Phantom Part 6 #"
+set english sandtrap_phantom_part7 "Phantom Part 7 #"
+set english sandtrap_phantom_part8 "Phantom Part 8 #"
+set english sandtrap_phantom_part9 "Phantom Part 9 #"
+set english sandtrap_phantom_part10 "Phantom Part 10 #"
+set english sandtrap_phantom_part11 "Phantom Part 11 #"
+set english frigate "frigate #~"
+
+set english warthog_troop "Warthog, Troop"
+set english warthog_civ "Warthog, Civilian"
+set english warthog_dmg "Warthog, Damaged"
+
+set english Guardian_GoldLift "Gold Lift"
+set english Guardian_MancannonLift "Mancannon 1 *"
+set english Guardian_Mancannonlift2 "ManCannon 2 *"
+set english Guardian_Mancannonlift3 "ManCannon 3"
+set english Guardian_Minilift "Minilift"
+set english Guardian_Quadwing "Quadwing"
+set english Guardian_vine1 "vine #"
+set english Guardian_vine2 "Vine 2 #"
+set english Guardian_vine3 "vine 3 #"
+set english Guardian_blueholo "Blue hologram #"
+set english Guardian_purpleholo "Purple hologram #"
+set english midhologram1 "Middle Hologram 1 #"
+set english midhologram2 "Middle Hologram 2 #"
+set english midhologram3 "Middle Hologram 3 #"
+set english midhologram4 "Middle Hologram 4 #"
+set english midhologram5 "Middle Hologram 5 #"
+set english midhologram6 "Middle Hologram 6 #"
+set english nebulahologram "Nebula Hologram #"
+set english windowhologram "Window Hologram #"
+set english earthhologram "The Ark Hologram"
+set english ringhologram "Ring Hologram"
+
+set english Diamondback_Gravitylift1 "Gravitylift 1 *"
+set english Diamondback_Gravitylift2 "Gravitylift 2 *"
+set english Diamondback_Gravitylift3 "Gravitylift 3 *"
+set english Diamondback_Gravitylift4 "Gravitylift 4 *"
+set english Diamondback_Gravitylift5 "Gravitylift 5 *"
+set english Diamondback_Gravitylift6 "Gravitylift 6 *"
+set english Diamondback_Crack "Diamondback crack #"
+set english Diamondback_Mancannon "Mancannon 3A19 +"
+set english Diamondback_Mancannon2 "Mancannon 3A1A +"
+
+set english turf_Antenna "Antenna #"
+set english turf_metalbox "Metal box #"
+set english turf_hornet "Hornet"
+
+set english reactor_redlight "Red light #"
+set english reactor_bluelight "Blue light #"
+set english reactor_yellowlight "Yellow Light #"
+set english reactor_middle "Middle paltform #"
+set english reactor_supplycasegold "Supply Case Gold #"
+
+set english standoff_lights "Light #"
+set english standoff_locker "Locker #"
+set english standoff_metalfence "Metal fence #"
+set english standoff_metalsheet "Metal sheet #"
+set english standoff_undergrounddoor "Underground door +"
+set english standoff_windowflaps "Window panels +"
+set english standoff_switch "Switch +"
+set english standoff_light2 "Light 2 +"
+set english standoff_windowflaps2 "Window Panels 2 +"
+set english standoff_Plant1 "Plant 1 #" 
+set english standoff_Plant2 "Plant 2 #"
+set english standoff_Plant3 "Plant 3 #"
+set english satellite "Satellite #~"
+set english satellite2 "Satellite 2 #~"
+set english standofflight_red "Red light"
+set english standofflight_white "White Light"
+set english standofflight_blue "Blue Light"
+
+set english valhalla_mancannonfx "Man-Cannon FX #"
+set english valhalla_mancannonfx2 "Man-Cannon FX 2 #"
+set english valhalla_mancannon "Man-Cannon *"
+set english valhalla_waterfalltop "Waterfall top #"
+set english valhalla_waterfallmiddle "Waterfall Middle #"
+set english valhalla_waterfallbottom "Waterfall Bottom #"
+set english valhalla_Pulse "Tower Pulse #"
+set english valhalla_light "Blue Light"
+
+set english edge_wepholder "Weapon Holder"
+set english edge_Goldlift "Gold Lift"
+set english edge_lift "lift"
+set english edge_Gravlift "Grav lift"
+set english edge_RespawnPoint "Respawn Point"
+set english edge_skybox "Skybox"
+set english edge_Plasmapistol "Plasma Pistol"
+set english edge_needler "Needler"
+set english edge_mauler "Mauler"
+set english edge_beamrifle "Beam Rifle"
+set english edge_gravhammer "Grav hammer"
+set english edge_assaultrifle "Assault Rifle"
+set english edge_BR "Battle Rifle"
+set english edge_smg "SMG"
+set english edge_energysword "Energy Sword"
+set english edge_rockets "Rockets"
+set english edge_shotgun "Shotgun"
+
+set english infect_start_point "Starting Point"
+
+
+exitTo tags.dat
+
+echo   edit the scnr of valhalla
+edit 3488
+
+echo   This command "removefrom sandboxScenery 48 *" will remove any new tagblocks added by previous installations, so that they don't stack up.
+echo  Adds 10 entrys to the scenery forge menu
+
+removefrom sandboxScenery 48 *
+addto sandboxScenery 10
+setfield SandboxScenery[48].object 2EE9
+setfield SandboxScenery[49].object 2EEA
+setfield SandboxScenery[50].object 2EEB
+setfield SandboxScenery[51].object 2EEC
+setfield SandboxScenery[52].object 2EED
+setfield SandboxScenery[53].object 2EEE
+setfield SandboxScenery[54].object 2EEF
+setfield SandboxScenery[55].object 2EF0
+setfield SandboxScenery[56].object 2EF1
+setfield SandboxScenery[57].object 2EF2
+
+setfield sandboxScenery[48].name box_s
+setfield sandboxScenery[49].name box_m
+setfield sandboxScenery[50].name box_l
+setfield sandboxScenery[51].name box_xl
+setfield sandboxScenery[52].name box_xxl
+setfield sandboxScenery[53].name wall_s
+setfield sandboxScenery[54].name wall_m
+setfield sandboxScenery[55].name wall_l
+setfield sandboxScenery[56].name wall_xl
+setfield sandboxScenery[57].name wall_xxl
+
+
+removefrom sandboxEquipment 15 *
+addto sandboxEquipment 9
+setfield SandboxEquipment[15].object 196E
+setfield SandboxEquipment[16].object 1A6E
+setfield SandboxEquipment[17].object 15D2
+setfield SandboxEquipment[18].object 19C5
+setfield SandboxEquipment[19].object 18AC
+setfield SandboxEquipment[20].object 15D3
+setfield SandboxEquipment[21].object 15D1
+setfield SandboxEquipment[22].object 15D5
+setfield SandboxEquipment[23].object 15D4
+
+setfield SandboxEquipment[15].name BubbleShield
+setfield SandboxEquipment[16].name DeployableCover
+setfield SandboxEquipment[17].name PowerDrain
+setfield SandboxEquipment[18].name Regen
+setfield SandboxEquipment[19].name radarjammer
+setfield SandboxEquipment[20].name flare
+setfield SandboxEquipment[21].name tripmine
+setfield SandboxEquipment[22].name yellowpowerdrain
+setfield SandboxEquipment[23].name scrambler 
+
+removefrom SandboxWeapons 57 *
+addto SandboxWeapons 7
+setfield SandboxWeapons[57].object 1525
+setfield SandboxWeapons[57].name plasma_rifle
+setfield SandboxWeapons[58].object 15a2
+setfield SandboxWeapons[58].name flag
+setfield SandboxWeapons[59].object 15a3
+setfield SandboxWeapons[59].name Oddball
+setfield SandboxWeapons[60].object 15a4
+setfield SandboxWeapons[60].name Bomb
+setfield SandboxWeapons[61].object 29ED
+setfield SandboxWeapons[61].name Gauss_Turret 
+setfield SandboxWeapons[62].object 29EC
+setfield SandboxWeapons[62].name Chaingun_Turret
+setfield SandboxWeapons[63].object 3743
+setfield SandboxWeapons[63].name Wraith_Turret
+
+savechanges
+exit
+
+echo  changing the box objects so they are phased.
+edit 3435
+setfield Rigidbodies[*].motiontype 4
+savechanges
+exit
+
+edit 3439
+setfield Rigidbodies[*].motiontype 4
+savechanges
+exit
+
+edit 343C
+setfield Rigidbodies[*].motiontype 4
+savechanges
+exit
+
+edit 343F
+setfield Rigidbodies[*].motiontype 4
+savechanges
+exit
+
+edit 3442
+setfield Rigidbodies[*].motiontype 4
+savechanges
+exit
+
+echo  Changing the Wall objects so they are phased
+edit 3445
+setfield Rigidbodies[*].motiontype 4
+savechanges
+exit
+
+edit 3448
+setfield Rigidbodies[*].motiontype 4
+savechanges
+exit
+
+edit 344B
+setfield Rigidbodies[*].motiontype 4
+savechanges
+exit
+
+edit 344E
+setfield Rigidbodies[*].motiontype 4
+savechanges
+exit
+
+edit 3451
+setfield Rigidbodies[*].motiontype 4
+savechanges
+exit
+
+echo phasing vehicle turrets
+
+edit 2A23
+setfield Rigidbodies[*].motiontype 2
+savechanges
+exit
+
+edit 2A07
+setfield Rigidbodies[*].motiontype 2
+savechanges
+exit
+
+edit 379D
+setfield Rigidbodies[*].motiontype 2
+savechanges
+exit
+
+edit 53A7
+setfield Rigidbodies[*].motiontype 2
+savechanges
+exit
+
+
+echo Phasing objects on Pit
+
+edit 470D
+setfield Rigidbodies[*].motiontype 4
+savechanges
+exit
+
+edit 461C
+setfield Rigidbodies[*].motiontype 4
+savechanges
+exit
+
+
+echo phasing objects on narrows
+
+edit 4B7A
+setfield Rigidbodies[*].motiontype 4
+savechanges
+exit
+
+echo phasing items on Last resort
+
+edit 51FE
+setfield Rigidbodies[*].motiontype 4
+savechanges
+exit
+
+edit 5219
+setfield Rigidbodies[*].motiontype 4
+savechanges
+exit
+
+echo Phasing items on High ground
+
+edit 54A6
+setfield Rigidbodies[*].motiontype 4
+savechanges
+exit
+
+edit 54DB
+setfield Rigidbodies[*].motiontype 4
+savechanges
+exit
+
+
+echo Phasing items on Guardian
+
+edit 3425
+setfield Rigidbodies[*].motiontype 4
+savechanges
+exit
+
+edit 342f
+setfield Rigidbodies[*].motiontype 4
+savechanges
+exit
+
+edit 3432
+setfield Rigidbodies[*].motiontype 4
+savechanges
+exit
+
+
+phasing Items on Diamondback
+
+edit 3C84
+setfield Rigidbodies[*].motiontype 4
+savechanges
+exit
+
+edit 3C6F
+setfield Rigidbodies[*].motiontype 4
+savechanges
+exit
+
+edit 3C61
+setfield Rigidbodies[*].motiontype 4
+savechanges
+exit
+
+
+echo   edit the scnr of The Pit
+edit 4455
+echo   This command "removefrom sandboxScenery 23 *" will remove any new tagblocks added by previous installations, so that they don't stack up.
+removefrom sandboxScenery 23 *
+
+setfield sandboxbudget 10000
+
+echo  Adds 10 entrys to the scenery forge menu
+addto sandboxScenery 22
+setfield SandboxScenery[23].object 2EE9
+setfield SandboxScenery[24].object 2EEA
+setfield SandboxScenery[25].object 2EEB
+setfield SandboxScenery[26].object 2EEC
+setfield SandboxScenery[27].object 2EED
+setfield SandboxScenery[28].object 2EEE
+setfield SandboxScenery[29].object 2EEF
+setfield SandboxScenery[30].object 2EF0
+setfield SandboxScenery[31].object 2EF1
+setfield SandboxScenery[32].object 2EF2
+setfield SandboxScenery[33].object 48EF
+setfield SandboxScenery[34].object 4904
+setfield SandboxScenery[35].object 490E
+setfield SandboxScenery[36].object 4918
+setfield SandboxScenery[37].object 4923
+setfield SandboxScenery[38].object 492F
+setfield SandboxScenery[39].object 4934
+setfield SandboxScenery[40].object 4950
+setfield SandboxScenery[41].object 49B1
+setfield SandboxScenery[42].object 49C3
+setfield SandboxScenery[43].object 49DE
+setfield SandboxScenery[44].object 4703
+
+
+setfield sandboxScenery[23].name box_s
+setfield sandboxScenery[24].name box_m
+setfield sandboxScenery[25].name box_l
+setfield sandboxScenery[26].name box_xl
+setfield sandboxScenery[27].name box_xxl
+setfield sandboxScenery[28].name wall_s
+setfield sandboxScenery[29].name wall_m
+setfield sandboxScenery[30].name wall_l
+setfield sandboxScenery[31].name wall_xl
+setfield sandboxScenery[32].name wall_xxl
+setfield SandboxScenery[33].name pit_controlpanel
+setfield SandboxScenery[34].name pit_metal
+setfield SandboxScenery[35].name pit_keyboard
+setfield SandboxScenery[36].name pit_pcmonitor 
+setfield SandboxScenery[37].name pit_filecabinet 
+setfield SandboxScenery[38].name pit_sfilecabinet
+setfield SandboxScenery[39].name pit_chair 
+setfield SandboxScenery[40].name pit_gravlift
+setfield SandboxScenery[41].name pit_bird
+setfield SandboxScenery[42].name pit_bird2
+setfield SandboxScenery[43].name pit_bird3
+setfield SandboxScenery[44].name pit_camera
+setfield SandboxScenery[45].name pit_hornet
+
+
+removefrom sandboxEquipment 15 *
+addto sandboxEquipment 9
+setfield SandboxEquipment[15].object 196E
+setfield SandboxEquipment[16].object 1A6E
+setfield SandboxEquipment[17].object 15D2
+setfield SandboxEquipment[18].object 19C5
+setfield SandboxEquipment[19].object 18AC
+setfield SandboxEquipment[20].object 15D3
+setfield SandboxEquipment[21].object 15D1
+setfield SandboxEquipment[22].object 15D5
+setfield SandboxEquipment[23].object 15D4
+
+setfield SandboxEquipment[15].name BubbleShield
+setfield SandboxEquipment[16].name DeployableCover
+setfield SandboxEquipment[17].name PowerDrain
+setfield SandboxEquipment[18].name Regen
+setfield SandboxEquipment[19].name radarjammer
+setfield SandboxEquipment[20].name flare
+setfield SandboxEquipment[21].name tripmine
+setfield SandboxEquipment[22].name yellowpowerdrain
+setfield SandboxEquipment[23].name scrambler 
+
+
+removefrom SandboxWeapons 21 *
+addto SandboxWeapons 38
+setfield SandboxWeapons[21].object 1595
+setfield SandboxWeapons[21].name plasma_pistol_pwr
+setfield SandboxWeapons[22].object 1525
+setfield SandboxWeapons[22].name plasma_rifle
+setfield SandboxWeapons[23].object 1590
+setfield SandboxWeapons[23].name plasma_riflev6
+setfield SandboxWeapons[24].object 1581
+setfield SandboxWeapons[24].name assault_rifle_dmg
+setfield SandboxWeapons[25].object 1582
+setfield SandboxWeapons[25].name assault_rifle_rof
+setfield SandboxWeapons[26].object 1583
+setfield SandboxWeapons[26].name assault_rifle_acc
+setfield SandboxWeapons[27].object 1584
+setfield SandboxWeapons[27].name assault_rifle_pwr
+setfield SandboxWeapons[28].object 15BB
+setfield SandboxWeapons[28].name battle_rifle_rof
+setfield SandboxWeapons[29].object 15BC
+setfield SandboxWeapons[29].name battle_rifle_acc
+setfield SandboxWeapons[30].object 1585
+setfield SandboxWeapons[30].name battle_rifle_mag
+setfield SandboxWeapons[31].object 1586
+setfield SandboxWeapons[31].name battle_rifle_dmg
+setfield SandboxWeapons[32].object 15BD
+setfield SandboxWeapons[32].name battle_rifle_rng
+setfield SandboxWeapons[33].object 1587
+setfield SandboxWeapons[33].name battle_rifle_pwr
+setfield SandboxWeapons[34].object 1580
+setfield SandboxWeapons[34].name dmr
+setfield SandboxWeapons[35].object 15BF
+setfield SandboxWeapons[35].name dmr_rng
+setfield SandboxWeapons[36].object 1588
+setfield SandboxWeapons[36].name dmr_acc
+setfield SandboxWeapons[37].object 1589
+setfield SandboxWeapons[37].name dmr_rof
+setfield SandboxWeapons[38].object 158A
+setfield SandboxWeapons[38].name dmr_dmg
+setfield SandboxWeapons[39].object 15BE
+setfield SandboxWeapons[39].name dmr_mag
+setfield SandboxWeapons[40].object 158B
+setfield SandboxWeapons[40].name dmr_pwr
+setfield SandboxWeapons[41].object 15C0
+setfield SandboxWeapons[41].name carbine_rof
+setfield SandboxWeapons[42].object 15C1
+setfield SandboxWeapons[42].name carbine_mag
+setfield SandboxWeapons[43].object 15C2
+setfield SandboxWeapons[43].name carbine_rng
+setfield SandboxWeapons[44].object 15C3
+setfield SandboxWeapons[44].name carbine_dmg
+setfield SandboxWeapons[45].object 15c4
+setfield SandboxWeapons[45].name carbine_acc
+setfield SandboxWeapons[46].object 1591
+setfield SandboxWeapons[46].name carbine_pwr
+setfield SandboxWeapons[47].object 158C
+setfield SandboxWeapons[47].name smg_rof
+setfield SandboxWeapons[48].object 158D
+setfield SandboxWeapons[48].name smg_acc
+setfield SandboxWeapons[49].object 158E
+setfield SandboxWeapons[49].name smg_dmg
+setfield SandboxWeapons[50].object 158F
+setfield SandboxWeapons[50].name smg_pwr
+setfield SandboxWeapons[51].object 1593
+setfield SandboxWeapons[51].name magnum_dmg
+setfield SandboxWeapons[52].object 1594
+setfield SandboxWeapons[52].name magnum_pwr
+setfield SandboxWeapons[53].object 1592
+setfield SandboxWeapons[53].name mauler_pwr
+setfield SandboxWeapons[54].object 29ED
+setfield SandboxWeapons[54].name Gauss_Turret
+setfield SandboxWeapons[55].object 29EC
+setfield SandboxWeapons[55].name Chaingun_Turret
+setfield SandboxWeapons[56].object 15a2
+setfield SandboxWeapons[56].name flag
+setfield SandboxWeapons[57].object 15a3
+setfield SandboxWeapons[57].name Oddball
+setfield SandboxWeapons[58].object 15a4
+setfield SandboxWeapons[58].name Bomb
+
+
+echo  maxing forge pallete for Pit
+setfield sandboxScenery[0].maxallowed 0
+setfield sandboxScenery[1].maxallowed 0
+setfield sandboxScenery[2].maxallowed 0
+setfield sandboxScenery[3].maxallowed 0
+setfield sandboxScenery[4].maxallowed 0
+setfield sandboxScenery[5].maxallowed 0
+setfield sandboxScenery[6].maxallowed 0
+setfield sandboxScenery[7].maxallowed 0
+setfield sandboxScenery[8].maxallowed 0
+setfield sandboxScenery[9].maxallowed 0
+setfield sandboxScenery[10].maxallowed 0
+setfield sandboxScenery[11].maxallowed 0
+setfield sandboxScenery[12].maxallowed 0
+setfield sandboxScenery[13].maxallowed 0
+setfield sandboxScenery[14].maxallowed 0
+setfield sandboxScenery[15].maxallowed 0
+setfield sandboxScenery[16].maxallowed 0
+setfield sandboxScenery[17].maxallowed 0
+setfield sandboxScenery[18].maxallowed 0
+setfield sandboxScenery[19].maxallowed 0
+setfield sandboxScenery[20].maxallowed 0
+setfield sandboxScenery[21].maxallowed 0
+setfield sandboxScenery[22].maxallowed 0
+setfield sandboxVehicles[0].maxallowed 0
+setfield sandboxVehicles[1].maxallowed 0
+setfield sandboxWeapons[0].maxallowed 0
+setfield sandboxWeapons[1].maxallowed 0
+setfield sandboxWeapons[2].maxallowed 0
+setfield sandboxWeapons[3].maxallowed 0
+setfield sandboxWeapons[4].maxallowed 0
+setfield sandboxWeapons[5].maxallowed 0
+setfield sandboxWeapons[6].maxallowed 0
+setfield sandboxWeapons[7].maxallowed 0
+setfield sandboxWeapons[8].maxallowed 0
+setfield sandboxWeapons[9].maxallowed 0
+setfield sandboxWeapons[10].maxallowed 0
+setfield sandboxWeapons[11].maxallowed 0
+setfield sandboxWeapons[12].maxallowed 0
+setfield sandboxWeapons[13].maxallowed 0
+setfield sandboxWeapons[14].maxallowed 0
+setfield sandboxWeapons[15].maxallowed 0
+setfield sandboxWeapons[16].maxallowed 0
+setfield sandboxWeapons[17].maxallowed 0
+setfield sandboxWeapons[18].maxallowed 0
+setfield sandboxWeapons[19].maxallowed 0
+setfield sandboxWeapons[20].maxallowed 0
+setfield sandboxEquipment[0].maxallowed 0
+setfield sandboxEquipment[1].maxallowed 0
+setfield sandboxEquipment[2].maxallowed 0
+setfield sandboxEquipment[3].maxallowed 0
+setfield sandboxEquipment[4].maxallowed 0
+setfield sandboxEquipment[5].maxallowed 0
+setfield sandboxEquipment[6].maxallowed 0
+setfield sandboxEquipment[7].maxallowed 0
+setfield sandboxEquipment[8].maxallowed 0
+setfield sandboxEquipment[9].maxallowed 0
+setfield sandboxEquipment[10].maxallowed 0
+setfield sandboxEquipment[11].maxallowed 0
+setfield sandboxEquipment[12].maxallowed 0
+setfield sandboxEquipment[13].maxallowed 0
+setfield sandboxEquipment[14].maxallowed 0
+setfield sandboxTeleporters[0].maxallowed 0
+setfield sandboxTeleporters[1].maxallowed 0
+setfield sandboxTeleporters[2].maxallowed 0
+setfield sandboxSpawning[0].maxallowed 0
+setfield sandboxSpawning[1].maxallowed 0
+setfield sandboxSpawning[2].maxallowed 0
+setfield sandboxSpawning[3].maxallowed 0
+setfield sandboxSpawning[4].maxallowed 0
+setfield sandboxSpawning[5].maxallowed 0
+setfield sandboxSpawning[6].maxallowed 0
+setfield sandboxSpawning[7].maxallowed 0
+setfield sandboxSpawning[8].maxallowed 0
+setfield sandboxSpawning[9].maxallowed 0
+setfield sandboxSpawning[10].maxallowed 0
+setfield sandboxSpawning[11].maxallowed 0
+setfield sandboxSpawning[12].maxallowed 0
+setfield sandboxSpawning[13].maxallowed 0
+setfield sandboxSpawning[14].maxallowed 0
+setfield sandboxSpawning[15].maxallowed 0
+setfield sandboxSpawning[16].maxallowed 0
+setfield sandboxSpawning[17].maxallowed 0
+setfield sandboxSpawning[18].maxallowed 0
+setfield sandboxGoalObjects[0].maxallowed 0
+setfield sandboxGoalObjects[1].maxallowed 0
+setfield sandboxGoalObjects[2].maxallowed 0
+setfield sandboxGoalObjects[3].maxallowed 0
+setfield sandboxGoalObjects[4].maxallowed 0
+setfield sandboxGoalObjects[5].maxallowed 0
+setfield sandboxGoalObjects[6].maxallowed 0
+setfield sandboxGoalObjects[7].maxallowed 0
+setfield sandboxGoalObjects[8].maxallowed 0
+
+
+savechanges
+exit
+
+echo   edit the scnr of Narrows
+edit 4A08
+
+removefrom sandboxScenery 19 *
+
+setfield sandboxbudget 10000
+
+addto sandboxScenery 11
+setfield SandboxScenery[19].object 2EE9
+setfield SandboxScenery[20].object 2EEA
+setfield SandboxScenery[21].object 2EEB
+setfield SandboxScenery[22].object 2EEC
+setfield SandboxScenery[23].object 2EED
+setfield SandboxScenery[24].object 2EEE
+setfield SandboxScenery[25].object 2EEF
+setfield SandboxScenery[26].object 2EF0
+setfield SandboxScenery[27].object 2EF1
+setfield SandboxScenery[28].object 2EF2
+setfield SandboxScenery[29].object 4BC8
+setfield sandboxScenery[19].name box_s
+setfield sandboxScenery[20].name box_m
+setfield sandboxScenery[21].name box_l
+setfield sandboxScenery[22].name box_xl
+setfield sandboxScenery[23].name box_xxl
+setfield sandboxScenery[24].name wall_s
+setfield sandboxScenery[25].name wall_m
+setfield sandboxScenery[26].name wall_l
+setfield sandboxScenery[27].name wall_xl
+setfield sandboxScenery[28].name wall_xxl
+setfield SandboxScenery[29].name narrows_gravlift
+
+
+removefrom sandboxVehicles 2 *
+addto sandboxVehicles 2
+setfield SandboxVehicles[2].object 1598
+setfield SandboxVehicles[2].name hornet
+setfield SandboxVehicles[3].object 151A
+setfield SandboxVehicles[3].name banshee
+
+
+removefrom sandboxEquipment 15 *
+addto sandboxEquipment 9
+setfield SandboxEquipment[15].object 196E
+setfield SandboxEquipment[16].object 1A6E
+setfield SandboxEquipment[17].object 15D2
+setfield SandboxEquipment[18].object 19C5
+setfield SandboxEquipment[19].object 18AC
+setfield SandboxEquipment[20].object 15D3
+setfield SandboxEquipment[21].object 15D1
+setfield SandboxEquipment[22].object 15D5
+setfield SandboxEquipment[23].object 15D4
+
+setfield SandboxEquipment[15].name BubbleShield
+setfield SandboxEquipment[16].name DeployableCover
+setfield SandboxEquipment[17].name PowerDrain
+setfield SandboxEquipment[18].name Regen
+setfield SandboxEquipment[19].name radarjammer
+setfield SandboxEquipment[20].name flare
+setfield SandboxEquipment[21].name tripmine
+setfield SandboxEquipment[22].name yellowpowerdrain
+setfield SandboxEquipment[23].name scrambler 
+
+removefrom SandboxWeapons 22 *
+addto SandboxWeapons 37
+setfield SandboxWeapons[22].object 1595
+setfield SandboxWeapons[22].name plasma_pistol_pwr
+setfield SandboxWeapons[23].object 1590
+setfield SandboxWeapons[23].name plasma_riflev6
+setfield SandboxWeapons[24].object 1581
+setfield SandboxWeapons[24].name assault_rifle_dmg
+setfield SandboxWeapons[25].object 1582
+setfield SandboxWeapons[25].name assault_rifle_rof
+setfield SandboxWeapons[26].object 1583
+setfield SandboxWeapons[26].name assault_rifle_acc
+setfield SandboxWeapons[27].object 1584
+setfield SandboxWeapons[27].name assault_rifle_pwr
+setfield SandboxWeapons[28].object 15BB
+setfield SandboxWeapons[28].name battle_rifle_rof
+setfield SandboxWeapons[29].object 15BC
+setfield SandboxWeapons[29].name battle_rifle_acc
+setfield SandboxWeapons[30].object 1585
+setfield SandboxWeapons[30].name battle_rifle_mag
+setfield SandboxWeapons[31].object 1586
+setfield SandboxWeapons[31].name battle_rifle_dmg
+setfield SandboxWeapons[32].object 15BD
+setfield SandboxWeapons[32].name battle_rifle_rng
+setfield SandboxWeapons[33].object 1587
+setfield SandboxWeapons[33].name battle_rifle_pwr
+setfield SandboxWeapons[34].object 1580
+setfield SandboxWeapons[34].name dmr
+setfield SandboxWeapons[35].object 15BF
+setfield SandboxWeapons[35].name dmr_rng
+setfield SandboxWeapons[36].object 1588
+setfield SandboxWeapons[36].name dmr_acc
+setfield SandboxWeapons[37].object 1589
+setfield SandboxWeapons[37].name dmr_rof
+setfield SandboxWeapons[38].object 158A
+setfield SandboxWeapons[38].name dmr_dmg
+setfield SandboxWeapons[39].object 15BE
+setfield SandboxWeapons[39].name dmr_mag
+setfield SandboxWeapons[40].object 158B
+setfield SandboxWeapons[40].name dmr_pwr
+setfield SandboxWeapons[41].object 15C0
+setfield SandboxWeapons[41].name carbine_rof
+setfield SandboxWeapons[42].object 15C1
+setfield SandboxWeapons[42].name carbine_mag
+setfield SandboxWeapons[43].object 15C2
+setfield SandboxWeapons[43].name carbine_rng
+setfield SandboxWeapons[44].object 15C3
+setfield SandboxWeapons[44].name carbine_dmg
+setfield SandboxWeapons[45].object 15c4
+setfield SandboxWeapons[45].name carbine_acc
+setfield SandboxWeapons[46].object 1591
+setfield SandboxWeapons[46].name carbine_pwr
+setfield SandboxWeapons[47].object 158C
+setfield SandboxWeapons[47].name smg_rof
+setfield SandboxWeapons[48].object 158D
+setfield SandboxWeapons[48].name smg_acc
+setfield SandboxWeapons[49].object 158E
+setfield SandboxWeapons[49].name smg_dmg
+setfield SandboxWeapons[50].object 158F
+setfield SandboxWeapons[50].name smg_pwr
+setfield SandboxWeapons[51].object 1593
+setfield SandboxWeapons[51].name magnum_dmg
+setfield SandboxWeapons[52].object 1594
+setfield SandboxWeapons[52].name magnum_pwr
+setfield SandboxWeapons[53].object 1592
+setfield SandboxWeapons[53].name mauler_pwr
+setfield SandboxWeapons[54].object 29ED
+setfield SandboxWeapons[54].name Gauss_Turret
+setfield SandboxWeapons[55].object 29EC
+setfield SandboxWeapons[55].name Chaingun_Turret
+setfield SandboxWeapons[56].object 15a2
+setfield SandboxWeapons[56].name flag
+setfield SandboxWeapons[57].object 15a3
+setfield SandboxWeapons[57].name Oddball
+setfield SandboxWeapons[58].object 15a4
+setfield SandboxWeapons[58].name Bomb
+
+
+echo  maxing forge pallete for Narrows
+setfield sandboxScenery[0].maxallowed 0
+setfield sandboxScenery[1].maxallowed 0
+setfield sandboxScenery[2].maxallowed 0
+setfield sandboxScenery[3].maxallowed 0
+setfield sandboxScenery[4].maxallowed 0
+setfield sandboxScenery[5].maxallowed 0
+setfield sandboxScenery[6].maxallowed 0
+setfield sandboxScenery[7].maxallowed 0
+setfield sandboxScenery[8].maxallowed 0
+setfield sandboxScenery[9].maxallowed 0
+setfield sandboxScenery[10].maxallowed 0
+setfield sandboxScenery[11].maxallowed 0
+setfield sandboxScenery[12].maxallowed 0
+setfield sandboxScenery[13].maxallowed 0
+setfield sandboxScenery[14].maxallowed 0
+setfield sandboxScenery[15].maxallowed 0
+setfield sandboxScenery[16].maxallowed 0
+setfield sandboxScenery[17].maxallowed 0
+setfield sandboxScenery[18].maxallowed 0
+setfield sandboxScenery[19].maxallowed 0
+
+setfield sandboxVehicles[0].maxallowed 0
+setfield sandboxVehicles[1].maxallowed 0
+
+setfield sandboxWeapons[0].maxallowed 0
+setfield sandboxWeapons[1].maxallowed 0
+setfield sandboxWeapons[2].maxallowed 0
+setfield sandboxWeapons[3].maxallowed 0
+setfield sandboxWeapons[4].maxallowed 0
+setfield sandboxWeapons[5].maxallowed 0
+setfield sandboxWeapons[6].maxallowed 0
+setfield sandboxWeapons[7].maxallowed 0
+setfield sandboxWeapons[8].maxallowed 0
+setfield sandboxWeapons[9].maxallowed 0
+setfield sandboxWeapons[10].maxallowed 0
+setfield sandboxWeapons[11].maxallowed 0
+setfield sandboxWeapons[12].maxallowed 0
+setfield sandboxWeapons[13].maxallowed 0
+setfield sandboxWeapons[14].maxallowed 0
+setfield sandboxWeapons[15].maxallowed 0
+setfield sandboxWeapons[16].maxallowed 0
+setfield sandboxWeapons[17].maxallowed 0
+setfield sandboxWeapons[18].maxallowed 0
+setfield sandboxWeapons[19].maxallowed 0
+setfield sandboxWeapons[20].maxallowed 0
+setfield sandboxWeapons[21].maxallowed 0
+
+
+setfield sandboxEquipment[0].maxallowed 0
+setfield sandboxEquipment[1].maxallowed 0
+setfield sandboxEquipment[2].maxallowed 0
+setfield sandboxEquipment[3].maxallowed 0
+setfield sandboxEquipment[4].maxallowed 0
+setfield sandboxEquipment[5].maxallowed 0
+setfield sandboxEquipment[6].maxallowed 0
+setfield sandboxEquipment[7].maxallowed 0
+setfield sandboxEquipment[8].maxallowed 0
+setfield sandboxEquipment[9].maxallowed 0
+setfield sandboxEquipment[10].maxallowed 0
+setfield sandboxEquipment[11].maxallowed 0
+setfield sandboxEquipment[12].maxallowed 0
+setfield sandboxEquipment[13].maxallowed 0
+setfield sandboxEquipment[14].maxallowed 0
+
+setfield sandboxTeleporters[0].maxallowed 0
+setfield sandboxTeleporters[1].maxallowed 0
+setfield sandboxTeleporters[2].maxallowed 0
+
+setfield sandboxSpawning[0].maxallowed 0
+setfield sandboxSpawning[1].maxallowed 0
+setfield sandboxSpawning[2].maxallowed 0
+setfield sandboxSpawning[3].maxallowed 0
+setfield sandboxSpawning[4].maxallowed 0
+setfield sandboxSpawning[5].maxallowed 0
+setfield sandboxSpawning[6].maxallowed 0
+setfield sandboxSpawning[7].maxallowed 0
+setfield sandboxSpawning[8].maxallowed 0
+setfield sandboxSpawning[9].maxallowed 0
+setfield sandboxSpawning[10].maxallowed 0
+setfield sandboxSpawning[11].maxallowed 0
+setfield sandboxSpawning[12].maxallowed 0
+setfield sandboxSpawning[13].maxallowed 0
+setfield sandboxSpawning[14].maxallowed 0
+setfield sandboxSpawning[15].maxallowed 0
+setfield sandboxSpawning[16].maxallowed 0
+setfield sandboxSpawning[17].maxallowed 0
+setfield sandboxSpawning[18].maxallowed 0
+
+setfield sandboxGoalObjects[0].maxallowed 0
+setfield sandboxGoalObjects[1].maxallowed 0
+setfield sandboxGoalObjects[2].maxallowed 0
+setfield sandboxGoalObjects[3].maxallowed 0
+setfield sandboxGoalObjects[4].maxallowed 0
+setfield sandboxGoalObjects[5].maxallowed 0
+setfield sandboxGoalObjects[6].maxallowed 0
+setfield sandboxGoalObjects[7].maxallowed 0
+setfield sandboxGoalObjects[8].maxallowed 0
+
+savechanges
+exit
+
+echo   edit the scnr of Standoff
+edit 4BD7
+echo   This command "removefrom sandboxScenery 30 *" will remove any new tagblocks added by previous installations, so that they don't stack up.
+removefrom sandboxScenery 30 *
+
+setfield sandboxbudget 10000
+
+echo  Adds 13 entrys to the scenery forge menu
+addto sandboxScenery 10
+setfield SandboxScenery[30].object 2EE9
+setfield SandboxScenery[31].object 2EEA
+setfield SandboxScenery[32].object 2EEB
+setfield SandboxScenery[33].object 2EEC
+setfield SandboxScenery[34].object 2EED
+setfield SandboxScenery[35].object 2EEE
+setfield SandboxScenery[36].object 2EEF
+setfield SandboxScenery[37].object 2EF0
+setfield SandboxScenery[38].object 2EF1
+setfield SandboxScenery[39].object 2EF2
+
+setfield sandboxScenery[30].name box_s
+setfield sandboxScenery[31].name box_m
+setfield sandboxScenery[32].name box_l
+setfield sandboxScenery[33].name box_xl
+setfield sandboxScenery[34].name box_xxl
+setfield sandboxScenery[35].name wall_s
+setfield sandboxScenery[36].name wall_m
+setfield sandboxScenery[37].name wall_l
+setfield sandboxScenery[38].name wall_xl
+setfield sandboxScenery[39].name wall_xxl
+
+
+removefrom SandboxWeapons 18 *
+addto SandboxWeapons 40
+setfield SandboxWeapons[18].object 1595
+setfield SandboxWeapons[18].name plasma_pistol_pwr
+setfield SandboxWeapons[19].object 1525
+setfield SandboxWeapons[19].name plasma_rifle
+setfield SandboxWeapons[20].object 1590
+setfield SandboxWeapons[20].name plasma_riflev6
+setfield SandboxWeapons[21].object 1581
+setfield SandboxWeapons[21].name assault_rifle_dmg
+setfield SandboxWeapons[22].object 1582
+setfield SandboxWeapons[22].name assault_rifle_rof
+setfield SandboxWeapons[23].object 1583
+setfield SandboxWeapons[23].name assault_rifle_acc
+setfield SandboxWeapons[24].object 1584
+setfield SandboxWeapons[24].name assault_rifle_pwr
+setfield SandboxWeapons[25].object 15BB
+setfield SandboxWeapons[25].name battle_rifle_rof
+setfield SandboxWeapons[26].object 15BC
+setfield SandboxWeapons[26].name battle_rifle_acc
+setfield SandboxWeapons[27].object 1585
+setfield SandboxWeapons[27].name battle_rifle_mag
+setfield SandboxWeapons[28].object 1586
+setfield SandboxWeapons[28].name battle_rifle_dmg
+setfield SandboxWeapons[29].object 15BD
+setfield SandboxWeapons[29].name battle_rifle_rng
+setfield SandboxWeapons[30].object 1587
+setfield SandboxWeapons[30].name battle_rifle_pwr
+setfield SandboxWeapons[31].object 1580
+setfield SandboxWeapons[31].name dmr
+setfield SandboxWeapons[32].object 15BF
+setfield SandboxWeapons[32].name dmr_rng
+setfield SandboxWeapons[33].object 1588
+setfield SandboxWeapons[33].name dmr_acc
+setfield SandboxWeapons[34].object 1589
+setfield SandboxWeapons[34].name dmr_rof
+setfield SandboxWeapons[35].object 158A
+setfield SandboxWeapons[35].name dmr_dmg
+setfield SandboxWeapons[36].object 15BE
+setfield SandboxWeapons[36].name dmr_mag
+setfield SandboxWeapons[37].object 158B
+setfield SandboxWeapons[37].name dmr_pwr
+setfield SandboxWeapons[38].object 15C0
+setfield SandboxWeapons[38].name carbine_rof
+setfield SandboxWeapons[39].object 15C1
+setfield SandboxWeapons[39].name carbine_mag
+setfield SandboxWeapons[40].object 15C2
+setfield SandboxWeapons[40].name carbine_rng
+setfield SandboxWeapons[41].object 15C3
+setfield SandboxWeapons[41].name carbine_dmg
+setfield SandboxWeapons[42].object 15C4
+setfield SandboxWeapons[42].name carbine_acc
+setfield SandboxWeapons[43].object 1591
+setfield SandboxWeapons[43].name carbine_pwr
+setfield SandboxWeapons[44].object 158C
+setfield SandboxWeapons[44].name smg_rof
+setfield SandboxWeapons[45].object 158D
+setfield SandboxWeapons[45].name smg_acc
+setfield SandboxWeapons[46].object 158E
+setfield SandboxWeapons[46].name smg_dmg
+setfield SandboxWeapons[47].object 158F
+setfield SandboxWeapons[47].name smg_pwr
+setfield SandboxWeapons[48].object 1593
+setfield SandboxWeapons[48].name magnum_dmg
+setfield SandboxWeapons[49].object 1594
+setfield SandboxWeapons[49].name magnum_pwr
+setfield SandboxWeapons[50].object 1592
+setfield SandboxWeapons[50].name mauler_pwr
+setfield SandboxWeapons[51].object 29ED
+setfield SandboxWeapons[51].name Gauss_Turret
+setfield SandboxWeapons[52].object 29EC
+setfield SandboxWeapons[52].name Chaingun_Turret
+setfield SandboxWeapons[53].object 3743
+setfield SandboxWeapons[53].name Wraith_Turret
+setfield SandboxWeapons[54].object 53A2
+setfield SandboxWeapons[54].name Highground_ProwlerTurret
+setfield SandboxWeapons[55].object 15a2
+setfield SandboxWeapons[55].name flag
+setfield SandboxWeapons[56].object 15a3
+setfield SandboxWeapons[56].name Oddball
+setfield SandboxWeapons[57].object 15a4
+setfield SandboxWeapons[57].name Bomb
+
+
+removefrom SandboxVehicles 9 *
+addto SandboxVehicles 3
+setfield SandboxVehicles[9].object 4442
+setfield SandboxVehicles[9].name warthog_troop
+setfield SandboxVehicles[10].object 4443
+setfield SandboxVehicles[10].name warthog_civ
+setfield SandboxVehicles[11].object 4447
+setfield SandboxVehicles[11].name warthog_dmg
+
+
+removefrom sandboxEquipment 15 *
+addto sandboxEquipment 9
+setfield SandboxEquipment[15].object 196E
+setfield SandboxEquipment[16].object 1A6E
+setfield SandboxEquipment[17].object 15D2
+setfield SandboxEquipment[18].object 19C5
+setfield SandboxEquipment[19].object 18AC
+setfield SandboxEquipment[20].object 15D3
+setfield SandboxEquipment[21].object 15D1
+setfield SandboxEquipment[22].object 15D5
+setfield SandboxEquipment[23].object 15D4
+
+setfield SandboxEquipment[15].name BubbleShield
+setfield SandboxEquipment[16].name DeployableCover
+setfield SandboxEquipment[17].name PowerDrain
+setfield SandboxEquipment[18].name Regen
+setfield SandboxEquipment[19].name radarjammer
+setfield SandboxEquipment[20].name flare
+setfield SandboxEquipment[21].name tripmine
+setfield SandboxEquipment[22].name yellowpowerdrain
+setfield SandboxEquipment[23].name scrambler 
+
+
+echo  maxing forge pallete for Standoff
+setfield sandboxScenery[0].maxallowed 0
+setfield sandboxScenery[1].maxallowed 0
+setfield sandboxScenery[2].maxallowed 0
+setfield sandboxScenery[3].maxallowed 0
+setfield sandboxScenery[4].maxallowed 0
+setfield sandboxScenery[5].maxallowed 0
+setfield sandboxScenery[6].maxallowed 0
+setfield sandboxScenery[7].maxallowed 0
+setfield sandboxScenery[8].maxallowed 0
+setfield sandboxScenery[9].maxallowed 0
+setfield sandboxScenery[10].maxallowed 0
+setfield sandboxScenery[11].maxallowed 0
+setfield sandboxScenery[12].maxallowed 0
+setfield sandboxScenery[13].maxallowed 0
+setfield sandboxScenery[14].maxallowed 0
+setfield sandboxScenery[15].maxallowed 0
+setfield sandboxScenery[16].maxallowed 0
+setfield sandboxScenery[17].maxallowed 0
+setfield sandboxScenery[18].maxallowed 0
+setfield sandboxScenery[19].maxallowed 0
+setfield sandboxScenery[20].maxallowed 0
+setfield sandboxScenery[21].maxallowed 0
+setfield sandboxScenery[22].maxallowed 0
+setfield sandboxScenery[23].maxallowed 0
+setfield sandboxScenery[24].maxallowed 0
+setfield sandboxScenery[25].maxallowed 0
+setfield sandboxScenery[26].maxallowed 0
+setfield sandboxScenery[27].maxallowed 0
+setfield sandboxScenery[28].maxallowed 0
+setfield sandboxScenery[29].maxallowed 0
+setfield sandboxVehicles[0].maxallowed 0
+setfield sandboxVehicles[1].maxallowed 0
+setfield sandboxVehicles[2].maxallowed 0
+setfield sandboxVehicles[3].maxallowed 0
+setfield sandboxVehicles[4].maxallowed 0
+setfield sandboxVehicles[5].maxallowed 0
+setfield sandboxVehicles[6].maxallowed 0
+setfield sandboxWeapons[0].maxallowed 0
+setfield sandboxWeapons[1].maxallowed 0
+setfield sandboxWeapons[2].maxallowed 0
+setfield sandboxWeapons[3].maxallowed 0
+setfield sandboxWeapons[4].maxallowed 0
+setfield sandboxWeapons[5].maxallowed 0
+setfield sandboxWeapons[6].maxallowed 0
+setfield sandboxWeapons[7].maxallowed 0
+setfield sandboxWeapons[8].maxallowed 0
+setfield sandboxWeapons[9].maxallowed 0
+setfield sandboxWeapons[10].maxallowed 0
+setfield sandboxWeapons[11].maxallowed 0
+setfield sandboxWeapons[12].maxallowed 0
+setfield sandboxWeapons[13].maxallowed 0
+setfield sandboxWeapons[14].maxallowed 0
+setfield sandboxWeapons[15].maxallowed 0
+setfield sandboxWeapons[16].maxallowed 0
+setfield sandboxWeapons[17].maxallowed 0
+setfield sandboxWeapons[18].maxallowed 0
+setfield sandboxWeapons[19].maxallowed 0
+setfield sandboxWeapons[20].maxallowed 0
+setfield sandboxWeapons[21].maxallowed 0
+setfield sandboxWeapons[22].maxallowed 0
+setfield sandboxEquipment[0].maxallowed 0
+setfield sandboxEquipment[1].maxallowed 0
+setfield sandboxEquipment[2].maxallowed 0
+setfield sandboxEquipment[3].maxallowed 0
+setfield sandboxEquipment[4].maxallowed 0
+setfield sandboxEquipment[5].maxallowed 0
+setfield sandboxEquipment[6].maxallowed 0
+setfield sandboxEquipment[7].maxallowed 0
+setfield sandboxEquipment[8].maxallowed 0
+setfield sandboxEquipment[9].maxallowed 0
+setfield sandboxEquipment[10].maxallowed 0
+setfield sandboxEquipment[11].maxallowed 0
+setfield sandboxEquipment[12].maxallowed 0
+setfield sandboxEquipment[13].maxallowed 0
+setfield sandboxEquipment[14].maxallowed 0
+setfield sandboxTeleporters[0].maxallowed 0
+setfield sandboxTeleporters[1].maxallowed 0
+setfield sandboxTeleporters[2].maxallowed 0
+setfield sandboxSpawning[0].maxallowed 0
+setfield sandboxSpawning[1].maxallowed 0
+setfield sandboxSpawning[2].maxallowed 0
+setfield sandboxSpawning[3].maxallowed 0
+setfield sandboxSpawning[4].maxallowed 0
+setfield sandboxSpawning[5].maxallowed 0
+setfield sandboxSpawning[6].maxallowed 0
+setfield sandboxSpawning[7].maxallowed 0
+setfield sandboxSpawning[8].maxallowed 0
+setfield sandboxSpawning[9].maxallowed 0
+setfield sandboxSpawning[10].maxallowed 0
+setfield sandboxSpawning[11].maxallowed 0
+setfield sandboxSpawning[12].maxallowed 0
+setfield sandboxSpawning[13].maxallowed 0
+setfield sandboxSpawning[14].maxallowed 0
+setfield sandboxSpawning[15].maxallowed 0
+setfield sandboxSpawning[16].maxallowed 0
+setfield sandboxSpawning[17].maxallowed 0
+setfield sandboxSpawning[18].maxallowed 0
+setfield sandboxGoalObjects[0].maxallowed 0
+setfield sandboxGoalObjects[1].maxallowed 0
+setfield sandboxGoalObjects[2].maxallowed 0
+setfield sandboxGoalObjects[3].maxallowed 0
+setfield sandboxGoalObjects[4].maxallowed 0
+setfield sandboxGoalObjects[5].maxallowed 0
+setfield sandboxGoalObjects[6].maxallowed 0
+setfield sandboxGoalObjects[7].maxallowed 0
+setfield sandboxGoalObjects[8].maxallowed 0
+
+savechanges
+exit
+
+echo  Phasing Standoff Objects
+edit 4DF7
+setfield Rigidbodies[*].motiontype 4
+savechanges
+exit
+
+edit 4E1F
+setfield Rigidbodies[*].motiontype 4
+savechanges
+exit
+
+edit 4E2A
+setfield Rigidbodies[*].motiontype 4
+savechanges
+exit
+
+edit 4E52
+setfield Rigidbodies[*].motiontype 4
+savechanges
+exit
+
+edit 4E3B
+setfield Rigidbodies[*].motiontype 4
+savechanges
+exit
+
+edit 4E45
+setfield Rigidbodies[*].motiontype 4
+savechanges
+exit
+
+
+echo   edit the scnr of Last resort
+edit 4F14
+echo   This command "removefrom sandboxScenery 21 *" will remove any new tagblocks added by previous installations, so that they don't stack up.
+removefrom sandboxScenery 21 *
+
+setfield sandboxbudget 10000
+
+echo  Adds 10 entrys to the scenery forge menu
+removefrom SandboxVehicles 5 *
+addto SandboxVehicles 3
+setfield SandboxVehicles[5].object 4442
+setfield SandboxVehicles[6].object 4443
+setfield SandboxVehicles[7].object 4447
+
+setfield SandboxVehicles[5].name warthog_troop
+setfield SandboxVehicles[6].name warthog_civ
+setfield SandboxVehicles[7].name warthog_dmg
+
+
+addto sandboxScenery 15
+setfield SandboxScenery[21].object 2EE9
+setfield SandboxScenery[22].object 2EEA
+setfield SandboxScenery[23].object 2EEB
+setfield SandboxScenery[24].object 2EEC
+setfield SandboxScenery[25].object 2EED
+setfield SandboxScenery[26].object 2EEE
+setfield SandboxScenery[27].object 2EEF
+setfield SandboxScenery[28].object 2EF0
+setfield SandboxScenery[29].object 2EF1
+setfield SandboxScenery[30].object 2EF2
+setfield SandboxScenery[31].object 51C7
+setfield SandboxScenery[32].object 5210
+setfield SandboxScenery[33].object 51FD
+setfield SandboxScenery[34].object 51EA
+setfield SandboxScenery[35].object 5239
+
+setfield sandboxScenery[21].name box_s
+setfield sandboxScenery[22].name box_m
+setfield sandboxScenery[23].name box_l
+setfield sandboxScenery[24].name box_xl
+setfield sandboxScenery[25].name box_xxl
+setfield sandboxScenery[26].name wall_s
+setfield sandboxScenery[27].name wall_m
+setfield sandboxScenery[28].name wall_l
+setfield sandboxScenery[29].name wall_xl
+setfield sandboxScenery[30].name wall_xxl
+setfield SandboxScenery[31].name lastR_Bridge
+setfield SandboxScenery[32].name lastR_Barricade
+setfield SandboxScenery[33].name lastR_Light
+setfield SandboxScenery[34].name lastR_Window
+setfield SandboxScenery[35].name lastR_Mascot
+
+
+removefrom SandboxWeapons 18 *
+addto SandboxWeapons 37
+setfield SandboxWeapons[18].object 1595
+setfield SandboxWeapons[18].name plasma_pistol_pwr
+setfield SandboxWeapons[19].object 1590
+setfield SandboxWeapons[19].name plasma_riflev6
+setfield SandboxWeapons[20].object 1581
+setfield SandboxWeapons[20].name assault_rifle_dmg
+setfield SandboxWeapons[21].object 1582
+setfield SandboxWeapons[21].name assault_rifle_rof
+setfield SandboxWeapons[22].object 1583
+setfield SandboxWeapons[22].name assault_rifle_acc
+setfield SandboxWeapons[23].object 1584
+setfield SandboxWeapons[23].name assault_rifle_pwr
+setfield SandboxWeapons[24].object 15BB
+setfield SandboxWeapons[24].name battle_rifle_rof
+setfield SandboxWeapons[25].object 15BC
+setfield SandboxWeapons[25].name battle_rifle_acc
+setfield SandboxWeapons[26].object 1585
+setfield SandboxWeapons[26].name battle_rifle_mag
+setfield SandboxWeapons[27].object 1586
+setfield SandboxWeapons[27].name battle_rifle_dmg
+setfield SandboxWeapons[28].object 15BD
+setfield SandboxWeapons[28].name battle_rifle_rng
+setfield SandboxWeapons[29].object 1587
+setfield SandboxWeapons[29].name battle_rifle_pwr
+setfield SandboxWeapons[30].object 1580
+setfield SandboxWeapons[30].name dmr
+setfield SandboxWeapons[31].object 15BF
+setfield SandboxWeapons[31].name dmr_rng
+setfield SandboxWeapons[32].object 1588
+setfield SandboxWeapons[32].name dmr_acc
+setfield SandboxWeapons[33].object 1589
+setfield SandboxWeapons[33].name dmr_rof
+setfield SandboxWeapons[34].object 158A
+setfield SandboxWeapons[34].name dmr_dmg
+setfield SandboxWeapons[35].object 15BE
+setfield SandboxWeapons[35].name dmr_mag
+setfield SandboxWeapons[36].object 158B
+setfield SandboxWeapons[36].name dmr_pwr
+setfield SandboxWeapons[37].object 15C0
+setfield SandboxWeapons[37].name carbine_rof
+setfield SandboxWeapons[38].object 15C1
+setfield SandboxWeapons[38].name carbine_mag
+setfield SandboxWeapons[39].object 15C2
+setfield SandboxWeapons[39].name carbine_rng
+setfield SandboxWeapons[40].object 15C3
+setfield SandboxWeapons[40].name carbine_dmg
+setfield SandboxWeapons[41].object 15c4
+setfield SandboxWeapons[41].name carbine_acc
+setfield SandboxWeapons[42].object 1591
+setfield SandboxWeapons[42].name carbine_pwr
+setfield SandboxWeapons[43].object 158C
+setfield SandboxWeapons[43].name smg_rof
+setfield SandboxWeapons[44].object 158D
+setfield SandboxWeapons[44].name smg_acc
+setfield SandboxWeapons[45].object 158E
+setfield SandboxWeapons[45].name smg_dmg
+setfield SandboxWeapons[46].object 158F
+setfield SandboxWeapons[46].name smg_pwr
+setfield SandboxWeapons[47].object 1593
+setfield SandboxWeapons[47].name magnum_dmg
+setfield SandboxWeapons[48].object 1594
+setfield SandboxWeapons[48].name magnum_pwr
+setfield SandboxWeapons[49].object 1592
+setfield SandboxWeapons[49].name mauler_pwr
+setfield SandboxWeapons[50].object 29ED
+setfield SandboxWeapons[50].name Gauss_Turret
+setfield SandboxWeapons[51].object 29EC
+setfield SandboxWeapons[51].name Chaingun_Turret
+setfield SandboxWeapons[52].object 15a2
+setfield SandboxWeapons[52].name flag
+setfield SandboxWeapons[53].object 15a3
+setfield SandboxWeapons[53].name Oddball
+setfield SandboxWeapons[54].object 15a4
+setfield SandboxWeapons[54].name Bomb
+
+
+removefrom sandboxEquipment 15 *
+addto sandboxEquipment 9
+setfield SandboxEquipment[15].object 196E
+setfield SandboxEquipment[16].object 1A6E
+setfield SandboxEquipment[17].object 15D2
+setfield SandboxEquipment[18].object 19C5
+setfield SandboxEquipment[19].object 18AC
+setfield SandboxEquipment[20].object 15D3
+setfield SandboxEquipment[21].object 15D1
+setfield SandboxEquipment[22].object 15D5
+setfield SandboxEquipment[23].object 15D4
+
+setfield SandboxEquipment[15].name BubbleShield
+setfield SandboxEquipment[16].name DeployableCover
+setfield SandboxEquipment[17].name PowerDrain
+setfield SandboxEquipment[18].name Regen
+setfield SandboxEquipment[19].name radarjammer
+setfield SandboxEquipment[20].name flare
+setfield SandboxEquipment[21].name tripmine
+setfield SandboxEquipment[22].name yellowpowerdrain
+setfield SandboxEquipment[23].name scrambler 
+
+
+echo  maxing forge pallete for last resort
+setfield sandboxScenery[0].maxallowed 0
+setfield sandboxScenery[1].maxallowed 0
+setfield sandboxScenery[2].maxallowed 0
+setfield sandboxScenery[3].maxallowed 0
+setfield sandboxScenery[4].maxallowed 0
+setfield sandboxScenery[5].maxallowed 0
+setfield sandboxScenery[6].maxallowed 0
+setfield sandboxScenery[7].maxallowed 0
+setfield sandboxScenery[8].maxallowed 0
+setfield sandboxScenery[9].maxallowed 0
+setfield sandboxScenery[10].maxallowed 0
+setfield sandboxScenery[11].maxallowed 0
+setfield sandboxScenery[12].maxallowed 0
+setfield sandboxScenery[13].maxallowed 0
+setfield sandboxScenery[14].maxallowed 0
+setfield sandboxScenery[15].maxallowed 0
+setfield sandboxScenery[16].maxallowed 0
+setfield sandboxScenery[17].maxallowed 0
+setfield sandboxScenery[18].maxallowed 0
+setfield sandboxScenery[19].maxallowed 0
+setfield sandboxScenery[20].maxallowed 0
+setfield sandboxVehicles[0].maxallowed 0
+setfield sandboxVehicles[1].maxallowed 0
+setfield sandboxVehicles[2].maxallowed 0
+setfield sandboxVehicles[3].maxallowed 0
+setfield sandboxVehicles[4].maxallowed 0
+setfield sandboxWeapons[0].maxallowed 0
+setfield sandboxWeapons[1].maxallowed 0
+setfield sandboxWeapons[2].maxallowed 0
+setfield sandboxWeapons[3].maxallowed 0
+setfield sandboxWeapons[4].maxallowed 0
+setfield sandboxWeapons[5].maxallowed 0
+setfield sandboxWeapons[6].maxallowed 0
+setfield sandboxWeapons[7].maxallowed 0
+setfield sandboxWeapons[8].maxallowed 0
+setfield sandboxWeapons[9].maxallowed 0
+setfield sandboxWeapons[10].maxallowed 0
+setfield sandboxWeapons[11].maxallowed 0
+setfield sandboxWeapons[12].maxallowed 0
+setfield sandboxWeapons[13].maxallowed 0
+setfield sandboxWeapons[14].maxallowed 0
+setfield sandboxWeapons[15].maxallowed 0
+setfield sandboxWeapons[16].maxallowed 0
+setfield sandboxWeapons[17].maxallowed 0
+setfield sandboxWeapons[18].maxallowed 0
+setfield sandboxEquipment[0].maxallowed 0
+setfield sandboxEquipment[1].maxallowed 0
+setfield sandboxEquipment[2].maxallowed 0
+setfield sandboxEquipment[3].maxallowed 0
+setfield sandboxEquipment[4].maxallowed 0
+setfield sandboxEquipment[5].maxallowed 0
+setfield sandboxEquipment[6].maxallowed 0
+setfield sandboxEquipment[7].maxallowed 0
+setfield sandboxEquipment[8].maxallowed 0
+setfield sandboxEquipment[9].maxallowed 0
+setfield sandboxEquipment[10].maxallowed 0
+setfield sandboxEquipment[11].maxallowed 0
+setfield sandboxEquipment[12].maxallowed 0
+setfield sandboxEquipment[13].maxallowed 0
+setfield sandboxEquipment[14].maxallowed 0
+setfield sandboxTeleporters[0].maxallowed 0
+setfield sandboxTeleporters[1].maxallowed 0
+setfield sandboxTeleporters[2].maxallowed 0
+setfield sandboxSpawning[0].maxallowed 0
+setfield sandboxSpawning[1].maxallowed 0
+setfield sandboxSpawning[2].maxallowed 0
+setfield sandboxSpawning[3].maxallowed 0
+setfield sandboxSpawning[4].maxallowed 0
+setfield sandboxSpawning[5].maxallowed 0
+setfield sandboxSpawning[6].maxallowed 0
+setfield sandboxSpawning[7].maxallowed 0
+setfield sandboxSpawning[8].maxallowed 0
+setfield sandboxSpawning[9].maxallowed 0
+setfield sandboxSpawning[10].maxallowed 0
+setfield sandboxSpawning[11].maxallowed 0
+setfield sandboxSpawning[12].maxallowed 0
+setfield sandboxSpawning[13].maxallowed 0
+setfield sandboxSpawning[14].maxallowed 0
+setfield sandboxSpawning[15].maxallowed 0
+setfield sandboxSpawning[16].maxallowed 0
+setfield sandboxSpawning[17].maxallowed 0
+setfield sandboxSpawning[18].maxallowed 0
+setfield sandboxGoalObjects[0].maxallowed 0
+setfield sandboxGoalObjects[1].maxallowed 0
+setfield sandboxGoalObjects[2].maxallowed 0
+setfield sandboxGoalObjects[3].maxallowed 0
+setfield sandboxGoalObjects[4].maxallowed 0
+setfield sandboxGoalObjects[5].maxallowed 0
+setfield sandboxGoalObjects[6].maxallowed 0
+setfield sandboxGoalObjects[7].maxallowed 0
+setfield sandboxGoalObjects[8].maxallowed 0
+
+
+savechanges
+exit
+
+echo   edit the scnr of High Ground
+edit 5247
+echo   This command "removefrom sandboxScenery 31 *" will remove any new tagblocks added by previous installations, so that they don't stack up.
+removefrom sandboxScenery 31 *
+
+setfield sandboxbudget 10000
+
+echo  Adds 10 entrys to the scenery forge menu
+addto sandboxScenery 17
+setfield SandboxScenery[31].object 2EE9
+setfield SandboxScenery[32].object 2EEA
+setfield SandboxScenery[33].object 2EEB
+setfield SandboxScenery[34].object 2EEC
+setfield SandboxScenery[35].object 2EED
+setfield SandboxScenery[36].object 2EEE
+setfield SandboxScenery[37].object 2EEF
+setfield SandboxScenery[38].object 2EF0
+setfield SandboxScenery[39].object 2EF1
+setfield SandboxScenery[40].object 2EF2
+setfield SandboxScenery[41].object 5495
+setfield SandboxScenery[42].object 54A2
+setfield SandboxScenery[43].object 54AB
+setfield SandboxScenery[44].object 54C7
+setfield SandboxScenery[45].object 54CC
+setfield SandboxScenery[46].object 54D1
+setfield SandboxScenery[47].object 54D7
+
+setfield sandboxScenery[31].name box_s
+setfield sandboxScenery[32].name box_m
+setfield sandboxScenery[33].name box_l
+setfield sandboxScenery[34].name box_xl
+setfield sandboxScenery[35].name box_xxl
+setfield sandboxScenery[36].name wall_s
+setfield sandboxScenery[37].name wall_m
+setfield sandboxScenery[38].name wall_l
+setfield sandboxScenery[39].name wall_xl
+setfield sandboxScenery[40].name wall_xxl
+setfield sandboxScenery[41].name Highground_bunkerlid
+setfield sandboxScenery[42].name Highground_chaingate
+setfield sandboxScenery[43].name Highground_Cardboardbox
+setfield sandboxScenery[44].name Highground_Cboardboxrec
+setfield sandboxScenery[45].name Highground_Cboardbox2 
+setfield SandboxScenery[46].name Highground_squaretable
+setfield SandboxScenery[47].name Highground_chaingate2
+
+
+
+removefrom SandboxWeapons 22 *
+addto SandboxWeapons 40
+setfield SandboxWeapons[22].object 1595
+setfield SandboxWeapons[22].name plasma_pistol_pwr
+setfield SandboxWeapons[23].object 1525
+setfield SandboxWeapons[23].name plasma_rifle
+setfield SandboxWeapons[24].object 1590
+setfield SandboxWeapons[24].name plasma_riflev6
+setfield SandboxWeapons[25].object 1581
+setfield SandboxWeapons[25].name assault_rifle_dmg
+setfield SandboxWeapons[26].object 1582
+setfield SandboxWeapons[26].name assault_rifle_rof
+setfield SandboxWeapons[27].object 1583
+setfield SandboxWeapons[27].name assault_rifle_acc
+setfield SandboxWeapons[28].object 1584
+setfield SandboxWeapons[28].name assault_rifle_pwr
+setfield SandboxWeapons[29].object 15BB
+setfield SandboxWeapons[29].name battle_rifle_rof
+setfield SandboxWeapons[30].object 15BC
+setfield SandboxWeapons[30].name battle_rifle_acc
+setfield SandboxWeapons[31].object 1585
+setfield SandboxWeapons[31].name battle_rifle_mag
+setfield SandboxWeapons[32].object 1586
+setfield SandboxWeapons[32].name battle_rifle_dmg
+setfield SandboxWeapons[33].object 15BD
+setfield SandboxWeapons[33].name battle_rifle_rng
+setfield SandboxWeapons[34].object 1587
+setfield SandboxWeapons[34].name battle_rifle_pwr
+setfield SandboxWeapons[35].object 1580
+setfield SandboxWeapons[35].name dmr
+setfield SandboxWeapons[36].object 15BF
+setfield SandboxWeapons[36].name dmr_rng
+setfield SandboxWeapons[37].object 1588
+setfield SandboxWeapons[37].name dmr_acc
+setfield SandboxWeapons[38].object 1589
+setfield SandboxWeapons[38].name dmr_rof
+setfield SandboxWeapons[39].object 158A
+setfield SandboxWeapons[39].name dmr_dmg
+setfield SandboxWeapons[40].object 15BE
+setfield SandboxWeapons[40].name dmr_mag
+setfield SandboxWeapons[41].object 158B
+setfield SandboxWeapons[41].name dmr_pwr
+setfield SandboxWeapons[42].object 15C0
+setfield SandboxWeapons[42].name carbine_rof
+setfield SandboxWeapons[43].object 15C1
+setfield SandboxWeapons[43].name carbine_mag
+setfield SandboxWeapons[44].object 15C2
+setfield SandboxWeapons[44].name carbine_rng
+setfield SandboxWeapons[45].object 15C3
+setfield SandboxWeapons[45].name carbine_dmg
+setfield SandboxWeapons[46].object 15c4
+setfield SandboxWeapons[46].name carbine_acc
+setfield SandboxWeapons[47].object 1591
+setfield SandboxWeapons[47].name carbine_pwr
+setfield SandboxWeapons[48].object 158C
+setfield SandboxWeapons[48].name smg_rof
+setfield SandboxWeapons[49].object 158D
+setfield SandboxWeapons[49].name smg_acc
+setfield SandboxWeapons[50].object 158E
+setfield SandboxWeapons[50].name smg_dmg
+setfield SandboxWeapons[51].object 158F
+setfield SandboxWeapons[51].name smg_pwr
+setfield SandboxWeapons[52].object 1593
+setfield SandboxWeapons[52].name magnum_dmg
+setfield SandboxWeapons[53].object 1594
+setfield SandboxWeapons[53].name magnum_pwr
+setfield SandboxWeapons[54].object 1592
+setfield SandboxWeapons[54].name mauler_pwr
+setfield SandboxWeapons[55].object 29ED
+setfield SandboxWeapons[55].name Gauss_Turret
+setfield SandboxWeapons[56].object 29EC
+setfield SandboxWeapons[56].name Chaingun_Turret
+setfield SandboxWeapons[57].object 3743
+setfield SandboxWeapons[57].name Wraith_Turret
+setfield SandboxWeapons[58].object 53A2
+setfield SandboxWeapons[58].name Highground_ProwlerTurret
+setfield SandboxWeapons[59].object 15a2
+setfield SandboxWeapons[59].name flag
+setfield SandboxWeapons[60].object 15a3
+setfield SandboxWeapons[60].name Oddball
+setfield SandboxWeapons[61].object 15a4
+setfield SandboxWeapons[61].name Bomb
+
+
+removefrom sandboxEquipment 15 *
+addto sandboxEquipment 9
+setfield SandboxEquipment[15].object 196E
+setfield SandboxEquipment[16].object 1A6E
+setfield SandboxEquipment[17].object 15D2
+setfield SandboxEquipment[18].object 19C5
+setfield SandboxEquipment[19].object 18AC
+setfield SandboxEquipment[20].object 15D3
+setfield SandboxEquipment[21].object 15D1
+setfield SandboxEquipment[22].object 15D5
+setfield SandboxEquipment[23].object 15D4
+
+setfield SandboxEquipment[15].name BubbleShield
+setfield SandboxEquipment[16].name DeployableCover
+setfield SandboxEquipment[17].name PowerDrain
+setfield SandboxEquipment[18].name Regen
+setfield SandboxEquipment[19].name radarjammer
+setfield SandboxEquipment[20].name flare
+setfield SandboxEquipment[21].name tripmine
+setfield SandboxEquipment[22].name yellowpowerdrain
+setfield SandboxEquipment[23].name scrambler 
+
+
+removefrom SandboxVehicles 7 *
+addto SandboxVehicles 3
+setfield SandboxVehicles[7].object 4442
+setfield SandboxVehicles[8].object 4443
+setfield SandboxVehicles[9].object 4447
+
+setfield SandboxVehicles[7].name warthog_troop
+setfield SandboxVehicles[8].name warthog_civ
+setfield SandboxVehicles[9].name warthog_dmg
+
+
+echo  maxing forge pallete for High Ground
+setfield sandboxScenery[0].maxallowed 0
+setfield sandboxScenery[1].maxallowed 0
+setfield sandboxScenery[2].maxallowed 0
+setfield sandboxScenery[3].maxallowed 0
+setfield sandboxScenery[4].maxallowed 0
+setfield sandboxScenery[5].maxallowed 0
+setfield sandboxScenery[6].maxallowed 0
+setfield sandboxScenery[7].maxallowed 0
+setfield sandboxScenery[8].maxallowed 0
+setfield sandboxScenery[9].maxallowed 0
+setfield sandboxScenery[10].maxallowed 0
+setfield sandboxScenery[11].maxallowed 0
+setfield sandboxScenery[12].maxallowed 0
+setfield sandboxScenery[13].maxallowed 0
+setfield sandboxScenery[14].maxallowed 0
+setfield sandboxScenery[15].maxallowed 0
+setfield sandboxScenery[16].maxallowed 0
+setfield sandboxScenery[17].maxallowed 0
+setfield sandboxScenery[18].maxallowed 0
+setfield sandboxScenery[19].maxallowed 0
+setfield sandboxScenery[20].maxallowed 0
+setfield sandboxScenery[21].maxallowed 0
+setfield sandboxScenery[22].maxallowed 0
+setfield sandboxScenery[23].maxallowed 0
+setfield sandboxScenery[24].maxallowed 0
+setfield sandboxScenery[25].maxallowed 0
+setfield sandboxScenery[26].maxallowed 0
+setfield sandboxScenery[27].maxallowed 0
+setfield sandboxScenery[28].maxallowed 0
+setfield sandboxScenery[29].maxallowed 0
+setfield sandboxScenery[30].maxallowed 0
+setfield sandboxVehicles[0].maxallowed 0
+setfield sandboxVehicles[1].maxallowed 0
+setfield sandboxVehicles[2].maxallowed 0
+setfield sandboxVehicles[3].maxallowed 0
+setfield sandboxVehicles[4].maxallowed 0
+setfield sandboxVehicles[5].maxallowed 0
+setfield sandboxVehicles[6].maxallowed 0
+setfield sandboxVehicles[7].maxallowed 0
+setfield sandboxWeapons[0].maxallowed 0
+setfield sandboxWeapons[1].maxallowed 0
+setfield sandboxWeapons[2].maxallowed 0
+setfield sandboxWeapons[3].maxallowed 0
+setfield sandboxWeapons[4].maxallowed 0
+setfield sandboxWeapons[5].maxallowed 0
+setfield sandboxWeapons[6].maxallowed 0
+setfield sandboxWeapons[7].maxallowed 0
+setfield sandboxWeapons[8].maxallowed 0
+setfield sandboxWeapons[9].maxallowed 0
+setfield sandboxWeapons[10].maxallowed 0
+setfield sandboxWeapons[11].maxallowed 0
+setfield sandboxWeapons[12].maxallowed 0
+setfield sandboxWeapons[13].maxallowed 0
+setfield sandboxWeapons[14].maxallowed 0
+setfield sandboxWeapons[15].maxallowed 0
+setfield sandboxWeapons[16].maxallowed 0
+setfield sandboxWeapons[17].maxallowed 0
+setfield sandboxWeapons[18].maxallowed 0
+setfield sandboxWeapons[19].maxallowed 0
+setfield sandboxWeapons[20].maxallowed 0
+setfield sandboxWeapons[21].maxallowed 0
+setfield sandboxEquipment[0].maxallowed 0
+setfield sandboxEquipment[1].maxallowed 0
+setfield sandboxEquipment[2].maxallowed 0
+setfield sandboxEquipment[3].maxallowed 0
+setfield sandboxEquipment[4].maxallowed 0
+setfield sandboxEquipment[5].maxallowed 0
+setfield sandboxEquipment[6].maxallowed 0
+setfield sandboxEquipment[7].maxallowed 0
+setfield sandboxEquipment[8].maxallowed 0
+setfield sandboxEquipment[9].maxallowed 0
+setfield sandboxEquipment[10].maxallowed 0
+setfield sandboxEquipment[11].maxallowed 0
+setfield sandboxEquipment[12].maxallowed 0
+setfield sandboxEquipment[13].maxallowed 0
+setfield sandboxEquipment[14].maxallowed 0
+setfield sandboxTeleporters[0].maxallowed 0
+setfield sandboxTeleporters[1].maxallowed 0
+setfield sandboxTeleporters[2].maxallowed 0
+setfield sandboxSpawning[0].maxallowed 0
+setfield sandboxSpawning[1].maxallowed 0
+setfield sandboxSpawning[2].maxallowed 0
+setfield sandboxSpawning[3].maxallowed 0
+setfield sandboxSpawning[4].maxallowed 0
+setfield sandboxSpawning[5].maxallowed 0
+setfield sandboxSpawning[6].maxallowed 0
+setfield sandboxSpawning[7].maxallowed 0
+setfield sandboxSpawning[8].maxallowed 0
+setfield sandboxSpawning[9].maxallowed 0
+setfield sandboxSpawning[10].maxallowed 0
+setfield sandboxSpawning[11].maxallowed 0
+setfield sandboxSpawning[12].maxallowed 0
+setfield sandboxSpawning[13].maxallowed 0
+setfield sandboxSpawning[14].maxallowed 0
+setfield sandboxSpawning[15].maxallowed 0
+setfield sandboxSpawning[16].maxallowed 0
+setfield sandboxSpawning[17].maxallowed 0
+setfield sandboxSpawning[18].maxallowed 0
+setfield sandboxGoalObjects[0].maxallowed 0
+setfield sandboxGoalObjects[1].maxallowed 0
+setfield sandboxGoalObjects[2].maxallowed 0
+setfield sandboxGoalObjects[3].maxallowed 0
+setfield sandboxGoalObjects[4].maxallowed 0
+setfield sandboxGoalObjects[5].maxallowed 0
+setfield sandboxGoalObjects[6].maxallowed 0
+setfield sandboxGoalObjects[7].maxallowed 0
+setfield sandboxGoalObjects[8].maxallowed 0
+
+savechanges
+exit
+
+
+echo   edit the scnr of Sandtrap
+edit 54E9
+
+setfield sandboxbudget 10000
+echo  Adds entrys to forge menu
+
+
+removefrom SandboxVehicles 9 *
+addto SandboxVehicles 3
+setfield SandboxVehicles[9].object 4442
+setfield SandboxVehicles[10].object 4443
+setfield SandboxVehicles[11].object 4447
+
+setfield SandboxVehicles[9].name warthog_troop
+setfield SandboxVehicles[10].name warthog_civ
+setfield SandboxVehicles[11].name warthog_dmg
+
+
+removefrom sandboxScenery 22 *
+addto sandboxScenery 17
+setfield SandboxScenery[22].object 2EE9
+setfield SandboxScenery[23].object 2EEA
+setfield SandboxScenery[24].object 2EEB
+setfield SandboxScenery[25].object 2EEC
+setfield SandboxScenery[26].object 2EED
+setfield SandboxScenery[27].object 2EEE
+setfield SandboxScenery[28].object 2EEF
+setfield SandboxScenery[29].object 2EF0
+setfield SandboxScenery[30].object 2EF1
+setfield SandboxScenery[31].object 2EF2
+setfield SandboxScenery[32].object 5628
+setfield SandboxScenery[33].object 56EC
+setfield SandboxScenery[34].object 56F5
+setfield SandboxScenery[35].object 56FF
+setfield SandboxScenery[36].object 5709
+setfield SandboxScenery[37].object 5713
+setfield SandboxScenery[38].object 5699
+
+setfield sandboxScenery[22].name box_s
+setfield sandboxScenery[23].name box_m
+setfield sandboxScenery[24].name box_l
+setfield sandboxScenery[25].name box_xl
+setfield sandboxScenery[26].name box_xxl
+setfield sandboxScenery[27].name wall_s
+setfield sandboxScenery[28].name wall_m
+setfield sandboxScenery[29].name wall_l
+setfield sandboxScenery[30].name wall_xl
+setfield sandboxScenery[31].name wall_xxl
+setfield sandboxScenery[32].name elephant
+setfield SandboxScenery[33].name Sandtrap_UsncMetal
+setfield SandboxScenery[34].name Sandtrap_GravityLift
+setfield SandboxScenery[35].name Sandtrap_Barrel
+setfield SandboxScenery[36].name Sandtrap_crowbar
+setfield SandboxScenery[37].name Sandtrap_Metal_plate 
+setfield SandboxScenery[38].name Sandtrap_Davinci_egg  
+
+
+removefrom SandboxWeapons 18 *
+addto SandboxWeapons 40
+setfield SandboxWeapons[18].object 1595
+setfield SandboxWeapons[18].name plasma_pistol_pwr
+setfield SandboxWeapons[19].object 1525
+setfield SandboxWeapons[19].name plasma_rifle
+setfield SandboxWeapons[20].object 1590
+setfield SandboxWeapons[20].name plasma_riflev6
+setfield SandboxWeapons[21].object 1581
+setfield SandboxWeapons[21].name assault_rifle_dmg
+setfield SandboxWeapons[22].object 1582
+setfield SandboxWeapons[22].name assault_rifle_rof
+setfield SandboxWeapons[23].object 1583
+setfield SandboxWeapons[23].name assault_rifle_acc
+setfield SandboxWeapons[24].object 1584
+setfield SandboxWeapons[24].name assault_rifle_pwr
+setfield SandboxWeapons[25].object 15BB
+setfield SandboxWeapons[25].name battle_rifle_rof
+setfield SandboxWeapons[26].object 15BC
+setfield SandboxWeapons[26].name battle_rifle_acc
+setfield SandboxWeapons[27].object 1585
+setfield SandboxWeapons[27].name battle_rifle_mag
+setfield SandboxWeapons[28].object 1586
+setfield SandboxWeapons[28].name battle_rifle_dmg
+setfield SandboxWeapons[29].object 15BD
+setfield SandboxWeapons[29].name battle_rifle_rng
+setfield SandboxWeapons[30].object 1587
+setfield SandboxWeapons[30].name battle_rifle_pwr
+setfield SandboxWeapons[31].object 1580
+setfield SandboxWeapons[31].name dmr
+setfield SandboxWeapons[32].object 15BF
+setfield SandboxWeapons[32].name dmr_rng
+setfield SandboxWeapons[33].object 1588
+setfield SandboxWeapons[33].name dmr_acc
+setfield SandboxWeapons[34].object 1589
+setfield SandboxWeapons[34].name dmr_rof
+setfield SandboxWeapons[35].object 158A
+setfield SandboxWeapons[35].name dmr_dmg
+setfield SandboxWeapons[36].object 15BE
+setfield SandboxWeapons[36].name dmr_mag
+setfield SandboxWeapons[37].object 158B
+setfield SandboxWeapons[37].name dmr_pwr
+setfield SandboxWeapons[38].object 15C0
+setfield SandboxWeapons[38].name carbine_rof
+setfield SandboxWeapons[39].object 15C1
+setfield SandboxWeapons[39].name carbine_mag
+setfield SandboxWeapons[40].object 15C2
+setfield SandboxWeapons[40].name carbine_rng
+setfield SandboxWeapons[41].object 15C3
+setfield SandboxWeapons[41].name carbine_dmg
+setfield SandboxWeapons[42].object 15c4
+setfield SandboxWeapons[42].name carbine_acc
+setfield SandboxWeapons[43].object 1591
+setfield SandboxWeapons[43].name carbine_pwr
+setfield SandboxWeapons[44].object 158C
+setfield SandboxWeapons[44].name smg_rof
+setfield SandboxWeapons[45].object 158D
+setfield SandboxWeapons[45].name smg_acc
+setfield SandboxWeapons[46].object 158E
+setfield SandboxWeapons[46].name smg_dmg
+setfield SandboxWeapons[47].object 158F
+setfield SandboxWeapons[47].name smg_pwr
+setfield SandboxWeapons[48].object 1593
+setfield SandboxWeapons[48].name magnum_dmg
+setfield SandboxWeapons[49].object 1594
+setfield SandboxWeapons[49].name magnum_pwr
+setfield SandboxWeapons[50].object 1592
+setfield SandboxWeapons[50].name mauler_pwr
+setfield SandboxWeapons[51].object 29ED
+setfield SandboxWeapons[51].name Gauss_Turret
+setfield SandboxWeapons[52].object 29EC
+setfield SandboxWeapons[52].name Chaingun_Turret
+setfield SandboxWeapons[53].object 3743
+setfield SandboxWeapons[53].name Wraith_Turret
+setfield SandboxWeapons[54].object 53A2
+setfield SandboxWeapons[54].name Highground_ProwlerTurret
+setfield SandboxWeapons[55].object 15a2
+setfield SandboxWeapons[55].name flag
+setfield SandboxWeapons[56].object 15a3
+setfield SandboxWeapons[56].name Oddball
+setfield SandboxWeapons[57].object 15a4
+setfield SandboxWeapons[57].name Bomb
+
+
+removefrom sandboxEquipment 15 *
+addto sandboxEquipment 7
+setfield SandboxEquipment[13].object 196E
+setfield SandboxEquipment[14].object 1A6E
+setfield SandboxEquipment[15].object 15D2
+setfield SandboxEquipment[16].object 19C5
+setfield SandboxEquipment[17].object 18AC
+setfield SandboxEquipment[18].object 15D3
+setfield SandboxEquipment[19].object 15D1
+setfield SandboxEquipment[20].object 15D5
+setfield SandboxEquipment[21].object 15D4
+
+setfield SandboxEquipment[13].name BubbleShield
+setfield SandboxEquipment[14].name DeployableCover
+setfield SandboxEquipment[15].name PowerDrain
+setfield SandboxEquipment[16].name Regen
+setfield SandboxEquipment[17].name radarjammer
+setfield SandboxEquipment[18].name flare
+setfield SandboxEquipment[19].name tripmine
+setfield SandboxEquipment[20].name yellowpowerdrain
+setfield SandboxEquipment[21].name scrambler 
+
+
+echo  maxing forge pallete for Sandtrap
+setfield sandboxScenery[0].maxallowed 0
+setfield sandboxScenery[1].maxallowed 0
+setfield sandboxScenery[2].maxallowed 0
+setfield sandboxScenery[3].maxallowed 0
+setfield sandboxScenery[4].maxallowed 0
+setfield sandboxScenery[5].maxallowed 0
+setfield sandboxScenery[6].maxallowed 0
+setfield sandboxScenery[7].maxallowed 0
+setfield sandboxScenery[8].maxallowed 0
+setfield sandboxScenery[9].maxallowed 0
+setfield sandboxScenery[10].maxallowed 0
+setfield sandboxScenery[11].maxallowed 0
+setfield sandboxScenery[12].maxallowed 0
+setfield sandboxScenery[13].maxallowed 0
+setfield sandboxScenery[14].maxallowed 0
+setfield sandboxScenery[15].maxallowed 0
+setfield sandboxScenery[16].maxallowed 0
+setfield sandboxScenery[17].maxallowed 0
+setfield sandboxScenery[18].maxallowed 0
+setfield sandboxScenery[19].maxallowed 0
+setfield sandboxScenery[20].maxallowed 0
+setfield sandboxScenery[21].maxallowed 0
+setfield sandboxVehicles[0].maxallowed 0
+setfield sandboxVehicles[1].maxallowed 0
+setfield sandboxVehicles[2].maxallowed 0
+setfield sandboxVehicles[3].maxallowed 0
+setfield sandboxVehicles[4].maxallowed 0
+setfield sandboxVehicles[5].maxallowed 0
+setfield sandboxVehicles[6].maxallowed 0
+setfield sandboxVehicles[7].maxallowed 0
+setfield sandboxVehicles[8].maxallowed 0
+setfield sandboxVehicles[9].maxallowed 0
+setfield sandboxVehicles[10].maxallowed 0
+setfield sandboxWeapons[0].maxallowed 0
+setfield sandboxWeapons[1].maxallowed 0
+setfield sandboxWeapons[2].maxallowed 0
+setfield sandboxWeapons[3].maxallowed 0
+setfield sandboxWeapons[4].maxallowed 0
+setfield sandboxWeapons[5].maxallowed 0
+setfield sandboxWeapons[6].maxallowed 0
+setfield sandboxWeapons[7].maxallowed 0
+setfield sandboxWeapons[8].maxallowed 0
+setfield sandboxWeapons[9].maxallowed 0
+setfield sandboxWeapons[10].maxallowed 0
+setfield sandboxWeapons[11].maxallowed 0
+setfield sandboxWeapons[12].maxallowed 0
+setfield sandboxWeapons[13].maxallowed 0
+setfield sandboxWeapons[14].maxallowed 0
+setfield sandboxWeapons[15].maxallowed 0
+setfield sandboxWeapons[16].maxallowed 0
+setfield sandboxWeapons[17].maxallowed 0
+setfield sandboxWeapons[18].maxallowed 0
+setfield sandboxEquipment[0].maxallowed 0
+setfield sandboxEquipment[1].maxallowed 0
+setfield sandboxEquipment[2].maxallowed 0
+setfield sandboxEquipment[3].maxallowed 0
+setfield sandboxEquipment[4].maxallowed 0
+setfield sandboxEquipment[5].maxallowed 0
+setfield sandboxEquipment[6].maxallowed 0
+setfield sandboxEquipment[7].maxallowed 0
+setfield sandboxEquipment[8].maxallowed 0
+setfield sandboxEquipment[9].maxallowed 0
+setfield sandboxEquipment[10].maxallowed 0
+setfield sandboxEquipment[11].maxallowed 0
+setfield sandboxEquipment[12].maxallowed 0
+setfield sandboxTeleporters[0].maxallowed 0
+setfield sandboxTeleporters[1].maxallowed 0
+setfield sandboxTeleporters[2].maxallowed 0
+setfield sandboxSpawning[0].maxallowed 0
+setfield sandboxSpawning[1].maxallowed 0
+setfield sandboxSpawning[2].maxallowed 0
+setfield sandboxSpawning[3].maxallowed 0
+setfield sandboxSpawning[4].maxallowed 0
+setfield sandboxSpawning[5].maxallowed 0
+setfield sandboxSpawning[6].maxallowed 0
+setfield sandboxSpawning[7].maxallowed 0
+setfield sandboxSpawning[8].maxallowed 0
+setfield sandboxSpawning[9].maxallowed 0
+setfield sandboxSpawning[10].maxallowed 0
+setfield sandboxSpawning[11].maxallowed 0
+setfield sandboxSpawning[12].maxallowed 0
+setfield sandboxSpawning[13].maxallowed 0
+setfield sandboxSpawning[14].maxallowed 0
+setfield sandboxSpawning[15].maxallowed 0
+setfield sandboxSpawning[16].maxallowed 0
+setfield sandboxSpawning[17].maxallowed 0
+setfield sandboxSpawning[18].maxallowed 0
+setfield sandboxGoalObjects[0].maxallowed 0
+setfield sandboxGoalObjects[1].maxallowed 0
+setfield sandboxGoalObjects[2].maxallowed 0
+setfield sandboxGoalObjects[3].maxallowed 0
+setfield sandboxGoalObjects[4].maxallowed 0
+setfield sandboxGoalObjects[5].maxallowed 0
+setfield sandboxGoalObjects[6].maxallowed 0
+setfield sandboxGoalObjects[7].maxallowed 0
+setfield sandboxGoalObjects[8].maxallowed 0
+
+
+savechanges
+exit
+
+echo   edit the scnr of Guardian
+edit 2E8A
+echo   This command "removefrom sandboxScenery 48 *" will remove any new tagblocks added by previous installations, so that they don't stack up.
+removefrom sandboxScenery 48 *
+
+echo forge pallete limit is 64
+
+removefrom sandboxGoalObjects 9 *
+addto sandboxGoalObjects 4
+setfield SandboxGoalObjects[9].object 2ED9
+setfield SandboxGoalObjects[10].object 2EDA
+setfield SandboxGoalObjects[11].object 2EDB
+setfield SandboxGoalObjects[12].object 2EDD
+
+setfield SandboxGoalObjects[9].name Guardian_GoldLift
+setfield SandboxGoalObjects[10].name Guardian_MancannonLift 
+setfield SandboxGoalObjects[11].name Guardian_Mancannonlift2
+setfield SandboxGoalObjects[12].name Guardian_Minilift 
+
+addto sandboxScenery 10
+setfield SandboxScenery[48].object 2EE9
+setfield SandboxScenery[49].object 2EEA
+setfield SandboxScenery[50].object 2EEB
+setfield SandboxScenery[51].object 2EEC
+setfield SandboxScenery[52].object 2EED
+setfield SandboxScenery[53].object 2EEE
+setfield SandboxScenery[54].object 2EEF
+setfield SandboxScenery[55].object 2EF0
+setfield SandboxScenery[56].object 2EF1
+setfield SandboxScenery[57].object 2EF2
+
+setfield sandboxScenery[48].name box_s
+setfield sandboxScenery[49].name box_m
+setfield sandboxScenery[50].name box_l
+setfield sandboxScenery[51].name box_xl
+setfield sandboxScenery[52].name box_xxl
+setfield sandboxScenery[53].name wall_s
+setfield sandboxScenery[54].name wall_m
+setfield sandboxScenery[55].name wall_l
+setfield sandboxScenery[56].name wall_xl
+setfield sandboxScenery[57].name wall_xxl
+
+
+removefrom SandboxWeapons 57 *
+addto SandboxWeapons 6
+setfield SandboxWeapons[57].object 29ED
+setfield SandboxWeapons[57].name Gauss_Turret
+setfield SandboxWeapons[58].object 3743
+setfield SandboxWeapons[58].name Wraith_Turret
+setfield SandboxWeapons[59].object 29EC
+setfield SandboxWeapons[59].name Chaingun_Turret
+setfield SandboxWeapons[60].object 15a2
+setfield SandboxWeapons[60].name flag
+setfield SandboxWeapons[61].object 15a3
+setfield SandboxWeapons[61].name Oddball
+setfield SandboxWeapons[62].object 15a4
+setfield SandboxWeapons[62].name Bomb
+
+
+removefrom sandboxEquipment 15 *
+addto sandboxEquipment 9
+setfield SandboxEquipment[15].object 196E
+setfield SandboxEquipment[16].object 1A6E
+setfield SandboxEquipment[17].object 15D2
+setfield SandboxEquipment[18].object 19C5
+setfield SandboxEquipment[19].object 18AC
+setfield SandboxEquipment[20].object 15D3
+setfield SandboxEquipment[21].object 15D1
+setfield SandboxEquipment[22].object 15D5
+setfield SandboxEquipment[23].object 15D4
+
+setfield SandboxEquipment[15].name BubbleShield
+setfield SandboxEquipment[16].name DeployableCover
+setfield SandboxEquipment[17].name PowerDrain
+setfield SandboxEquipment[18].name Regen
+setfield SandboxEquipment[19].name radarjammer
+setfield SandboxEquipment[20].name flare
+setfield SandboxEquipment[21].name tripmine
+setfield SandboxEquipment[22].name yellowpowerdrain
+setfield SandboxEquipment[23].name scrambler 
+
+savechanges
+exit
+
+echo   edit the scnr of Diamondback
+edit 3A0E
+echo   This command "removefrom sandboxScenery 48 *" will remove any new tagblocks added by previous installations, so that they don't stack up.
+removefrom sandboxScenery 48 *
+
+echo  Adds 10 entrys to the scenery forge menu
+addto sandboxScenery 13
+setfield SandboxScenery[48].object 2EE9
+setfield SandboxScenery[49].object 2EEA
+setfield SandboxScenery[50].object 2EEB
+setfield SandboxScenery[51].object 2EEC
+setfield SandboxScenery[52].object 2EED
+setfield SandboxScenery[53].object 2EEE
+setfield SandboxScenery[54].object 2EEF
+setfield SandboxScenery[55].object 2EF0
+setfield SandboxScenery[56].object 2EF1
+setfield SandboxScenery[57].object 2EF2
+setfield SandboxScenery[58].object 29ED
+setfield SandboxScenery[59].object 29EC
+setfield SandboxScenery[60].object 3743
+
+setfield sandboxScenery[48].name box_s
+setfield sandboxScenery[49].name box_m
+setfield sandboxScenery[50].name box_l
+setfield sandboxScenery[51].name box_xl
+setfield sandboxScenery[52].name box_xxl
+setfield sandboxScenery[53].name wall_s
+setfield sandboxScenery[54].name wall_m
+setfield sandboxScenery[55].name wall_l
+setfield sandboxScenery[56].name wall_xl
+setfield sandboxScenery[57].name wall_xxl
+setfield SandboxScenery[58].name Gauss_Turret 
+setfield SandboxScenery[59].name Chaingun_Turret
+setfield SandboxScenery[60].name Wraith_Turret
+
+removefrom sandboxGoalObjects 9 *
+addto sandboxGoalObjects 6
+setfield SandboxGoalObjects[9].object 3A9F
+setfield SandboxGoalObjects[10].object 3AA0
+setfield SandboxGoalObjects[11].object 3AA1
+setfield SandboxGoalObjects[12].object 3AA2
+setfield SandboxGoalObjects[13].object 3AA3
+setfield SandboxGoalObjects[14].object 3AA4
+
+setfield SandboxGoalObjects[9].name Diamondback_Gravitylift1
+setfield SandboxGoalObjects[10].name Diamondback_Gravitylift2
+setfield SandboxGoalObjects[11].name Diamondback_Gravitylift3
+setfield SandboxGoalObjects[12].name Diamondback_Gravitylift4
+setfield SandboxGoalObjects[13].name Diamondback_Gravitylift5
+setfield SandboxGoalObjects[14].name Diamondback_Gravitylift6
+
+removefrom sandboxEquipment 15 *
+addto sandboxEquipment 9
+setfield SandboxEquipment[15].object 196E
+setfield SandboxEquipment[16].object 1A6E
+setfield SandboxEquipment[17].object 15D2
+setfield SandboxEquipment[18].object 19C5
+setfield SandboxEquipment[19].object 18AC
+setfield SandboxEquipment[20].object 15D3
+setfield SandboxEquipment[21].object 15D1
+setfield SandboxEquipment[22].object 15D5
+setfield SandboxEquipment[23].object 15D4
+
+setfield SandboxEquipment[15].name BubbleShield
+setfield SandboxEquipment[16].name DeployableCover
+setfield SandboxEquipment[17].name PowerDrain
+setfield SandboxEquipment[18].name Regen
+setfield SandboxEquipment[19].name radarjammer
+setfield SandboxEquipment[20].name flare
+setfield SandboxEquipment[21].name tripmine
+setfield SandboxEquipment[22].name yellowpowerdrain
+setfield SandboxEquipment[23].name scrambler 
+
+
+removefrom SandboxWeapons 57 *
+addto SandboxWeapons 5
+setfield SandboxWeapons[57].object 29ED
+setfield SandboxWeapons[57].name Gauss_Turret
+setfield SandboxWeapons[58].object 3743
+setfield SandboxWeapons[58].name Wraith_Turret
+setfield SandboxWeapons[59].object 15a2
+setfield SandboxWeapons[59].name flag
+setfield SandboxWeapons[60].object 15a3
+setfield SandboxWeapons[60].name Oddball
+setfield SandboxWeapons[61].object 15a4
+setfield SandboxWeapons[61].name Bomb
+
+savechanges
+exit
+
+
+echo   edit the scnr of Reactor
+edit 3F83
+echo   This command "removefrom sandboxScenery 48 *" will remove any new tagblocks added by previous installations, so that they don't stack up.
+
+removefrom sandboxScenery 48 *
+addto sandboxScenery 4
+setfield SandboxScenery[48].object 27C7
+setfield SandboxScenery[49].object 3F8A
+setfield SandboxScenery[50].object 3F8B
+setfield SandboxScenery[51].object 3F8C
+
+setfield SandboxScenery[48].name reactor_pelican
+setfield SandboxScenery[49].name reactor_redlight
+setfield SandboxScenery[50].name reactor_bluelight 
+setfield SandboxScenery[51].name reactor_yellowlight
+
+removefrom sandboxEquipment 15 *
+addto sandboxEquipment 9
+setfield SandboxEquipment[15].object 196E
+setfield SandboxEquipment[16].object 1A6E
+setfield SandboxEquipment[17].object 15D2
+setfield SandboxEquipment[18].object 19C5
+setfield SandboxEquipment[19].object 18AC
+setfield SandboxEquipment[20].object 15D3
+setfield SandboxEquipment[21].object 15D1
+setfield SandboxEquipment[22].object 15D5
+setfield SandboxEquipment[23].object 15D4
+
+setfield SandboxEquipment[15].name BubbleShield
+setfield SandboxEquipment[16].name DeployableCover
+setfield SandboxEquipment[17].name PowerDrain
+setfield SandboxEquipment[18].name Regen
+setfield SandboxEquipment[19].name radarjammer
+setfield SandboxEquipment[20].name flare
+setfield SandboxEquipment[21].name tripmine
+setfield SandboxEquipment[22].name yellowpowerdrain
+setfield SandboxEquipment[23].name scrambler 
+
+
+removefrom SandboxWeapons 57 *
+addto SandboxWeapons 5
+setfield SandboxWeapons[57].object 29ED
+setfield SandboxWeapons[57].name Gauss_Turret
+setfield SandboxWeapons[58].object 3743
+setfield SandboxWeapons[58].name Wraith_Turret
+setfield SandboxWeapons[59].object 15a2
+setfield SandboxWeapons[59].name flag
+setfield SandboxWeapons[60].object 15a3
+setfield SandboxWeapons[60].name Oddball
+setfield SandboxWeapons[61].object 15a4
+setfield SandboxWeapons[61].name Bomb
+
+savechanges
+exit
+
+
+echo   edit the scnr of Edge
+edit 3DDA
+
+removefrom sandboxScenery 0 *
+addto SandboxScenery 7
+setfield SandboxScenery[0].object 2EBE
+setfield SandboxScenery[0].name edge_wepholder
+setfield SandboxScenery[1].object 2ED9
+setfield SandboxScenery[1].name edge_Goldlift
+setfield SandboxScenery[2].object 3E08
+setfield SandboxScenery[2].name edge_Gravlift
+setfield SandboxScenery[3].object 3DDE
+setfield SandboxScenery[3].name edge_skybox
+setfield SandboxScenery[4].object 1A6c
+setfield SandboxScenery[4].name barriers
+setfield SandboxScenery[5].object 01DD
+setfield SandboxScenery[5].name Spartan
+setfield SandboxScenery[6].object 15A0
+setfield SandboxScenery[6].name Monitor
+
+removefrom sandboxTeleporters 0 *
+addto sandboxTeleporters 3
+setfield sandboxteleporters[0].object 2ec0
+setfield sandboxteleporters[0].name teleporter_sender
+setfield sandboxteleporters[1].object 2ec1
+setfield sandboxteleporters[1].name teleporter_reciever
+setfield sandboxteleporters[2].object 2ec2
+setfield sandboxteleporters[2].name teleporter_2way
+
+removefrom sandboxspawning 0 *
+addto sandboxspawning 10
+setfield sandboxspawning[0].object 2e90
+setfield sandboxspawning[0].name respawn_point
+setfield sandboxspawning[1].object 2e98
+setfield sandboxspawning[1].name assault_initial_respawn_point
+setfield sandboxspawning[2].object 2e91
+setfield sandboxspawning[2].name ctf_initial_spawn_point
+setfield sandboxspawning[3].object 2e9a
+setfield sandboxspawning[3].name koth_initial_spawn_point
+setfield sandboxspawning[4].object 2e9d
+setfield sandboxspawning[4].name oddball_initial_spawn_point
+setfield sandboxspawning[5].object 2e92
+setfield sandboxspawning[5].name slayer_initial_spawn_point
+setfield sandboxspawning[6].object 2e9c
+setfield sandboxspawning[6].name territories_initial_spawn_point
+setfield sandboxspawning[7].object 2e9e
+setfield sandboxspawning[7].name vip_initial_spawn_point
+setfield sandboxspawning[8].object 2EA7
+setfield sandboxspawning[8].name infect_start_point
+setfield sandboxspawning[9].object 15D4
+setfield sandboxspawning[9].name scrambler 
+
+removefrom sandboxEquipment 0 *
+addto sandboxEquipment 16
+setfield SandboxEquipment[0].object 01AF
+setfield SandboxEquipment[0].name plasma_nade
+setfield SandboxEquipment[1].object 01AC
+setfield SandboxEquipment[1].name frag_nade
+setfield SandboxEquipment[2].object 01B2
+setfield SandboxEquipment[2].name spike_nade
+setfield SandboxEquipment[3].object 01B5
+setfield SandboxEquipment[3].name flame_nade
+setfield SandboxEquipment[4].object 1B8E
+setfield SandboxEquipment[4].name ammo
+setfield SandboxEquipment[5].object 1B8F
+setfield SandboxEquipment[5].name ammo_small
+setfield SandboxEquipment[6].object 196E
+setfield SandboxEquipment[6].name BubbleShield
+setfield SandboxEquipment[7].object 1A6E
+setfield SandboxEquipment[7].name DeployableCover
+setfield SandboxEquipment[8].object 15D2
+setfield SandboxEquipment[8].name PowerDrain
+setfield SandboxEquipment[9].object 19C5
+setfield SandboxEquipment[9].name Regen
+setfield SandboxEquipment[10].object 18AC
+setfield SandboxEquipment[10].name radarjammer
+setfield SandboxEquipment[11].object 15D3
+setfield SandboxEquipment[11].name flare
+setfield SandboxEquipment[12].object 15D1
+setfield SandboxEquipment[12].name tripmine
+setfield SandboxEquipment[13].object 15D5
+setfield SandboxEquipment[13].name yellowpowerdrain
+setfield SandboxEquipment[14].object 2eab
+setfield SandboxEquipment[14].name powerup_red
+setfield SandboxEquipment[15].object 2eac
+setfield SandboxEquipment[15].name powerup_yellow
+
+removefrom sandboxGoalObjects 0 *
+addto sandboxGoalObjects 9
+setfield SandboxGoalObjects[0].object 2ec3
+setfield SandboxGoalObjects[0].name ctf_flag_spawn_point
+setfield SandboxGoalObjects[1].object 2ec4
+setfield SandboxGoalObjects[1].name ctf_flag_return_area
+setfield SandboxGoalObjects[2].object 2ec5
+setfield SandboxGoalObjects[2].name assault_bomb_spawn_point
+setfield SandboxGoalObjects[3].object 2ec6
+setfield SandboxGoalObjects[3].name assault_bomb_goal_area
+setfield SandboxGoalObjects[4].object 2ec7
+setfield SandboxGoalObjects[4].name juggernaut_destination_static
+setfield SandboxGoalObjects[5].object 2ec8
+setfield SandboxGoalObjects[5].name koth_hill_static
+setfield SandboxGoalObjects[6].object 2ec9
+setfield SandboxGoalObjects[6].name oddball_ball_spawn_point
+setfield SandboxGoalObjects[7].object 2eca
+setfield SandboxGoalObjects[7].name territory_static
+setfield SandboxGoalObjects[8].object 2ecb
+setfield SandboxGoalObjects[8].name vip_destination_static
+
+removefrom sandboxWeapons 0 *
+addto sandboxWeapons 47
+setfield SandboxWeapons[0].object 14F7
+setfield SandboxWeapons[0].name edge_Plasmapistol
+setfield SandboxWeapons[1].object 14F8
+setfield SandboxWeapons[1].name edge_needler
+setfield SandboxWeapons[2].object 1504
+setfield SandboxWeapons[2].name edge_mauler
+setfield SandboxWeapons[3].object 1509
+setfield SandboxWeapons[3].name edge_beamrifle
+setfield SandboxWeapons[4].object 150C
+setfield SandboxWeapons[4].name edge_gravhammer
+setfield SandboxWeapons[5].object 151E
+setfield SandboxWeapons[5].name edge_assaultrifle
+setfield SandboxWeapons[6].object 157C
+setfield SandboxWeapons[6].name edge_BR
+setfield SandboxWeapons[7].object 157D
+setfield SandboxWeapons[7].name edge_smg
+setfield SandboxWeapons[8].object 1580
+setfield SandboxWeapons[8].name dmr
+setfield SandboxWeapons[9].object 159E
+setfield SandboxWeapons[9].name edge_energysword
+setfield SandboxWeapons[10].object 15B3
+setfield SandboxWeapons[10].name edge_rockets
+setfield SandboxWeapons[11].object 1A45
+setfield SandboxWeapons[11].name edge_shotgun
+setfield SandboxWeapons[12].object 1595
+setfield SandboxWeapons[12].name plasma_pistol_pwr
+setfield SandboxWeapons[13].object 1525
+setfield SandboxWeapons[13].name plasma_rifle
+setfield SandboxWeapons[14].object 1590
+setfield SandboxWeapons[14].name plasma_riflev6
+setfield SandboxWeapons[15].object 1581
+setfield SandboxWeapons[15].name assault_rifle_dmg
+setfield SandboxWeapons[16].object 1582
+setfield SandboxWeapons[16].name assault_rifle_rof
+setfield SandboxWeapons[17].object 1583
+setfield SandboxWeapons[17].name assault_rifle_acc
+setfield SandboxWeapons[18].object 1584
+setfield SandboxWeapons[18].name assault_rifle_pwr
+setfield SandboxWeapons[19].object 15BB
+setfield SandboxWeapons[19].name battle_rifle_rof
+setfield SandboxWeapons[20].object 15BC
+setfield SandboxWeapons[20].name battle_rifle_acc
+setfield SandboxWeapons[21].object 1585
+setfield SandboxWeapons[21].name battle_rifle_mag
+setfield SandboxWeapons[22].object 1586
+setfield SandboxWeapons[22].name battle_rifle_dmg
+setfield SandboxWeapons[23].object 15BD
+setfield SandboxWeapons[23].name battle_rifle_rng
+setfield SandboxWeapons[24].object 1587
+setfield SandboxWeapons[24].name battle_rifle_pwr
+setfield SandboxWeapons[25].object 15BF
+setfield SandboxWeapons[25].name dmr_rng
+setfield SandboxWeapons[26].object 1588
+setfield SandboxWeapons[26].name dmr_acc
+setfield SandboxWeapons[27].object 1589
+setfield SandboxWeapons[27].name dmr_rof
+setfield SandboxWeapons[28].object 158A
+setfield SandboxWeapons[28].name dmr_dmg
+setfield SandboxWeapons[29].object 15BE
+setfield SandboxWeapons[29].name dmr_mag
+setfield SandboxWeapons[30].object 158B
+setfield SandboxWeapons[30].name dmr_pwr
+setfield SandboxWeapons[31].object 15C0
+setfield SandboxWeapons[31].name carbine_rof
+setfield SandboxWeapons[32].object 15C1
+setfield SandboxWeapons[32].name carbine_mag
+setfield SandboxWeapons[33].object 15C2
+setfield SandboxWeapons[33].name carbine_rng
+setfield SandboxWeapons[34].object 15C3
+setfield SandboxWeapons[34].name carbine_dmg
+setfield SandboxWeapons[35].object 15C4
+setfield SandboxWeapons[35].name carbine_acc
+setfield SandboxWeapons[36].object 1591
+setfield SandboxWeapons[36].name carbine_pwr
+setfield SandboxWeapons[37].object 158C
+setfield SandboxWeapons[37].name smg_rof
+setfield SandboxWeapons[38].object 158D
+setfield SandboxWeapons[38].name smg_acc
+setfield SandboxWeapons[39].object 158E
+setfield SandboxWeapons[39].name smg_dmg
+setfield SandboxWeapons[40].object 158F
+setfield SandboxWeapons[40].name smg_pwr
+setfield SandboxWeapons[41].object 1593
+setfield SandboxWeapons[41].name magnum_dmg
+setfield SandboxWeapons[42].object 1594
+setfield SandboxWeapons[42].name magnum_pwr
+setfield SandboxWeapons[43].object 1592
+setfield SandboxWeapons[43].name mauler_pwr
+setfield SandboxWeapons[44].object 15a2
+setfield SandboxWeapons[44].name flag
+setfield SandboxWeapons[45].object 15a3
+setfield SandboxWeapons[45].name Oddball
+setfield SandboxWeapons[46].object 15a4
+setfield SandboxWeapons[46].name Bomb
+
+savechanges
+exit
+
+
+edit 157B
+echo  editing sandbox propities menu
+
+removefrom sandboxTextValuepairs[1].textvalueparis 2 *
+addto sandboxTextValuepairs[1].textvalueparis 5
+setfield sandboxTextValuepairs[1].TextValueParis[2].intValue 2
+setfield sandboxTextValuepairs[1].TextValueParis[3].intValue 3
+setfield sandboxTextValuepairs[1].TextValueParis[4].intValue 4
+setfield sandboxTextValuepairs[1].TextValueParis[5].intValue 5
+setfield sandboxTextValuepairs[1].TextValueParis[6].intValue 10
+
+removefrom sandboxTextValuepairs[3].textvalueparis 10 *
+addto sandboxTextValuepairs[3].textvalueparis 11
+setfield sandboxTextValuepairs[3].TextValueParis[11].intValue 11
+setfield sandboxTextValuepairs[3].TextValueParis[12].intValue 12
+setfield sandboxTextValuepairs[3].TextValueParis[13].intValue 13
+setfield sandboxTextValuepairs[3].TextValueParis[14].intValue 14
+setfield sandboxTextValuepairs[3].TextValueParis[15].intValue 15
+setfield sandboxTextValuepairs[3].TextValueParis[16].intValue 16
+setfield sandboxTextValuepairs[3].TextValueParis[17].intValue 17
+setfield sandboxTextValuepairs[3].TextValueParis[18].intValue 18
+setfield sandboxTextValuepairs[3].TextValueParis[19].intValue 19
+setfield sandboxTextValuepairs[3].TextValueParis[20].intValue 20
+savechanges
+exit
+
+edit 29ED
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 29EC
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 3743
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+echo making objects on last resort editable 
+
+edit 51C7
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 5210
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 51FD
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 51EA
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 521A
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 5225
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 522A
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 5239
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+
+
+echo making objects on last resort editable 
+
+edit 48EF
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 4904
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 490E
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 4918
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 4923
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 492F
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 4934
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 4950
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 49B1
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 49C3
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 49DE
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 4703
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 4608
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 4686
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+
+edit 469F
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 46D0
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+
+edit 461D
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 4628
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 4632
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 196E
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 1A6E
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 15D2
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 463D
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 4643
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 4662
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 46BE
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 46C7
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+
+
+edit 46A4
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+
+
+echo narrows
+
+edit 4B5E
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 4B76
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 4BC8
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 3E0B
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 4B4D
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 4B4E
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 4B70
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 4B7B
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 3E0C
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 3495
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+echo making items on standoff editable
+
+edit 4EF5
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 4F04
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 4F09
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+
+
+echo making items on highground editable
+
+edit 5495
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 54A2
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 54AB
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 54C7
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 54CC
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 54D1
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 54D7
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 53A2
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 348E
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 5324
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 4608
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 532B
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 535F
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+echo making items editable on sandtrap
+
+edit 56F5
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 50EE
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+
+edit 55A8
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 50F8
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 50FD
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 50E9
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+
+
+echo making items editable on Guardian
+
+edit 2ED9
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 2EDA
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 2EDB
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 2EDD
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 2ED9
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 2EDA
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+
+edit 2EDB
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 2EDD
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 2EF5
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 3AA7
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 2EE6
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 2EE7
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 2EE8
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+
+edit 2EA4
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 2EA5
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+
+echo making items editable on Diamondback
+
+edit 3A9F
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 3AA0
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 3AA1
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 3AA2
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 3AA3
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 3AA4
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 3A14
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 3A15
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 3A16
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 3A17
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+
+echo making items editable on reactor
+
+edit 27C7
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 3F89
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 3F8A
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 3F8B
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 3F8C
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+
+echo making items editable on turf
+
+
+edit 41EF
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+echo adding AI spawner and making bomb/flag/oddball work in other gametypes
+
+edit 1B62
+edit newDamageInfo[0]
+edit damageSections[0]
+edit instantResponses[0]
+setfield transitionDamageEffect 
+savechanges
+exit
+exit
+savechanges
+savechanges
+exit
+savechanges
+exit
+
+edit 1AD0
+edit shaderProperties[0]
+edit arguments[2]
+setfield arg2 5
+savechanges
+exit
+exit
+savechanges
+exit
+
+edit 1b63
+edit events[2]
+edit parts[0]
+setfield anticipatedtagclass 1667785074
+setfield spawnedtag 1A1B
+exit
+exit
+savechanges
+exit
+
+edit 15a2
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+setfield multiplayerObjectProperties[0].engineflags 1023
+savechanges
+exit
+
+edit 15a3
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+setfield multiplayerObjectProperties[0].engineflags 1023
+savechanges
+exit
+
+edit 15a4
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+setfield multiplayerObjectProperties[0].engineflags 1023
+savechanges
+exit
+
+edit 15d4
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 15d5
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 15d1
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 15d3
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 18ac
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 19c5
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 15d2
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 1a6e
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 196e
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+edit 2ed9
+removefrom multiplayerObjectProperties 0 *
+addto multiplayerObjectProperties
+savechanges
+exit
+
+exitTo tags.dat
+exit

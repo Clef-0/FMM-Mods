@@ -1,0 +1,7 @@
+ECHO FMM_OUTPUT correcting the phmo of certain weapons to prevent weaopns from not being able to be picked up..
+
+cd mods\tagMods\FlatWeapFix
+
+Type flat.cmds | TagTool.exe ../../../maps/tags.dat
+
+ECHO FMM_OUTPUT PHMO altered. May act wonky in forge, but should play normal in-game. At least you can pickup weapons now, be thankful ;)

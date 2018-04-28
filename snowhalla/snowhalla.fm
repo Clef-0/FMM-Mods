@@ -1,0 +1,8 @@
+color 0A
+cd mods\tagmods\snowhalla\
+
+START /WAIT commands\TTCC.exe commands\snowhalla.cmdX
+
+Type commands\snowhalla.cmds | TagTool.exe ..\..\..\maps\tags.dat
+
+ECHO FMM_OUTPUT Valhalla SNOWVERHAUL Successfully installed!

@@ -1,0 +1,94 @@
+Tag Tool [1.0.5907.15260]
+
+Please report any bugs and feature requests at
+<https://github.com/camden-smallwood/TagTool/issues>.
+
+Reading tags...22310 tags loaded.
+- Detected target engine version 1.106708 cert_ms23.
+- This cache file was built on 3/20/2015 at 7:40 AM.
+Reading stringIDs...37378 strings loaded.
+
+Enter "help" to list available commands. Enter "exit" to quit.
+
+tags.dat> edit 157E
+Tag 0x0000157E.weapon has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x157E.weapon> setfield SpecialHudIcon 1
+SpecialHudIcon: Int32 = 1
+
+tags.dat\0x157E.weapon> setfield FirstPerson[0].FirstPersonModel 116A
+FirstPersonModel: TagInstance = 0x0000116A
+
+tags.dat\0x157E.weapon> setfield FirstPerson[1].FirstPersonModel 116A
+FirstPersonModel: TagInstance = 0x0000116A
+
+tags.dat\0x157E.weapon> savechanges
+Done!
+
+tags.dat\0x157E.weapon> exit
+
+tags.dat> edit 116A
+Tag 0x0000116A.render_model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x116A.render_model> addto markergroups
+Successfully added 1 element to MarkerGroups: List`1<MarkerGroup>
+{...}[6]
+
+tags.dat\0x116A.render_model> edit markergroups[*]
+
+tags.dat\0x116A.render_model\markergroups[5]> addto markers
+Successfully added 1 element to Markers: List`1<Marker>
+{...}[1]
+
+tags.dat\0x116A.render_model\markergroups[5]> exit
+
+tags.dat\0x116A.render_model> setfield markergroups[*].name weapon_stow_anchor
+Name: StringID = weapon_stow_anchor
+
+tags.dat\0x116A.render_model> setfield markergroups[*].markers[0].RegionIndex -1
+RegionIndex: SByte = -1
+
+tags.dat\0x116A.render_model> setfield markergroups[*].markers[0].PermutationIndex -1
+PermutationIndex: SByte = -1
+
+tags.dat\0x116A.render_model> setfield markergroups[*].markers[0].NodeIndex 0
+NodeIndex: SByte = 0
+
+tags.dat\0x116A.render_model> setfield markergroups[*].markers[0].Unknown3 0
+Unknown3: SByte = 0
+
+tags.dat\0x116A.render_model> setfield markergroups[*].markers[0].Translation -0.0247396 -0.008442318 0.02264722
+Translation: Vector3 = { X: -0.0247396, Y: -0.008442318, Z: 0.02264722 }
+
+tags.dat\0x116A.render_model> setfield markergroups[*].markers[0].Rotation -0.6982421 -0.01886405 -0.0850898 0.7105364
+Rotation: Vector4 = -0.6982421, -0.01886405, -0.0850898, 0.7105364
+
+tags.dat\0x116A.render_model> setfield markergroups[*].markers[0].Scale 0
+Scale: Single = 0
+
+tags.dat\0x116A.render_model> savechanges
+Done!
+
+tags.dat\0x116A.render_model> exitto tags.dat
+
+tags.dat> edit 20B8
+Tag 0x000020B8.model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x20B8.model> setfield RenderModel 116A
+RenderModel: TagInstance = 0x0000116A
+
+tags.dat\0x20B8.model> setfield LodModel null
+LodModel: TagInstance = null
+
+tags.dat\0x20B8.model> savechanges
+Done!
+
+tags.dat\0x20B8.model> exit
+
+tags.dat> dumplog test.log      

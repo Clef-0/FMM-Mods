@@ -1,0 +1,11 @@
+--IMPORT_BinCMP--
+import 6E28 x_Install\FLATGRASS_BSP_MODE.tag
+import 6E2B x_Install\FLATGRASS_DETAIL1_MODE.tag
+import 6E2E x_Install\FOUNDRY_BSP_MODE.tag
+import 6E31 x_Install\FOUNDRY_DETAIL1_MODE.tag
+import 6E34 x_Install\FOUNDRY_DETAIL2_MODE.tag
+import 6E3E x_Install\SKYBOX_MODE.tag
+import 6E46 x_Install\STAGECAM_MODE.tag
+import 6E49 x_Install\FLATGRASS_BSP_RM_MODE.tag
+import 6E4C x_Install\FLATGRASS_DETAIL1_RM_MODE.tag
+exit

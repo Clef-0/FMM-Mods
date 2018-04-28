@@ -1,0 +1,54 @@
+--DEPS--
+dep add 0 6F4D
+dep add 0 6F4E
+dep add 0 6F4F
+dep add 0 6F50
+dep add 0 6F51
+dep add 0 6F52
+dep add 0 6F53
+dep add 0 6F54
+
+--MULG_FIXUP--
+dep remove 028E 01AD
+dep remove 028E 01B0
+dep remove 028E 01B3
+dep remove 028E 01B6
+dep remove 028E 06D9
+dep remove 028E 01D9
+dep remove 028E 15C8
+dep remove 028E 15C9
+dep remove 028E 15CA
+dep remove 028E 15CB
+dep remove 028E 15CD
+dep remove 028E 15CE
+dep remove 028E 15CF
+dep remove 028E 15D0
+dep remove 028E 1517
+dep remove 028E 1518
+dep remove 028E 1519
+dep remove 028E 151A
+dep remove 028E 151F
+dep remove 028E 1520
+dep remove 028E 1596
+dep remove 028E 1598
+dep remove 028E 1599
+dep remove 028E 159B
+dep remove 028E 15C5
+dep remove 028E 4441
+dep remove 028E 4442
+dep remove 028E 4443
+dep remove 028E 4444
+dep remove 028E 4445
+dep remove 028E 4446
+dep remove 028E 4447
+dep remove 028E 4448
+dep remove 028E 4449
+dep remove 028E 1A45
+dep remove 028E 1A54
+dep remove 028E 1A55
+dep remove 028E 1A56
+dep remove 028E 6F4D
+dep remove 028E 6F50
+
+dumplog x_UserMods-x3.txt
+exit

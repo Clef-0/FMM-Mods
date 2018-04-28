@@ -1,0 +1,8 @@
+ECHO FMM_OUTPUT Installing Halo 3 AR Animations
+cd mods\tagMods\h3mods\h3anims\Halo3ARAnimations
+
+color 0A
+
+Type Halo3ARAnimations.cmds | TagTool.exe ../../../../../maps/tags.dat
+
+ECHO FMM_OUTPUT Halo 3 AR Animations Installed.

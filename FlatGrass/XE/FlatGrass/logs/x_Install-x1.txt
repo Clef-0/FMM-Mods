@@ -1,0 +1,413 @@
+Tag Tool [1.0.5938.29681]
+
+Please report any bugs and feature requests at
+<https://github.com/camden-smallwood/TagTool/issues>.
+
+Reading tags...28910 tags loaded.
+- Detected target engine version 1.106708 cert_ms23.
+- This cache file was built on 3/20/2015 at 9:40 AM.
+Reading stringIDs...37495 strings loaded.
+
+Enter "help" to list available commands. Enter "exit" to quit.
+
+tags.dat> --TAG_SETUP--
+Unrecognized command: --TAG_SETUP--
+Use "help" to list available commands.
+
+tags.dat> import 6E23 x_Install\MAP_R8_SCNR.tag full
+Imported 0x232FC bytes.
+
+tags.dat> import 6E24 x_Install\MAP_R1_SDDT.tag full
+Imported 0x6A9F0 bytes.
+
+tags.dat> import 6E25 x_Install\MAP_R1_SBSP.tag full
+Imported 0xB0910 bytes.
+
+tags.dat> import 6E26 x_Install\FLATGRASS_BSP_BLOC.tag full
+Imported 0x250 bytes.
+
+tags.dat> import 6E27 x_Install\FLATGRASS_BSP_HLMT.tag full
+Imported 0x320 bytes.
+
+tags.dat> import 6E28 x_Install\FLATGRASS_BSP_MODE.tag full
+Imported 0x560 bytes.
+
+tags.dat> import 6E29 x_Install\FLATGRASS_DETAIL1_BLOC.tag full
+Imported 0x250 bytes.
+
+tags.dat> import 6E2A x_Install\FLATGRASS_DETAIL1_HLMT.tag full
+Imported 0x320 bytes.
+
+tags.dat> import 6E2B x_Install\FLATGRASS_DETAIL1_MODE.tag full
+Imported 0x560 bytes.
+
+tags.dat> import 6E2C x_Install\FOUNDRY_BSP_BLOC.tag full
+Imported 0x250 bytes.
+
+tags.dat> import 6E2D x_Install\FOUNDRY_BSP_HLMT.tag full
+Imported 0x320 bytes.
+
+tags.dat> import 6E2E x_Install\FOUNDRY_BSP_MODE.tag full
+Imported 0x560 bytes.
+
+tags.dat> import 6E2F x_Install\FOUNDRY_DETAIL1_BLOC.tag full
+Imported 0x250 bytes.
+
+tags.dat> import 6E30 x_Install\FOUNDRY_DETAIL1_HLMT.tag full
+Imported 0x2B0 bytes.
+
+tags.dat> import 6E31 x_Install\FOUNDRY_DETAIL1_MODE.tag full
+Imported 0x560 bytes.
+
+tags.dat> import 6E32 x_Install\FOUNDRY_DETAIL2_BLOC.tag full
+Imported 0x250 bytes.
+
+tags.dat> import 6E33 x_Install\FOUNDRY_DETAIL2_HLMT.tag full
+Imported 0x2B0 bytes.
+
+tags.dat> import 6E34 x_Install\FOUNDRY_DETAIL2_MODE.tag full
+Imported 0x560 bytes.
+
+tags.dat> import 6E35 x_Install\FLATGRASS_COLL.tag full
+Imported 0x3A0 bytes.
+
+tags.dat> import 6E36 x_Install\FLATGRASS_PHMO.tag full
+Imported 0xAE0 bytes.
+
+tags.dat> import 6E37 x_Install\FOUNDRY_PHMO.tag full
+Imported 0xF9C0 bytes.
+
+tags.dat> import 6E38 x_Install\SHARED1_RMSH.tag full
+Imported 0x360 bytes.
+
+tags.dat> import 6E39 x_Install\SHARED2_RMSH.tag full
+Imported 0x9A0 bytes.
+
+tags.dat> import 6E3A x_Install\SHARED3_RMSH.tag full
+Imported 0x500 bytes.
+
+tags.dat> import 6E3B x_Install\SHARED4_RMSH.tag full
+Imported 0x3B0 bytes.
+
+tags.dat> import 6E3C x_Install\SKYBOX_SCEN.tag full
+Imported 0x160 bytes.
+
+tags.dat> import 6E3D x_Install\SKYBOX_HLMT.tag full
+Imported 0x390 bytes.
+
+tags.dat> import 6E3E x_Install\SKYBOX_MODE.tag full
+Imported 0x402C0 bytes.
+
+tags.dat> import 6E3F x_Install\FOUNDRY_COLL.tag full
+Imported 0x17250 bytes.
+
+tags.dat> import 6E43 x_Install\MAP_R9_SCNR.tag full
+Imported 0x23370 bytes.
+
+tags.dat> import 6E44 x_Install\STAGECAM_SCEN.tag full
+Imported 0x160 bytes.
+
+tags.dat> import 6E45 x_Install\STAGECAM_HLMT.tag full
+Imported 0x390 bytes.
+
+tags.dat> import 6E46 x_Install\STAGECAM_MODE.tag full
+Imported 0x402C0 bytes.
+
+tags.dat> import 6E47 x_Install\FLATGRASS_BSP_RM_SCEN.tag full
+Imported 0x160 bytes.
+
+tags.dat> import 6E48 x_Install\FLATGRASS_BSP_RM_HLMT.tag full
+Imported 0x390 bytes.
+
+tags.dat> import 6E49 x_Install\FLATGRASS_BSP_RM_MODE.tag full
+Imported 0x560 bytes.
+
+tags.dat> import 6E4A x_Install\FLATGRASS_DETAIL1_RM_SCEN.tag full
+Imported 0x160 bytes.
+
+tags.dat> import 6E4B x_Install\FLATGRASS_DETAIL1_RM_HLMT.tag full
+Imported 0x390 bytes.
+
+tags.dat> import 6E4C x_Install\FLATGRASS_DETAIL1_RM_MODE.tag full
+Imported 0x560 bytes.
+
+tags.dat> 
+
+tags.dat> --MODEL_PORT--
+Unrecognized command: --MODEL_PORT--
+Use "help" to list available commands.
+
+tags.dat> modeltest 6E28 x_Install\Assets\Models\FlatGrass\flatgrass_BSP_Scaled.obj
+Info,  T4812: Load x_Install\Assets\Models\FlatGrass\flatgrass_BSP_Scaled.obj
+
+Info,  T4812: Found a matching importer for this file format
+
+Info,  T4812: Import root directory is 'x_Install\Assets\Models\FlatGrass\'
+
+Info,  T4812: Entering post processing pipeline
+
+Info,  T4812: Removed 6 nodes and 0 animation channels (3 output nodes)
+
+Info,  T4812: Kept 0 lights and 0 cameras
+
+Info,  T4812: Moved 5 meshes to WCS (number of output meshes: 2)
+
+Info,  T4812: TriangulateProcess finished. All polygons have been triangulated.
+
+Info,  T4812: Points: 0, Lines: 0, Triangles: 2, Polygons: 0 (Meshes, X = removed)
+
+Info,  T4812: CalcTangentsProcess finished. Tangents have been calculated
+
+Info,  T4812: Leaving post processing pipeline
+
+Assembling vertices...
+Building Blam mesh data...
+Writing resource data...
+Writing tag data...
+Model imported successfully!
+
+tags.dat> modeltest 6E2B x_Install\Assets\Models\FlatGrass\flatgrass_Detail1_Scaled.obj
+Info,  T4812: Load x_Install\Assets\Models\FlatGrass\flatgrass_Detail1_Scaled.obj
+
+Info,  T4812: Found a matching importer for this file format
+
+Info,  T4812: Import root directory is 'x_Install\Assets\Models\FlatGrass\'
+
+Info,  T4812: Entering post processing pipeline
+
+Info,  T4812: Removed 5 nodes and 0 animation channels (5 output nodes)
+
+Info,  T4812: Kept 0 lights and 0 cameras
+
+Info,  T4812: Moved 4 meshes to WCS (number of output meshes: 4)
+
+Info,  T4812: TriangulateProcess finished. All polygons have been triangulated.
+
+Info,  T4812: Points: 0, Lines: 0, Triangles: 4, Polygons: 0 (Meshes, X = removed)
+
+Info,  T4812: CalcTangentsProcess finished. Tangents have been calculated
+
+Info,  T4812: JoinVerticesProcess finished | Verts in: 4016 out: 3916 | ~2.5%
+
+Info,  T4812: Leaving post processing pipeline
+
+Assembling vertices...
+Building Blam mesh data...
+Writing resource data...
+Writing tag data...
+Model imported successfully!
+
+tags.dat> modeltest 6E2E x_Install\Assets\Models\Foundry\foundry_BSP_Scaled.obj
+Info,  T4812: Load x_Install\Assets\Models\Foundry\foundry_BSP_Scaled.obj
+
+Info,  T4812: Found a matching importer for this file format
+
+Info,  T4812: Import root directory is 'x_Install\Assets\Models\Foundry\'
+
+Info,  T4812: Entering post processing pipeline
+
+Info,  T4812: Removed 4 nodes and 0 animation channels (4 output nodes)
+
+Info,  T4812: Kept 0 lights and 0 cameras
+
+Info,  T4812: Moved 3 meshes to WCS (number of output meshes: 3)
+
+Info,  T4812: TriangulateProcess finished. All polygons have been triangulated.
+
+Info,  T4812: Points: 0, Lines: 0, Triangles: 3, Polygons: 0 (Meshes, X = removed)
+
+Info,  T4812: CalcTangentsProcess finished. Tangents have been calculated
+
+Info,  T4812: JoinVerticesProcess finished | Verts in: 122030 out: 62901 | ~48.5%
+
+Info,  T4812: Leaving post processing pipeline
+
+Assembling vertices...
+Building Blam mesh data...
+Writing resource data...
+Writing tag data...
+Model imported successfully!
+
+tags.dat> modeltest 6E31 x_Install\Assets\Models\Foundry\foundry_Detail1_Scaled.obj
+Info,  T4812: Load x_Install\Assets\Models\Foundry\foundry_Detail1_Scaled.obj
+
+Info,  T4812: Found a matching importer for this file format
+
+Info,  T4812: Import root directory is 'x_Install\Assets\Models\Foundry\'
+
+Info,  T4812: Entering post processing pipeline
+
+Info,  T4812: Removed 6 nodes and 0 animation channels (6 output nodes)
+
+Info,  T4812: Kept 0 lights and 0 cameras
+
+Info,  T4812: Moved 5 meshes to WCS (number of output meshes: 5)
+
+Info,  T4812: TriangulateProcess finished. All polygons have been triangulated.
+
+Info,  T4812: Points: 0, Lines: 0, Triangles: 5, Polygons: 0 (Meshes, X = removed)
+
+Info,  T4812: CalcTangentsProcess finished. Tangents have been calculated
+
+Info,  T4812: JoinVerticesProcess finished | Verts in: 80904 out: 38474 | ~52.4%
+
+Info,  T4812: Leaving post processing pipeline
+
+Assembling vertices...
+Building Blam mesh data...
+Writing resource data...
+Writing tag data...
+Model imported successfully!
+
+tags.dat> modeltest 6E34 x_Install\Assets\Models\Foundry\foundry_Detail2_Scaled.obj
+Info,  T4812: Load x_Install\Assets\Models\Foundry\foundry_Detail2_Scaled.obj
+
+Info,  T4812: Found a matching importer for this file format
+
+Info,  T4812: Import root directory is 'x_Install\Assets\Models\Foundry\'
+
+Info,  T4812: Entering post processing pipeline
+
+Info,  T4812: Removed 5 nodes and 0 animation channels (5 output nodes)
+
+Info,  T4812: Kept 0 lights and 0 cameras
+
+Info,  T4812: Moved 4 meshes to WCS (number of output meshes: 4)
+
+Info,  T4812: TriangulateProcess finished. All polygons have been triangulated.
+
+Info,  T4812: Points: 0, Lines: 0, Triangles: 4, Polygons: 0 (Meshes, X = removed)
+
+Info,  T4812: CalcTangentsProcess finished. Tangents have been calculated
+
+Info,  T4812: Leaving post processing pipeline
+
+Assembling vertices...
+Building Blam mesh data...
+Writing resource data...
+Writing tag data...
+Model imported successfully!
+
+tags.dat> modeltest 6E3E x_Install\Assets\Models\FlatGrass\flatgrass_Skybox_Scaled.obj
+Info,  T4812: Load x_Install\Assets\Models\FlatGrass\flatgrass_Skybox_Scaled.obj
+
+Info,  T4812: Found a matching importer for this file format
+
+Info,  T4812: Import root directory is 'x_Install\Assets\Models\FlatGrass\'
+
+Info,  T4812: Entering post processing pipeline
+
+Info,  T4812: Removed 2 nodes and 0 animation channels (1 output nodes)
+
+Info,  T4812: Kept 0 lights and 0 cameras
+
+Info,  T4812: Moved 1 meshes to WCS (number of output meshes: 1)
+
+Info,  T4812: TriangulateProcess finished. All polygons have been triangulated.
+
+Info,  T4812: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+
+Info,  T4812: CalcTangentsProcess finished. Tangents have been calculated
+
+Info,  T4812: JoinVerticesProcess finished | Verts in: 1984 out: 1934 | ~2.5%
+
+Info,  T4812: Leaving post processing pipeline
+
+Assembling vertices...
+Building Blam mesh data...
+Writing resource data...
+Writing tag data...
+Model imported successfully!
+
+tags.dat> modeltest 6E46 x_Install\Assets\Models\FlatGrass\flatgrass_StageCam_Scaled.obj
+Info,  T4812: Load x_Install\Assets\Models\FlatGrass\flatgrass_StageCam_Scaled.obj
+
+Info,  T4812: Found a matching importer for this file format
+
+Info,  T4812: Import root directory is 'x_Install\Assets\Models\FlatGrass\'
+
+Info,  T4812: Entering post processing pipeline
+
+Info,  T4812: Removed 3 nodes and 0 animation channels (3 output nodes)
+
+Info,  T4812: Kept 0 lights and 0 cameras
+
+Info,  T4812: Moved 2 meshes to WCS (number of output meshes: 2)
+
+Info,  T4812: TriangulateProcess finished. All polygons have been triangulated.
+
+Info,  T4812: Points: 0, Lines: 0, Triangles: 2, Polygons: 0 (Meshes, X = removed)
+
+Info,  T4812: CalcTangentsProcess finished. Tangents have been calculated
+
+Info,  T4812: Leaving post processing pipeline
+
+Assembling vertices...
+Building Blam mesh data...
+Writing resource data...
+Writing tag data...
+Model imported successfully!
+
+tags.dat> modeltest 6E49 x_Install\Assets\Models\FlatGrass\flatgrass_BSP_Scaled.obj
+Info,  T4812: Load x_Install\Assets\Models\FlatGrass\flatgrass_BSP_Scaled.obj
+
+Info,  T4812: Found a matching importer for this file format
+
+Info,  T4812: Import root directory is 'x_Install\Assets\Models\FlatGrass\'
+
+Info,  T4812: Entering post processing pipeline
+
+Info,  T4812: Removed 6 nodes and 0 animation channels (3 output nodes)
+
+Info,  T4812: Kept 0 lights and 0 cameras
+
+Info,  T4812: Moved 5 meshes to WCS (number of output meshes: 2)
+
+Info,  T4812: TriangulateProcess finished. All polygons have been triangulated.
+
+Info,  T4812: Points: 0, Lines: 0, Triangles: 2, Polygons: 0 (Meshes, X = removed)
+
+Info,  T4812: CalcTangentsProcess finished. Tangents have been calculated
+
+Info,  T4812: Leaving post processing pipeline
+
+Assembling vertices...
+Building Blam mesh data...
+Writing resource data...
+Writing tag data...
+Model imported successfully!
+
+tags.dat> modeltest 6E4C x_Install\Assets\Models\FlatGrass\flatgrass_Detail1_Scaled.obj
+Info,  T4812: Load x_Install\Assets\Models\FlatGrass\flatgrass_Detail1_Scaled.obj
+
+Info,  T4812: Found a matching importer for this file format
+
+Info,  T4812: Import root directory is 'x_Install\Assets\Models\FlatGrass\'
+
+Info,  T4812: Entering post processing pipeline
+
+Info,  T4812: Removed 5 nodes and 0 animation channels (5 output nodes)
+
+Info,  T4812: Kept 0 lights and 0 cameras
+
+Info,  T4812: Moved 4 meshes to WCS (number of output meshes: 4)
+
+Info,  T4812: TriangulateProcess finished. All polygons have been triangulated.
+
+Info,  T4812: Points: 0, Lines: 0, Triangles: 4, Polygons: 0 (Meshes, X = removed)
+
+Info,  T4812: CalcTangentsProcess finished. Tangents have been calculated
+
+Info,  T4812: JoinVerticesProcess finished | Verts in: 4016 out: 3916 | ~2.5%
+
+Info,  T4812: Leaving post processing pipeline
+
+Assembling vertices...
+Building Blam mesh data...
+Writing resource data...
+Writing tag data...
+Model imported successfully!
+
+tags.dat> 
+
+tags.dat> dumplog x_Install-x1.txt

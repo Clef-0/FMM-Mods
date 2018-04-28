@@ -1,0 +1,382 @@
+EditTag 0x00000C66
+importbitmap 0 00000C66.dds
+EditBlock Sequences[0]
+EditBlock Sprites[0]
+SetField Top 0.15625
+SetField Bottom 0.3125
+exit
+exit
+EditBlock Sequences[1]
+EditBlock Sprites[0]
+SetField Bottom 0.15625
+exit
+exit
+EditBlock Sequences[2]
+EditBlock Sprites[0]
+SetField Bottom 0.15625
+exit
+exit
+EditBlock Sequences[3]
+EditBlock Sprites[0]
+SetField Bottom 0.15625
+exit
+exit
+EditBlock Sequences[4]
+EditBlock Sprites[0]
+SetField Bottom 0.15625
+exit
+exit
+EditBlock Sequences[5]
+EditBlock Sprites[0]
+SetField Bottom 0.15625
+exit
+exit
+EditBlock Sequences[6]
+EditBlock Sprites[0]
+SetField Bottom 0.15625
+exit
+exit
+EditBlock Sequences[7]
+EditBlock Sprites[0]
+SetField Bottom 0.46875
+exit
+exit
+EditBlock Sequences[8]
+EditBlock Sprites[0]
+SetField Top 0.15625
+SetField Bottom 0.3125
+exit
+exit
+EditBlock Sequences[9]
+EditBlock Sprites[0]
+SetField Top 0.15625
+SetField Bottom 0.3125
+exit
+exit
+EditBlock Sequences[10]
+EditBlock Sprites[0]
+SetField Top 0.15625
+SetField Bottom 0.3125
+exit
+exit
+EditBlock Sequences[11]
+EditBlock Sprites[0]
+SetField Top 0.15625
+SetField Bottom 0.3125
+exit
+exit
+EditBlock Sequences[12]
+EditBlock Sprites[0]
+SetField Top 0.3125
+SetField Bottom 0.46875
+exit
+exit
+AddBlockElements Sequences 14
+EditBlock Sequences[13]
+
+SetField FirstBitmapIndex 0
+SetField BitmapCount 0
+SetField Unknown 0
+SetField Unknown2 0
+SetField Unknown3 0
+SetField Unknown4 0
+AddBlockElements Sprites 1
+EditBlock Sprites[0]
+SetField BitmapIndex 0
+SetField Unknown 0
+SetField Unknown2 0
+SetField Left 0.3125
+SetField Right 0.46875
+SetField Top 0.3125
+SetField Bottom 0.46875
+SetField RegistrationPointX 0.078125
+SetField RegistrationPointY 0.15625
+exit
+exit
+EditBlock Sequences[14]
+
+SetField FirstBitmapIndex 0
+SetField BitmapCount 0
+SetField Unknown 0
+SetField Unknown2 0
+SetField Unknown3 0
+SetField Unknown4 0
+AddBlockElements Sprites 1
+EditBlock Sprites[0]
+SetField BitmapIndex 0
+SetField Unknown 0
+SetField Unknown2 0
+SetField Left 0.46875
+SetField Right 0.625
+SetField Top 0.3125
+SetField Bottom 0.46875
+SetField RegistrationPointX 0.078125
+SetField RegistrationPointY 0.15625
+exit
+exit
+EditBlock Sequences[15]
+
+SetField FirstBitmapIndex 0
+SetField BitmapCount 0
+SetField Unknown 0
+SetField Unknown2 0
+SetField Unknown3 0
+SetField Unknown4 0
+AddBlockElements Sprites 1
+EditBlock Sprites[0]
+SetField BitmapIndex 0
+SetField Unknown 0
+SetField Unknown2 0
+SetField Left 0.625
+SetField Right 0.78125
+SetField Top 0.3125
+SetField Bottom 0.46875
+SetField RegistrationPointX 0.078125
+SetField RegistrationPointY 0.15625
+exit
+exit
+EditBlock Sequences[16]
+
+SetField FirstBitmapIndex 0
+SetField BitmapCount 0
+SetField Unknown 0
+SetField Unknown2 0
+SetField Unknown3 0
+SetField Unknown4 0
+AddBlockElements Sprites 1
+EditBlock Sprites[0]
+SetField BitmapIndex 0
+SetField Unknown 0
+SetField Unknown2 0
+SetField Left 0.78125
+SetField Right 0.9375
+SetField Top 0.3125
+SetField Bottom 0.46875
+SetField RegistrationPointX 0.078125
+SetField RegistrationPointY 0.15625
+exit
+exit
+EditBlock Sequences[17]
+
+SetField FirstBitmapIndex 0
+SetField BitmapCount 0
+SetField Unknown 0
+SetField Unknown2 0
+SetField Unknown3 0
+SetField Unknown4 0
+AddBlockElements Sprites 1
+EditBlock Sprites[0]
+SetField BitmapIndex 0
+SetField Unknown 0
+SetField Unknown2 0
+SetField Left 0
+SetField Right 0.15625
+SetField Top 0.46875
+SetField Bottom 0.625
+SetField RegistrationPointX 0.078125
+SetField RegistrationPointY 0.15625
+exit
+exit
+EditBlock Sequences[18]
+
+SetField FirstBitmapIndex 0
+SetField BitmapCount 0
+SetField Unknown 0
+SetField Unknown2 0
+SetField Unknown3 0
+SetField Unknown4 0
+AddBlockElements Sprites 1
+EditBlock Sprites[0]
+SetField BitmapIndex 0
+SetField Unknown 0
+SetField Unknown2 0
+SetField Left 0.15625
+SetField Right 0.3125
+SetField Top 0.46875
+SetField Bottom 0.625
+SetField RegistrationPointX 0.078125
+SetField RegistrationPointY 0.15625
+exit
+exit
+EditBlock Sequences[19]
+
+SetField FirstBitmapIndex 0
+SetField BitmapCount 0
+SetField Unknown 0
+SetField Unknown2 0
+SetField Unknown3 0
+SetField Unknown4 0
+AddBlockElements Sprites 1
+EditBlock Sprites[0]
+SetField BitmapIndex 0
+SetField Unknown 0
+SetField Unknown2 0
+SetField Left 0.3125
+SetField Right 0.46875
+SetField Top 0.46875
+SetField Bottom 0.625
+SetField RegistrationPointX 0.078125
+SetField RegistrationPointY 0.15625
+exit
+exit
+EditBlock Sequences[20]
+
+SetField FirstBitmapIndex 0
+SetField BitmapCount 0
+SetField Unknown 0
+SetField Unknown2 0
+SetField Unknown3 0
+SetField Unknown4 0
+AddBlockElements Sprites 1
+EditBlock Sprites[0]
+SetField BitmapIndex 0
+SetField Unknown 0
+SetField Unknown2 0
+SetField Left 0.46875
+SetField Right 0.625
+SetField Top 0.46875
+SetField Bottom 0.625
+SetField RegistrationPointX 0.078125
+SetField RegistrationPointY 0.15625
+exit
+exit
+EditBlock Sequences[21]
+
+SetField FirstBitmapIndex 0
+SetField BitmapCount 0
+SetField Unknown 0
+SetField Unknown2 0
+SetField Unknown3 0
+SetField Unknown4 0
+AddBlockElements Sprites 1
+EditBlock Sprites[0]
+SetField BitmapIndex 0
+SetField Unknown 0
+SetField Unknown2 0
+SetField Left 0.625
+SetField Right 0.78125
+SetField Top 0.46875
+SetField Bottom 0.625
+SetField RegistrationPointX 0.078125
+SetField RegistrationPointY 0.15625
+exit
+exit
+EditBlock Sequences[22]
+
+SetField FirstBitmapIndex 0
+SetField BitmapCount 0
+SetField Unknown 0
+SetField Unknown2 0
+SetField Unknown3 0
+SetField Unknown4 0
+AddBlockElements Sprites 1
+EditBlock Sprites[0]
+SetField BitmapIndex 0
+SetField Unknown 0
+SetField Unknown2 0
+SetField Left 0.78125
+SetField Right 0.9375
+SetField Top 0.46875
+SetField Bottom 0.625
+SetField RegistrationPointX 0.078125
+SetField RegistrationPointY 0.15625
+exit
+exit
+EditBlock Sequences[23]
+
+SetField FirstBitmapIndex 0
+SetField BitmapCount 0
+SetField Unknown 0
+SetField Unknown2 0
+SetField Unknown3 0
+SetField Unknown4 0
+AddBlockElements Sprites 1
+EditBlock Sprites[0]
+SetField BitmapIndex 0
+SetField Unknown 0
+SetField Unknown2 0
+SetField Left 0
+SetField Right 0.15625
+SetField Top 0.625
+SetField Bottom 0.78125
+SetField RegistrationPointX 0.078125
+SetField RegistrationPointY 0.15625
+exit
+exit
+EditBlock Sequences[24]
+
+SetField FirstBitmapIndex 0
+SetField BitmapCount 0
+SetField Unknown 0
+SetField Unknown2 0
+SetField Unknown3 0
+SetField Unknown4 0
+AddBlockElements Sprites 1
+EditBlock Sprites[0]
+SetField BitmapIndex 0
+SetField Unknown 0
+SetField Unknown2 0
+SetField Left 0.15625
+SetField Right 0.3125
+SetField Top 0.625
+SetField Bottom 0.78125
+SetField RegistrationPointX 0.078125
+SetField RegistrationPointY 0.15625
+exit
+exit
+EditBlock Sequences[25]
+
+SetField FirstBitmapIndex 0
+SetField BitmapCount 0
+SetField Unknown 0
+SetField Unknown2 0
+SetField Unknown3 0
+SetField Unknown4 0
+AddBlockElements Sprites 1
+EditBlock Sprites[0]
+SetField BitmapIndex 0
+SetField Unknown 0
+SetField Unknown2 0
+SetField Left 0.3125
+SetField Right 0.46875
+SetField Top 0.625
+SetField Bottom 0.78125
+SetField RegistrationPointX 0.078125
+SetField RegistrationPointY 0.15625
+exit
+exit
+EditBlock Sequences[26]
+
+SetField FirstBitmapIndex 0
+SetField BitmapCount 0
+SetField Unknown 0
+SetField Unknown2 0
+SetField Unknown3 0
+SetField Unknown4 0
+AddBlockElements Sprites 1
+EditBlock Sprites[0]
+SetField BitmapIndex 0
+SetField Unknown 0
+SetField Unknown2 0
+SetField Left 0.15625
+SetField Right 0.3125
+SetField Top 0.15625
+SetField Bottom 0.3125
+SetField RegistrationPointX 0.078125
+SetField RegistrationPointY 0.15625
+exit
+exit
+EditBlock Images[0]
+SetField Height 256
+SetField DataSize 65536
+exit
+SaveTagChanges
+exit
+EditTag 0x00001B2A
+EditBlock HudWidgets[0]
+EditBlock BitmapWidgets[0]
+SetField BitmapSpriteIndex 14
+exit
+exit
+SaveTagChanges
+exit

@@ -1,0 +1,6 @@
+ECHO FMM_OUTPUT Making the energy sword all nice and glowy..
+
+cd mods\tagmods\GlowySword
+Type GlowySword.cmds | TagTool.exe ../../../maps/tags.dat
+
+ECHO FMM_OUTPUT The energy sword is now glowy.

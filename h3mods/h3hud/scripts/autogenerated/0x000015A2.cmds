@@ -1,0 +1,4 @@
+EditTag 0x000015A2
+SetField HudInterface 0x00002692
+SaveTagChanges
+exit

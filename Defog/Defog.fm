@@ -1,0 +1,7 @@
+ECHO FMM_OUTPUT Installing the hotfix ...
+
+cd mods\tagMods\Defog
+
+Type commands\Defog.cmds | TagTool.exe ../../../maps/tags.dat
+
+ECHO FMM_OUTPUT Hotfix installed. ...

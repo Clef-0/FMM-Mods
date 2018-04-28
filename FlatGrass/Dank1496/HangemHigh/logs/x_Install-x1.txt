@@ -1,0 +1,853 @@
+Tag Tool [1.0.5938.29681]
+
+Please report any bugs and feature requests at
+<https://github.com/camden-smallwood/TagTool/issues>.
+
+Reading tags...28910 tags loaded.
+- Detected target engine version 1.106708 cert_ms23.
+- This cache file was built on 3/20/2015 at 9:40 AM.
+Reading stringIDs...37525 strings loaded.
+
+Enter "help" to list available commands. Enter "exit" to quit.
+
+tags.dat> --TAG_SETUP--
+Unrecognized command: --TAG_SETUP--
+Use "help" to list available commands.
+
+tags.dat> extract 6E43 x_Install\HANGEMHIGH_SCNR.tag full
+Wrote 0xC390 bytes to x_Install\HANGEMHIGH_SCNR.tag.
+The tag's main struct will be at offset 0xBB64.
+
+tags.dat> extract 2EB9 x_Install\HANGEMHIGH_BSP_BLOC.tag full
+Wrote 0x250 bytes to x_Install\HANGEMHIGH_BSP_BLOC.tag.
+The tag's main struct will be at offset 0x118.
+
+tags.dat> extract 3314 x_Install\HANGEMHIGH_BSP_HLMT.tag full
+Wrote 0x2B0 bytes to x_Install\HANGEMHIGH_BSP_HLMT.tag.
+The tag's main struct will be at offset 0xF0.
+
+tags.dat> extract 3317 x_Install\HANGEMHIGH_BSP_MODE.tag full
+Wrote 0x560 bytes to x_Install\HANGEMHIGH_BSP_MODE.tag.
+The tag's main struct will be at offset 0x390.
+
+tags.dat> extract 1024 x_Install\SHARED1_BITM.tag full
+Wrote 0x250 bytes to x_Install\SHARED1_BITM.tag.
+The tag's main struct will be at offset 0x198.
+
+tags.dat> extract 101F x_Install\SHARED1_RMSH.tag full
+Wrote 0x200 bytes to x_Install\SHARED1_RMSH.tag.
+The tag's main struct will be at offset 0x1B0.
+
+tags.dat> extract 2F13 x_Install\SHARED2_RMSH.tag full
+Wrote 0xAE0 bytes to x_Install\SHARED2_RMSH.tag.
+The tag's main struct will be at offset 0xA9C.
+
+tags.dat> import 6E42 x_Install\HANGEMHIGH_SCNR.tag full
+Imported 0xC390 bytes.
+
+tags.dat> import 6F1B x_Install\HANGEMHIGH_BSP_BLOC.tag full
+Imported 0x250 bytes.
+
+tags.dat> import 6F1C x_Install\HANGEMHIGH_BSP_HLMT.tag full
+Imported 0x2B0 bytes.
+
+tags.dat> import 6F1D x_Install\HANGEMHIGH_BSP_MODE.tag full
+Imported 0x560 bytes.
+
+tags.dat> import 6F1E x_Install\HANGEMHIGH_COLL.tag full
+Imported 0x23850 bytes.
+
+tags.dat> import 6F1F x_Install\HANGEMHIGH_PHMO.tag full
+Imported 0x13670 bytes.
+
+tags.dat> import 6F20 x_Install\SHARED1_BITM.tag full
+Imported 0x250 bytes.
+
+tags.dat> import 6F21 x_Install\SHARED1_BITM.tag full
+Imported 0x250 bytes.
+
+tags.dat> import 6F22 x_Install\SHARED1_BITM.tag full
+Imported 0x250 bytes.
+
+tags.dat> import 6F23 x_Install\SHARED1_BITM.tag full
+Imported 0x250 bytes.
+
+tags.dat> import 6F24 x_Install\SHARED1_BITM.tag full
+Imported 0x250 bytes.
+
+tags.dat> import 6F25 x_Install\SHARED1_BITM.tag full
+Imported 0x250 bytes.
+
+tags.dat> import 6F26 x_Install\SHARED1_BITM.tag full
+Imported 0x250 bytes.
+
+tags.dat> import 6F27 x_Install\SHARED1_BITM.tag full
+Imported 0x250 bytes.
+
+tags.dat> import 6F28 x_Install\SHARED1_BITM.tag full
+Imported 0x250 bytes.
+
+tags.dat> import 6F29 x_Install\SHARED1_BITM.tag full
+Imported 0x250 bytes.
+
+tags.dat> import 6F2A x_Install\SHARED1_RMSH.tag full
+Imported 0x200 bytes.
+
+tags.dat> import 6F2B x_Install\SHARED1_RMSH.tag full
+Imported 0x200 bytes.
+
+tags.dat> import 6F2C x_Install\SHARED1_RMSH.tag full
+Imported 0x200 bytes.
+
+tags.dat> import 6F2D x_Install\SHARED1_RMSH.tag full
+Imported 0x200 bytes.
+
+tags.dat> import 6F2E x_Install\SHARED1_RMSH.tag full
+Imported 0x200 bytes.
+
+tags.dat> import 6F2F x_Install\SHARED1_RMSH.tag full
+Imported 0x200 bytes.
+
+tags.dat> import 6F30 x_Install\SHARED1_RMSH.tag full
+Imported 0x200 bytes.
+
+tags.dat> import 6F31 x_Install\SHARED1_RMSH.tag full
+Imported 0x200 bytes.
+
+tags.dat> import 6F32 x_Install\SHARED2_RMSH.tag full
+Imported 0xAE0 bytes.
+
+tags.dat> import 6F33 x_Install\SHARED1_RMSH.tag full
+Imported 0x200 bytes.
+
+tags.dat> import 6F34 x_Install\SHARED1_BITM.tag full
+Imported 0x250 bytes.
+
+tags.dat> import 6F35 x_Install\SHARED1_BITM.tag full
+Imported 0x250 bytes.
+
+tags.dat> import 6F36 x_Install\SHARED1_BITM.tag full
+Imported 0x250 bytes.
+
+tags.dat> import 6F37 x_Install\SHARED1_BITM.tag full
+Imported 0x250 bytes.
+
+tags.dat> import 6F38 x_Install\SHARED1_BITM.tag full
+Imported 0x250 bytes.
+
+tags.dat> import 6F39 x_Install\SHARED1_BITM.tag full
+Imported 0x250 bytes.
+
+tags.dat> import 6F3A x_Install\SHARED1_BITM.tag full
+Imported 0x250 bytes.
+
+tags.dat> import 6F3B x_Install\SHARED1_BITM.tag full
+Imported 0x250 bytes.
+
+tags.dat> import 6F3C x_Install\SHARED1_BITM.tag full
+Imported 0x250 bytes.
+
+tags.dat> 
+
+tags.dat> --MODEL_PORT--
+Unrecognized command: --MODEL_PORT--
+Use "help" to list available commands.
+
+tags.dat> modeltest 6F1D x_Install\Assets\Models\HangemHigh\hangemhigh_BSP_Scaled.obj
+Info,  T9460: Load x_Install\Assets\Models\HangemHigh\hangemhigh_BSP_Scaled.obj
+
+Info,  T9460: Found a matching importer for this file format
+
+Info,  T9460: Import root directory is 'x_Install\Assets\Models\HangemHigh\'
+
+Error, T9460: OBJ: No object detected to attach a new mesh instance.
+
+Skipping one or more lines with the same contents
+
+Info,  T9460: Entering post processing pipeline
+
+Info,  T9460: Removed 11 nodes and 0 animation channels (11 output nodes)
+
+Info,  T9460: Kept 0 lights and 0 cameras
+
+Info,  T9460: Moved 10 meshes to WCS (number of output meshes: 10)
+
+Info,  T9460: Points: 0, Lines: 0, Triangles: 10, Polygons: 0 (Meshes, X = removed)
+
+Info,  T9460: CalcTangentsProcess finished. Tangents have been calculated
+
+Info,  T9460: JoinVerticesProcess finished | Verts in: 9594 out: 5199 | ~45.8%
+
+Info,  T9460: Leaving post processing pipeline
+
+Assembling vertices...
+Building Blam mesh data...
+Writing resource data...
+Writing tag data...
+Model imported successfully!
+
+tags.dat> 
+
+tags.dat> --TEXTURES--
+Unrecognized command: --TEXTURES--
+Use "help" to list available commands.
+
+tags.dat> importbitmap x_Install\Assets\Textures\HangemHigh\HangemHigh_01.dds 6F20
+Loading textures.dat...
+Importing image...
+Overwriting...
+
+All done! Imported to:
+bitm 00006F20 [Offset = 0x7EC8430, Size = 0x260]
+
+tags.dat> importbitmap x_Install\Assets\Textures\HangemHigh\HangemHigh_02.dds 6F21
+Loading textures.dat...
+Importing image...
+Overwriting...
+
+All done! Imported to:
+bitm 00006F21 [Offset = 0x7EC8690, Size = 0x260]
+
+tags.dat> importbitmap x_Install\Assets\Textures\HangemHigh\HangemHigh_03.dds 6F22
+Loading textures.dat...
+Importing image...
+Overwriting...
+
+All done! Imported to:
+bitm 00006F22 [Offset = 0x7EC88F0, Size = 0x260]
+
+tags.dat> importbitmap x_Install\Assets\Textures\HangemHigh\HangemHigh_04.dds 6F23
+Loading textures.dat...
+Importing image...
+Overwriting...
+
+All done! Imported to:
+bitm 00006F23 [Offset = 0x7EC8B50, Size = 0x260]
+
+tags.dat> importbitmap x_Install\Assets\Textures\HangemHigh\HangemHigh_05.dds 6F24
+Loading textures.dat...
+Importing image...
+Overwriting...
+
+All done! Imported to:
+bitm 00006F24 [Offset = 0x7EC8DB0, Size = 0x260]
+
+tags.dat> importbitmap x_Install\Assets\Textures\HangemHigh\HangemHigh_06.dds 6F25
+Loading textures.dat...
+Importing image...
+Overwriting...
+
+All done! Imported to:
+bitm 00006F25 [Offset = 0x7EC9010, Size = 0x260]
+
+tags.dat> importbitmap x_Install\Assets\Textures\HangemHigh\HangemHigh_07.dds 6F26
+Loading textures.dat...
+Importing image...
+Overwriting...
+
+All done! Imported to:
+bitm 00006F26 [Offset = 0x7EC9270, Size = 0x260]
+
+tags.dat> importbitmap x_Install\Assets\Textures\HangemHigh\HangemHigh_08.dds 6F27
+Loading textures.dat...
+Importing image...
+Overwriting...
+
+All done! Imported to:
+bitm 00006F27 [Offset = 0x7EC94D0, Size = 0x260]
+
+tags.dat> importbitmap x_Install\Assets\Textures\HangemHigh\HangemHigh_09.dds 6F28
+Loading textures.dat...
+Importing image...
+Overwriting...
+
+All done! Imported to:
+bitm 00006F28 [Offset = 0x7EC9730, Size = 0x260]
+
+tags.dat> importbitmap x_Install\Assets\Textures\HangemHigh\HangemHigh_10.dds 6F29
+Loading textures.dat...
+Importing image...
+Overwriting...
+
+All done! Imported to:
+bitm 00006F29 [Offset = 0x7EC9990, Size = 0x260]
+
+tags.dat> importbitmap x_Install\Assets\Textures\HangemHigh\HangemHigh_11.dds 6F34
+Loading textures.dat...
+Importing image...
+Overwriting...
+
+All done! Imported to:
+bitm 00006F34 [Offset = 0x7ECB8D0, Size = 0x260]
+
+tags.dat> importbitmap x_Install\Assets\Textures\HangemHigh\HangemHigh_12.dds 6F35
+Loading textures.dat...
+Importing image...
+Overwriting...
+
+All done! Imported to:
+bitm 00006F35 [Offset = 0x7ECBB30, Size = 0x260]
+
+tags.dat> importbitmap x_Install\Assets\Textures\HangemHigh\HangemHigh_13.dds 6F36
+Loading textures.dat...
+Importing image...
+Overwriting...
+
+All done! Imported to:
+bitm 00006F36 [Offset = 0x7ECBD90, Size = 0x260]
+
+tags.dat> importbitmap x_Install\Assets\Textures\HangemHigh\HangemHigh_14.dds 6F37
+Loading textures.dat...
+Importing image...
+Overwriting...
+
+All done! Imported to:
+bitm 00006F37 [Offset = 0x7ECBFF0, Size = 0x260]
+
+tags.dat> importbitmap x_Install\Assets\Textures\HangemHigh\HangemHigh_15.dds 6F38
+Loading textures.dat...
+Importing image...
+Overwriting...
+
+All done! Imported to:
+bitm 00006F38 [Offset = 0x7ECC250, Size = 0x260]
+
+tags.dat> importbitmap x_Install\Assets\Textures\HangemHigh\HangemHigh_16.dds 6F39
+Loading textures.dat...
+Importing image...
+Overwriting...
+
+All done! Imported to:
+bitm 00006F39 [Offset = 0x7ECC4B0, Size = 0x260]
+
+tags.dat> importbitmap x_Install\Assets\Textures\HangemHigh\HangemHigh_17.dds 6F3A
+Loading textures.dat...
+Importing image...
+Overwriting...
+
+All done! Imported to:
+bitm 00006F3A [Offset = 0x7ECC710, Size = 0x260]
+
+tags.dat> importbitmap x_Install\Assets\Textures\HangemHigh\HangemHigh_18.dds 6F3B
+Loading textures.dat...
+Importing image...
+Overwriting...
+
+All done! Imported to:
+bitm 00006F3B [Offset = 0x7ECC970, Size = 0x260]
+
+tags.dat> importbitmap x_Install\Assets\Textures\HangemHigh\HangemHigh_19.dds 6F3C
+Loading textures.dat...
+Importing image...
+Overwriting...
+
+All done! Imported to:
+bitm 00006F3C [Offset = 0x7ECCBD0, Size = 0x260]
+
+tags.dat> 
+
+tags.dat> --SHADERS--
+Unrecognized command: --SHADERS--
+Use "help" to list available commands.
+
+tags.dat> edit 6F2A
+Tag 0x00006F2A.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x6F2A.shader> setField ShaderProperties[0].ShaderMaps[0].Bitmap 6F20
+Bitmap: TagInstance = 0x00006F20
+
+tags.dat\0x6F2A.shader> setField ShaderProperties[1].ShaderMaps[0].Bitmap 0343
+Invalid index requested from block ShaderProperties: 1
+SetField: Sets the value of a specific field in the current Shader definition.
+
+Usage:
+SetField <field name> <field value>
+
+Use "help SetField" for more information.
+
+tags.dat\0x6F2A.shader> setField ShaderProperties[2].ShaderMaps[0].Bitmap 6F34
+Invalid index requested from block ShaderProperties: 2
+SetField: Sets the value of a specific field in the current Shader definition.
+
+Usage:
+SetField <field name> <field value>
+
+Use "help SetField" for more information.
+
+tags.dat\0x6F2A.shader> SaveChanges
+Done!
+
+tags.dat\0x6F2A.shader> exit
+
+tags.dat> edit 6F2B
+Tag 0x00006F2B.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x6F2B.shader> setField ShaderProperties[0].ShaderMaps[0].Bitmap 6F21
+Bitmap: TagInstance = 0x00006F21
+
+tags.dat\0x6F2B.shader> setField ShaderProperties[1].ShaderMaps[0].Bitmap 0343
+Invalid index requested from block ShaderProperties: 1
+SetField: Sets the value of a specific field in the current Shader definition.
+
+Usage:
+SetField <field name> <field value>
+
+Use "help SetField" for more information.
+
+tags.dat\0x6F2B.shader> setField ShaderProperties[2].ShaderMaps[0].Bitmap 6F35
+Invalid index requested from block ShaderProperties: 2
+SetField: Sets the value of a specific field in the current Shader definition.
+
+Usage:
+SetField <field name> <field value>
+
+Use "help SetField" for more information.
+
+tags.dat\0x6F2B.shader> SaveChanges
+Done!
+
+tags.dat\0x6F2B.shader> exit
+
+tags.dat> edit 6F2C
+Tag 0x00006F2C.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x6F2C.shader> setField ShaderProperties[0].ShaderMaps[0].Bitmap 6F22
+Bitmap: TagInstance = 0x00006F22
+
+tags.dat\0x6F2C.shader> setField ShaderProperties[1].ShaderMaps[0].Bitmap 0343
+Invalid index requested from block ShaderProperties: 1
+SetField: Sets the value of a specific field in the current Shader definition.
+
+Usage:
+SetField <field name> <field value>
+
+Use "help SetField" for more information.
+
+tags.dat\0x6F2C.shader> setField ShaderProperties[2].ShaderMaps[0].Bitmap 6F36
+Invalid index requested from block ShaderProperties: 2
+SetField: Sets the value of a specific field in the current Shader definition.
+
+Usage:
+SetField <field name> <field value>
+
+Use "help SetField" for more information.
+
+tags.dat\0x6F2C.shader> SaveChanges
+Done!
+
+tags.dat\0x6F2C.shader> exit
+
+tags.dat> edit 6F2D
+Tag 0x00006F2D.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x6F2D.shader> setField ShaderProperties[0].ShaderMaps[0].Bitmap 6F23
+Bitmap: TagInstance = 0x00006F23
+
+tags.dat\0x6F2D.shader> setField ShaderProperties[1].ShaderMaps[0].Bitmap 0343
+Invalid index requested from block ShaderProperties: 1
+SetField: Sets the value of a specific field in the current Shader definition.
+
+Usage:
+SetField <field name> <field value>
+
+Use "help SetField" for more information.
+
+tags.dat\0x6F2D.shader> setField ShaderProperties[2].ShaderMaps[0].Bitmap 6F37
+Invalid index requested from block ShaderProperties: 2
+SetField: Sets the value of a specific field in the current Shader definition.
+
+Usage:
+SetField <field name> <field value>
+
+Use "help SetField" for more information.
+
+tags.dat\0x6F2D.shader> SaveChanges
+Done!
+
+tags.dat\0x6F2D.shader> exit
+
+tags.dat> edit 6F2E
+Tag 0x00006F2E.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x6F2E.shader> setField ShaderProperties[0].ShaderMaps[0].Bitmap 6F24
+Bitmap: TagInstance = 0x00006F24
+
+tags.dat\0x6F2E.shader> setField ShaderProperties[1].ShaderMaps[0].Bitmap 0343
+Invalid index requested from block ShaderProperties: 1
+SetField: Sets the value of a specific field in the current Shader definition.
+
+Usage:
+SetField <field name> <field value>
+
+Use "help SetField" for more information.
+
+tags.dat\0x6F2E.shader> setField ShaderProperties[2].ShaderMaps[0].Bitmap 6F38
+Invalid index requested from block ShaderProperties: 2
+SetField: Sets the value of a specific field in the current Shader definition.
+
+Usage:
+SetField <field name> <field value>
+
+Use "help SetField" for more information.
+
+tags.dat\0x6F2E.shader> SaveChanges
+Done!
+
+tags.dat\0x6F2E.shader> exit
+
+tags.dat> edit 6F2F
+Tag 0x00006F2F.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x6F2F.shader> setField ShaderProperties[0].ShaderMaps[0].Bitmap 6F25
+Bitmap: TagInstance = 0x00006F25
+
+tags.dat\0x6F2F.shader> setField ShaderProperties[1].ShaderMaps[0].Bitmap 0343
+Invalid index requested from block ShaderProperties: 1
+SetField: Sets the value of a specific field in the current Shader definition.
+
+Usage:
+SetField <field name> <field value>
+
+Use "help SetField" for more information.
+
+tags.dat\0x6F2F.shader> setField ShaderProperties[2].ShaderMaps[0].Bitmap 6F39
+Invalid index requested from block ShaderProperties: 2
+SetField: Sets the value of a specific field in the current Shader definition.
+
+Usage:
+SetField <field name> <field value>
+
+Use "help SetField" for more information.
+
+tags.dat\0x6F2F.shader> SaveChanges
+Done!
+
+tags.dat\0x6F2F.shader> exit
+
+tags.dat> edit 6F30
+Tag 0x00006F30.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x6F30.shader> setField ShaderProperties[0].ShaderMaps[0].Bitmap 6F26
+Bitmap: TagInstance = 0x00006F26
+
+tags.dat\0x6F30.shader> setField ShaderProperties[1].ShaderMaps[0].Bitmap 0343
+Invalid index requested from block ShaderProperties: 1
+SetField: Sets the value of a specific field in the current Shader definition.
+
+Usage:
+SetField <field name> <field value>
+
+Use "help SetField" for more information.
+
+tags.dat\0x6F30.shader> setField ShaderProperties[2].ShaderMaps[0].Bitmap 6F3A
+Invalid index requested from block ShaderProperties: 2
+SetField: Sets the value of a specific field in the current Shader definition.
+
+Usage:
+SetField <field name> <field value>
+
+Use "help SetField" for more information.
+
+tags.dat\0x6F30.shader> SaveChanges
+Done!
+
+tags.dat\0x6F30.shader> exit
+
+tags.dat> edit 6F31
+Tag 0x00006F31.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x6F31.shader> setField ShaderProperties[0].ShaderMaps[0].Bitmap 6F27
+Bitmap: TagInstance = 0x00006F27
+
+tags.dat\0x6F31.shader> setField ShaderProperties[1].ShaderMaps[0].Bitmap 0343
+Invalid index requested from block ShaderProperties: 1
+SetField: Sets the value of a specific field in the current Shader definition.
+
+Usage:
+SetField <field name> <field value>
+
+Use "help SetField" for more information.
+
+tags.dat\0x6F31.shader> setField ShaderProperties[2].ShaderMaps[0].Bitmap 6F3B
+Invalid index requested from block ShaderProperties: 2
+SetField: Sets the value of a specific field in the current Shader definition.
+
+Usage:
+SetField <field name> <field value>
+
+Use "help SetField" for more information.
+
+tags.dat\0x6F31.shader> SaveChanges
+Done!
+
+tags.dat\0x6F31.shader> exit
+
+tags.dat> edit 6F32
+Tag 0x00006F32.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x6F32.shader> setField ShaderProperties[0].ShaderMaps[0].Bitmap 6F28
+Bitmap: TagInstance = 0x00006F28
+
+tags.dat\0x6F32.shader> setField ShaderProperties[1].ShaderMaps[0].Bitmap 0343
+Invalid index requested from block ShaderProperties: 1
+SetField: Sets the value of a specific field in the current Shader definition.
+
+Usage:
+SetField <field name> <field value>
+
+Use "help SetField" for more information.
+
+tags.dat\0x6F32.shader> setField ShaderProperties[2].ShaderMaps[0].Bitmap 0376
+Invalid index requested from block ShaderProperties: 2
+SetField: Sets the value of a specific field in the current Shader definition.
+
+Usage:
+SetField <field name> <field value>
+
+Use "help SetField" for more information.
+
+tags.dat\0x6F32.shader> SaveChanges
+Done!
+
+tags.dat\0x6F32.shader> exit
+
+tags.dat> edit 6F33
+Tag 0x00006F33.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x6F33.shader> setField ShaderProperties[0].ShaderMaps[0].Bitmap 6F29
+Bitmap: TagInstance = 0x00006F29
+
+tags.dat\0x6F33.shader> setField ShaderProperties[1].ShaderMaps[0].Bitmap 0343
+Invalid index requested from block ShaderProperties: 1
+SetField: Sets the value of a specific field in the current Shader definition.
+
+Usage:
+SetField <field name> <field value>
+
+Use "help SetField" for more information.
+
+tags.dat\0x6F33.shader> setField ShaderProperties[2].ShaderMaps[0].Bitmap 6F3C
+Invalid index requested from block ShaderProperties: 2
+SetField: Sets the value of a specific field in the current Shader definition.
+
+Usage:
+SetField <field name> <field value>
+
+Use "help SetField" for more information.
+
+tags.dat\0x6F33.shader> SaveChanges
+Done!
+
+tags.dat\0x6F33.shader> exit
+
+tags.dat> 
+
+tags.dat> --HANGEMHIGH_BLOC--
+Unrecognized command: --HANGEMHIGH_BLOC--
+Use "help" to list available commands.
+
+tags.dat> edit 6F1B
+Tag 0x00006F1B.crate has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x6F1B.crate> setField BoundingRadius 90
+BoundingRadius: Single = 90
+
+tags.dat\0x6F1B.crate> setField BoundingOffsetX 0
+BoundingOffsetX: Single = 0
+
+tags.dat\0x6F1B.crate> setField BoundingOffsetY 0
+BoundingOffsetY: Single = 0
+
+tags.dat\0x6F1B.crate> setField BoundingOffsetZ 0
+BoundingOffsetZ: Single = 0
+
+tags.dat\0x6F1B.crate> setField Model 6F1C
+Model: TagInstance = 0x00006F1C
+
+tags.dat\0x6F1B.crate> SaveChanges
+Done!
+
+tags.dat\0x6F1B.crate> exit
+
+tags.dat> 
+
+tags.dat> --HANGEMHIGH_HLMT--
+Unrecognized command: --HANGEMHIGH_HLMT--
+Use "help" to list available commands.
+
+tags.dat> edit 6F1C
+Tag 0x00006F1C.model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x6F1C.model> setField RenderModel 6F1D
+RenderModel: TagInstance = 0x00006F1D
+
+tags.dat\0x6F1C.model> setField CollisionModel 6F1E
+CollisionModel: TagInstance = 0x00006F1E
+
+tags.dat\0x6F1C.model> setField PhysicsModel 6F1F
+PhysicsModel: TagInstance = 0x00006F1F
+
+tags.dat\0x6F1C.model> setField ReduceToL1SuperLow 0
+ReduceToL1SuperLow: Single = 0
+
+tags.dat\0x6F1C.model> setField ReduceToL2Low 0
+ReduceToL2Low: Single = 0
+
+tags.dat\0x6F1C.model> SaveChanges
+Done!
+
+tags.dat\0x6F1C.model> exit
+
+tags.dat> 
+
+tags.dat> --HANGEMHIGH_MODE--
+Unrecognized command: --HANGEMHIGH_MODE--
+Use "help" to list available commands.
+
+tags.dat> edit 6F1D
+Tag 0x00006F1D.render_model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x6F1D.render_model> setField Materials[0].RenderMethod 6F2A
+RenderMethod: TagInstance = 0x00006F2A
+
+tags.dat\0x6F1D.render_model> setField Materials[1].RenderMethod 6F2B
+RenderMethod: TagInstance = 0x00006F2B
+
+tags.dat\0x6F1D.render_model> setField Materials[2].RenderMethod 6F2C
+RenderMethod: TagInstance = 0x00006F2C
+
+tags.dat\0x6F1D.render_model> setField Materials[3].RenderMethod 6F2D
+RenderMethod: TagInstance = 0x00006F2D
+
+tags.dat\0x6F1D.render_model> setField Materials[4].RenderMethod 6F2E
+RenderMethod: TagInstance = 0x00006F2E
+
+tags.dat\0x6F1D.render_model> setField Materials[5].RenderMethod 6F2F
+RenderMethod: TagInstance = 0x00006F2F
+
+tags.dat\0x6F1D.render_model> setField Materials[6].RenderMethod 6F30
+RenderMethod: TagInstance = 0x00006F30
+
+tags.dat\0x6F1D.render_model> setField Materials[7].RenderMethod 6F31
+RenderMethod: TagInstance = 0x00006F31
+
+tags.dat\0x6F1D.render_model> setField Materials[8].RenderMethod 6F32
+RenderMethod: TagInstance = 0x00006F32
+
+tags.dat\0x6F1D.render_model> setField Materials[9].RenderMethod 6F33
+RenderMethod: TagInstance = 0x00006F33
+
+tags.dat\0x6F1D.render_model> SaveChanges
+Done!
+
+tags.dat\0x6F1D.render_model> exit
+
+tags.dat> 
+
+tags.dat> --HANGEMHIGH_SCNR--
+Unrecognized command: --HANGEMHIGH_SCNR--
+Use "help" to list available commands.
+
+tags.dat> edit 6E42
+Tag 0x00006E42.scenario has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x6E42.scenario> setField MapID 416
+MapId: Int32 = 416
+
+tags.dat\0x6E42.scenario> setField SkyReferences[0].SkyObject 348D
+SkyObject: TagInstance = 0x0000348D
+
+tags.dat\0x6E42.scenario> setField Scenery[0].PositionZ 198.4
+PositionZ: Single = 198.4
+
+tags.dat\0x6E42.scenario> setField CutsceneCameraPoints[0].PositionZ 210
+PositionZ: Single = 210
+
+tags.dat\0x6E42.scenario> setField CutsceneCameraPoints[0].OrientationY 90
+OrientationY: Angle = { Degrees: 90, Radians: 1.570796 }
+
+tags.dat\0x6E42.scenario> setField CutsceneCameraPoints[0].OrientationR -50
+OrientationR: Angle = { Degrees: -50, Radians: -0.8726646 }
+
+tags.dat\0x6E42.scenario> AddTo Crates 1
+Successfully added 1 element to Crates: List`1<Crate>
+{...}[3]
+
+tags.dat\0x6E42.scenario> setField Crates[2].PaletteIndex 2
+PaletteIndex: Int16 = 2
+
+tags.dat\0x6E42.scenario> setField Crates[2].NameIndex -1
+NameIndex: Int16 = -1
+
+tags.dat\0x6E42.scenario> setField Crates[2].PositionX 83.835
+PositionX: Single = 83.835
+
+tags.dat\0x6E42.scenario> setField Crates[2].PositionY -100.196
+PositionY: Single = -100.196
+
+tags.dat\0x6E42.scenario> setField Crates[2].PositionZ 195.1
+PositionZ: Single = 195.1
+
+tags.dat\0x6E42.scenario> setField Crates[2].RotationI -87.5298
+RotationI: Angle = { Degrees: -87.5298, Radians: -1.527683 }
+
+tags.dat\0x6E42.scenario> setField Crates[2].RotationJ 4.880194E-08
+RotationJ: Angle = { Degrees: 4.880194E-08, Radians: 8.517546E-10 }
+
+tags.dat\0x6E42.scenario> setField Crates[2].RotationK 0.0001708527
+RotationK: Angle = { Degrees: 0.0001708527, Radians: 2.981942E-06 }
+
+tags.dat\0x6E42.scenario> setField Crates[2].ObjectTypeOld Crate
+ObjectTypeOld: ObjectTypeValueOld = Crate
+
+tags.dat\0x6E42.scenario> setField Crates[2].ObjectTypeNew Crate
+ObjectTypeNew: ObjectTypeValueNew = Crate
+
+tags.dat\0x6E42.scenario> setField Crates[2].Source Editor
+Source: SourceValue = Editor
+
+tags.dat\0x6E42.scenario> setField Crates[2].AllowedZonesets 1
+AllowedZonesets: UInt16 = 1
+
+tags.dat\0x6E42.scenario> setField Crates[2].AttachedNameIndex -1
+AttachedNameIndex: Int16 = -1
+
+tags.dat\0x6E42.scenario> setField CratePalette[2].Crate 6F1B
+Crate: TagInstance = 0x00006F1B
+
+tags.dat\0x6E42.scenario> SaveChanges
+Done!
+
+tags.dat\0x6E42.scenario> exit
+
+tags.dat> 
+
+tags.dat> dumplog x_Install-x1.txt

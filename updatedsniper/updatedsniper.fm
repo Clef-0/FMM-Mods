@@ -1,0 +1,8 @@
+ECHO FMM_OUTPUT Installing Updated Sniper Textures ...
+cd mods\tagMods\updatedsniper
+
+color 0A
+
+Type updatedsniper.cmds | TagTool.exe ../../../maps/tags.dat
+
+ECHO FMM_OUTPUT Installation Complete ...

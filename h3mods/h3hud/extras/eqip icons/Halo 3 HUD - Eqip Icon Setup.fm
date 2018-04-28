@@ -1,0 +1,4 @@
+echo FMM_OUTPUT Installing Halo 3 HUD - Eqip Icon Setup.....
+cd "mods\tagMods\h3mods\h3hud\extras\eqip icons\"
+Type Install.cmds | ..\..\tools\TagTool_Compare.exe "..\..\..\..\..\..\maps\tags.dat"
+Type InstallOld.cmds | ..\..\tools\TagTool_Old.exe "..\..\..\..\..\..\maps\tags.dat"

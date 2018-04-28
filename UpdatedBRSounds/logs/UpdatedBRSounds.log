@@ -1,0 +1,218 @@
+Tag Tool [1.5.6438.25389]
+
+Please report any bugs and/or feature requests at
+<https://gitlab.com/TheGuardians/TagTool/issues>.
+
+Enter "help" to list available commands. Enter "exit" to quit.
+
+tags> nametag 0x1d91 brsound1
+[Index: 0x1D91, Offset: 0x0285B77C, Size: 0x07C0] brsound1.sound
+
+tags> nametag 0x1d92 brsound2
+[Index: 0x1D92, Offset: 0x0285BF3C, Size: 0x05C0] brsound2.sound
+
+tags> nametag 0x1d93 brsound3
+[Index: 0x1D93, Offset: 0x0285C4FC, Size: 0x06F0] brsound3.sound
+
+tags> nametag 0x1d94 brsound4
+[Index: 0x1D94, Offset: 0x0285CBEC, Size: 0x02E0] brsound4.sound
+
+tags> nametag 0x1d95 brsound5
+[Index: 0x1D95, Offset: 0x0285CECC, Size: 0x0480] brsound5.sound
+
+tags> duplicatetag 0x1d91
+Tag duplicated successfully!
+New tag: snd! 00005726 [Offset = 0x7C78E74, Size = 0x7C0]
+
+tags> nametag * brsound6
+[Index: 0x5726, Offset: 0x07C78E74, Size: 0x07C0] brsound6.sound
+
+tags> nametag 0x1D89 brfiringeffect
+[Index: 0x1D89, Offset: 0x02851D0C, Size: 0x76C0] brfiringeffect.effect
+
+tags> 
+
+tags> importtag brsound1.sound resources/brsound1.snd!
+Imported 0x6F0 bytes.
+
+tags> importtag brsound2.sound resources/brsound2.snd!
+Imported 0x5C0 bytes.
+
+tags> importtag brsound3.sound resources/brsound3.snd!
+Imported 0x6F0 bytes.
+
+tags> importtag brsound4.sound resources/brsound4.snd!
+Imported 0x2E0 bytes.
+
+tags> importtag brsound5.sound resources/brsound5.snd!
+Imported 0x480 bytes.
+
+tags> importtag brsound6.sound resources/brsound6.snd!
+Imported 0x550 bytes.
+
+tags> 
+
+tags> edittag brsound1.sound
+Tag (0x1D91) brsound1.sound has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x1D91) brsound1.sound> importsound new resources/brsound1.mp3
+
+tags\(0x1D91) brsound1.sound> savetagchanges
+Done!
+
+tags\(0x1D91) brsound1.sound> exit
+
+tags> edittag brsound2.sound
+Tag (0x1D92) brsound2.sound has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x1D92) brsound2.sound> importsound new resources/brsound2.mp3
+
+tags\(0x1D92) brsound2.sound> savetagchanges
+Done!
+
+tags\(0x1D92) brsound2.sound> exit
+
+tags> edittag brsound3.sound
+Tag (0x1D93) brsound3.sound has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x1D93) brsound3.sound> importsound new resources/brsound3.mp3
+
+tags\(0x1D93) brsound3.sound> savetagchanges
+Done!
+
+tags\(0x1D93) brsound3.sound> exit
+
+tags> edittag brsound4.sound
+Tag (0x1D94) brsound4.sound has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x1D94) brsound4.sound> importsound new resources/brsound4.mp3
+
+tags\(0x1D94) brsound4.sound> savetagchanges
+Done!
+
+tags\(0x1D94) brsound4.sound> exit
+
+tags> edittag brsound5.sound
+Tag (0x1D95) brsound5.sound has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x1D95) brsound5.sound> importsound new resources/brsound5.mp3
+
+tags\(0x1D95) brsound5.sound> savetagchanges
+Done!
+
+tags\(0x1D95) brsound5.sound> exit
+
+tags> edittag brsound6.sound
+Tag (0x5726) brsound6.sound has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x5726) brsound6.sound> importsound new resources/brsound6.mp3
+
+tags\(0x5726) brsound6.sound> savetagchanges
+Done!
+
+tags\(0x5726) brsound6.sound> exit
+
+tags> 
+
+tags> edittag brfiringeffect.effect
+Tag (0x1D89) brfiringeffect.effect has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x1D89) brfiringeffect.effect> editblock Events[0]
+
+tags\(0x1D89) brfiringeffect.effect\Events[0]> addblockelements Parts
+Successfully added 1 element to Parts: List`1<Part>
+{...}[6]
+
+tags\(0x1D89) brfiringeffect.effect\Events[0]> savetagchanges
+Done!
+
+tags\(0x1D89) brfiringeffect.effect\Events[0]> editblock Parts[5]
+
+tags\(0x1D89) brfiringeffect.effect\Events[0]\Parts[5]> setfield Unknown -1
+Unknown: Int16 = -1
+
+tags\(0x1D89) brfiringeffect.effect\Events[0]\Parts[5]> setfield AnticipatedTagClass 1936614433
+AnticipatedTagClass: Int32 = 1936614433
+
+tags\(0x1D89) brfiringeffect.effect\Events[0]\Parts[5]> setfield SpawnedTag brsound6.sound
+SpawnedTag: CachedTagInstance = 0x00005726
+
+tags\(0x1D89) brfiringeffect.effect\Events[0]\Parts[5]> savetagchanges
+Done!
+
+tags\(0x1D89) brfiringeffect.effect\Events[0]\Parts[5]> exit
+
+tags\(0x1D89) brfiringeffect.effect\Events[0]> editblock Parts[0]
+
+tags\(0x1D89) brfiringeffect.effect\Events[0]\Parts[0]> SpawnedTag brsound1.sound
+Unrecognized command: SpawnedTag
+Use "help" to list available commands.
+
+tags\(0x1D89) brfiringeffect.effect\Events[0]\Parts[0]> savetagchanges
+Done!
+
+tags\(0x1D89) brfiringeffect.effect\Events[0]\Parts[0]> exit
+
+tags\(0x1D89) brfiringeffect.effect\Events[0]> editblock Parts[1]
+
+tags\(0x1D89) brfiringeffect.effect\Events[0]\Parts[1]> SpawnedTag brsound2.sound
+Unrecognized command: SpawnedTag
+Use "help" to list available commands.
+
+tags\(0x1D89) brfiringeffect.effect\Events[0]\Parts[1]> savetagchanges
+Done!
+
+tags\(0x1D89) brfiringeffect.effect\Events[0]\Parts[1]> exit
+
+tags\(0x1D89) brfiringeffect.effect\Events[0]> editblock Parts[2]
+
+tags\(0x1D89) brfiringeffect.effect\Events[0]\Parts[2]> SpawnedTag brsound3.sound
+Unrecognized command: SpawnedTag
+Use "help" to list available commands.
+
+tags\(0x1D89) brfiringeffect.effect\Events[0]\Parts[2]> savetagchanges
+Done!
+
+tags\(0x1D89) brfiringeffect.effect\Events[0]\Parts[2]> exit
+
+tags\(0x1D89) brfiringeffect.effect\Events[0]> editblock Parts[3]
+
+tags\(0x1D89) brfiringeffect.effect\Events[0]\Parts[3]> SpawnedTag brsound4.sound
+Unrecognized command: SpawnedTag
+Use "help" to list available commands.
+
+tags\(0x1D89) brfiringeffect.effect\Events[0]\Parts[3]> savetagchanges
+Done!
+
+tags\(0x1D89) brfiringeffect.effect\Events[0]\Parts[3]> exit
+
+tags\(0x1D89) brfiringeffect.effect\Events[0]> editblock Parts[4]
+
+tags\(0x1D89) brfiringeffect.effect\Events[0]\Parts[4]> SpawnedTag brsound5.sound
+Unrecognized command: SpawnedTag
+Use "help" to list available commands.
+
+tags\(0x1D89) brfiringeffect.effect\Events[0]\Parts[4]> savetagchanges
+Done!
+
+tags\(0x1D89) brfiringeffect.effect\Events[0]\Parts[4]> exit
+
+tags\(0x1D89) brfiringeffect.effect\Events[0]> exit
+
+tags\(0x1D89) brfiringeffect.effect> exit
+
+tags> dumplog UpdatedBRSounds.log

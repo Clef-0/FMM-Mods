@@ -1,0 +1,18 @@
+EditTag 0x00000C44
+EditBlock Size[0]
+EditBlock Animation[0]
+SetField StretchX 1
+SetField StretchY 1
+exit
+exit
+EditBlock Alpha[0]
+EditBlock Animation[0]
+SetField Alpha 1
+exit
+EditBlock Animation[1]
+SetField Alpha 1
+exit
+exit
+SetField NumberOfFrames 0
+SaveTagChanges
+exit

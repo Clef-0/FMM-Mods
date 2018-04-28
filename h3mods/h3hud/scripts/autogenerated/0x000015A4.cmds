@@ -1,0 +1,6 @@
+EditTag 0x000015A4
+SetField Flags3 88
+SetField MultiplayerWeaponType CtfFlag
+SetField HudInterface 0x00002652
+SaveTagChanges
+exit

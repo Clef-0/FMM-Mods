@@ -1,0 +1,9 @@
+color 0A
+cd mods\tagMods\Minimal_Hud
+ECHO FMM_OUTPUT Installing Minimal Hud ...
+
+Type commands\importbitmap.cmds | TagTool.exe ..\..\..\maps\tags.dat
+timeout 1
+
+
+ECHO FMM_OUTPUT Minimal Hud Installation completed.

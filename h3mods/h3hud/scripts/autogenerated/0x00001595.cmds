@@ -1,0 +1,12 @@
+EditTag 0x00001595
+SetField Flags3 4196352
+EditBlock Barrels[0]
+SetField FireRecoveryTime 0.1
+SetField DecelerationTime2 0
+SetField ErrorAngleMin2 0
+SetField ErrorAngleMax2 0
+SetField AgeGeneratedPerRoundMp 0.004
+exit
+SetField FirstPersonWeaponOffsetI 0
+SaveTagChanges
+exit

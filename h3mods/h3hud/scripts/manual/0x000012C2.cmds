@@ -1,0 +1,5 @@
+edittag 0x12C2
+stringid add speaking_player
+setstring english speaking_player "Speaking Player"
+savetagchanges
+exit

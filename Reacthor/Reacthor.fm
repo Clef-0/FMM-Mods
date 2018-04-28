@@ -1,0 +1,2 @@
+cd mods\tagMods\Reacthor
+Type Reacthor.cmds | TagTool.exe ../../../maps/tags.dat

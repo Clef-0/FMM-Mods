@@ -1,0 +1,3470 @@
+import ssl.lib.logging
+import ssl.lib.objects
+import ssl.lib.types
+import ssl.observables
+import ssl.hf2p.ui_globals
+import ssl.lib.ui.bindings.bindings
+import ssl.hf2p.user_data
+import ui.ui_party_monitor
+import ssl.hf2p.clan_service
+import ssl.hf2p.clan_data
+import ui.ui_style_sheets
+
+/***************************************************************
+* UiKeys
+*
+***************************************************************/   
+class UiKeys
+   var VK_ESC                                   : int = 27
+   var VK_SPACE                                 : int = 32
+   var VK_ENTER                                 : int = 13
+   var VK_TAB                                   : int = 9
+   var VK_LEFT                                  : int = 37
+   var VK_RIGHT                                 : int = 39
+   var VK_UP                                    : int = 38
+   var VK_DOWN                                  : int = 40
+   var VK_T                                     : int = 84
+   
+end
+var $uiKeys: UiKeys
+
+/***************************************************************
+* UiEnums
+*
+***************************************************************/   
+class UiEnums
+   var USER_DATA_BASE                           : int = 0
+   var USER_DATA_STATS                          : int = 1
+   var USER_DATA_PRESENCE                       : int = 2
+   var USER_DATA_SOCIAL                         : int = 3
+   var USER_DATA_CUSTOMIZATIONS                 : int = 4
+   var USER_DATA_WEAPON_LOADOUT                 : int = 5
+   var USER_DATA_ARMOR_LOADOUT                  : int = 6
+
+   var CLAN_DATA_BASE                           : int = 0
+   var CLAN_DATA_MEMBERSHIP                     : int = 1
+
+   var USER_SEARCH_AREA_NONE                    : int = 0
+   var USER_SEARCH_AREA_GLOBAL                  : int = 1
+   var USER_SEARCH_AREA_SOCIAL                  : int = 2
+   
+   var MATCHMAKING_STATE_NONE                   : int = 0
+   var MATCHMAKING_STATE_ONLINE                 : int = 1
+   var MATCHMAKING_STATE_WAITING_FOR_ENQUEUE    : int = 2
+   var MATCHMAKING_STATE_WAITING_FOR_DEQUEUE    : int = 3
+   var MATCHMAKING_STATE_IN_QUEUE               : int = 4
+   var MATCHMAKING_STATE_IN_SESSION             : int = 5   
+
+   var LOBBY_STATE_NONE                         : int = 0
+   var LOBBY_STATE_JOINING_SESSION              : int = 1
+   var LOBBY_STATE_WAITING_FOR_PLAYERS          : int = 2
+   var LOBBY_STATE_WAITING_FOR_VOTING_SET       : int = 3
+   var LOBBY_STATE_VOTING                       : int = 4
+   var LOBBY_STATE_GAME_START_COUNTDOWN         : int = 5
+   var LOBBY_STATE_IN_GAME                      : int = 6
+   
+   var PODIUM_STATE_NONE                        : int = 0
+   var PODIUM_STATE_SHOW_OFF                    : int = 1
+   var PODIUM_STATE_SCOREBOARD                  : int = 2
+
+   var INGAME_STATE_NONE                        : int = 0
+   var INGAME_STATE_WAITING_FOR_PLAYERS         : int = 1
+   var INGAME_STATE_MATCH_INTRODUCTION          : int = 2
+   var INGAME_STATE_LOADOUT_SELECTION_INITIAL   : int = 3
+   var INGAME_STATE_HUD                         : int = 4
+   var INGAME_STATE_RESPAWN                     : int = 5
+   var INGAME_STATE_MATCH_RESULT                : int = 6
+   var INGAME_STATE_CHAT                        : int = 7
+   
+   var INGAME_WIDGET_STATE_HIDDEN               : int = 0
+   var INGAME_WIDGET_STATE_VISIBLE              : int = 1
+   
+   var PLAYER_TEAM_NONE                         : int = -1
+   var PLAYER_TEAM_RED                          : int = 0
+   var PLAYER_TEAM_BLUE                         : int = 1
+   var PLAYER_TEAM_GREEN                        : int = 2
+   var PLAYER_TEAM_ORANGE                       : int = 3
+   var PLAYER_TEAM_PURPLE                       : int = 4
+   var PLAYER_TEAM_GOLD                         : int = 5
+   var PLAYER_TEAM_BROWN                        : int = 6
+   var PLAYER_TEAM_PINK                         : int = 7
+   
+   var ITEM_OWN_TYPE_NONE                       : int = 0
+   var ITEM_OWN_TYPE_PURCHASED                  : int = 1
+   var ITEM_OWN_TYPE_RENTED                     : int = 2
+   
+   var CHALLENGE_ITEM_STATE_LOCKED              : int = 0
+   var CHALLENGE_ITEM_STATE_UNAVAILABLE         : int = 1
+   var CHALLENGE_ITEM_STATE_NOT_EQUIPPED        : int = 2
+   var CHALLENGE_ITEM_STATE_PARTIALLY_EQUIPPED  : int = 3
+   var CHALLENGE_ITEM_STATE_EQUIPPED            : int = 4
+   
+   var ITEM_TYPE_UNKNOWN                        : int = 0
+   var ITEM_TYPE_WEAPON                         : int = 1
+   var ITEM_TYPE_TACTICAL                       : int = 2
+   var ITEM_TYPE_ARMOR                          : int = 3
+   var ITEM_TYPE_ARMOR_SUIT                     : int = 4
+   var ITEM_TYPE_TOKEN                          : int = 5
+   
+   var NOTIFICATION_SESSION_REWARDS_UNDEFINED   : int = -1
+   var NOTIFICATION_SESSION_REWARDS             : int = 0
+   var NOTIFICATION_SESSION_LVLUP               : int = 1
+   var NOTIFICATION_SESSION_UNLOCK              : int = 2
+   var NOTIFICATION_PARTY_INVITE                : int = 3
+   var NOTIFICATION_PARTY_KICK                  : int = 4
+   var NOTIFICATION_CLAN_INVITE                 : int = 5
+   var NOTIFICATION_CHALLENGE_PROGRESS          : int = 6
+   var NOTIFICATION_CHALLENGE_COMPLETE          : int = 7
+   
+   var CHALLENGE_DURATION_DAILY                 : string = "daily"
+   var CHALLENGE_DURATION_WEEKLY                : string = "weekly"
+   var CHALLENGE_DURATION_MONTHLY               : string = "monthly"
+   
+   var ITEM_RENT_ALERT_SECONDS                  : int = 300
+   var ITEM_RESTOCK_ALLOWED_SECONDS             : int = 3600
+   
+   var MB_TYPE_CONFIRM_BUY                      : string = "ConfirmBuy"
+   var MB_TYPE_CONFIRM_BATCH_BUY                : string = "ConfirmBatchBuy"
+   var MB_TYPE_NO_YES                           : string = "NoYes"
+   var MB_TYPE_RENAME                           : string = "Rename"
+   var MB_TYPE_INFO                             : string = "Info"
+
+   var TWEEN_UPD_TYPE_COMPLETE                  : string = "complete"
+   var TWEEN_UPD_TYPE_UPDATE                    : string = "update"
+   
+   var MATCH_RESULT_TIE                         : int = 1
+   var MATCH_RESULT_VICTORY                     : int = 2
+   var MATCH_RESULT_DEFEAT                      : int = 3
+   
+   var SHOP_TYPE_NONE                           : int = -1
+   var SHOP_TYPE_WEAPON                         : int = 0
+   var SHOP_TYPE_TACTICAL                       : int = 1
+   var SHOP_TYPE_ARMOR                          : int = 2
+   var SHOP_TYPE_BUNDLES                        : int = 3
+
+   var SLIDING_SCREENS_MODE_SHOP                : string = "GiftShop"
+   var SLIDING_SCREENS_MODE_SHOP_SMALL          : string = "Shop"
+   var SLIDING_SCREENS_MODE_SETTINGS            : string = "Settings"
+   var SLIDING_SCREENS_MODE_SPARTAN             : string = "Spartan"
+   var SLIDING_SCREENS_MODE_PROFILE             : string = "Profile"
+   var SLIDING_SCREENS_MODE_CLANS               : string = "Clans"
+   var SLIDING_SCREENS_MODE_LOOT                : string = "Loot"
+   var SLIDING_SCREENS_MODE_TECH_TREE           : string = "Tree"
+   var SLIDING_SCREENS_MODE_CHALLENGES          : string = "Challenges"
+   
+   var SLIDING_PAGE_WEAPONS                     : string = "WeaponConfig"
+   var SLIDING_PAGE_TACTICAL                    : string = "TacticalPackages"
+   var SLIDING_PAGE_ARMORY                      : string = "Armory"
+   var SLIDING_PAGE_LOBBY                       : string = "Lobby"
+   var SLIDING_PAGE_SPARTAN                     : string = "Spartan"
+   var SLIDING_PAGE_POSTMATCH                   : string = "Postmatch"
+   var SLIDING_PAGE_PROFILE                     : string = "Profile"
+   var SLIDING_PAGE_PROFILE_PRESENT             : string = "ProfilePresent"
+   var SLIDING_PAGE_CLANS                       : string = "Clans"
+   var SLIDING_PAGE_CHALLENGES                  : string = "Challenges"
+   var SLIDING_PAGE_ITEM_CHALLENGES             : string = "ItemChallenges"
+   var SLIDING_PAGE_LEADERBOARDS                : string = "Leaderboards"
+   var SLIDING_PAGE_CLAN_CREATE                 : string = "ClanCreate"
+   var SLIDING_PAGE_CLAN_VIEW                   : string = "ClanView"
+   var SLIDING_PAGE_CLAN_SEARCH                 : string = "ClanSearch"
+   var SLIDING_PAGE_BUNDLES                     : string = "Bundles"
+   var SLIDING_PAGE_RESTOCK                     : string = "Restock"
+   var SLIDING_PAGE_LOOTBOX                     : string = "LootBox"
+   var SLIDING_PAGE_TECHTREE                    : string = "TechTree"
+   
+   var BACKEND_SESSION_OFFLINE                  : int    = 0
+   var BACKEND_SESSION_AUTHENTICATING           : int    = 1
+   var BACKEND_SESSION_ESTABLISHING             : int    = 2
+   var BACKEND_SESSION_ONLINE                   : int    = 3
+
+   var BACKEND_REQUEST_STATE_NONE               : int    = 0
+   var BACKEND_REQUEST_STATE_IN_PROGRESS        : int    = 1
+   var BACKEND_REQUEST_STATE_COMPLETE           : int    = 2
+   
+   var INGAME_MOUSE_DLG_STATE_HIDDEN            : int    = 0
+   var INGAME_MOUSE_DLG_STATE_SHOW_REQUEST      : int    = 1
+   var INGAME_MOUSE_DLG_STATE_CLOSED_YES        : int    = 2
+   var INGAME_MOUSE_DLG_STATE_CLOSED_NO         : int    = 3
+
+   var LOBBY_SCREEN_STATE_NONE                  : int    = 0
+   var LOBBY_SCREEN_STATE_PLAYLIST              : int    = 1
+   var LOBBY_SCREEN_STATE_MATCHMAKING           : int    = 2
+   var LOBBY_SCREEN_STATE_VOTING                : int    = 3
+   var LOBBY_SCREEN_STATE_COUNTDOWN             : int    = 4
+   //var LOBBY_SCREEN_STATE_WAITING               : int = 5
+   var LOBBY_SCREEN_STATE_WAITING_MM            : int    = 6
+   var LOBBY_SCREEN_STATE_WAITING_LOBBY         : int    = 7
+   var LOBBY_SCREEN_STATE_LOBBY_JOINING_SESSION : int    = 8
+   
+   var USER_PRESENCE_STATE_OFFLINE              : int    = 0
+   var USER_PRESENCE_STATE_ONLINE               : int    = 1
+   var USER_PRESENCE_STATE_INGAME               : int    = 2
+
+   var PARTY_STATE_NONE                         : int    = 0
+   var PARTY_STATE_FORMATION                    : int    = 1
+   var PARTY_STATE_IN_QUEUE                     : int    = 2
+   var PARTY_STATE_IN_GAME                      : int    = 3
+   
+   var MM_QUEUE_TYPE_RANKED                     : int    = 0
+   var MM_QUEUE_TYPE_CUSTOM                     : int    = 1
+   
+   var CHAT_CHANNEL_NEWS                        : int    = 0
+   var CHAT_CHANNEL_ALL                         : int    = 1
+   var CHAT_CHANNEL_PARTY                       : int    = 2
+   var CHAT_CHANNEL_GAME_ALL                    : int    = 3
+   var CHAT_CHANNEL_CLAN                        : int    = 4
+   var CHAT_CHANNEL_PRIVATE                     : int    = 5
+   
+   var PLAYER_RACE_SPARTAN                      : int    = 0
+   var PLAYER_RACE_COVENANT                     : int    = 1
+   
+   var TECH_EMPTY                               : string = "tech_empty"
+   var TECH_COMING                              : string = "tech_coming_soon"
+   
+   var TECH_STATUS_AVAILABLE                    : int = 0
+   var TECH_STATUS_DISABLE                      : int = 1
+   
+   var TOKEN_GOLD                               : string = "gold"
+   var TOKEN_CREDITS                            : string = "credits"
+end
+
+var $uiEnums : UiEnums
+
+
+/***************************************************************
+* GL_Int
+*
+***************************************************************/   
+class GL_Int : UiSslBindableBase
+   var value  : ObservableProperty = null
+end
+
+/***************************************************************
+* GL_ComponentUI
+*
+***************************************************************/  
+class GL_ComponentUI : UiSslBindableBase
+   var name       : ObservableProperty = null
+
+   var desc       : ObservableProperty = null
+   var desc_short : ObservableProperty = null
+
+   var icon       : ObservableProperty = null
+   var icon_med   : ObservableProperty = null
+   var icon_big   : ObservableProperty = null
+
+   var video      : ObservableProperty = null
+
+   var quality    : ObservableProperty = null
+end
+
+/***************************************************************
+* GL_ComponentChallengeCounter
+*
+***************************************************************/   
+class GL_ComponentChallengeCounter : UiSslBindableBase
+   var id         : ObservableProperty = null
+   var type       : ObservableProperty = null
+   var value      : ObservableProperty = null
+   var value_max  : ObservableProperty = null
+   var progress   : ObservableProperty = null
+end
+
+/***************************************************************
+* GL_ComponentChallenge
+*
+***************************************************************/   
+class GL_ComponentChallenge : UiSslBindableBase
+   var progress   : ObservableProperty = null
+
+   var counters   : ObservableProperty = null
+
+   var rewards_tokens : ObservableProperty = null
+   
+   //ssl-extensions
+   func IsCompleted() : bool
+      var progressVal   : float  = (float)progress.Get()
+      var ret           : bool   = progressVal >= 1.0
+      return ret
+   end  
+   
+   func IsLocked() : bool
+      var countersVal   : vector = counters.Get()
+      var ret           : bool   = countersVal.Count() == 0
+      return ret
+   end
+   
+   func GetCounter() : GL_ComponentChallengeCounter
+      var ret        : GL_ComponentChallengeCounter = null
+      var counters   : vector = counters.Get()
+      if (counters.Count() > 0)
+         ret := (GL_ComponentChallengeCounter)counters.Get(0)
+      end
+      return ret
+   end
+   
+   func IsStarted() : bool
+      var ret : bool = false
+      var counter : GL_ComponentChallengeCounter = GetCounter()
+      if (counter != null)
+         ret := (float)counter.progress.Get() > 0
+      end         
+      return ret
+   end
+   
+   func GetDescString(_id : string) : string
+      var ret     : string
+      var compUI  : GL_ComponentUI = (GL_ComponentUI)$UiGlobals.componentsUI.Get(_id)
+      ret := (string)compUI.desc.Get()
+      if (ret != "")
+         var i             : int
+         var countersVec   : vector = counters.Get()
+         for i := 0 to countersVec.Count() - 1
+            var maxVal  : int = -1
+            var counter : GL_ComponentChallengeCounter = countersVec.Get(i)
+            if (counter != null)
+               maxVal := (int)counter.value_max.Get()
+            end         
+            ret := ret + "," + (string)maxVal
+         end            
+      end
+      return ret
+   end
+end
+
+/***************************************************************
+* GL_ComponentShopOffer
+*
+***************************************************************/  
+class GL_ComponentShopOfferPricing : UiSslBindableBase
+   var currency         : ObservableProperty = null
+   var cost             : ObservableProperty = null
+   var sale_percentage  : ObservableProperty = null
+   var offer            : ObservableProperty = null
+   
+   // ssl-extensions
+   func GetTokenType() : string
+      var ret : string = (string)currency.Get()
+      return ret
+   end
+end
+
+/***************************************************************
+* GL_ComponentShopOffer
+*
+***************************************************************/  
+class GL_ComponentShopOffer : UiSslBindableBase
+   var rent_duration       : ObservableProperty = null
+
+   var pricing             : ObservableProperty = null
+
+   var gl_price            : ObservableProperty = $OM.Calculated(this, "GetGlPrice", true)
+   var gl_cost             : ObservableProperty = $OM.Calculated(this, "GetGlCost", true)
+   var gl_sale_percentage  : ObservableProperty = $OM.Calculated(this, "GetGlSalePercentage", true)
+   var gl_offer            : ObservableProperty = $OM.Calculated(this, "GetGlOffer", true)
+
+   var cr_price            : ObservableProperty = $OM.Calculated(this, "GetCrPrice", true)
+   var cr_cost             : ObservableProperty = $OM.Calculated(this, "GetCrCost", true)
+   var cr_sale_percentage  : ObservableProperty = $OM.Calculated(this, "GetCrSalePercentage", true)
+   var cr_offer            : ObservableProperty = $OM.Calculated(this, "GetCrOffer", true)
+   
+   func GetGlPrice() : GL_ComponentShopOfferPricing
+      var i : int
+      for i := 0 to pricing.Get().Count() - 1
+         var price : GL_ComponentShopOfferPricing = (GL_ComponentShopOfferPricing)pricing.Get().Get(i)
+         if price.currency.Get() == "gold"
+            return price
+         end
+      end
+      return null
+   end
+      
+   func GetGlCost() : int
+      if gl_price.Get() != null
+         return gl_price.Get().cost.Get()
+      end
+      return 0
+   end
+   
+   func GetGlSalePercentage() : float
+      if gl_price.Get() != null
+         return gl_price.Get().sale_percentage.Get()
+      end
+      return 0.0
+   end
+   
+   func GetGlOffer() : string
+      if gl_price.Get() != null
+         return gl_price.Get().offer.Get()
+      end
+      return ""
+   end
+   
+   func GetCrPrice() : GL_ComponentShopOfferPricing
+      var i : int
+      for i := 0 to pricing.Get().Count() - 1
+         var price : GL_ComponentShopOfferPricing = (GL_ComponentShopOfferPricing)pricing.Get().Get(i)
+         if price.currency.Get() == "cr"
+            return price
+         end
+      end
+      return null
+   end
+   
+   func GetFirstPricing() : GL_ComponentShopOfferPricing
+      var ret : GL_ComponentShopOfferPricing = null
+      if (pricing.Get().Count() > 0)
+         ret := pricing.Get().Get(0)
+      end
+      return ret
+   end
+   
+   func GetTokenType() : string
+      var ret : string
+      var price : GL_ComponentShopOfferPricing = GetFirstPricing()
+      if (price != null)
+         ret :=  price.GetTokenType()
+      end
+      return ret
+   end
+   
+   func GetCrCost() : int
+      if cr_price.Get() != null
+         return cr_price.Get().cost.Get()
+      end
+      return 0
+   end
+   
+   func GetCrSalePercentage() : float
+      if cr_price.Get() != null
+         return cr_price.Get().sale_percentage.Get()
+      end
+      return 0.0
+   end
+   
+   func GetCrOffer() : string
+      if cr_price.Get() != null
+         return cr_price.Get().offer.Get()
+      end
+      return ""
+   end
+ 
+   func DurationToStrings() : params
+      var rentTime : int = (int)rent_duration.Get() / 60
+      var daysCount  : string = ""
+      var daysLabel  : string = ""
+      if (rentTime == 0)               
+         daysCount   := "carousel_txt_all_time"
+         daysLabel   := ""
+      elif (rentTime > 1440)
+         // days
+			var time: int = rentTime / 1440
+			daysCount  := (string) time
+         if (time == 1)
+            daysLabel  := "carousel_offsers_day"
+         else 
+            daysLabel  := "carousel_offsers_days"
+         end
+      elif (rentTime >= 60)
+		    // hours		
+			var time: int = rentTime / 60
+			daysCount  := (string) time
+         if (time == 1)
+            daysLabel  := "carousel_offsers_hour"
+         else 
+            daysLabel  := "carousel_offsers_hours"
+			end
+      else
+		    // minutes		
+			var time: int = rentTime
+			daysCount  := (string) time
+         if (time == 1)
+            daysLabel  := "carousel_offsers_minute"
+         else 
+            daysLabel  := "carousel_offsers_minutes"
+			end		
+      end	  
+      
+      var ret : params
+      ret.daysCount  := daysCount
+      ret.daysLabel  := daysLabel
+      return ret
+   end
+end
+
+/***************************************************************
+* GL_ComponentShopBundledItem
+*
+***************************************************************/  
+class GL_ComponentShopBundledItem : UiSslBindableBase
+   var item_id       : ObservableProperty = null
+   var duration      : ObservableProperty = null
+end
+
+/***************************************************************
+* GL_ComponentShop
+*
+***************************************************************/  
+class GL_ComponentShop : UiSslBindableBase
+   var is_new              : ObservableProperty = null
+
+   var availability        : ObservableProperty = null
+
+   var unlock_level_gl     : ObservableProperty = null
+   var unlock_level_cr     : ObservableProperty = null
+
+   var requirement         : ObservableProperty = null
+
+   var unlocks             : ObservableProperty = null // vector
+   var bundled_items       : ObservableProperty = null // vector
+   var offers              : ObservableProperty = null // vector
+   
+   func GetUnlockItem() : string
+      var ret  : string
+      var item : string
+      var i    : int
+      for i := 0 to unlocks.Get().Count() -1
+         item := unlocks.Get().Get(i).value.Get()         
+         if (item != null and $UiGlobals.componentsItem.Exist(item))
+            var compItem : GL_ComponentItem = (GL_ComponentItem)$UiGlobals.componentsItem.Get(item)
+            if (compItem.economy_model.Get() == "item")
+               if ($uiEconomy.GetItemType(item) == $uiEnums.ITEM_TYPE_ARMOR)
+                  var compArmor : GL_ComponentArmor = (GL_ComponentArmor)$UiGlobals.componentsArmor.Get(item)
+                  ret := (string)compArmor.suitId.Get()
+                  if (ret == "")
+                     ret := item
+                  end
+               else
+                  ret := item
+               end
+            end   
+         end
+      end
+      return ret
+   end
+   
+   func GetUnlockAllItems() : vector
+      var ret  : vector
+      var item : string
+      var i    : int
+      for i := 0 to unlocks.Get().Count() -1
+         item := unlocks.Get().Get(i).value.Get()         
+         if (item != null and $UiGlobals.componentsItem.Exist(item))
+            var compItem : GL_ComponentItem = (GL_ComponentItem)$UiGlobals.componentsItem.Get(item)
+            if (compItem.economy_model.Get() == "item")
+               ret.Push(item)
+            end   
+         end
+      end
+      return ret
+   end
+   
+   func GetMinimalOffer() : GL_ComponentShopOffer
+      var result : GL_ComponentShopOffer = null
+      if offers.Get().Count() > 0
+         result := offers.Get().Get(0)
+         var i : int
+         for i:= 1 to offers.Get().Count() - 1
+            if (int)offers.Get().Get(i).rent_duration.Get() < (int)result.rent_duration.Get()
+               result := offers.Get().Get(i)
+            end
+         end
+      else
+         result := new GL_ComponentShopOffer()
+         result.rent_duration := $OM.Property(0)
+         result.cr_cost := $OM.Property(0)
+         result.cr_offer := $OM.Property("")
+         result.gl_cost := $OM.Property(0)
+         result.gl_offer := $OM.Property("")
+      end
+      return result
+   end
+   
+   func IsLocked() : bool
+      return (int)availability.Get() != 0
+   end
+   
+   func GetTokenType() : string
+      var ret : string
+      if offers.Get().Count() > 0
+         var offer : GL_ComponentShopOffer = offers.Get().Get(0)
+         ret := offer.GetTokenType()
+      end
+      return ret      
+   end  
+end
+
+/***************************************************************
+* GL_ComponentColor
+*
+***************************************************************/  
+class GL_ComponentColor : UiSslBindableBase
+   var r                  : ObservableProperty = null
+   var g                  : ObservableProperty = null
+   var b                  : ObservableProperty = null
+
+   var type               : ObservableProperty = null
+   var orderId            : ObservableProperty = null
+end
+
+/***************************************************************
+* GL_ComponentItem
+*
+***************************************************************/  
+class GL_ComponentItem : UiSslBindableBase
+   var economy_model             : ObservableProperty = null
+
+   var career_tree               : ObservableProperty = null
+   var related_challenges        : ObservableProperty = null
+   
+   // ssl-extensions
+   func GetChallengesCount() : int
+      var challengesVec : vector = related_challenges.Get()
+      var ret           : int    = challengesVec.Count()
+      return ret
+   end
+      
+   func GetChallengeIdByIdx(idx : int) : string
+      var challengesVec : vector       = related_challenges.Get()
+      var ret           : string
+      if (idx >= 0 and idx < challengesVec.Count())
+         ret := (string)challengesVec.Get(idx).value.Get()
+      end
+      return ret
+   end
+   
+   func GetCurrentChallengeId() : string
+      var ret    : string
+      var curIdx : int = GetCurrentChallengeRank()
+      if (curIdx >= 0 and curIdx < GetChallengesCount())
+         ret := GetChallengeIdByIdx(curIdx)
+      end
+      return ret
+   end
+   
+   func GetCurrentChallengeRank() : int
+      var ret           : int    = -1
+      var challengesVec : vector = related_challenges.Get()
+      var i             : int
+      for i := 0 to challengesVec.Count() - 1
+         var challengeId   : string                = (string)challengesVec.Get(i).value.Get()
+         var challenge     : GL_ComponentChallenge = (GL_ComponentChallenge)$UiGlobals.componentsChallenge.Get(challengeId)
+         if (! challenge.IsCompleted())
+            break
+         else
+            ret := i
+         end
+      end
+      return ret
+   end
+   
+   func GetNextChallengeRank() : int
+      var ret : int = GetCurrentChallengeRank() + 1
+      if (ret >= GetChallengesCount())
+         ret := GetChallengesCount() - 1
+      end
+      return ret
+   end
+   
+   func GetNextChallengeId() : string
+      var ret    : string
+      var curIdx : int = GetNextChallengeRank()
+      if (curIdx >= 0 and curIdx < GetChallengesCount())
+         ret := GetChallengeIdByIdx(curIdx)
+      end
+      return ret
+   end   
+   
+   func IsComplete() : bool
+      var ret : bool = GetChallengesCount() > 0 and GetCurrentChallengeRank() == GetChallengesCount() - 1
+      return ret
+   end
+   
+   func IsChallengesStarted() : bool
+      var ret : bool = GetCurrentChallengeRank() > 0
+      if (!ret)
+         var challenge : GL_ComponentChallenge = (GL_ComponentChallenge)$UiGlobals.componentsChallenge.Get(GetCurrentChallengeId())
+         if (challenge != null)
+            ret := challenge.IsStarted()
+         end
+      end
+      return ret
+   end
+end
+
+/***************************************************************
+* GL_ComponentWeapon
+*
+***************************************************************/  
+class GL_ComponentWeapon : UiSslBindableBase
+   var damage                    : ObservableProperty = null
+   var rate_of_fire              : ObservableProperty = null
+   var accuracy                  : ObservableProperty = null
+   var clip_size                 : ObservableProperty = null
+   var range                     : ObservableProperty = null
+   
+   var primary_attribute_id      : ObservableProperty = null
+end
+
+/***************************************************************
+* GL_ComponentConsumable
+*
+***************************************************************/  
+class GL_ComponentConsumable : UiSslBindableBase
+   var duration                  : ObservableProperty = null
+   var cost                      : ObservableProperty = null
+   var cooldown                  : ObservableProperty = null
+end
+
+/***************************************************************
+* GL_ComponentArmorGameplayModifier
+*
+***************************************************************/  
+class GL_ComponentArmorGameplayModifier : UiSslBindableBase
+   var gameplay_modifier_id            : ObservableProperty = null
+   var gameplay_modifier_value         : ObservableProperty = null
+end
+
+/***************************************************************
+* GL_ComponentArmor
+*
+***************************************************************/  
+class GL_ComponentArmor : UiSslBindableBase
+   var gameplay_modifiers        : ObservableProperty = null
+   
+   // ssl-only
+   var suitId                    : ObservableProperty = $OM.Property("")
+   
+   func GetEquipState(_loadoutIdx : int = -1) : int
+      var ret        : int    = $uiEnums.CHALLENGE_ITEM_STATE_NOT_EQUIPPED
+      var suitIdVal  : string = (string)suitId.Get()      
+      if (suitIdVal != "")
+         var suit : GL_ComponentArmorSuit = (GL_ComponentArmorSuit)$UiGlobals.componentsArmorSuit.Get(suitIdVal)
+         ret := suit.GetEquipState(_loadoutIdx)
+      end
+      return ret
+   end
+   
+   func GetShowroomEquipState(_loadoutIdx : int = -1) : int
+      var ret        : int    = $uiEnums.CHALLENGE_ITEM_STATE_NOT_EQUIPPED
+      var suitIdVal  : string = (string)suitId.Get()      
+      if (suitIdVal != "")
+         var suit : GL_ComponentArmorSuit = (GL_ComponentArmorSuit)$UiGlobals.componentsArmorSuit.Get(suitIdVal)
+         ret := suit.GetShowroomEquipState(_loadoutIdx)
+      end
+      return ret
+   end
+end
+
+/***************************************************************
+* GL_ComponentArmorSuit
+*
+***************************************************************/  
+class GL_ComponentArmorSuit : UiSslBindableBase
+   var parts                     : ObservableProperty = null
+   
+   //ssl-only
+   
+   func GetEquipStateInLoadout(loadout : UD_ArmorLoadout) : int
+      var ret : int = $uiEnums.CHALLENGE_ITEM_STATE_NOT_EQUIPPED
+      if (loadout != null)
+         var helmet     : string = (string)loadout.head_armor.Get()
+         var chest      : string = (string)loadout.torso_armor.Get()
+         var shoulders  : string = (string)loadout.shoulders_armor.Get()
+         var arms       : string = (string)loadout.hands_armor.Get()
+         var legs       : string = (string)loadout.legs_armor.Get()
+                           
+         var total      : int    = 0
+         var parts      : vector = parts.Get()
+         var j          : int
+         for j := 0 to parts.Count() - 1
+            var partId  : string = parts.Get(j).value.Get()
+            if (partId != helmet and partId != chest and partId != shoulders and partId != arms and partId != legs)
+            else  
+               total := total + 1
+            end
+         end
+         
+         if (total == 0)
+            ret := $uiEnums.CHALLENGE_ITEM_STATE_NOT_EQUIPPED
+         elif (total > 0 and total < parts.Count())
+            ret := $uiEnums.CHALLENGE_ITEM_STATE_PARTIALLY_EQUIPPED
+         else
+            ret := $uiEnums.CHALLENGE_ITEM_STATE_EQUIPPED
+         end
+      end
+      return ret      
+   end
+   
+   func GetShowroomEquipState(_loadoutIdx : int = -1) : int
+      var loadoutIdx : int = _loadoutIdx
+      if (loadoutIdx == -1)
+         loadoutIdx := $UserDataStorage.local_user.GetCurrentArmorLoadoutIdx()
+         //loadoutIdx := (int)$UiGlobals.showroom.armor_loadouts.spartan.active_loadout_index.Get()
+      end
+      return GetEquipStateInLoadout($UserDataStorage.local_user.GetShowroomArmorLoadout(loadoutIdx))
+   end
+   
+   func GetEquipState(_loadoutIdx : int = -1) : int
+      var ret : int = $uiEnums.CHALLENGE_ITEM_STATE_NOT_EQUIPPED
+      if (_loadoutIdx == -1)
+         ret := $uiEnums.CHALLENGE_ITEM_STATE_NOT_EQUIPPED
+         var totalLoadouts : int = (int)$UserDataStorage.local_user.armor_loadouts_unlocked.Get()
+         var i             : int
+         for i := 0 to totalLoadouts - 1
+            var equipState : int = GetEquipStateInLoadout($UserDataStorage.local_user.GetArmorLoadout(i))
+            if (equipState >= ret)
+               ret := equipState
+            end
+         end
+      else
+         ret := GetEquipStateInLoadout($UserDataStorage.local_user.GetArmorLoadout(_loadoutIdx))
+      end
+      return ret
+   end
+end
+
+/***************************************************************
+* GL_ComponentGameplayModifier
+*
+***************************************************************/  
+class GL_ComponentGameplayModifier : UiSslBindableBase
+   var units_id         : ObservableProperty = null
+end
+
+/***************************************************************
+* GL_ComponentInventory
+*
+***************************************************************/  
+class GL_ComponentInventory : UiSslBindableBase
+   var ownership_type            : ObservableProperty = null
+   var ownership_time            : ObservableProperty = null
+
+   var equipped_state            : ObservableProperty = null
+end
+
+/***************************************************************
+* GL_ComponentPlaylist
+*
+***************************************************************/  
+class GL_ComponentPlaylist : UiSslBindableBase
+   var player_count_min            : ObservableProperty = null
+   var player_count_max            : ObservableProperty = null
+
+   var party_size_max              : ObservableProperty = null
+
+   var team_count                  : ObservableProperty = null
+
+   var players_active              : ObservableProperty = null
+end
+
+/***************************************************************
+* GL_ComponentScoringEvent
+*
+***************************************************************/  
+class GL_ComponentScoringEvent : UiSslBindableBase
+   var reward_wp                  : ObservableProperty = null
+
+   var is_medal                   : ObservableProperty = null 
+end
+
+/***************************************************************
+* GL_ComponentUserPartyData
+*
+***************************************************************/  
+class GL_ComponentUserPartyData : UiSslBindableBase
+   var is_party_leader            : ObservableProperty = null
+
+   var party_icon_index           : ObservableProperty = null 
+end
+
+/***************************************************************
+* GL_ComponentUserContextMenu
+*
+***************************************************************/  
+class GL_ComponentUserContextMenu : UiSslBindableBase
+   var social_can_follow          : ObservableProperty = null
+   var social_can_unfollow        : ObservableProperty = null
+
+   var party_can_invite           : ObservableProperty = null
+   var party_can_kick             : ObservableProperty = null
+
+   var chat_can_send_private      : ObservableProperty = null
+   
+   var clan_can_invite            : ObservableProperty = null
+   var clan_can_kick              : ObservableProperty = null
+end
+
+/***************************************************************
+* GL_ShopShelf
+*
+***************************************************************/  
+class GL_ShopShelf : UiSslBindableBase
+   var shelf_id            : ObservableProperty = null
+   
+   var items               : ObservableProperty = null // vector
+   
+   var version             : ObservableProperty = null
+   
+   // ui extensions
+   func HasNewItems() : bool
+      var ret : bool
+      var i    : int      
+      for i := 0 to items.Get().Count() - 1
+         var item       : GL_String          = (GL_String)items.Get().Get(i)
+         var itemComp   : GL_ComponentShop   = (GL_ComponentShop)$UiGlobals.componentsShop.Get(item.value.Get())
+         if ((bool)itemComp.is_new.Get())
+            ret := true
+            break
+         end
+      end
+      return ret
+   end   
+end
+
+/***************************************************************
+* GL_ShopSection
+*
+***************************************************************/  
+class GL_ShopSection : UiSslBindableBase
+   var section_id          : ObservableProperty = null   
+
+   var shelves             : ObservableProperty = null // vector
+   
+   // ui extensions
+   func FindShelf(shelf : string) : GL_ShopShelf
+      var ret :  GL_ShopShelf = null
+      var i : int 
+      for i := 0 to shelves.Get().Count() - 1
+         if (shelves.Get().Get(i).shelf_id.Get() == shelf)
+            ret := shelves.Get().Get(i) 
+         end
+      end
+      return ret
+   end
+   
+   func HasNewItems() : bool
+      var ret  : bool = false
+      var i    : int      
+      for i := 0 to shelves.Get().Count() - 1
+         var shelf :  GL_ShopShelf = shelves.Get().Get(i)
+         if (shelf.HasNewItems())
+            ret := true
+            break
+         end
+      end
+      return ret
+   end
+   
+end
+
+/***************************************************************
+* GL_ShopRace
+*
+***************************************************************/  
+class GL_ShopRace : UiSslBindableBase
+   var weapons             : ObservableProperty = null // vector
+   var armors              : ObservableProperty = null // vector
+   var tactical_packages   : ObservableProperty = null // vector
+   var bundles             : ObservableProperty = null // vector
+
+   var career              : ObservableProperty = null // vector
+
+   var internal            : ObservableProperty = null // vector
+   
+   func FindInternalSection(section : string) : GL_ShopSection
+      var ret :  GL_ShopSection = null
+      var i : int 
+      for i := 0 to internal.Get().Count() - 1
+         if (internal.Get().Get(i).section_id.Get() == section)
+            ret := internal.Get().Get(i) 
+         end
+      end
+      return ret
+   end
+   
+end
+
+/***************************************************************
+* GL_Shop
+*
+***************************************************************/  
+class GL_Shop : UiSslBindableBase
+   var race_shops          : ObservableProperty = null // vector
+   
+   var openParams          : params
+   
+   func GL_Shop()
+      openParams.isValid := false
+   end
+   
+   func GetInternalShelf(_race : int, _section : string, _shelf : string) : GL_ShopShelf
+      var ret : GL_ShopShelf = null
+      if (race_shops.Get().Count() > _race)
+         var shop         : GL_ShopRace    = (GL_ShopRace)race_shops.Get().Get(_race)
+         var shopSection  : GL_ShopSection = shop.FindInternalSection(_section)
+         if (shopSection != null)
+            ret := shopSection.FindShelf(_shelf)
+         end
+      end
+      return ret
+   end
+end
+
+/***************************************************************
+* GL_Loading
+*
+***************************************************************/   
+class GL_Loading : UiSslBindableBase
+   var is_main_menu                : ObservableProperty = null
+   var map_id                      : ObservableProperty = null
+   var game_mode_id                : ObservableProperty = null
+   var tip                         : ObservableProperty = null
+   var progress                    : ObservableProperty = null
+   var maxPlrStr                   : ObservableProperty = $OM.Calculated(this, "GetMaxPlrStr", true)
+
+   func GetMaxPlrStr() : string
+      var ret : string
+      var playlistId : string = (string)$UiGlobals.matchmaking.playlists_selection.Get()
+      var cmpPl      : GL_ComponentPlaylist  = (GL_ComponentPlaylist)$UiGlobals.componentsPlaylist.Get(playlistId)
+      if ((int)cmpPl.team_count.Get() == 0)
+         ret := "main_max_players," + (string)cmpPl.player_count_max.Get()
+      else
+         ret := "main_max_players_team," + (string)((int)cmpPl.player_count_max.Get() / 2) + "," + (string)((int)cmpPl.player_count_max.Get() / 2)
+      end
+      return ret
+   end
+
+end
+
+/***************************************************************
+* GL_BackendSessionComponents
+*
+***************************************************************/   
+class GL_BackendSessionComponents : UiSslBindableBase
+   var matchmaking_state         : ObservableProperty = null
+   var presence_state            : ObservableProperty = null
+   var shop_state                : ObservableProperty = null
+   var messaging_state           : ObservableProperty = null
+   var game_statistics_state     : ObservableProperty = null    
+end
+
+/***************************************************************
+* GL_BackendSession
+*
+***************************************************************/   
+class GL_BackendSession : UiSslBindableBase
+   var state                     : ObservableProperty = null
+   var state_timer               : ObservableProperty = null
+
+   var error_code                : ObservableProperty = null
+   var error_code_l10n           : ObservableProperty = null
+
+   var is_auto_login             : ObservableProperty = null  
+   var is_reconnect_possible     : ObservableProperty = null
+   var is_reconnect_available    : ObservableProperty = null
+
+   var components                : GL_BackendSessionComponents = null
+
+   var stateStr                  : ObservableProperty = $OM.Calculated(this, "GetStateStr", true)
+   
+   func GetStateStr() : string
+      var ret        : string = "main_backend_session_offline"
+      var stateVal   : int    = (int)state.Get()
+      if (stateVal == $uiEnums.BACKEND_SESSION_AUTHENTICATING)
+         ret := "main_backend_session_authenticating"
+      elif (stateVal == $uiEnums.BACKEND_SESSION_ESTABLISHING)
+         ret := "main_backend_session_establishing"
+      elif (stateVal == $uiEnums.BACKEND_SESSION_ONLINE)
+         ret := "main_backend_session_online"
+      end
+      return ret
+   end   
+end
+
+/***************************************************************
+* GL_AsyncOperationProgress
+*
+***************************************************************/   
+class GL_AsyncOperationProgress : UiSslBindableBase
+   var state           : ObservableProperty = null
+   var error_code      : ObservableProperty = null
+   var error_code_l10n : ObservableProperty = null
+   
+   func IsInProgress() : bool
+      return (int)state.Get() != $uiEnums.BACKEND_REQUEST_STATE_NONE
+   end
+end
+
+/***************************************************************
+* GL_BackendRequestApplyOffer
+*
+***************************************************************/   
+class GL_BackendRequestApplyOffer : UiAsyncOperation
+   // context
+   var offer_id        : ObservableProperty = null
+   
+   // override
+   override StartOperationInternal //(_param : *)
+       $user_service.RequestApplyOffer((string)_param)
+   end
+   
+   override GetErrorTitle //() : string
+      return "msg_ui_async_op_offer_err"
+   end
+   
+   override UseWaitingScreen//() : bool
+      return true
+   end
+   
+   override GetWaitHeader//() : wstring
+      return $UiGlobals.String2WString("msg_async_purchase_hdr")
+   end
+end
+
+/***************************************************************
+* GL_BackendRequestRealMoneyPurchase
+*
+***************************************************************/   
+class GL_BackendRequestRealMoneyPurchase : UiAsyncOperation
+   // context
+   var product_id      : ObservableProperty = null
+   
+   // overrides
+   override StartOperationInternal //(_param : *)
+      $user_service.RequestRealMoneyPurchase((string)_param)
+   end
+   
+   override UseWaitingScreen//() : bool
+      return true
+   end
+   
+   override GetErrorTitle //() : string
+      return "msg_ui_async_op_money_err"
+   end
+
+   override GetWaitHeader//() : wstring
+      return $UiGlobals.String2WString("msg_async_money_hdr")
+   end
+end
+
+/***************************************************************
+* GL_BackendRequestChangeNickname
+*
+***************************************************************/   
+class GL_BackendRequestChangeNickname : UiAsyncOperation
+   // context
+   var nickname        : ObservableProperty = null
+   
+   // overrides
+   override StartOperationInternal //(_param : *)
+      $user_service.RequestNicknameChange(_param)
+   end
+   
+   override UseWaitingScreen//() : bool
+      return false
+   end
+   
+   override GetErrorTitle //() : string
+      return "msg_ui_async_op_rename"
+   end
+end
+
+/***************************************************************
+* GL_BackendRequests
+*
+***************************************************************/   
+class GL_BackendRequests : UiSslBindableBase
+   var apply_offer            : GL_BackendRequestApplyOffer          = null
+   var real_money_purchase    : GL_BackendRequestRealMoneyPurchase   = null
+   var change_nickname        : GL_BackendRequestChangeNickname      = null
+      
+   func BackendConnect()
+      apply_offer.BackendConnect()
+      real_money_purchase.BackendConnect()
+      change_nickname.BackendConnect()
+   end
+   
+   func BackendDisconnect()
+      apply_offer.BackendDisconnect()
+      real_money_purchase.BackendDisconnect()
+      change_nickname.BackendDisconnect()
+   end
+end
+
+/***************************************************************
+* GL_BackendEnvironments
+*
+***************************************************************/   
+class GL_BackendEnvironments : UiSslBindableBase
+   var environments                : ObservableProperty = null // vector
+   var environments_version        : ObservableProperty = null
+
+   var environment_active_index    : ObservableProperty = null
+end
+
+/***************************************************************
+* GL_BackendStats
+*
+***************************************************************/   
+class GL_BackendStats : UiSslBindableBase
+   var users_online     : ObservableProperty = null
+   var users_in_mm      : ObservableProperty = null
+   var users_in_game    : ObservableProperty = null
+   var game_sessions    : ObservableProperty = null
+end
+
+/***************************************************************
+* GL_AsyncOperationFindUsers
+*
+***************************************************************/   
+class GL_AsyncOperationFindUsers : UiAsyncOperation
+   // parameters
+   var search_nickname_prefix    : ObservableProperty = null
+   var search_area               : ObservableProperty = null
+
+   // result
+   var result                    : ObservableProperty = null
+   
+   // overrides
+   override StartOperationInternal //(_param : *)
+      $user_service.AsyncFindUsers($UiGlobals.String2WString(_param.prefix), _param.filter)
+   end
+   
+   func SweetStart(_prefix : string, _filter : int, _event : string)
+      var p : params
+      p.prefix := _prefix
+      p.filter := _filter
+      Start(p, _event)
+   end
+      
+   override UseWaitingScreen//() : bool
+      return false
+   end
+   
+   override GetErrorTitle //() : string
+      return "msg_async_op_race_err"
+   end
+   
+   override GetWaitHeader//() : wstring
+      return $UiGlobals.String2WString("msg_async_op_race_hdr")
+   end
+end
+
+/***************************************************************
+* GL_AsyncOperationUserSetRace
+*
+***************************************************************/   
+class GL_AsyncOperationUserSetRace : UiAsyncOperation
+   // parameters
+   var race                      : ObservableProperty = null
+   
+   // overrides
+   override StartOperationInternal //(_param : *)
+      $user_service.SetRace((int)_param)
+   end
+      
+   override UseWaitingScreen//() : bool
+      return true
+   end
+   
+   override GetErrorTitle //() : string
+      return "msg_async_op_race_err"
+   end
+   
+   override GetWaitHeader//() : wstring
+      return $UiGlobals.String2WString("msg_async_op_race_hdr")
+   end
+end
+
+/***************************************************************
+* GL_AsyncOperationMatchmakingDequeue
+*
+***************************************************************/   
+class GL_AsyncOperationMatchmakingDequeue : UiAsyncOperation
+   // overrides
+   override StartOperationInternal //(_param : *)
+      $hq.MatchmakingLeaveQueue()
+   end
+      
+   override UseWaitingScreen//() : bool
+      return true
+   end
+   
+   override GetErrorTitle //() : string
+      return "msg_async_op_leave"
+   end
+   
+   override GetWaitHeader//() : wstring
+      return $UiGlobals.String2WString("msg_async_leaving")
+   end
+   
+   // temp overrides
+   override GetProgressState//() : int
+      var ret        : int = $uiEnums.BACKEND_REQUEST_STATE_NONE            
+      if ((bool)isInProgress.Get())
+         var partyState : int = (int)$UiGlobals.party.state.Get()
+         if (partyState != $uiEnums.PARTY_STATE_IN_QUEUE and partyState != $uiEnums.PARTY_STATE_IN_GAME)
+            ret := $uiEnums.BACKEND_REQUEST_STATE_COMPLETE
+         else
+            ret := $uiEnums.BACKEND_REQUEST_STATE_IN_PROGRESS
+         end
+      end
+      return ret
+   end
+   
+   override ResetProgress // ()
+      
+   end
+   
+   override GetErrorCodes // () : params
+      var ret              : params
+      ret.errorCode        := 0
+      ret.errorCode_l10n   := 0
+      return ret      
+   end
+end
+
+/***************************************************************
+* GL_AsyncOperationMatchmakingEnqueue
+*
+***************************************************************/   
+class GL_AsyncOperationMatchmakingEnqueue : UiAsyncOperation
+   // overrides
+   override StartOperationInternal //(_param : *)
+      $hq.MatchmakingEnterQueue()
+   end
+      
+   override UseWaitingScreen//() : bool
+      return true
+   end
+   
+   override GetErrorTitle //() : string
+      return "msg_async_op_enter"
+   end
+   
+   override GetWaitHeader//() : wstring
+      return $UiGlobals.String2WString("msg_async_entering")
+   end
+   
+   // temp overrides
+   override GetProgressState//() : int
+      var ret        : int = $uiEnums.BACKEND_REQUEST_STATE_NONE            
+      if ((bool)isInProgress.Get())
+         var partyState : int = (int)$UiGlobals.party.state.Get()
+         if (partyState == $uiEnums.PARTY_STATE_IN_GAME or partyState == $uiEnums.PARTY_STATE_IN_QUEUE)
+            ret := $uiEnums.BACKEND_REQUEST_STATE_COMPLETE
+         else
+            ret := $uiEnums.BACKEND_REQUEST_STATE_IN_PROGRESS
+         end
+      end
+      return ret
+   end
+   
+   override ResetProgress // ()
+      
+   end
+   
+   override GetErrorCodes // () : params
+      var ret              : params
+      ret.errorCode        := 0
+      ret.errorCode_l10n   := 0
+      return ret      
+   end
+end
+
+/***************************************************************
+* GL_AsyncOperationPartyInviteAccept
+*
+***************************************************************/   
+class GL_AsyncOperationPartyInviteAccept : UiAsyncOperation
+   // parameters
+   var from_user                 : ObservableProperty = null
+   
+   // overrides
+   override StartOperationInternal //(_param : *)
+      $hq.PartyInviteAccept(_param)
+   end
+      
+   override UseWaitingScreen//() : bool
+      return true
+   end
+   
+   override GetErrorTitle //() : string
+      return "msg_ui_async_op_join"
+   end
+   
+   override GetWaitHeader//() : wstring
+      var pp : params
+      pp.full_nickname := $UserDataStorage.users.Get(opParam).base.full_nickname.Get()
+      pp.str1 := $UiGlobals.String2WString("msg_joining_party_uid,")
+      return pp.str1 + pp.full_nickname
+   end
+end
+
+/***************************************************************
+* GL_AsyncOperationPartyKick
+*
+***************************************************************/   
+class GL_AsyncOperationPartyKick : UiAsyncOperation
+   // parameters
+   var user_id                   : ObservableProperty = null
+end
+
+/***************************************************************
+* GL_AsyncOperationPartyLeave
+*
+***************************************************************/   
+class GL_AsyncOperationPartyLeave : UiAsyncOperation
+end
+
+/***************************************************************
+* GL_AsyncOperationClanFindByName
+*
+***************************************************************/   
+class GL_AsyncOperationClanFindByName : UiAsyncOperation
+   // parameters
+   var clan_name                 : ObservableProperty = null
+
+   // result
+   var result                    : ObservableProperty = null
+   
+   // overrides
+   override StartOperationInternal //(_param : *)
+      $clan_service.AsyncFindClansByName($UiGlobals.String2WString((string)_param))
+   end
+      
+   override UseWaitingScreen//() : bool
+      return true
+   end
+   
+   override GetErrorTitle //() : string
+      return "msg_ui_async_op_find_clan"
+   end
+      
+   override GetWaitHeader//() : wstring
+      return $UiGlobals.String2WString("msg_searching_clan")
+   end
+
+end
+
+/***************************************************************
+* GL_AsyncOperationClanCreate
+*
+***************************************************************/   
+class GL_AsyncOperationClanCreate : UiAsyncOperation
+   // parameters
+   var clan_name                 : ObservableProperty = null
+   var clan_tag                  : ObservableProperty = null
+   var clan_description          : ObservableProperty = null
+   
+   // overrides
+   override StartOperationInternal //(_param : *)
+      var name : wstring = _param.name
+      var tag : wstring = _param.tag
+      var desc : wstring = _param.desc
+      $clan_service.ClanCreate(name, tag , desc)
+   end
+      
+   override UseWaitingScreen//() : bool
+      return true
+   end
+   
+   override GetErrorTitle //() : string
+      return "msg_ui_async_op_clan_create"
+   end
+   
+   override GetWaitHeader//() : wstring
+      return $UiGlobals.String2WString("msg_creating_clan")
+   end
+end
+
+/***************************************************************
+* GL_AsyncOperationClanLeave
+*
+***************************************************************/   
+class GL_AsyncOperationClanLeave : UiAsyncOperation
+   // overrides
+   override StartOperationInternal //(_param : *)
+      $clan_service.ClanLeave()
+   end
+      
+   override UseWaitingScreen//() : bool
+      return true
+   end
+   
+   override GetErrorTitle //() : string
+      return "msg_ui_async_op_clan_leave"
+   end
+   
+   override GetWaitHeader//() : wstring
+      return $UiGlobals.String2WString("msg_leaving_clan")
+   end
+end
+
+/***************************************************************
+* GL_AsyncOperationClanInviteAccept
+*
+***************************************************************/   
+class GL_AsyncOperationClanInviteAccept : UiAsyncOperation
+   // parameters
+   var to_clan_id                : ObservableProperty = null
+
+   // overrides
+   override StartOperationInternal //(_param : *)
+      $clan_service.ClanInviteAccept(_param)
+   end
+      
+   override UseWaitingScreen//() : bool
+      return true
+   end
+   
+   override GetErrorTitle //() : string
+      return "msg_ui_async_op_clan_join"
+   end
+   
+   override GetWaitHeader//() : wstring
+      return $UiGlobals.String2WString("msg_joining_clan")
+   end
+end
+
+/***************************************************************
+* GL_AsyncOperationClanKick
+*
+***************************************************************/   
+class GL_AsyncOperationClanKick : UiAsyncOperation
+   // parameters
+   var user_id                   : ObservableProperty = null
+
+   // overrides
+   override StartOperationInternal //(_param : *)
+      $clan_service.ClanKick(_param)
+   end
+      
+   override UseWaitingScreen//() : bool
+      return true
+   end
+   
+   override GetErrorTitle //() : string
+      return "msg_ui_async_op_clan_expel"
+   end
+   
+   override GetWaitHeader//() : wstring
+      return $UiGlobals.String2WString("msg_expelling_from_clan")
+   end
+end
+
+/***************************************************************
+* GL_AsyncOperations
+*
+***************************************************************/   
+class GL_AsyncOperations : UiSslBindableBase
+   var find_users                : GL_AsyncOperationFindUsers = null
+   var user_set_race             : GL_AsyncOperationUserSetRace = null
+
+   var matchmaking_dequeue       : GL_AsyncOperationMatchmakingDequeue = null
+   var matchmaking_enqueue       : GL_AsyncOperationMatchmakingEnqueue = new GL_AsyncOperationMatchmakingEnqueue()
+
+   var party_invite_accept       : GL_AsyncOperationPartyInviteAccept = null
+   var party_kick                : GL_AsyncOperationPartyKick = null
+   var party_leave               : GL_AsyncOperationPartyLeave = null
+
+   var clan_find_by_name         : GL_AsyncOperationClanFindByName = null
+   var clan_create               : GL_AsyncOperationClanCreate = null
+   var clan_leave                : GL_AsyncOperationClanLeave = null
+   var clan_invite_accept        : GL_AsyncOperationClanInviteAccept = null
+   var clan_kick                 : GL_AsyncOperationClanKick = null
+   
+   func BackendConnect()
+      party_invite_accept.BackendConnect()
+      matchmaking_dequeue.BackendConnect()
+      matchmaking_enqueue.BackendConnect()
+      user_set_race.BackendConnect()
+      clan_find_by_name.BackendConnect()
+      clan_create.BackendConnect()
+      clan_leave.BackendConnect()
+      clan_invite_accept.BackendConnect()
+      clan_kick.BackendConnect()
+   end
+   
+   func BackendDisconnect()
+      party_invite_accept.BackendDisconnect()
+      matchmaking_dequeue.BackendDisconnect()
+      matchmaking_enqueue.BackendDisconnect()
+      user_set_race.BackendDisconnect()
+      clan_find_by_name.BackendDisconnect()
+      clan_create.BackendDisconnect()
+      clan_leave.BackendDisconnect()
+      clan_invite_accept.BackendDisconnect()
+      clan_kick.BackendDisconnect()
+   end
+end
+
+/***************************************************************
+* GL_LobbyVoteSelection
+*
+***************************************************************/   
+class GL_LobbyVoteSelection : UiSslBindableBase
+   var map_id                       : ObservableProperty = null
+   var game_mode_id                 : ObservableProperty = null
+   var votes_count                  : ObservableProperty = null
+   
+   //ssl-only
+   var votes_label                  : ObservableProperty = $OM.Property("lobby_votes")
+   var votes_count_txt              : ObservableProperty = $OM.Calculated(this, "GetVotesCountTxt", true)
+   
+   func GetVotesCountTxt() : wstring
+      var ret        : wstring
+      var p          : params
+      var votesCnt   : int = (int)votes_count.Get()
+      if (votesCnt == 1)
+         p.votes  := $UiGlobals.TranslateText("lobby_votes1")
+      elif (votesCnt >= 2 and votesCnt <= 4)
+         p.votes  := $UiGlobals.TranslateText("lobby_votes234")
+      else
+         p.votes  := $UiGlobals.TranslateText("lobby_votes")
+      end
+      p.count  := $UiGlobals.String2WString(" " + (string)votesCnt + " ")
+      p.ret    := p.count
+      p.ret    := p.ret + p.votes
+      ret      := p.ret
+      return ret
+   end
+end
+
+/***************************************************************
+* GL_LobbyPlayer
+*
+***************************************************************/   
+class GL_LobbyPlayer : UiSslBindableBase
+   var id                           : GL_UID             = null
+   var team_index                   : ObservableProperty = null
+   
+//extensions
+   var idx                          : int                = 0
+   var localIdx                     : int                = 0
+   var isTeamMode                   : bool               = false
+   var team_index2                  : int                = 0
+   var debugTicks                   : int                = 0
+   var isSlotEnabled                : ObservableProperty = $OM.Property(false)
+   var isAddSlot                    : ObservableProperty = $OM.Property(false)
+   var lobbyState                   : ObservableProperty = $OM.Property(0)
+   
+   func GetUID() : GL_UID
+      return id
+   end
+   
+   func InitDefault()      
+      if (id == null)
+         id := new GL_UID()      
+         id.InitDefault()
+         team_index  := $OM.Property(0)
+      end
+   end
+   
+   func CopyVals(player : GL_LobbyPlayer)
+      id.value.Set(player.id.value.Get())
+      team_index.Set(player.team_index.Get())
+   end
+   
+   func SetInvalid()
+      idx := 0
+      isTeamMode := false
+      InitDefault()
+      id.InitDefault()
+   end
+end
+
+/***************************************************************
+* GL_Lobby
+*
+***************************************************************/   
+class GL_Lobby    : UiSslBindableBase
+   var state                       : ObservableProperty = null
+   var state_timer                 : ObservableProperty = null
+   
+   var team_count                  : ObservableProperty = null
+   var players                     : ObservableProperty = null
+
+   var map_id                      : ObservableProperty = null
+   var game_mode_id                : ObservableProperty = null
+
+   var vote_selection_index        : ObservableProperty = null
+   var vote_winner_index           : ObservableProperty = null
+   var vote_set                    : ObservableProperty = null // vector
+   var vote_set_version            : ObservableProperty = null
+   
+   var vote_set_length             : ObservableProperty = $OM.Property(0)
+   var vote_set_op                 : ObservableProperty = $OM.Calculated(this, "GetVoteSet", true)
+
+   var localLobbyPlayer             : GL_LobbyPlayer     = new GL_LobbyPlayer()
+   var invalidLobbyPlayer           : GL_LobbyPlayer     = new GL_LobbyPlayer()   
+   
+   func GetStateStr() : string
+      var ret        : string = "UNKNOWN"
+      var stateVal   : int    = (int)state.Get()
+      if (stateVal == $uiEnums.LOBBY_STATE_NONE)
+         ret := "None"
+      elif (stateVal == $uiEnums.LOBBY_STATE_JOINING_SESSION)
+         ret := "Joining session"
+      elif (stateVal == $uiEnums.LOBBY_STATE_WAITING_FOR_PLAYERS)
+         ret := "Waiting players"
+      elif (stateVal == $uiEnums.LOBBY_STATE_WAITING_FOR_VOTING_SET)
+         ret := "Waiting vote set"
+      elif (stateVal == $uiEnums.LOBBY_STATE_VOTING)
+         ret := "Voting"
+      elif (stateVal == $uiEnums.LOBBY_STATE_GAME_START_COUNTDOWN)
+         ret := "Countdown"
+      elif (stateVal == $uiEnums.LOBBY_STATE_IN_GAME)
+         ret := "Ingame"
+      end   
+      return ret
+   end
+   
+   func UpdateVoteSetLength()
+      var vote1 :  GL_LobbyVoteSelection = null
+      var vote2 :  GL_LobbyVoteSelection = null
+      var vote3 :  GL_LobbyVoteSelection = null
+      if (vote_set.Get().Count() > 2)
+         vote1 := (GL_LobbyVoteSelection)vote_set.Get().Get(0)
+         vote2 := (GL_LobbyVoteSelection)vote_set.Get().Get(1)
+         vote3 := (GL_LobbyVoteSelection)vote_set.Get().Get(2)
+      end
+      vote_set_length.Set(vote_set.Get().Count())
+      vote_set_op.Invalidate()
+   end
+   
+   func GetVoteSet() : *
+      var vote1 :  GL_LobbyVoteSelection = null
+      var vote2 :  GL_LobbyVoteSelection = null
+      var vote3 :  GL_LobbyVoteSelection = null
+      if (vote_set.Get().Count() > 2)
+         vote1 := (GL_LobbyVoteSelection)vote_set.Get().Get(0)
+         vote2 := (GL_LobbyVoteSelection)vote_set.Get().Get(1)
+         vote3 := (GL_LobbyVoteSelection)vote_set.Get().Get(2)
+         var vote1Count :  int      = (int)vote1.votes_count.Get()
+         var mapId1     :  string   = (string)vote1.map_id.Get()
+         Log("ui~lobby", "vote_count_1 = " + (string)(vote1Count) + ", mapId = " + mapId1)
+         var vote2Count :  int = (int)vote2.votes_count.Get()
+         var mapId2     :  string   = (string)vote2.map_id.Get()
+         Log("ui~lobby", "vote_count_2 = " + (string)(vote2Count) + ", mapId = " + mapId2)
+         var vote3Count :  int = (int)vote3.votes_count.Get()
+         var mapId3     :  string   = (string)vote3.map_id.Get()
+         Log("ui~lobby", "vote_count_3 = " + (string)(vote3Count) + ", mapId = " + mapId3)
+      end
+      return vote_set.Get()
+   end   
+end
+
+/***************************************************************
+* GL_ScoreboardPlayer
+*
+***************************************************************/   
+class GL_ScoreboardPlayer : UiSslBindableBase
+   var uid                       : ObservableProperty = null
+   var kills                     : ObservableProperty = null
+   var deaths                    : ObservableProperty = null
+   var assists                   : ObservableProperty = null
+   var score                     : ObservableProperty = null
+   var wp                        : ObservableProperty = null
+   var is_disconnected           : ObservableProperty = null
+   var is_dead                   : ObservableProperty = null
+   var has_flag                  : ObservableProperty = null
+   var nickname                  : ObservableProperty = null
+   var color_anim                : ObservableProperty = $OM.Property(0)
+   var player_state_anim         : ObservableProperty = $OM.Calculated(this, "GetPlayerStateAnim", true)
+   var absolute_place            : ObservableProperty = $OM.Property(0)
+   var container_place           : ObservableProperty = $OM.Property(0)
+   var need_to_recount           : ObservableProperty = $OM.Property(false)
+   var is_local                  : ObservableProperty = $OM.Property(false)
+   var flag_pic_str              : ObservableProperty = $OM.Calculated(this, "GetFlagStr", true)
+   var name                      : ObservableProperty = $OM.Calculated(this, "GetName", true)
+   var tag                       : ObservableProperty = $OM.Calculated(this, "GetTag", true)
+   var rank                      : ObservableProperty = $OM.Calculated(this, "GetRank", true)
+   
+   func GetPartyData() : GL_ComponentUserPartyData
+      var partyData : GL_ComponentUserPartyData = (GL_ComponentUserPartyData)$UiGlobals.componentsUserPartyData.Get(uid.Get())
+      return partyData
+   end
+
+   func GetIsPartyLeader() : bool
+      return (bool)GetPartyData().is_party_leader.Get()
+   end
+   
+   func GetRankIcon() : string
+      var ud      : UserData        = $UserDataStorage.GetUserDataAndData(uid.Get(), true)
+      var uiComp  : GL_ComponentUI  = (GL_ComponentUI)$UiGlobals.componentsUI.Get(ud.base.level_id.Get())
+      var ret     : string          = (string)uiComp.icon.Get()
+      return ret
+   end
+
+   func GetIsPartyLeaderVisible() : bool
+      return $UserDataStorage.local_user.IsPartyLeaderVisible() and GetIsPartyLeader()
+   end
+   
+   func GetPartyIndicatorFrame() : int
+      var ret : int = 0
+      var idx : int = GetPartyIdxInt()
+      if (idx >= 0 and idx < 8)
+         ret := 1 + idx         
+      end
+      return ret
+   end
+   
+   func GetIsPartyIndicatorVisible() : bool
+      var ret : bool = GetPartyIdxInt() >= 0
+      if (ret)
+         ret := true
+      end
+      return ret
+   end
+      
+   func GetPartyIdxInt() : int
+      var ret        : int = -1
+      var partyData  : GL_ComponentUserPartyData = GetPartyData()
+      ret := (int)partyData.party_icon_index.Get()
+      return ret
+   end
+   
+   func GetPartyIdx() : string
+      var ret : string  = ""
+      var idx : int     = GetPartyIdxInt()
+      if (idx != -1)
+         ret := (string)idx
+      end
+      // programmers art
+      ret := ""
+      return ret
+   end
+   
+   func GetFlagStr : string
+      Log("hf2p~bindings", "game mode = " + ((string)((GL_ComponentUI)$UiGlobals.componentsUI.Get($UiGlobals.lobby.game_mode_id.Get())).name.Get()))
+      if ((bool)is_dead.Get())
+         return "deadScoreboard"
+      elif ((bool)(has_flag.Get()))
+         if (((string)((GL_ComponentUI)$UiGlobals.componentsUI.Get($UiGlobals.lobby.game_mode_id.Get())).name.Get()) == "assault")
+            return "bombScoreboard"
+         else
+            return "flagScoreboard"
+         end
+      end
+      
+      return ""
+   end   
+   
+   func GetName : wstring      
+      return nickname.Get()
+   end
+   
+   func GetTag : wstring
+      var ret : wstring = $UserDataStorage.users.Get(uid.Get()).base.clan_tag.Get()
+      return ret
+   end
+   
+   func GetRank : int
+      var ret : int = (int)((UserData)$UserDataStorage.users.Get(uid.Get())).base.level.Get()
+      return ret
+   end
+   
+   func GetPlayerStateAnim : string
+      var ret_val : string = "default0" 
+                     
+      if ((bool)(is_disconnected.Get()))
+         ret_val := "offline"
+      elif ((bool)(is_local.Get()))
+         ret_val := "local"
+      elif ($UserDataStorage.IsClanmate(uid.Get()))
+         ret_val := "clanmate"
+      elif ($UserDataStorage.IsFriend(uid.Get()))
+         ret_val := "friend"
+      end
+      
+      return ret_val
+   end
+end
+
+
+/***************************************************************
+* GL_ScoreboardTeam
+*
+***************************************************************/   
+class GL_ScoreboardTeam : UiSslBindableBase
+   var score                     : ObservableProperty = null
+   
+   // ssl extensions
+   var icon                      : ObservableProperty = $OM.Calculated(this, "GetIcon", true)
+   var name                      : ObservableProperty = $OM.Calculated(this, "GetName", true)
+   var scoreTxt                  : ObservableProperty = $OM.Calculated(this, "GetScoreTxt", true)
+   var idx                       : int = 0
+   
+   func SetIdx(_idx : int)
+      idx := _idx
+      name.Invalidate()
+      icon.Invalidate()
+   end
+   
+   func GetScoreTxt() : string
+      return (string)((int)score.Get())
+   end
+   
+   // Scoreboard headers can contain player names, which aren't tag string references.
+   // So the header team names need to be variables too.
+   // - Alex-231
+   func GetHeaderName() : string
+      var teamIdx : int    = idx
+      var ret     : string = "UNKNOWN TEAM"
+      
+        if ((teamIdx) == -1)
+            ret := "OBSERVERS"
+        elif ((teamIdx) == 0)
+            ret := "RED TEAM"
+        elif ((teamIdx) == 1)
+            ret := "BLUE TEAM"
+        elif ((teamIdx) == 2)
+            ret := "GREEN TEAM"
+        elif ((teamIdx) == 3)
+            ret := "ORANGE TEAM"
+        elif ((teamIdx) == 4)
+            ret := "PURPLE TEAM"
+        elif ((teamIdx) == 5)
+            ret := "GOLD TEAM"
+        elif ((teamIdx) == 6)
+            ret := "BROWN TEAM"
+        elif ((teamIdx) == 7)
+            ret := "PINK TEAM"
+        end
+      
+      return ret      
+   end
+
+
+   func GetName() : string
+      var teamIdx : int    = idx
+      var ret     : string
+      
+        // Added new "X TEAM" strings. -Alex-231
+        if ((teamIdx) == -1)
+            ret := "ingame_team_name_-1"
+        elif ((teamIdx) == 0)
+            ret := "ingame_team_name_0"
+        elif ((teamIdx) == 1)
+            ret := "ingame_team_name_1"
+        elif ((teamIdx) == 2)
+            ret := "ingame_team_name_2"
+        elif ((teamIdx) == 3)
+            ret := "ingame_team_name_3"
+        elif ((teamIdx) == 4)
+            ret := "ingame_team_name_4"
+        elif ((teamIdx) == 5)
+            ret := "ingame_team_name_5"
+        elif ((teamIdx) == 6)
+            ret := "ingame_team_name_6"
+        elif ((teamIdx) == 7)
+            ret := "ingame_team_name_7"
+        end
+      
+      return ret      
+   end
+   
+   func GetIcon() : string
+      var teamIdx : int    = idx
+      var ret     : string
+
+      if (teamIdx == 0)
+         ret := "unicornEmblem"
+      elif (teamIdx == 1)
+         ret := "tigerEmblem"         
+      end
+      
+      return ret
+   end
+end
+
+/***************************************************************
+* GL_ScoreboardRanking
+*
+***************************************************************/   
+class GL_ScoreboardRanking : UiSslBindableBase
+   var indices                   : ObservableProperty = null // vector
+end
+
+/***************************************************************
+* GL_Scoreboard
+*
+***************************************************************/   
+class GL_Scoreboard : UiSslBindableBase
+   var scoreboard_players        : ObservableProperty    = null // vector
+   var scoreboard_teams          : ObservableProperty    = null // vector
+
+   var rankings_version          : ObservableProperty    = null
+   var ffa_players_ranking       : GL_ScoreboardRanking  = null
+   var team_players_ranking      : ObservableProperty    = null // vector
+   var teams_ranking             : GL_ScoreboardRanking  = null
+   
+   // ssl extensions
+   var uiStyleSheet              : UiSSScoreboard        = new UiSSScoreboard()
+   var version                   : ObservableProperty    = $OM.Calculated(this, "GetVersion", true)
+   var versionVal                : int                   = 0
+                        
+   func UpdateVersion()
+      versionVal := versionVal + 1
+      version.Invalidate()
+   end
+   
+   func GetVersion() : int
+      return versionVal
+   end
+                        
+   func FindPlayer(_uid : *) : GL_ScoreboardPlayer
+      var ret  : GL_ScoreboardPlayer = null
+      var i    : int
+      
+      for i := 0 to scoreboard_players.Get().Count() - 1
+         var player : GL_ScoreboardPlayer = scoreboard_players.Get().Get(i)
+         if ($UserDataStorage.IsEqualUIDs(player.uid.Get(), _uid))
+            ret := player
+            break
+         end
+      end
+      return ret
+   end
+   
+   func GetScoreboardStyleSheet() : vector
+      return uiStyleSheet.GetStyleSheet()
+   end
+end
+
+/***************************************************************
+* GL_PodiumParticipant
+*
+***************************************************************/   
+class GL_PodiumParticipant : UiSslBindableBase
+   var id                  : ObservableProperty = null
+
+   var place               : ObservableProperty = null
+end
+
+/***************************************************************
+* GL_Podium
+*
+***************************************************************/   
+class GL_Podium : UiSslBindableBase
+   var state                     : ObservableProperty = null
+
+   var participants              : ObservableProperty = null // vector
+   var participants_version      : ObservableProperty = null
+end
+
+/***************************************************************
+* GL_Gameplay
+*
+***************************************************************/   
+class GL_Gameplay : UiSslBindableBase
+   var scoreboard                : GL_Scoreboard = null
+   var podium                    : GL_Podium     = null
+end
+
+/***************************************************************
+* GL_MOTD
+*
+***************************************************************/   
+class GL_MOTD : UiSslBindableBase
+   var message                   : ObservableProperty = null
+end
+
+/***************************************************************
+* GL_Ad
+*
+***************************************************************/   
+class GL_Ad : UiSslBindableBase
+   var id                        : ObservableProperty = null
+   var url                       : ObservableProperty = null
+   var time_on_screen_sec        : ObservableProperty = null
+end
+
+/***************************************************************
+* GL_News
+*
+***************************************************************/   
+class GL_News : UiSslBindableBase
+   var id                        : ObservableProperty = null
+
+   var is_read                   : ObservableProperty = null
+
+   var author                    : ObservableProperty = null
+   var date                      : ObservableProperty = null
+   var text                      : ObservableProperty = null
+end
+
+/***************************************************************
+* GL_Showroom
+*
+***************************************************************/   
+class GL_Showroom : UiSslBindableBase
+   var armor_loadouts            : UD_RaceArmorLoadouts = null
+end
+
+/***************************************************************
+* NT_SessionRewards_Stat
+*
+***************************************************************/   
+class NT_SessionRewards_Stat : UiSslBindableBase
+   var id                        : ObservableProperty = null
+   var count                     : ObservableProperty = null
+   var xp                        : ObservableProperty = null
+end
+
+/***************************************************************
+* NT_SessionRewards
+*
+***************************************************************/   
+class NT_SessionRewards : UiSslBindableBase
+   var session_id                : ObservableProperty = null
+
+   var xp                        : ObservableProperty = null
+   var xp_bonus                  : ObservableProperty = null
+   var xp_consecutive_bonus      : ObservableProperty = null
+   var xp_game_complete_bonus    : ObservableProperty = null
+   var cr                        : ObservableProperty = null
+   var cr_bonus                  : ObservableProperty = null
+
+   var stats                     : ObservableProperty = null // vector
+   var medals                    : ObservableProperty = null // vector
+
+   var loot                      : ObservableProperty = null // vector
+   
+// extended observables
+   var isLvlCont                 : ObservableProperty = $OM.Property(false)
+   var lvlVal                    : ObservableProperty = $OM.Property(0)
+   var lvlName                   : ObservableProperty = $OM.Property("")
+   
+   var isTfHeader                : ObservableProperty = $OM.Property(true)
+   var tfHeader                  : ObservableProperty = $OM.Calculated(this, "GetHeader", true)
+   
+   var isTfDesc                  : ObservableProperty = $OM.Property(true)
+   var tfDesc                    : ObservableProperty = $OM.Calculated(this, "GetDesc", true)
+   
+   var isTfName                  : ObservableProperty = $OM.Property(false)
+   var tfName                    : ObservableProperty = $OM.Calculated(this, "GetName", true)
+   
+   var isBg                      : ObservableProperty = $OM.Property(true)
+   var bgPic                     : ObservableProperty = $OM.Property("notif_bg_match_def_bg")
+   
+   var isIcon                    : ObservableProperty = $OM.Property(false)
+   var iconPic                   : ObservableProperty = $OM.Property("")
+   var itemQ                     : ObservableProperty = $OM.Property("common")
+   
+   var isSingleBtn               : ObservableProperty = $OM.Property(true)
+   var hasOK                     : ObservableProperty = $OM.Calculated(this, "GetHasOK", true)
+   var hasCancel                 : ObservableProperty = $OM.Calculated(this, "GetHasCancel", true)
+   var okLBL                     : ObservableProperty = $OM.Property("main_show")
+   var cancelLBL                 : ObservableProperty = $OM.Property("main_cancel")
+   
+   var type                      : int                = $uiEnums.NOTIFICATION_SESSION_REWARDS
+   var idx                       : int                = 0
+   var heapIdx                   : int                = 0
+   var listIdx                   : int                = 0
+   
+   func GetHasOK() : bool
+      return (bool)$UiGlobals.isDockerEnabled.Get()
+   end
+   
+   func GetHasCancel() : bool
+      return false
+   end
+   
+   func GetHeader() : string
+      var ret : string
+      ret := "main_session_reward"
+      return ret
+   end
+   
+   func GetDesc() : string
+      var ret : string
+      //ret := ret + "XP = " + (string)xp.Get() + "\n"
+      //ret := ret + "XP bonus = " + (string)xp_bonus.Get()
+      ret := "main_notif_xp_xpbonus," + (string)xp.Get() + "," +  (string)xp_bonus.Get()
+      return ret
+   end
+   
+   func GetName() : string
+      return ""
+   end
+end
+
+/***************************************************************
+* GL_Reward
+*
+***************************************************************/   
+class GL_Reward : UiSslBindableBase
+   var item_id            : ObservableProperty = null
+   var amount             : ObservableProperty = null
+end
+
+/***************************************************************
+* NT_LevelUp
+*
+***************************************************************/   
+class NT_LevelUp : UiSslBindableBase
+   var level_previous            : ObservableProperty = null
+   var level_id_previous         : ObservableProperty = null
+   var level_id                  : ObservableProperty = null
+   var level                     : ObservableProperty = null
+   var level_up_rewards          : ObservableProperty = null
+
+   var is_special_promotion      : ObservableProperty = null
+   
+// extended observables
+   var isLvlCont                 : ObservableProperty = $OM.Property(true)
+   var lvlVal                    : ObservableProperty = $OM.Calculated(this, "GetLvlVal", true)
+   var lvlName                   : ObservableProperty = $OM.Calculated(this, "GetLvlName", true)
+   
+   var isTfHeader                : ObservableProperty = $OM.Property(true)
+   var tfHeader                  : ObservableProperty = $OM.Calculated(this, "GetHeader", true)
+   
+   var isTfDesc                  : ObservableProperty = $OM.Property(false)
+   var tfDesc                    : ObservableProperty = $OM.Property("")
+   
+   var isTfName                  : ObservableProperty = $OM.Property(false)
+   var tfName                    : ObservableProperty = $OM.Property("")
+   
+   var isBg                      : ObservableProperty = $OM.Property(true)
+   var bgPic                     : ObservableProperty = $OM.Calculated(this, "GetBG", true)
+   
+   var isIcon                    : ObservableProperty = $OM.Property(false)
+   var iconPic                   : ObservableProperty = $OM.Property("")
+   var itemQ                     : ObservableProperty = $OM.Property("common")
+   
+   var isSingleBtn               : ObservableProperty = $OM.Property(true)
+   var hasOK                     : ObservableProperty = $OM.Calculated(this, "GetHasOK", true)
+   var hasCancel                 : ObservableProperty = $OM.Calculated(this, "GetHasCancel", true)
+   var okLBL                     : ObservableProperty = $OM.Property("main_show")
+   var cancelLBL                 : ObservableProperty = $OM.Property("main_cancel")
+   var idx                       : int = 0
+   var heapIdx                   : int                = 0
+   var listIdx                   : int                = 0
+   var type                      : int = $uiEnums.NOTIFICATION_SESSION_LVLUP 
+   
+   func GetHasOK() : bool
+      return (bool)$UiGlobals.isDockerEnabled.Get()
+   end
+   
+   func GetHasCancel() : bool
+      return false
+   end
+   
+   func GetHeader() : string
+      var ret : string
+      ret := "main_ui_levelup"
+      return ret
+   end
+   
+   func GetLvlVal() : string
+      return (string)level.Get()
+   end
+   
+   func GetLvlName() : string
+      return "main_ui_level"
+   end
+   
+   func GetBG() : string
+      return "notif_bg_lvlup_bg_big"
+   end   
+end
+
+/***************************************************************
+* NT_NewItemsAvailable
+*
+***************************************************************/   
+class NT_NewItemsAvailable : UiSslBindableBase
+   var new_items                 : ObservableProperty = null
+   
+// extended observables
+   var isLvlCont                 : ObservableProperty = $OM.Property(false)
+   var lvlVal                    : ObservableProperty = $OM.Property("")
+   var lvlName                   : ObservableProperty = $OM.Property("")
+   
+   var isTfHeader                : ObservableProperty = $OM.Property(true)
+   var tfHeader                  : ObservableProperty = $OM.Calculated(this, "GetHeader", true)
+   
+   var isTfDesc                  : ObservableProperty = $OM.Property(true)
+   var tfDesc                    : ObservableProperty = $OM.Calculated(this, "GetDesc", true)
+   
+   var isTfName                  : ObservableProperty = $OM.Property(false)
+   var tfName                    : ObservableProperty = $OM.Property("")
+   
+   var isBg                      : ObservableProperty = $OM.Property(true)
+   var bgPic                     : ObservableProperty = $OM.Calculated(this, "GetBG", true)
+   
+   var isIcon                    : ObservableProperty = $OM.Property(true)
+   var iconPic                   : ObservableProperty = $OM.Calculated(this, "GetIcon", true)
+   var itemQ                     : ObservableProperty = $OM.Calculated(this, "GetItemQ", true)
+   
+   var isSingleBtn               : ObservableProperty = $OM.Property(true)
+   var hasOK                     : ObservableProperty = $OM.Calculated(this, "GetHasOK", true)
+   var hasCancel                 : ObservableProperty = $OM.Calculated(this, "GetHasCancel", true)
+   var okLBL                     : ObservableProperty = $OM.Property("main_show")
+   var cancelLBL                 : ObservableProperty = $OM.Property("main_cancel")
+   var idx                       : int = 0
+   var heapIdx                   : int                = 0
+   var listIdx                   : int                = 0
+   var type                      : int = $uiEnums.NOTIFICATION_SESSION_UNLOCK 
+   
+   func GetHasOK() : bool
+      return (bool)$UiGlobals.isDockerEnabled.Get()
+   end
+   
+   func GetHasCancel() : bool
+      return false
+   end
+   
+   func GetHeader() : string
+      var ret : string = "main_ui_item_unlock"
+      return ret
+   end
+   
+   func GetDesc() : string
+      var ret : string
+      var i : int
+      var items : vector = new_items.Get()
+      for i := 0 to items.Count() - 1
+         ret := ret + (string)items.Get(i).value.Get() + "\n"
+      end
+      return ret
+   end   
+   
+   func GetBG() : string
+      return "notif_bg_item_bg_norm"
+   end   
+   
+   func GetItemQ() : string
+      var ret     : string = ""
+      var items   : vector = new_items.Get()
+      if (items.Count() > 0)
+         var itemId : string = (string)items.Get(0).value.Get()
+         var uiComp : GL_ComponentUI  = (GL_ComponentUI)$UiGlobals.componentsUI.Get(itemId)
+         ret := (string)uiComp.quality.Get()
+      end
+      return ret
+   end
+   
+   func GetIcon() : string
+      var ret     : string = ""
+      var items   : vector = new_items.Get()
+      if (items.Count() > 0)
+         var itemId : string = (string)items.Get(0).value.Get()
+         var uiComp : GL_ComponentUI  = (GL_ComponentUI)$UiGlobals.componentsUI.Get(itemId)
+         ret := (string)uiComp.icon.Get()
+      end
+      return ret
+   end
+end
+
+/***************************************************************
+* NT_PartyInvite
+*
+***************************************************************/   
+class NT_PartyInvite : UiSslBindableBase
+   var is_active                 : ObservableProperty = null
+
+   var from_user                 : ObservableProperty = null
+
+// extended observables
+   var isLvlCont                 : ObservableProperty = $OM.Property(false)
+   var lvlVal                    : ObservableProperty = $OM.Property("")
+   var lvlName                   : ObservableProperty = $OM.Property("")
+   
+   var isTfHeader                : ObservableProperty = $OM.Property(true)
+   var tfHeader                  : ObservableProperty = $OM.Calculated(this, "GetHeader", true)
+   
+   var isTfDesc                  : ObservableProperty = $OM.Property(true)
+   var tfDesc                    : ObservableProperty = $OM.Calculated(this, "GetDesc", true)
+   
+   var isTfName                  : ObservableProperty = $OM.Property(false)
+   var tfName                    : ObservableProperty = $OM.Property("")
+   
+   var isBg                      : ObservableProperty = $OM.Property(true)
+   var bgPic                     : ObservableProperty = $OM.Calculated(this, "GetBG", true)
+   
+   var isIcon                    : ObservableProperty = $OM.Property(false)
+   var iconPic                   : ObservableProperty = $OM.Property("")
+   var itemQ                     : ObservableProperty = $OM.Property("common")
+   
+   var isSingleBtn               : ObservableProperty = $OM.Property(false)
+   var hasOK                     : ObservableProperty = $OM.Calculated(this, "GetHasOK", true)
+   var hasCancel                 : ObservableProperty = $OM.Calculated(this, "GetHasCancel", true)
+   var okLBL                     : ObservableProperty = $OM.Property("main_accept")
+   var cancelLBL                 : ObservableProperty = $OM.Property("main_decline")
+   var idx                       : int                = 0
+   var heapIdx                   : int                = 0
+   var listIdx                   : int                = 0
+   var type                      : int                = $uiEnums.NOTIFICATION_PARTY_INVITE
+   
+   func GetHasOK() : bool
+      return (bool)is_active.Get()
+   end
+   
+   func GetHasCancel() : bool
+      return false
+   end
+   
+   func GetHeader() : string
+      var ret : string = "main_ui_invite_to_party"
+      return ret
+   end
+   
+   func GetDesc() : wstring
+      if ($UserDataStorage.IsValidUID(from_user.Get()))
+         $user_service.RequestData(from_user.Get(), $uiEnums.USER_DATA_BASE)      
+      end
+      var pp : params
+      var ret : wstring
+      var ud : UserData  = (UserData)$UserDataStorage.users.Get(from_user.Get())
+      pp.full_nickname := $root.MakeStringUntranslatable(ud.base.full_nickname.Get())
+      ret := ret + pp.full_nickname
+      return ret
+   end
+   
+   func GetBG() : string
+      return "notif_bg_item_bg_invite"
+   end   
+end
+
+/***************************************************************
+* NT_PartyKick
+*
+***************************************************************/   
+class NT_PartyKick : UiSslBindableBase
+   var from_user_id              : ObservableProperty = null
+end
+
+/***************************************************************
+* NT_ClanInvite
+*
+***************************************************************/   
+class NT_ClanInvite : UiSslBindableBase
+   var is_active                 : ObservableProperty = null
+
+   var from_user_id              : ObservableProperty = null
+   var to_clan_id                : ObservableProperty = null
+   
+// extended observables
+   var isLvlCont                 : ObservableProperty = $OM.Property(false)
+   var lvlVal                    : ObservableProperty = $OM.Property("")
+   var lvlName                   : ObservableProperty = $OM.Property("")
+   
+   var isTfHeader                : ObservableProperty = $OM.Property(true)
+   var tfHeader                  : ObservableProperty = $OM.Calculated(this, "GetHeader", true)
+   
+   var isTfDesc                  : ObservableProperty = $OM.Property(true)
+   var tfDesc                    : ObservableProperty = $OM.Calculated(this, "GetDesc", true)
+   
+   var isTfName                  : ObservableProperty = $OM.Property(false)
+   var tfName                    : ObservableProperty = $OM.Property("")
+   
+   var isBg                      : ObservableProperty = $OM.Property(true)
+   var bgPic                     : ObservableProperty = $OM.Calculated(this, "GetBG", true)
+   
+   var isIcon                    : ObservableProperty = $OM.Property(false)
+   var iconPic                   : ObservableProperty = $OM.Property("")
+   var itemQ                     : ObservableProperty = $OM.Property("common")
+   
+   var isSingleBtn               : ObservableProperty = $OM.Property(false)
+   var hasOK                     : ObservableProperty = $OM.Calculated(this, "GetHasOK", true)
+   var hasCancel                 : ObservableProperty = $OM.Calculated(this, "GetHasCancel", true)
+   var okLBL                     : ObservableProperty = $OM.Property("main_accept")
+   var cancelLBL                 : ObservableProperty = $OM.Property("main_decline")
+   var idx                       : int                = 0
+   var heapIdx                   : int                = 0
+   var listIdx                   : int                = 0
+   var type                      : int                = $uiEnums.NOTIFICATION_CLAN_INVITE
+   
+   func GetHasOK() : bool
+      return (bool)is_active.Get()
+   end
+   
+   func GetHasCancel() : bool
+      return false
+   end
+   
+   func GetHeader() : string
+      var ret : string = "main_ui_invite_to_clan"
+      return ret
+   end
+   
+   func GetDesc() : wstring
+      if ($UserDataStorage.IsValidUID(from_user_id.Get()))
+         $user_service.RequestData(from_user_id.Get(), $uiEnums.USER_DATA_BASE)      
+      end
+      if ($UserDataStorage.IsValidUID(to_clan_id.Get()))
+         $clan_service.RequestData(to_clan_id.Get(), $uiEnums.CLAN_DATA_BASE)
+      end
+      var pp : params
+      var ud : UserData = (UserData)$UserDataStorage.users.Get(from_user_id.Get())
+      var cd : ClanData = (ClanData)$ClanDataStorage.clans.Get(to_clan_id.Get())
+      pp.full_nickname := ud.base.full_nickname.Get()
+      pp.clan_name := cd.base.clan_name.Get()
+      var ret : wstring
+      ret := ret + "msg_notif_clan_invite,"
+      ret := ret + pp.full_nickname + "~,"
+      ret := ret + pp.clan_name + "~"
+      return ret
+   end
+   
+   func GetBG() : string
+      return "notif_bg_item_bg_norm"
+   end   
+end
+
+/***************************************************************
+* NT_ChallengeProgress
+*
+***************************************************************/   
+class NT_ChallengeProgress : UiSslBindableBase
+   var challenge_id              : ObservableProperty = null
+   var progress                  : ObservableProperty = null
+end
+
+/***************************************************************
+* NT_ChallengeComplete
+*
+***************************************************************/   
+class NT_ChallengeComplete : UiSslBindableBase
+   var challenge_id              : ObservableProperty = null
+
+   var rewards_tokens            : ObservableProperty = null
+   
+   // extended observables
+   
+   var isLvlCont                 : ObservableProperty = $OM.Property(false)
+   var lvlVal                    : ObservableProperty = $OM.Property(0)
+   var lvlName                   : ObservableProperty = $OM.Property("")
+   
+   var isTfHeader                : ObservableProperty = $OM.Property(true)
+   var tfHeader                  : ObservableProperty = $OM.Calculated(this, "GetHeader", true)
+   
+   var isTfDesc                  : ObservableProperty = $OM.Property(true)
+   var tfDesc                    : ObservableProperty = $OM.Calculated(this, "GetDesc", true)
+   
+   var isTfName                  : ObservableProperty = $OM.Property(true)
+   var tfName                    : ObservableProperty = $OM.Calculated(this, "GetName", true)
+   
+   var isBg                      : ObservableProperty = $OM.Property(true)
+   var bgPic                     : ObservableProperty = $OM.Property("")
+   
+   var isIcon                    : ObservableProperty = $OM.Property(true)
+   var iconPic                   : ObservableProperty = $OM.Property("")
+   var itemQ                     : ObservableProperty = $OM.Property("common")
+   
+   var isSingleBtn               : ObservableProperty = $OM.Property(true)
+   var hasOK                     : ObservableProperty = $OM.Calculated(this, "GetHasOK", true)
+   var hasCancel                 : ObservableProperty = $OM.Calculated(this, "GetHasCancel", true)
+   var okLBL                     : ObservableProperty = $OM.Property("main_show_challenge_box")
+   var cancelLBL                 : ObservableProperty = $OM.Property("main_cancel")
+   
+   var type                      : int                = $uiEnums.NOTIFICATION_CHALLENGE_COMPLETE
+   var idx                       : int                = 0
+   var heapIdx                   : int                = 0
+   var listIdx                   : int                = 0
+   
+   func GetHasOK() : bool
+      return (bool)$UiGlobals.isDockerEnabled.Get()
+   end
+   
+   func GetHasCancel() : bool
+      return false
+   end
+   
+   func GetHeader() : string
+      var ret : string
+      ret := "main_challenge_complete"
+      return ret
+   end
+   
+   func GetDesc() : string
+      var ret : string
+      var uiComp  : GL_ComponentUI  = (GL_ComponentUI)$UiGlobals.componentsUI.Get((string)challenge_id.Get())
+      ret := (string)uiComp.desc.Get()
+      return ret
+   end
+   
+   func GetName() : string
+      var ret : string
+      var uiComp  : GL_ComponentUI  = (GL_ComponentUI)$UiGlobals.componentsUI.Get((string)challenge_id.Get())
+      ret := (string)uiComp.name.Get()
+      return ret
+   end
+   
+end
+
+/***************************************************************
+* NT_Notification
+*
+***************************************************************/   
+class NT_Notification : UiSslBindableBase
+   var type                      : ObservableProperty = null
+   var index                     : ObservableProperty = null
+   
+   // ssl-extensions
+   var isProcessed               : ObservableProperty = $OM.Property(false)
+   var isIngameProcessed         : ObservableProperty = $OM.Property(false)
+end
+
+/***************************************************************
+* NT_Notifications
+*
+***************************************************************/   
+class NT_Notifications : UiSslBindableBase
+   var notifications                   : ObservableProperty = null
+
+   var session_rewards                 : ObservableProperty = null
+   var level_ups                       : ObservableProperty = null
+   var new_items                       : ObservableProperty = null
+
+   var party_invites                   : ObservableProperty = null
+   var party_kicks                     : ObservableProperty = null
+
+   var clan_invites                    : ObservableProperty = null
+
+   var challenge_progress              : ObservableProperty = null
+   var challenge_complete              : ObservableProperty = null
+
+   var session_rewards_last_session    : ObservableProperty = null
+   var last_processed_reward_version   : ObservableProperty = $OM.Property(-1)
+   
+   var session_reward_replayIdx        : int                = -1
+   
+   var isWaitingRewardStats            : ObservableProperty = $OM.Property(true)
+   var isWaitingRewardAvaliable        : ObservableProperty = $OM.Property(false)
+      
+   func IsWaitingRewardStats() : bool
+      return (bool)isWaitingRewardStats.Get()
+   end   
+   
+   func ResetRewardAvaliable()
+      isWaitingRewardAvaliable.Set(false)
+   end
+   
+   func StartWaitingRewardStats()
+      isWaitingRewardStats.Set(true)
+      if ((bool)isWaitingRewardAvaliable.Get())
+         isWaitingRewardStats.Set(false)
+      else
+         var currentVersion   : int = (int)session_rewards_last_session.Get()
+         var lastVersion      : int = (int)last_processed_reward_version.Get()
+         if (lastVersion != currentVersion)
+            FinishWaitingRewards()
+         else
+            session_rewards_last_session.Subscribe(this, "UpdateRewards")
+         end
+      end
+   end
+   
+   func UpdateRewards(_val : *)
+      session_rewards_last_session.Unsubscribe(this, "UpdateRewards")
+      FinishWaitingRewards()
+   end
+   
+   func FinishWaitingRewards()
+      isWaitingRewardAvaliable.Set(true)
+      last_processed_reward_version.Set(session_rewards_last_session.Get())
+      isWaitingRewardStats.Set(false)
+   end
+   
+   func GetNotifCountByType(_notifType : int, _onlyUnprocessed : bool = false) : int
+      var notifVec   : vector =  $UiGlobals.notifications.notifications.Get()
+      var retCount   : int    = 0
+      var idx        : int      
+      for idx := 0 to notifVec.Count() - 1
+         var notifRec   : NT_Notification    = (NT_Notification)notifVec.Get(idx)
+         var recType    : int                = (int)notifRec.type.Get()         
+         if (recType == _notifType and (!_onlyUnprocessed or !(bool)notifRec.isProcessed.Get()))
+            retCount := retCount + 1            
+         end
+      end
+      return retCount            
+   end
+   
+   func IsNewNotificationByType(_notifType : int) : bool
+      return GetNotifCountByType(_notifType, true) > 0
+   end
+   
+   func GetFirstUnprocessedIdxByType(_notifType : int, isIngame : bool = false): int
+      var ret        : int    = -1
+      var notifVec   : vector =  $UiGlobals.notifications.notifications.Get()
+      var idx        : int      
+      for idx := 0 to notifVec.Count() - 1
+         var notifRec   : NT_Notification    = (NT_Notification)notifVec.Get(idx)
+         var recType    : int                = (int)notifRec.type.Get()         
+         if (recType == _notifType) 
+            var isProcessed : bool = false
+            if (isIngame)
+               isProcessed := (bool)notifRec.isIngameProcessed.Get()
+            else
+               isProcessed := (bool)notifRec.isProcessed.Get()
+            end
+            if (! isProcessed)
+               ret := idx
+               break
+            end
+         end
+      end
+      return ret         
+   end
+   
+   func GetFirstUnprocessedByType(_notifType : int, isIngame : bool = false): NT_Notification
+      var ret  : NT_Notification = null
+      var idx  : int             = GetFirstUnprocessedIdxByType(_notifType, isIngame)
+      if (idx != -1)
+         var notifVec : vector =  $UiGlobals.notifications.notifications.Get()
+         ret := (NT_Notification)notifVec.Get(idx)
+      end
+      return ret
+   end
+   
+   func GetFirstUnprocessedDetailsByType(_notifType : int): object
+      return GetNotifDetails(GetFirstUnprocessedByType(_notifType))
+   end
+   
+   func GetNotifDetailsRecByIdx(idx : int) : object      
+      var notifVec   : vector = notifications.Get()
+      var ret        : object = null
+      if (idx < notifVec.Count())
+         ret := GetNotifDetails((NT_Notification)notifVec.Get(idx))
+      end
+      return ret
+   end
+   
+   func GetNotifDetails(notifRec : NT_Notification) : object
+      var ret        : object = null
+      if (notifRec != null)
+         var notifType  : int    = (int)notifRec.type.Get()
+         if (notifType == $uiEnums.NOTIFICATION_SESSION_REWARDS)
+            var rewardsVec : vector = $UiGlobals.notifications.session_rewards.Get()
+            ret := (NT_SessionRewards)rewardsVec.Get((int)notifRec.index.Get())
+         elif (notifType == $uiEnums.NOTIFICATION_SESSION_LVLUP)
+            var lvlUpVec : vector = $UiGlobals.notifications.level_ups.Get()
+            ret := (NT_LevelUp)lvlUpVec.Get((int)notifRec.index.Get())
+         elif (notifType == $uiEnums.NOTIFICATION_SESSION_UNLOCK)
+            var unlockItems : vector = $UiGlobals.notifications.new_items.Get()
+            ret := (NT_NewItemsAvailable)unlockItems.Get((int)notifRec.index.Get())
+         elif (notifType == $uiEnums.NOTIFICATION_PARTY_INVITE)
+            var invites : vector = $UiGlobals.notifications.party_invites.Get()
+            ret := (NT_PartyInvite)invites.Get((int)notifRec.index.Get())
+         elif (notifType == $uiEnums.NOTIFICATION_CLAN_INVITE)
+            var invites : vector = $UiGlobals.notifications.clan_invites.Get()
+            ret := (NT_ClanInvite)invites.Get((int)notifRec.index.Get())
+         elif (notifType == $uiEnums.NOTIFICATION_CHALLENGE_PROGRESS)
+            var chalengeProgress : vector = $UiGlobals.notifications.challenge_progress.Get()
+            ret := (NT_ChallengeProgress)chalengeProgress.Get((int)notifRec.index.Get())
+         elif (notifType == $uiEnums.NOTIFICATION_CHALLENGE_COMPLETE)
+            var chalengeComplete : vector = $UiGlobals.notifications.challenge_complete.Get()
+            ret := (NT_ChallengeComplete)chalengeComplete.Get((int)notifRec.index.Get())
+         end      
+      end
+      return ret
+   end
+   
+   func MarkProcessedFirstByType(_notifType : int)
+      var notif : NT_Notification = GetFirstUnprocessedByType(_notifType)
+      if (notif != null)
+         notif.isProcessed.Set(true)
+         notif.isIngameProcessed.Set(true)
+      end
+   end
+   
+   func MarkProcessed(_notifType : int)
+      var notifVec   : vector =  $UiGlobals.notifications.notifications.Get()
+      var idx        : int      
+      for idx := 0 to notifVec.Count() - 1
+         var notifRec : NT_Notification = (NT_Notification)notifVec.Get(idx)
+         var recType    : int                = (int)notifRec.type.Get()         
+         if (recType == _notifType)
+            notifRec.isProcessed.Set(true)
+            notifRec.isIngameProcessed.Set(true)
+         end   
+      end
+   end
+   
+   func GetByIdx(idx : int) : NT_Notification
+      var notifVec   : vector          =  $UiGlobals.notifications.notifications.Get()
+      var ret        : NT_Notification = null
+      if (idx >= 0 and idx < notifVec.Count())
+         ret := notifVec.Get(idx)
+      end
+      return ret
+   end
+end
+
+/***************************************************************
+* GL_Party
+*
+***************************************************************/   
+class GL_Party : UiSslBindableBase
+   var state                       : ObservableProperty = null
+
+   var members                     : ObservableProperty = null
+   
+//extensions   
+   func GetStateStr() : string
+      var ret        : string = "UNKNOWN"
+      var stateVal   : int    = (int)state.Get()
+      if (stateVal == $uiEnums.PARTY_STATE_NONE)
+         ret := "NONE"
+      elif (stateVal == $uiEnums.PARTY_STATE_FORMATION)
+         ret := "FORMATION"
+      elif (stateVal == $uiEnums.PARTY_STATE_IN_QUEUE)
+         ret := "IN QUEUE"
+      elif (stateVal == $uiEnums.PARTY_STATE_IN_GAME)
+         ret := "IN GAME"
+      end
+      return ret
+   end
+   
+   func GetMMEnumFromState() : string
+      var   ret      : string = $uiPartyMonitor.STATE_NONE
+      var   stateVal : int    = (int)state.Get()
+      if (stateVal == $uiEnums.PARTY_STATE_NONE)
+         ret := $uiPartyMonitor.STATE_NONE
+      elif (stateVal == $uiEnums.PARTY_STATE_FORMATION)
+         ret := $uiPartyMonitor.STATE_FORMATION
+      elif (stateVal == $uiEnums.PARTY_STATE_IN_QUEUE or stateVal == $uiEnums.PARTY_STATE_IN_GAME)
+         ret := $uiPartyMonitor.STATE_MATCHMAKING
+      end
+      return ret
+   end
+end
+
+/***************************************************************
+* GL_Matchmaking
+*
+***************************************************************/   
+class GL_Matchmaking : UiSslBindableBase
+   var queue                       : ObservableProperty = null
+   var in_queue                    : ObservableProperty = null
+
+   var state                       : ObservableProperty = null
+   var state_timer                 : ObservableProperty = null
+
+   var group                       : ObservableProperty = null
+ 
+   var playlists                   : ObservableProperty = null
+   var playlists_selection         : ObservableProperty = null
+
+   var custom_game_maps            : ObservableProperty = null
+   var custom_game_maps_selection  : ObservableProperty = null
+   var custom_game_modes           : ObservableProperty = null
+   var custom_game_modes_selection : ObservableProperty = null
+
+   func GetStateStr() : string
+      var ret        : string = "UNKNOWN"
+      var stateVal   : int    = (int)state.Get()
+      if (stateVal == $uiEnums.MATCHMAKING_STATE_NONE)
+         ret := "None"
+      elif (stateVal == $uiEnums.MATCHMAKING_STATE_ONLINE)
+         ret := "Online"
+      elif (stateVal == $uiEnums.MATCHMAKING_STATE_WAITING_FOR_ENQUEUE)
+         ret := "Waiting enqueue"
+      elif (stateVal == $uiEnums.MATCHMAKING_STATE_WAITING_FOR_DEQUEUE)
+         ret := "Waiting dequeue"
+      elif (stateVal == $uiEnums.MATCHMAKING_STATE_IN_QUEUE)
+         ret := "In queue"
+      elif (stateVal == $uiEnums.MATCHMAKING_STATE_IN_SESSION)
+         ret := "In Session"
+      end   
+      return ret
+   end
+   
+   func GetCurrentPlaylistIdx() : int
+      var playlistsVec  : vector = playlists.Get()
+      var ret           : int    = 0
+      var i             : int
+      for i := 0 to playlistsVec.Count() - 1
+         var playlistRec : GL_String = (GL_String)playlistsVec.Get(i)
+         if ((string)playlistRec.value.Get() == (string)playlists_selection.Get())
+            ret := i
+            break
+         end
+      end
+      return ret
+   end
+end
+
+/***************************************************************
+* GL_ChatStreamMessage
+*
+***************************************************************/   
+class GL_ChatStreamMessage : UiSslBindableBase
+   var sender_user_id                 : ObservableProperty = null
+   var addressee_user_id              : ObservableProperty = null
+   var timestamp                      : ObservableProperty = null
+   var text                           : ObservableProperty = null
+   
+   native func GetTimeStamp() : string
+   
+   //ssl extensions
+   var chatFormattedMes                : ObservableProperty = $OM.Calculated(this, "GetChatFormattedMes", true)
+   var ingameFormattedMes              : ObservableProperty = $OM.Calculated(this, "GetIngameFormattedMes", true)
+   
+   func GetChatFormattedMes() : wstring
+      return GetFormattedText(true, false)
+   end
+   
+   func GetIngameFormattedMes() : wstring
+      return GetFormattedText(false, true)
+   end
+   
+   func GetFormattedText(_addNewLine : bool, _isIngameMessage : bool) : wstring
+      var ret     : wstring
+      var mesStr  : wstring
+      var ud      : UserData = (UserData)$UserDataStorage.users.Get(sender_user_id.Get())
+      var p       : params
+      
+      p.tilde  := $UiGlobals.String2WString("~")
+      if ($UserDataStorage.IsValidUID(sender_user_id.Get()))
+         var nickName   : wstring   = ud.base.full_nickname.Get()
+         if ((bool)ud.has_base.Get())
+            nickName := ud.base.full_nickname.Get()
+         else
+            if ($UserDataStorage.IsValidUID(sender_user_id.Get()))
+               $user_service.RequestData(sender_user_id.Get(), $uiEnums.USER_DATA_BASE) : 0
+            end
+            nickName := ud.base.full_nickname.Get()
+            if (nickName == $UiGlobals.String2WString(""))
+               nickName := $UiGlobals.String2WString($UiGlobals.GetAnimatedText())
+            end
+         end
+         var link : string = $UserDataStorage.UID2Str(sender_user_id.Get())
+         p.nick   := nickName
+         p.nick   := p.nick + p.tilde         
+         p.nick:= $root.MakeColorCodedWText(p.nick, $UserDataStorage.GetPlayerStatusColorCode(sender_user_id.Get()))
+         p.nick   := $root.MakeLinkWText(p.nick, link, $UserDataStorage.GetUserColorCode(sender_user_id.Get()))
+      else
+         p.nick   := $root.MakeColorCodedWText($UiGlobals.String2WString("SYSTEM~"), "#FF0000")
+      end
+      var timestamp : string = GetTimeStamp()         
+      var timeClr : string
+      timeClr := "#808080"
+      p.time      := $root.MakeColorCodedWText($UiGlobals.String2WString("[" + timestamp + "] ~"), timeClr)
+      p.delim     := $root.MakeColorCodedWText($UiGlobals.String2WString(" : "), timeClr)
+      p.mes       := text.Get()
+      mesStr      := p.mes
+      p.mes       := $UiGlobals.StripHtmlTags(mesStr)
+      p.mes       := p.mes + p.tilde
+      
+      var mesColor : string
+      mesColor := "#AAAAAA"
+      p.mes       := $root.MakeColorCodedWText(p.mes, mesColor)
+      
+      if (! _isIngameMessage)
+         ret := ret + p.time
+      end
+      ret := ret + p.nick
+      ret := ret + p.delim
+      ret := ret + p.mes
+      if (_addNewLine)
+         p.nl := $UiGlobals.String2WString("\n~")
+         ret  := ret + p.nl
+      end
+      return ret
+   end
+end
+
+/***************************************************************
+* GL_ChatStream
+*
+***************************************************************/   
+class GL_ChatStream : UiSslBindableBase
+   var messages                       : ObservableProperty = null
+   var members                        : ObservableProperty = null
+   
+   // ssl extensions
+   var lastMessageTime                : * = null
+   
+   func GetLastViewTime() : *
+      if (IsVoid(lastMessageTime))
+         lastMessageTime := $UiGlobals.IntToInt64(0)
+      end
+      return lastMessageTime
+   end
+   
+   func GetLastMessage() : GL_ChatStreamMessage
+      var ret : GL_ChatStreamMessage = null
+      var messagesVec : vector = GetMessages()
+      if (messagesVec.Count() > 0)
+         ret := messagesVec.Get(messagesVec.Count() - 1)
+      end
+      return ret
+   end
+   
+   func UpdateLastViewTime()
+      var mes : GL_ChatStreamMessage = GetLastMessage()
+      if (mes != null)
+         lastMessageTime := mes.timestamp.Get()
+      else
+         lastMessageTime := $UiGlobals.IntToInt64(0)
+      end
+   end
+   
+   func GetMembers() : vector
+      var ret : vector = members.Get()
+      return ret
+   end
+   
+   func GetMessages(sender_uid : * = null, addressee_user_id : * = null) : vector
+      var ret : vector
+      if (sender_uid == null and addressee_user_id == null)
+         ret := messages.Get()
+      else
+         var allMessages   : vector = messages.Get()
+         var i             : int
+         for i := 0 to allMessages.Count() - 1
+            var mes : GL_ChatStreamMessage = (GL_ChatStreamMessage)allMessages.Get(i)
+            if (sender_uid != null or $UserDataStorage.IsEqualUIDs(sender_uid, mes.sender_user_id.Get()))
+               if (addressee_user_id != null or $UserDataStorage.IsEqualUIDs(addressee_user_id, mes.addressee_user_id.Get()))
+                  ret.Push(mes)                  
+               end
+            end
+         end
+      end
+      return ret      
+   end
+end
+
+/***************************************************************
+* GL_Chat
+*
+***************************************************************/   
+class GL_Chat : UiSslBindableBase
+   var private_channel               : GL_ChatStream = null 
+   var general                       : GL_ChatStream = null
+   var party                         : GL_ChatStream = null
+   var clan_channel                  : GL_ChatStream = null
+   var game_all_channel              : GL_ChatStream = null
+   var game_team_channel             : GL_ChatStream = null
+end
+
+/***************************************************************
+* UiGlobals
+*
+***************************************************************/   
+class UiGlobals : UiSslBindableBase
+   var timer                  : ObservableProperty = null
+
+   var backend_session        : GL_BackendSession      = null
+   var backend_environments   : GL_BackendEnvironments = null
+   var backend_stats          : GL_BackendStats        = null
+
+   var backend_requests       : GL_BackendRequests     = null
+   var async_operations       : GL_AsyncOperations     = null
+
+   var loading_data           : GL_Loading         = null
+   var shop                   : GL_Shop            = null
+   var notifications          : NT_Notifications   = null
+   var showroom               : GL_Showroom        = null
+   var party                  : GL_Party           = null
+   var matchmaking            : GL_Matchmaking     = null
+   var chat                   : GL_Chat            = null
+   var lobby                  : GL_Lobby           = null
+   var gameplay               : GL_Gameplay        = null
+   var motd                   : GL_MOTD            = null
+   var advertisements         : ObservableProperty = null // vector
+   var news                   : ObservableProperty = null // vector
+   
+   var componentsChallenge          : UiSslBindableMap   = null
+   var componentsShop               : UiSslBindableMap   = null
+   var componentsUI                 : UiSslBindableMap   = null
+   var componentsColor              : UiSslBindableMap   = null
+   var componentsItem               : UiSslBindableMap   = null
+   var componentsWeapon             : UiSslBindableMap   = null
+   var componentsConsumable         : UiSslBindableMap   = null
+   var componentsArmor              : UiSslBindableMap   = null
+   var componentsArmorSuit          : UiSslBindableMap   = null
+   var componentsGameplayModifier   : UiSslBindableMap   = null
+   var componentsInventory          : UiSslBindableMap   = null
+   var componentsPlaylist           : UiSslBindableMap   = null
+   var componentsScoringEvent       : UiSslBindableMap   = null
+   var componentsUserPartyData      : UiSslBindableMap   = null
+   var componentsUserContextMenu    : UiSslBindableMap   = null
+   
+//extensions
+   var currentRace            : ObservableProperty = $OM.Property(0)
+   var animatedDots           : ObservableProperty = $OM.Calculated(this, "GetAnimatedDots", true)   
+   var profileScreenUID       : ObservableProperty = $OM.Property(-1)
+   var isDockerOpened         : ObservableProperty = $OM.Property(false)
+   var isDockerEnabled        : ObservableProperty = $OM.Property(true)
+   var techOpenTechId         : string             = ""
+
+   
+   func Init()
+      lobby.invalidLobbyPlayer.InitDefault()
+      profileScreenUID.Set(GetInvalidUIDVal())
+   end
+   
+   native func Int64ToInt        (val : *)         : int
+   native func IntToInt64        (val : int)       : *
+   native func String2Int64      (_val : string)   :  *
+   native func GetUrlComponents  (_url : string)   : vector
+   native func String2WString    (_val : string)   : wstring
+   native func TranslateText     (_val : string)   : wstring
+   native func TranslateWText    (_val : wstring)  : wstring
+   native func GetInvalidUIDVal  ()                : * 
+   native func StripHtmlTags     (_val : wstring)  : wstring
+   native func CmpStrings        (_str1 : string, _str2 : string, _caseSens : bool = false)  : int
+   native func CmpWStrings       (_str1 : wstring, _str2 : wstring, _caseSens : bool = false)  : int
+   native func CmpInt64          (val1 : *, val2 :  *)  : int
+   
+   func IsZeroInt64(val1 : *) : bool
+      return CmpInt64(val1, IntToInt64(0)) == 0
+   end
+   
+   func GetChatMessagesStream(_channel : int) : GL_ChatStream
+      var ret : GL_ChatStream = null
+      if (_channel == $uiEnums.CHAT_CHANNEL_ALL)
+         ret := $UiGlobals.chat.general
+      elif (_channel == $uiEnums.CHAT_CHANNEL_PARTY)
+         ret := $UiGlobals.chat.party
+      elif (_channel == $uiEnums.CHAT_CHANNEL_GAME_ALL)
+         ret := $UiGlobals.chat.game_all_channel
+      elif (_channel == $uiEnums.CHAT_CHANNEL_CLAN)
+         ret := $UiGlobals.chat.clan_channel
+      elif (_channel == $uiEnums.CHAT_CHANNEL_PRIVATE)
+         ret := $UiGlobals.chat.private_channel
+      end      
+      return ret      
+   end
+   
+   func GetTokenFrame(cur : string) : string
+      var ret : string = ""
+      if (cur == "yellow_token")
+         ret := "yellow"
+      elif (cur == "blue_token")
+         ret := "blue"
+      elif (cur == "green_token")
+         ret := "green"
+      elif (cur == "credits")
+         ret := "credits"
+      elif (cur == "gold")
+         ret := "gold"   
+      end
+      return ret
+   end
+   
+   func GetTokenType(_id : string) : string
+      var ret        : string
+      var compShop   : GL_ComponentShop = (GL_ComponentShop)$UiGlobals.componentsShop.Get(_id)
+      ret := compShop.GetTokenType()
+      return ret
+   end
+   
+   func GetChatMessages(_channel : int) : vector
+      var ret           : vector      
+      var channelStream : GL_ChatStream = GetChatMessagesStream(_channel)
+      if (channelStream != null) 
+         ret := channelStream.GetMessages()
+      end
+      return ret      
+   end
+   
+   func GetChatMembers(_channel : int) : vector
+      var ret           : vector      
+      var channelStream : GL_ChatStream = GetChatMessagesStream(_channel)
+      if (channelStream != null) 
+         ret := channelStream.GetMembers()
+      end
+      return ret      
+   end
+   
+   func GetChatStreamName(_channel : int) : string
+      var ret : string = ""
+      if (_channel == $uiEnums.CHAT_CHANNEL_ALL)
+         ret:= "ui_chat_stream_all"
+      elif (_channel == $uiEnums.CHAT_CHANNEL_CLAN)
+         ret:= "ui_chat_stream_clan"
+      elif (_channel == $uiEnums.CHAT_CHANNEL_GAME_ALL)
+         ret:= "ui_chat_stream_game_all"
+      elif (_channel == $uiEnums.CHAT_CHANNEL_PARTY)
+         ret:= "ui_chat_stream_game_party"
+      end      
+      return ret
+   end
+   
+   var animatedDotsCounter : int = 0
+   func GetAnimatedDots() : string
+      var timerVal   : int    = (int)timer.Get()
+      var ret        : string = ""
+      
+      animatedDotsCounter := animatedDotsCounter + 1
+      if (animatedDotsCounter == 4)
+         animatedDotsCounter := 0
+      end
+      
+      if (animatedDotsCounter == 0)
+         ret := "."
+      elif (animatedDotsCounter == 1)
+         ret := ".."
+      elif (animatedDotsCounter == 2)
+         ret := "..."
+      elif (animatedDotsCounter == 3)
+         ret := "...."
+      end
+            
+      return ret
+   end
+   
+   var animatedTextCounter : int = 0
+   func GetAnimatedText() : string
+      var timerVal   : int    = (int)timer.Get()
+      var ret        : string = ""
+      
+      animatedTextCounter := animatedTextCounter + 1
+      if (animatedTextCounter == 4)
+         animatedTextCounter := 0
+      end      
+      if (animatedTextCounter == 0)
+         ret := "|"
+      elif (animatedTextCounter == 1)
+         ret := "/"
+      elif (animatedTextCounter == 2)
+         ret := "-"
+      elif (animatedTextCounter == 3)
+         ret := "\/"
+      end
+            
+      return ret
+   end
+   
+   func GetPartsModifiersVec(parts : vector) : vector
+      var ret : vector
+      var i : int
+      for i := 0 to parts.Count() - 1
+         var partComp : GL_ComponentArmor = (GL_ComponentArmor)$UiGlobals.componentsArmor.Get(parts.Get(i))
+         var partModifiers : vector = partComp.gameplay_modifiers.Get()
+         var j : int
+         for j := 0 to partModifiers.Count() - 1
+            var foundIdx : int = -1
+            var k : int
+            for k := 0 to ret.Count() - 1
+               if ret.Get(k).id == partModifiers.Get(j).gameplay_modifier_id.Get()
+                  foundIdx := k
+                  break
+               end
+            end
+            if foundIdx == -1
+               var newModifier : params
+               newModifier.id    := partModifiers.Get(j).gameplay_modifier_id.Get()
+               var compUI        : GL_ComponentUI  = (GL_ComponentUI)$UiGlobals.componentsUI.Get(newModifier.id)
+               newModifier.uiId  := (string)compUI.name.Get()
+               newModifier.value := partModifiers.Get(j).gameplay_modifier_value.Get()
+               ret.Push(newModifier)
+            else
+               ret.Get(foundIdx).value := ret.Get(foundIdx).value + partModifiers.Get(j).gameplay_modifier_value.Get()
+            end
+         end
+      end
+      return ret
+   end
+   
+   func UpdateArmorSuits()
+      var suits   : vector = componentsArmorSuit.GetKeys()
+      var i       : int
+      for i := 0 to suits.Count() - 1
+         var suitId  : string                   = suits.Get(i)
+         var suit    : GL_ComponentArmorSuit    = (GL_ComponentArmorSuit)componentsArmorSuit.Get(suitId)
+         var parts   : vector                   = suit.parts.Get()
+         var j       : int
+         for j := 0 to parts.Count() - 1
+            var partId  : string             = parts.Get(j).value.Get()
+            var part    : GL_ComponentArmor  = (GL_ComponentArmor)componentsArmor.Get(partId)
+            part.suitId.Set(suitId)
+         end
+      end
+   end
+   
+   func GetAds() : vector
+      return advertisements
+   end
+   
+   var UnlockedArmorLoadoutsCount : ObservableProperty = $OM.Property(2)
+   
+   var DeathScreenLoadoutsMode : ObservableProperty = $OM.Property("weapons") //temporary, b/c deathscreen don't have VM for now
+   
+   var AssigningItemCategory : string = "" //hack to highlight apropriate slot in 'assign to loadout' screen
+end
+var $UiGlobals : UiGlobals
+
+func ui_init_enums()
+   CreateObjectByClassName("UiEnums", "uiEnums")
+   CreateObjectByClassName("UiKeys", "uiKeys")
+end
+
+func ui_term_enums()
+   DestroyObjectByName("uiKeys")
+   DestroyObjectByName("uiEnums")
+end
+
+func ui_recreate_enums()
+   ui_term_enums()
+   ui_init_enums()
+end
+
+class UiAsyncOperation : UiSslBindableBase
+   var progress               : GL_AsyncOperationProgress = null // fills in by c++
+   
+// ssl-extensions
+   var isInProgress           : ObservableProperty = $OM.Property(false)
+   var finishEvent            : string             = ""
+   var errorEvent             : string             = ""
+   var showErrorMessage       : bool               = true
+   var opParam                : *
+   var isBackedConnected      : bool               = false 
+   var waitingScreenOpened    : bool               = false
+   var progressState          : ObservableProperty = $OM.Calculated(this, "GetProgressState")
+   
+   func GetProgressState() : int
+      return (int)progress.state.Get()
+   end
+   
+   func BackendConnect()
+      if (! isBackedConnected)
+         progressState.Subscribe(this, "UpdateState")   
+         isBackedConnected := true
+      end
+   end
+
+   func BackendDisconnect()
+      if (isBackedConnected)
+         if (waitingScreenOpened)
+            StopAsyncWait()
+         end
+         Unsubscribe()
+         progressState.Unsubscribe(this, "UpdateState")   
+         isBackedConnected := false
+      end
+   end
+
+   func StartOperationInternal(_param : *)
+      // start operation
+   end
+   
+   func CanStart() : bool
+      return ! (bool)isInProgress.Get()
+   end
+   
+   func GetWaitHeader() : wstring
+      return $UiGlobals.String2WString("msg_async_general_hdr")
+   end   
+   
+   func UseWaitingScreen() : bool
+      return true
+   end
+   
+   func StartAsyncWait()
+      var p : params
+      p.asyncOp            := this
+      waitingScreenOpened  := true
+      $sslWidgetMgr.GenerateEvent("StartAsyncWait", p)
+   end
+   
+   func StopAsyncWait()
+      var p : params
+      p.asyncOp := this
+      $sslWidgetMgr.GenerateEvent("StopAsyncWait", p)      
+   end
+   
+   func OnCloseWaitingScreen()
+      if (waitingScreenOpened)
+         waitingScreenOpened := false
+         UpdateState()
+      end
+   end
+   
+   func Start(_param : *, _event : string = "", _errorEvent : string = "", _showErrMsg : bool = true) : bool
+      if (CanStart())
+         var state : int = (int)progressState.Get()
+         if (state == $uiEnums.BACKEND_REQUEST_STATE_NONE or state == $uiEnums.BACKEND_REQUEST_STATE_COMPLETE)
+            isInProgress.Set(true)
+            finishEvent      := _event
+            errorEvent       := _errorEvent
+            showErrorMessage := _showErrMsg
+            opParam          := _param
+            if (UseWaitingScreen())
+               StartAsyncWait()
+            end
+            StartOperationInternal(_param)
+         end
+      end
+      return true
+   end
+   
+   func ResetProgress()
+      progress.state.Set($uiEnums.BACKEND_REQUEST_STATE_NONE)
+   end
+
+   func Unsubscribe()
+      if ((bool)isInProgress.Get())
+         isInProgress.Set(false)
+         ResetProgress()
+      end
+   end
+   
+   func GetErrorTitle() : string
+      return "msg_ui_async_operation_error"
+   end
+   
+   func FinishWithSuccess()
+      var oldEvent = finishEvent
+      finishEvent := ""
+      if (oldEvent != "")
+         $sslWidgetMgr.GenerateEvent(oldEvent)
+      end      
+   end
+   
+   func FinishWithError(_errorCode : int, _errorCode_l10n : int)
+      var pp : params
+      pp.mbType         := "Info"
+      pp.itemID         := ""
+      pp.messageTxt     := " ERROR: " + (string)_errorCode + " "
+      pp.messageTxt2    := "msg_error_code_" + (string)_errorCode_l10n
+      pp.mbType         := "Info"
+      pp.titleTxt       := GetErrorTitle()
+      if (showErrorMessage)
+         $sslWidgetMgr.GenerateEvent("MainMenuDialogRequest", pp)
+      end
+      if (errorEvent != "")
+         $sslWidgetMgr.GenerateEvent(errorEvent, pp)
+      end
+   end
+   
+   func GetErrorCodes() : params
+      var ret              : params
+      ret.errorCode        := (int)progress.error_code.Get()
+      ret.errorCode_l10n   := (int)progress.error_code_l10n.Get()
+      return ret
+   end
+   
+   func UpdateState(_val : * = null)
+      if ((bool)isInProgress.Get())            
+         var state : int = (int)progressState.Get()        
+         if (state == $uiEnums.BACKEND_REQUEST_STATE_NONE)
+            Unsubscribe()         
+         elif (state == $uiEnums.BACKEND_REQUEST_STATE_IN_PROGRESS)
+            // Do something
+         elif (state == $uiEnums.BACKEND_REQUEST_STATE_COMPLETE)
+            if (waitingScreenOpened)
+               StopAsyncWait()
+            else
+               Unsubscribe()   
+               var errorCodes       : params = GetErrorCodes()
+               var errorCode        : int = errorCodes.errorCode
+               var errorCode_l10n   : int = errorCodes.errorCode_l10n
+               if (errorCode == 0)
+                  FinishWithSuccess()
+               else
+                  FinishWithError(errorCode, errorCode_l10n)
+               end               
+            end
+         end
+      end
+   end
+end

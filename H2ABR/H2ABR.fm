@@ -1,0 +1,7 @@
+ECHO FMM_OUTPUT Installing Halo 2 Battle Rifle...
+cd mods\tagMods\H2ABR
+MOVE ..\..\..\maps\resources.dat resources.dat
+Type commands\H2ABR.cmds | TagTool.exe ../../../maps/tags.dat
+MOVE resources.dat ..\..\..\maps\resources.dat
+ECHO FMM_OUTPUT Installing H2ABR Textures which shouldn't take more than 2 minutes...
+Type commands\H2ABRIndex.cmds | TagTool.exe ../../../maps/tags.dat

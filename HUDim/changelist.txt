@@ -1,0 +1,36 @@
+[CHANGELIST - FLEUR HUDim (Eldewrito 0.5.1.1 MS23)]
+
+- added variant colors to backpack, ammo area, pickup, ammo meters, etc. ( pickups: https://2.lithi.io/RfHE1.png https://5.lithi.io/ByeN2.png  https://10.lithi.io/1qoSlP4.png backpack + ammo meters: https://2.lithi.io/mSgi9lf.png https://8.lithi.io/a2LW8a.png  https://5.lithi.io/DHh9Ka.png)
+- fixed binocular/scope on damage variants
+- fixed scope scaling on various weapons (sniper, spartan laser, rocket, br, dmr, etc.) ( https://10.lithi.io/q6kM.jpg https://8.lithi.io/g0z4.jpg )
+- fixed radar visor dds
+- fixed Battle/Assault Rifle outer reticle scaling on variants (before: https://2.lithi.io/Vw7R3uH.png after: https://5.lithi.io/KyJyE1J.png )
+- fixed shotgun reticle gap
+- fixed assault bomb reticle
+- fixed multiplayer intros (NOTE: CTF and assault intros are missing, KOTH and oddball are broken) ( https://5.lithi.io/RJDNCl.jpg )
+- fixed gamemode icons (before (caution; disgusting): https://10.lithi.io/CxIg.png after: https://2.lithi.io/mmc34t.png )
+- scaled grenade widgets up
+- scaled sprint icon down
+- scaled binoculars to match Halo 3 ( https://2.lithi.io/bDmw.jpg )
+- removed above/below indicators on motion sensors
+- removed forge mode visual tweaks
+- removed overheat widgets underneath crosshairs
+- changed plasma reticles to their Halo 3 counterparts
+- disabled hitmarkers
+- optimized installation (~15 second install time, thanks to the New And Improved TagTool)
+
+[REMAINING ISSUES]
+
+-fix issue where arming assault bomb reenables motion tracker (when it is disabled in gamemode settings) 
+-fix issue where being in pickup radius of objective gamemode items (oddball, flag) enables the items reticle.
+-fix ROF BR scope-in dynamic xhair 
+-add equipment/ability support
+
+[REMAINING ISSUES - FONT/TEXT ISSUES]
+
+- fix text scaling for killfeed
+- fix medal locations
+- fix infinite ammo symbol
+- scale seat enter text to match weapon pick ups
+- make the in-game HUD font higher quality
+- figure out whats going on with vehicle seat enter text, dual wield text, etc. animation and scale.

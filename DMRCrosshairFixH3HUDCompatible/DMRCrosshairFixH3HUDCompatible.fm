@@ -1,0 +1,10 @@
+echo FMM_OUTPUT Installing DMR Crosshair Fix
+echo FMM_OUTPUT [DMR Crosshair Fix H3HUD Compatible] Preparing Installer...
+cd mods\tagmods\DMRCrosshairFixH3HUDCompatible
+copy NUL installScript.cmds
+FOR %%f IN (scripts\*.cmds) DO (Type %%f >> "installScript.cmds")
+echo FMM_OUTPUT [DMR Crosshair Fix H3HUD Compatible] Executing Install Script
+Type "installScript.cmds" | "TagTool.exe" "..\..\..\maps/tags.dat"
+echo FMM_OUTPUT [DMR Crosshair Fix H3HUD Compatible] Finishing Install...
+del "installScript.cmds"
+echo FMM_OUTPUT [DMR Crosshair Fix H3HUD Compatible] Done

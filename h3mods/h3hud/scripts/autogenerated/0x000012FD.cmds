@@ -1,0 +1,32 @@
+EditTag 0x000012FD
+EditBlock Sequences[0]
+EditBlock Sprites[0]
+SetField Left 0
+SetField Right 0.2890625
+SetField Bottom 0.6015625
+SetField RegistrationPointX 0.1445313
+SetField RegistrationPointY 0.1445313
+exit
+exit
+EditBlock Sequences[4]
+EditBlock Sprites[0]
+SetField Right 0.2890625
+SetField Bottom 0.6015625
+SetField RegistrationPointX 0.1523438
+SetField RegistrationPointY 0.1523438
+exit
+exit
+EditBlock Sequences[5]
+EditBlock Sprites[0]
+SetField Left 0
+SetField Right 0.2890625
+SetField Bottom 0.6015625
+SetField RegistrationPointX 0.1523438
+SetField RegistrationPointY 0.1523438
+exit
+exit
+EditBlock Images[0]
+SetField Flags PowerOfTwoDimensions,Compressed
+exit
+SaveTagChanges
+exit

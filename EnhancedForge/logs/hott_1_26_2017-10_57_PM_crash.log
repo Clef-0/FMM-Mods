@@ -1,0 +1,303 @@
+Tag Tool [1.0.6221.33154]
+
+Please report any bugs and feature requests at
+<https://github.com/camden-smallwood/TagTool/issues>.
+
+Reading tags...34576 tags loaded.
+- Detected target engine version 1.106708 cert_ms23.
+- This cache file was built on 3/20/2015 at 2:40 PM.
+Reading stringIDs...47006 strings loaded.
+
+Enter "help" to list available commands. Enter "exit" to quit.
+
+tags.dat> 
+
+tags.dat> echo  injecting wall models
+injecting wall models 
+tags.dat> 
+
+tags.dat> modeltest 3450 objects/wall_xxl.obj
+Info,  T9580: Load objects/wall_xxl.obj
+
+Info,  T9580: Found a matching importer for this file format
+
+Info,  T9580: Import root directory is 'objects\'
+
+Info,  T9580: Entering post processing pipeline
+
+Info,  T9580: Removed 2 nodes and 0 animation channels (1 output nodes)
+
+Info,  T9580: Kept 0 lights and 0 cameras
+
+Info,  T9580: Moved 1 meshes to WCS (number of output meshes: 1)
+
+Info,  T9580: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+
+Info,  T9580: CalcTangentsProcess finished. Tangents have been calculated
+
+Info,  T9580: JoinVerticesProcess finished | Verts in: 1992 out: 1059 | ~46.8%
+
+Info,  T9580: Leaving post processing pipeline
+
+Assembling vertices...
+Building Blam mesh data...
+Writing resource data...
+ERROR: The process cannot access the file 'D:\Games\Halo Online\ElDewrito_0.5.1.1_Release\ElDewrito_0.5.1.1_Release\maps\resources.dat' because it is being used by another process.
+
+tags.dat> modeltest 344D objects/wall_xl.obj
+Info,  T9580: Load objects/wall_xl.obj
+
+Info,  T9580: Found a matching importer for this file format
+
+Info,  T9580: Import root directory is 'objects\'
+
+Info,  T9580: Entering post processing pipeline
+
+Info,  T9580: Removed 2 nodes and 0 animation channels (1 output nodes)
+
+Info,  T9580: Kept 0 lights and 0 cameras
+
+Info,  T9580: Moved 1 meshes to WCS (number of output meshes: 1)
+
+Info,  T9580: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+
+Info,  T9580: CalcTangentsProcess finished. Tangents have been calculated
+
+Info,  T9580: JoinVerticesProcess finished | Verts in: 1992 out: 1038 | ~47.9%
+
+Info,  T9580: Leaving post processing pipeline
+
+Assembling vertices...
+Building Blam mesh data...
+Writing resource data...
+ERROR: The process cannot access the file 'D:\Games\Halo Online\ElDewrito_0.5.1.1_Release\ElDewrito_0.5.1.1_Release\maps\resources.dat' because it is being used by another process.
+
+tags.dat> modeltest 344A objects/wall_l.obj
+Info,  T9580: Load objects/wall_l.obj
+
+Info,  T9580: Found a matching importer for this file format
+
+Info,  T9580: Import root directory is 'objects\'
+
+Info,  T9580: Entering post processing pipeline
+
+Info,  T9580: Removed 2 nodes and 0 animation channels (1 output nodes)
+
+Info,  T9580: Kept 0 lights and 0 cameras
+
+Info,  T9580: Moved 1 meshes to WCS (number of output meshes: 1)
+
+Info,  T9580: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+
+Info,  T9580: CalcTangentsProcess finished. Tangents have been calculated
+
+Info,  T9580: JoinVerticesProcess finished | Verts in: 1992 out: 1039 | ~47.8%
+
+Info,  T9580: Leaving post processing pipeline
+
+Assembling vertices...
+Building Blam mesh data...
+Writing resource data...
+ERROR: The process cannot access the file 'D:\Games\Halo Online\ElDewrito_0.5.1.1_Release\ElDewrito_0.5.1.1_Release\maps\resources.dat' because it is being used by another process.
+
+tags.dat> modeltest 3447 objects/wall_m.obj
+Info,  T9580: Load objects/wall_m.obj
+
+Info,  T9580: Found a matching importer for this file format
+
+Info,  T9580: Import root directory is 'objects\'
+
+Info,  T9580: Entering post processing pipeline
+
+Info,  T9580: Removed 2 nodes and 0 animation channels (1 output nodes)
+
+Info,  T9580: Kept 0 lights and 0 cameras
+
+Info,  T9580: Moved 1 meshes to WCS (number of output meshes: 1)
+
+Info,  T9580: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+
+Info,  T9580: CalcTangentsProcess finished. Tangents have been calculated
+
+Info,  T9580: JoinVerticesProcess finished | Verts in: 1992 out: 1095 | ~45.0%
+
+Info,  T9580: Leaving post processing pipeline
+
+Assembling vertices...
+Building Blam mesh data...
+Writing resource data...
+ERROR: The process cannot access the file 'D:\Games\Halo Online\ElDewrito_0.5.1.1_Release\ElDewrito_0.5.1.1_Release\maps\resources.dat' because it is being used by another process.
+
+tags.dat> modeltest 3444 objects/wall_s.obj
+Info,  T9580: Load objects/wall_s.obj
+
+Info,  T9580: Found a matching importer for this file format
+
+Info,  T9580: Import root directory is 'objects\'
+
+Info,  T9580: Entering post processing pipeline
+
+Info,  T9580: Removed 2 nodes and 0 animation channels (1 output nodes)
+
+Info,  T9580: Kept 0 lights and 0 cameras
+
+Info,  T9580: Moved 1 meshes to WCS (number of output meshes: 1)
+
+Info,  T9580: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+
+Info,  T9580: CalcTangentsProcess finished. Tangents have been calculated
+
+Info,  T9580: JoinVerticesProcess finished | Verts in: 1992 out: 1124 | ~43.6%
+
+Info,  T9580: Leaving post processing pipeline
+
+Assembling vertices...
+Building Blam mesh data...
+Writing resource data...
+ERROR: The process cannot access the file 'D:\Games\Halo Online\ElDewrito_0.5.1.1_Release\ElDewrito_0.5.1.1_Release\maps\resources.dat' because it is being used by another process.
+
+tags.dat> 
+
+tags.dat> echo  injecting box models
+injecting box models 
+tags.dat> 
+
+tags.dat> modeltest 3441 objects/box_xxl.obj
+Info,  T9580: Load objects/box_xxl.obj
+
+Info,  T9580: Found a matching importer for this file format
+
+Info,  T9580: Import root directory is 'objects\'
+
+Info,  T9580: Entering post processing pipeline
+
+Info,  T9580: Removed 2 nodes and 0 animation channels (1 output nodes)
+
+Info,  T9580: Kept 0 lights and 0 cameras
+
+Info,  T9580: Moved 1 meshes to WCS (number of output meshes: 1)
+
+Info,  T9580: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+
+Info,  T9580: CalcTangentsProcess finished. Tangents have been calculated
+
+Info,  T9580: JoinVerticesProcess finished | Verts in: 1362 out: 344 | ~74.7%
+
+Info,  T9580: Leaving post processing pipeline
+
+Assembling vertices...
+Building Blam mesh data...
+Writing resource data...
+ERROR: The process cannot access the file 'D:\Games\Halo Online\ElDewrito_0.5.1.1_Release\ElDewrito_0.5.1.1_Release\maps\resources.dat' because it is being used by another process.
+
+tags.dat> modeltest 343E objects/box_xl.obj
+Info,  T9580: Load objects/box_xl.obj
+
+Info,  T9580: Found a matching importer for this file format
+
+Info,  T9580: Import root directory is 'objects\'
+
+Info,  T9580: Entering post processing pipeline
+
+Info,  T9580: Removed 2 nodes and 0 animation channels (1 output nodes)
+
+Info,  T9580: Kept 0 lights and 0 cameras
+
+Info,  T9580: Moved 1 meshes to WCS (number of output meshes: 1)
+
+Info,  T9580: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+
+Info,  T9580: CalcTangentsProcess finished. Tangents have been calculated
+
+Info,  T9580: JoinVerticesProcess finished | Verts in: 3000 out: 1155 | ~61.5%
+
+Info,  T9580: Leaving post processing pipeline
+
+Assembling vertices...
+Building Blam mesh data...
+Writing resource data...
+ERROR: The process cannot access the file 'D:\Games\Halo Online\ElDewrito_0.5.1.1_Release\ElDewrito_0.5.1.1_Release\maps\resources.dat' because it is being used by another process.
+
+tags.dat> modeltest 343B objects/box_l.obj
+Info,  T9580: Load objects/box_l.obj
+
+Info,  T9580: Found a matching importer for this file format
+
+Info,  T9580: Import root directory is 'objects\'
+
+Info,  T9580: Entering post processing pipeline
+
+Info,  T9580: Removed 2 nodes and 0 animation channels (1 output nodes)
+
+Info,  T9580: Kept 0 lights and 0 cameras
+
+Info,  T9580: Moved 1 meshes to WCS (number of output meshes: 1)
+
+Info,  T9580: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+
+Info,  T9580: CalcTangentsProcess finished. Tangents have been calculated
+
+Info,  T9580: JoinVerticesProcess finished | Verts in: 3000 out: 1170 | ~61.0%
+
+Info,  T9580: Leaving post processing pipeline
+
+Assembling vertices...
+Building Blam mesh data...
+Writing resource data...
+ERROR: The process cannot access the file 'D:\Games\Halo Online\ElDewrito_0.5.1.1_Release\ElDewrito_0.5.1.1_Release\maps\resources.dat' because it is being used by another process.
+
+tags.dat> modeltest 3438 objects/box_m.obj
+Info,  T9580: Load objects/box_m.obj
+
+Info,  T9580: Found a matching importer for this file format
+
+Info,  T9580: Import root directory is 'objects\'
+
+Info,  T9580: Entering post processing pipeline
+
+Info,  T9580: Removed 2 nodes and 0 animation channels (1 output nodes)
+
+Info,  T9580: Kept 0 lights and 0 cameras
+
+Info,  T9580: Moved 1 meshes to WCS (number of output meshes: 1)
+
+Info,  T9580: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+
+Info,  T9580: CalcTangentsProcess finished. Tangents have been calculated
+
+Info,  T9580: JoinVerticesProcess finished | Verts in: 3000 out: 1162 | ~61.3%
+
+Info,  T9580: Leaving post processing pipeline
+
+Assembling vertices...
+Building Blam mesh data...
+Writing resource data...
+ERROR: The process cannot access the file 'D:\Games\Halo Online\ElDewrito_0.5.1.1_Release\ElDewrito_0.5.1.1_Release\maps\resources.dat' because it is being used by another process.
+
+tags.dat> modeltest 3434 objects/box_s.obj
+Info,  T9580: Load objects/box_s.obj
+
+Info,  T9580: Found a matching importer for this file format
+
+Info,  T9580: Import root directory is 'objects\'
+
+Info,  T9580: Entering post processing pipeline
+
+Info,  T9580: Removed 2 nodes and 0 animation channels (1 output nodes)
+
+Info,  T9580: Kept 0 lights and 0 cameras
+
+Info,  T9580: Moved 1 meshes to WCS (number of output meshes: 1)
+
+Info,  T9580: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+
+Info,  T9580: CalcTangentsProcess finished. Tangents have been calculated
+
+Info,  T9580: JoinVerticesProcess finished | Verts in: 3000 out: 1163 | ~61.2%
+
+Info,  T9580: Leaving post processing pipeline
+
+Assembling vertices...
+Building Blam mesh data...
+Writing resource data...
+ERROR: The process cannot access the file 'D:\Games\Halo Online\ElDewrito_0.5.1.1_Release\ElDewrito_0.5.1.1_Release\maps\resources.dat' because it is being used by another process.

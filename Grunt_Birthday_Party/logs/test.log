@@ -1,0 +1,26 @@
+Tag Tool [1.0.5907.15260]
+
+Please report any bugs and feature requests at
+<https://github.com/camden-smallwood/TagTool/issues>.
+
+Reading tags...22310 tags loaded.
+- Detected target engine version 1.106708 cert_ms23.
+- This cache file was built on 3/20/2015 at 7:40 AM.
+Reading stringIDs...37378 strings loaded.
+
+Enter "help" to list available commands. Enter "exit" to quit.
+
+tags.dat> edit 1348
+Tag 0x00001348.model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x1348.model> setfield NewDamageInfo[0].DamageSections[1].InstantResponses[0].SecondaryTransitionEffect 12FE
+SecondaryTransitionEffect: TagInstance = 0x000012FE
+
+tags.dat\0x1348.model> savechanges
+Done!
+
+tags.dat\0x1348.model> exit
+
+tags.dat> dumplog test.log      

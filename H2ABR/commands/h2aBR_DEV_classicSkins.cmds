@@ -1,0 +1,33 @@
+Halo 2 Anniversary Battle Rifle port V2 for Halo Online Eldewrito ms23; from Halo Online MS30 build
+
+edit 578B
+SetField ShaderProperties[0].ShaderMaps[0].Bitmap 57A0
+savechanges
+exitTo tags.dat
+edit 578C
+SetField ShaderProperties[0].ShaderMaps[0].Bitmap 57A0
+savechanges
+exitTo tags.dat
+edit 578D
+SetField ShaderProperties[0].ShaderMaps[0].Bitmap 57A0
+savechanges
+exitTo tags.dat
+edit 578E
+SetField ShaderProperties[0].ShaderMaps[0].Bitmap 57A0
+savechanges
+exitTo tags.dat
+edit 578F
+SetField ShaderProperties[0].ShaderMaps[0].Bitmap 57A0
+savechanges
+exitTo tags.dat
+edit 5790
+SetField ShaderProperties[0].ShaderMaps[0].Bitmap 57A0
+savechanges
+exitTo tags.dat
+edit 5791
+SetField ShaderProperties[0].ShaderMaps[0].Bitmap 57A0
+savechanges
+exitTo tags.dat
+
+dumplog H2ABR_Skins.log
+exit

@@ -1,0 +1,7 @@
+ECHO FMM_OUTPUT Installing HUDim
+ECHO FMM_OUTPUT (Install time: 15 seconds)
+cd mods\tagMods\HUDim\
+Type Import_Textures.cmds | TagTool_bitm.exe ../../../maps/tags.dat
+Type Tag_Changes.cmds | TagTool.exe ../../../maps/tags.dat
+
+ECHO FMM_OUTPUT HUDim installed. ...

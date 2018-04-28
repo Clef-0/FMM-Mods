@@ -1,0 +1,127 @@
+import ssl.lib.types
+import ssl.lib.ui.ui_widget_container
+import ui.root
+import ssl.lib.ui.ui_widget_list_item
+import ssl.lib.logging
+import ssl.hf2p.user_data
+
+class UiStatsPlayerLIR : UiWidgetListItem
+
+override SetData//(p : params)
+
+end
+end
+
+class ScoreboardIngameVM
+   var StatList :  ObservableProperty = $OM.Calculated(this, "GetStats")
+   var RankingVersion : ObservableProperty = $OM.Calculated(this, "UpdateRankingVersion")
+   var PersonalStats : ObservableProperty = $OM.Property(0)
+
+   func ScoreboardIngameVM()
+      
+   end
+   
+   func UpdateRankingVersion : int
+      Log("hf2p~bindings", "update score list")
+      var ranking_vesrion :  int = (int)($UiGlobals.gameplay.scoreboard.rankings_version.Get())
+      StatList.Invalidate()
+      
+      return ranking_vesrion
+   end
+   
+   func GetStats() : vector
+      Log("hf2p~bindings", "update score list")
+      var ranking_vesrion :  int = (int)($UiGlobals.gameplay.scoreboard.rankings_version.Get())
+      var i : int = 0
+      var result : vector
+
+      $UiGlobals.gameplay.scoreboard.UpdateVersion()
+      if ($UiIngame.IsTeamMode())
+
+         var team_indices :  vector = $UiGlobals.gameplay.scoreboard.teams_ranking.indices.Get()
+         var team_player_indices : vector = $UiGlobals.gameplay.scoreboard.team_players_ranking.Get()
+         var place_counter :  int = 0
+         var j :  int = 0
+         for i := 0 to team_indices.Last()
+            var current_team : int = (int)(team_indices.Get(i).value.Get())
+
+                //If there are no team ranking indices, skip to next iteration.
+                //This is a multi-team bug, just catching it. -Alex-231
+                if ((GL_ScoreboardRanking)($UiGlobals.gameplay.scoreboard.team_players_ranking.Get().Get(current_team)) == null)
+                   continue
+                end
+
+                //If teams are not in order, team_player_indices data is incorrect.
+                //This is likely a lower level issue than this scripting. -Alex-231
+                for j := 0 to team_player_indices.Get(current_team).indices.Get().Last()
+                    var new_lir : * = $UiGlobals.gameplay.scoreboard.scoreboard_players.Get().Get(((team_player_indices.Get(current_team).indices.Get().Get(j)).value.Get()))
+                    
+                    //Added new colors to the GFX, these literals reference the new color animations. Alex-231
+                    if ((current_team) == -1)
+                        new_lir.color_anim.Set("observer") //This will probably never occur, as the scripting can't differenciate between ffa and observer.
+                    elif ((current_team) == 0)
+                        new_lir.color_anim.Set("red")
+                    elif ((current_team) == 1)
+                        new_lir.color_anim.Set("blue")
+                    elif ((current_team) == 2)
+                        new_lir.color_anim.Set("green")
+                    elif ((current_team) == 3)
+                        new_lir.color_anim.Set("orange")
+                    elif ((current_team) == 4)
+                        new_lir.color_anim.Set("purple")
+                    elif ((current_team) == 5)
+                        new_lir.color_anim.Set("gold")
+                    elif ((current_team) == 6)
+                        new_lir.color_anim.Set("brown")
+                    elif ((current_team) == 7)
+                        new_lir.color_anim.Set("pink")
+                    end
+                    
+                    if ($UserDataStorage.IsEqualUIDs(new_lir.uid.Get(), $UserDataStorage.local_user.uid.Get()))
+                        new_lir.is_local.Set(true)
+                        PersonalStats.Set($UiGlobals.gameplay.scoreboard.scoreboard_players.Get().Get(((team_player_indices.Get(current_team).indices.Get().Get(j)).value.Get())))
+                    else
+                        new_lir.is_local.Set(false)
+                    end
+                    
+                    $user_service.RequestData(new_lir.uid.Get(), $uiEnums.USER_DATA_BASE)
+                    result.Push(new_lir)
+                    place_counter := place_counter + 1
+                    new_lir.absolute_place.Set(place_counter)
+                    new_lir.container_place.Set(j + 1)
+                    new_lir.need_to_recount.Set(true)
+                end
+         end
+      else
+         var indices : vector = $UiGlobals.gameplay.scoreboard.ffa_players_ranking.indices.Get()
+         var place_counter :  int = 0
+         
+         for i := 0 to indices.Last()
+            var new_lir : * = $UiGlobals.gameplay.scoreboard.scoreboard_players.Get().Get(((indices.Get(i)).value.Get()))
+            if (i % 2 == 0)
+               new_lir.color_anim.Set("odd")
+            else
+               new_lir.color_anim.Set("even")
+            end
+            
+            if ($UserDataStorage.IsEqualUIDs(new_lir.uid.Get(), $UserDataStorage.local_user.uid.Get()))
+               new_lir.is_local.Set(true)
+               PersonalStats.Set($UiGlobals.gameplay.scoreboard.scoreboard_players.Get().Get(((indices.Get(i)).value.Get())))
+            else
+               new_lir.is_local.Set(false)
+            end
+            
+            place_counter := place_counter + 1
+            new_lir.absolute_place.Set(place_counter)
+            new_lir.container_place.Set(i + 1)
+            new_lir.need_to_recount.Set(true)
+            $user_service.RequestData(new_lir.uid.Get(), $uiEnums.USER_DATA_BASE)
+            result.Push(new_lir)
+         end
+      end
+      
+      Log("hf2p~bindings", "update score list End" + (string)(result.Count()))
+      
+      return result
+   end 
+end

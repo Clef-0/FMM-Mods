@@ -1,0 +1,48 @@
+EditTag 0x00002692
+EditBlock HudWidgets[0]
+EditBlock BitmapWidgets[0]
+SetField BitmapSpriteIndex 23
+exit
+exit
+EditBlock HudWidgets[1]
+EditBlock BitmapWidgets[0]
+EditBlock PlacementData[0]
+SetField Offset 0 72
+SetField Scale 0.7 0.7
+exit
+SetField BitmapSpriteIndex 0
+exit
+exit
+EditBlock HudWidgets[2]
+EditBlock PlacementData[0]
+SetField Offset 12 -8
+SetField Scale 1 1
+exit
+EditBlock BitmapWidgets[0]
+EditBlock PlacementData[0]
+SetField Offset -8 3
+SetField Scale 1 1
+exit
+SetField BitmapSpriteIndex 0
+exit
+exit
+EditBlock HudWidgets[3]
+EditBlock BitmapWidgets[0]
+EditBlock PlacementData[0]
+SetField Offset -20 -70
+SetField Scale 1 1
+exit
+EditBlock RenderData[0]
+SetField Input Zero
+exit
+SetField BitmapSpriteIndex 0
+exit
+EditBlock TextWidgets[0]
+EditBlock PlacementData[0]
+SetField Offset 25 -110
+exit
+SetField Font Conduit18
+exit
+exit
+SaveTagChanges
+exit

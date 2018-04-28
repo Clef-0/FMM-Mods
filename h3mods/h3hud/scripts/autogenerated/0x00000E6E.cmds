@@ -1,0 +1,21 @@
+EditTag 0x00000E6E
+EditBlock Position[0]
+EditBlock Animation[1]
+SetField FrameNumber 1000
+SetField PositionY -1700
+exit
+exit
+EditBlock Alpha[0]
+EditBlock Animation[1]
+SetField FrameNumber 200
+exit
+EditBlock Animation[2]
+SetField FrameNumber 800
+exit
+EditBlock Animation[3]
+SetField FrameNumber 1000
+exit
+exit
+SetField NumberOfFrames 1000
+SaveTagChanges
+exit

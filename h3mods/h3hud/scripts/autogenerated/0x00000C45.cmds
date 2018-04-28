@@ -1,0 +1,11 @@
+EditTag 0x00000C45
+EditBlock Alpha[0]
+EditBlock Animation[0]
+SetField Alpha 0.25
+exit
+EditBlock Animation[1]
+SetField Alpha 0.25
+exit
+exit
+SaveTagChanges
+exit

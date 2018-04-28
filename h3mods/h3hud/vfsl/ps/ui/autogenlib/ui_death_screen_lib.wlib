@@ -1,0 +1,837 @@
+classes = {
+	armorLoadoutToggleButton = {
+		__type = "ui_widget_button"
+
+		impl {
+			__type  = ui_widget_impl_gfx
+			symbol  = "armorLoadoutToggleButton" 
+			lib     = death_screen_lib 
+		}
+
+		elements {
+			txtField {
+				__type = "ui_widget_container"
+
+				impl {
+					__type  = ui_widget_impl_gfx
+					propMapping {
+						tf = {
+							mapping = "tf.text"
+						}
+					}
+				}
+				x         = 20
+				y         = 13
+				animated  = true
+			} 
+		}
+	}
+
+	attachPoint = {
+		__type = "ui_widget_container"
+
+		impl {
+			__type  = ui_widget_impl_gfx
+			symbol  = "attachPoint" 
+			lib     = death_screen_lib 
+		}
+	}
+
+	attachPoint_loadout_body = {
+		__type = "ui_widget_image"
+
+		impl {
+			__type  = ui_widget_impl_gfx_image
+			symbol  = "attachPoint_loadout_body" 
+			lib     = death_screen_lib 
+		}
+	}
+
+	ds_hf2pPanelTileBtnLong_l = {
+		__type = "ui_widget_button"
+
+		impl {
+			__type  = ui_widget_impl_gfx
+			symbol  = "ds_hf2pPanelTileBtnLong_l" 
+			lib     = death_screen_lib 
+		}
+	}
+
+	ds_hf2pPanelTileBtnLong_r = {
+		__type = "ui_widget_button"
+
+		impl {
+			__type  = ui_widget_impl_gfx
+			symbol  = "ds_hf2pPanelTileBtnLong_r" 
+			lib     = death_screen_lib 
+		}
+	}
+
+	KillerLoadoutContainer = {
+		__type = "ui_widget_container"
+
+		impl {
+			__type  = ui_widget_impl_gfx
+			symbol  = "KillerLoadoutContainer" 
+			lib     = death_screen_lib 
+		}
+
+		elements {
+			loadoutElements {
+				__type = "ui_death_screen_lib::killerLoadoutContent"
+				x         = -0.4
+				y         = -1.2
+				scaleX    = 0.78
+				scaleY    = 0.78
+				animated  = true
+			} 
+		}
+	}
+
+	killerLoadoutContent = {
+		__type = "ui_widget_container"
+
+		impl {
+			__type  = ui_widget_impl_gfx
+			symbol  = "killerLoadoutContent" 
+			lib     = death_screen_lib 
+		}
+
+		elements {
+			statLinePrimary {
+				__type = "ui_death_screen_lib::statIndicatorLine"
+				x         = 0.8
+				y         = 96.15
+			} 
+			statLineSecondary {
+				__type = "ui_death_screen_lib::statIndicatorLine"
+				x         = 1.8
+				y         = 196.5
+			} 
+			txtFld8 {
+				__type = "ui_widget_container"
+
+				impl {
+					__type  = ui_widget_impl_gfx
+					propMapping {
+						textField = {
+							mapping = "textField.text"
+						}
+					}
+				}
+				x         = 2.95
+				y         = 539.35
+			} 
+			imageAttach8 {
+				__type = "ui_death_screen_lib::attachPoint_loadout_body"
+				x         = 148
+				y         = 516.2
+				scaleX    = 0.75
+				scaleY    = 0.75
+			} 
+			txtFld4 {
+				__type = "ui_widget_container"
+
+				impl {
+					__type  = ui_widget_impl_gfx
+					propMapping {
+						textField = {
+							mapping = "textField.text"
+						}
+					}
+				}
+				x         = 4
+				y         = 377.95
+			} 
+			imageAttach4 {
+				__type = "ui_death_screen_lib::attachPoint_loadout_body"
+				x         = 78.8
+				y         = 353.4
+			} 
+			txtFld5 {
+				__type = "ui_widget_container"
+
+				impl {
+					__type  = ui_widget_impl_gfx
+					propMapping {
+						textField = {
+							mapping = "textField.text"
+						}
+					}
+				}
+				x         = 156.95
+				y         = 378
+				scaleX    = 0.9934
+				scaleY    = 1
+			} 
+			imageAttach5 {
+				__type = "ui_death_screen_lib::attachPoint_loadout_body"
+				x         = 231.45
+				y         = 353.45
+			} 
+			txtFld6 {
+				__type = "ui_widget_container"
+
+				impl {
+					__type  = ui_widget_impl_gfx
+					propMapping {
+						textField = {
+							mapping = "textField.text"
+						}
+					}
+				}
+				x         = 4
+				y         = 445.95
+			} 
+			imageAttach6 {
+				__type = "ui_death_screen_lib::attachPoint_loadout_body"
+				x         = 78.8
+				y         = 421.4
+			} 
+			txtFld7 {
+				__type = "ui_widget_container"
+
+				impl {
+					__type  = ui_widget_impl_gfx
+					propMapping {
+						textField = {
+							mapping = "textField.text"
+						}
+					}
+				}
+				x         = 156.95
+				y         = 445.95
+				scaleX    = 0.9935
+				scaleY    = 1
+			} 
+			imageAttach7 {
+				__type = "ui_death_screen_lib::attachPoint_loadout_body"
+				x         = 231.45
+				y         = 421.4
+			} 
+			txtFld1 {
+				__type = "ui_widget_container"
+
+				impl {
+					__type  = ui_widget_impl_gfx
+					propMapping {
+						textField = {
+							mapping = "textField.text"
+						}
+					}
+				}
+				x         = 2.95
+				y         = 77.05
+			} 
+			imageAttach1 {
+				__type = "ui_death_screen_lib::attachPoint_loadout_body"
+				x         = 150.6
+				y         = 54.8
+			} 
+			txtFld2 {
+				__type = "ui_widget_container"
+
+				impl {
+					__type  = ui_widget_impl_gfx
+					propMapping {
+						textField = {
+							mapping = "textField.text"
+						}
+					}
+				}
+				x         = 2.95
+				y         = 176
+			} 
+			imageAttach2 {
+				__type = "ui_death_screen_lib::attachPoint_loadout_body"
+				x         = 150.6
+				y         = 153.75
+			} 
+			txtFld3 {
+				__type = "ui_widget_container"
+
+				impl {
+					__type  = ui_widget_impl_gfx
+					propMapping {
+						textField = {
+							mapping = "textField.text"
+						}
+					}
+				}
+				x         = 2.95
+				y         = 280.3
+			} 
+			imageAttach3 {
+				__type = "ui_death_screen_lib::attachPoint_loadout_body"
+				x         = 150.6
+				y         = 254.05
+			} 
+			unitCard {
+				__type = "ui_death_screen_lib::killerLoadoutUnitCard"
+				x         = 0
+				y         = 0
+			} 
+			highLight {
+				__type = "ui_widget_container"
+
+				impl {
+					__type  = ui_widget_impl_gfx
+				}
+				x         = 0
+				y         = 324.65
+
+				elements {
+					content {
+						__type = "ui_widget_container"
+
+						impl {
+							__type  = ui_widget_impl_gfx
+						}
+						x         = 0
+						y         = 0
+					} 
+				}
+				animated  = true
+			} 
+			itemQualityCont1 {
+				__type = "ui_widget_container"
+
+				impl {
+					__type  = ui_widget_impl_gfx
+				}
+				x         = -44.7
+				y         = 25.7
+			} 
+			itemQualityCont2 {
+				__type = "ui_widget_container"
+
+				impl {
+					__type  = ui_widget_impl_gfx
+				}
+				x         = -44.7
+				y         = 124.7
+			} 
+			itemQualityCont3 {
+				__type = "ui_widget_container"
+
+				impl {
+					__type  = ui_widget_impl_gfx
+				}
+				x         = -43.7
+				y         = 224.7
+			} 
+		}
+	}
+
+	killerLoadoutUnitCard = {
+		__type = "ui_widget_container"
+
+		impl {
+			__type  = ui_widget_impl_gfx
+			symbol  = "killerLoadoutUnitCard" 
+			lib     = death_screen_lib 
+			propMapping {
+				txtGrenades = {
+					mapping = "txtGrenades.text"
+				}
+				txtSecondary = {
+					mapping = "txtSecondary.text"
+				}
+				txtTacticalPackages = {
+					mapping = "txtTacticalPackages.text"
+				}
+				txtBoosters = {
+					mapping = "txtBoosters.text"
+				}
+				txtPrimary = {
+					mapping = "txtPrimary.text"
+				}
+			}
+		}
+	}
+
+	KillerPanel = {
+		__type = "ui_widget_container"
+
+		impl {
+			__type  = ui_widget_impl_gfx
+			symbol  = "KillerPanel" 
+			lib     = death_screen_lib 
+		}
+
+		elements {
+			showLoadoutButton {
+				__type = "ui_death_screen_lib::ViewEnemyLoadoutBtn"
+				x         = 260
+				y         = 87
+			} 
+			loadoutPanel {
+				__type = "ui_death_screen_lib::KillerLoadoutContainer"
+				x         = 261.95
+				y         = 109.3
+			} 
+			WpnNameDesc {
+				__type = "ui_widget_container"
+
+				impl {
+					__type  = ui_widget_impl_gfx
+					propMapping {
+						tf = {
+							mapping = "tf.text"
+						}
+					}
+				}
+				x         = 262
+				y         = 66
+			} 
+			wpn_desc {
+				__type = "ui_widget_container"
+
+				impl {
+					__type  = ui_widget_impl_gfx
+					propMapping {
+						tf = {
+							mapping = "tf.text"
+						}
+					}
+				}
+				x         = 286
+				y         = 25
+			} 
+			killerRankName {
+				__type = "ui_widget_container"
+
+				impl {
+					__type  = ui_widget_impl_gfx
+					propMapping {
+						tf = {
+							mapping = "tf.text"
+						}
+					}
+				}
+				x         = 8
+				y         = 173.7
+			} 
+			level {
+				__type = "ui_widget_container"
+
+				impl {
+					__type  = ui_widget_impl_gfx
+					propMapping {
+						tf = {
+							mapping = "tf.text"
+						}
+					}
+				}
+				x         = -6.5
+				y         = 139.7
+			} 
+			armorClassTxt {
+				__type = "ui_widget_container"
+
+				impl {
+					__type  = ui_widget_impl_gfx
+					propMapping {
+						tf = {
+							mapping = "tf.text"
+						}
+					}
+				}
+				x         = 114.3
+				y         = 91.65
+			} 
+			KilledBy_header {
+				__type = "ui_widget_container"
+
+				impl {
+					__type  = ui_widget_impl_gfx
+					propMapping {
+						tf = {
+							mapping = "tf.text"
+						}
+					}
+				}
+				x         = 81
+				y         = 12.2
+			} 
+			Emblem {
+				__type = "ui_death_screen_lib::Weapon_attach"
+				x         = 11
+				y         = 12
+			} 
+			ClanTag_field {
+				__type = "ui_widget_container"
+
+				impl {
+					__type  = ui_widget_impl_gfx
+					propMapping {
+						tf = {
+							mapping = "tf.text"
+						}
+					}
+				}
+				x         = 80.6
+				y         = 60
+			} 
+			TagName_field {
+				__type = "ui_widget_container"
+
+				impl {
+					__type  = ui_widget_impl_gfx
+					propMapping {
+						tf = {
+							mapping = "tf.text"
+						}
+					}
+				}
+				x         = 80.5
+				y         = 35.2
+			} 
+			wpn_attach_point {
+				__type = "ui_death_screen_lib::Weapon_attach"
+				x         = 377.4
+				y         = 45.7
+				scaleX    = 0.6
+				scaleY    = 0.6
+			} 
+			armorTexture {
+				__type = "ui_widget_container"
+
+				impl {
+					__type  = ui_widget_impl_gfx
+				}
+				x         = 29.9
+				y         = 113.9
+			} 
+			rank {
+				__type = "ui_death_screen_lib::Weapon_attach"
+				x         = 14
+				y         = 100
+			} 
+			armorClassAttach {
+				__type = "ui_death_screen_lib::attachPoint"
+				x         = 228.5
+				y         = 94
+			} 
+			flag {
+				__type = "ui_widget_container"
+
+				impl {
+					__type  = ui_widget_impl_gfx
+				}
+				x         = 6
+				y         = 89
+				scaleX    = 1
+				scaleY    = 1.6768
+			} 
+		}
+	}
+
+	KillerPanelContainer = {
+		__type = "ui_widget_container"
+
+		impl {
+			__type  = ui_widget_impl_gfx
+			symbol  = "KillerPanelContainer" 
+			lib     = death_screen_lib 
+		}
+
+		elements {
+			KillerPanelInst {
+				__type = "ui_death_screen_lib::KillerPanel"
+				x         = 0
+				y         = 0
+				animated  = true
+			} 
+		}
+	}
+
+	loadout_buttonResp = {
+		__type = "ui_widget_button"
+
+		impl {
+			__type  = ui_widget_impl_gfx
+			symbol  = "loadout_buttonResp" 
+			lib     = death_screen_lib 
+		}
+
+		elements {
+			txt {
+				__type = "ui_widget_container"
+
+				impl {
+					__type  = ui_widget_impl_gfx
+					propMapping {
+						textField = {
+							mapping = "textField.text"
+						}
+					}
+				}
+				x         = 38.55
+				y         = 22.2
+				animated  = true
+			} 
+		}
+	}
+
+	loadout_selectLoadoutSmallBtn = {
+		__type = "ui_widget_button"
+
+		impl {
+			__type  = ui_widget_impl_gfx
+			symbol  = "loadout_selectLoadoutSmallBtn" 
+			lib     = death_screen_lib 
+		}
+
+		elements {
+			lock {
+				__type = "ui_widget_container"
+
+				impl {
+					__type  = ui_widget_impl_gfx
+				}
+				x         = 161
+				y         = 2
+				animated  = true
+			} 
+			txt1 {
+				__type = "ui_widget_container"
+
+				impl {
+					__type  = ui_widget_impl_gfx
+					propMapping {
+						textField = {
+							mapping = "textField.text"
+						}
+					}
+				}
+				x         = 8.2
+				y         = 9.75
+				animated  = true
+			} 
+			txt2 {
+				__type = "ui_widget_container"
+
+				impl {
+					__type  = ui_widget_impl_gfx
+					propMapping {
+						textField = {
+							mapping = "textField.text"
+						}
+					}
+				}
+				x         = 48.5
+				y         = 10.25
+				animated  = true
+			} 
+		}
+	}
+
+	loadout_ViewLoadoutsBtn = {
+		__type = "ui_widget_button"
+
+		impl {
+			__type  = ui_widget_impl_gfx
+			symbol  = "loadout_ViewLoadoutsBtn" 
+			lib     = death_screen_lib 
+		}
+
+		elements {
+			txt {
+				__type = "ui_widget_container"
+
+				impl {
+					__type  = ui_widget_impl_gfx
+					propMapping {
+						textField = {
+							mapping = "textField.text"
+						}
+					}
+				}
+				x         = 38.55
+				y         = 7.2
+				animated  = true
+			} 
+		}
+	}
+
+	RespawnPanel = {
+		__type = "ui_widget_container"
+
+		impl {
+			__type  = ui_widget_impl_gfx
+			symbol  = "RespawnPanel" 
+			lib     = death_screen_lib 
+		}
+
+		elements {
+			respawnTimer {
+				__type = "ui_death_screen_lib::respawn_timer_CONTAINER"
+				x         = 347.45
+				y         = -64.5
+			} 
+			armorsToggleButton {
+				__type = "ui_death_screen_lib::armorLoadoutToggleButton"
+				x         = 592
+				y         = 87.5
+			} 
+			weaponsToggleButton {
+				__type = "ui_death_screen_lib::weaponLoadoutsToggleButton"
+				x         = 367.35
+				y         = 88.5
+			} 
+			loadouts {
+				__type = "ui_widget_container"
+
+				impl {
+					__type  = ui_widget_impl_gfx
+				}
+				x         = 67.3
+				y         = 128.25
+
+				elements {
+					loadout4 {
+						__type = "ui_death_screen_lib::loadout_selectLoadoutSmallBtn"
+						x         = 847.5
+						y         = 6.5
+					} 
+					loadout3 {
+						__type = "ui_death_screen_lib::loadout_selectLoadoutSmallBtn"
+						x         = 637.5
+						y         = 6.5
+					} 
+					loadout2 {
+						__type = "ui_death_screen_lib::loadout_selectLoadoutSmallBtn"
+						x         = 427.5
+						y         = 6.5
+					} 
+					loadout1 {
+						__type = "ui_death_screen_lib::loadout_selectLoadoutSmallBtn"
+						x         = 217.5
+						y         = 6.5
+					} 
+					loadout0 {
+						__type = "ui_death_screen_lib::loadout_selectLoadoutSmallBtn"
+						x         = 7.5
+						y         = 6.5
+					} 
+				}
+			} 
+			respawnButton {
+				__type = "ui_death_screen_lib::loadout_buttonResp"
+				x         = 363.5
+				y         = 9
+			} 
+			viewLoadoutsButton {
+				__type = "ui_death_screen_lib::loadout_ViewLoadoutsBtn"
+				x         = 366.1
+				y         = 192.25
+			} 
+		}
+	}
+
+	respawn_timer_CONTAINER = {
+		__type = "ui_widget_container"
+
+		impl {
+			__type  = ui_widget_impl_gfx
+			symbol  = "respawn_timer_CONTAINER" 
+			lib     = death_screen_lib 
+		}
+
+		elements {
+			tf_container {
+				__type = "ui_widget_container"
+
+				impl {
+					__type  = ui_widget_impl_gfx
+					propMapping {
+						tf = {
+							mapping = "tf.text"
+						}
+					}
+				}
+				x         = 73
+				y         = 10.05
+				animated  = true
+			} 
+		}
+	}
+
+	statIndicatorLine = {
+		__type = "ui_widget_container"
+
+		impl {
+			__type  = ui_widget_impl_gfx
+			symbol  = "statIndicatorLine" 
+			lib     = death_screen_lib 
+		}
+	}
+
+	ViewEnemyLoadoutBtn = {
+		__type = "ui_widget_button"
+
+		impl {
+			__type  = ui_widget_impl_gfx
+			symbol  = "ViewEnemyLoadoutBtn" 
+			lib     = death_screen_lib 
+		}
+
+		elements {
+			txt {
+				__type = "ui_widget_container"
+
+				impl {
+					__type  = ui_widget_impl_gfx
+					propMapping {
+						textField = {
+							mapping = "textField.text"
+						}
+					}
+				}
+				x         = 11.55
+				y         = 3.2
+				animated  = true
+			} 
+		}
+	}
+
+	weaponLoadoutsToggleButton = {
+		__type = "ui_widget_button"
+
+		impl {
+			__type  = ui_widget_impl_gfx
+			symbol  = "weaponLoadoutsToggleButton" 
+			lib     = death_screen_lib 
+		}
+
+		elements {
+			txtField {
+				__type = "ui_widget_container"
+
+				impl {
+					__type  = ui_widget_impl_gfx
+					propMapping {
+						tf = {
+							mapping = "tf.text"
+						}
+					}
+				}
+				x         = 0
+				y         = 12
+				animated  = true
+			} 
+		}
+	}
+
+	Weapon_attach = {
+		__type = "ui_widget_image"
+
+		impl {
+			__type  = ui_widget_impl_gfx_image
+			symbol  = "Weapon_attach" 
+			lib     = death_screen_lib 
+		}
+	}
+}
+__type = "ui_widget_lib"

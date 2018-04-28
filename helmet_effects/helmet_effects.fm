@@ -1,0 +1,4 @@
+ECHO FMM_OUTPUT Installing Helmet Effects...
+cd mods\tagMods\helmet_effects
+Type commands\helmet_effects.cmds | TagTool.exe ../../../maps/tags.dat
+ECHO FMM_OUTPUT YEET

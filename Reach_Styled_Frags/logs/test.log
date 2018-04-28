@@ -1,0 +1,24 @@
+Tag Tool [1.0.5907.15260]
+
+Please report any bugs and feature requests at
+<https://github.com/camden-smallwood/TagTool/issues>.
+
+Reading tags...22310 tags loaded.
+- Detected target engine version 1.106708 cert_ms23.
+- This cache file was built on 3/20/2015 at 7:40 AM.
+Reading stringIDs...37378 strings loaded.
+
+Enter "help" to list available commands. Enter "exit" to quit.
+
+tags.dat> edit 01AD
+Tag 0x000001AD.projectile has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x01AD.projectile> setfield Attachments[0].Attachment2 1B3A
+Attachment2: TagInstance = 0x00001B3A
+
+tags.dat\0x01AD.projectile> savechanges
+Done!
+
+tags.dat\0x01AD.projectile> dumplog test.log

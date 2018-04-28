@@ -1,0 +1,128 @@
+Tag Tool [1.0.5938.29681]
+
+Please report any bugs and feature requests at
+<https://github.com/camden-smallwood/TagTool/issues>.
+
+Reading tags...28910 tags loaded.
+- Detected target engine version 1.106708 cert_ms23.
+- This cache file was built on 3/20/2015 at 9:40 AM.
+Reading stringIDs...37525 strings loaded.
+
+Enter "help" to list available commands. Enter "exit" to quit.
+
+tags.dat> --DEPS--
+Unrecognized command: --DEPS--
+Use "help" to list available commands.
+
+tags.dat> dep add 6E42 348D
+
+tags.dat> dep add 6E42 6E23
+Added dependency on tag 00006E23.
+
+tags.dat> dep add 6E42 6E43
+Added dependency on tag 00006E43.
+
+tags.dat> dep add 6E42 6F1B
+
+tags.dat> dep add 6E42 6F1C
+Added dependency on tag 00006F1C.
+
+tags.dat> dep add 6E42 6F1D
+Added dependency on tag 00006F1D.
+
+tags.dat> dep add 6E42 6F1E
+Added dependency on tag 00006F1E.
+
+tags.dat> dep add 6E42 6F1F
+Added dependency on tag 00006F1F.
+
+tags.dat> dep add 6E42 6F20
+Added dependency on tag 00006F20.
+
+tags.dat> dep add 6E42 6F21
+Added dependency on tag 00006F21.
+
+tags.dat> dep add 6E42 6F22
+Added dependency on tag 00006F22.
+
+tags.dat> dep add 6E42 6F23
+Added dependency on tag 00006F23.
+
+tags.dat> dep add 6E42 6F24
+Added dependency on tag 00006F24.
+
+tags.dat> dep add 6E42 6F25
+Added dependency on tag 00006F25.
+
+tags.dat> dep add 6E42 6F26
+Added dependency on tag 00006F26.
+
+tags.dat> dep add 6E42 6F27
+Added dependency on tag 00006F27.
+
+tags.dat> dep add 6E42 6F28
+Added dependency on tag 00006F28.
+
+tags.dat> dep add 6E42 6F29
+Added dependency on tag 00006F29.
+
+tags.dat> dep add 6E42 6F2A
+Added dependency on tag 00006F2A.
+
+tags.dat> dep add 6E42 6F2B
+Added dependency on tag 00006F2B.
+
+tags.dat> dep add 6E42 6F2C
+Added dependency on tag 00006F2C.
+
+tags.dat> dep add 6E42 6F2D
+Added dependency on tag 00006F2D.
+
+tags.dat> dep add 6E42 6F2E
+Added dependency on tag 00006F2E.
+
+tags.dat> dep add 6E42 6F2F
+Added dependency on tag 00006F2F.
+
+tags.dat> dep add 6E42 6F30
+Added dependency on tag 00006F30.
+
+tags.dat> dep add 6E42 6F31
+Added dependency on tag 00006F31.
+
+tags.dat> dep add 6E42 6F32
+Added dependency on tag 00006F32.
+
+tags.dat> dep add 6E42 6F33
+Added dependency on tag 00006F33.
+
+tags.dat> dep add 6E42 6F34
+Added dependency on tag 00006F34.
+
+tags.dat> dep add 6E42 6F35
+Added dependency on tag 00006F35.
+
+tags.dat> dep add 6E42 6F36
+Added dependency on tag 00006F36.
+
+tags.dat> dep add 6E42 6F37
+Added dependency on tag 00006F37.
+
+tags.dat> dep add 6E42 6F38
+Added dependency on tag 00006F38.
+
+tags.dat> dep add 6E42 6F39
+Added dependency on tag 00006F39.
+
+tags.dat> dep add 6E42 6F3A
+Added dependency on tag 00006F3A.
+
+tags.dat> dep add 6E42 6F3B
+Added dependency on tag 00006F3B.
+
+tags.dat> dep add 6E42 6F3C
+Added dependency on tag 00006F3C.
+
+tags.dat> 
+
+tags.dat> dumplog x_Install-x2.txt

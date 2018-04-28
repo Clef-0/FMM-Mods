@@ -1,0 +1,144 @@
+Tag Tool [1.0.5938.29681]
+
+Please report any bugs and feature requests at
+<https://github.com/camden-smallwood/TagTool/issues>.
+
+Reading tags...28910 tags loaded.
+- Detected target engine version 1.106708 cert_ms23.
+- This cache file was built on 3/20/2015 at 9:40 AM.
+Reading stringIDs...37495 strings loaded.
+
+Enter "help" to list available commands. Enter "exit" to quit.
+
+tags.dat> --DEPS--
+Unrecognized command: --DEPS--
+Use "help" to list available commands.
+
+tags.dat> dep add 6E23 6E24
+Added dependency on tag 00006E24.
+
+tags.dat> dep add 6E23 6E25
+Added dependency on tag 00006E25.
+
+tags.dat> dep remove 6E23 348A
+Removed dependency on tag 0000348A.
+
+tags.dat> dep remove 6E23 3489
+Removed dependency on tag 00003489.
+
+tags.dat> dep remove 6E25 3489
+Removed dependency on tag 00003489.
+
+tags.dat> 
+
+tags.dat> dep add 6E23 6E26
+Added dependency on tag 00006E26.
+
+tags.dat> dep add 6E23 6E27
+Added dependency on tag 00006E27.
+
+tags.dat> dep add 6E23 6E28
+Added dependency on tag 00006E28.
+
+tags.dat> dep add 6E23 6E29
+Added dependency on tag 00006E29.
+
+tags.dat> dep add 6E23 6E2A
+Added dependency on tag 00006E2A.
+
+tags.dat> dep add 6E23 6E2B
+Added dependency on tag 00006E2B.
+
+tags.dat> dep add 6E23 6E2C
+Added dependency on tag 00006E2C.
+
+tags.dat> dep add 6E23 6E2D
+Added dependency on tag 00006E2D.
+
+tags.dat> dep add 6E23 6E2E
+Added dependency on tag 00006E2E.
+
+tags.dat> dep add 6E23 6E2F
+Added dependency on tag 00006E2F.
+
+tags.dat> dep add 6E23 6E30
+Added dependency on tag 00006E30.
+
+tags.dat> dep add 6E23 6E31
+Added dependency on tag 00006E31.
+
+tags.dat> dep add 6E23 6E32
+Added dependency on tag 00006E32.
+
+tags.dat> dep add 6E23 6E33
+Added dependency on tag 00006E33.
+
+tags.dat> dep add 6E23 6E34
+Added dependency on tag 00006E34.
+
+tags.dat> dep add 6E23 6E35
+Added dependency on tag 00006E35.
+
+tags.dat> dep add 6E23 6E36
+Added dependency on tag 00006E36.
+
+tags.dat> dep add 6E23 6E37
+Added dependency on tag 00006E37.
+
+tags.dat> dep add 6E23 6E38
+Added dependency on tag 00006E38.
+
+tags.dat> dep add 6E23 6E39
+Added dependency on tag 00006E39.
+
+tags.dat> dep add 6E23 6E3A
+Added dependency on tag 00006E3A.
+
+tags.dat> dep add 6E23 6E3B
+Added dependency on tag 00006E3B.
+
+tags.dat> dep add 6E23 6E3C
+Added dependency on tag 00006E3C.
+
+tags.dat> dep add 6E23 6E3D
+Added dependency on tag 00006E3D.
+
+tags.dat> dep add 6E23 6E3E
+Added dependency on tag 00006E3E.
+
+tags.dat> dep add 6E23 6E3F
+Added dependency on tag 00006E3F.
+
+tags.dat> dep add 6E23 6E44
+Added dependency on tag 00006E44.
+
+tags.dat> dep add 6E23 6E45
+Added dependency on tag 00006E45.
+
+tags.dat> dep add 6E23 6E46
+Added dependency on tag 00006E46.
+
+tags.dat> dep add 6E23 6E47
+Added dependency on tag 00006E47.
+
+tags.dat> dep add 6E23 6E48
+Added dependency on tag 00006E48.
+
+tags.dat> dep add 6E23 6E49
+Added dependency on tag 00006E49.
+
+tags.dat> dep add 6E23 6E4A
+Added dependency on tag 00006E4A.
+
+tags.dat> dep add 6E23 6E4B
+Added dependency on tag 00006E4B.
+
+tags.dat> dep add 6E23 6E4C
+Added dependency on tag 00006E4C.
+
+tags.dat> dep add 6E43 6E23
+Added dependency on tag 00006E23.
+
+tags.dat> 
+
+tags.dat> dumplog x_Install-x4.txt

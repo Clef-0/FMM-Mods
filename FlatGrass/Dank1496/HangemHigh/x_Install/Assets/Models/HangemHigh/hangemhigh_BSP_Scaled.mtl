@@ -1,0 +1,122 @@
+# Blender MTL File: 'None'
+# Material Count: 10
+
+newmtl 000_metalstripsnarrow
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.470400 0.470400 0.470400
+Ks 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\hangemhigh\CompositeTexturemap_Composite.tif
+map_Ka C:\\hangemhigh\\CompositeTexturemap_Composite.tif
+map_d C:\\hangemhigh\\levels\\b30\\bitmaps\\metal strips narrow.tif
+
+newmtl 001_metalpanelsgenerator
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.470400 0.470400 0.470400
+Ks 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\hangemhigh\CompositeTexturemap_Composite.tif
+map_Ka C:\\hangemhigh\\CompositeTexturemap_Composite.tif
+map_d C:\\hangemhigh\\levels\\b30\\bitmaps\\metal panels generator.tif
+
+newmtl 002_metalstripswide1
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.470400 0.470400 0.470400
+Ks 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\hangemhigh\CompositeTexturemap_Composite.tif
+map_Ka C:\\hangemhigh\\CompositeTexturemap_Composite.tif
+map_d C:\\hangemhigh\\levels\\b30\\bitmaps\\metal strips wide 1.tif
+
+newmtl 003_metalstripsdecorativewide
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.470400 0.470400 0.470400
+Ks 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\hangemhigh\CompositeTexturemap_Composite.tif
+map_Ka C:\\hangemhigh\\CompositeTexturemap_Composite.tif
+map_d C:\\hangemhigh\\levels\\b30\\bitmaps\\metal strips decorative wide.tif
+
+newmtl 004_metalpanelsgeneric
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.470400 0.470400 0.470400
+Ks 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\hangemhigh\CompositeTexturemap_Composite.tif
+map_Ka C:\\hangemhigh\\CompositeTexturemap_Composite.tif
+map_d C:\\hangemhigh\\levels\\b30\\bitmaps\\metal panels generic.tif
+
+newmtl 005_decorativewidecircle
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.470400 0.470400 0.470400
+Ks 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\hangemhigh\CompositeTexturemap_Composite.tif
+map_Ka C:\\hangemhigh\\CompositeTexturemap_Composite.tif
+map_d C:\\hangemhigh\\levels\\b30\\bitmaps\\metal strips decorative circle.tif
+
+newmtl 006_metalstripswide
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.470400 0.470400 0.470400
+Ks 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\hangemhigh\CompositeTexturemap_Composite.tif
+map_Ka C:\\hangemhigh\\CompositeTexturemap_Composite.tif
+map_d C:\\hangemhigh\\levels\\b30\\bitmaps\\metal strips wide.tif
+
+newmtl 007_metalflatgeneric
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.470400 0.470400 0.470400
+Ks 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\hangemhigh\CompositeTexturemap_Composite.tif
+map_Ka C:\\hangemhigh\\CompositeTexturemap_Composite.tif
+map_d C:\\hangemhigh\\levels\\b30\\bitmaps\\metal flat generic.tif
+
+newmtl 008_lightssmallstripsbluelight
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.470400 0.470400 0.470400
+Ks 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\hangemhigh\CompositeTexturemap_Composite.tif
+map_Ka C:\\hangemhigh\\CompositeTexturemap_Composite.tif
+map_d C:\\hangemhigh\\levels\\b30\\bitmaps\\lights small strips.tif
+
+newmtl 009_metalplatefloor
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.470400 0.470400 0.470400
+Ks 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\hangemhigh\CompositeTexturemap_Composite.tif
+map_Ka C:\\hangemhigh\\CompositeTexturemap_Composite.tif
+map_d C:\\hangemhigh\\levels\\b30\\bitmaps\\metal plate floor.tif

@@ -1,0 +1,9 @@
+import 6EB7 Station/Skybox/Skybox_scen
+import 6EB8 Station/Skybox/Skybox_hlmt
+import 6EB9 Station/Skybox/Skybox_mode
+import 6EBA Station/Skybox/Skybox_rmsh
+
+dep add 6E41 6EB7
+dep add 6EB7 6EB8
+dep add 6EB7 6EB9
+dep add 6EB7 6EBA

@@ -1,0 +1,16 @@
+edit 3F83
+setfield effectScenery[01].paletteIndex -1
+setfield effectScenery[02].paletteIndex -1
+setfield effectScenery[61].paletteIndex -1
+savechanges
+exit
+
+exitTo tags.dat
+dumplog reacthor.log
+exit
+
+// test
+edit 3F83
+setfield effectScenery2[01].effectScenery null
+setfield effectScenery2[02].effectScenery null
+savechanges

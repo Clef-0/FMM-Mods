@@ -1,0 +1,54 @@
+edit 2EF8
+SetField Flags 16
+savechanges
+exitTo tags.dat
+edit 34CD
+SetField Flags 16
+savechanges
+exitTo tags.dat
+edit 3AA9
+SetField Flags 16
+savechanges
+exitTo tags.dat
+edit 3E0D
+SetField Flags 16
+savechanges
+exitTo tags.dat
+edit 3FD1
+SetField Flags 18
+savechanges
+exitTo tags.dat
+edit 3FD2
+SetField Flags 18
+savechanges
+exitTo tags.dat
+edit 4228
+SetField Flags 16
+savechanges
+exitTo tags.dat
+edit 4A00
+SetField Flags 16
+savechanges
+exitTo tags.dat
+edit 4BCE
+SetField Flags 16
+savechanges
+exitTo tags.dat
+edit 4F0E
+SetField Flags 16
+savechanges
+exitTo tags.dat
+edit 523F
+SetField Flags 16
+savechanges
+exitTo tags.dat
+edit 54E1
+SetField Flags 16
+savechanges
+exitTo tags.dat
+edit 571D
+SetField Flags 16
+savechanges
+exitTo tags.dat
+dumplog intelOverExposurePatch.log
+exit

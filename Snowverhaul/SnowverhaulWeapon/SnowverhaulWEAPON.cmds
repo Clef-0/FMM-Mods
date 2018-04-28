@@ -1,0 +1,6 @@
+importbitmap 24C0 assets\weapons\spartanlaser.dds
+importbitmap 0EED assets\weapons\assaultrifle.dds
+importbitmap 0F7F assets\weapons\battlerifle.dds
+importbitmap 1FA0 assets\weapons\sniper.dds
+
+exit

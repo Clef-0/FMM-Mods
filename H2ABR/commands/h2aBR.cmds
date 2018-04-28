@@ -1,0 +1,296 @@
+Halo 2 Anniversary Battle Rifle port V2 for Halo Online Eldewrito ms23; from Halo Online MS30 build
+
+
+
+echo duplicate tags/reserve; 123 dupes
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+duplicate 0
+echo END OF dupe tags
+
+echo IMPORT RESOURCE DATA
+resourcedata import resources.dat 0054 tags/H2ABR.raw
+echo END OF IMPORT RESOURCE DATA
+
+echo IMPORT TAGS
+import 5767 tags/glps_5767.tag
+import 5768 tags/glvs_5768.tag
+import 5771 tags/pixl_5771.tag
+import 5777 tags/pixl_5777.tag
+import 577D tags/pixl_577D.tag
+import 5782 tags/pixl_5782.tag
+import 5788 tags/pixl_5788.tag
+import 5728 tags/rmdf_5728.tag
+import 5729 tags/rmop_5729.tag
+import 572A tags/rmop_572A.tag
+import 572D tags/rmop_572D.tag
+import 572E tags/rmop_572E.tag
+import 572F tags/rmop_572F.tag
+import 5730 tags/rmop_5730.tag
+import 5731 tags/rmop_5731.tag
+import 5732 tags/rmop_5732.tag
+import 5733 tags/rmop_5733.tag
+import 5734 tags/rmop_5734.tag
+import 5736 tags/rmop_5736.tag
+import 5737 tags/rmop_5737.tag
+import 5738 tags/rmop_5738.tag
+import 5739 tags/rmop_5739.tag
+import 573A tags/rmop_573A.tag
+import 573C tags/rmop_573C.tag
+import 573D tags/rmop_573D.tag
+import 573E tags/rmop_573E.tag
+import 573F tags/rmop_573F.tag
+import 5740 tags/rmop_5740.tag
+import 5742 tags/rmop_5742.tag
+import 5743 tags/rmop_5743.tag
+import 5744 tags/rmop_5744.tag
+import 5745 tags/rmop_5745.tag
+import 5746 tags/rmop_5746.tag
+import 5748 tags/rmop_5748.tag
+import 5749 tags/rmop_5749.tag
+import 574A tags/rmop_574A.tag
+import 574B tags/rmop_574B.tag
+import 574C tags/rmop_574C.tag
+import 574D tags/rmop_574D.tag
+import 574E tags/rmop_574E.tag
+import 574F tags/rmop_574F.tag
+import 5750 tags/rmop_5750.tag
+import 5752 tags/rmop_5752.tag
+import 5754 tags/rmop_5754.tag
+import 5755 tags/rmop_5755.tag
+import 5757 tags/rmop_5757.tag
+import 5758 tags/rmop_5758.tag
+import 5759 tags/rmop_5759.tag
+import 575B tags/rmop_575B.tag
+import 575C tags/rmop_575C.tag
+import 575D tags/rmop_575D.tag
+import 575F tags/rmop_575F.tag
+import 5760 tags/rmop_5760.tag
+import 5761 tags/rmop_5761.tag
+import 5762 tags/rmop_5762.tag
+import 5764 tags/rmop_5764.tag
+import 5765 tags/rmop_5765.tag
+import 5766 tags/rmop_5766.tag
+import 5727 tags/rmsh_5727.tag
+import 5772 tags/rmsh_5772.tag
+import 5778 tags/rmsh_5778.tag
+import 5784 tags/rmsh_5784.tag
+import 5789 tags/rmsh_5789.tag
+import 576F tags/rmt2_576F.tag
+import 5775 tags/rmt2_5775.tag
+import 577B tags/rmt2_577B.tag
+import 5780 tags/rmt2_5780.tag
+import 5786 tags/rmt2_5786.tag
+import 5770 tags/vtsh_5770.tag
+import 5776 tags/vtsh_5776.tag
+import 577C tags/vtsh_577C.tag
+import 5781 tags/vtsh_5781.tag
+import 5787 tags/vtsh_5787.tag
+import 577E tags/rmsh_577E.tag
+import 5783 tags/rmsh_5783.tag
+echo END OF IMPORT TAGS
+
+echo IMPORT TEXTURES
+importbitmap 572B DDS/0000572B.dds
+importbitmap 572C DDS/0000572C.dds
+importbitmap 573B DDS/0000573B.dds
+importbitmap 5741 DDS/00005741.dds
+importbitmap 5747 DDS/00005747.dds
+importbitmap 5751 DDS/00005751.dds
+importbitmap 5753 DDS/00005753.dds
+importbitmap 5756 DDS/00005756.dds
+importbitmap 575A DDS/0000575A.dds
+importbitmap 575E DDS/0000575E.dds
+importbitmap 5763 DDS/00005763.dds
+importbitmap 576A DDS/0000576A.dds
+importbitmap 576B DDS/0000576B.dds
+importbitmap 576C DDS/0000576C.dds
+importbitmap 576D DDS/0000576D.dds
+importbitmap 576E DDS/0000576E.dds
+importbitmap 5773 DDS/00005773.dds
+importbitmap 5774 DDS/00005774.dds
+importbitmap 5779 DDS/00005779.dds
+importbitmap 577A DDS/0000577A.dds
+importbitmap 5785 DDS/00005785.dds
+importbitmap 578A DDS/0000578A.dds
+importbitmap 5735 DDS/00005735/3.dds
+echo ammo counter
+
+echo skins
+importbitmap 5769 DDS/00005769.dds
+
+importbitmap 57A0 DDS/MDGZ.dds
+importbitmap 57A1 DDS/green.dds
+importbitmap 57A2 DDS/blue.dds
+importbitmap 57A3 DDS/orange.dds
+importbitmap 57A4 DDS/gold.dds
+importbitmap 57A5 DDS/purple.dds
+echo END OF TEXTURES
+
+import 0F71 tags/mode_H2ABR0fp.tag
+import 0F99 tags/mode_H2ABR1fp.tag
+import 0FAE tags/mode_H2ABR2fp.tag
+import 0FBA tags/mode_H2ABR3fp.tag
+import 0FC6 tags/mode_H2ABR4fp.tag
+import 0FD7 tags/mode_H2ABR5fp.tag
+import 0FE1 tags/mode_H2ABR6fp.tag
+import 1DA0 tags/mode_H2ABR03d.tag
+import 2587 tags/mode_H2ABR13d.tag
+import 2591 tags/mode_H2ABR23d.tag
+import 2368 tags/mode_H2ABR33d.tag
+import 2375 tags/mode_H2ABR43d.tag
+import 259A tags/mode_H2ABR53d.tag
+import 2386 tags/mode_H2ABR63d.tag
+import 5792 tags/shad_H2ABRammoOnes0.tag
+import 5793 tags/shad_H2ABRammoOnes1.tag
+import 5794 tags/shad_H2ABRammoOnes2.tag
+import 5795 tags/shad_H2ABRammoOnes3.tag
+import 5796 tags/shad_H2ABRammoOnes4.tag
+import 5797 tags/shad_H2ABRammoOnes5.tag
+import 5798 tags/shad_H2ABRammoOnes6.tag
+import 5799 tags/shad_H2ABRammoTens0.tag
+import 579A tags/shad_H2ABRammoTens1.tag
+import 579B tags/shad_H2ABRammoTens2.tag
+import 579C tags/shad_H2ABRammoTens3.tag
+import 579D tags/shad_H2ABRammoTens4.tag
+import 579E tags/shad_H2ABRammoTens5.tag
+import 579F tags/shad_H2ABRammoTens6.tag
+import 578B tags/shad_BR0metal.tag
+import 578C tags/shad_BR1metal.tag
+import 578D tags/shad_BR2metal.tag
+import 578E tags/shad_BR3metal.tag
+import 578F tags/shad_BR4metal.tag
+import 5790 tags/shad_BR5metal.tag
+import 5791 tags/shad_BR6metal.tag
+
+extract 0 H2ABRinstalled.txt
+
+dumplog h2aBR.log
+exitTo tags.dat
+exit

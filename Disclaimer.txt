@@ -1,0 +1,6 @@
+Halo 3 and Halo Online © Microsoft Corporation. This mod was created under Microsoft's "Game Content Usage Rules" using assets from Halo 3, and it is not endorsed by or affiliated with Microsoft.  
+http://www.xbox.com/en-us/developers/rules
+
+All provided assets such as models, textures, sounds and tags are created and/or owned by Bungie, Microsoft, 343 Industries or Saber Interractive.
+A lot of work was put in to port these assets from game discs. In the event where these files are removed from this hosting facility, users will provide their own disc content for our tools to convert/port.
+

@@ -1,0 +1,42 @@
+import 2BA1 assets\wraith\2BA1
+import 37A8 assets\wraith\37A8
+import 378F assets\wraith\378F
+
+importbitmap 3793 assets\wraith\3793.dds
+importbitmap 37AB assets\wraith\37AB.dds
+importbitmap 2BA3 assets\wraith\2BA3.dds
+
+import 3890 assets\ghost\3890
+
+importbitmap 3897 assets\ghost\3897.dds
+
+import 36E6 assets\banshee\36E6
+import 36E7 assets\banshee\36E7
+
+importbitmap 2910 assets\scorpion\2910.dds
+
+importbitmap 2948 assets\scorpion\2948.dds
+
+importbitmap 312A assets\mongoose\312A.dds
+
+
+edit 3124
+import 0 assets\mongoose\3124\0.dds
+import 1 assets\mongoose\3124\1.dds
+exit
+
+importbitmap 2A99 assets\warthog\2A99.dds
+
+importbitmap 2A7E assets\warthog\4366.dds
+
+importbitmap 2A11 assets\warthog\2A11.dds
+
+importbitmap 2A31 assets\warthog\2A31.dds
+
+importbitmap 2AA3 assets\warthog\2AA3.dds
+
+importbitmap 2B2E assets\hornet\2B2E.dds
+
+importbitmap 2CC7 assets\hornet\2CC7.dds
+
+exit

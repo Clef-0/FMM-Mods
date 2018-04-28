@@ -1,0 +1,2 @@
+cd mods\tagMods\intelPatch
+type intelPatch.cmds | TagTool.exe ../../../maps/tags.dat

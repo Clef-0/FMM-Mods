@@ -1,0 +1,8 @@
+ECHO FMM_OUTPUT Installing sound lag fix test ...
+cd mods\tagMods\soundLagTest
+
+color 0A
+
+Type commands\soundLagTest.cmds | TagTool.exe ../../../maps/tags.dat
+
+ECHO FMM_OUTPUT Installation Complete ...

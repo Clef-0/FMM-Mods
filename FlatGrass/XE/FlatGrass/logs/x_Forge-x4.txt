@@ -1,0 +1,419 @@
+Tag Tool [1.0.5938.29681]
+
+Please report any bugs and feature requests at
+<https://github.com/camden-smallwood/TagTool/issues>.
+
+Reading tags...28910 tags loaded.
+- Detected target engine version 1.106708 cert_ms23.
+- This cache file was built on 3/20/2015 at 9:40 AM.
+Reading stringIDs...37522 strings loaded.
+
+Enter "help" to list available commands. Enter "exit" to quit.
+
+tags.dat> --R08--
+Unrecognized command: --R08--
+Use "help" to list available commands.
+
+tags.dat> edit 6E23
+Tag 0x00006E23.scenario has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x6E23.scenario> 
+
+tags.dat\0x6E23.scenario> --SCENERY--
+Unrecognized command: --SCENERY--
+Use "help" to list available commands.
+
+tags.dat\0x6E23.scenario> AddTo SandboxScenery 16
+Successfully added 16 elements to SandboxScenery: List`1<SandboxObject>
+{...}[64]
+
+tags.dat\0x6E23.scenario> setField SandboxScenery[48].Object 6DBF
+Object: TagInstance = 0x00006DBF
+
+tags.dat\0x6E23.scenario> setField SandboxScenery[48].Name xe_block_2x2
+Name: StringID = xe_block_2x2
+
+tags.dat\0x6E23.scenario> setField SandboxScenery[49].Object 6DC4
+Object: TagInstance = 0x00006DC4
+
+tags.dat\0x6E23.scenario> setField SandboxScenery[49].Name xe_block_2x1
+Name: StringID = xe_block_2x1
+
+tags.dat\0x6E23.scenario> setField SandboxScenery[50].Object 6DC9
+Object: TagInstance = 0x00006DC9
+
+tags.dat\0x6E23.scenario> setField SandboxScenery[50].Name xe_block_3x3
+Name: StringID = xe_block_3x3
+
+tags.dat\0x6E23.scenario> setField SandboxScenery[51].Object 6DCE
+Object: TagInstance = 0x00006DCE
+
+tags.dat\0x6E23.scenario> setField SandboxScenery[51].Name xe_block_3x1
+Name: StringID = xe_block_3x1
+
+tags.dat\0x6E23.scenario> setField SandboxScenery[52].Object 6DD3
+Object: TagInstance = 0x00006DD3
+
+tags.dat\0x6E23.scenario> setField SandboxScenery[52].Name xe_block_4x4
+Name: StringID = xe_block_4x4
+
+tags.dat\0x6E23.scenario> setField SandboxScenery[53].Object 6DD8
+Object: TagInstance = 0x00006DD8
+
+tags.dat\0x6E23.scenario> setField SandboxScenery[53].Name xe_block_5x5
+Name: StringID = xe_block_5x5
+
+tags.dat\0x6E23.scenario> setField SandboxScenery[54].Object 6DDD
+Object: TagInstance = 0x00006DDD
+
+tags.dat\0x6E23.scenario> setField SandboxScenery[54].Name xe_block_5x1
+Name: StringID = xe_block_5x1
+
+tags.dat\0x6E23.scenario> setField SandboxScenery[55].Object 6DE2
+Object: TagInstance = 0x00006DE2
+
+tags.dat\0x6E23.scenario> setField SandboxScenery[55].Name xe_block_10x5
+Name: StringID = xe_block_10x5
+
+tags.dat\0x6E23.scenario> setField SandboxScenery[56].Object 6DE8
+Object: TagInstance = 0x00006DE8
+
+tags.dat\0x6E23.scenario> setField SandboxScenery[56].Name xe_kball_small
+Name: StringID = xe_kball_small
+
+tags.dat\0x6E23.scenario> setField SandboxScenery[57].Object 6DEA
+Object: TagInstance = 0x00006DEA
+
+tags.dat\0x6E23.scenario> setField SandboxScenery[57].Name xe_kball_large
+Name: StringID = xe_kball_large
+
+tags.dat\0x6E23.scenario> setField SandboxScenery[58].Object 6DEC
+Object: TagInstance = 0x00006DEC
+
+tags.dat\0x6E23.scenario> setField SandboxScenery[58].Name xe_kballp_small
+Name: StringID = xe_kballp_small
+
+tags.dat\0x6E23.scenario> setField SandboxScenery[59].Object 6DEE
+Object: TagInstance = 0x00006DEE
+
+tags.dat\0x6E23.scenario> setField SandboxScenery[59].Name xe_kballp_large
+Name: StringID = xe_kballp_large
+
+tags.dat\0x6E23.scenario> setField SandboxScenery[60].Object 6DF9
+Object: TagInstance = 0x00006DF9
+
+tags.dat\0x6E23.scenario> setField SandboxScenery[60].Name xe_light
+Name: StringID = xe_light
+
+tags.dat\0x6E23.scenario> setField SandboxScenery[61].Object 6DFE
+Object: TagInstance = 0x00006DFE
+
+tags.dat\0x6E23.scenario> setField SandboxScenery[61].Name xe_light_red
+Name: StringID = xe_light_red
+
+tags.dat\0x6E23.scenario> setField SandboxScenery[62].Object 6E00
+Object: TagInstance = 0x00006E00
+
+tags.dat\0x6E23.scenario> setField SandboxScenery[62].Name xe_light_blue
+Name: StringID = xe_light_blue
+
+tags.dat\0x6E23.scenario> setField SandboxScenery[63].Object 6E02
+Object: TagInstance = 0x00006E02
+
+tags.dat\0x6E23.scenario> setField SandboxScenery[63].Name xe_light_green
+Name: StringID = xe_light_green
+
+tags.dat\0x6E23.scenario> SaveChanges
+Done!
+
+tags.dat\0x6E23.scenario> exit
+
+tags.dat> 
+
+tags.dat> --R09--
+Unrecognized command: --R09--
+Use "help" to list available commands.
+
+tags.dat> edit 6E43
+Tag 0x00006E43.scenario has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x6E43.scenario> 
+
+tags.dat\0x6E43.scenario> --WEAPONS--
+Unrecognized command: --WEAPONS--
+Use "help" to list available commands.
+
+tags.dat\0x6E43.scenario> AddTo SandboxWeapons 1
+Successfully added 1 element to SandboxWeapons: List`1<SandboxObject>
+{...}[58]
+
+tags.dat\0x6E43.scenario> setField SandboxWeapons[57].Object 6E06
+Object: TagInstance = 0x00006E06
+
+tags.dat\0x6E43.scenario> setField SandboxWeapons[57].Name xe_weapon_sniper
+Name: StringID = xe_weapon_sniper
+
+tags.dat\0x6E43.scenario> 
+
+tags.dat\0x6E43.scenario> --VEHICLES--
+Unrecognized command: --VEHICLES--
+Use "help" to list available commands.
+
+tags.dat\0x6E43.scenario> AddTo SandboxVehicles 2
+Successfully added 2 elements to SandboxVehicles: List`1<SandboxObject>
+{...}[22]
+
+tags.dat\0x6E43.scenario> setField SandboxVehicles[20].Object 6DBD
+Object: TagInstance = 0x00006DBD
+
+tags.dat\0x6E43.scenario> setField SandboxVehicles[20].Name xe_vehicle_mongoose
+Name: StringID = xe_vehicle_mongoose
+
+tags.dat\0x6E43.scenario> setField SandboxVehicles[21].Object 6DBE
+Object: TagInstance = 0x00006DBE
+
+tags.dat\0x6E43.scenario> setField SandboxVehicles[21].Name xe_vehicle_warthog
+Name: StringID = xe_vehicle_warthog
+
+tags.dat\0x6E43.scenario> 
+
+tags.dat\0x6E43.scenario> --SCENERY--
+Unrecognized command: --SCENERY--
+Use "help" to list available commands.
+
+tags.dat\0x6E43.scenario> AddTo SandboxScenery 11
+Successfully added 11 elements to SandboxScenery: List`1<SandboxObject>
+{...}[59]
+
+tags.dat\0x6E43.scenario> setField SandboxScenery[48].Object 4DFA
+Object: TagInstance = 0x00004DFA
+
+tags.dat\0x6E43.scenario> setField SandboxScenery[48].Name jersey_barrier
+Name: StringID = jersey_barrier
+
+tags.dat\0x6E43.scenario> setField SandboxScenery[49].Object 481A
+Object: TagInstance = 0x0000481A
+
+tags.dat\0x6E43.scenario> setField SandboxScenery[49].Name jersey_barrier_short
+Name: StringID = jersey_barrier_short
+
+tags.dat\0x6E43.scenario> setField SandboxScenery[50].Object 4E08
+Object: TagInstance = 0x00004E08
+
+tags.dat\0x6E43.scenario> setField SandboxScenery[50].Name dlc_wh_wire_spool_large
+Name: StringID = dlc_wh_wire_spool_large
+
+tags.dat\0x6E43.scenario> setField SandboxScenery[51].Object 517A
+Object: TagInstance = 0x0000517A
+
+tags.dat\0x6E43.scenario> setField SandboxScenery[51].Name crate_tech_semi_short_closed
+Name: StringID = crate_tech_semi_short_closed
+
+tags.dat\0x6E43.scenario> setField SandboxScenery[52].Object 5189
+Object: TagInstance = 0x00005189
+
+tags.dat\0x6E43.scenario> setField SandboxScenery[52].Name crate_tech_semi_short
+Name: StringID = crate_tech_semi_short
+
+tags.dat\0x6E43.scenario> setField SandboxScenery[53].Object 4E10
+Object: TagInstance = 0x00004E10
+
+tags.dat\0x6E43.scenario> setField SandboxScenery[53].Name dlc_wh_crate_large_open
+Name: StringID = dlc_wh_crate_large_open
+
+tags.dat\0x6E43.scenario> setField SandboxScenery[54].Object 4E46
+Object: TagInstance = 0x00004E46
+
+tags.dat\0x6E43.scenario> setField SandboxScenery[54].Name man_cannon_forge
+Name: StringID = man_cannon_forge
+
+tags.dat\0x6E43.scenario> setField SandboxScenery[55].Object 4E20
+Object: TagInstance = 0x00004E20
+
+tags.dat\0x6E43.scenario> setField SandboxScenery[55].Name bridge
+Name: StringID = bridge
+
+tags.dat\0x6E43.scenario> setField SandboxScenery[56].Object 4DEF
+Object: TagInstance = 0x00004DEF
+
+tags.dat\0x6E43.scenario> setField SandboxScenery[56].Name fencebox
+Name: StringID = fencebox
+
+tags.dat\0x6E43.scenario> setField SandboxScenery[57].Object 4965
+Object: TagInstance = 0x00004965
+
+tags.dat\0x6E43.scenario> setField SandboxScenery[57].Name forklift
+Name: StringID = forklift
+
+tags.dat\0x6E43.scenario> setField SandboxScenery[58].Object 4E58
+Object: TagInstance = 0x00004E58
+
+tags.dat\0x6E43.scenario> setField SandboxScenery[58].Name soccerball
+Name: StringID = soccerball
+
+tags.dat\0x6E43.scenario> 
+
+tags.dat\0x6E43.scenario> --GOALS/F+--
+Unrecognized command: --GOALS/F+--
+Use "help" to list available commands.
+
+tags.dat\0x6E43.scenario> AddTo SandboxGoalObjects 24
+Successfully added 24 elements to SandboxGoalObjects: List`1<SandboxObject>
+{...}[33]
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[9].Object 6DBF
+Object: TagInstance = 0x00006DBF
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[9].Name xe_block_2x2
+Name: StringID = xe_block_2x2
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[10].Object 6DC4
+Object: TagInstance = 0x00006DC4
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[10].Name xe_block_2x1
+Name: StringID = xe_block_2x1
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[11].Object 6DC9
+Object: TagInstance = 0x00006DC9
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[11].Name xe_block_3x3
+Name: StringID = xe_block_3x3
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[12].Object 6DCE
+Object: TagInstance = 0x00006DCE
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[12].Name xe_block_3x1
+Name: StringID = xe_block_3x1
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[13].Object 6DD3
+Object: TagInstance = 0x00006DD3
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[13].Name xe_block_4x4
+Name: StringID = xe_block_4x4
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[14].Object 6DD8
+Object: TagInstance = 0x00006DD8
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[14].Name xe_block_5x5
+Name: StringID = xe_block_5x5
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[15].Object 6DDD
+Object: TagInstance = 0x00006DDD
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[15].Name xe_block_5x1
+Name: StringID = xe_block_5x1
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[16].Object 6DE2
+Object: TagInstance = 0x00006DE2
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[16].Name xe_block_10x5
+Name: StringID = xe_block_10x5
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[17].Object 6DA1
+Object: TagInstance = 0x00006DA1
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[17].Name xe_bridge_2x1
+Name: StringID = xe_bridge_2x1
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[18].Object 6DA2
+Object: TagInstance = 0x00006DA2
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[18].Name xe_bridge_2x2
+Name: StringID = xe_bridge_2x2
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[19].Object 6DA3
+Object: TagInstance = 0x00006DA3
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[19].Name xe_bridge_2x3
+Name: StringID = xe_bridge_2x3
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[20].Object 6DA4
+Object: TagInstance = 0x00006DA4
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[20].Name xe_bridge_2x5
+Name: StringID = xe_bridge_2x5
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[21].Object 6DA5
+Object: TagInstance = 0x00006DA5
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[21].Name xe_window_2x1
+Name: StringID = xe_window_2x1
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[22].Object 6DA6
+Object: TagInstance = 0x00006DA6
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[22].Name xe_window_2x2
+Name: StringID = xe_window_2x2
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[23].Object 6DE8
+Object: TagInstance = 0x00006DE8
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[23].Name xe_kball_small
+Name: StringID = xe_kball_small
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[24].Object 6DEA
+Object: TagInstance = 0x00006DEA
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[24].Name xe_kball_large
+Name: StringID = xe_kball_large
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[25].Object 6DEC
+Object: TagInstance = 0x00006DEC
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[25].Name xe_kballp_small
+Name: StringID = xe_kballp_small
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[26].Object 6DEE
+Object: TagInstance = 0x00006DEE
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[26].Name xe_kballp_large
+Name: StringID = xe_kballp_large
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[27].Object 6DF9
+Object: TagInstance = 0x00006DF9
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[27].Name xe_light
+Name: StringID = xe_light
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[28].Object 6DFE
+Object: TagInstance = 0x00006DFE
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[28].Name xe_light_red
+Name: StringID = xe_light_red
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[29].Object 6E00
+Object: TagInstance = 0x00006E00
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[29].Name xe_light_blue
+Name: StringID = xe_light_blue
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[30].Object 6E02
+Object: TagInstance = 0x00006E02
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[30].Name xe_light_green
+Name: StringID = xe_light_green
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[31].Object 6E04
+Object: TagInstance = 0x00006E04
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[31].Name xe_light_yellow
+Name: StringID = xe_light_yellow
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[32].Object 6DBC
+Object: TagInstance = 0x00006DBC
+
+tags.dat\0x6E43.scenario> setField SandboxGoalObjects[32].Name xe_prop_deadbody
+Name: StringID = xe_prop_deadbody
+
+tags.dat\0x6E43.scenario> SaveChanges
+Done!
+
+tags.dat\0x6E43.scenario> exit
+
+tags.dat> 
+
+tags.dat> dumplog x_Forge-x4.txt

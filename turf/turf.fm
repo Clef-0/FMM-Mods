@@ -1,0 +1,9 @@
+ECHO FMM_OUTPUT Installing Turf theme ...
+
+cd mods\tagMods\turf
+
+Type commands\tags.cmds | TagTool.exe ../../../maps/tags.dat
+
+Type commands\textures.cmds | TagTool.exe ../../../maps/tags.dat
+
+ECHO FMM_OUTPUT Turf theme installed. ...

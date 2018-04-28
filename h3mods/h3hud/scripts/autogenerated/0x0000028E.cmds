@@ -1,0 +1,7 @@
+edittag 0x0000028E
+editblock runtime[0]
+setfield CTFIntroUI 0xCB0
+setfield AssaultIntroUI 0xCB2
+exit
+savetagchanges
+exit

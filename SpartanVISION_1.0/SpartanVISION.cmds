@@ -1,0 +1,371 @@
+import 15A0 SpartanVISION\Players\monitor_editor.bipd full
+import 2C13 SpartanVISION\Players\marine.hlmt full
+import 2BB6 SpartanVISION\Players\00002BB6.hlmt full
+import 25EF SpartanVISION\Players\monitor_editor.hlmt full
+import 2609 SpartanVISION\Players\core_back_garbage.hlmt full
+import 261A SpartanVISION\Players\core_front_garbage.hlmt full
+import 261E SpartanVISION\Players\eye_garbage.hlmt full
+import 2622 SpartanVISION\Players\outer_shell_b_garbage.hlmt full
+import 2626 SpartanVISION\Players\outer_shell_f_garbage.hlmt full
+import 262A SpartanVISION\Players\outer_shell_t_garbage.hlmt full
+
+import 2BAA SpartanVISION\Forge\00002BAA.hlmt full
+import 2E49 SpartanVISION\Forge\00002E49.hlmt full
+import 3395 SpartanVISION\Forge\00003395.hlmt full
+import 3954 SpartanVISION\Forge\00003954.hlmt full
+import 3973 SpartanVISION\Forge\00003973.hlmt full
+import 3979 SpartanVISION\Forge\00003979.hlmt full
+import 398C SpartanVISION\Forge\0000398C.hlmt full
+import 3991 SpartanVISION\Forge\00003991.hlmt full
+import 3995 SpartanVISION\Forge\00003995.hlmt full
+import 399F SpartanVISION\Forge\0000399F.hlmt full
+import 39CD SpartanVISION\Forge\000039CD.hlmt full
+import 39D1 SpartanVISION\Forge\000039D1.hlmt full
+import 3D81 SpartanVISION\Forge\00003D81.hlmt full
+import 3DA9 SpartanVISION\Forge\00003DA9.hlmt full
+import 4120 SpartanVISION\Forge\00004120.hlmt full
+import 41A5 SpartanVISION\Forge\000041A5.hlmt full
+import 41A9 SpartanVISION\Forge\000041A9.hlmt full
+import 41AF SpartanVISION\Forge\000041AF.hlmt full
+import 41B3 SpartanVISION\Forge\000041B3.hlmt full
+import 4307 SpartanVISION\Forge\00004307.hlmt full
+import 43E4 SpartanVISION\Forge\000043E4.hlmt full
+import 43EC SpartanVISION\Forge\000043EC.hlmt full
+import 43F4 SpartanVISION\Forge\000043F4.hlmt full
+import 4404 SpartanVISION\Forge\00004404.hlmt full
+import 4410 SpartanVISION\Forge\00004410.hlmt full
+import 4415 SpartanVISION\Forge\00004415.hlmt full
+import 441D SpartanVISION\Forge\0000441D.hlmt full
+import 4424 SpartanVISION\Forge\00004424.hlmt full
+import 4433 SpartanVISION\Forge\00004433.hlmt full
+import 444D SpartanVISION\Forge\0000444D.hlmt full
+import 3323 SpartanVISION\Forge\battery.hlmt full
+import 332E SpartanVISION\Forge\battery_fragment01.hlmt full
+import 3344 SpartanVISION\Forge\battery_fragment02.hlmt full
+import 3340 SpartanVISION\Forge\battery_fragment03.hlmt full
+import 3386 SpartanVISION\Forge\cov_sword_holder.hlmt full
+import 3351 SpartanVISION\Forge\power_core_for.hlmt full
+import 335B SpartanVISION\Forge\power_core_junk01.hlmt full
+import 336B SpartanVISION\Forge\power_core_junk02.hlmt full
+import 32B4 SpartanVISION\Forge\h_barrel_rusty.hlmt full
+import 32BF SpartanVISION\Forge\h_barrel_rusty_small.hlmt full
+import 32C8 SpartanVISION\Forge\pallet_large.hlmt full
+import 32D6 SpartanVISION\Forge\pallet_broken01.hlmt full
+import 32E3 SpartanVISION\Forge\pallet_broken02.hlmt full
+import 32EA SpartanVISION\Forge\pallet_broken03.hlmt full
+import 32EE SpartanVISION\Forge\pallet_broken04.hlmt full
+import 32F2 SpartanVISION\Forge\pallet_broken05.hlmt full
+import 32F6 SpartanVISION\Forge\pallet_broken06.hlmt full
+import 32FA SpartanVISION\Forge\sawhorse.hlmt full
+import 3302 SpartanVISION\Forge\sawhorse_leg.hlmt full
+import 3314 SpartanVISION\Forge\street_cone.hlmt full
+import 3283 SpartanVISION\Forge\camping_stool_mp.hlmt full
+import 3374 SpartanVISION\Forge\case_ap_turret.hlmt full
+import 3292 SpartanVISION\Forge\crate_packing.hlmt full
+import 329A SpartanVISION\Forge\crate_packing_lid.hlmt full
+import 32A5 SpartanVISION\Forge\crate_packing_giant.hlmt full
+import 3273 SpartanVISION\Forge\drum_55gal.hlmt full
+import 3378 SpartanVISION\Forge\generator.hlmt full
+import 324D SpartanVISION\Forge\hu_mil_radio_big.hlmt full
+import 3988 SpartanVISION\Forge\hu_mil_radio_small.hlmt full
+import 3267 SpartanVISION\Forge\hu_mil_rucksack.hlmt full
+import 341D SpartanVISION\Forge\large_field.hlmt full
+import 39DD SpartanVISION\Forge\plant_tree_pine_twist.hlmt full
+import 33AC SpartanVISION\Forge\teleporter_reciever.hlmt full
+import 3399 SpartanVISION\Forge\teleporter_sender.hlmt full
+import 26AA SpartanVISION\Forge\mp_area_emitter.hlmt full
+import 33B2 SpartanVISION\Forge\mp_flag_base.hlmt full
+import 33BB SpartanVISION\Forge\mp_circle.hlmt full
+
+import 3656 SpartanVISION\Vehicles\Banshee\banshee.hlmt full
+import 36AD SpartanVISION\Vehicles\Banshee\cab_garbage.hlmt full
+import 36C5 SpartanVISION\Vehicles\Banshee\fin_bottom_garbage.hlmt full
+import 36C1 SpartanVISION\Vehicles\Banshee\fin_top_garbage.hlmt full
+import 36CA SpartanVISION\Vehicles\Banshee\l_wing_garbage.hlmt full
+import 36CF SpartanVISION\Vehicles\Banshee\r_wing_garbage.hlmt full
+import 36E1 SpartanVISION\Vehicles\Banshee\wing_prong_garbage.hlmt full
+import 2E70 SpartanVISION\Vehicles\Banshee\lod_banshee.hlmt full
+
+import 38A2 SpartanVISION\Vehicles\Brute_Chopper\000038A2.hlmt full
+import 3908 SpartanVISION\Vehicles\Brute_Chopper\bit_b.hlmt full
+import 390E SpartanVISION\Vehicles\Brute_Chopper\bit_l.hlmt full
+import 3913 SpartanVISION\Vehicles\Brute_Chopper\bit_r.hlmt full
+import 3918 SpartanVISION\Vehicles\Brute_Chopper\blade_l.hlmt full
+import 391D SpartanVISION\Vehicles\Brute_Chopper\blade_r.hlmt full
+import 3902 SpartanVISION\Vehicles\Brute_Chopper\rotor_l.hlmt full
+import 38FB SpartanVISION\Vehicles\Brute_Chopper\rotor_r.hlmt full
+import 38EA SpartanVISION\Vehicles\Brute_Chopper\seat.hlmt full
+
+import 382F SpartanVISION\Vehicles\Ghost\0000382F.hlmt full
+import 387F SpartanVISION\Vehicles\Ghost\anti_grav.hlmt full
+import 388C SpartanVISION\Vehicles\Ghost\hull_shell.hlmt full
+import 387A SpartanVISION\Vehicles\Ghost\l_gun.hlmt full
+import 386D SpartanVISION\Vehicles\Ghost\l_wing_shell.hlmt full
+import 3885 SpartanVISION\Vehicles\Ghost\seat.hlmt full
+
+import 2C9D SpartanVISION\Vehicles\Hornets\hornet.hlmt full
+import 3C93 SpartanVISION\Vehicles\Hornets\hornet_snow.hlmt full
+import 2D0E SpartanVISION\Vehicles\Hornets\cover_l.hlmt full
+import 3CBD SpartanVISION\Vehicles\Hornets\cover_l_snow.hlmt full
+import 3CBA SpartanVISION\Vehicles\Hornets\cover_r.hlmt full
+import 2D09 SpartanVISION\Vehicles\Hornets\cover_r(2).hlmt full
+import 2CFA SpartanVISION\Vehicles\Hornets\flap.hlmt full
+import 3CB1 SpartanVISION\Vehicles\Hornets\flap_snow.hlmt full
+import 2D22 SpartanVISION\Vehicles\Hornets\gun_l.hlmt full
+import 3CC3 SpartanVISION\Vehicles\Hornets\gun_l_snow.hlmt full
+import 2D1D SpartanVISION\Vehicles\Hornets\gun_r.hlmt full
+import 2CEB SpartanVISION\Vehicles\Hornets\jet_l.hlmt full
+import 2CFF SpartanVISION\Vehicles\Hornets\jet_r.hlmt full
+import 3CB4 SpartanVISION\Vehicles\Hornets\jet_r_snow.hlmt full
+import 2CE3 SpartanVISION\Vehicles\Hornets\landing_gear.hlmt full
+import 2CF6 SpartanVISION\Vehicles\Hornets\rotor.hlmt full
+import 3CAF SpartanVISION\Vehicles\Hornets\rotor_snow.hlmt full
+import 2D18 SpartanVISION\Vehicles\Hornets\skid_l.hlmt full
+import 2D13 SpartanVISION\Vehicles\Hornets\skid_r.hlmt full
+import 3CC0 SpartanVISION\Vehicles\Hornets\skid_r_snow.hlmt full
+import 2CC0 SpartanVISION\Vehicles\Hornets\tail.hlmt full
+import 3CA2 SpartanVISION\Vehicles\Hornets\tail_snow.hlmt full
+import 2CEF SpartanVISION\Vehicles\Hornets\thrust_bell.hlmt full
+import 3CAD SpartanVISION\Vehicles\Hornets\thrust_bell_snow.hlmt full
+import 2D04 SpartanVISION\Vehicles\Hornets\winch.hlmt full
+import 3CB7 SpartanVISION\Vehicles\Hornets\winch_snow.hlmt full
+import 41D1 SpartanVISION\Vehicles\Hornets\lod_hornet.hlmt full
+
+import 30F6 SpartanVISION\Vehicles\Mongoose\mongoose.hlmt full
+
+import 2834 SpartanVISION\Vehicles\Pelican\pelican.hlmt full
+
+import 28BE SpartanVISION\Vehicles\Scorpion\scorpion.hlmt full
+import 2997 SpartanVISION\Vehicles\Scorpion\driver_hatch.hlmt full
+import 298E SpartanVISION\Vehicles\Scorpion\duffle_bag.hlmt full
+import 298A SpartanVISION\Vehicles\Scorpion\engine_panel.hlmt full
+import 2979 SpartanVISION\Vehicles\Scorpion\lb_tread.hlmt full
+import 29BC SpartanVISION\Vehicles\Scorpion\lb_tread_cover.hlmt full
+import 2983 SpartanVISION\Vehicles\Scorpion\lf_tread.hlmt full
+import 29AE SpartanVISION\Vehicles\Scorpion\l_big_panel.hlmt full
+import 29A6 SpartanVISION\Vehicles\Scorpion\l_tread_cover.hlmt full
+import 297E SpartanVISION\Vehicles\Scorpion\rb_tread.hlmt full
+import 29C1 SpartanVISION\Vehicles\Scorpion\rb_tread_cover.hlmt full
+import 2965 SpartanVISION\Vehicles\Scorpion\rf_tread.hlmt full
+import 29B7 SpartanVISION\Vehicles\Scorpion\r_tread_cover.hlmt full
+import 29B2 SpartanVISION\Vehicles\Scorpion\tread_side_panel.hlmt full
+import 2992 SpartanVISION\Vehicles\Scorpion\water_can.hlmt full
+import 292E SpartanVISION\Vehicles\Scorpion\anti_infantry.hlmt full
+import 2942 SpartanVISION\Vehicles\Scorpion\anti_gun.hlmt full
+import 28D7 SpartanVISION\Vehicles\Scorpion\cannon.hlmt full
+import 295C SpartanVISION\Vehicles\Scorpion\turret.hlmt full
+
+import 4338 SpartanVISION\Vehicles\Warthogs\00004338.hlmt full
+import 4362 SpartanVISION\Vehicles\Warthogs\00004362.hlmt full
+import 436A SpartanVISION\Vehicles\Warthogs\0000436A.hlmt full
+import 4372 SpartanVISION\Vehicles\Warthogs\00004372.hlmt full
+import 4377 SpartanVISION\Vehicles\Warthogs\00004377.hlmt full
+import 437A SpartanVISION\Vehicles\Warthogs\0000437A.hlmt full
+import 437D SpartanVISION\Vehicles\Warthogs\0000437D.hlmt full
+import 4381 SpartanVISION\Vehicles\Warthogs\00004381.hlmt full
+import 4383 SpartanVISION\Vehicles\Warthogs\00004383.hlmt full
+import 4386 SpartanVISION\Vehicles\Warthogs\00004386.hlmt full
+import 4389 SpartanVISION\Vehicles\Warthogs\00004389.hlmt full
+import 29DD SpartanVISION\Vehicles\Warthogs\000029DD.hlmt full
+import 2A1F SpartanVISION\Vehicles\Warthogs\00002A1F.hlmt full
+import 2A92 SpartanVISION\Vehicles\Warthogs\00002A92.hlmt full
+import 2A9E SpartanVISION\Vehicles\Warthogs\00002A9E.hlmt full
+import 2AA6 SpartanVISION\Vehicles\Warthogs\00002AA6.hlmt full
+import 2AAB SpartanVISION\Vehicles\Warthogs\00002AAB.hlmt full
+import 2AB0 SpartanVISION\Vehicles\Warthogs\00002AB0.hlmt full
+import 2AB6 SpartanVISION\Vehicles\Warthogs\00002AB6.hlmt full
+import 2ABA SpartanVISION\Vehicles\Warthogs\00002ABA.hlmt full
+import 2ABF SpartanVISION\Vehicles\Warthogs\00002ABF.hlmt full
+import 2AC4 SpartanVISION\Vehicles\Warthogs\00002AC4.hlmt full
+import 3625 SpartanVISION\Vehicles\Warthogs\warthog_drop_palette.hlmt full
+import 2A77 SpartanVISION\Vehicles\Warthogs\tire.hlmt full
+import 2A0C SpartanVISION\Vehicles\Warthogs\barrel_garbage.hlmt full
+import 2A15 SpartanVISION\Vehicles\Warthogs\shield_garbage.hlmt full
+import 2A02 SpartanVISION\Vehicles\Warthogs\00002A02.hlmt full
+
+import 371F SpartanVISION\Vehicles\Wraith\wraith.hlmt full
+import 37C8 SpartanVISION\Vehicles\Wraith\anti_air_left_pods.hlmt full
+import 37D0 SpartanVISION\Vehicles\Wraith\anti_air_right_pods.hlmt full
+import 37A0 SpartanVISION\Vehicles\Wraith\anti_infantry_turret.hlmt full
+import 380C SpartanVISION\Vehicles\Wraith\gear.hlmt full
+import 37EE SpartanVISION\Vehicles\Wraith\hatch.hlmt full
+import 377D SpartanVISION\Vehicles\Wraith\mortar_deflector_left.hlmt full
+import 378B SpartanVISION\Vehicles\Wraith\mortar_door.hlmt full
+import 3786 SpartanVISION\Vehicles\Wraith\mortar_gun.hlmt full
+import 3807 SpartanVISION\Vehicles\Wraith\mortar_hatch.hlmt full
+import 3802 SpartanVISION\Vehicles\Wraith\rudder_right.hlmt full
+import 37FD SpartanVISION\Vehicles\Wraith\rudder_shell.hlmt full
+import 37F8 SpartanVISION\Vehicles\Wraith\wing_boost.hlmt full
+import 37F3 SpartanVISION\Vehicles\Wraith\wing_boost_left.hlmt full
+import 37D8 SpartanVISION\Vehicles\Wraith\wing_left.hlmt full
+import 37E8 SpartanVISION\Vehicles\Wraith\wing_right.hlmt full
+import 37AD SpartanVISION\Vehicles\Wraith\anti_air.hlmt full
+import 3796 SpartanVISION\Vehicles\Wraith\anti_infantry.hlmt full
+import 3757 SpartanVISION\Vehicles\Wraith\mortar.hlmt full
+
+import 30A2 SpartanVISION\Vehicles\Shade_Turret\000030A2.hlmt full
+
+echo import 244F SpartanVISION\Weapons\Beam_Rifle\0000244F.hlmt full
+echo import 31F5 SpartanVISION\Weapons\Gravity_Hammer\gravity_hammer.hlmt full
+echo import 54F SpartanVISION\Weapons\Spike_Grenade\claymore_grenade(1).hlmt full
+echo import 69C SpartanVISION\Weapons\Spike_Grenade\claymore_grenade(2).hlmt full
+echo import 1205 SpartanVISION\Weapons\Spike_Grenade\claymore_grenade(3).hlmt full
+echo import 6B2 SpartanVISION\Weapons\Firebomb_Grenade\firebomb_grenade(1).hlmt full
+echo import 6CC SpartanVISION\Weapons\Firebomb_Grenade\firebomb_grenade(2).hlmt full
+echo import 1206 SpartanVISION\Weapons\Firebomb_Grenade\firebomb_grenade(3).hlmt full
+echo import 335 SpartanVISION\Weapons\Frag_Grenade\frag_grenade_equipment.hlmt full
+echo import 4D8 SpartanVISION\Weapons\Frag_Grenade\frag_grenade(1).hlmt full
+echo import 1203 SpartanVISION\Weapons\Frag_Grenade\frag_grenade(2).hlmt full
+echo import 4EE SpartanVISION\Weapons\Plasma_Grenade\plasma_grenade(1).hlmt full
+echo import 51E SpartanVISION\Weapons\Plasma_Grenade\plasma_grenade(2).hlmt full
+echo import 1204 SpartanVISION\Weapons\Plasma_Grenade\plasma_grenade(3).hlmt full
+echo import 22FD SpartanVISION\Weapons\Energy_Sword\energy_blade.hlmt full
+echo import 268D SpartanVISION\Weapons\Multiplayer\assault_bomb.hlmt full
+echo import 2673 SpartanVISION\Weapons\Multiplayer\ball.hlmt full
+echo import 264C SpartanVISION\Weapons\Multiplayer\flag.hlmt full
+echo import 2087 SpartanVISION\Weapons\Mauler\excavator.hlmt full
+echo import 2407 SpartanVISION\Weapons\Mauler\excavator_variant6.hlmt full
+echo import 20B8 SpartanVISION\Weapons\Magnum\magnum.hlmt full
+echo import 2411 SpartanVISION\Weapons\Magnum\magnum_variant2.hlmt full
+echo import 241A SpartanVISION\Weapons\Magnum\magnum_variant6.hlmt full
+echo import 20E6 SpartanVISION\Weapons\Needler\needler.hlmt full
+echo import 211E SpartanVISION\Weapons\Needler\needler_shard.hlmt full
+echo import 2251 SpartanVISION\Weapons\Plasma_Pistol\plasma_pistol.hlmt full
+echo import 2421 SpartanVISION\Weapons\Plasma_Pistol\plasma_pistol_variant6.hlmt full
+echo import 1B80 SpartanVISION\Weapons\Assault_Rifle\assault_rifle.hlmt full
+echo import 231E SpartanVISION\Weapons\Assault_Rifle\assault_rifle_variant2.hlmt full
+echo import 2341 SpartanVISION\Weapons\Assault_Rifle\assault_rifle_variant3.hlmt full
+echo import 2333 SpartanVISION\Weapons\Assault_Rifle\assault_rifle_variant4.hlmt full
+echo import 2352 SpartanVISION\Weapons\Assault_Rifle\assault_rifle_variant6.hlmt full
+echo import 1D81 SpartanVISION\Weapons\Battle_Rifle\battle_rifle.hlmt full
+echo import 2360 SpartanVISION\Weapons\Battle_Rifle\battle_rifle_variant1.hlmt full
+echo import 236E SpartanVISION\Weapons\Battle_Rifle\battle_rifle_variant2.hlmt full
+echo import 258A SpartanVISION\Weapons\Battle_Rifle\battle_rifle_variant3.hlmt full
+echo import 2580 SpartanVISION\Weapons\Battle_Rifle\battle_rifle_variant4.hlmt full
+echo import 2594 SpartanVISION\Weapons\Battle_Rifle\battle_rifle_variant5.hlmt full
+echo import 2380 SpartanVISION\Weapons\Battle_Rifle\battle_rifle_variant6.hlmt full
+echo import 1DB2 SpartanVISION\Weapons\Covenant_Carbine\covenant_carbine.hlmt full
+echo import 25B9 SpartanVISION\Weapons\Covenant_Carbine\carbine_variant1.hlmt full
+echo import 25CB SpartanVISION\Weapons\Covenant_Carbine\carbine_variant2.hlmt full
+echo import 25D4 SpartanVISION\Weapons\Covenant_Carbine\carbine_variant3.hlmt full
+echo import 25B0 SpartanVISION\Weapons\Covenant_Carbine\carbine_variant4.hlmt full
+echo import 25C2 SpartanVISION\Weapons\Covenant_Carbine\carbine_variant5.hlmt full
+echo import 23FD SpartanVISION\Weapons\Covenant_Carbine\covenant_carbine_variant6.hlmt full
+echo import 1E0B SpartanVISION\Weapons\DMR\dmr.hlmt full
+echo import 259D SpartanVISION\Weapons\DMR\dmr_variant1.hlmt full
+echo import 2391 SpartanVISION\Weapons\DMR\dmr_variant2.hlmt full
+echo import 23B0 SpartanVISION\Weapons\DMR\dmr_variant3.hlmt full
+echo import 23A4 SpartanVISION\Weapons\DMR\dmr_variant4.hlmt full
+echo import 25A6 SpartanVISION\Weapons\DMR\dmr_variant5.hlmt full
+echo import 23BF SpartanVISION\Weapons\DMR\dmr_variant6.hlmt full
+echo import 1E41 SpartanVISION\Weapons\Plasma_Rifle\plasma_rifle.hlmt full
+echo import 23F2 SpartanVISION\Weapons\Plasma_Rifle\plasma_rifle_variant6.hlmt full
+echo import 1EF5 SpartanVISION\Weapons\Shotgun\shotgun.hlmt full
+echo import 1F46 SpartanVISION\Weapons\SMG\smg.hlmt full
+echo import 23E0 SpartanVISION\Weapons\SMG\smg_variant2.hlmt full
+echo import 23D4 SpartanVISION\Weapons\SMG\smg_variant3.hlmt full
+echo import 23CB SpartanVISION\Weapons\SMG\smg_variant4.hlmt full
+echo import 23E9 SpartanVISION\Weapons\SMG\smg_variant6.hlmt full
+echo import 1F88 SpartanVISION\Weapons\Sniper_Rifle\sniper_rifle.hlmt full
+echo import 204F SpartanVISION\Weapons\Spiker\spike_rifle.hlmt full
+echo import 21D5 SpartanVISION\Weapons\Fuel_Rod_Gun\flak_cannon.hlmt full
+echo import 2203 SpartanVISION\Weapons\Fuel_Rod_Gun\flak_bolt.hlmt full
+echo import 1C96 SpartanVISION\Weapons\Rocket_Launcher\rocket_launcher.hlmt full
+echo import 1CEF SpartanVISION\Weapons\Rocket_Launcher\rocket.hlmt full
+echo import 24A1 SpartanVISION\Weapons\Spartan_Laser\spartan_laser.hlmt full
+echo import 1D11 SpartanVISION\Weapons\Brute_Shot\brute_shot.hlmt full
+echo import 1D40 SpartanVISION\Weapons\Brute_Shot\grenade.hlmt full
+echo import 3224 SpartanVISION\Weapons\Sentinel_Gun\sentinel_gun.hlmt full
+echo import 31BD SpartanVISION\Weapons\Flamethrower\flamethrower_weapon.hlmt full
+echo import 2879 SpartanVISION\Weapons\Machinegun_Turret\machinegun_turret_vehicle.hlmt full
+echo import 2198 SpartanVISION\Weapons\Machinegun_Turret\machinegun_turret_weapon.hlmt full
+echo import 2889 SpartanVISION\Weapons\Machinegun_Turret\machinegun_turret_weapon(2).hlmt full
+echo import 3CD2 SpartanVISION\Weapons\Missile_Pod\garbage_tripod.hlmt full
+echo import 3CC8 SpartanVISION\Weapons\Missile_Pod\missile_pod_vehicle.hlmt full
+echo import 2CAB SpartanVISION\Weapons\Missile_Pod\missile_pod_weapon.hlmt full
+echo import 2168 SpartanVISION\Weapons\Missile_Pod\missile.hlmt full
+echo import 2157 SpartanVISION\Weapons\Missile_Pod\missile(2).hlmt full
+echo import 308C SpartanVISION\Weapons\Plasma_Cannon_Turret\plasma_cannon_vehicle.hlmt full
+echo import 309C SpartanVISION\Weapons\Plasma_Cannon_Turret\garbage_tripod_front.hlmt full
+echo import 3098 SpartanVISION\Weapons\Plasma_Cannon_Turret\garbage_tripod_back.hlmt full
+echo import 2524 SpartanVISION\Weapons\Plasma_Cannon_Turret\plasma_cannon_weapon.hlmt full
+
+import 196D SpartanVISION\Equipment\Bubble_Shield\bubbleshield_equipment.hlmt full
+import 1971 SpartanVISION\Equipment\Bubble_Shield\bubbleshield.hlmt full
+import 1A6D SpartanVISION\Equipment\Deployable_Cover\instantcover_equipment.hlmt full
+import 1A70 SpartanVISION\Equipment\Deployable_Cover\instantcover.hlmt full
+import 1A8D SpartanVISION\Equipment\Deployable_Cover\covshield_base.hlmt full
+import 1A9A SpartanVISION\Equipment\Deployable_Cover\covshield_mainflap.hlmt full
+import 1A9E SpartanVISION\Equipment\Deployable_Cover\covshield_rightflap.hlmt full
+import 18A9 SpartanVISION\Equipment\Radar_Jammer\jammer_equipment.hlmt full
+import 18AF SpartanVISION\Equipment\Radar_Jammer\jammer.hlmt full
+import 1934 SpartanVISION\Equipment\Power_Drain\powerdrain_equipment.hlmt full
+import 1B61 SpartanVISION\Equipment\Power_Drain\powerdrain_equipment(2).hlmt full
+import 1B7D SpartanVISION\Equipment\Power_Drain\powerdrain_equipment(3).hlmt full
+import 1B70 SpartanVISION\Equipment\Power_Drain\powerdrain_equipment_2.hlmt full
+import 1B62 SpartanVISION\Equipment\Power_Drain\powerdrain.hlmt full
+import 1936 SpartanVISION\Equipment\Power_Drain\powerdrain(2).hlmt full
+import 1B7F SpartanVISION\Equipment\Power_Drain\powerdrain(3).hlmt full
+import 1B71 SpartanVISION\Equipment\Power_Drain\powerdrain_2.hlmt full
+import 19C3 SpartanVISION\Equipment\Regenerator\regenerator_equipment.hlmt full
+import 19C7 SpartanVISION\Equipment\Regenerator\regenerator.hlmt full
+import 19A3 SpartanVISION\Equipment\Flare\superflare_equipment.hlmt full
+import 19A5 SpartanVISION\Equipment\Flare\superflare.hlmt full
+import 19EB SpartanVISION\Equipment\Trip_Mine\tripmine_equipment.hlmt full
+import 19EE SpartanVISION\Equipment\Trip_Mine\tripmine.hlmt full
+import 1B9C SpartanVISION\Equipment\Large_Ammo_Box\h_ammo_crage_lg).hlmt full
+import 1BB0 SpartanVISION\Equipment\Small_Ammo_Box\h_ammo_crage_sm).hlmt full
+import 317E SpartanVISION\Equipment\Grav_Lift\0000317E.hlmt full
+import 31AC SpartanVISION\Equipment\Power_Ups\000031AC.hlmt full
+import 31B6 SpartanVISION\Equipment\Power_Ups\000031B6.hlmt full
+import 319F SpartanVISION\Equipment\Power_Ups\0000319F.hlmt full
+
+import 2F45 SpartanVISION\Guardian\00002F45.dctr full
+import 2F46 SpartanVISION\Guardian\00002F46.dctr full
+import 2F47 SpartanVISION\Guardian\00002F47.dctr full
+import 2F48 SpartanVISION\Guardian\00002F48.dctr full
+import 2E8B SpartanVISION\Guardian\guardian.sbsp full
+
+import 35F9 SpartanVISION\Valhalla\000035F9.hlmt full
+import 34FB SpartanVISION\Valhalla\000034FB.dctr full
+import 34FC SpartanVISION\Valhalla\000034FC.dctr full
+import 34FD SpartanVISION\Valhalla\000034FD.dctr full
+import 34FE SpartanVISION\Valhalla\000034FE.dctr full
+import 34FF SpartanVISION\Valhalla\000034FF.dctr full
+import 3500 SpartanVISION\Valhalla\00003500.dctr full
+import 3501 SpartanVISION\Valhalla\00003501.dctr full
+import 3502 SpartanVISION\Valhalla\00003502.dctr full
+import 3503 SpartanVISION\Valhalla\00003503.dctr full
+import 3504 SpartanVISION\Valhalla\00003504.dctr full
+import 3505 SpartanVISION\Valhalla\00003505.dctr full
+import 3489 SpartanVISION\Valhalla\riverworld.sbsp full
+
+import 3B20 SpartanVISION\Diamondback\00003B20.dctr full
+import 3B21 SpartanVISION\Diamondback\00003B21.dctr full
+import 3B22 SpartanVISION\Diamondback\00003B22.dctr full
+import 3B23 SpartanVISION\Diamondback\00003B23.dctr full
+import 3B24 SpartanVISION\Diamondback\00003B24.dctr full
+import 3B25 SpartanVISION\Diamondback\00003B25.dctr full
+import 3B26 SpartanVISION\Diamondback\00003B26.dctr full
+import 3B27 SpartanVISION\Diamondback\00003B27.dctr full
+import 3A0F SpartanVISION\Diamondback\s3d_avalanche.sbsp full
+exit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

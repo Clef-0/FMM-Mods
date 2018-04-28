@@ -1,0 +1,3 @@
+TagTool is a custom build that's included with the FlatGrass Source.
+
+TagCMP is for extracting and importing tags without the "Full" parameter.

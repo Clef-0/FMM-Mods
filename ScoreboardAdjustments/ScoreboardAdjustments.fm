@@ -1,0 +1,7 @@
+ECHO FMM_OUTPUT Installing Scoreboard Adjustments...
+
+cd mods\tagMods\ScoreboardAdjustments
+
+Type edit.cmds | TagTool.exe ../../../maps/tags.dat
+
+ECHO FMM_OUTPUT Scoreboard Adjustments installed. ...

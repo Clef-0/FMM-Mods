@@ -1,0 +1,176 @@
+echo altering battle rifle phmo and there variants to match spartan laser to fix weapon placement bug
+
+editTag 0x1D81
+setfield PhysicsModel 0x2505
+savetagchanges
+exit
+
+editTag 0x2360
+setfield PhysicsModel 0x2505
+savetagchanges
+exit
+
+editTag 0x236E
+setfield PhysicsModel 0x2505
+savetagchanges
+exit
+
+editTag 0x258A
+setfield PhysicsModel 0x2505
+savetagchanges
+exit
+
+editTag 0x2580
+setfield PhysicsModel 0x2505
+savetagchanges
+exit
+
+editTag 0x2594
+setfield PhysicsModel 0x2505
+savetagchanges
+exit
+
+editTag 0x2380
+setfield PhysicsModel 0x2505
+savetagchanges
+exit
+
+
+echo altering carbine & variants phmo to fix weapon placement bug
+
+editTag 0x1DB2
+setfield PhysicsModel 0x2505
+savetagchanges
+exit
+
+editTag 0x25B9
+setfield PhysicsModel 0x2505
+savetagchanges
+exit
+
+editTag 0x25CB
+setfield PhysicsModel 0x2505
+savetagchanges
+exit
+
+editTag 0x25D4
+setfield PhysicsModel 0x2505
+savetagchanges
+exit
+
+editTag 0x25B0
+setfield PhysicsModel 0x2505
+savetagchanges
+exit
+
+editTag 0x25C2
+setfield PhysicsModel 0x2505
+savetagchanges
+exit
+
+editTag 0x23Fd
+setfield PhysicsModel 0x2505
+savetagchanges
+exit
+
+
+echo altering smg & variants phmo to fix weapon placement bug
+
+editTag 0x1F46
+setfield PhysicsModel 0x2505
+savetagchanges
+exit
+
+editTag 0x23E0
+setfield PhysicsModel 0x2505
+savetagchanges
+exit
+
+editTag 0x23D4
+setfield PhysicsModel 0x2505
+savetagchanges
+exit
+
+editTag 0x23CB
+setfield PhysicsModel 0x2505
+savetagchanges
+exit
+
+editTag 0x23E9
+setfield PhysicsModel 0x2505
+savetagchanges
+exit
+
+editTag 0x10D3
+setfield PhysicsModel 0x2505
+savetagchanges
+exit
+
+editTag 0x10F8
+setfield PhysicsModel 0x2505
+savetagchanges
+exit
+
+
+echo altering assault rifle & variants phmo to fix weapon placement bug
+
+editTag 0x1B80
+setfield PhysicsModel 0x2505
+savetagchanges
+exit
+
+editTag 0x1F0A
+setfield PhysicsModel 0x2505
+savetagchanges
+exit
+
+editTag 0x231E
+setfield PhysicsModel 0x2505
+savetagchanges
+exit
+
+editTag 0x2341
+setfield PhysicsModel 0x2505
+savetagchanges
+exit
+
+editTag 0x2333
+setfield PhysicsModel 0x2505
+savetagchanges
+exit
+
+editTag 0x0F51
+setfield PhysicsModel 0x2505
+savetagchanges
+exit
+
+editTag 0x2352
+setfield PhysicsModel 0x2505
+savetagchanges
+exit
+
+
+echo altering sniper, shotgun, & sword phmo to fix weapon placement bug
+
+echo SNIPER
+editTag 0x1F88
+setfield PhysicsModel 0x2505
+savetagchanges
+exit
+echo BEAM
+editTag 0x244F
+setfield PhysicsModel 0x2505
+savetagchanges
+exit
+echo SWORD
+editTag 0x22FD
+setfield PhysicsModel 0x2505
+savetagchanges
+exit
+echo SHOTGUN
+editTag 0x1EF5
+setfield PhysicsModel 0x2505
+savetagchanges
+exit
+
+exit

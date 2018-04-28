@@ -1,0 +1,29 @@
+--MULG--
+edit 028E
+
+--ACC--
+setField Universal[0].SpartanArmorCustomization[5].BipedRegion acc
+
+--BUNGIE--
+setField Universal[0].SpartanArmorCustomization[5].Permutations[1].Name xe_effect_bungie
+setField Universal[0].SpartanArmorCustomization[5].Permutations[1].ThirdPersonArmorObject 6F4D
+setField Universal[0].SpartanArmorCustomization[5].Permutations[1].ParentAttachMarker xe_effect_bungie
+setField Universal[0].SpartanArmorCustomization[5].Permutations[1].ChildAttachMarker gear_origin
+
+--ETERNAL--
+setField Universal[0].SpartanArmorCustomization[5].Permutations[2].Name xe_effect_eternal
+setField Universal[0].SpartanArmorCustomization[5].Permutations[2].ThirdPersonArmorObject 6F50
+setField Universal[0].SpartanArmorCustomization[5].Permutations[2].ParentAttachMarker xe_effect_eternal
+setField Universal[0].SpartanArmorCustomization[5].Permutations[2].ChildAttachMarker gear_origin
+
+--HORIZON--
+setField Universal[0].SpartanArmorCustomization[5].Permutations[3].Name xe_effect_horizon
+setField Universal[0].SpartanArmorCustomization[5].Permutations[3].ThirdPersonArmorObject NULL
+setField Universal[0].SpartanArmorCustomization[5].Permutations[3].Unknown 1
+setField Universal[0].SpartanArmorCustomization[5].Permutations[3].ParentAttachMarker xe_effect_horizon
+setField Universal[0].SpartanArmorCustomization[5].Permutations[3].ChildAttachMarker gear_origin
+SaveChanges
+exit
+
+dumplog x_UserMods-x2.txt
+exit

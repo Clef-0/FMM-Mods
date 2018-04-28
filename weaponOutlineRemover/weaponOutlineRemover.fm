@@ -1,0 +1,5 @@
+ECHO FMM_OUTPUT Installing weaponOutlineRemover ...
+cd mods\tagMods\weaponOutlineRemover
+
+Type weaponOutlineRemover.cmds | TagTool.exe ../../../maps/tags.dat
+

@@ -1,0 +1,8 @@
+ECHO FMM_OUTPUT Installing Snow Valhalla...
+cd mods\tagMods\Snowverhaul\SnowverhaulMap
+
+
+Type SnowverhaulMAP.cmds | TagTool.exe ..\..\..\..\maps\tags.dat
+
+
+ECHO FMM_OUTPUT Snow Valhalla Installation completed.

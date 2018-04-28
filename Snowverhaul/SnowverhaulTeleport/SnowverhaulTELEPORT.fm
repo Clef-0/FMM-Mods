@@ -1,0 +1,7 @@
+ECHO FMM_OUTPUT Installing Snow Teleporters...
+cd mods\tagMods\Snowverhaul\SnowverhaulTeleport
+
+Type SnowverhaulTELEPORT.cmds | TagTool.exe ..\..\..\..\maps\tags.dat
+
+ECHO FMM_OUTPUT Snow Teleporters completed.
+

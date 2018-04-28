@@ -1,0 +1,5 @@
+EditTag 0x00000C51
+SetField Unknown 0
+SetField Unknown2 0
+SaveTagChanges
+exit

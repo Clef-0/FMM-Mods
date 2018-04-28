@@ -1,0 +1,9 @@
+EditTag 0x00001E3C
+EditBlock Size[0]
+EditBlock Animation[1]
+SetField StretchX 3
+SetField StretchY 3
+exit
+exit
+SaveTagChanges
+exit

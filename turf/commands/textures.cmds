@@ -1,0 +1,14 @@
+edit 43E0
+import 0 resources\textures\section43e0.dds
+exit
+edit 4267
+import 0 resources\textures\signs_4267_3c09.dds
+exit
+edit 3BFC
+import 0 resources\textures\signs3bfc.dds
+exit
+edit 43E2
+import 0 resources\textures\unsc43e2.dds
+exit
+
+dumplog turfTextures.log

@@ -1,0 +1,16 @@
+SetLocale US
+EditTag 0x000025A7
+EditBlock HudWidgets[2]
+EditBlock BitmapWidgets[0]
+EditBlock PlacementData[0]
+SetField Scale 0.65 0.65
+exit
+exit
+EditBlock BitmapWidgets[2]
+EditBlock PlacementData[0]
+SetField Scale 0.7 0.7
+exit
+exit
+exit
+SaveTagChanges
+exit

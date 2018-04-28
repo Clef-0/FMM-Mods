@@ -1,0 +1,95 @@
+//Narrows
+edittag 0x00004BCF
+editblock atmosphereproperties[0]
+setfield foggradientthreshold -80
+savetagchanges
+exit
+exit
+
+//Standoff
+edittag 0x00004F0F
+editblock atmosphereproperties[0]
+setfield foggradientthreshold -80
+savetagchanges
+exit
+exit
+
+//Pit
+edittag 0x4a01
+editblock atmosphereproperties[0]
+setfield foggradientthreshold -80
+savetagchanges
+exit
+exit
+
+//HighGround
+edittag 0x000054E2
+editblock atmosphereproperties[0]
+setfield foggradientthreshold -80
+savetagchanges
+exit
+exit
+
+//Guardian
+edittag 0x00002EF9
+editblock atmosphereproperties[0]
+setfield foggradientthreshold -80
+savetagchanges
+exit
+exit
+
+//Valhalla 
+edittag 0x000054E2
+editblock atmosphereproperties[0]
+setfield foggradientthreshold -80
+savetagchanges
+exit
+exit
+
+//Diamondback
+edittag 0x00003AAA
+editblock atmosphereproperties[0]
+setfield foggradientthreshold -80
+savetagchanges
+exit
+exit
+
+//Edge
+edittag 0x00003E0E
+editblock atmosphereproperties[0]
+setfield foggradientthreshold -80
+savetagchanges
+exit
+exit
+
+//Reactor
+edittag 0x00003FDB
+editblock atmosphereproperties[0]
+setfield foggradientthreshold -80
+savetagchanges
+exit
+exit
+
+//Turf
+edittag 0x00004229
+editblock atmosphereproperties[0]
+setfield foggradientthreshold -80
+savetagchanges
+exit
+exit
+
+//Sandtrap
+edittag 0x0000571E
+editblock atmosphereproperties[0]
+setfield foggradientthreshold -80
+savetagchanges
+exit
+exit
+
+//Zanzibar
+edittag 0x00005240
+editblock atmosphereproperties[0]
+setfield foggradientthreshold -80
+savetagchanges
+exit
+exit

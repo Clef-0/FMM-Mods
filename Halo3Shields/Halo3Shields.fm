@@ -1,0 +1,8 @@
+ECHO FMM_OUTPUT Installing Halo3Shields
+cd mods\tagMods\Halo3Shields\
+
+
+Type Halo3Shields.cmds | TagTool.exe ../../../maps/tags.dat
+
+
+ECHO FMM_OUTPUT Installation Complete.

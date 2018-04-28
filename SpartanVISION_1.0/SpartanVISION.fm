@@ -1,0 +1,3 @@
+ECHO FMM_OUTPUT Installing SpartanVISION
+cd mods\tagmods\SpartanVISION_1.0
+Type SpartanVISION.cmds | HaloOnlineTagTool.exe ..\..\..\maps\tags.dat

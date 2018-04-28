@@ -1,0 +1,32 @@
+edittag 0x01DD 
+setfield Attachments[0].Attachment2 0x0E5D
+ExitTo tags
+edittag 0x0E5D
+setfield Events[0].ParticleSystems[0].Emitters[0].CompiledColorValues[0].Red 1
+setfield Events[0].ParticleSystems[0].Emitters[0].CompiledColorValues[0].Green 0.8627451
+setfield Events[0].ParticleSystems[0].Emitters[0].CompiledColorValues[0].Blue 0.3960784
+setfield Events[0].ParticleSystems[0].Emitters[0].CompiledColorValues[1].Red 1
+setfield Events[0].ParticleSystems[0].Emitters[0].CompiledColorValues[1].Green 0.8627451
+setfield Events[0].ParticleSystems[0].Emitters[0].CompiledColorValues[1].Blue 0.3960784
+setfield Events[0].ParticleSystems[0].Emitters[0].CompiledColorValues[2].Red 1
+setfield Events[0].ParticleSystems[0].Emitters[0].CompiledColorValues[2].Green 0.8627451
+setfield Events[0].ParticleSystems[0].Emitters[0].CompiledColorValues[2].Blue 0.3960784
+setfield Events[0].ParticleSystems[0].Emitters[0].CompiledColorValues[3].Red 1
+setfield Events[0].ParticleSystems[0].Emitters[0].CompiledColorValues[3].Green 0.8627451
+setfield Events[0].ParticleSystems[0].Emitters[0].CompiledColorValues[3].Blue 0.3960784
+setfield Events[0].ParticleSystems[0].Emitters[0].CompiledColorValues[4].Red 1
+setfield Events[0].ParticleSystems[0].Emitters[0].CompiledColorValues[4].Green 0.8627451
+setfield Events[0].ParticleSystems[0].Emitters[0].CompiledColorValues[4].Blue 0.3960784
+setfield Events[0].ParticleSystems[1].Emitters[0].CompiledColorValues[0].Red 1
+setfield Events[0].ParticleSystems[1].Emitters[0].CompiledColorValues[0].Green 0.8627451
+setfield Events[0].ParticleSystems[1].Emitters[0].CompiledColorValues[0].Blue 0.3960784
+setfield Events[0].ParticleSystems[1].Emitters[0].CompiledColorValues[1].Red 1
+setfield Events[0].ParticleSystems[1].Emitters[0].CompiledColorValues[1].Green 0.8627451
+setfield Events[0].ParticleSystems[1].Emitters[0].CompiledColorValues[1].Blue 0.3960784
+setfield Events[0].ParticleSystems[1].Emitters[0].CompiledColorValues[2].Red 1
+setfield Events[0].ParticleSystems[1].Emitters[0].CompiledColorValues[2].Green 0.8627451
+setfield Events[0].ParticleSystems[1].Emitters[0].CompiledColorValues[2].Blue 0.3960784
+setfield Events[0].ParticleSystems[1].Emitters[0].CompiledColorValues[3].Red 1
+setfield Events[0].ParticleSystems[1].Emitters[0].CompiledColorValues[3].Green 0.8627451
+setfield Events[0].ParticleSystems[1].Emitters[0].CompiledColorValues[3].Blue 0.3960784
+savetagchanges

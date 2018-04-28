@@ -1,0 +1,34 @@
+// SNOWVERHAUL V1.1 created by RejectedShotgun (ElDewrito 0.6)
+====
+echo
+//
+STOP
+
+import 34F9 Shaders\34F9
+
+importbitmap 355B DDS\snow_fluffy.dds
+importbitmap 3544 DDS\snow.dds
+importbitmap 3543 DDS\snowrock2.dds
+importbitmap 3513 DDS\snowrock.dds
+importbitmap 3564 DDS\snowoverlay.dds
+importbitmap 3553 DDS\snowrock.dds
+importbitmap 35A5 DDS\empty.dds
+importbitmap 35A7 DDS\empty.dds
+importbitmap 35A9 DDS\empty.dds
+importbitmap 35AB DDS\empty.dds
+importbitmap 35AD DDS\empty.dds
+importbitmap 35AF DDS\empty.dds
+importbitmap 35B1 DDS\grass6.dds
+importbitmap 35B3 DDS\empty.dds
+importbitmap 35B5 DDS\grass8.dds
+importbitmap 3572 DDS\leaves1.dds
+importbitmap 3579 DDS\leaves2.dds
+importbitmap 39AE DDS\39AE.dds
+importbitmap 39AF DDS\39AF.dds
+importbitmap 39B0 DDS\39B0.dds
+importbitmap 39B2 DDS\39B2.dds
+importbitmap 39B5 DDS\39B5.dds
+
+dumplog snowhalla.log
+
+exit

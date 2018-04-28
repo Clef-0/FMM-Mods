@@ -1,0 +1,4 @@
+ECHO FMM_OUTPUT Installing Airglow.....
+cd mods\tagMods\Airglow
+Type Sirius_Technologies\Airglow\Airglow.cmds | HaloOnlineTagTool.exe ..\..\..\maps\tags.dat
+Type Sirius_Technologies\Airglow\overshields_white.cmds | HaloOnlineTagTool.exe ..\..\..\maps\tags.dat

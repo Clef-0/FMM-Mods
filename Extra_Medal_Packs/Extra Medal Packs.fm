@@ -1,0 +1,7 @@
+ECHO FMM_OUTPUT Installing Extra Medal Packs...
+
+cd "mods\tagMods\Extra_Medal_Packs"
+
+"Install Extra Medal Packs.bat"
+
+ECHO FMM_OUTPUT Extra Medal Packs installed! 

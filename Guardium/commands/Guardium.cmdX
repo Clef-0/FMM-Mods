@@ -1,0 +1,189 @@
+XXXX
+ XXXX 
+0000
+shadDefault
+STOP
+
+import shadDefault 3E3B_rmshTemplate
+edit 2E8B
+SetField Materials[000].RenderMethod shadDefault
+SetField Materials[001].RenderMethod shadDefault
+SetField Materials[002].RenderMethod shadDefault
+SetField Materials[003].RenderMethod shadDefault
+SetField Materials[004].RenderMethod shadDefault
+SetField Materials[005].RenderMethod shadDefault
+SetField Materials[006].RenderMethod shadDefault
+SetField Materials[007].RenderMethod shadDefault
+SetField Materials[008].RenderMethod shadDefault
+SetField Materials[009].RenderMethod shadDefault
+SetField Materials[010].RenderMethod shadDefault
+SetField Materials[011].RenderMethod shadDefault
+SetField Materials[012].RenderMethod shadDefault
+SetField Materials[013].RenderMethod shadDefault
+SetField Materials[014].RenderMethod shadDefault
+SetField Materials[015].RenderMethod shadDefault
+SetField Materials[016].RenderMethod shadDefault
+SetField Materials[017].RenderMethod shadDefault
+SetField Materials[018].RenderMethod shadDefault
+SetField Materials[019].RenderMethod shadDefault
+SetField Materials[020].RenderMethod shadDefault
+SetField Materials[021].RenderMethod shadDefault
+SetField Materials[022].RenderMethod shadDefault
+SetField Materials[023].RenderMethod shadDefault
+SetField Materials[024].RenderMethod shadDefault
+SetField Materials[025].RenderMethod shadDefault
+SetField Materials[026].RenderMethod shadDefault
+SetField Materials[027].RenderMethod shadDefault
+SetField Materials[028].RenderMethod shadDefault
+SetField Materials[029].RenderMethod shadDefault
+SetField Materials[030].RenderMethod shadDefault
+SetField Materials[031].RenderMethod shadDefault
+SetField Materials[032].RenderMethod shadDefault
+SetField Materials[033].RenderMethod shadDefault
+SetField Materials[034].RenderMethod shadDefault
+SetField Materials[035].RenderMethod shadDefault
+SetField Materials[036].RenderMethod shadDefault
+SetField Materials[037].RenderMethod shadDefault
+SetField Materials[038].RenderMethod shadDefault
+SetField Materials[039].RenderMethod shadDefault
+SetField Materials[040].RenderMethod shadDefault
+SetField Materials[041].RenderMethod shadDefault
+SetField Materials[042].RenderMethod shadDefault
+SetField Materials[043].RenderMethod shadDefault
+SetField Materials[044].RenderMethod null
+SetField Materials[045].RenderMethod shadDefault
+SetField Materials[046].RenderMethod shadDefault
+SetField Materials[047].RenderMethod shadDefault
+SetField Materials[048].RenderMethod shadDefault
+SetField Materials[049].RenderMethod shadDefault
+SetField Materials[050].RenderMethod shadDefault
+SetField Materials[051].RenderMethod shadDefault
+SetField Materials[052].RenderMethod shadDefault
+SetField Materials[053].RenderMethod shadDefault
+SetField Materials[054].RenderMethod shadDefault
+SetField Materials[055].RenderMethod shadDefault
+SetField Materials[056].RenderMethod shadDefault
+SetField Materials[057].RenderMethod shadDefault
+SetField Materials[058].RenderMethod shadDefault
+SetField Materials[059].RenderMethod shadDefault
+SetField Materials[060].RenderMethod shadDefault
+SetField Materials[061].RenderMethod shadDefault
+SetField Materials[062].RenderMethod shadDefault
+SetField Materials[063].RenderMethod shadDefault
+SetField Materials[064].RenderMethod shadDefault
+SetField Materials[065].RenderMethod shadDefault
+SetField Materials[066].RenderMethod shadDefault
+SetField Materials[067].RenderMethod shadDefault
+SetField Materials[068].RenderMethod shadDefault
+SetField Materials[069].RenderMethod shadDefault
+SetField Materials[070].RenderMethod shadDefault
+SetField Materials[071].RenderMethod shadDefault
+SetField Materials[072].RenderMethod shadDefault
+SetField Materials[073].RenderMethod shadDefault
+SetField Materials[074].RenderMethod shadDefault
+SetField Materials[075].RenderMethod shadDefault
+SetField Materials[076].RenderMethod shadDefault
+SetField Materials[077].RenderMethod shadDefault
+SetField Materials[078].RenderMethod shadDefault
+SetField Materials[079].RenderMethod shadDefault
+SetField Materials[080].RenderMethod shadDefault
+SetField Materials[081].RenderMethod shadDefault
+SetField Materials[082].RenderMethod shadDefault
+SetField Materials[083].RenderMethod shadDefault
+SetField Materials[084].RenderMethod shadDefault
+SetField Materials[085].RenderMethod shadDefault
+SetField Materials[086].RenderMethod shadDefault
+SetField Materials[087].RenderMethod shadDefault
+savechanges
+exit
+
+edit 2E8B
+SetField CollisionMaterials[000].Shader shadDefault
+SetField CollisionMaterials[001].Shader shadDefault
+SetField CollisionMaterials[002].Shader shadDefault
+SetField CollisionMaterials[003].Shader shadDefault
+SetField CollisionMaterials[004].Shader shadDefault
+SetField CollisionMaterials[005].Shader shadDefault
+SetField CollisionMaterials[006].Shader shadDefault
+SetField CollisionMaterials[007].Shader shadDefault
+SetField CollisionMaterials[008].Shader shadDefault
+SetField CollisionMaterials[009].Shader shadDefault
+SetField CollisionMaterials[010].Shader shadDefault
+SetField CollisionMaterials[011].Shader shadDefault
+SetField CollisionMaterials[012].Shader shadDefault
+SetField CollisionMaterials[013].Shader shadDefault
+SetField CollisionMaterials[014].Shader shadDefault
+SetField CollisionMaterials[015].Shader shadDefault
+SetField CollisionMaterials[016].Shader shadDefault
+SetField CollisionMaterials[017].Shader shadDefault
+SetField CollisionMaterials[018].Shader shadDefault
+SetField CollisionMaterials[019].Shader shadDefault
+SetField CollisionMaterials[020].Shader shadDefault
+SetField CollisionMaterials[021].Shader shadDefault
+SetField CollisionMaterials[022].Shader shadDefault
+SetField CollisionMaterials[023].Shader shadDefault
+SetField CollisionMaterials[024].Shader shadDefault
+SetField CollisionMaterials[025].Shader shadDefault
+SetField CollisionMaterials[026].Shader shadDefault
+SetField CollisionMaterials[027].Shader shadDefault
+SetField CollisionMaterials[028].Shader shadDefault
+SetField CollisionMaterials[029].Shader shadDefault
+SetField CollisionMaterials[030].Shader shadDefault
+SetField CollisionMaterials[031].Shader shadDefault
+SetField CollisionMaterials[032].Shader shadDefault
+SetField CollisionMaterials[033].Shader shadDefault
+SetField CollisionMaterials[034].Shader shadDefault
+SetField CollisionMaterials[035].Shader shadDefault
+SetField CollisionMaterials[036].Shader shadDefault
+SetField CollisionMaterials[037].Shader shadDefault
+SetField CollisionMaterials[038].Shader shadDefault
+SetField CollisionMaterials[039].Shader shadDefault
+SetField CollisionMaterials[040].Shader shadDefault
+SetField CollisionMaterials[041].Shader shadDefault
+SetField CollisionMaterials[042].Shader shadDefault
+SetField CollisionMaterials[043].Shader shadDefault
+SetField CollisionMaterials[044].Shader shadDefault
+SetField CollisionMaterials[045].Shader shadDefault
+SetField CollisionMaterials[046].Shader shadDefault
+SetField CollisionMaterials[047].Shader shadDefault
+SetField CollisionMaterials[048].Shader shadDefault
+SetField CollisionMaterials[049].Shader shadDefault
+SetField CollisionMaterials[050].Shader shadDefault
+SetField CollisionMaterials[051].Shader shadDefault
+SetField CollisionMaterials[052].Shader shadDefault
+SetField CollisionMaterials[053].Shader shadDefault
+SetField CollisionMaterials[054].Shader shadDefault
+SetField CollisionMaterials[055].Shader shadDefault
+SetField CollisionMaterials[056].Shader shadDefault
+SetField CollisionMaterials[057].Shader shadDefault
+SetField CollisionMaterials[058].Shader shadDefault
+SetField CollisionMaterials[059].Shader shadDefault
+SetField CollisionMaterials[060].Shader shadDefault
+SetField CollisionMaterials[061].Shader shadDefault
+SetField CollisionMaterials[062].Shader shadDefault
+SetField CollisionMaterials[063].Shader shadDefault
+SetField CollisionMaterials[064].Shader shadDefault
+SetField CollisionMaterials[065].Shader shadDefault
+SetField CollisionMaterials[066].Shader shadDefault
+SetField CollisionMaterials[067].Shader shadDefault
+SetField CollisionMaterials[068].Shader shadDefault
+savechanges
+exit
+
+edit shadDefault
+SpecifyBitmaps
+0343
+0343
+0376
+0376
+02B7
+exit
+
+
+dumplog Guardinium.log XXXX exitTo tags.dat XXXX exit XXXX exit
+
+00 3EB8 base_map
+01 0343 detail_map
+02 3EB9 bump_map
+03 0378 bump_detail_map
+04 02B7 material_texture

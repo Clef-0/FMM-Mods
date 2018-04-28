@@ -1,0 +1,21 @@
+import ssl.lib.ui.ui_widget_container
+import ssl.hf2p.engine_ctrl
+import ssl.lib.logging
+import ssl.hf2p.ui_ingame
+
+class UiScoreboardRoundInfo : UiWidgetContainer
+   
+handle OnEnteringState("Initial")
+   Props().visible := false
+end
+
+handle OnEnteringState("Visible")
+   // Disabled for FFA support
+   // - Alex-231
+   //if (not $UiIngame.IsTeamMode())
+   //   return
+   //end
+         
+   Props().visible := true
+end
+end
