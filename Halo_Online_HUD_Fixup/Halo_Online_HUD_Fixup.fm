@@ -1,4 +1,0 @@
-ECHO FMM_OUTPUT Installing Halo Online Hud Fixup.....
-cd mods\tagMods\Halo_Online_HUD_Fixup
-Type "import.cmds" | HaloOnlineTagTool.exe ..\..\..\maps\tags.dat
-echo FMM_OUTPUT [HUD Fixup] Done
