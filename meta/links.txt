@@ -4,3 +4,4 @@ https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Minimal_Hud/Mhud.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/snowhalla/Snowhalla.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Airglow/Airglow.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/RedSword/RedSword.ini
+https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/H3_Style_Brute_Weapons/H3Brute.ini

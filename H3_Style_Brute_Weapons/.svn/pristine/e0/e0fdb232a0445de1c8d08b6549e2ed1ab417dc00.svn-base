@@ -1,0 +1,7 @@
+ECHO FMM_OUTPUT Colorizing the energy blade to red for Halo Wars 2 hype...
+
+cd mods\tagMods\RedSword
+
+Type RedSword.cmds | TagTool.exe ../../../maps/tags.dat
+
+ECHO FMM_OUTPUT RedSword installed! Your energy swords will now appear red! 
