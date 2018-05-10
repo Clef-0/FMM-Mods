@@ -1,0 +1,295 @@
+echo   Installing Halo Reach Battle Rifle
+
+createtag bitm
+nametag * objects\weapons\rifle\battle_rifle\reach_br\dmr_body_bump
+edittag objects\weapons\rifle\battle_rifle\reach_br\dmr_body_bump.bitmap
+importbitmap 0 DDS/dmr_body_bump.dds
+savetagchanges
+exit
+
+createtag bitm
+nametag * objects\weapons\rifle\battle_rifle\reach_br\dmr_body
+edittag objects\weapons\rifle\battle_rifle\reach_br\dmr_body.bitmap
+importbitmap 0 DDS/dmr_body.dds
+savetagchanges
+exit
+
+createtag bitm
+nametag * objects\weapons\rifle\battle_rifle\reach_br\mat
+edittag objects\weapons\rifle\battle_rifle\reach_br\mat.bitmap
+importbitmap 0 DDS/mat.dds
+savetagchanges
+exit
+
+duplicatetag 0x0F72
+nametag * objects\weapons\rifle\battle_rifle\reach_br\dmr_body_shader
+edittag objects\weapons\rifle\battle_rifle\reach_br\dmr_body_shader.shader
+editblock shaderproperties[0]
+editblock shadermaps[0]
+setfield bitmap objects\weapons\rifle\battle_rifle\reach_br\dmr_body.bitmap
+exit
+editblock shadermaps[3]
+setfield bitmap objects\weapons\rifle\battle_rifle\reach_br\dmr_body_bump.bitmap
+exit
+editblock shadermaps[7]
+setfield bitmap objects\weapons\rifle\battle_rifle\reach_br\mat.bitmap
+exit
+exit
+savetagchanges
+exit
+
+createtag bitm
+nametag * objects\weapons\rifle\battle_rifle\reach_br\br_handle
+edittag objects\weapons\rifle\battle_rifle\reach_br\br_handle.bitmap
+importbitmap 0 DDS/br_handle.dds
+savetagchanges
+exit
+
+duplicatetag 0x3AB0
+nametag * objects\weapons\rifle\battle_rifle\reach_br\br_handle_shader
+edittag objects\weapons\rifle\battle_rifle\reach_br\br_handle_shader.shader
+editblock shaderproperties[0]
+editblock shadermaps[0]
+setfield bitmap objects\weapons\rifle\battle_rifle\reach_br\br_handle.bitmap
+exit
+exit
+savetagchanges
+exit
+
+createtag bitm
+nametag * objects\weapons\rifle\battle_rifle\reach_br\ar_body
+edittag objects\weapons\rifle\battle_rifle\reach_br\ar_body.bitmap
+importbitmap 0 DDS/ar_body.dds
+savetagchanges
+exit
+
+duplicatetag 0x3AB0
+nametag * objects\weapons\rifle\battle_rifle\reach_br\ar_body_shader
+edittag objects\weapons\rifle\battle_rifle\reach_br\ar_body_shader.shader
+editblock shaderproperties[0]
+editblock shadermaps[0]
+setfield bitmap objects\weapons\rifle\battle_rifle\reach_br\ar_body.bitmap
+exit
+exit
+savetagchanges
+exit
+
+createtag bitm
+nametag * objects\weapons\rifle\battle_rifle\reach_br\bullet_plate
+edittag objects\weapons\rifle\battle_rifle\reach_br\bullet_plate.bitmap
+importbitmap 0 DDS/bullet_plate.dds
+savetagchanges
+exit
+
+duplicatetag 0x0EE6
+nametag * objects\weapons\rifle\battle_rifle\reach_br\bullet_plate_shader
+edittag objects\weapons\rifle\battle_rifle\reach_br\bullet_plate_shader.shader
+editblock shaderproperties[0]
+editblock shadermaps[0]
+setfield bitmap objects\weapons\rifle\battle_rifle\reach_br\bullet_plate.bitmap
+exit
+exit
+savetagchanges
+exit
+
+createtag bitm
+nametag * objects\weapons\rifle\battle_rifle\reach_br\compass
+edittag objects\weapons\rifle\battle_rifle\reach_br\compass.bitmap
+importbitmap 0 DDS/compass/0.dds
+addblockelements images 7
+addblockelements resources 7
+setfield resources[1].resource null
+setfield resources[2].resource null
+setfield resources[3].resource null
+setfield resources[4].resource null
+setfield resources[5].resource null
+setfield resources[6].resource null
+setfield resources[7].resource null
+importbitmap 1 DDS/compass/1.dds
+importbitmap 2 DDS/compass/2.dds
+importbitmap 3 DDS/compass/3.dds
+importbitmap 4 DDS/compass/4.dds
+importbitmap 5 DDS/compass/5.dds
+importbitmap 6 DDS/compass/6.dds
+importbitmap 7 DDS/compass/7.dds
+savetagchanges
+exit
+
+duplicatetag 0x3AB0
+nametag * objects\weapons\rifle\battle_rifle\reach_br\compass_shader
+edittag objects\weapons\rifle\battle_rifle\reach_br\compass_shader.shader
+editblock shaderproperties[0]
+editblock shadermaps[0]
+setfield bitmap objects\weapons\rifle\battle_rifle\reach_br\compass.bitmap
+exit
+exit
+savetagchanges
+exit
+
+createtag bitm
+nametag * objects\weapons\rifle\battle_rifle\reach_br\display
+edittag objects\weapons\rifle\battle_rifle\reach_br\display.bitmap
+importbitmap 0 DDS/display.dds
+savetagchanges
+exit
+
+duplicatetag 0x3AB0
+nametag * objects\weapons\rifle\battle_rifle\reach_br\display_shader
+edittag objects\weapons\rifle\battle_rifle\reach_br\display_shader.shader
+editblock shaderproperties[0]
+setfield template 0x0EFC
+removeblockelements shadermaps 1 1
+editblock shadermaps[0]
+setfield bitmap objects\weapons\rifle\battle_rifle\reach_br\display.bitmap
+exit
+addblockelements arguments 1
+setfield arguments[0].arg1 0
+setfield arguments[0].arg2 0
+setfield arguments[0].arg3 0
+setfield arguments[0].arg4 1
+setfield arguments[1].arg1 1
+setfield arguments[1].arg2 1
+setfield arguments[1].arg3 0
+setfield arguments[1].arg4 0
+setfield arguments[2].arg1 0.1058824
+setfield arguments[2].arg2 0.4705883
+setfield arguments[2].arg3 0.4666667
+setfield arguments[2].arg4 1
+setfield arguments[3].arg1 1
+setfield arguments[3].arg2 1
+setfield arguments[3].arg3 1
+setfield arguments[3].arg4 1
+exit
+savetagchanges
+exit
+
+createtag bitm
+nametag * objects\weapons\rifle\battle_rifle\reach_br\skull
+edittag objects\weapons\rifle\battle_rifle\reach_br\skull.bitmap
+importbitmap 0 DDS/skull.dds
+savetagchanges
+exit
+
+duplicatetag 0x0EE6
+nametag * objects\weapons\rifle\battle_rifle\reach_br\skull_shader
+edittag objects\weapons\rifle\battle_rifle\reach_br\skull_shader.shader
+editblock shaderproperties[0]
+editblock shadermaps[0]
+setfield bitmap objects\weapons\rifle\battle_rifle\reach_br\skull.bitmap
+exit
+exit
+savetagchanges
+exit
+
+createtag bitm
+nametag * objects\weapons\rifle\battle_rifle\reach_br\dmr_storm
+edittag objects\weapons\rifle\battle_rifle\reach_br\dmr_storm.bitmap
+importbitmap 0 DDS/dmr_storm.dds
+savetagchanges
+exit
+
+duplicatetag 0x3AB0
+nametag * objects\weapons\rifle\battle_rifle\reach_br\dmr_storm_shader
+edittag objects\weapons\rifle\battle_rifle\reach_br\dmr_storm_shader.shader
+editblock shaderproperties[0]
+editblock shadermaps[0]
+setfield bitmap objects\weapons\rifle\battle_rifle\reach_br\dmr_storm.bitmap
+exit
+exit
+savetagchanges
+exit
+
+createtag bitm
+nametag * objects\weapons\rifle\battle_rifle\reach_br\unsc_decals
+edittag objects\weapons\rifle\battle_rifle\reach_br\unsc_decals.bitmap
+importbitmap 0 DDS/unsc_decals.dds
+savetagchanges
+exit
+
+duplicatetag 0x3AB0
+nametag * objects\weapons\rifle\battle_rifle\reach_br\unsc_decals_shader
+edittag objects\weapons\rifle\battle_rifle\reach_br\unsc_decals_shader.shader
+editblock shaderproperties[0]
+editblock shadermaps[0]
+setfield bitmap objects\weapons\rifle\battle_rifle\reach_br\unsc_decals.bitmap
+exit
+exit
+savetagchanges
+exit
+
+edittag 0x0F96
+importbitmap 0 DDS/ones/0.dds
+importbitmap 1 DDS/ones/1.dds
+importbitmap 2 DDS/ones/2.dds
+importbitmap 3 DDS/ones/3.dds
+importbitmap 4 DDS/ones/4.dds
+importbitmap 5 DDS/ones/5.dds
+importbitmap 6 DDS/ones/6.dds
+importbitmap 7 DDS/ones/7.dds
+importbitmap 8 DDS/ones/8.dds
+importbitmap 9 DDS/ones/9.dds
+savetagchanges
+exit
+
+edittag 0x0F95
+importbitmap 0 DDS/ones/0.dds
+importbitmap 1 DDS/ones/1.dds
+importbitmap 2 DDS/ones/2.dds
+importbitmap 3 DDS/ones/3.dds
+importbitmap 4 DDS/ones/4.dds
+importbitmap 5 DDS/ones/5.dds
+importbitmap 6 DDS/ones/6.dds
+importbitmap 7 DDS/ones/7.dds
+importbitmap 8 DDS/ones/8.dds
+importbitmap 9 DDS/ones/9.dds
+savetagchanges
+exit
+
+importtag 0x0F71 tags\reachBR.render_model
+edittag 0x0F71
+replacerendergeometry tags\reachBR.dae
+setfield materials[0].rendermethod objects\weapons\rifle\battle_rifle\reach_br\ar_body_shader.shader
+setfield materials[1].rendermethod objects\weapons\rifle\battle_rifle\reach_br\ar_body_shader.shader
+setfield materials[2].rendermethod objects\weapons\rifle\battle_rifle\reach_br\br_handle_shader.shader
+setfield materials[3].rendermethod objects\weapons\rifle\battle_rifle\reach_br\compass_shader.shader
+setfield materials[4].rendermethod objects\weapons\rifle\battle_rifle\reach_br\display_shader.shader
+setfield materials[5].rendermethod objects\weapons\rifle\battle_rifle\reach_br\dmr_body_shader.shader
+setfield materials[6].rendermethod objects\weapons\rifle\battle_rifle\reach_br\dmr_body_shader.shader
+setfield materials[7].rendermethod objects\weapons\rifle\battle_rifle\reach_br\dmr_body_shader.shader
+setfield materials[8].rendermethod objects\weapons\rifle\battle_rifle\reach_br\dmr_body_shader.shader
+setfield materials[9].rendermethod objects\weapons\rifle\battle_rifle\reach_br\dmr_body_shader.shader
+setfield materials[10].rendermethod objects\weapons\rifle\battle_rifle\reach_br\dmr_body_shader.shader
+setfield materials[11].rendermethod objects\weapons\rifle\battle_rifle\reach_br\bullet_plate_shader.shader
+setfield materials[12].rendermethod objects\weapons\rifle\battle_rifle\reach_br\skull_shader.shader
+setfield materials[14].rendermethod objects\weapons\rifle\battle_rifle\reach_br\dmr_storm_shader.shader
+setfield materials[15].rendermethod 0x0F7A
+setfield materials[16].rendermethod objects\weapons\rifle\battle_rifle\reach_br\unsc_decals_shader.shader
+setfield materials[17].rendermethod 0x0F79
+savetagchanges
+exit
+
+importtag 0x1DA0 tags\reachBR3p.render_model
+edittag 0x1DA0
+replacerendergeometry tags\reachBR.dae
+setfield materials[0].rendermethod objects\weapons\rifle\battle_rifle\reach_br\ar_body_shader.shader
+setfield materials[1].rendermethod objects\weapons\rifle\battle_rifle\reach_br\ar_body_shader.shader
+setfield materials[2].rendermethod objects\weapons\rifle\battle_rifle\reach_br\br_handle_shader.shader
+setfield materials[3].rendermethod objects\weapons\rifle\battle_rifle\reach_br\compass_shader.shader
+setfield materials[4].rendermethod objects\weapons\rifle\battle_rifle\reach_br\display_shader.shader
+setfield materials[5].rendermethod objects\weapons\rifle\battle_rifle\reach_br\dmr_body_shader.shader
+setfield materials[6].rendermethod objects\weapons\rifle\battle_rifle\reach_br\dmr_body_shader.shader
+setfield materials[7].rendermethod objects\weapons\rifle\battle_rifle\reach_br\dmr_body_shader.shader
+setfield materials[8].rendermethod objects\weapons\rifle\battle_rifle\reach_br\dmr_body_shader.shader
+setfield materials[9].rendermethod objects\weapons\rifle\battle_rifle\reach_br\dmr_body_shader.shader
+setfield materials[10].rendermethod objects\weapons\rifle\battle_rifle\reach_br\dmr_body_shader.shader
+setfield materials[11].rendermethod objects\weapons\rifle\battle_rifle\reach_br\bullet_plate_shader.shader
+setfield materials[12].rendermethod objects\weapons\rifle\battle_rifle\reach_br\skull_shader.shader
+setfield materials[14].rendermethod objects\weapons\rifle\battle_rifle\reach_br\dmr_storm_shader.shader
+setfield materials[15].rendermethod 0x1DA5
+setfield materials[16].rendermethod objects\weapons\rifle\battle_rifle\reach_br\unsc_decals_shader.shader
+setfield materials[17].rendermethod 0x1DA6
+savetagchanges
+exit
+
+dumplog reachBR.log
+exit
