@@ -1,5 +1,6 @@
 echo   Installing Halo Reach Battle Rifle
 
+createtag bitm
 nametag * objects\weapons\rifle\battle_rifle\reach_br\dmr_body_bump
 edittag objects\weapons\rifle\battle_rifle\reach_br\dmr_body_bump.bitmap
 importbitmap 0 DDS/dmr_body_bump.dds
