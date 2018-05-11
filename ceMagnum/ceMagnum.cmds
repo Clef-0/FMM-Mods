@@ -1,0 +1,65 @@
+echo   Installing Halo CE Magnum
+
+createtag bitm
+nametag * objects\weapons\pistol\magnum\ce_magnum\pistol_body
+edittag objects\weapons\pistol\magnum\ce_magnum\pistol_body.bitmap
+importbitmap 0 DDS\pistol.dds
+savetagchanges
+exit
+
+createtag bitm
+nametag * objects\weapons\pistol\magnum\ce_magnum\pistol_body_bump
+edittag objects\weapons\pistol\magnum\ce_magnum\pistol_body_bump.bitmap
+importbitmap 0 DDS\pistol_bump.dds
+savetagchanges
+exit
+
+createtag bitm
+nametag * objects\weapons\pistol\magnum\ce_magnum\mat
+edittag objects\weapons\pistol\magnum\ce_magnum\mat.bitmap
+importbitmap 0 DDS\mat.dds
+savetagchanges
+exit
+
+createtag bitm
+nametag * objects\weapons\pistol\magnum\ce_magnum\bullet
+edittag objects\weapons\pistol\magnum\ce_magnum\bullet.bitmap
+importbitmap 0 DDS\bullet.dds
+savetagchanges
+exit
+
+duplicatetag 0x116B
+nametag * objects\weapons\pistol\magnum\ce_magnum\pistol_body_shader
+edittag objects\weapons\pistol\magnum\ce_magnum\pistol_body_shader.shader
+setfield ShaderProperties[0].ShaderMaps[0].bitmap objects\weapons\pistol\magnum\ce_magnum\pistol_body.bitmap
+setfield ShaderProperties[0].ShaderMaps[2].bitmap objects\weapons\pistol\magnum\ce_magnum\pistol_body_bump.bitmap
+setfield ShaderProperties[0].ShaderMaps[5].bitmap objects\weapons\pistol\magnum\ce_magnum\mat.bitmap
+savetagchanges
+exit
+
+duplicatetag 0x3AB0
+nametag * objects\weapons\pistol\magnum\ce_magnum\bullet_shader
+edittag objects\weapons\pistol\magnum\ce_magnum\bullet_shader.shader
+setfield ShaderProperties[0].ShaderMaps[0].bitmap objects\weapons\pistol\magnum\ce_magnum\bullet.bitmap
+savetagchanges
+exit
+
+importtag 0x115F tags/ceMagnum.render_model
+edittag 0x115F
+replacerendergeometry tags/ce_mag.dae
+setfield materials[0].rendermethod objects\weapons\pistol\magnum\ce_magnum\bullet_shader.shader
+setfield materials[1].rendermethod objects\weapons\pistol\magnum\ce_magnum\pistol_body_shader.shader
+savetagchanges
+exit
+
+importtag 0x20D9 tags/ceMagnum3p.render_model
+edittag 0x20D9
+replacerendergeometry tags/ce_mag.dae
+setfield materials[0].rendermethod objects\weapons\pistol\magnum\ce_magnum\bullet_shader.shader
+setfield materials[1].rendermethod objects\weapons\pistol\magnum\ce_magnum\pistol_body_shader.shader
+savetagchanges
+exit
+
+
+dumplog ceMagnum.log
+exit
