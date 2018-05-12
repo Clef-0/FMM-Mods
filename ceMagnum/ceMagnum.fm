@@ -1,0 +1,7 @@
+ECHO FMM_OUTPUT Installing Halo CE Magnum...
+
+cd mods\tagMods\ceMagnum
+
+Type ceMagnum.cmds | TagTool.exe ../../../maps/tags.dat
+
+ECHO FMM_OUTPUT Halo CE Magnum installed

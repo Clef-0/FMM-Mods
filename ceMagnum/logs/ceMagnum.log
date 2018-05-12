@@ -1,0 +1,204 @@
+Tag Tool [1.5.6678.2466]
+
+Please report any bugs and/or feature requests at
+<https://gitlab.com/TheGuardians/TagTool/issues>.
+
+Enter "help" to list available commands. Enter "exit" to quit.
+
+tags> echo   Installing Halo CE Magnum
+Installing Halo CE Magnum 
+tags> 
+
+tags> createtag bitm
+[Index: 0x5B77, Offset: 0x062AFCD0, Size: 0x00F0] 0x5B77.bitmap
+
+tags> nametag * objects\weapons\pistol\magnum\ce_magnum\pistol_body
+[Index: 0x5B77, Offset: 0x062AFCD0, Size: 0x00F0] objects\weapons\pistol\magnum\ce_magnum\pistol_body.bitmap
+
+tags> edittag objects\weapons\pistol\magnum\ce_magnum\pistol_body.bitmap
+Tag (0x5B77) pistol_body.bitmap has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x5B77) pistol_body.bitmap> importbitmap 0 DDS\pistol.dds
+Importing image data...
+Done!
+
+tags\(0x5B77) pistol_body.bitmap> savetagchanges
+Done!
+
+tags\(0x5B77) pistol_body.bitmap> exit
+
+tags> 
+
+tags> createtag bitm
+[Index: 0x5B78, Offset: 0x062AFED0, Size: 0x00F0] 0x5B78.bitmap
+
+tags> nametag * objects\weapons\pistol\magnum\ce_magnum\pistol_body_bump
+[Index: 0x5B78, Offset: 0x062AFED0, Size: 0x00F0] objects\weapons\pistol\magnum\ce_magnum\pistol_body_bump.bitmap
+
+tags> edittag objects\weapons\pistol\magnum\ce_magnum\pistol_body_bump.bitmap
+Tag (0x5B78) pistol_body_bump.bitmap has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x5B78) pistol_body_bump.bitmap> importbitmap 0 DDS\pistol_bump.dds
+Importing image data...
+Done!
+
+tags\(0x5B78) pistol_body_bump.bitmap> savetagchanges
+Done!
+
+tags\(0x5B78) pistol_body_bump.bitmap> exit
+
+tags> 
+
+tags> createtag bitm
+[Index: 0x5B79, Offset: 0x062B00D0, Size: 0x00F0] 0x5B79.bitmap
+
+tags> nametag * objects\weapons\pistol\magnum\ce_magnum\mat
+[Index: 0x5B79, Offset: 0x062B00D0, Size: 0x00F0] objects\weapons\pistol\magnum\ce_magnum\mat.bitmap
+
+tags> edittag objects\weapons\pistol\magnum\ce_magnum\mat.bitmap
+Tag (0x5B79) mat.bitmap has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x5B79) mat.bitmap> importbitmap 0 DDS\mat.dds
+Importing image data...
+Done!
+
+tags\(0x5B79) mat.bitmap> savetagchanges
+Done!
+
+tags\(0x5B79) mat.bitmap> exit
+
+tags> 
+
+tags> createtag bitm
+[Index: 0x5B7A, Offset: 0x062B02D0, Size: 0x00F0] 0x5B7A.bitmap
+
+tags> nametag * objects\weapons\pistol\magnum\ce_magnum\bullet
+[Index: 0x5B7A, Offset: 0x062B02D0, Size: 0x00F0] objects\weapons\pistol\magnum\ce_magnum\bullet.bitmap
+
+tags> edittag objects\weapons\pistol\magnum\ce_magnum\bullet.bitmap
+Tag (0x5B7A) bullet.bitmap has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x5B7A) bullet.bitmap> importbitmap 0 DDS\bullet.dds
+Importing image data...
+Done!
+
+tags\(0x5B7A) bullet.bitmap> savetagchanges
+Done!
+
+tags\(0x5B7A) bullet.bitmap> exit
+
+tags> 
+
+tags> duplicatetag 0x116B
+Tag duplicated successfully!
+New tag: rmsh 00005B7B [Offset = 0x62B04D0, Size = 0xCB0]
+
+tags> nametag * objects\weapons\pistol\magnum\ce_magnum\pistol_body_shader
+[Index: 0x5B7B, Offset: 0x062B04D0, Size: 0x0CB0] objects\weapons\pistol\magnum\ce_magnum\pistol_body_shader.shader
+
+tags> edittag objects\weapons\pistol\magnum\ce_magnum\pistol_body_shader.shader
+Tag (0x5B7B) pistol_body_shader.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x5B7B) pistol_body_shader.shader> setfield ShaderProperties[0].ShaderMaps[0].bitmap objects\weapons\pistol\magnum\ce_magnum\pistol_body.bitmap
+Bitmap: CachedTagInstance = 0x00005B77
+
+tags\(0x5B7B) pistol_body_shader.shader> setfield ShaderProperties[0].ShaderMaps[2].bitmap objects\weapons\pistol\magnum\ce_magnum\pistol_body_bump.bitmap
+Bitmap: CachedTagInstance = 0x00005B78
+
+tags\(0x5B7B) pistol_body_shader.shader> setfield ShaderProperties[0].ShaderMaps[5].bitmap objects\weapons\pistol\magnum\ce_magnum\mat.bitmap
+Bitmap: CachedTagInstance = 0x00005B79
+
+tags\(0x5B7B) pistol_body_shader.shader> savetagchanges
+Done!
+
+tags\(0x5B7B) pistol_body_shader.shader> exit
+
+tags> 
+
+tags> duplicatetag 0x3AB0
+Tag duplicated successfully!
+New tag: rmsh 00005B7C [Offset = 0x62B1190, Size = 0x1D0]
+
+tags> nametag * objects\weapons\pistol\magnum\ce_magnum\bullet_shader
+[Index: 0x5B7C, Offset: 0x062B1190, Size: 0x01D0] objects\weapons\pistol\magnum\ce_magnum\bullet_shader.shader
+
+tags> edittag objects\weapons\pistol\magnum\ce_magnum\bullet_shader.shader
+Tag (0x5B7C) bullet_shader.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x5B7C) bullet_shader.shader> setfield ShaderProperties[0].ShaderMaps[0].bitmap objects\weapons\pistol\magnum\ce_magnum\bullet.bitmap
+Bitmap: CachedTagInstance = 0x00005B7A
+
+tags\(0x5B7C) bullet_shader.shader> savetagchanges
+Done!
+
+tags\(0x5B7C) bullet_shader.shader> exit
+
+tags> 
+
+tags> importtag 0x115F tags/ceMagnum.render_model
+Imported 0x820 bytes.
+
+tags> edittag 0x115F
+Tag (0x115F) fp_magnum.render_model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x115F) fp_magnum.render_model> replacerendergeometry tags/ce_mag.dae
+Building render_geometry...done.
+Writing render_model tag data...done.
+Replaced render_geometry successfully.
+
+tags\(0x115F) fp_magnum.render_model> setfield materials[0].rendermethod objects\weapons\pistol\magnum\ce_magnum\bullet_shader.shader
+RenderMethod: CachedTagInstance = 0x00005B7C
+
+tags\(0x115F) fp_magnum.render_model> setfield materials[1].rendermethod objects\weapons\pistol\magnum\ce_magnum\pistol_body_shader.shader
+RenderMethod: CachedTagInstance = 0x00005B7B
+
+tags\(0x115F) fp_magnum.render_model> savetagchanges
+Done!
+
+tags\(0x115F) fp_magnum.render_model> exit
+
+tags> 
+
+tags> importtag 0x20D9 tags/ceMagnum3p.render_model
+Imported 0x8E0 bytes.
+
+tags> edittag 0x20D9
+Tag (0x20D9) magnum.render_model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x20D9) magnum.render_model> replacerendergeometry tags/ce_mag.dae
+Building render_geometry...done.
+Writing render_model tag data...done.
+Replaced render_geometry successfully.
+
+tags\(0x20D9) magnum.render_model> setfield materials[0].rendermethod objects\weapons\pistol\magnum\ce_magnum\bullet_shader.shader
+RenderMethod: CachedTagInstance = 0x00005B7C
+
+tags\(0x20D9) magnum.render_model> setfield materials[1].rendermethod objects\weapons\pistol\magnum\ce_magnum\pistol_body_shader.shader
+RenderMethod: CachedTagInstance = 0x00005B7B
+
+tags\(0x20D9) magnum.render_model> savetagchanges
+Done!
+
+tags\(0x20D9) magnum.render_model> exit
+
+tags> 
+
+tags> 
+
+tags> dumplog ceMagnum.log
