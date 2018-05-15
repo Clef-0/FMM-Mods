@@ -1,0 +1,553 @@
+Tag Tool [1.5.6678.2466]
+
+Please report any bugs and/or feature requests at
+<https://gitlab.com/TheGuardians/TagTool/issues>.
+
+Enter "help" to list available commands. Enter "exit" to quit.
+
+tags> echo   Installing Halo Reach Sniper Rifle
+Installing Halo Reach Sniper Rifle 
+tags> 
+
+tags> createtag bitm
+[Index: 0x5AEB, Offset: 0x06285AA0, Size: 0x00F0] 0x5AEB.bitmap
+
+tags> nametag * objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_body_dark
+[Index: 0x5AEB, Offset: 0x06285AA0, Size: 0x00F0] objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_body_dark.bitmap
+
+tags> edittag objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_body_dark.bitmap
+Tag (0x5AEB) sniper_body_dark.bitmap has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x5AEB) sniper_body_dark.bitmap> importbitmap 0 DDS\sniper_rifle_diffuse.dds
+Importing image data...
+Done!
+
+tags\(0x5AEB) sniper_body_dark.bitmap> savetagchanges
+Done!
+
+tags\(0x5AEB) sniper_body_dark.bitmap> exit
+
+tags> 
+
+tags> createtag bitm
+[Index: 0x5AEC, Offset: 0x06285CA0, Size: 0x00F0] 0x5AEC.bitmap
+
+tags> nametag * objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_body_bump_dark
+[Index: 0x5AEC, Offset: 0x06285CA0, Size: 0x00F0] objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_body_bump_dark.bitmap
+
+tags> edittag objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_body_bump_dark.bitmap
+Tag (0x5AEC) sniper_body_bump_dark.bitmap has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x5AEC) sniper_body_bump_dark.bitmap> importbitmap 0 DDS\sniper_rifle_normal.dds
+Importing image data...
+Done!
+
+tags\(0x5AEC) sniper_body_bump_dark.bitmap> savetagchanges
+Done!
+
+tags\(0x5AEC) sniper_body_bump_dark.bitmap> exit
+
+tags> 
+
+tags> createtag bitm
+[Index: 0x5AED, Offset: 0x06285EA0, Size: 0x00F0] 0x5AED.bitmap
+
+tags> nametag * objects\weapons\sniper\sniper_rifle\reach_sniper\mat_dark
+[Index: 0x5AED, Offset: 0x06285EA0, Size: 0x00F0] objects\weapons\sniper\sniper_rifle\reach_sniper\mat_dark.bitmap
+
+tags> edittag objects\weapons\sniper\sniper_rifle\reach_sniper\mat_dark.bitmap
+Tag (0x5AED) mat_dark.bitmap has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x5AED) mat_dark.bitmap> importbitmap 0 DDS\mat.dds
+Importing image data...
+Done!
+
+tags\(0x5AED) mat_dark.bitmap> savetagchanges
+Done!
+
+tags\(0x5AED) mat_dark.bitmap> exit
+
+tags> 
+
+tags> duplicatetag 0x1F95
+Tag duplicated successfully!
+New tag: rmsh 00005AEE [Offset = 0x62860A0, Size = 0xA70]
+
+tags> nametag * objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_body_shader_dark
+[Index: 0x5AEE, Offset: 0x062860A0, Size: 0x0A70] objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_body_shader_dark.shader
+
+tags> edittag objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_body_shader_dark.shader
+Tag (0x5AEE) sniper_body_shader_dark.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].template 0x50AD
+Template: CachedTagInstance = 0x000050AD
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].shadermaps[0].bitmap objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_body_dark.bitmap
+Bitmap: CachedTagInstance = 0x00005AEB
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].shadermaps[2].bitmap objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_body_bump_dark.bitmap
+Bitmap: CachedTagInstance = 0x00005AEC
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].shadermaps[5].bitmap objects\weapons\sniper\sniper_rifle\reach_sniper\mat_dark.bitmap
+Bitmap: CachedTagInstance = 0x00005AED
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[2].arg1 0.3647059
+Arg1: Single = 0.3647059
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[2].arg2 0.3647059
+Arg2: Single = 0.3647059
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[2].arg3 0.3647059
+Arg3: Single = 0.3647059
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[2].arg4 1
+Arg4: Single = 1
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[6].arg1 1
+Arg1: Single = 1
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[6].arg2 1
+Arg2: Single = 1
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[6].arg3 1
+Arg3: Single = 1
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[6].arg4 1
+Arg4: Single = 1
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[8].arg1 0.454902
+Arg1: Single = 0.454902
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[8].arg2 0.4039216
+Arg2: Single = 0.4039216
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[8].arg3 0.2627451
+Arg3: Single = 0.2627451
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[8].arg4 1
+Arg4: Single = 1
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[9].arg1 0.4784314
+Arg1: Single = 0.4784314
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[9].arg2 0.4784314
+Arg2: Single = 0.4784314
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[9].arg3 0.4784314
+Arg3: Single = 0.4784314
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[9].arg4 1
+Arg4: Single = 1
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[10].arg1 0.5019608
+Arg1: Single = 0.5019608
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[10].arg2 0.5019608
+Arg2: Single = 0.5019608
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[10].arg3 0.5019608
+Arg3: Single = 0.5019608
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[10].arg4 1
+Arg4: Single = 1
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[12].arg1 0.5019608
+Arg1: Single = 0.5019608
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[12].arg2 0.5019608
+Arg2: Single = 0.5019608
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[12].arg3 0.5019608
+Arg3: Single = 0.5019608
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[12].arg4 1
+Arg4: Single = 1
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[13].arg1 0.5
+Arg1: Single = 0.5
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[13].arg2 0.5
+Arg2: Single = 0.5
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[13].arg3 0.5
+Arg3: Single = 0.5
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[13].arg4 0.5
+Arg4: Single = 0.5
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[14].arg1 0.1
+Arg1: Single = 0.1
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[14].arg2 0.1
+Arg2: Single = 0.1
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[14].arg3 0.1
+Arg3: Single = 0.1
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[14].arg4 0.1
+Arg4: Single = 0.1
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[15].arg1 0.2
+Arg1: Single = 0.2
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[15].arg2 0.2
+Arg2: Single = 0.2
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[15].arg3 0.2
+Arg3: Single = 0.2
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[15].arg4 0.2
+Arg4: Single = 0.2
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[16].arg1 0.5
+Arg1: Single = 0.5
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[16].arg2 0.5
+Arg2: Single = 0.5
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[16].arg3 0.5
+Arg3: Single = 0.5
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> setfield shaderproperties[0].arguments[16].arg4 0.5
+Arg4: Single = 0.5
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> savetagchanges
+Done!
+
+tags\(0x5AEE) sniper_body_shader_dark.shader> exit
+
+tags> 
+
+tags> duplicatetag 0x5527
+Tag duplicated successfully!
+New tag: rmsh 00005AEF [Offset = 0x6286B20, Size = 0x9C0]
+
+tags> nametag * objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_rubber_shader_dark
+[Index: 0x5AEF, Offset: 0x06286B20, Size: 0x09C0] objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_rubber_shader_dark.shader
+
+tags> edittag objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_rubber_shader_dark.shader
+Tag (0x5AEF) sniper_rubber_shader_dark.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].shadermaps[0].bitmap objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_body_dark.bitmap
+Bitmap: CachedTagInstance = 0x00005AEB
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].shadermaps[2].bitmap objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_body_bump_dark.bitmap
+Bitmap: CachedTagInstance = 0x00005AEC
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].shadermaps[4].bitmap objects\weapons\sniper\sniper_rifle\reach_sniper\mat_dark.bitmap
+Bitmap: CachedTagInstance = 0x00005AED
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].arguments[0].arg1 1
+Arg1: Single = 1
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].arguments[0].arg2 1
+Arg2: Single = 1
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].arguments[1].arg1 60
+Arg1: Single = 60
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].arguments[1].arg2 60
+Arg2: Single = 60
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].arguments[2].arg1 1
+Arg1: Single = 1
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].arguments[2].arg2 1
+Arg2: Single = 1
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].arguments[2].arg3 1
+Arg3: Single = 1
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].arguments[2].arg4 1
+Arg4: Single = 1
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].arguments[4].arg1 60
+Arg1: Single = 60
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].arguments[4].arg2 60
+Arg2: Single = 60
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].arguments[6].arg1 1
+Arg1: Single = 1
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].arguments[6].arg2 1
+Arg2: Single = 1
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].arguments[6].arg3 1
+Arg3: Single = 1
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].arguments[6].arg4 1
+Arg4: Single = 1
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].arguments[7].arg1 1
+Arg1: Single = 1
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].arguments[7].arg2 1
+Arg2: Single = 1
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].arguments[7].arg3 1
+Arg3: Single = 1
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].arguments[7].arg4 1
+Arg4: Single = 1
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].arguments[8].arg1 0.7254902
+Arg1: Single = 0.7254902
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].arguments[8].arg2 0.7843138
+Arg2: Single = 0.7843138
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].arguments[8].arg3 0.9137256
+Arg3: Single = 0.9137256
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].arguments[9].arg1 0.08627451
+Arg1: Single = 0.08627451
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].arguments[9].arg2 0.1294118
+Arg2: Single = 0.1294118
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].arguments[9].arg3 0.2235294
+Arg3: Single = 0.2235294
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].arguments[12].arg1 0.2
+Arg1: Single = 0.2
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].arguments[12].arg2 0.2
+Arg2: Single = 0.2
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].arguments[12].arg3 0.2
+Arg3: Single = 0.2
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].arguments[12].arg4 0.2
+Arg4: Single = 0.2
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].arguments[11].arg1 0.5
+Arg1: Single = 0.5
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].arguments[11].arg2 0.5
+Arg2: Single = 0.5
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].arguments[11].arg3 0.5
+Arg3: Single = 0.5
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].arguments[11].arg4 0.5
+Arg4: Single = 0.5
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].arguments[16].arg1 0.75
+Arg1: Single = 0.75
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].arguments[16].arg2 0.75
+Arg2: Single = 0.75
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].arguments[16].arg3 0.75
+Arg3: Single = 0.75
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> setfield shaderproperties[0].arguments[16].arg4 0.75
+Arg4: Single = 0.75
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> savetagchanges
+Done!
+
+tags\(0x5AEF) sniper_rubber_shader_dark.shader> exit
+
+tags> 
+
+tags> createtag bitm
+[Index: 0x5AF0, Offset: 0x062874E0, Size: 0x00F0] 0x5AF0.bitmap
+
+tags> nametag * objects\weapons\sniper\sniper_rifle\reach_sniper\scope_blue
+[Index: 0x5AF0, Offset: 0x062874E0, Size: 0x00F0] objects\weapons\sniper\sniper_rifle\reach_sniper\scope_blue.bitmap
+
+tags> edittag objects\weapons\sniper\sniper_rifle\reach_sniper\scope_blue.bitmap
+Tag (0x5AF0) scope_blue.bitmap has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x5AF0) scope_blue.bitmap> importbitmap 0 DDS\sniper_rifle_scope_illum.dds
+Importing image data...
+Done!
+
+tags\(0x5AF0) scope_blue.bitmap> savetagchanges
+Done!
+
+tags\(0x5AF0) scope_blue.bitmap> exit
+
+tags> 
+
+tags> duplicatetag 0x0EE6
+Tag duplicated successfully!
+New tag: rmsh 00005AF1 [Offset = 0x62876E0, Size = 0x3D0]
+
+tags> nametag * objects\weapons\sniper\sniper_rifle\reach_sniper\scope_shader_blue
+[Index: 0x5AF1, Offset: 0x062876E0, Size: 0x03D0] objects\weapons\sniper\sniper_rifle\reach_sniper\scope_shader_blue.shader
+
+tags> importtag objects\weapons\sniper\sniper_rifle\reach_sniper\scope_shader_blue.shader tags\IllumTag
+Imported 0x3D0 bytes.
+
+tags> edittag objects\weapons\sniper\sniper_rifle\reach_sniper\scope_shader_blue.shader
+Tag (0x5AF1) scope_shader_blue.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x5AF1) scope_shader_blue.shader> setfield shaderproperties[0].shadermaps[0].bitmap objects\weapons\sniper\sniper_rifle\reach_sniper\scope_blue.bitmap
+Bitmap: CachedTagInstance = 0x00005AF0
+
+tags\(0x5AF1) scope_shader_blue.shader> setfield shaderproperties[0].arguments[2].arg1 0.1294118
+Arg1: Single = 0.1294118
+
+tags\(0x5AF1) scope_shader_blue.shader> setfield shaderproperties[0].arguments[2].arg2 0.654902
+Arg2: Single = 0.654902
+
+tags\(0x5AF1) scope_shader_blue.shader> setfield shaderproperties[0].arguments[2].arg3 1
+Arg3: Single = 1
+
+tags\(0x5AF1) scope_shader_blue.shader> setfield shaderproperties[0].arguments[2].arg4 1
+Arg4: Single = 1
+
+tags\(0x5AF1) scope_shader_blue.shader> savetagchanges
+Done!
+
+tags\(0x5AF1) scope_shader_blue.shader> exit
+
+tags> 
+
+tags> createtag rmhg
+[Index: 0x5AF2, Offset: 0x06287AC0, Size: 0x0080] 0x5AF2.shader_halogram
+
+tags> nametag * objects\weapons\sniper\sniper_rifle\reach_sniper\screen_shader_blue
+[Index: 0x5AF2, Offset: 0x06287AC0, Size: 0x0080] objects\weapons\sniper\sniper_rifle\reach_sniper\screen_shader_blue.shader_halogram
+
+tags> importtag objects\weapons\sniper\sniper_rifle\reach_sniper\screen_shader_blue.shader_halogram tags\HologramTag
+Imported 0x7B0 bytes.
+
+tags> edittag objects\weapons\sniper\sniper_rifle\reach_sniper\screen_shader_blue.shader_halogram
+Tag (0x5AF2) screen_shader_blue.shader_halogram has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x5AF2) screen_shader_blue.shader_halogram> setfield shaderproperties[0].shadermaps[0].bitmap 0x0343
+Bitmap: CachedTagInstance = 0x00000343
+
+tags\(0x5AF2) screen_shader_blue.shader_halogram> setfield shaderproperties[0].shadermaps[2].bitmap 0x0343
+Bitmap: CachedTagInstance = 0x00000343
+
+tags\(0x5AF2) screen_shader_blue.shader_halogram> setfield shaderproperties[0].shadermaps[3].bitmap 0x0343
+Bitmap: CachedTagInstance = 0x00000343
+
+tags\(0x5AF2) screen_shader_blue.shader_halogram> setfield shaderproperties[0].shadermaps[4].bitmap 0x0379
+Bitmap: CachedTagInstance = 0x00000379
+
+tags\(0x5AF2) screen_shader_blue.shader_halogram> setfield shaderproperties[0].arguments[3].arg1 0.6
+Arg1: Single = 0.6
+
+tags\(0x5AF2) screen_shader_blue.shader_halogram> setfield shaderproperties[0].arguments[3].arg2 0.6
+Arg2: Single = 0.6
+
+tags\(0x5AF2) screen_shader_blue.shader_halogram> setfield shaderproperties[0].arguments[3].arg3 0.175
+Arg3: Single = 0.175
+
+tags\(0x5AF2) screen_shader_blue.shader_halogram> setfield shaderproperties[0].arguments[3].arg4 0.75
+Arg4: Single = 0.75
+
+tags\(0x5AF2) screen_shader_blue.shader_halogram> setfield shaderproperties[0].arguments[4].arg1 0.05
+Arg1: Single = 0.05
+
+tags\(0x5AF2) screen_shader_blue.shader_halogram> setfield shaderproperties[0].arguments[4].arg2 0.2
+Arg2: Single = 0.2
+
+tags\(0x5AF2) screen_shader_blue.shader_halogram> setfield shaderproperties[0].arguments[4].arg3 1
+Arg3: Single = 1
+
+tags\(0x5AF2) screen_shader_blue.shader_halogram> setfield shaderproperties[0].arguments[4].arg4 1
+Arg4: Single = 1
+
+tags\(0x5AF2) screen_shader_blue.shader_halogram> savetagchanges
+Done!
+
+tags\(0x5AF2) screen_shader_blue.shader_halogram> exit
+
+tags> 
+
+tags> edittag 0x1F8D
+Tag (0x1F8D) fp_sniper_rifle.render_model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x1F8D) fp_sniper_rifle.render_model> setfield materials[0].rendermethod objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_body_shader_dark.shader
+RenderMethod: CachedTagInstance = 0x00005AEE
+
+tags\(0x1F8D) fp_sniper_rifle.render_model> setfield materials[1].rendermethod objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_body_shader_dark.shader
+RenderMethod: CachedTagInstance = 0x00005AEE
+
+tags\(0x1F8D) fp_sniper_rifle.render_model> setfield materials[2].rendermethod objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_body_shader_dark.shader
+RenderMethod: CachedTagInstance = 0x00005AEE
+
+tags\(0x1F8D) fp_sniper_rifle.render_model> setfield materials[4].rendermethod objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_body_shader_dark.shader
+RenderMethod: CachedTagInstance = 0x00005AEE
+
+tags\(0x1F8D) fp_sniper_rifle.render_model> setfield materials[5].rendermethod objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_rubber_shader_dark.shader
+RenderMethod: CachedTagInstance = 0x00005AEF
+
+tags\(0x1F8D) fp_sniper_rifle.render_model> setfield materials[6].rendermethod objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_body_shader_dark.shader
+RenderMethod: CachedTagInstance = 0x00005AEE
+
+tags\(0x1F8D) fp_sniper_rifle.render_model> setfield materials[8].rendermethod objects\weapons\sniper\sniper_rifle\reach_sniper\screen_shader_blue.shader_halogram
+RenderMethod: CachedTagInstance = 0x00005AF2
+
+tags\(0x1F8D) fp_sniper_rifle.render_model> setfield materials[9].rendermethod objects\weapons\sniper\sniper_rifle\reach_sniper\scope_shader_blue.shader
+RenderMethod: CachedTagInstance = 0x00005AF1
+
+tags\(0x1F8D) fp_sniper_rifle.render_model> savetagchanges
+Done!
+
+tags\(0x1F8D) fp_sniper_rifle.render_model> exit
+
+tags> 
+
+tags> edittag 0x203C
+Tag (0x203C) sniper_rifle.render_model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x203C) sniper_rifle.render_model> setfield materials[0].rendermethod objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_body_shader_dark.shader
+RenderMethod: CachedTagInstance = 0x00005AEE
+
+tags\(0x203C) sniper_rifle.render_model> setfield materials[1].rendermethod objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_body_shader_dark.shader
+RenderMethod: CachedTagInstance = 0x00005AEE
+
+tags\(0x203C) sniper_rifle.render_model> setfield materials[2].rendermethod objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_body_shader_dark.shader
+RenderMethod: CachedTagInstance = 0x00005AEE
+
+tags\(0x203C) sniper_rifle.render_model> setfield materials[4].rendermethod objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_body_shader_dark.shader
+RenderMethod: CachedTagInstance = 0x00005AEE
+
+tags\(0x203C) sniper_rifle.render_model> setfield materials[5].rendermethod objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_rubber_shader_dark.shader
+RenderMethod: CachedTagInstance = 0x00005AEF
+
+tags\(0x203C) sniper_rifle.render_model> setfield materials[6].rendermethod objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_body_shader_dark.shader
+RenderMethod: CachedTagInstance = 0x00005AEE
+
+tags\(0x203C) sniper_rifle.render_model> setfield materials[7].rendermethod objects\weapons\sniper\sniper_rifle\reach_sniper\scope_shader_blue.shader
+RenderMethod: CachedTagInstance = 0x00005AF1
+
+tags\(0x203C) sniper_rifle.render_model> setfield materials[8].rendermethod objects\weapons\sniper\sniper_rifle\reach_sniper\screen_shader_blue.shader_halogram
+RenderMethod: CachedTagInstance = 0x00005AF2
+
+tags\(0x203C) sniper_rifle.render_model> savetagchanges
+Done!
+
+tags\(0x203C) sniper_rifle.render_model> exit
+
+tags> 
+
+tags> dumplog reachSniperDark.log

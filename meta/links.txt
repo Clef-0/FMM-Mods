@@ -8,3 +8,4 @@ https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/H3_Style_Brute_Weapons/
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/reachBR/reachBR.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/ceMagnum/ceMagnum.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/H3_Beta_Armors/H3BA.ini
+https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/reachSniper/reachSniper.ini
