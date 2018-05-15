@@ -1,0 +1,106 @@
+Tag Tool [1.5.6678.2466]
+
+Please report any bugs and/or feature requests at
+<https://gitlab.com/TheGuardians/TagTool/issues>.
+
+Enter "help" to list available commands. Enter "exit" to quit.
+
+tags> duplicatetag 0x1F95
+Tag duplicated successfully!
+New tag: rmsh 00005AEB [Offset = 0x6285AA0, Size = 0xA70]
+
+tags> nametag * objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_body_dark_shader
+[Index: 0x5AEB, Offset: 0x06285AA0, Size: 0x0A70] objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_body_dark_shader.shader
+
+tags> edittag objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_body_dark_shader.shader
+Tag (0x5AEB) sniper_body_dark_shader.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x5AEB) sniper_body_dark_shader.shader> setfield shaderproperties[0].arguments[6].arg1 1
+Arg1: Single = 1
+
+tags\(0x5AEB) sniper_body_dark_shader.shader> setfield shaderproperties[0].arguments[6].arg2 1
+Arg2: Single = 1
+
+tags\(0x5AEB) sniper_body_dark_shader.shader> setfield shaderproperties[0].arguments[6].arg3 1
+Arg3: Single = 1
+
+tags\(0x5AEB) sniper_body_dark_shader.shader> setfield shaderproperties[0].arguments[6].arg4 1
+Arg4: Single = 1
+
+tags\(0x5AEB) sniper_body_dark_shader.shader> savetagchanges
+Done!
+
+tags\(0x5AEB) sniper_body_dark_shader.shader> exit
+
+tags> 
+
+tags> duplicatetag 0x5527
+Tag duplicated successfully!
+New tag: rmsh 00005AEC [Offset = 0x6286510, Size = 0x9C0]
+
+tags> nametag * objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_rubber_dark_shader
+[Index: 0x5AEC, Offset: 0x06286510, Size: 0x09C0] objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_rubber_dark_shader.shader
+
+tags> edittag objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_rubber_dark_shader.shader
+Tag (0x5AEC) sniper_rubber_dark_shader.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x5AEC) sniper_rubber_dark_shader.shader> setfield shaderproperties[0].arguments[6].arg1 1
+Arg1: Single = 1
+
+tags\(0x5AEC) sniper_rubber_dark_shader.shader> setfield shaderproperties[0].arguments[6].arg2 1
+Arg2: Single = 1
+
+tags\(0x5AEC) sniper_rubber_dark_shader.shader> setfield shaderproperties[0].arguments[6].arg3 1
+Arg3: Single = 1
+
+tags\(0x5AEC) sniper_rubber_dark_shader.shader> setfield shaderproperties[0].arguments[6].arg4 1
+Arg4: Single = 1
+
+tags\(0x5AEC) sniper_rubber_dark_shader.shader> savetagchanges
+Done!
+
+tags\(0x5AEC) sniper_rubber_dark_shader.shader> exit
+
+tags> 
+
+tags> edittag 0x1F8D
+Tag (0x1F8D) fp_sniper_rifle.render_model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x1F8D) fp_sniper_rifle.render_model> setfield materials[0].rendermethod objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_body_dark_shader.shader
+RenderMethod: CachedTagInstance = 0x00005AEB
+
+tags\(0x1F8D) fp_sniper_rifle.render_model> setfield materials[1].rendermethod objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_body_dark_shader.shader
+RenderMethod: CachedTagInstance = 0x00005AEB
+
+tags\(0x1F8D) fp_sniper_rifle.render_model> setfield materials[2].rendermethod objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_body_dark_shader.shader
+RenderMethod: CachedTagInstance = 0x00005AEB
+
+tags\(0x1F8D) fp_sniper_rifle.render_model> setfield materials[4].rendermethod objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_body_dark_shader.shader
+RenderMethod: CachedTagInstance = 0x00005AEB
+
+tags\(0x1F8D) fp_sniper_rifle.render_model> setfield materials[5].rendermethod objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_rubber_dark_shader.shader
+RenderMethod: CachedTagInstance = 0x00005AEC
+
+tags\(0x1F8D) fp_sniper_rifle.render_model> setfield materials[6].rendermethod objects\weapons\sniper\sniper_rifle\reach_sniper\sniper_body_dark_shader.shader
+RenderMethod: CachedTagInstance = 0x00005AEB
+
+tags\(0x1F8D) fp_sniper_rifle.render_model> savetagchanges
+Done!
+
+tags\(0x1F8D) fp_sniper_rifle.render_model> exit
+
+tags> 
+
+tags> edittag 0x203C
+Tag (0x203C) sniper_rifle.render_model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x203C) sniper_rifle.render_model> replacerendergeometry sniper3p.dae
+ERROR: C:\Users\tomls\Documents\My Games\Halo Online\mods\tagmods\reachSniper\sniper3p.dae
