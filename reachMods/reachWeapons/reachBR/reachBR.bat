@@ -3,7 +3,7 @@ ECHO Installing Halo Reach Battle Rifle
 
 color 0A
 
-if exist ..\..\..\maps\tags.dat (
+if exist ..\..\..\..\..\maps\tags.dat (
 	GOTO Label0
 ) else (
 	GOTO Label1
@@ -11,7 +11,7 @@ if exist ..\..\..\maps\tags.dat (
 
 :Label0
 
-Type reachBR.cmds | TagTool.exe ../../../maps/tags.dat
+Type reachBR.cmds | TagTool.exe ../../../../../maps/tags.dat
 
 ECHO Installation Complete ...
 
@@ -21,4 +21,4 @@ GOTO End
 
 :Label1
 ECHO WARNING Mod is not in the correct location.
-ECHO Install at: /mods/tagMods/reachBR
+ECHO Install at: /mods/tagMods/reachMods/reachWeapons/reachBR

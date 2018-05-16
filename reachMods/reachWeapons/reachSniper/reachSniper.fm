@@ -1,0 +1,7 @@
+ECHO FMM_OUTPUT Installing Halo Reach Sniper Rifle...
+
+cd mods\tagMods\reachMods\reachWeapons\reachSniper
+
+Type reachSniper.cmds | TagTool.exe ../../../../../maps/tags.dat
+
+ECHO FMM_OUTPUT Halo Reach Sniper Rifle Installed
