@@ -1,0 +1,15 @@
+edittag 0x1FC9
+resourcedata import audio tags/sniper_fire.mp3
+editblock playbackparameters
+setfield gainbase 3
+exit
+savetagchanges
+exit
+
+edittag 0x1FCB
+resourcedata import audio tags/fire_far.mp3
+savetagchanges
+exit
+
+dumplog reachSniperSounds.log
+exit

@@ -1,0 +1,7 @@
+ECHO FMM_OUTPUT Installing Halo Reach Battle Rifle...
+
+cd mods\tagMods\reachMods\reachWeapons\reachBR
+
+Type reachBR.cmds | TagTool.exe ../../../../../maps/tags.dat
+
+ECHO FMM_OUTPUT Halo Reach Battle Rifle Installed
