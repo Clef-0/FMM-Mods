@@ -1,34 +1,53 @@
-echo Halo 3 Visors (local cosmetic) for Halo Online ElDewrito (ms23; ElDewrito 0.6)
-echo Halo 3 Visors (local cosmetic) for Halo Online ElDewrito (ms23; ElDewrito 0.6)
-echo
-echo
-STOP
+echo Halo 3 Golden Visors (local cosmetic) for Halo Online ElDewrito (ms23; ElDewrito 0.6)
 
-import 0026 Shaders/visor
-import 002F Shaders/mp_cobra_visor
-import 0037 Shaders/mp_intruder_visor
-import 003F Shaders/mp_ninja_visor
-import 0047 Shaders/mp_regulator_visor
-import 004F Shaders/mp_ryu_visor
-import 0057 Shaders/mp_marathon_visor
-import 0070 Shaders/mp_markv_visor
-import 0078 Shaders/mp_rogue_visor
-import 0060 Shaders/mp_scout_visor
-import 0068 Shaders/mp_odst_visor
+importtag 0x0026 Shaders/visor
+importtag 0x002F Shaders/mp_cobra_visor
+importtag 0x0037 Shaders/mp_intruder_visor
+importtag 0x003F Shaders/mp_ninja_visor
+importtag 0x0047 Shaders/mp_regulator_visor
+importtag 0x004F Shaders/mp_ryu_visor
+importtag 0x0057 Shaders/mp_marathon_visor
+importtag 0x0070 Shaders/mp_markv_visor
+importtag 0x0078 Shaders/mp_rogue_visor
+importtag 0x0060 Shaders/mp_scout_visor
+importtag 0x0068 Shaders/mp_odst_visor
 
-importbitmap 0024 DDS/visor_realtime.dds
-importbitmap 002B DDS/mp_cobra.dds
-importbitmap 0033 DDS/mp_intruder.dds
-importbitmap 003B DDS/mp_ninja.dds
-importbitmap 0043 DDS/mp_regulator.dds
-importbitmap 004B DDS/mp_ryu.dds
-importbitmap 0053 DDS/mp_marathon.dds
-importbitmap 006C DDS/mp_markv.dds
-importbitmap 0074 DDS/mp_rogue.dds
-importbitmap 005B DDS/mp_scout.dds
-importbitmap 0064 DDS/mp_odst_helmet_diffuse.dds
-importbitmap 001A DDS/mp_masterchief.dds
-importbitmap 0021 DDS/masterchief.dds
+edittag 0x0024
+importbitmap 0 DDS/visor_realtime.dds
+exit
+edittag 0x002B
+importbitmap 0 DDS/mp_cobra.dds
+exit
+edittag 0x0033
+importbitmap 0 DDS/mp_intruder.dds
+exit
+edittag 0x003B
+importbitmap 0 DDS/mp_ninja.dds
+exit
+edittag 0x0043
+importbitmap 0 DDS/mp_regulator.dds
+exit
+edittag 0x004B
+importbitmap 0 DDS/mp_ryu.dds
+exit
+edittag 0x0053
+importbitmap 0 DDS/mp_marathon.dds
+exit
+edittag 0x006C
+importbitmap 0 DDS/mp_markv.dds
+exit
+edittag 0x0074
+importbitmap 0 DDS/mp_rogue.dds
+exit
+edittag 0x005B
+importbitmap 0 DDS/mp_scout.dds
+exit
+edittag 0x0064
+importbitmap 0 DDS/mp_odst_helmet_diffuse.dds
+exit
+edittag 0x001A
+importbitmap 0 DDS/mp_masterchief.dds
+exit
 
-dumplog h3visors.log
+dumplog
 exit
