@@ -1,0 +1,181 @@
+Echo -------------------------
+Echo Sniper Rifle Textures
+Echo -------------------------
+EditTag 0x1FA0
+ImportBitmap 0 Bitmaps\1FA0.dds
+ExitTo tags
+
+EditTag 0x1FA1
+ImportBitmap 0 Bitmaps\1FA1.dds
+ExitTo tags
+
+EditTag 0x1FA5
+ImportBitmap 0 Bitmaps\1FA5.dds
+ExitTo tags
+
+CreateTag bitm
+NameTag * dlc01_sniper_rifle_illumination_map
+EditTag *
+ImportBitmap 0 Bitmaps\0026.dds
+ExitTo tags
+
+CreateTag bitm
+NameTag * dlc01_sniper_rifle_material
+EditTag *
+ImportBitmap 0 Bitmaps\0035.dds
+ExitTo tags
+
+SaveTagNames
+
+Echo --------------------------
+Echo Sniper Rifle Main Shader
+Echo --------------------------
+ImportTag 0x1F95 Shaders\10C9.rmsh
+
+EditTag 0x1F95
+SpecifyBitmaps
+0x1FA0
+0x0FCF
+0x0375
+0x1FA1
+0x1FA2
+dlc01_sniper_rifle_material.bitmap
+dlc01_sniper_rifle_illumination_map.bitmap
+ExitTo tags
+
+EditTag 0x1F95
+SetField ShaderProperties[0].Arguments[10].Arg1 1.2
+SetField ShaderProperties[0].Arguments[11].Arg1 1.5
+SetField ShaderProperties[0].Arguments[17].Arg1 0.4
+SetField ShaderProperties[0].Arguments[29].Arg1 0.5
+SetField ShaderProperties[0].Arguments[29].Arg2 0.5
+SetField ShaderProperties[0].Arguments[29].Arg3 0.5
+SaveTagChanges
+ExitTo tags
+
+Echo --------------------------
+Echo Sniper Rifle Secondary Shader
+Echo --------------------------
+ImportTag 0x1F96 Shaders\10C9.rmsh
+
+EditTag 0x1F96
+SpecifyBitmaps
+0x1FA0
+0x0FCF
+0x0375
+0x1FA1
+0x1FA2
+dlc01_sniper_rifle_material.bitmap
+dlc01_sniper_rifle_illumination_map.bitmap
+ExitTo tags
+
+EditTag 0x1F96
+SetField ShaderProperties[0].Arguments[10].Arg1 2
+SetField ShaderProperties[0].Arguments[11].Arg1 2
+SetField ShaderProperties[0].Arguments[17].Arg1 0.4
+SetField ShaderProperties[0].Arguments[29].Arg1 0.5
+SetField ShaderProperties[0].Arguments[29].Arg2 0.5
+SetField ShaderProperties[0].Arguments[29].Arg3 0.5
+SaveTagChanges
+ExitTo tags
+
+Echo --------------------------
+Echo Sniper Rifle Scope Shader
+Echo --------------------------
+EditTag 0x1F97
+SetField ShaderProperties[0].Arguments[4].Arg1 0
+SetField ShaderProperties[0].Arguments[4].Arg2 1
+SetField ShaderProperties[0].Arguments[4].Arg3 0.15
+SetField ShaderProperties[0].Arguments[4].Arg4 1
+SetField ShaderProperties[0].Arguments[9].Arg1 0
+SetField ShaderProperties[0].Arguments[9].Arg2 1
+SetField ShaderProperties[0].Arguments[9].Arg3 0.01
+SetField ShaderProperties[0].Arguments[9].Arg4 1
+SetField ShaderProperties[0].Arguments[10].Arg1 0.5
+SetField ShaderProperties[0].Arguments[10].Arg2 0.5
+SetField ShaderProperties[0].Arguments[10].Arg3 0.5
+SetField ShaderProperties[0].Arguments[10].Arg4 0.5
+SaveTagChanges
+ExitTo tags
+
+Echo --------------------------
+Echo Sniper Rifle Decal
+Echo --------------------------
+EditTag 0x1F98
+SetField ShaderProperties[0].Arguments[0].Arg1 0
+SetField ShaderProperties[0].Arguments[0].Arg2 0
+SetField ShaderProperties[0].Arguments[0].Arg3 0
+SetField ShaderProperties[0].Arguments[0].Arg4 0
+SaveTagChanges
+ExitTo tags
+
+Echo --------------------------
+Echo Sniper Rifle Circular Scope 1
+Echo --------------------------
+EditTag 0x1F9A
+SetField ShaderProperties[0].Arguments[2].Arg1 0
+SetField ShaderProperties[0].Arguments[2].Arg2 0
+SetField ShaderProperties[0].Arguments[2].Arg3 0
+SetField ShaderProperties[0].Arguments[28].Arg1 0.1
+SetField ShaderProperties[0].Arguments[28].Arg2 0.1
+SetField ShaderProperties[0].Arguments[28].Arg3 0.1
+SetField ShaderProperties[0].Arguments[29].Arg1 0.2
+SetField ShaderProperties[0].Arguments[29].Arg2 0.2
+SetField ShaderProperties[0].Arguments[29].Arg3 0.2
+SaveTagChanges
+ExitTo tags
+
+Echo --------------------------
+Echo Sniper Rifle Circular Scope 2
+Echo --------------------------
+EditTag 0x1F9D
+SetField ShaderProperties[0].Arguments[2].Arg1 0
+SetField ShaderProperties[0].Arguments[2].Arg2 0
+SetField ShaderProperties[0].Arguments[2].Arg3 0
+SetField ShaderProperties[0].Arguments[23].Arg1 0.1
+SetField ShaderProperties[0].Arguments[23].Arg2 0.1
+SetField ShaderProperties[0].Arguments[23].Arg3 0.1
+SetField ShaderProperties[0].Arguments[24].Arg1 0.3
+SetField ShaderProperties[0].Arguments[24].Arg2 0.3
+SetField ShaderProperties[0].Arguments[24].Arg3 0.3
+SaveTagChanges
+ExitTo tags
+
+Echo --------------------------
+Echo Sniper Rifle Third Person Scope Setup
+Echo --------------------------
+EditTag 0x203C
+SpecifyShaders
+0x1F95
+0x1F96
+0x2041
+0x2042
+0x1F97
+ExitTo tags
+
+Echo --------------------------
+Echo Sniper Rifle Third Person Decal
+Echo --------------------------
+EditTag 0x2041
+SetField ShaderProperties[0].Arguments[0].Arg1 0
+SetField ShaderProperties[0].Arguments[0].Arg2 0
+SetField ShaderProperties[0].Arguments[0].Arg3 0
+SetField ShaderProperties[0].Arguments[0].Arg4 0
+SaveTagChanges
+ExitTo tags
+
+Echo --------------------------
+Echo Sniper Rifle First-person Scale
+Echo --------------------------
+EditTag 0x1F8D
+SetField Nodes[0].DefaultScale 0.9
+SetField Nodes[1].DefaultScale 0.9
+SetField Nodes[2].DefaultScale 0.9
+SetField Nodes[3].DefaultScale 0.9
+SetField Nodes[4].DefaultScale 0.9
+SetField Nodes[5].DefaultScale 0.9
+SaveTagChanges
+ExitTo tags
+
+dumplog
+Exit

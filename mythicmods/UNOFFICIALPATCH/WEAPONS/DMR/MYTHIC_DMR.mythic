@@ -1,0 +1,154 @@
+Echo -------------------------
+Echo DMR Gun Texture
+Echo -------------------------
+EditTag 0x1000
+ImportBitmap 0 Bitmaps\1000.dds
+ExitTo tags
+
+Echo -------------------------
+Echo DMR Gun Shader
+Echo -------------------------
+EditTag 0x0FF4
+SetField ShaderProperties[0].Arguments[13].Arg1 0.8
+SetField ShaderProperties[0].Arguments[13].Arg2 0.8
+SetField ShaderProperties[0].Arguments[13].Arg3 0.8
+SetField ShaderProperties[0].Arguments[13].Arg4 0.8
+SetField ShaderProperties[0].Arguments[21].Arg1 0.8
+SetField ShaderProperties[0].Arguments[21].Arg2 0.8
+SetField ShaderProperties[0].Arguments[21].Arg3 0.8
+SetField ShaderProperties[0].Arguments[21].Arg4 0.8
+SaveTagChanges
+ExitTo tags
+
+Echo -------------------------
+Echo DMR Ammo Counter Texture
+Echo -------------------------
+EditTag 0x101B
+ImportBitmap 0 Bitmaps\101B.dds
+ExitTo tags
+
+Echo -------------------------
+Echo DMR Ammo Counter Numbers
+Echo -------------------------
+ImportTag 0x0FFA Shaders\1034.rmsh
+ImportTag 0x0FF9 Shaders\1036.rmsh
+
+Echo -------------------------
+Echo DMR Ammo Counter Tens
+Echo -------------------------
+EditTag 0x0FFA
+SetField ShaderProperties[0].Arguments[2].Arg1 0
+SetField ShaderProperties[0].Arguments[2].Arg2 0.22
+SetField ShaderProperties[0].Arguments[2].Arg3 1
+SetField ShaderProperties[0].Arguments[2].Arg4 1
+SaveTagChanges
+ExitTo tags
+
+Echo -------------------------
+Echo DMR Ammo Counter Ones
+Echo -------------------------
+EditTag 0x0FF9
+SetField ShaderProperties[0].Arguments[2].Arg1 0
+SetField ShaderProperties[0].Arguments[2].Arg2 0.22
+SetField ShaderProperties[0].Arguments[2].Arg3 1
+SetField ShaderProperties[0].Arguments[2].Arg4 1
+SaveTagChanges
+ExitTo tags
+
+Echo -------------------------
+Echo DMR Ammo Counter Border
+Echo -------------------------
+EditTag 0x0FFE
+SetField ShaderProperties[0].Arguments[2].Arg1 0
+SetField ShaderProperties[0].Arguments[2].Arg2 0.33
+SetField ShaderProperties[0].Arguments[2].Arg3 0.83
+SetField ShaderProperties[0].Arguments[2].Arg4 1
+SaveTagChanges
+ExitTo tags
+
+Echo -------------------------
+Echo DMR Ammo Counter Animation
+Echo -------------------------
+EditTag 0x0FFC
+SetField ShaderProperties[0].Arguments[2].Arg1 0
+SetField ShaderProperties[0].Arguments[2].Arg2 0.22
+SetField ShaderProperties[0].Arguments[2].Arg3 1
+SetField ShaderProperties[0].Arguments[2].Arg4 1
+SetField ShaderProperties[0].Arguments[3].Arg1 0.13
+SetField ShaderProperties[0].Arguments[3].Arg2 0.13
+SetField ShaderProperties[0].Arguments[3].Arg3 0.13
+SetField ShaderProperties[0].Arguments[3].Arg4 0.13
+SaveTagChanges
+ExitTo tags
+
+Echo -------------------------
+Echo DMR Ammo Counter Static
+Echo -------------------------
+EditTag 0x0FFD
+SetField ShaderProperties[0].Arguments[2].Arg1 0
+SetField ShaderProperties[0].Arguments[2].Arg2 0.33
+SetField ShaderProperties[0].Arguments[2].Arg3 1
+SetField ShaderProperties[0].Arguments[2].Arg4 1
+SetField ShaderProperties[0].Arguments[3].Arg1 0.7
+SetField ShaderProperties[0].Arguments[3].Arg2 0.7
+SetField ShaderProperties[0].Arguments[3].Arg3 0.7
+SetField ShaderProperties[0].Arguments[3].Arg4 0.7
+SaveTagChanges
+ExitTo tags
+
+Echo -------------------------
+Echo DMR Decals
+Echo -------------------------
+EditTag 0x0FFF
+SetField ShaderProperties[0].Arguments[0].Arg1 0
+SetField ShaderProperties[0].Arguments[0].Arg2 0
+SetField ShaderProperties[0].Arguments[0].Arg3 0
+SetField ShaderProperties[0].Arguments[0].Arg4 0
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x1E29
+SetField ShaderProperties[0].Arguments[0].Arg1 0
+SetField ShaderProperties[0].Arguments[0].Arg2 0
+SetField ShaderProperties[0].Arguments[0].Arg3 0
+SetField ShaderProperties[0].Arguments[0].Arg4 0
+SaveTagChanges
+ExitTo tags
+
+Echo -------------------------
+Echo DMR Scope
+Echo -------------------------
+EditTag 0x0FF8
+SetField ShaderProperties[0].Arguments[8].Arg1 0.35
+SetField ShaderProperties[0].Arguments[8].Arg2 0.65
+SetField ShaderProperties[0].Arguments[8].Arg3 0.35
+SetField ShaderProperties[0].Arguments[8].Arg4 1
+SetField ShaderProperties[0].Arguments[19].Arg1 0.5
+SetField ShaderProperties[0].Arguments[19].Arg2 0.83
+SetField ShaderProperties[0].Arguments[19].Arg3 0.5
+SetField ShaderProperties[0].Arguments[19].Arg4 1
+SetField ShaderProperties[0].Arguments[23].Arg1 0.5
+SetField ShaderProperties[0].Arguments[23].Arg2 0.8
+SetField ShaderProperties[0].Arguments[23].Arg3 0.5
+SetField ShaderProperties[0].Arguments[23].Arg4 1
+SaveTagChanges
+ExitTo tags
+
+Echo -------------------------
+Echo DMR Scope Third-person
+Echo -------------------------
+EditTag 0x01E2C
+SetField ShaderProperties[0].Arguments[6].Arg1 0.3
+SetField ShaderProperties[0].Arguments[6].Arg2 0.5
+SetField ShaderProperties[0].Arguments[6].Arg3 0.2
+SetField ShaderProperties[0].Arguments[6].Arg4 1
+SetField ShaderProperties[0].Arguments[22].Arg1 0.4
+SetField ShaderProperties[0].Arguments[22].Arg2 0.5
+SetField ShaderProperties[0].Arguments[22].Arg3 0.5
+SetField ShaderProperties[0].Arguments[22].Arg4 1
+SaveTagChanges
+ExitTo tags
+
+
+dumplog
+Exit

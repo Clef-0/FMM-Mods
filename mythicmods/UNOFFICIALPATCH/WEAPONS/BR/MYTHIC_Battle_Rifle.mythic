@@ -1,0 +1,217 @@
+Echo --------------------------
+Echo BR Textures
+Echo --------------------------
+CreateTag bitm
+NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body
+EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.bitmap
+ImportBitmap 0 Bitmaps\0ED1.dds
+SaveTagChanges
+ExitTo tags
+
+CreateTag bitm
+NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_bump
+EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_bump.bitmap
+ImportBitmap 0 Bitmaps\0ED2.dds
+SaveTagChanges
+ExitTo tags
+
+CreateTag bitm
+NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_illumination_map
+EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_illumination_map.bitmap
+ImportBitmap 0 Bitmaps\0ED3.dds
+SaveTagChanges
+ExitTo tags
+
+CreateTag bitm
+NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\mat
+EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\mat.bitmap
+ImportBitmap 0 Bitmaps\0ED5.dds
+SaveTagChanges
+ExitTo tags
+
+
+Echo --------------------------
+Echo BR Bitmaps Setup
+Echo --------------------------
+DuplicateTag 0x10C9
+NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader
+EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader.shader
+EditBlock ShaderProperties[0]
+EditBlock ShaderMaps[0]
+SetField Bitmap objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.bitmap
+Exit
+EditBlock ShaderMaps[3]
+SetField Bitmap objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_bump.bitmap
+Exit
+EditBlock ShaderMaps[5]
+SetField Bitmap objects\weapons\rifle\battle_rifle\h2a_battle_rifle\mat.bitmap
+Exit
+EditBlock ShaderMaps[6]
+SetField Bitmap objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_illumination_map.bitmap
+Exit
+Exit
+SaveTagChanges
+ExitTo tags
+
+DuplicateTag 0x1E2A
+NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope
+EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope.shader
+SpecifyBitmaps
+0x1E2D
+0x0343
+0x02B7
+ExitTo tags
+
+Echo --------------------------
+Echo BR Ammo Counter
+Echo --------------------------
+EditTag 0x0F96
+importbitmap 0 Bitmaps\Numerology\0.dds
+importbitmap 1 Bitmaps\Numerology\1.dds
+importbitmap 2 Bitmaps\Numerology\2.dds
+importbitmap 3 Bitmaps\Numerology\3.dds
+importbitmap 4 Bitmaps\Numerology\4.dds
+importbitmap 5 Bitmaps\Numerology\5.dds
+importbitmap 6 Bitmaps\Numerology\6.dds
+importbitmap 7 Bitmaps\Numerology\7.dds
+importbitmap 8 Bitmaps\Numerology\8.dds
+importbitmap 9 Bitmaps\Numerology\9.dds
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x0F95
+importbitmap 0 Bitmaps\Numerology\0.dds
+importbitmap 1 Bitmaps\Numerology\1.dds
+importbitmap 2 Bitmaps\Numerology\2.dds
+importbitmap 3 Bitmaps\Numerology\3.dds
+importbitmap 4 Bitmaps\Numerology\4.dds
+importbitmap 5 Bitmaps\Numerology\5.dds
+importbitmap 6 Bitmaps\Numerology\6.dds
+importbitmap 7 Bitmaps\Numerology\7.dds
+importbitmap 8 Bitmaps\Numerology\8.dds
+importbitmap 9 Bitmaps\Numerology\9.dds
+SaveTagChanges
+ExitTo tags
+
+Echo --------------------------
+Echo BR Model and Materials
+Echo --------------------------
+EditTag 0x0F71
+ReplaceRenderGeometry Models\battle_rifle.dae
+setfield materials[0].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope.shader
+setfield materials[1].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader.shader
+setfield materials[2].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope.shader
+setfield materials[3].rendermethod 0x0F79
+setfield materials[4].rendermethod 0x0F7A
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x1DA0
+ReplaceRenderGeometry Models\battle_rifle.dae
+setfield materials[0].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope.shader
+setfield materials[1].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader.shader
+setfield materials[2].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope.shader
+setfield materials[3].rendermethod 0x0F79
+setfield materials[4].rendermethod 0x0F7A
+SaveTagChanges
+ExitTo tags
+
+
+
+Echo --------------------------
+Echo BR Shader and Lights
+Echo --------------------------
+EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader.shader
+SetField ShaderProperties[0].Arguments[1].Arg1 1
+SetField ShaderProperties[0].Arguments[1].Arg2 1
+SetField ShaderProperties[0].Arguments[1].Arg3 0
+SetField ShaderProperties[0].Arguments[1].Arg4 0
+SetField ShaderProperties[0].Arguments[2].Arg1 0
+SetField ShaderProperties[0].Arguments[2].Arg2 0
+SetField ShaderProperties[0].Arguments[2].Arg3 0
+SetField ShaderProperties[0].Arguments[2].Arg4 0
+SetField ShaderProperties[0].Arguments[3].Arg1 0.5
+SetField ShaderProperties[0].Arguments[3].Arg2 0.5
+SetField ShaderProperties[0].Arguments[3].Arg3 1
+SetField ShaderProperties[0].Arguments[3].Arg4 1
+SetField ShaderProperties[0].Arguments[4].Arg1 1
+SetField ShaderProperties[0].Arguments[4].Arg2 1
+SetField ShaderProperties[0].Arguments[4].Arg3 1
+SetField ShaderProperties[0].Arguments[4].Arg4 1
+SetField ShaderProperties[0].Arguments[5].Arg1 1
+SetField ShaderProperties[0].Arguments[5].Arg2 1
+SetField ShaderProperties[0].Arguments[5].Arg3 1
+SetField ShaderProperties[0].Arguments[5].Arg4 1
+SetField ShaderProperties[0].Arguments[8].Arg1 0
+SetField ShaderProperties[0].Arguments[8].Arg2 0
+SetField ShaderProperties[0].Arguments[8].Arg3 0
+SetField ShaderProperties[0].Arguments[8].Arg4 0
+SetField ShaderProperties[0].Arguments[9].Arg1 1
+SetField ShaderProperties[0].Arguments[9].Arg2 1
+SetField ShaderProperties[0].Arguments[9].Arg3 1
+SetField ShaderProperties[0].Arguments[9].Arg4 1
+SetField ShaderProperties[0].Arguments[12].Arg1 0.8352942
+SetField ShaderProperties[0].Arguments[12].Arg2 0.9607844
+SetField ShaderProperties[0].Arguments[12].Arg3 1
+SetField ShaderProperties[0].Arguments[12].Arg4 1
+SetField ShaderProperties[0].Arguments[14].Arg1 1
+SetField ShaderProperties[0].Arguments[14].Arg2 1
+SetField ShaderProperties[0].Arguments[14].Arg3 1
+SetField ShaderProperties[0].Arguments[14].Arg4 1
+SetField ShaderProperties[0].Arguments[15].Arg1 0.8078432
+SetField ShaderProperties[0].Arguments[15].Arg2 0.8784314
+SetField ShaderProperties[0].Arguments[15].Arg3 1
+SetField ShaderProperties[0].Arguments[15].Arg4 1
+SetField ShaderProperties[0].Arguments[17].Arg1 0.8
+SetField ShaderProperties[0].Arguments[17].Arg2 0.8
+SetField ShaderProperties[0].Arguments[17].Arg3 0.8
+SetField ShaderProperties[0].Arguments[17].Arg4 0.8
+SetField ShaderProperties[0].Arguments[18].Arg1 0.12
+SetField ShaderProperties[0].Arguments[18].Arg2 0.12
+SetField ShaderProperties[0].Arguments[18].Arg3 0.12
+SetField ShaderProperties[0].Arguments[18].Arg4 0.12
+SetField ShaderProperties[0].Arguments[19].Arg1 0.65
+SetField ShaderProperties[0].Arguments[19].Arg2 0.65
+SetField ShaderProperties[0].Arguments[19].Arg3 0.65
+SetField ShaderProperties[0].Arguments[19].Arg4 0.65
+SetField ShaderProperties[0].Arguments[20].Arg1 0.33
+SetField ShaderProperties[0].Arguments[20].Arg2 0.33
+SetField ShaderProperties[0].Arguments[20].Arg3 0.33
+SetField ShaderProperties[0].Arguments[20].Arg4 0.33
+SetField ShaderProperties[0].Arguments[23].Arg1 0.98
+SetField ShaderProperties[0].Arguments[23].Arg2 0.98
+SetField ShaderProperties[0].Arguments[23].Arg3 0.98
+SetField ShaderProperties[0].Arguments[23].Arg4 0.98
+SetField ShaderProperties[0].Arguments[30].Arg1 0
+SetField ShaderProperties[0].Arguments[30].Arg2 0
+SetField ShaderProperties[0].Arguments[30].Arg3 0
+SetField ShaderProperties[0].Arguments[30].Arg4 0
+SetField ShaderProperties[0].Arguments[32].Arg1 1
+SetField ShaderProperties[0].Arguments[32].Arg2 0
+SetField ShaderProperties[0].Arguments[32].Arg3 0
+SetField ShaderProperties[0].Arguments[32].Arg4 1
+SetField ShaderProperties[0].Arguments[33].Arg1 11
+SetField ShaderProperties[0].Arguments[33].Arg2 11
+SetField ShaderProperties[0].Arguments[33].Arg3 11
+SetField ShaderProperties[0].Arguments[33].Arg4 11
+SaveTagChanges
+Exit
+
+
+Echo --------------------------
+Echo BR Scope
+Echo --------------------------
+EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope.shader
+SetField ShaderProperties[0].Arguments[12].Arg1 0
+SetField ShaderProperties[0].Arguments[12].Arg2 0
+SetField ShaderProperties[0].Arguments[12].Arg3 0
+SetField ShaderProperties[0].Arguments[12].Arg4 0
+SetField ShaderProperties[0].Arguments[22].Arg1 0.05
+SetField ShaderProperties[0].Arguments[22].Arg2 0.05
+SetField ShaderProperties[0].Arguments[22].Arg3 0.3
+SetField ShaderProperties[0].Arguments[22].Arg4 1
+SaveTagChanges
+Exit
+
+dumplog
+Exit

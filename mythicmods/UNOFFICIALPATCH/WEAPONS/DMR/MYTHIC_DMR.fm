@@ -1,0 +1,31 @@
+ECHO FMM_OUTPUT Init Halo Online refresh Unofficial Patch "DMR"...
+
+cd mods\tagmods\mythicmods\UNOFFICIALPATCH\WEAPONS\DMR
+
+Type MYTHIC_DMR.mythic | TagTool.exe ../../../../../../maps/tags.dat
+
+ECHO FMM_OUTPUT .
+ECHO FMM_OUTPUT                                 ;;""!!;;!!;;              
+ECHO FMM_OUTPUT                             eewwDDBBUUUUUUwwzzff          
+ECHO FMM_OUTPUT                           eeBBwwUUwwwwUUUUwwnnzzDDzz::    
+ECHO FMM_OUTPUT                           UUDDBBUUUUUUUUUUUUDDUUwwUUDDDD!!
+ECHO FMM_OUTPUT                         ""DDUUUUDDMMDDUUUUwwUUDDDDwwwwwwzz
+ECHO FMM_OUTPUT                         eeBBDDDDBBnn;;!!eeeezznnUU!!      
+ECHO FMM_OUTPUT                         eeBBUUUUUUee;;::ffnnffwwBBnn      
+ECHO FMM_OUTPUT                         zz##eeUUUUee""  ""wwUUUUBBzz      
+ECHO FMM_OUTPUT                           BBBBDDDDBBDDzz!!nnwwffDDzz      
+ECHO FMM_OUTPUT                           wwBBDDwwDDDDUUDDUUnnzzBBBB::    
+ECHO FMM_OUTPUT                             BBBBBBBBDDDDUUDDUUwweeBBww    
+ECHO FMM_OUTPUT                             ;;MMMM##BBUUDDDDDDwwBBDDUU    
+ECHO FMM_OUTPUT                                 ::ffww##MMMMBBDDBBDD!!    
+ECHO FMM_OUTPUT                                         ""##MM##BB##      
+ECHO FMM_OUTPUT                                             ""!!;;        
+ECHO FMM_OUTPUT .
+ECHO FMM_OUTPUT   !!;;                        ;;          ::::                !!ffff!!;;        
+ECHO FMM_OUTPUT   eeff        ww;;          nnUU;;        ;;UU::          eenn!!;;;;""!!ff""    
+ECHO FMM_OUTPUT   eeff        nnzz            ffee::      ;;ww!!        !!        ::      zz!!  
+ECHO FMM_OUTPUT   wwwweennzz!!zzff      ;;!!!!""!!!!      ::zz;;                !!zz      eeeeff
+ECHO FMM_OUTPUT   eeUU::      DDee    ""zz;;      zznn    ;;zz!!::::::::              ;;ffzz::  
+ECHO FMM_OUTPUT   """"::      !!""    ""::          ;;;;    ;;;;""""""""      """"!!!!"";;     
+ECHO FMM_OUTPUT .
+ECHO FMM_OUTPUT Unofficial Patch: DMR has been successfully installed! 

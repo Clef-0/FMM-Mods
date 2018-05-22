@@ -1,0 +1,32 @@
+ECHO FMM_OUTPUT Init Halo Online refresh Unofficial Patch "Plasma Rifle"...
+
+cd mods\tagmods\mythicmods\UNOFFICIALPATCH\WEAPONS\PLASMARIFLE
+
+Type MYTHIC_Plasma_Rifle.mythic | TagTool.exe ../../../../../../maps/tags.dat
+
+ECHO FMM_OUTPUT .
+ECHO FMM_OUTPUT                                       ""              
+ECHO FMM_OUTPUT                                     DDMMww            
+ECHO FMM_OUTPUT                               ee;;####BBBB""          
+ECHO FMM_OUTPUT                             wwDDff##BB##UUUU          
+ECHO FMM_OUTPUT                             wwzz##MM##DDUUee::        
+ECHO FMM_OUTPUT                             UUMMBBDDDDBBDDwwzz!!      
+ECHO FMM_OUTPUT                                 ffBBBB##BBBBDDww      
+ECHO FMM_OUTPUT                               eeMMBBBBBBBBBB##zz      
+ECHO FMM_OUTPUT                             nn##MMMM##DD##BBUUnn      
+ECHO FMM_OUTPUT                           !!##BBUU;;ee  ;;nnDDBB""    
+ECHO FMM_OUTPUT                           !!##ww            DD##!!    
+ECHO FMM_OUTPUT                           ""MMMM            eeMM;;    
+ECHO FMM_OUTPUT                         !!MMMM;;            nnMMff    
+ECHO FMM_OUTPUT                                             wwMMDD;;  
+ECHO FMM_OUTPUT                                               BBBBBBnn
+ECHO FMM_OUTPUT                                                 nn""  
+ECHO FMM_OUTPUT .
+ECHO FMM_OUTPUT   !!;;                        ;;          ::::                !!ffff!!;;        
+ECHO FMM_OUTPUT   eeff        ww;;          nnUU;;        ;;UU::          eenn!!;;;;""!!ff""    
+ECHO FMM_OUTPUT   eeff        nnzz            ffee::      ;;ww!!        !!        ::      zz!!  
+ECHO FMM_OUTPUT   wwwweennzz!!zzff      ;;!!!!""!!!!      ::zz;;                !!zz      eeeeff
+ECHO FMM_OUTPUT   eeUU::      DDee    ""zz;;      zznn    ;;zz!!::::::::              ;;ffzz::  
+ECHO FMM_OUTPUT   """"::      !!""    ""::          ;;;;    ;;;;""""""""      """"!!!!"";;     
+ECHO FMM_OUTPUT .
+ECHO FMM_OUTPUT Unofficial Patch: Plasma Rifle has been successfully installed! 

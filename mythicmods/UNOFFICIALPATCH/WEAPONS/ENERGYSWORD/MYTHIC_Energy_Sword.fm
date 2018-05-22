@@ -1,0 +1,41 @@
+ECHO FMM_OUTPUT Init Halo Online refresh Unofficial Patch "Energy Sword"...
+
+cd mods\tagmods\mythicmods\UNOFFICIALPATCH\WEAPONS\ENERGYSWORD
+
+Type MYTHIC_Energy_Sword.mythic | TagTool.exe ../../../../../../maps/tags.dat
+
+ECHO FMM_OUTPUT .
+ECHO FMM_OUTPUT                                 !!""                  
+ECHO FMM_OUTPUT                               ""::wwff::              
+ECHO FMM_OUTPUT                             ""  ""nnUU;;nnzz          
+ECHO FMM_OUTPUT                             ff""UU##DD!!BBBBeenn      
+ECHO FMM_OUTPUT                             UUUUDD##BB::UUBBBBUU      
+ECHO FMM_OUTPUT                           ;;UUBB##MMUUeeBBMMBB!!      
+ECHO FMM_OUTPUT                             nnwweeBB##BBMMBB##ee      
+ECHO FMM_OUTPUT                               wwffwwBBDDUUwwMMUU      
+ECHO FMM_OUTPUT                             ::##DDeeDD##BB;;eeUUww::  
+ECHO FMM_OUTPUT                             DD##UU;;nn##MM""  ##!!nn  
+ECHO FMM_OUTPUT                         ;;!!zz!!::DDDD##BBUU  nnwwUU  
+ECHO FMM_OUTPUT                       ::wwUU    ww####UUzzUU  !!ffee  
+ECHO FMM_OUTPUT                       ""eenn  !!wwMMMMeennwwff##BBMM  
+ECHO FMM_OUTPUT                     ;;;;nn""::ww##MMff  wwBB##  UUMM""
+ECHO FMM_OUTPUT                   ;;    ::::""BBMM;;    eeBBww  wwzz!!
+ECHO FMM_OUTPUT                 ::    ::::  ffMM##      ""UUBBnn  nn  
+ECHO FMM_OUTPUT                 ::  ::        nn##nn      ww####      
+ECHO FMM_OUTPUT               ::              zzMMzz        nnMM""    
+ECHO FMM_OUTPUT             ::                wwDD          ;;DDDD    
+ECHO FMM_OUTPUT           ::    ::          nnDDff            BB##;;  
+ECHO FMM_OUTPUT               ::            eeDD              BBDDnn  
+ECHO FMM_OUTPUT                         ::zzUU##              eeBBBB  
+ECHO FMM_OUTPUT                         eeUUee""              ww##UU::
+ECHO FMM_OUTPUT                                               nnffww!!
+ECHO FMM_OUTPUT                                               ;;  ;;  
+ECHO FMM_OUTPUT .
+ECHO FMM_OUTPUT   !!;;                        ;;          ::::                !!ffff!!;;        
+ECHO FMM_OUTPUT   eeff        ww;;          nnUU;;        ;;UU::          eenn!!;;;;""!!ff""    
+ECHO FMM_OUTPUT   eeff        nnzz            ffee::      ;;ww!!        !!        ::      zz!!  
+ECHO FMM_OUTPUT   wwwweennzz!!zzff      ;;!!!!""!!!!      ::zz;;                !!zz      eeeeff
+ECHO FMM_OUTPUT   eeUU::      DDee    ""zz;;      zznn    ;;zz!!::::::::              ;;ffzz::  
+ECHO FMM_OUTPUT   """"::      !!""    ""::          ;;;;    ;;;;""""""""      """"!!!!"";;     
+ECHO FMM_OUTPUT .
+ECHO FMM_OUTPUT Unofficial Patch: Energy Sword has been successfully installed! 

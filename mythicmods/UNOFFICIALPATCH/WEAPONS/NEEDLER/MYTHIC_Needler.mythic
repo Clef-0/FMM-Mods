@@ -1,0 +1,25 @@
+Echo -------------------------
+Echo Needler Textures
+Echo -------------------------
+EditTag 0x20FA
+ImportBitmap 0 Bitmaps\20FA.dds
+ExitTo tags
+
+EditTag 0x20F8
+ImportBitmap 0 Bitmaps\20F8.dds
+ExitTo tags
+
+Echo -------------------------
+Echo Needles Shader
+Echo -------------------------
+EditTag 0x20F2
+SetField ShaderProperties[0].Arguments[27].Arg1 8
+SetField ShaderProperties[0].Arguments[27].Arg2 8
+SetField ShaderProperties[0].Arguments[27].Arg3 8
+SetField ShaderProperties[0].Arguments[27].Arg4 8
+SaveTagChanges
+ExitTo tags
+
+
+dumplog
+Exit

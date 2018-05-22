@@ -1,0 +1,257 @@
+Echo ---------------------------
+Echo Plasma Pistol Shader Import
+Echo ---------------------------
+ImportTag 0x11B0 Shaders\2679.rmsh
+ImportTag 0x11B1 Shaders\2679.rmsh
+
+CreateTag bitm
+NameTag * plasma_pistol_cubemap
+EditTag *
+ImportBitmap 0 Bitmaps\mirror_surface.dds
+ExitTo tags
+
+SaveTagNames
+
+EditTag 0x11B0
+SpecifyBitmaps
+0x11B7
+0x0343
+0x11B8
+null
+plasma_pistol_cubemap.bitmap
+ExitTo tags
+
+EditTag 0x11B1
+SpecifyBitmaps
+0x11B7
+0x0343
+0x11B8
+null
+plasma_pistol_cubemap.bitmap
+ExitTo tags
+
+EditTag 0x11B0
+SetField ShaderProperties[0].ShaderMaps[3].Bitmap null
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x11B1
+SetField ShaderProperties[0].ShaderMaps[3].Bitmap null
+SaveTagChanges
+ExitTo tags
+
+Echo ---------------------------
+Echo Plasma Pistol Textures
+Echo ---------------------------
+EditTag 0x11B7
+ImportBitmap 0 Bitmaps\11B7.dds
+ExitTo tags
+
+EditTag 0x11B9
+ImportBitmap 0 Bitmaps\11B9.dds
+ExitTo tags
+
+EditTag 0x11B3
+ImportBitmap 0 Bitmaps\11B3.dds
+ExitTo tags
+
+EditTag 0x11B2
+ImportBitmap 0 Bitmaps\11B2.dds
+ExitTo tags
+
+Echo ---------------------------
+Echo Plasma Pistol Top Gun Shader
+Echo ---------------------------
+EditTag 0x11B0
+SetField ShaderProperties[0].Arguments[2].Arg1 0.5372549
+SetField ShaderProperties[0].Arguments[2].Arg2 0.6078432
+SetField ShaderProperties[0].Arguments[2].Arg3 0.9568628
+SetField ShaderProperties[0].Arguments[2].Arg4 1
+SetField ShaderProperties[0].Arguments[4].Arg1 0
+SetField ShaderProperties[0].Arguments[4].Arg2 0
+SetField ShaderProperties[0].Arguments[4].Arg3 0
+SetField ShaderProperties[0].Arguments[4].Arg4 0
+SetField ShaderProperties[0].Arguments[6].Arg1 0.1
+SetField ShaderProperties[0].Arguments[6].Arg2 0.1
+SetField ShaderProperties[0].Arguments[6].Arg3 0.1
+SetField ShaderProperties[0].Arguments[6].Arg4 0.1
+SetField ShaderProperties[0].Arguments[7].Arg1 1.25
+SetField ShaderProperties[0].Arguments[7].Arg2 1.25
+SetField ShaderProperties[0].Arguments[7].Arg3 1.25
+SetField ShaderProperties[0].Arguments[7].Arg4 1.25
+SetField ShaderProperties[0].Arguments[8].Arg1 35
+SetField ShaderProperties[0].Arguments[8].Arg2 35
+SetField ShaderProperties[0].Arguments[8].Arg3 35
+SetField ShaderProperties[0].Arguments[8].Arg4 35
+SetField ShaderProperties[0].Arguments[9].Arg1 0.03529412
+SetField ShaderProperties[0].Arguments[9].Arg2 0.1568628
+SetField ShaderProperties[0].Arguments[9].Arg3 0.482353
+SetField ShaderProperties[0].Arguments[9].Arg4 1
+SetField ShaderProperties[0].Arguments[10].Arg1 30
+SetField ShaderProperties[0].Arguments[10].Arg2 30
+SetField ShaderProperties[0].Arguments[10].Arg3 30
+SetField ShaderProperties[0].Arguments[10].Arg4 30
+SetField ShaderProperties[0].Arguments[11].Arg1 0.4039216
+SetField ShaderProperties[0].Arguments[11].Arg2 0.2627451
+SetField ShaderProperties[0].Arguments[11].Arg3 0.6666667
+SetField ShaderProperties[0].Arguments[11].Arg4 1
+SetField ShaderProperties[0].Arguments[12].Arg1 0.9
+SetField ShaderProperties[0].Arguments[12].Arg2 0.9
+SetField ShaderProperties[0].Arguments[12].Arg3 0.9
+SetField ShaderProperties[0].Arguments[12].Arg4 0.9
+SetField ShaderProperties[0].Arguments[13].Arg1 0.1114085
+SetField ShaderProperties[0].Arguments[13].Arg2 0.1114085
+SetField ShaderProperties[0].Arguments[13].Arg3 0.1114085
+SetField ShaderProperties[0].Arguments[13].Arg4 0.1114085
+SetField ShaderProperties[0].Arguments[14].Arg1 0.2228169
+SetField ShaderProperties[0].Arguments[14].Arg2 0.2228169
+SetField ShaderProperties[0].Arguments[14].Arg3 0.2228169
+SetField ShaderProperties[0].Arguments[14].Arg4 0.2228169
+SetField ShaderProperties[0].Arguments[15].Arg1 1.25
+SetField ShaderProperties[0].Arguments[15].Arg2 1.25
+SetField ShaderProperties[0].Arguments[15].Arg3 1.25
+SetField ShaderProperties[0].Arguments[15].Arg4 1.25
+SetField ShaderProperties[0].Arguments[18].Arg1 1
+SetField ShaderProperties[0].Arguments[18].Arg2 0.9843138
+SetField ShaderProperties[0].Arguments[18].Arg3 0.8392158
+SetField ShaderProperties[0].Arguments[18].Arg4 1
+SaveTagChanges
+ExitTo tags
+
+Echo ---------------------------
+Echo Plasma Pistol Bottom Gun Shader
+Echo ---------------------------
+EditTag 0x11B1
+SetField ShaderProperties[0].Arguments[2].Arg1 0.5372549
+SetField ShaderProperties[0].Arguments[2].Arg2 0.6078432
+SetField ShaderProperties[0].Arguments[2].Arg3 0.9568628
+SetField ShaderProperties[0].Arguments[2].Arg4 1
+SetField ShaderProperties[0].Arguments[4].Arg1 0
+SetField ShaderProperties[0].Arguments[4].Arg2 0
+SetField ShaderProperties[0].Arguments[4].Arg3 0
+SetField ShaderProperties[0].Arguments[4].Arg4 0
+SetField ShaderProperties[0].Arguments[6].Arg1 0.1
+SetField ShaderProperties[0].Arguments[6].Arg2 0.1
+SetField ShaderProperties[0].Arguments[6].Arg3 0.1
+SetField ShaderProperties[0].Arguments[6].Arg4 0.1
+SetField ShaderProperties[0].Arguments[7].Arg1 1.25
+SetField ShaderProperties[0].Arguments[7].Arg2 1.25
+SetField ShaderProperties[0].Arguments[7].Arg3 1.25
+SetField ShaderProperties[0].Arguments[7].Arg4 1.25
+SetField ShaderProperties[0].Arguments[8].Arg1 35
+SetField ShaderProperties[0].Arguments[8].Arg2 35
+SetField ShaderProperties[0].Arguments[8].Arg3 35
+SetField ShaderProperties[0].Arguments[8].Arg4 35
+SetField ShaderProperties[0].Arguments[9].Arg1 0.03529412
+SetField ShaderProperties[0].Arguments[9].Arg2 0.1568628
+SetField ShaderProperties[0].Arguments[9].Arg3 0.482353
+SetField ShaderProperties[0].Arguments[9].Arg4 1
+SetField ShaderProperties[0].Arguments[10].Arg1 30
+SetField ShaderProperties[0].Arguments[10].Arg2 30
+SetField ShaderProperties[0].Arguments[10].Arg3 30
+SetField ShaderProperties[0].Arguments[10].Arg4 30
+SetField ShaderProperties[0].Arguments[11].Arg1 0.4039216
+SetField ShaderProperties[0].Arguments[11].Arg2 0.2627451
+SetField ShaderProperties[0].Arguments[11].Arg3 0.6666667
+SetField ShaderProperties[0].Arguments[11].Arg4 1
+SetField ShaderProperties[0].Arguments[12].Arg1 0.9
+SetField ShaderProperties[0].Arguments[12].Arg2 0.9
+SetField ShaderProperties[0].Arguments[12].Arg3 0.9
+SetField ShaderProperties[0].Arguments[12].Arg4 0.9
+SetField ShaderProperties[0].Arguments[13].Arg1 0.1114085
+SetField ShaderProperties[0].Arguments[13].Arg2 0.1114085
+SetField ShaderProperties[0].Arguments[13].Arg3 0.1114085
+SetField ShaderProperties[0].Arguments[13].Arg4 0.1114085
+SetField ShaderProperties[0].Arguments[14].Arg1 0.2228169
+SetField ShaderProperties[0].Arguments[14].Arg2 0.2228169
+SetField ShaderProperties[0].Arguments[14].Arg3 0.2228169
+SetField ShaderProperties[0].Arguments[14].Arg4 0.2228169
+SetField ShaderProperties[0].Arguments[15].Arg1 1.25
+SetField ShaderProperties[0].Arguments[15].Arg2 1.25
+SetField ShaderProperties[0].Arguments[15].Arg3 1.25
+SetField ShaderProperties[0].Arguments[15].Arg4 1.25
+SetField ShaderProperties[0].Arguments[18].Arg1 1
+SetField ShaderProperties[0].Arguments[18].Arg2 0.9843138
+SetField ShaderProperties[0].Arguments[18].Arg3 0.8392158
+SetField ShaderProperties[0].Arguments[18].Arg4 1
+SaveTagChanges
+ExitTo tags
+
+Echo ---------------------------
+Echo Plasma Pistol Big Lights
+Echo ---------------------------
+EditTag 0x11AA
+SetField ShaderProperties[0].Arguments[27].Arg1 0.53
+SetField ShaderProperties[0].Arguments[27].Arg2 0.49
+SetField ShaderProperties[0].Arguments[27].Arg3 0
+SetField ShaderProperties[0].Arguments[27].Arg4 1
+SetField ShaderProperties[0].Arguments[28].Arg1 10
+SetField ShaderProperties[0].Arguments[28].Arg2 10
+SetField ShaderProperties[0].Arguments[28].Arg3 10
+SetField ShaderProperties[0].Arguments[28].Arg4 10
+SaveTagChanges
+ExitTo tags
+
+Echo ---------------------------
+Echo Plasma Pistol Energy Glow
+Echo ---------------------------
+EditTag 0x11AE
+SetField ShaderProperties[0].Arguments[6].Arg1 5
+SetField ShaderProperties[0].Arguments[6].Arg2 5
+SetField ShaderProperties[0].Arguments[6].Arg3 5
+SetField ShaderProperties[0].Arguments[6].Arg4 5
+SaveTagChanges
+ExitTo tags
+
+Echo ---------------------------
+Echo Plasma Pistol Red Hologram
+Echo ---------------------------
+EditTag 0x11A8
+SetField ShaderProperties[0].Arguments[4].Arg1 1
+SetField ShaderProperties[0].Arguments[4].Arg2 0
+SetField ShaderProperties[0].Arguments[4].Arg3 0
+SetField ShaderProperties[0].Arguments[4].Arg4 1
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x11A7
+SpecifyShaders
+0x11A8
+0x11A9
+0x11AA
+0x11AB
+0x11AC
+0x11AD
+0x11AE
+null
+0x11B0
+0x11B1
+ExitTo tags
+
+EditTag 0x22EF
+SpecifyShaders
+0x11AE
+0x11A8
+0x11A9
+0x11B1
+0x11AA
+0x11B0
+null
+0x11AD
+0x11AB
+0x11AC
+ExitTo tags
+
+EditTag 0x11A7
+SetField Materials[7].RenderMethod null
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x22EF
+SetField Materials[6].RenderMethod null
+SaveTagChanges
+ExitTo tags
+
+
+dumplog
+Exit

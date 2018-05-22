@@ -1,0 +1,269 @@
+Echo ---------------------------------
+Echo Carbine Textures
+Echo ---------------------------------
+EditTag 0x1076
+ImportBitmap 0 Bitmaps\1076.dds
+ExitTo tags
+
+EditTag 0x1078
+ImportBitmap 0 Bitmaps\1078.dds
+ExitTo tags
+
+CreateTag bitm
+NameTag * covenant_carbine_cubemap
+EditTag *
+ImportBitmap 0 Bitmaps\mirror_surface.dds
+ExitTo tags
+
+SaveTagNames
+
+EditTag 0x1085
+ImportBitmap 0 Bitmaps\1085.dds
+ExitTo tags
+
+Echo -------------------------
+Echo Carbine Shaders
+Echo -------------------------
+ImportTag 0x106E Shaders\260D.rmsh
+ImportTag 0x1073 Shaders\1F97.rmhg
+
+EditTag 0x106E
+SpecifyBitmaps
+0x1076
+0x0343
+0x1077
+0x2613
+covenant_carbine_cubemap.bitmap
+0x1078
+ExitTo tags
+
+EditTag 0x1073
+SpecifyBitmaps
+0x1085
+0x0343
+0x0EF7
+0x1085
+0x1085
+ExitTo tags
+
+EditTag 0x106E
+SetField ShaderProperties[0].Arguments[1].Arg1 1
+SetField ShaderProperties[0].Arguments[1].Arg2 1
+SetField ShaderProperties[0].Arguments[1].Arg3 0
+SetField ShaderProperties[0].Arguments[1].Arg4 0
+SetField ShaderProperties[0].Arguments[2].Arg1 0.6
+SetField ShaderProperties[0].Arguments[2].Arg2 0.5411765
+SetField ShaderProperties[0].Arguments[2].Arg3 0.9568628
+SetField ShaderProperties[0].Arguments[2].Arg4 1
+SetField ShaderProperties[0].Arguments[4].Arg1 0
+SetField ShaderProperties[0].Arguments[4].Arg2 0
+SetField ShaderProperties[0].Arguments[4].Arg3 0
+SetField ShaderProperties[0].Arguments[4].Arg4 0
+SetField ShaderProperties[0].Arguments[5].Arg1 0
+SetField ShaderProperties[0].Arguments[5].Arg2 0
+SetField ShaderProperties[0].Arguments[5].Arg3 0
+SetField ShaderProperties[0].Arguments[5].Arg4 0
+SetField ShaderProperties[0].Arguments[6].Arg1 0
+SetField ShaderProperties[0].Arguments[6].Arg2 0
+SetField ShaderProperties[0].Arguments[6].Arg3 0
+SetField ShaderProperties[0].Arguments[6].Arg4 0
+SetField ShaderProperties[0].Arguments[7].Arg1 1
+SetField ShaderProperties[0].Arguments[7].Arg2 1
+SetField ShaderProperties[0].Arguments[7].Arg3 1
+SetField ShaderProperties[0].Arguments[7].Arg4 1
+SetField ShaderProperties[0].Arguments[8].Arg1 2
+SetField ShaderProperties[0].Arguments[8].Arg2 2
+SetField ShaderProperties[0].Arguments[8].Arg3 2
+SetField ShaderProperties[0].Arguments[8].Arg4 2
+SetField ShaderProperties[0].Arguments[9].Arg1 0.7803922
+SetField ShaderProperties[0].Arguments[9].Arg2 0.4313726
+SetField ShaderProperties[0].Arguments[9].Arg3 0.07843138
+SetField ShaderProperties[0].Arguments[9].Arg4 1
+SetField ShaderProperties[0].Arguments[10].Arg1 30
+SetField ShaderProperties[0].Arguments[10].Arg2 30
+SetField ShaderProperties[0].Arguments[10].Arg3 30
+SetField ShaderProperties[0].Arguments[10].Arg4 30
+SetField ShaderProperties[0].Arguments[11].Arg1 0.4313726
+SetField ShaderProperties[0].Arguments[11].Arg2 0.1411765
+SetField ShaderProperties[0].Arguments[11].Arg3 0.5450981
+SetField ShaderProperties[0].Arguments[11].Arg4 1
+SetField ShaderProperties[0].Arguments[12].Arg1 0.2
+SetField ShaderProperties[0].Arguments[12].Arg2 0.2
+SetField ShaderProperties[0].Arguments[12].Arg3 0.2
+SetField ShaderProperties[0].Arguments[12].Arg4 0.2
+SetField ShaderProperties[0].Arguments[13].Arg1 1
+SetField ShaderProperties[0].Arguments[13].Arg2 1
+SetField ShaderProperties[0].Arguments[13].Arg3 1
+SetField ShaderProperties[0].Arguments[13].Arg4 1
+SetField ShaderProperties[0].Arguments[14].Arg1 0.8
+SetField ShaderProperties[0].Arguments[14].Arg2 0.8
+SetField ShaderProperties[0].Arguments[14].Arg3 0.8
+SetField ShaderProperties[0].Arguments[14].Arg4 0.8
+SetField ShaderProperties[0].Arguments[15].Arg1 2
+SetField ShaderProperties[0].Arguments[15].Arg2 2
+SetField ShaderProperties[0].Arguments[15].Arg3 2
+SetField ShaderProperties[0].Arguments[15].Arg4 2
+SetField ShaderProperties[0].Arguments[18].Arg1 0.2313726
+SetField ShaderProperties[0].Arguments[18].Arg2 0.4333333
+SetField ShaderProperties[0].Arguments[18].Arg3 0.9725491
+SetField ShaderProperties[0].Arguments[18].Arg4 1
+SetField ShaderProperties[0].Arguments[21].Arg1 1
+SetField ShaderProperties[0].Arguments[21].Arg2 1
+SetField ShaderProperties[0].Arguments[21].Arg3 1
+SetField ShaderProperties[0].Arguments[21].Arg4 1
+SetField ShaderProperties[0].Arguments[22].Arg1 2
+SetField ShaderProperties[0].Arguments[22].Arg2 2
+SetField ShaderProperties[0].Arguments[22].Arg3 2
+SetField ShaderProperties[0].Arguments[22].Arg4 2
+SaveTagChanges
+ExitTo tags
+
+Echo -------------------------
+Echo Carbine Circle Hologram
+Echo -------------------------
+EditTag 0x106F
+SetField ShaderProperties[0].Arguments[0].Arg1 0
+SetField ShaderProperties[0].Arguments[0].Arg2 0
+SetField ShaderProperties[0].Arguments[0].Arg3 0
+SetField ShaderProperties[0].Arguments[0].Arg4 0
+SetField ShaderProperties[0].Arguments[2].Arg1 0
+SetField ShaderProperties[0].Arguments[2].Arg2 0
+SetField ShaderProperties[0].Arguments[2].Arg3 1
+SetField ShaderProperties[0].Arguments[2].Arg4 1
+SetField ShaderProperties[0].Arguments[3].Arg1 0
+SetField ShaderProperties[0].Arguments[3].Arg2 0
+SetField ShaderProperties[0].Arguments[3].Arg3 0
+SetField ShaderProperties[0].Arguments[3].Arg4 0
+SetField ShaderProperties[0].Arguments[4].Arg1 0
+SetField ShaderProperties[0].Arguments[4].Arg2 0
+SetField ShaderProperties[0].Arguments[4].Arg3 2
+SetField ShaderProperties[0].Arguments[4].Arg4 1
+SaveTagChanges
+ExitTo tags
+
+Echo -------------------------
+Echo Third Person Carbine Circle Hologram
+Echo -------------------------
+EditTag 0x1DFC
+SetField ShaderProperties[0].Arguments[0].Arg1 0
+SetField ShaderProperties[0].Arguments[0].Arg2 0
+SetField ShaderProperties[0].Arguments[0].Arg3 0
+SetField ShaderProperties[0].Arguments[0].Arg4 0
+SetField ShaderProperties[0].Arguments[2].Arg1 0
+SetField ShaderProperties[0].Arguments[2].Arg2 0
+SetField ShaderProperties[0].Arguments[2].Arg3 1
+SetField ShaderProperties[0].Arguments[2].Arg4 1
+SetField ShaderProperties[0].Arguments[3].Arg1 0
+SetField ShaderProperties[0].Arguments[3].Arg2 0
+SetField ShaderProperties[0].Arguments[3].Arg3 0
+SetField ShaderProperties[0].Arguments[3].Arg4 0
+SetField ShaderProperties[0].Arguments[4].Arg1 0
+SetField ShaderProperties[0].Arguments[4].Arg2 0
+SetField ShaderProperties[0].Arguments[4].Arg3 2
+SetField ShaderProperties[0].Arguments[4].Arg4 1
+SaveTagChanges
+ExitTo tags
+
+Echo -------------------------
+Echo Carbine Top Hologram
+Echo -------------------------
+EditTag 0x1070
+SetField ShaderProperties[0].Arguments[0].Arg1 0
+SetField ShaderProperties[0].Arguments[0].Arg2 0
+SetField ShaderProperties[0].Arguments[0].Arg3 0
+SetField ShaderProperties[0].Arguments[0].Arg4 0
+SetField ShaderProperties[0].Arguments[3].Arg1 0
+SetField ShaderProperties[0].Arguments[3].Arg2 0
+SetField ShaderProperties[0].Arguments[3].Arg3 0
+SetField ShaderProperties[0].Arguments[3].Arg4 0
+SaveTagChanges
+ExitTo tags
+
+Echo -------------------------
+Echo Carbine Ammo Counter 1
+Echo -------------------------
+EditTag 0x1071
+SetField ShaderProperties[0].Arguments[1].Arg1 0
+SetField ShaderProperties[0].Arguments[1].Arg2 0
+SetField ShaderProperties[0].Arguments[1].Arg3 0
+SetField ShaderProperties[0].Arguments[1].Arg4 0
+SaveTagChanges
+ExitTo tags
+
+Echo -------------------------
+Echo Carbine Ammo Counter 2
+Echo -------------------------
+EditTag 0x1072
+SetField ShaderProperties[0].Arguments[1].Arg1 0
+SetField ShaderProperties[0].Arguments[1].Arg2 0
+SetField ShaderProperties[0].Arguments[1].Arg3 0
+SetField ShaderProperties[0].Arguments[1].Arg4 0
+SaveTagChanges
+ExitTo tags
+
+Echo -------------------------
+Echo Carbine Ammo Energy
+Echo -------------------------
+EditTag 0x1073
+SetField ShaderProperties[0].Arguments[4].Arg1 0
+SetField ShaderProperties[0].Arguments[4].Arg2 0
+SetField ShaderProperties[0].Arguments[4].Arg3 1
+SetField ShaderProperties[0].Arguments[4].Arg4 1
+SetField ShaderProperties[0].Arguments[9].Arg1 1
+SetField ShaderProperties[0].Arguments[9].Arg2 1
+SetField ShaderProperties[0].Arguments[9].Arg3 1
+SetField ShaderProperties[0].Arguments[9].Arg4 1
+SetField ShaderProperties[0].Arguments[10].Arg1 0.5
+SetField ShaderProperties[0].Arguments[10].Arg2 0.5
+SetField ShaderProperties[0].Arguments[10].Arg3 0.5
+SetField ShaderProperties[0].Arguments[10].Arg4 0.5
+SaveTagChanges
+ExitTo tags
+
+Echo -------------------------
+Echo Carbine Ammo Static
+Echo -------------------------
+EditTag 0x1074
+SetField ShaderProperties[0].Arguments[2].Arg1 0
+SetField ShaderProperties[0].Arguments[2].Arg2 0
+SetField ShaderProperties[0].Arguments[2].Arg3 1
+SetField ShaderProperties[0].Arguments[2].Arg4 1
+SaveTagChanges
+ExitTo tags
+
+Echo -------------------------
+Echo Carbine Ammo Overlay Pulse
+Echo -------------------------
+EditTag 0x1075
+SetField ShaderProperties[0].Arguments[3].Arg1 0
+SetField ShaderProperties[0].Arguments[3].Arg2 0
+SetField ShaderProperties[0].Arguments[3].Arg3 0
+SetField ShaderProperties[0].Arguments[3].Arg4 0
+SaveTagChanges
+ExitTo tags
+
+Echo -------------------------
+Echo Third Person Carbine Self Illum Overlay 1
+Echo -------------------------
+EditTag 0x1DFA
+SetField ShaderProperties[0].Arguments[1].Arg1 0
+SetField ShaderProperties[0].Arguments[1].Arg2 0
+SetField ShaderProperties[0].Arguments[1].Arg3 0
+SetField ShaderProperties[0].Arguments[1].Arg4 0
+SaveTagChanges
+ExitTo tags
+
+Echo -------------------------
+Echo Third Person Carbine Self Illum Overlay 2
+Echo -------------------------
+EditTag 0x1DFB
+SetField ShaderProperties[0].Arguments[1].Arg1 0
+SetField ShaderProperties[0].Arguments[1].Arg2 0
+SetField ShaderProperties[0].Arguments[1].Arg3 0
+SetField ShaderProperties[0].Arguments[1].Arg4 0
+SaveTagChanges
+ExitTo tags
+
+
+Dumplog
+Exit
