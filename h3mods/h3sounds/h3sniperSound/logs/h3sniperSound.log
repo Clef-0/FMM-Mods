@@ -1,0 +1,45 @@
+Tag Tool [1.0.5907.15260]
+
+Please report any bugs and feature requests at
+<https://github.com/camden-smallwood/TagTool/issues>.
+
+Reading tags...23263 tags loaded.
+- Detected target engine version 1.106708 cert_ms23.
+- This cache file was built on 2015-03-20 at 10:40 AM.
+Reading stringIDs...39505 strings loaded.
+
+Enter "help" to list available commands. Enter "exit" to quit.
+
+tags.dat> resourcedata import audio.dat 04D6 tags/h3sniper.mp3
+Imported 0x1E39E bytes.
+Compressed size = 0x1908F
+
+tags.dat> 
+
+tags.dat> import 1FC9 tags/1FC9_sniper.snd!
+Imported 0x480 bytes.
+
+tags.dat> 
+
+tags.dat> edit 1FC9
+Tag 0x00001FC9.sound has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.dat.
+
+tags.dat\0x1FC9.sound> SetField PitchRanges[0].Permutations[1].PermutationChunks[0].FileOffset 0
+FileOffset: UInt32 = 0
+
+tags.dat\0x1FC9.sound> SetField PitchRanges[0].Permutations[2].PermutationChunks[0].FileOffset 0
+FileOffset: UInt32 = 0
+
+tags.dat\0x1FC9.sound> Setfield GainBase 0
+GainBase: Single = 0
+
+tags.dat\0x1FC9.sound> savechanges
+Done!
+
+tags.dat\0x1FC9.sound> exit
+
+tags.dat> 
+
+tags.dat> dumplog h3sniperSound.log

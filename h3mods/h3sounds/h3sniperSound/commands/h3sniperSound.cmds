@@ -1,0 +1,14 @@
+resourcedata import audio.dat 04D6 tags/h3sniper.mp3
+
+import 1FC9 tags/1FC9_sniper.snd!
+
+edit 1FC9
+SetField PitchRanges[0].Permutations[1].PermutationChunks[0].FileOffset 0
+SetField PitchRanges[0].Permutations[2].PermutationChunks[0].FileOffset 0
+Setfield GainBase 0
+savechanges
+exit
+
+dumplog h3sniperSound.log
+exit
+exit

@@ -1,0 +1,10 @@
+ECHO FMM_OUTPUT Installing Halo 3 sniper sound ...
+cd mods\tagMods\h3mods\h3sounds\h3sniperSound
+
+color 0A
+
+MOVE ..\..\..\..\..\maps\audio.dat audio.dat
+Type commands\h3sniperSound.cmds | TagTool.exe ../../../../../maps/tags.dat
+MOVE audio.dat ..\..\..\..\..\maps\audio.dat
+
+ECHO FMM_OUTPUT Installation Complete ...

@@ -1,0 +1,12 @@
+resourcedata import audio.dat 0463 tags/h3BR.mp3
+
+import 1D91 tags/1D91_BR.snd!
+
+edit 1D91
+Setfield GainBase 0
+savechanges
+exit
+
+dumplog h3BRSound.log
+exit
+exit
