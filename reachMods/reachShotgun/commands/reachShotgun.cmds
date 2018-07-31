@@ -1,0 +1,130 @@
+echo Halo Reach Shotgun local cosmetic mod for Halo Online Eldewrito MS23 build; made by Bungie; ported by dany5639 using Shockfire's tagtool and Camden's commands;
+echo Halo Reach Shotgun local cosmetic mod for Halo Online Eldewrito MS23 build; made by Bungie; ported by dany5639 using Shockfire's tagtool and Camden's commands;
+XXXX
+
+
+echo
+echo
+echo Halo Reach Shotgun local cosmetic mod for Halo Online Eldewrito MS23 build; made by Bungie; ported by dany5639 using Shockfire's tagtool and Camden's commands;
+echo Halo Reach Shotgun local cosmetic mod for Halo Online Eldewrito MS23 build; made by Bungie; ported by dany5639 using Shockfire's tagtool and Camden's commands;
+1EF5
+1EF5
+1EFB
+1EFB
+1F3F
+1F3F
+echo Halo Reach Shotgun local cosmetic mod for Halo Online Eldewrito MS23 build; made by Bungie; ported by dany5639 using Shockfire's tagtool and Camden's commands;
+echo Halo Reach Shotgun local cosmetic mod for Halo Online Eldewrito MS23 build; made by Bungie; ported by dany5639 using Shockfire's tagtool and Camden's commands;
+0000
+5C37
+0000
+5C38
+0000
+5C39
+0000
+5C3A
+echo Halo Reach Shotgun local cosmetic mod for Halo Online Eldewrito MS23 build; made by Bungie; ported by dany5639 using Shockfire's tagtool and Camden's commands;
+echo Halo Reach Shotgun local cosmetic mod for Halo Online Eldewrito MS23 build; made by Bungie; ported by dany5639 using Shockfire's tagtool and Camden's commands;
+0000
+5C3B
+0000
+5C3C
+0000
+5C3D
+0000
+5C3E
+0000
+5C3F
+0000
+5C40
+STOP
+
+resourcedata import resources.dat 0108 tags/HRShotgun.raw
+
+importbitmap 5C37 DDS/shotgun_diffuse.dds    
+importbitmap 5C38 DDS/shotgun_zbump.dds      
+importbitmap 5C39 DDS/shotgun_flat_illum.dds 
+importbitmap 5C3A DDS/unsc_decals_diffuse.dds
+
+import 1EF5 tags/hlmt_HRSH
+import 1F3F tags/mode_HRSH3d
+import 1EFB tags/mode_HRSHfp
+import 5C3B tags/shad_HRSHcomp
+import 5C3F tags/shad_HRSHdeca
+import 5C40 tags/shad_HRSHillu
+import 5C3C tags/shad_HRSHmeta
+import 5C3E tags/shad_HRSHrubb
+import 5C3D tags/shad_HRSHshin
+
+edit 5C3B
+SpecifyBitmaps
+5C37
+0343
+5C38
+0376
+02B7
+02B9
+0379
+exitTo tags.dat
+edit 5C3C
+SpecifyBitmaps
+5C37
+0343
+5C38
+0376
+02B7
+02B9
+0379
+exitTo tags.dat
+edit 5C3D
+SpecifyBitmaps
+5C37
+0343
+5C38
+0376
+02B7
+02B9
+0379
+exitTo tags.dat
+edit 5C3E
+SpecifyBitmaps
+5C37
+0343
+5C38
+0376
+02B7
+02B9
+0379
+exitTo tags.dat
+edit 5C3F
+SpecifyBitmaps
+5C3A
+0343
+exitTo tags.dat
+edit 5C40
+SpecifyBitmaps
+5C39
+0343
+exitTo tags.dat
+edit 1EFB
+SpecifyShaders
+5C3B
+5C3C
+5C3D
+5C3E
+5C3F
+5C40
+exitTo tags.dat
+edit 1F3F
+SpecifyShaders
+5C3B
+5C3C
+5C3D
+5C3E
+5C3F
+5C40
+exitTo tags.dat
+
+dumplog reachShotgun.log
+exit
+exit
