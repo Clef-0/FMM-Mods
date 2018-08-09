@@ -17,8 +17,5 @@ https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/h3mods/h3sounds/h3shotg
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/h3mods/h3sounds/h3sniperSound/h3sniperSound.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/h3mods/h3sounds/h3weapsounds/h3weaponsounds.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/mythicmods/UNOFFICIALPATCH/MYTHIC_Unofficial_Halo_Online_Patch_for_ElDewrito.ini
-<<<<<<< Updated upstream
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Gungoose/Gungoose.ini
-=======
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/mythicmods/ODDSKULL/Oddskull.ini
->>>>>>> Stashed changes
