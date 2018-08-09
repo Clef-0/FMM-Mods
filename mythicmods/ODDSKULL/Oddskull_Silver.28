@@ -1,0 +1,32 @@
+CreateTag bitm
+NameTag * mirror_surface_silver
+EditTag mirror_surface_silver.bitmap
+ImportBitmap 0 silver\bitmaps\mirror_surface_silver.dds
+Exit
+
+CreateTag rmsh
+NameTag * oddskull_silver
+ImportTag * silver\mythic\oddskull_silver.shader
+
+EditTag oddskull_silver.shader
+SetField ShaderProperties[0].ShaderMaps[0].Bitmap 0x267A
+SetField ShaderProperties[0].ShaderMaps[1].Bitmap 0x0343
+SetField ShaderProperties[0].ShaderMaps[2].Bitmap 0x267B
+SetField ShaderProperties[0].ShaderMaps[3].Bitmap 0x267C
+SetField ShaderProperties[0].ShaderMaps[4].Bitmap mirror_surface_silver.bitmap
+SetField ShaderProperties[0].ShaderMaps[5].Bitmap null
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x2676
+SetField Materials[0].RenderMethod oddskull_silver.shader
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x2687
+SetField Materials[0].RenderMethod oddskull_silver.shader
+SaveTagChanges
+ExitTo tags
+
+Dumplog MYTHIC.log
+Exit
