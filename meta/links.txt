@@ -19,3 +19,4 @@ https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/h3mods/h3sounds/h3weaps
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/mythicmods/UNOFFICIALPATCH/MYTHIC_Unofficial_Halo_Online_Patch_for_ElDewrito.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Gungoose/Gungoose.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/mythicmods/ODDSKULL/Oddskull.ini
+https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Weapon_Skins_pack/Weapon_Skins_pack.ini
