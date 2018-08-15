@@ -1,0 +1,35 @@
+edittag 0x00000C8A
+importbitmap 0 00000C8A.dds
+savetagchanges
+exit
+
+edittag 0x00000C8F
+importbitmap 0 00000C8F.dds
+savetagchanges
+exit
+
+edittag 0x00000C89
+importbitmap 0 00000C89.dds
+savetagchanges
+exit
+
+edittag 0x000012BC
+importbitmap 0 000012BC.dds
+savetagchanges
+exit
+
+edittag 0x00000C8C
+importbitmap 0 pie.dds
+savetagchanges
+exit
+
+edittag 0x00000C8B
+importbitmap 0 00000C8B.dds
+savetagchanges
+exit
+
+importtag 0x000001BD globals.chgd
+importtag 0x00000C1E spartan.chdt
+importtag 0x000012BD scoreboardd.chdt
+exit
+
