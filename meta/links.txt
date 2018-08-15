@@ -20,3 +20,4 @@ https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/mythicmods/UNOFFICIALPA
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Gungoose/Gungoose.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/mythicmods/ODDSKULL/Oddskull.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Weapon_Skins_pack/Weapon_Skins_pack.ini
+https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/UltrawideHud/Ultrawide.ini
