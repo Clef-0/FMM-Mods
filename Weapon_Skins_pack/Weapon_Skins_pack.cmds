@@ -1,0 +1,162 @@
+edittag 0x24C0
+importbitmap 0 assets\weapons\spartanlaser.dds
+
+exit
+
+edittag 0x0EED
+importbitmap 0 assets\weapons\assaultrifle.dds
+
+exit
+
+edittag 0x00000F7F
+importbitmap 0 assets\weapons\battlerifle.dds
+
+exit
+
+edittag 0x1FA0
+importbitmap 0 assets\weapons\sniper.dds
+
+exit
+
+edittag 0x1F06
+importbitmap 0 assets\weapons\shotgun.dds
+
+exit
+
+edittag 0x1161
+importbitmap 0 assets\weapons\base_map_1161.dds
+
+exit
+
+edittag 0x10CB
+importbitmap 0 assets\weapons\base_map_1E31.dds
+
+exit
+
+edittag 0x1000
+importbitmap 0 assets\weapons\base_map_1000.dds
+
+exit
+
+edittag 0x1112
+importbitmap 0 assets\weapons\base_map_1112.dds
+
+exit
+
+edittag 0x20FA
+importbitmap 0 assets\weapons\base_map_20FA.dds
+
+exit
+
+edittag 0x20F8
+importbitmap 0 assets\weapons\self_illum_map_20F8.dds
+
+exit
+
+Edittag 0x110B
+
+editblock shaderproperties[0]
+editblock arguments[3]
+
+Setfield arg1 3.0
+Setfield arg2 0.0
+Setfield arg3 0.0
+Setfield arg4 0.0
+
+savetagchanges
+exit
+
+editblock shaderproperties[0]
+editblock arguments[1]
+
+Setfield arg1 2.0
+Setfield arg2 2.0
+Setfield arg3 2.0
+Setfield arg4 2.0
+
+savetagchanges
+exit
+
+editblock shaderproperties[0]
+editblock arguments[6]
+
+Setfield arg1 0.8
+Setfield arg2 0.0
+Setfield arg3 0.0
+Setfield arg4 0.0
+
+savetagchanges
+exit
+
+editblock shaderproperties[0]
+editblock arguments[14]
+
+Setfield arg1 1.0
+Setfield arg2 0.06
+Setfield arg3 0.05
+Setfield arg4 1.0
+
+savetagchanges
+
+exit
+
+exit
+
+exit
+
+
+Edittag 0x20F4
+
+editblock shaderproperties[0]
+editblock arguments[7]
+
+Setfield arg1 0.9
+Setfield arg2 0.8
+Setfield arg3 0.0
+Setfield arg4 0.0
+
+savetagchanges
+exit
+
+editblock shaderproperties[0]
+editblock arguments[9]
+
+Setfield arg1 1.2
+Setfield arg2 0.9
+Setfield arg3 0.4
+Setfield arg4 1.0
+
+savetagchanges
+exit
+
+editblock shaderproperties[0]
+editblock arguments[14]
+
+Setfield arg1 0.9
+Setfield arg2 0.6
+Setfield arg3 0.5
+Setfield arg4 0.5
+
+savetagchanges
+
+exit
+
+exit
+
+exit
+
+
+Edittag 0x20F2
+
+editblock shaderproperties[0]
+editblock arguments[6]
+
+Setfield arg1 11.0
+Setfield arg2 10.0
+Setfield arg3 0.4
+Setfield arg4 0.0
+
+savetagchanges
+exit
+exit
+exit
