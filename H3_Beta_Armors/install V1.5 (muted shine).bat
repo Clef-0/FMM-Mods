@@ -11,8 +11,7 @@ if exist ..\..\..\maps\tags.dat (
 
 :Label0
 
-Type H3BA.cmds | TagTool.exe ../../../maps/tags.dat
-
+Type V1.5.cmds | TagTool.exe ../../../maps/tags.dat
 
 
 

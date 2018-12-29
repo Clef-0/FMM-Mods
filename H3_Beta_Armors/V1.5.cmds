@@ -1,0 +1,637 @@
+echo   Installing Halo 3 Beta Armor
+
+SetLocale US
+
+DuplicateTag 0x0f72
+NameTag * bodyShader
+importtag bodyShader.rmsh shaders\masterchiefBody.shader
+
+DuplicateTag 0x0f72
+NameTag * mark6Visor
+importtag mark6Visor.rmsh shaders\5_20_2018_Visor.shader
+
+CreateTag bitm
+NameTag * bodyMaterial
+EditTag bodyMaterial.bitm
+importbitmap 0 materials\masterchief_material.dds
+savetagchanges
+exit
+
+
+CreateTag bitm
+NameTag * bodyBump
+EditTag bodyBump.bitm
+importbitmap 0 bump\masterchief_bump.dds
+savetagchanges
+exit
+
+CreateTag bitm
+NameTag * M6VisorMaterial
+EditTag M6VisorMaterial.bitm
+importbitmap 0 materials\visorMaterialAdapted.dds
+savetagchanges
+exit
+
+edittag 0x001B
+importbitmap 0 cc\masterchief.dds
+savetagchanges
+exit
+
+edittag 0x001A
+importbitmap 0 base\NoVisorFlipped.dds
+savetagchanges
+exit
+
+edittag 0x0024
+importbitmap 0 base\visor_realtime.dds
+savetagchanges
+exit
+
+
+EditTag bodyShader.rmsh
+SetField ShaderProperties[0].Arguments[8].Arg1 0.9
+SetField ShaderProperties[0].Arguments[9].Arg1 5.2
+SetField ShaderProperties[0].Arguments[15].Arg1 0.28
+SetField ShaderProperties[0].Arguments[18].Arg1 0.85
+
+SetField ShaderProperties[0].Arguments[8].Arg1 0.8
+SetField ShaderProperties[0].Arguments[21].Arg1 1.62
+
+SetField ShaderProperties[0].Arguments[16].Arg1 0.2
+SetField ShaderProperties[0].Arguments[21].Arg1 1.67
+
+SetField ShaderProperties[0].Arguments[21].Arg1 1.8
+
+SetField ShaderProperties[0].Arguments[8].Arg1 1.2
+SetField ShaderProperties[0].Arguments[9].Arg1 5
+
+SetField ShaderProperties[0].Arguments[8].Arg1 1
+SetField ShaderProperties[0].Arguments[16].Arg1 0
+
+SetField ShaderProperties[0].ShaderMaps[0].Bitmap 0x001A
+SetField ShaderProperties[0].ShaderMaps[1].Bitmap 0x000D
+SetField ShaderProperties[0].ShaderMaps[2].Bitmap 0x001B
+SetField ShaderProperties[0].ShaderMaps[3].Bitmap bodyBump.bitm
+SetField ShaderProperties[0].ShaderMaps[4].Bitmap 0x001D 
+SetField ShaderProperties[0].ShaderMaps[5].Bitmap 0x0EF7
+SetField ShaderProperties[0].ShaderMaps[6].Bitmap 0x02B9
+SetField ShaderProperties[0].ShaderMaps[7].Bitmap bodyMaterial.bitm
+SaveTagChanges
+exit
+
+edittag 0x0022
+SetField ShaderProperties[0].ShaderMaps[0].Bitmap 0x001A
+savetagchanges
+exit
+
+EditTag mark6Visor.rmsh
+
+SetField ShaderProperties[0].Arguments[15].Arg1 0.1
+SetField ShaderProperties[0].Arguments[16].Arg1 0.5
+SetField ShaderProperties[0].Arguments[17].Arg1 1.3
+SetField ShaderProperties[0].Arguments[18].Arg1 2
+
+SetField ShaderProperties[0].ShaderMaps[0].Bitmap 0x0024
+SetField ShaderProperties[0].ShaderMaps[1].Bitmap 0x0EF7
+SetField ShaderProperties[0].ShaderMaps[2].Bitmap 0x001B
+SetField ShaderProperties[0].ShaderMaps[3].Bitmap 0x0025
+SetField ShaderProperties[0].ShaderMaps[4].Bitmap 0x0F81
+SetField ShaderProperties[0].ShaderMaps[5].Bitmap 0x0EF7
+SetField ShaderProperties[0].ShaderMaps[6].Bitmap 0x02B9
+SetField ShaderProperties[0].ShaderMaps[7].Bitmap M6VisorMaterial.bitm
+SaveTagChanges
+exit
+
+edittag 0x0028
+SetField Materials[0].RenderMethod mark6Visor.rmsh
+SetField Materials[1].RenderMethod bodyShader.rmsh
+savetagchanges
+exit
+
+EditTag 0x0CBD
+SetField Materials[0].RenderMethod bodyShader.rmsh
+SaveTagChanges
+exit
+
+EditTag 0x0005
+SetField Materials[0].RenderMethod bodyShader.rmsh
+SetField Materials[2].RenderMethod bodyShader.rmsh
+SaveTagChanges
+exit
+
+
+CreateTag bitm
+NameTag * armsMaterial
+EditTag armsMaterial.bitm
+importbitmap 0 materials\arm_material_v1.dds
+exit
+createtag bitm
+nametag * armsBump
+edittag armsBump.bitm
+importbitmap 0 bump\efp_arms_zbump.dds
+savetagchanges
+exit
+edittag 0x000A
+importbitmap 0 base\armsBase.dds
+savetagchanges
+exit
+edittag 0x0011
+importbitmap 0 cc\arms.dds
+savetagchanges
+exit
+
+DuplicateTag bodyShader.rmsh
+nametag * armsShader
+importtag armsShader.rmsh shaders\betaArms.shader
+edittag armsShader.rmsh
+SetField ShaderProperties[0].Arguments[9].Arg1 0.3
+SetField ShaderProperties[0].Arguments[15].Arg1 1
+SetField ShaderProperties[0].Arguments[18].Arg1 1
+SetField ShaderProperties[0].Arguments[18].Arg1 2
+SetField ShaderProperties[0].Arguments[14].Arg1 11111
+SetField ShaderProperties[0].ShaderMaps[0].Bitmap 0x000A
+SetField ShaderProperties[0].ShaderMaps[1].Bitmap 0x000D
+SetField ShaderProperties[0].ShaderMaps[2].Bitmap 0x0011
+SetField ShaderProperties[0].ShaderMaps[3].Bitmap armsBump.bitm
+SetField ShaderProperties[0].ShaderMaps[4].Bitmap 0x001D
+SetField ShaderProperties[0].ShaderMaps[7].Bitmap armsMaterial.bitm
+savetagchanges
+exit
+EditTag 0x0004
+SetField Materials[0].RenderMethod armsShader.rmsh
+SaveTagChanges
+ExitTo tags
+
+
+CreateTag bitm
+NameTag * ninjaMaterial
+EditTag ninjaMaterial.bitm
+importbitmap 0 materials\ninjaMaterial.dds
+savetagchanges
+exit
+createtag bitm
+nametag * ninjaBump
+edittag ninjaBump.bitm
+importbitmap 0 bump\mp_ninja_bump.dds
+savetagchanges
+exit
+edittag 0x003B
+importbitmap 0 base\ninjaBase.dds
+savetagchanges
+exit
+edittag 0x003C
+importbitmap 0 cc\ninja.dds
+savetagchanges
+exit
+DuplicateTag bodyShader.rmsh
+nametag * ninjaShader
+edittag ninjaShader.rmsh
+SetField ShaderProperties[0].Arguments[9].Arg1 4
+SetField ShaderProperties[0].Arguments[21].Arg1 2
+SetField ShaderProperties[0].ShaderMaps[0].Bitmap 0x003B
+SetField ShaderProperties[0].ShaderMaps[2].Bitmap 0x003C
+SetField ShaderProperties[0].ShaderMaps[3].Bitmap ninjaBump.bitm
+SetField ShaderProperties[0].ShaderMaps[7].Bitmap ninjaMaterial.bitm
+savetagchanges
+exit
+duplicatetag mark6Visor.rmsh
+nametag * ninjaVisor
+edittag ninjaVisor.rmsh
+SetField ShaderProperties[0].ShaderMaps[0].Bitmap 0x003B
+SetField ShaderProperties[0].ShaderMaps[1].Bitmap 0x02B7
+SetField ShaderProperties[0].ShaderMaps[2].Bitmap 0x003C
+SetField ShaderProperties[0].ShaderMaps[3].Bitmap 0x003D
+SetField ShaderProperties[0].ShaderMaps[7].Bitmap ninjaMaterial.bitm
+SetField ShaderProperties[0].Arguments[8].Arg1 77
+SetField ShaderProperties[0].Arguments[9].Arg1 1
+SetField ShaderProperties[0].Arguments[14].Arg1 11111
+SetField ShaderProperties[0].Arguments[15].Arg1 0.1
+SetField ShaderProperties[0].Arguments[16].Arg1 0
+SetField ShaderProperties[0].Arguments[17].Arg1 5
+SetField ShaderProperties[0].Arguments[18].Arg1 11
+SetField ShaderProperties[0].Arguments[20].Arg1 0
+SetField ShaderProperties[0].Arguments[21].Arg1 1.8
+SetField ShaderProperties[0].Arguments[23].Arg1 0
+savetagchanges
+exit
+EditTag 0x0040
+SetField Materials[0].RenderMethod bodyShader.rmsh
+SetField Materials[1].RenderMethod ninjaShader.rmsh
+SetField Materials[2].RenderMethod ninjaVisor.rmsh
+SaveTagChanges
+exit
+
+
+CreateTag bitm
+NameTag * intruderMaterial
+EditTag intruderMaterial.bitm
+importbitmap 0 materials\intruderMaterial.dds
+savetagchanges
+exit
+CreateTag bitm
+NameTag * intruderBump
+EditTag intruderBump.bitm
+importbitmap 0 bump\mp_intruder_bump.dds
+savetagchanges
+exit
+edittag 0x0033
+importbitmap 0 base\intruderBase.dds
+savetagchanges
+exit
+edittag 0x0034
+importbitmap 0 cc\intruder.dds
+savetagchanges
+exit
+
+DuplicateTag ninjaShader.rmsh
+nametag * intruderShader
+edittag intruderShader.rmsh
+SetField ShaderProperties[0].ShaderMaps[0].Bitmap 0x0033
+SetField ShaderProperties[0].ShaderMaps[2].Bitmap 0x0034
+SetField ShaderProperties[0].ShaderMaps[3].Bitmap intruderBump.bitm
+SetField ShaderProperties[0].ShaderMaps[7].Bitmap intruderMaterial.bitm
+savetagchanges
+exit
+duplicatetag mark6Visor.rmsh
+nametag * intruderVisor
+edittag intruderVisor.rmsh
+SetField ShaderProperties[0].Arguments[14].Arg1 1
+SetField ShaderProperties[0].Arguments[15].Arg1 0.1
+SetField ShaderProperties[0].Arguments[16].Arg1 0.1
+SetField ShaderProperties[0].Arguments[17].Arg1 5
+SetField ShaderProperties[0].Arguments[18].Arg1 2
+SetField ShaderProperties[0].ShaderMaps[0].Bitmap 0x0033
+SetField ShaderProperties[0].ShaderMaps[2].Bitmap 0x0034
+SetField ShaderProperties[0].ShaderMaps[3].Bitmap 0x0035
+SetField ShaderProperties[0].ShaderMaps[7].Bitmap intruderMaterial.bitm
+savetagchanges
+exit
+EditTag 0x0038
+SetField Materials[0].RenderMethod bodyShader.rmsh
+SetField Materials[1].RenderMethod intruderShader.rmsh
+SetField Materials[2].RenderMethod intruderVisor.rmsh
+SaveTagChanges
+ExitTo tags
+
+
+CreateTag bitm
+NameTag * cobraMaterial
+EditTag cobraMaterial.bitm
+importbitmap 0 materials\cobraMaterial.dds
+savetagchanges
+exit
+CreateTag bitm
+NameTag * cobraBump
+EditTag cobraBump.bitm
+importbitmap 0 bump\mp_cobra_bump.dds
+savetagchanges
+exit
+edittag 0x002B
+importbitmap 0 base\cobraBase.dds
+savetagchanges
+exit
+edittag 0x002C
+importbitmap 0 cc\cobra.dds
+savetagchanges
+exit
+
+DuplicateTag ninjaShader.rmsh
+nametag * cobraShader
+edittag cobraShader.rmsh
+SetField ShaderProperties[0].ShaderMaps[0].Bitmap 0x002B
+SetField ShaderProperties[0].ShaderMaps[2].Bitmap 0x002C
+SetField ShaderProperties[0].ShaderMaps[3].Bitmap cobraBump.bitm
+SetField ShaderProperties[0].ShaderMaps[7].Bitmap cobraMaterial.bitm
+savetagchanges
+exit
+duplicatetag intruderVisor.rmsh
+nametag * cobraVisor
+edittag cobraVisor.rmsh
+SetField ShaderProperties[0].ShaderMaps[0].Bitmap 0x002B
+SetField ShaderProperties[0].ShaderMaps[2].Bitmap 0x002C
+SetField ShaderProperties[0].ShaderMaps[3].Bitmap 0x002D
+SetField ShaderProperties[0].ShaderMaps[7].Bitmap cobraMaterial.bitm
+savetagchanges
+exit
+EditTag 0x0030
+SetField Materials[2].RenderMethod bodyShader.rmsh
+SetField Materials[0].RenderMethod cobraShader.rmsh
+SetField Materials[1].RenderMethod cobraVisor.rmsh
+SaveTagChanges
+ExitTo tags
+
+
+CreateTag bitm
+NameTag * regulMaterial
+EditTag regulMaterial.bitm
+importbitmap 0 materials\regulMaterial.dds
+savetagchanges
+exit
+edittag 0x0043
+importbitmap 0 base\regulBase.dds
+savetagchanges
+exit
+edittag 0x0044
+importbitmap 0 cc\regulator.dds
+savetagchanges
+exit
+DuplicateTag bodyShader.rmsh
+nametag * regulShader
+edittag regulShader.rmsh
+SetField ShaderProperties[0].Arguments[8].Arg1 2.1
+SetField ShaderProperties[0].ShaderMaps[0].Bitmap 0x0043
+SetField ShaderProperties[0].ShaderMaps[2].Bitmap 0x0044
+SetField ShaderProperties[0].ShaderMaps[3].Bitmap 0x0045
+SetField ShaderProperties[0].ShaderMaps[7].Bitmap regulMaterial.bitm
+SetField ShaderProperties[0].Arguments[21].Arg1 3
+savetagchanges
+exit
+duplicatetag mark6Visor.rmsh
+nametag * regulVisor
+edittag regulVisor.rmsh
+SetField ShaderProperties[0].ShaderMaps[0].Bitmap 0x0043
+SetField ShaderProperties[0].ShaderMaps[2].Bitmap 0x0044
+SetField ShaderProperties[0].ShaderMaps[3].Bitmap 0x0045
+SetField ShaderProperties[0].ShaderMaps[7].Bitmap regulMaterial.bitm
+savetagchanges
+exit
+EditTag 0x0048
+SetField Materials[0].RenderMethod regulShader.rmsh
+SetField Materials[1].RenderMethod regulVisor.rmsh
+SaveTagChanges
+ExitTo tags
+
+
+CreateTag bitm
+NameTag * markvMaterial
+EditTag markvMaterial.bitm
+importbitmap 0 materials\markvMaterial.dds
+savetagchanges
+exit
+edittag 0x006C
+importbitmap 0 base\markvBase.dds
+savetagchanges
+exit
+edittag 0x006D
+importbitmap 0 cc\markv.dds
+savetagchanges
+exit
+DuplicateTag bodyShader.rmsh
+nametag * markvShader
+edittag markvShader.rmsh
+SetField ShaderProperties[0].Arguments[8].Arg1 2.1
+SetField ShaderProperties[0].ShaderMaps[0].Bitmap 0x006C
+SetField ShaderProperties[0].ShaderMaps[2].Bitmap 0x006D
+SetField ShaderProperties[0].ShaderMaps[3].Bitmap 0x006E
+SetField ShaderProperties[0].ShaderMaps[7].Bitmap markvMaterial.bitm
+SetField ShaderProperties[0].Arguments[21].Arg1 3
+savetagchanges
+exit
+duplicatetag mark6Visor.rmsh
+nametag * markvVisor
+edittag markvVisor.rmsh
+SetField ShaderProperties[0].Arguments[9].Arg1 1
+SetField ShaderProperties[0].Arguments[14].Arg1 1
+SetField ShaderProperties[0].Arguments[15].Arg1 0.1
+SetField ShaderProperties[0].Arguments[16].Arg1 0.5
+SetField ShaderProperties[0].Arguments[17].Arg1 5
+SetField ShaderProperties[0].Arguments[18].Arg1 8
+SetField ShaderProperties[0].ShaderMaps[0].Bitmap 0x006C
+SetField ShaderProperties[0].ShaderMaps[2].Bitmap 0x006D
+SetField ShaderProperties[0].ShaderMaps[3].Bitmap 0x006E
+SetField ShaderProperties[0].ShaderMaps[7].Bitmap markvMaterial.bitm
+savetagchanges
+exit
+EditTag 0x0071
+SetField Materials[0].RenderMethod markvShader.rmsh
+SetField Materials[1].RenderMethod markvVisor.rmsh
+SaveTagChanges
+ExitTo tags
+
+
+CreateTag bitm
+NameTag * maratMaterial
+EditTag maratMaterial.bitm
+importbitmap 0 materials\maratMaterial.dds
+savetagchanges
+exit
+edittag 0x0053
+importbitmap 0 base\maratBase.dds
+savetagchanges
+exit
+edittag 0x0054
+importbitmap 0 cc\marathon.dds
+savetagchanges
+exit
+DuplicateTag bodyShader.rmsh
+nametag * maratShader
+edittag maratShader.rmsh
+SetField ShaderProperties[0].Arguments[8].Arg1 2.1
+SetField ShaderProperties[0].ShaderMaps[0].Bitmap 0x0053
+SetField ShaderProperties[0].ShaderMaps[2].Bitmap 0x0054
+SetField ShaderProperties[0].ShaderMaps[3].Bitmap 0x0055
+SetField ShaderProperties[0].ShaderMaps[7].Bitmap maratMaterial.bitm
+SetField ShaderProperties[0].Arguments[21].Arg1 3
+savetagchanges
+exit
+duplicatetag markvVisor.rmsh
+nametag * maratVisor
+edittag maratVisor.rmsh
+SetField ShaderProperties[0].ShaderMaps[0].Bitmap 0x0053
+SetField ShaderProperties[0].ShaderMaps[2].Bitmap 0x0054
+SetField ShaderProperties[0].ShaderMaps[3].Bitmap 0x0055
+SetField ShaderProperties[0].ShaderMaps[7].Bitmap maratMaterial.bitm
+savetagchanges
+exit
+EditTag 0x0058
+SetField Materials[0].RenderMethod maratShader.rmsh
+SetField Materials[1].RenderMethod maratVisor.rmsh
+SaveTagChanges
+ExitTo tags
+
+
+CreateTag bitm
+NameTag * scoutMaterial
+EditTag scoutMaterial.bitm
+importbitmap 0 materials\scoutMaterial.dds
+savetagchanges
+exit
+edittag 0x005B
+importbitmap 0 base\scoutBase.dds
+savetagchanges
+exit
+edittag 0x005C
+importbitmap 0 cc\scout.dds
+savetagchanges
+exit
+DuplicateTag bodyShader.rmsh
+nametag * scoutShader
+edittag scoutShader.rmsh
+SetField ShaderProperties[0].ShaderMaps[0].Bitmap 0x005B
+SetField ShaderProperties[0].ShaderMaps[2].Bitmap 0x005C
+SetField ShaderProperties[0].ShaderMaps[3].Bitmap 0x005E
+SetField ShaderProperties[0].ShaderMaps[7].Bitmap scoutMaterial.bitm
+savetagchanges
+exit
+duplicatetag markvVisor.rmsh
+nametag * scoutVisor
+edittag scoutVisor.rmsh
+SetField ShaderProperties[0].ShaderMaps[0].Bitmap 0x005B
+SetField ShaderProperties[0].ShaderMaps[2].Bitmap 0x005C
+SetField ShaderProperties[0].ShaderMaps[3].Bitmap 0x005E
+SetField ShaderProperties[0].ShaderMaps[7].Bitmap scoutMaterial.bitm
+savetagchanges
+exit
+EditTag 0x0061
+SetField Materials[0].RenderMethod scoutShader.rmsh
+SetField Materials[1].RenderMethod scoutVisor.rmsh
+SaveTagChanges
+ExitTo tags
+
+
+CreateTag bitm
+NameTag * rogueMaterial
+EditTag rogueMaterial.bitm
+importbitmap 0 materials\rogueMaterial.dds
+savetagchanges
+exit
+edittag 0x0074
+importbitmap 0 base\rogueBase.dds
+savetagchanges
+exit
+edittag 0x0075
+importbitmap 0 cc\rogue.dds
+savetagchanges
+exit
+DuplicateTag bodyShader.rmsh
+nametag * rogueShader
+edittag rogueShader.rmsh
+SetField ShaderProperties[0].Arguments[8].Arg1 3
+SetField ShaderProperties[0].ShaderMaps[0].Bitmap 0x0074
+SetField ShaderProperties[0].ShaderMaps[2].Bitmap 0x0075
+SetField ShaderProperties[0].ShaderMaps[3].Bitmap 0x0076
+SetField ShaderProperties[0].ShaderMaps[7].Bitmap rogueMaterial.bitm
+savetagchanges
+exit
+duplicatetag markvVisor.rmsh
+nametag * rogueVisor
+edittag rogueVisor.rmsh
+SetField ShaderProperties[0].ShaderMaps[0].Bitmap 0x0074
+SetField ShaderProperties[0].ShaderMaps[2].Bitmap 0x0075
+SetField ShaderProperties[0].ShaderMaps[3].Bitmap 0x0076
+SetField ShaderProperties[0].ShaderMaps[7].Bitmap rogueMaterial.bitm
+savetagchanges
+exit
+EditTag 0x0079
+SetField Materials[0].RenderMethod rogueShader.rmsh
+SetField Materials[1].RenderMethod rogueVisor.rmsh
+SaveTagChanges
+ExitTo tags
+
+
+CreateTag bitm
+NameTag * odstMaterial
+EditTag odstMaterial.bitm
+importbitmap 0 materials\odstMaterial.dds
+savetagchanges
+exit
+edittag 0x0064
+importbitmap 0 base\odstBase.dds
+savetagchanges
+exit
+edittag 0x0065
+importbitmap 0 cc\odst.dds
+savetagchanges
+exit
+DuplicateTag bodyShader.rmsh
+nametag * odstShader
+edittag odstShader.rmsh
+SetField ShaderProperties[0].ShaderMaps[0].Bitmap 0x0064
+SetField ShaderProperties[0].ShaderMaps[2].Bitmap 0x0065
+SetField ShaderProperties[0].ShaderMaps[3].Bitmap 0x0066
+SetField ShaderProperties[0].ShaderMaps[7].Bitmap odstMaterial.bitm
+savetagchanges
+exit
+duplicatetag markvVisor.rmsh
+nametag * odstVisor
+edittag odstVisor.rmsh
+SetField ShaderProperties[0].ShaderMaps[0].Bitmap 0x0064
+SetField ShaderProperties[0].ShaderMaps[2].Bitmap 0x0065
+SetField ShaderProperties[0].ShaderMaps[3].Bitmap 0x0066
+SetField ShaderProperties[0].ShaderMaps[7].Bitmap odstMaterial.bitm
+savetagchanges
+exit
+EditTag 0x0069
+SetField Materials[0].RenderMethod bodyShader.rmsh
+SetField Materials[1].RenderMethod odstShader.rmsh
+SetField Materials[2].RenderMethod odstVisor.rmsh
+SaveTagChanges
+ExitTo tags
+
+
+CreateTag bitm
+NameTag * ryuMaterial
+EditTag ryuMaterial.bitm
+importbitmap 0 materials\ryuMaterial.dds
+savetagchanges
+exit
+edittag 0x004B
+importbitmap 0 base\ryuBase.dds
+savetagchanges
+exit
+edittag 0x004C
+importbitmap 0 cc\ryu.dds
+savetagchanges
+exit
+DuplicateTag bodyShader.rmsh
+nametag * ryuShader
+edittag ryuShader.rmsh
+SetField ShaderProperties[0].ShaderMaps[0].Bitmap 0x004B
+SetField ShaderProperties[0].ShaderMaps[2].Bitmap 0x004C
+SetField ShaderProperties[0].ShaderMaps[3].Bitmap 0x004D
+SetField ShaderProperties[0].ShaderMaps[7].Bitmap ryuMaterial.bitm
+savetagchanges
+exit
+duplicatetag markvVisor.rmsh
+nametag * ryuVisor
+edittag ryuVisor.rmsh
+SetField ShaderProperties[0].ShaderMaps[0].Bitmap 0x004B
+SetField ShaderProperties[0].ShaderMaps[2].Bitmap 0x004C
+SetField ShaderProperties[0].ShaderMaps[3].Bitmap 0x004D
+SetField ShaderProperties[0].ShaderMaps[7].Bitmap ryuMaterial.bitm
+savetagchanges
+exit
+EditTag 0x0050
+SetField Materials[0].RenderMethod ryuShader.rmsh
+SetField Materials[1].RenderMethod ryuVisor.rmsh
+SaveTagChanges
+exit
+
+
+edittag 0x007F
+SetField Materials[0].RenderMethod ryuShader.rmsh
+savetagchanges
+exit
+edittag 0x007C
+SetField Materials[0].RenderMethod regulShader.rmsh
+savetagchanges
+exit
+edittag 0x0083
+importbitmap 0 decals\personalDecal.dds
+savetagchanges
+exit
+edittag 0x0023
+SetField ShaderProperties[0].Arguments[29].Arg1 10
+savetagchanges
+exit
+
+
+tagdependency add 0x0cbd bodyBump.bitm
+tagdependency add 0x0004 armsBump.bitm
+tagdependency add 0x0040 ninjaBump.bitm
+tagdependency add 0x0030 cobraBump.bitm
+tagdependency add 0x0038 intruderBump.bitm
+
+
+dumplog H3BA.log
+exit

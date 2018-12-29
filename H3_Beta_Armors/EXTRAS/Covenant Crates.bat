@@ -3,7 +3,7 @@ ECHO Installing Halo 3 Beta Armors...
 
 color 0A
 
-if exist ..\..\..\maps\tags.dat (
+if exist ..\..\..\..\maps\tags.dat (
 	GOTO Label0
 ) else (
 	GOTO Label1
@@ -11,14 +11,10 @@ if exist ..\..\..\maps\tags.dat (
 
 :Label0
 
-Type H3BA.cmds | TagTool.exe ../../../maps/tags.dat
-
-
-
+Type Covenant_Crates.cmds | ..\TagTool.exe ../../../../maps/tags.dat
 
 ECHO Installation Complete ...
 
-CLEAR
 pause
 GOTO End
 
