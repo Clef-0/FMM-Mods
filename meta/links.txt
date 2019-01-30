@@ -1,3 +1,4 @@
+https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/BlueShield/BlueShield.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/DMRCrosshairFix/DMRCrosshairFix.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Extra_Medal_Packs\Extra Medal Packs.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Minimal_Hud/Mhud.ini
@@ -20,3 +21,6 @@ https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/mythicmods/UNOFFICIALPA
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Gungoose/Gungoose.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/mythicmods/ODDSKULL/Oddskull.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Weapon_Skins_pack/Weapon_Skins_pack.ini
+https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/JumpingAnimations/JumpingAnimations.ini
+https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/RegeneratorShield/RegeneratorShield.ini
+https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/GlowySword/GlowySwords.ini

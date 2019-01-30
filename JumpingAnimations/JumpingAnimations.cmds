@@ -1,0 +1,221 @@
+Echo assault_rifle
+edittag objects\characters\masterchief\fp\weapons\rifle\fp_assault_rifle\fp_assault_rifle.jmad
+echo landing soft
+setfield modes[0].weaponclass[0].weapontype[0].overlays[0].Animation 7
+echo landing hard
+setfield modes[0].weaponclass[0].weapontype[0].overlays[1].Animation 6
+echo jump
+setfield modes[0].weaponclass[0].weapontype[0].overlays[6].Animation 5
+echo fall
+setfield modes[0].weaponclass[0].weapontype[0].overlays[7].Animation 0
+savetagchanges
+exit
+
+echo battle_rifle
+edittag objects\characters\masterchief\fp\weapons\rifle\fp_battle_rifle\fp_battle_rifle.jmad
+echo landing soft
+setfield modes[0].weaponclass[0].weapontype[0].overlays[0].Animation 7
+echo landing hard
+setfield modes[0].weaponclass[0].weapontype[0].overlays[1].Animation 6
+echo jump
+setfield modes[0].weaponclass[0].weapontype[0].overlays[5].Animation 5
+echo fall
+setfield modes[0].weaponclass[0].weapontype[0].overlays[6].Animation 0
+savetagchanges
+exit
+
+echo shotgun
+edittag objects\characters\masterchief\fp\weapons\rifle\fp_shotgun\fp_shotgun.jmad
+echo landing soft
+setfield modes[0].weaponclass[0].weapontype[0].overlays[0].Animation 7
+echo landing hard
+setfield modes[0].weaponclass[0].weapontype[0].overlays[1].Animation 6
+echo jump
+setfield modes[0].weaponclass[0].weapontype[0].overlays[5].Animation 5
+echo fall
+setfield modes[0].weaponclass[0].weapontype[0].overlays[6].Animation 0
+savetagchanges
+exit
+
+echo dmr
+edittag objects\characters\masterchief\fp\weapons\rifle\fp_dmr\fp_dmr.jmad
+echo landing soft
+setfield modes[0].weaponclass[0].weapontype[0].overlays[0].Animation 7
+echo landing hard
+setfield modes[0].weaponclass[0].weapontype[0].overlays[1].Animation 6
+echo jump
+setfield modes[0].weaponclass[0].weapontype[0].overlays[5].Animation 5
+echo fall
+setfield modes[0].weaponclass[0].weapontype[0].overlays[6].Animation 0
+savetagchanges
+exit
+
+echo sniper
+edittag objects\characters\masterchief\fp\weapons\rifle\fp_sniper_rifle\fp_sniper_rifle.jmad
+echo landing soft
+setfield modes[0].weaponclass[0].weapontype[0].overlays[0].Animation 7
+echo landing hard
+setfield modes[0].weaponclass[0].weapontype[0].overlays[1].Animation 6
+echo jump
+setfield modes[0].weaponclass[0].weapontype[0].overlays[5].Animation 5
+echo fall
+setfield modes[0].weaponclass[0].weapontype[0].overlays[6].Animation 0
+savetagchanges
+exit
+
+echo beam_rifle
+edittag objects\characters\masterchief\fp\weapons\rifle\fp_beam_rifle\fp_beam_rifle.jmad
+echo landing soft
+setfield modes[0].weaponclass[0].weapontype[0].overlays[0].Animation 7
+echo landing hard
+setfield modes[0].weaponclass[0].weapontype[0].overlays[1].Animation 6
+echo jump
+setfield modes[0].weaponclass[0].weapontype[0].overlays[5].Animation 5
+echo fall
+setfield modes[0].weaponclass[0].weapontype[0].overlays[6].Animation 0
+savetagchanges
+exit
+
+echo needler
+edittag objects\characters\masterchief\fp\weapons\pistol\needler\fp_needler\fp_needler.jmad
+echo landing soft
+setfield modes[0].weaponclass[0].weapontype[0].overlays[0].Animation 8
+echo landing hard
+setfield modes[0].weaponclass[0].weapontype[0].overlays[1].Animation 7
+echo jump
+setfield modes[0].weaponclass[0].weapontype[0].overlays[6].Animation 6
+echo fall
+setfield modes[0].weaponclass[0].weapontype[0].overlays[7].Animation 1
+savetagchanges
+exit
+
+edittag objects\characters\masterchief\fp\weapons\rifle\fp_covenant_carbine\fp_covenant_carbine.jmad
+echo landing soft
+setfield modes[0].weaponclass[0].weapontype[0].overlays[0].Animation 7
+echo landing hard
+setfield modes[0].weaponclass[0].weapontype[0].overlays[1].Animation 6
+echo jump
+setfield modes[0].weaponclass[0].weapontype[0].overlays[5].Animation 5
+echo fall
+setfield modes[0].weaponclass[0].weapontype[0].overlays[6].Animation 0
+savetagchanges
+exit
+
+echo flak
+edittag objects\characters\masterchief\fp\weapons\support_high\fp_flak_cannon\fp_flak_cannon.jmad
+echo landing soft
+setfield modes[0].weaponclass[0].weapontype[0].overlays[0].Animation 7
+echo landing hard
+setfield modes[0].weaponclass[0].weapontype[0].overlays[1].Animation 6
+echo jump
+setfield modes[0].weaponclass[0].weapontype[0].overlays[5].Animation 5
+echo fall
+setfield modes[0].weaponclass[0].weapontype[0].overlays[6].Animation 0
+savetagchanges
+exit
+
+echo rocket
+edittag objects\characters\masterchief\fp\weapons\support_high\fp_rocket_launcher\fp_rocket_launcher.jmad
+echo landing soft
+setfield modes[0].weaponclass[0].weapontype[0].overlays[0].Animation 7
+echo landing hard
+setfield modes[0].weaponclass[0].weapontype[0].overlays[1].Animation 6
+echo jump
+setfield modes[0].weaponclass[0].weapontype[0].overlays[5].Animation 5
+echo fall
+setfield modes[0].weaponclass[0].weapontype[0].overlays[6].Animation 0
+savetagchanges
+exit
+
+echo brute_shot
+edittag objects\characters\masterchief\fp\weapons\support_low\fp_brute_shot\fp_brute_shot.jmad
+echo landing soft
+setfield modes[0].weaponclass[0].weapontype[0].overlays[0].Animation 7
+echo landing hard
+setfield modes[0].weaponclass[0].weapontype[0].overlays[1].Animation 6
+echo jump
+setfield modes[0].weaponclass[0].weapontype[0].overlays[5].Animation 5
+echo fall
+setfield modes[0].weaponclass[0].weapontype[0].overlays[6].Animation 0
+savetagchanges
+exit
+
+echo laser
+edittag objects\characters\masterchief\fp\weapons\support_high\fp_spartan_laser\fp_spartan_laser.jmad
+echo landing soft
+setfield modes[0].weaponclass[0].weapontype[0].overlays[0].Animation 10
+echo landing hard
+setfield modes[0].weaponclass[0].weapontype[0].overlays[1].Animation 9
+echo jump
+setfield modes[0].weaponclass[0].weapontype[0].overlays[5].Animation 8
+echo fall
+setfield modes[0].weaponclass[0].weapontype[0].overlays[6].Animation 1
+savetagchanges
+exit
+
+echo sword
+edittag objects\characters\masterchief\fp\weapons\melee\fp_energy_blade\fp_energy_blade.jmad
+echo landing soft
+setfield modes[0].weaponclass[0].weapontype[0].overlays[0].Animation 4
+echo landing hard
+setfield modes[0].weaponclass[0].weapontype[0].overlays[1].Animation 3
+echo jump
+setfield modes[0].weaponclass[0].weapontype[0].overlays[5].Animation 2
+echo fall
+setfield modes[0].weaponclass[0].weapontype[0].overlays[6].Animation 0
+savetagchanges
+exit
+
+echo hammer
+edittag objects\characters\masterchief\fp\weapons\melee\fp_gravity_hammer\fp_gravity_hammer.jmad
+echo landing soft
+setfield modes[0].weaponclass[0].weapontype[0].overlays[0].Animation 4
+echo landing hard
+setfield modes[0].weaponclass[0].weapontype[0].overlays[1].Animation 3
+echo jump
+setfield modes[0].weaponclass[0].weapontype[0].overlays[5].Animation 2
+echo fall
+setfield modes[0].weaponclass[0].weapontype[0].overlays[6].Animation 0
+savetagchanges
+exit
+
+echo bomb
+edittag objects\characters\masterchief\fp\weapons\multiplayer\fp_assault_bomb\fp_assault_bomb.jmad
+echo landing soft
+setfield modes[0].weaponclass[0].weapontype[0].overlays[0].Animation 4
+echo landing hard
+setfield modes[0].weaponclass[0].weapontype[0].overlays[1].Animation 3
+echo jump
+setfield modes[0].weaponclass[0].weapontype[0].overlays[5].Animation 2
+echo fall
+setfield modes[0].weaponclass[0].weapontype[0].overlays[6].Animation 0
+savetagchanges
+exit
+
+echo ball
+edittag objects\characters\masterchief\fp\weapons\multiplayer\fp_ball\fp_ball.jmad
+echo landing soft
+setfield modes[0].weaponclass[0].weapontype[0].overlays[0].Animation 4
+echo landing hard
+setfield modes[0].weaponclass[0].weapontype[0].overlays[1].Animation 3
+echo jump
+setfield modes[0].weaponclass[0].weapontype[0].overlays[5].Animation 2
+echo fall
+setfield modes[0].weaponclass[0].weapontype[0].overlays[6].Animation 0
+savetagchanges
+exit
+
+echo flag
+edittag objects\characters\masterchief\fp\weapons\multiplayer\fp_flag\fp_flag.jmad
+echo landing soft
+setfield modes[0].weaponclass[0].weapontype[0].overlays[0].Animation 4
+echo landing hard
+setfield modes[0].weaponclass[0].weapontype[0].overlays[1].Animation 3
+echo jump
+setfield modes[0].weaponclass[0].weapontype[0].overlays[5].Animation 2
+echo fall
+setfield modes[0].weaponclass[0].weapontype[0].overlays[6].Animation 0
+savetagchanges
+exit
+
+dumplog JumpingAnim.log

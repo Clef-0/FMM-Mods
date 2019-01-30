@@ -1,0 +1,60 @@
+edittag 0x2305
+
+editblock ShaderProperties 0
+
+editblock Arguments 6
+
+setfield Arg1 25
+setfield Arg2 30
+setfield Arg3 50
+setfield Arg4 25
+
+savetagchanges
+exit
+
+editblock ShaderProperties 0
+
+editblock Arguments 7
+
+setfield Arg1 2.5
+setfield Arg2 4
+setfield Arg3 25
+setfield Arg4 2
+
+savetagchanges
+exit
+
+editblock ShaderProperties 0
+
+editblock Arguments 11
+
+setfield Arg1 15.3
+setfield Arg2 15
+setfield Arg3 15
+setfield Arg4 5
+
+savetagchanges
+exit
+exit
+exit
+
+
+edittag 0x00002304
+
+editblock ShaderProperties 0
+
+editblock Arguments 2
+
+setfield Arg1 3
+setfield Arg2 1
+setfield Arg3 40
+setfield Arg4 1
+
+savetagchanges
+exit
+exit
+exit
+
+
+dumplog GlowSword.log
+exit

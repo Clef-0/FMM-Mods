@@ -1,0 +1,33 @@
+Tag Tool [1.5.6787.42948]
+
+Please report any bugs and/or feature requests at
+<https://gitlab.com/TheGuardians/TagTool/issues>.
+
+Enter the path to 'tags.dat':
+> C:\Users\PC\Desktop\ElDewrito_0.6\Halo Online\maps\tags.dat
+
+Enter "help" to list available commands. Enter "exit" to quit.
+
+tags> edittag objects\characters\masterchief\fp\weapons\pistol\fp_plasma_pistol\fp_plasma_pistol.jmad
+Tag (0x2258) fp_plasma_pistol.model_animation_graph has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x2258) fp_plasma_pistol.model_animation_graph> removeblock
+Unrecognized command: removeblock
+Use "help" to list available commands.
+
+tags\(0x2258) fp_plasma_pistol.model_animation_graph> removeblockelements
+RemoveBlockElements: Removes block element(s) from a specified index of a specific tag block in the current ModelAnimationGraph definition.
+
+Usage:
+RemoveBlockElements <block name> [* | <block index> [* | amount = 1]]
+
+Use "help RemoveBlockElements" for more information.
+
+tags\(0x2258) fp_plasma_pistol.model_animation_graph> removeblockelements modes[0].weaponclass[0].weapontype[0].overlays *
+Successfully removed 1 element from Overlays at index 2: List`1<Entry>
+{...}[2]
+
+tags\(0x2258) fp_plasma_pistol.model_animation_graph> removeblockelements modes[0].weaponclass[0].weapontype[0].overlays*
+ERROR: La référence d'objet n'est pas définie à une instance d'un objet.

@@ -1,0 +1,164 @@
+Tag Tool [1.5.6678.2466]
+
+Please report any bugs and/or feature requests at
+<https://gitlab.com/TheGuardians/TagTool/issues>.
+
+Enter "help" to list available commands. Enter "exit" to quit.
+
+tags> edittag 0x2305
+Tag (0x2305) [02]_rmsh.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x2305) [02]_rmsh.shader> 
+
+tags\(0x2305) [02]_rmsh.shader> editblock ShaderProperties 0
+
+tags\(0x2305) [02]_rmsh.shader\ShaderProperties[0]> 
+
+tags\(0x2305) [02]_rmsh.shader\ShaderProperties[0]> editblock Arguments 6
+
+tags\(0x2305) [02]_rmsh.shader\ShaderProperties[0]\Arguments[6]> 
+
+tags\(0x2305) [02]_rmsh.shader\ShaderProperties[0]\Arguments[6]> setfield Arg1 70
+Arg1: Single = 70
+
+tags\(0x2305) [02]_rmsh.shader\ShaderProperties[0]\Arguments[6]> setfield Arg2 5
+Arg2: Single = 5
+
+tags\(0x2305) [02]_rmsh.shader\ShaderProperties[0]\Arguments[6]> setfield Arg3 5
+Arg3: Single = 5
+
+tags\(0x2305) [02]_rmsh.shader\ShaderProperties[0]\Arguments[6]> setfield Arg4 25
+Arg4: Single = 25
+
+tags\(0x2305) [02]_rmsh.shader\ShaderProperties[0]\Arguments[6]> 
+
+tags\(0x2305) [02]_rmsh.shader\ShaderProperties[0]\Arguments[6]> savetagchanges
+Done!
+
+tags\(0x2305) [02]_rmsh.shader\ShaderProperties[0]\Arguments[6]> exit
+
+tags\(0x2305) [02]_rmsh.shader\ShaderProperties[0]> 
+
+tags\(0x2305) [02]_rmsh.shader\ShaderProperties[0]> editblock ShaderProperties 0
+ShaderProperty does not contain a block named "ShaderProperties"
+EditBlock: Edit the fields of a particular block element.
+
+Usage:
+EditBlock <name> [element-index (if block)]
+
+Use "help EditBlock" for more information.
+
+tags\(0x2305) [02]_rmsh.shader\ShaderProperties[0]> 
+
+tags\(0x2305) [02]_rmsh.shader\ShaderProperties[0]> editblock Arguments 7
+
+tags\(0x2305) [02]_rmsh.shader\ShaderProperties[0]\Arguments[7]> 
+
+tags\(0x2305) [02]_rmsh.shader\ShaderProperties[0]\Arguments[7]> setfield Arg1 18
+Arg1: Single = 18
+
+tags\(0x2305) [02]_rmsh.shader\ShaderProperties[0]\Arguments[7]> setfield Arg2 0.5
+Arg2: Single = 0.5
+
+tags\(0x2305) [02]_rmsh.shader\ShaderProperties[0]\Arguments[7]> setfield Arg3 0.5
+Arg3: Single = 0.5
+
+tags\(0x2305) [02]_rmsh.shader\ShaderProperties[0]\Arguments[7]> setfield Arg4 5
+Arg4: Single = 5
+
+tags\(0x2305) [02]_rmsh.shader\ShaderProperties[0]\Arguments[7]> 
+
+tags\(0x2305) [02]_rmsh.shader\ShaderProperties[0]\Arguments[7]> savetagchanges
+Done!
+
+tags\(0x2305) [02]_rmsh.shader\ShaderProperties[0]\Arguments[7]> exit
+
+tags\(0x2305) [02]_rmsh.shader\ShaderProperties[0]> 
+
+tags\(0x2305) [02]_rmsh.shader\ShaderProperties[0]> editblock ShaderProperties 0
+ShaderProperty does not contain a block named "ShaderProperties"
+EditBlock: Edit the fields of a particular block element.
+
+Usage:
+EditBlock <name> [element-index (if block)]
+
+Use "help EditBlock" for more information.
+
+tags\(0x2305) [02]_rmsh.shader\ShaderProperties[0]> 
+
+tags\(0x2305) [02]_rmsh.shader\ShaderProperties[0]> editblock Arguments 11
+
+tags\(0x2305) [02]_rmsh.shader\ShaderProperties[0]\Arguments[11]> 
+
+tags\(0x2305) [02]_rmsh.shader\ShaderProperties[0]\Arguments[11]> setfield Arg1 15.
+Arg1: Single = 15
+
+tags\(0x2305) [02]_rmsh.shader\ShaderProperties[0]\Arguments[11]> setfield Arg2 15
+Arg2: Single = 15
+
+tags\(0x2305) [02]_rmsh.shader\ShaderProperties[0]\Arguments[11]> setfield Arg3 15
+Arg3: Single = 15
+
+tags\(0x2305) [02]_rmsh.shader\ShaderProperties[0]\Arguments[11]> setfield Arg4 5
+Arg4: Single = 5
+
+tags\(0x2305) [02]_rmsh.shader\ShaderProperties[0]\Arguments[11]> 
+
+tags\(0x2305) [02]_rmsh.shader\ShaderProperties[0]\Arguments[11]> savetagchanges
+Done!
+
+tags\(0x2305) [02]_rmsh.shader\ShaderProperties[0]\Arguments[11]> exit
+
+tags\(0x2305) [02]_rmsh.shader\ShaderProperties[0]> exit
+
+tags\(0x2305) [02]_rmsh.shader> exit
+
+tags> 
+
+tags> 
+
+tags> edittag 0x00002304
+Tag (0x2304) [01]_rmsh.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x2304) [01]_rmsh.shader> 
+
+tags\(0x2304) [01]_rmsh.shader> editblock ShaderProperties 0
+
+tags\(0x2304) [01]_rmsh.shader\ShaderProperties[0]> 
+
+tags\(0x2304) [01]_rmsh.shader\ShaderProperties[0]> editblock Arguments 2
+
+tags\(0x2304) [01]_rmsh.shader\ShaderProperties[0]\Arguments[2]> 
+
+tags\(0x2304) [01]_rmsh.shader\ShaderProperties[0]\Arguments[2]> setfield Arg1 20
+Arg1: Single = 20
+
+tags\(0x2304) [01]_rmsh.shader\ShaderProperties[0]\Arguments[2]> setfield Arg2 2
+Arg2: Single = 2
+
+tags\(0x2304) [01]_rmsh.shader\ShaderProperties[0]\Arguments[2]> setfield Arg3 3
+Arg3: Single = 3
+
+tags\(0x2304) [01]_rmsh.shader\ShaderProperties[0]\Arguments[2]> setfield Arg4 1
+Arg4: Single = 1
+
+tags\(0x2304) [01]_rmsh.shader\ShaderProperties[0]\Arguments[2]> 
+
+tags\(0x2304) [01]_rmsh.shader\ShaderProperties[0]\Arguments[2]> savetagchanges
+Done!
+
+tags\(0x2304) [01]_rmsh.shader\ShaderProperties[0]\Arguments[2]> exit
+
+tags\(0x2304) [01]_rmsh.shader\ShaderProperties[0]> exit
+
+tags\(0x2304) [01]_rmsh.shader> exit
+
+tags> 
+
+tags> 
+
+tags> dumplog RedSword.log

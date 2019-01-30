@@ -1,0 +1,6 @@
+ECHO FMM_OUTPUT installing GreenSword...
+
+cd mods\tagmods\GlowySwords
+Type GreenSword.cmds | TagTool.exe ../../../maps/tags.dat
+
+ECHO FMM_OUTPUT GreenSword installed!

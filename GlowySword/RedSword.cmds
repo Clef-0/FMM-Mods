@@ -1,0 +1,60 @@
+edittag 0x2305
+
+editblock ShaderProperties 0
+
+editblock Arguments 6
+
+setfield Arg1 70
+setfield Arg2 5
+setfield Arg3 5
+setfield Arg4 25
+
+savetagchanges
+exit
+
+editblock ShaderProperties 0
+
+editblock Arguments 7
+
+setfield Arg1 18
+setfield Arg2 0.5
+setfield Arg3 0.5
+setfield Arg4 5
+
+savetagchanges
+exit
+
+editblock ShaderProperties 0
+
+editblock Arguments 11
+
+setfield Arg1 15.
+setfield Arg2 15
+setfield Arg3 15
+setfield Arg4 5
+
+savetagchanges
+exit
+exit
+exit
+
+
+edittag 0x00002304
+
+editblock ShaderProperties 0
+
+editblock Arguments 2
+
+setfield Arg1 20
+setfield Arg2 2
+setfield Arg3 3
+setfield Arg4 1
+
+savetagchanges
+exit
+exit
+exit
+
+
+dumplog RedSword.log
+exit

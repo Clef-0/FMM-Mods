@@ -1,0 +1,106 @@
+Tag Tool [1.5.6787.42948]
+
+Please report any bugs and/or feature requests at
+<https://gitlab.com/TheGuardians/TagTool/issues>.
+
+Enter "help" to list available commands. Enter "exit" to quit.
+
+tags> createtag effe
+[Index: 0x5ADF, Offset: 0x06282D30, Size: 0x00A0] 0x5ADF.effect
+
+tags> nametag * Regenerator_effect
+[Index: 0x5ADF, Offset: 0x06282D30, Size: 0x00A0] Regenerator_effect.effect
+
+tags> savetagnames
+
+tags> 
+
+tags> importtag Regenerator_effect.effect RegeneratorEffect
+Imported 0x1C0 bytes.
+
+tags> 
+
+tags> createtag shit
+[Index: 0x5AE0, Offset: 0x06282EF0, Size: 0x0220] 0x5AE0.shield_impact
+
+tags> 
+
+tags> nametag * Regenerator_shield_FP
+[Index: 0x5AE0, Offset: 0x06282EF0, Size: 0x0220] Regenerator_shield_FP.shield_impact
+
+tags> savetagnames
+
+tags> 
+
+tags> createtag shit
+[Index: 0x5AE1, Offset: 0x06283110, Size: 0x0220] 0x5AE1.shield_impact
+
+tags> 
+
+tags> nametag * Regenerator_shield_TP
+[Index: 0x5AE1, Offset: 0x06283110, Size: 0x0220] Regenerator_shield_TP.shield_impact
+
+tags> savetagnames
+
+tags> 
+
+tags> importtag Regenerator_shield_FP.shit ShieldFP
+Imported 0x3A0 bytes.
+
+tags> 
+
+tags> importtag Regenerator_shield_TP.shit ShieldTP
+Imported 0x3A0 bytes.
+
+tags> 
+
+tags> edittag objects\equipment\regenerator\regenerator.eqip
+Tag (0x19C5) regenerator.equipment has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x19C5) regenerator.equipment> editblock Regenerator[0]
+
+tags\(0x19C5) regenerator.equipment\Regenerator[0]> setfield RegeneratingEffect Regenerator_effect.effe
+RegeneratingEffect: CachedTagInstance = [0x5ADF] Regenerator_effect.effect 
+
+tags\(0x19C5) regenerator.equipment\Regenerator[0]> savetagchanges
+Done!
+
+tags\(0x19C5) regenerator.equipment\Regenerator[0]> exit
+
+tags\(0x19C5) regenerator.equipment> exit
+
+tags> 
+
+tags> edittag Regenerator_effect.effe
+Tag (0x5ADF) Regenerator_effect.effect has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x5ADF) Regenerator_effect.effect> editblock Events[0]
+
+tags\(0x5ADF) Regenerator_effect.effect\Events[0]> editblock Parts[0]
+
+tags\(0x5ADF) Regenerator_effect.effect\Events[0]\Parts[0]> setfield Type Regenerator_shield_TP.shit
+Type: CachedTagInstance = [0x5AE1] Regenerator_shield_TP.shield_impact 
+
+tags\(0x5ADF) Regenerator_effect.effect\Events[0]\Parts[0]> exit
+
+tags\(0x5ADF) Regenerator_effect.effect\Events[0]> editblock Parts[1]
+
+tags\(0x5ADF) Regenerator_effect.effect\Events[0]\Parts[1]> setfield Type Regenerator_shield_FP.shit
+Type: CachedTagInstance = [0x5AE0] Regenerator_shield_FP.shield_impact 
+
+tags\(0x5ADF) Regenerator_effect.effect\Events[0]\Parts[1]> exit
+
+tags\(0x5ADF) Regenerator_effect.effect\Events[0]> savetagchanges
+Done!
+
+tags\(0x5ADF) Regenerator_effect.effect\Events[0]> exit
+
+tags\(0x5ADF) Regenerator_effect.effect> exit
+
+tags> 
+
+tags> dumplog Regenerator_Shield

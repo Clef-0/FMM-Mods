@@ -1,0 +1,225 @@
+ECHO DUAL WIELD WEAPONS
+
+echo Plasma_Pistol
+edittag objects\characters\masterchief\fp\weapons\pistol\fp_plasma_pistol\fp_plasma_pistol.jmad
+removeblockelements modes[0].weaponclass[0].weapontype[0].overlays 0 *
+addblockelements modes[0].weaponclass[0].weapontype[0].overlays 7
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[0].Label land_soft
+setfield modes[0].weaponclass[0].weapontype[0].overlays[0].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[0].Animation 31
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[1].Label land_hard
+setfield modes[0].weaponclass[0].weapontype[0].overlays[1].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[1].Animation 30
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[2].Label moving
+setfield modes[0].weaponclass[0].weapontype[0].overlays[2].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[2].Animation 34
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[3].Label overlays
+setfield modes[0].weaponclass[0].weapontype[0].overlays[3].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[3].Animation 39
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[4].Label pitch_and_turn
+setfield modes[0].weaponclass[0].weapontype[0].overlays[4].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[4].Animation 40
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[5].Label jump
+setfield modes[0].weaponclass[0].weapontype[0].overlays[5].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[5].Animation 29
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[6].Label fall
+setfield modes[0].weaponclass[0].weapontype[0].overlays[6].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[6].Animation 23
+
+savetagchanges
+exit
+
+
+echo Plasma_Rifle
+edittag objects\characters\masterchief\fp\weapons\rifle\fp_plasma_rifle\fp_plasma_rifle.jmad
+
+removeblockelements modes[0].weaponclass[0].weapontype[0].overlays 0 *
+addblockelements modes[0].weaponclass[0].weapontype[0].overlays 7
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[0].Label land_soft
+setfield modes[0].weaponclass[0].weapontype[0].overlays[0].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[0].Animation 25
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[1].Label land_hard
+setfield modes[0].weaponclass[0].weapontype[0].overlays[1].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[1].Animation 24
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[2].Label moving
+setfield modes[0].weaponclass[0].weapontype[0].overlays[2].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[2].Animation 27
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[3].Label overlays
+setfield modes[0].weaponclass[0].weapontype[0].overlays[3].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[3].Animation 31
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[4].Label pitch_and_turn
+setfield modes[0].weaponclass[0].weapontype[0].overlays[4].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[4].Animation 32
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[5].Label jump
+setfield modes[0].weaponclass[0].weapontype[0].overlays[5].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[5].Animation 23
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[6].Label fall
+setfield modes[0].weaponclass[0].weapontype[0].overlays[6].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[6].Animation 18
+
+savetagchanges
+exit
+
+echo SMG
+edittag objects\characters\masterchief\fp\weapons\rifle\fp_smg\fp_smg.jmad
+
+removeblockelements modes[0].weaponclass[0].weapontype[0].overlays 0 *
+addblockelements modes[0].weaponclass[0].weapontype[0].overlays 7
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[0].Label land_soft
+setfield modes[0].weaponclass[0].weapontype[0].overlays[0].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[0].Animation 22
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[1].Label land_hard
+setfield modes[0].weaponclass[0].weapontype[0].overlays[1].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[1].Animation 21
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[2].Label moving
+setfield modes[0].weaponclass[0].weapontype[0].overlays[2].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[2].Animation 24
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[3].Label overlays
+setfield modes[0].weaponclass[0].weapontype[0].overlays[3].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[3].Animation 25
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[4].Label pitch_and_turn
+setfield modes[0].weaponclass[0].weapontype[0].overlays[4].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[4].Animation 26
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[5].Label jump
+setfield modes[0].weaponclass[0].weapontype[0].overlays[5].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[5].Animation 20
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[6].Label fall
+setfield modes[0].weaponclass[0].weapontype[0].overlays[6].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[6].Animation 17
+
+savetagchanges
+exit
+
+echo Magnum
+edittag objects\characters\masterchief\fp\weapons\pistol\magnum\fp_magnum\fp_magnum.jmad
+
+removeblockelements modes[0].weaponclass[0].weapontype[0].overlays 0 *
+addblockelements modes[0].weaponclass[0].weapontype[0].overlays 7
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[0].Label land_soft
+setfield modes[0].weaponclass[0].weapontype[0].overlays[0].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[0].Animation 27
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[1].Label land_hard
+setfield modes[0].weaponclass[0].weapontype[0].overlays[1].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[1].Animation 26
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[2].Label moving
+setfield modes[0].weaponclass[0].weapontype[0].overlays[2].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[2].Animation 30
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[3].Label overlays
+setfield modes[0].weaponclass[0].weapontype[0].overlays[3].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[3].Animation 31
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[4].Label pitch_and_turn
+setfield modes[0].weaponclass[0].weapontype[0].overlays[4].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[4].Animation 32
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[5].Label jump
+setfield modes[0].weaponclass[0].weapontype[0].overlays[5].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[5].Animation 25
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[6].Label fall
+setfield modes[0].weaponclass[0].weapontype[0].overlays[6].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[6].Animation 19
+
+savetagchanges
+exit
+
+echo Spiker
+edittag objects\characters\masterchief\fp\weapons\rifle\fp_spike_rifle\fp_spike_rifle.jmad
+
+removeblockelements modes[0].weaponclass[0].weapontype[0].overlays 0 *
+addblockelements modes[0].weaponclass[0].weapontype[0].overlays 7
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[0].Label land_soft
+setfield modes[0].weaponclass[0].weapontype[0].overlays[0].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[0].Animation 25
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[1].Label land_hard
+setfield modes[0].weaponclass[0].weapontype[0].overlays[1].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[1].Animation 24
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[2].Label moving
+setfield modes[0].weaponclass[0].weapontype[0].overlays[2].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[2].Animation 27
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[3].Label overlays
+setfield modes[0].weaponclass[0].weapontype[0].overlays[3].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[3].Animation 28
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[4].Label pitch_and_turn
+setfield modes[0].weaponclass[0].weapontype[0].overlays[4].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[4].Animation 29
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[5].Label jump
+setfield modes[0].weaponclass[0].weapontype[0].overlays[5].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[5].Animation 23
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[6].Label fall
+setfield modes[0].weaponclass[0].weapontype[0].overlays[6].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[6].Animation 20
+
+savetagchanges
+exit
+
+echo mauler/excavator
+edittag objects\characters\masterchief\fp\weapons\pistol\fp_excavator\fp_excavator.jmad
+
+removeblockelements modes[0].weaponclass[0].weapontype[0].overlays 0 *
+addblockelements modes[0].weaponclass[0].weapontype[0].overlays 7
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[0].Label land_soft
+setfield modes[0].weaponclass[0].weapontype[0].overlays[0].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[0].Animation 26
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[1].Label land_hard
+setfield modes[0].weaponclass[0].weapontype[0].overlays[1].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[1].Animation 25
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[2].Label moving
+setfield modes[0].weaponclass[0].weapontype[0].overlays[2].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[2].Animation 28
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[3].Label overlays
+setfield modes[0].weaponclass[0].weapontype[0].overlays[3].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[3].Animation 29
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[4].Label pitch_and_turn
+setfield modes[0].weaponclass[0].weapontype[0].overlays[4].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[4].Animation 30
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[5].Label jump
+setfield modes[0].weaponclass[0].weapontype[0].overlays[5].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[5].Animation 24
+
+setfield modes[0].weaponclass[0].weapontype[0].overlays[6].Label fall
+setfield modes[0].weaponclass[0].weapontype[0].overlays[6].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].overlays[6].Animation 17
+
+savetagchanges
+exit
+
+dumplog JumpingAnimDual.log
