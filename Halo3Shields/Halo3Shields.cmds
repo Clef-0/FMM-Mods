@@ -1,46 +1,221 @@
-nametag 0x01DD objects\characters\masterchief\mp_masterchief\mp_masterchief
-nametag 0x1348 objects\characters\masterchief\mp_masterchief\mp_masterchief
-createtag effe
-nametag * objects\characters\masterchief\fx\shield\shield_collapse_H3
-importtag objects\characters\masterchief\fx\shield\shield_collapse_H3.effe files/sdeple.effe
-
-edittag objects\characters\masterchief\mp_masterchief\mp_masterchief.hlmt
-setfield NewDamageInfo[0].ShieldDepletedEffect objects\characters\masterchief\fx\shield\shield_collapse_H3.effe
-
-savetagchanges
-exitTo tags
-createtag effe
-
-nametag * objects\characters\masterchief\fx\shield\shield_down_H3
-importtag objects\characters\masterchief\fx\shield\shield_down_H3.effe files/sdown.effe
-edittag objects\characters\masterchief\mp_masterchief\mp_masterchief.bipd
-setfield Attachments[0].Attachment2 objects\characters\masterchief\fx\shield\shield_down_H3.effe
+importtag 0x1353 tags/globals/0x1353.shit
+importtag 0x1351 tags/globals/0x1351.shit
+importtag 0x1354 tags/globals/0x1353.shit
+importtag 0x1352 tags/globals/0x1351.shit
+edittag 0x01DD
 RemoveBlockElements Attachments 4
 savetagchanges
-exitTo tags
-createtag effe
+exitto tags
 
-nametag * objects\characters\masterchief\fx\shield\shield_recharge_H3
-importtag objects\characters\masterchief\fx\shield\shield_recharge_H3.effe files/srecha.effe
-edittag objects\characters\masterchief\mp_masterchief\mp_masterchief.hlmt
-setfield NewDamageInfo[0].ShieldRechargingEffect objects\characters\masterchief\fx\shield\shield_recharge_H3.effe
-savetagchanges
-exitTo tags
-createtag shit
-nametag * objects\characters\masterchief\fx\shield\impact_H3
-importtag objects\characters\masterchief\fx\shield\impact_H3.shit files/h3shit.shit
-edittag objects\characters\masterchief\mp_masterchief\mp_masterchief.hlmt
-setfield ShieldImpactFirstPerson objects\characters\masterchief\fx\shield\impact_H3.shit
-setfield ShieldImpactThirdPerson objects\characters\masterchief\fx\shield\impact_H3.shit
-savetagchanges
-exitTo tags
-createtag shit
-nametag * objects\characters\masterchief\fx\shield\overshield_H3
-importtag objects\characters\masterchief\fx\shield\overshield_H3.shit files/h3over.shit
-edittag objects\characters\masterchief\mp_masterchief\mp_masterchief.hlmt
-setfield OvershieldThirdPerson objects\characters\masterchief\fx\shield\overshield_H3.shit
-setfield OvershieldFirstPerson objects\characters\masterchief\fx\shield\overshield_H3.shit
-savetagchanges
-exitTo tags
-savetagnames
-quit
+CreateTag "effe" 0x134B
+NameTag 0x134B objects\characters\masterchief\fx\shield\shield_collapse
+ImportTag 0x134B "tags\objects\characters\masterchief\fx\shield\shield_collapse.effect"
+
+CreateTag "lens" 0x136D
+NameTag 0x136D objects\characters\masterchief\fx\shield\shield_collapse
+ImportTag 0x136D "tags\objects\characters\masterchief\fx\shield\shield_collapse.lens_flare"
+
+CreateTag "sefc" 0x136E
+NameTag 0x136E objects\characters\masterchief\fx\shield\shield_collapse
+ImportTag 0x136E "tags\objects\characters\masterchief\fx\shield\shield_collapse.area_screen_effect"
+
+CreateTag "ligh" 0x136F
+NameTag 0x136F objects\characters\masterchief\fx\shield\shield_collapse
+ImportTag 0x136F "tags\objects\characters\masterchief\fx\shield\shield_collapse.light"
+
+CreateTag "prt3" 0x1370
+NameTag 0x1370 objects\characters\masterchief\fx\shield\particles\shield_collapse_ring
+ImportTag 0x1370 "tags\objects\characters\masterchief\fx\shield\particles\shield_collapse_ring.particle"
+
+CreateTag "prt3" 0x135C
+NameTag 0x135C objects\characters\masterchief\fx\shield\particles\shield_collapse
+ImportTag 0x135C "tags\objects\characters\masterchief\fx\shield\particles\shield_collapse.particle"
+
+CreateTag "prt3" 0x1C33
+NameTag 0x1C33 fx\particles\energy\electric_arcs_gold
+ImportTag 0x1C33 "tags\fx\particles\energy\electric_arcs_gold.particle"
+
+CreateTag "bitm" 0x04C5
+NameTag 0x04C5 fx\lens_flares\_bitmaps\simple_flare
+ImportTag 0x04C5 "tags\fx\lens_flares\_bitmaps\simple_flare.bitmap"
+
+CreateTag "bitm" 0x13A3
+NameTag 0x13A3 fx\contrails\_bitmaps\energy_braids
+ImportTag 0x13A3 "tags\fx\contrails\_bitmaps\energy_braids.bitmap"
+
+CreateTag "pmdf" 0x1364
+NameTag 0x1364 fx\particles\models\mesh_fx\ring\ring
+ImportTag 0x1364 "tags\fx\particles\models\mesh_fx\ring\ring.particle_model"
+
+CreateTag "bitm" 0x137A
+NameTag 0x137A fx\particles\energy\_bitmaps\energy_pulse
+ImportTag 0x137A "tags\fx\particles\energy\_bitmaps\energy_pulse.bitmap"
+
+CreateTag "bitm" 0x05F3
+NameTag 0x05F3 fx\particles\_gradients\energy_pulse_gold
+ImportTag 0x05F3 "tags\fx\particles\_gradients\energy_pulse_gold.bitmap"
+
+CreateTag "bitm" 0x03E2
+NameTag 0x03E2 fx\particles\energy\_bitmaps\electric_arcs
+ImportTag 0x03E2 "tags\fx\particles\energy\_bitmaps\electric_arcs.bitmap"
+
+CreateTag "bitm" 0x0C27
+NameTag 0x0C27 fx\particles\_gradients\electric_arcs_gold
+ImportTag 0x0C27 "tags\fx\particles\_gradients\electric_arcs_gold.bitmap"
+
+CreateTag "effe" 0x134C
+NameTag 0x134C objects\characters\masterchief\fx\shield\shield_recharge
+ImportTag 0x134C "tags\objects\characters\masterchief\fx\shield\shield_recharge.effect"
+
+CreateTag "prt3" 0x1375
+NameTag 0x1375 objects\characters\masterchief\fx\shield\particles\shield_recharge_glow
+ImportTag 0x1375 "tags\objects\characters\masterchief\fx\shield\particles\shield_recharge_glow.particle"
+
+CreateTag "prt3" 0x1376
+NameTag 0x1376 objects\characters\masterchief\fx\shield\particles\shield_recharge_spark
+ImportTag 0x1376 "tags\objects\characters\masterchief\fx\shield\particles\shield_recharge_spark.particle"
+
+CreateTag "prt3" 0x1377
+NameTag 0x1377 objects\characters\masterchief\fx\shield\particles\shield_recharge_ring
+ImportTag 0x1377 "tags\objects\characters\masterchief\fx\shield\particles\shield_recharge_ring.particle"
+
+CreateTag "bitm" 0x137E
+NameTag 0x137E fx\particles\energy\_bitmaps\spark_clean
+ImportTag 0x137E "tags\fx\particles\energy\_bitmaps\spark_clean.bitmap"
+
+CreateTag "effe" 0x0C0F
+NameTag 0x0C0F objects\characters\masterchief\fx\shield\shield_down
+ImportTag 0x0C0F "tags\objects\characters\masterchief\fx\shield\shield_down.effect"
+
+CreateTag "prt3" 0x0E61
+NameTag 0x0E61 fx\particles\energy\spark_burst_small
+ImportTag 0x0E61 "tags\fx\particles\energy\spark_burst_small.particle"
+
+CreateTag "bitm" 0x0E63
+NameTag 0x0E63 fx\particles\energy\_bitmaps\spark_burst_small
+ImportTag 0x0E63 "tags\fx\particles\energy\_bitmaps\spark_burst_small.bitmap"
+
+CreateTag "rmsh" 0x0023
+NameTag 0x0023 objects\characters\masterchief\shaders\lights
+ImportTag 0x0023 "tags\objects\characters\masterchief\shaders\lights.shader"
+
+CreateTag "bitm" 0x001A
+NameTag 0x001A objects\characters\masterchief\bitmaps\mp_masterchief
+ImportTag 0x001A "tags\objects\characters\masterchief\bitmaps\mp_masterchief.bitmap"
+
+CreateTag "bitm" 0x0343
+NameTag 0x0343 shaders\default_bitmaps\bitmaps\default_detail
+ImportTag 0x0343 "tags\shaders\default_bitmaps\bitmaps\default_detail.bitmap"
+
+CreateTag "bitm" 0x001B
+NameTag 0x001B objects\characters\masterchief\bitmaps\mp_masterchief_cc
+ImportTag 0x001B "tags\objects\characters\masterchief\bitmaps\mp_masterchief_cc.bitmap"
+
+CreateTag "bitm" 0x0376
+NameTag 0x0376 shaders\default_bitmaps\bitmaps\default_vector
+ImportTag 0x0376 "tags\shaders\default_bitmaps\bitmaps\default_vector.bitmap"
+
+CreateTag "bitm" 0x0EF6
+NameTag 0x0EF6 shaders\default_bitmaps\bitmaps\bump_detail
+ImportTag 0x0EF6 "tags\shaders\default_bitmaps\bitmaps\bump_detail.bitmap"
+
+CreateTag "bitm" 0x02B9
+NameTag 0x02B9 shaders\default_bitmaps\bitmaps\color_white
+ImportTag 0x02B9 "tags\shaders\default_bitmaps\bitmaps\color_white.bitmap"
+
+EditTag 0x04C5
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\fx\lens_flares\_bitmaps\simple_flare_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x13A3
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\fx\contrails\_bitmaps\energy_braids_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x1364
+SetField Geometry.Resource.Page.Index -1
+SetField Geometry.Resource ResourcesB "tags\fx\particles\models\mesh_fx\ring\ring_particle_geometry.render_geometry_api_resource_definition"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x137A
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\fx\particles\energy\_bitmaps\energy_pulse_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x05F3
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\fx\particles\_gradients\energy_pulse_gold_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x03E2
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\fx\particles\energy\_bitmaps\electric_arcs_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x0C27
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\fx\particles\_gradients\electric_arcs_gold_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x137E
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\fx\particles\energy\_bitmaps\spark_clean_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x0E63
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\fx\particles\energy\_bitmaps\spark_burst_small_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x001A
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\objects\characters\masterchief\bitmaps\mp_masterchief_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x0343
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\shaders\default_bitmaps\bitmaps\default_detail_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x001B
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\objects\characters\masterchief\bitmaps\mp_masterchief_cc_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x0376
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\shaders\default_bitmaps\bitmaps\default_vector_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x0EF6
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\shaders\default_bitmaps\bitmaps\bump_detail_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x02B9
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\shaders\default_bitmaps\bitmaps\color_white_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+
+SaveTagNames
+UpdateMapFiles
+DumpLog Halo3Shield.log
+Exit
+
