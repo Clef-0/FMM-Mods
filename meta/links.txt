@@ -24,3 +24,4 @@ https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Weapon_Skins_pack/Weapo
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/JumpingAnimations/JumpingAnimations.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/RegeneratorShield/RegeneratorShield.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/GlowySword/GlowySwords.ini
+https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Halo3Shields/Halo3Shields.ini
