@@ -99,30 +99,6 @@ CreateTag "rmsh" 0x0023
 NameTag 0x0023 objects\characters\masterchief\shaders\lights
 ImportTag 0x0023 "tags\objects\characters\masterchief\shaders\lights.shader"
 
-CreateTag "bitm" 0x001A
-NameTag 0x001A objects\characters\masterchief\bitmaps\mp_masterchief
-ImportTag 0x001A "tags\objects\characters\masterchief\bitmaps\mp_masterchief.bitmap"
-
-CreateTag "bitm" 0x0343
-NameTag 0x0343 shaders\default_bitmaps\bitmaps\default_detail
-ImportTag 0x0343 "tags\shaders\default_bitmaps\bitmaps\default_detail.bitmap"
-
-CreateTag "bitm" 0x001B
-NameTag 0x001B objects\characters\masterchief\bitmaps\mp_masterchief_cc
-ImportTag 0x001B "tags\objects\characters\masterchief\bitmaps\mp_masterchief_cc.bitmap"
-
-CreateTag "bitm" 0x0376
-NameTag 0x0376 shaders\default_bitmaps\bitmaps\default_vector
-ImportTag 0x0376 "tags\shaders\default_bitmaps\bitmaps\default_vector.bitmap"
-
-CreateTag "bitm" 0x0EF6
-NameTag 0x0EF6 shaders\default_bitmaps\bitmaps\bump_detail
-ImportTag 0x0EF6 "tags\shaders\default_bitmaps\bitmaps\bump_detail.bitmap"
-
-CreateTag "bitm" 0x02B9
-NameTag 0x02B9 shaders\default_bitmaps\bitmaps\color_white
-ImportTag 0x02B9 "tags\shaders\default_bitmaps\bitmaps\color_white.bitmap"
-
 EditTag 0x04C5
 SetField Resources[0].Resource.Page.Index -1
 SetField Resources[0].Resource ResourcesB "tags\fx\lens_flares\_bitmaps\simple_flare_image.bitmap_texture_interop_resource"
@@ -174,42 +150,6 @@ ExitTo tags
 EditTag 0x0E63
 SetField Resources[0].Resource.Page.Index -1
 SetField Resources[0].Resource ResourcesB "tags\fx\particles\energy\_bitmaps\spark_burst_small_image.bitmap_texture_interop_resource"
-SaveTagChanges
-ExitTo tags
-
-EditTag 0x001A
-SetField Resources[0].Resource.Page.Index -1
-SetField Resources[0].Resource ResourcesB "tags\objects\characters\masterchief\bitmaps\mp_masterchief_image.bitmap_texture_interop_resource"
-SaveTagChanges
-ExitTo tags
-
-EditTag 0x0343
-SetField Resources[0].Resource.Page.Index -1
-SetField Resources[0].Resource ResourcesB "tags\shaders\default_bitmaps\bitmaps\default_detail_image.bitmap_texture_interop_resource"
-SaveTagChanges
-ExitTo tags
-
-EditTag 0x001B
-SetField Resources[0].Resource.Page.Index -1
-SetField Resources[0].Resource ResourcesB "tags\objects\characters\masterchief\bitmaps\mp_masterchief_cc_image.bitmap_texture_interop_resource"
-SaveTagChanges
-ExitTo tags
-
-EditTag 0x0376
-SetField Resources[0].Resource.Page.Index -1
-SetField Resources[0].Resource ResourcesB "tags\shaders\default_bitmaps\bitmaps\default_vector_image.bitmap_texture_interop_resource"
-SaveTagChanges
-ExitTo tags
-
-EditTag 0x0EF6
-SetField Resources[0].Resource.Page.Index -1
-SetField Resources[0].Resource ResourcesB "tags\shaders\default_bitmaps\bitmaps\bump_detail_image.bitmap_texture_interop_resource"
-SaveTagChanges
-ExitTo tags
-
-EditTag 0x02B9
-SetField Resources[0].Resource.Page.Index -1
-SetField Resources[0].Resource ResourcesB "tags\shaders\default_bitmaps\bitmaps\color_white_image.bitmap_texture_interop_resource"
 SaveTagChanges
 ExitTo tags
 
