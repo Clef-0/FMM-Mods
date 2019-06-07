@@ -2,10 +2,6 @@ importtag 0x1353 tags/globals/0x1353.shit
 importtag 0x1351 tags/globals/0x1351.shit
 importtag 0x1354 tags/globals/0x1353.shit
 importtag 0x1352 tags/globals/0x1351.shit
-edittag 0x01DD
-RemoveBlockElements Attachments 4
-savetagchanges
-exitto tags
 
 CreateTag "effe" 0x134B
 NameTag 0x134B objects\characters\masterchief\fx\shield\shield_collapse
@@ -153,6 +149,10 @@ SetField Resources[0].Resource ResourcesB "tags\fx\particles\energy\_bitmaps\spa
 SaveTagChanges
 ExitTo tags
 
+edittag objects\characters\masterchief\mp_masterchief\mp_masterchief.bipd
+setfield attachments[4].type objects\characters\masterchief\fx\shield\shield_down.effe
+savetagchanges
+exitto tags
 
 SaveTagNames
 UpdateMapFiles
