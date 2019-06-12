@@ -25,3 +25,4 @@ https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/JumpingAnimations/Jumpi
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/RegeneratorShield/RegeneratorShield.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/GlowySword/GlowySwords.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Halo3Shields/H3Shields.ini
+https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/UpdatedBRSounds/UpdatedBRSounds.ini
