@@ -1165,6 +1165,9 @@ setfield hudglobals[2].hudattributes[0].MedalsOffset 0.64 2
 setfield hudglobals[2].hudattributes[0].motionsensoroffset 82.5 992
 setfield hudglobals[2].hudattributes[0].motionsensorradius 72
 setfield hudglobals[2].hudattributes[0].motionsensorscale 7
+Setfield HudGlobals[0].hudattributes[0].Unknown30 84
+Setfield HudGlobals[1].hudattributes[0].Unknown30 84
+Setfield HudGlobals[2].hudattributes[0].Unknown30 84
 setfield MediumSensorBlipScale 3
 setfield SmallSensorBlipScale 1.5
 setfield LargeSensorBlipScale 4.5
