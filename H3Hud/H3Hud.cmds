@@ -1124,21 +1124,23 @@ SaveTagChanges
 ExitTo tags
 
 edittag ui\chud\globals.chgd
-setfield hudglobals[0].HUDDisabled 74 28 3 0
-setfield hudglobals[0].HUDPrimary 255 119 27 0
-setfield hudglobals[0].HUDForeground 255 146 71 0
-setfield hudglobals[0].NeutralReticule 255 115 37 0
-setfield hudglobals[0].BlueWaypoint_HO 255 74 0 0
+SetField HudGlobals[0].HUDDisabled 56 28 3 0
+SetField HudGlobals[0].HUDPrimary 255 139 36 0
+SetField HudGlobals[0].HUDForeground 255 169 93 0
+SetField HudGlobals[0].NeutralReticule 255 149 55 0
+SetField HudGlobals[0].BlueWaypoint_HO 255 96 0 0
+SetField HudGlobals[0].FriendlyWaypoint 9 255 0 0
 setfield hudglobals[0].Unknown9 45
 setfield hudglobals[1].Unknown9 45
 Setfield hudglobals[0].ScoreboardLeaderOffsetY 37
 Setfield hudglobals[1].ScoreboardLeaderOffsetY 37
 Setfield hudglobals[2].ScoreboardLeaderOffsetY 37
-setfield hudglobals[2].HUDDisabled 74 28 3 0
-setfield hudglobals[2].HUDPrimary 255 119 27 0
-setfield hudglobals[2].HUDForeground 255 146 71 0
-setfield hudglobals[2].NeutralReticule 255 115 37 0
-setfield hudglobals[2].BlueWaypoint_HO 255 74 0 0
+SetField HudGlobals[2].HUDDisabled 56 28 3 0
+SetField HudGlobals[2].HUDPrimary 255 139 36 0
+SetField HudGlobals[2].HUDForeground 255 169 93 0
+SetField HudGlobals[2].NeutralReticule 255 149 55 0
+SetField HudGlobals[2].BlueWaypoint_HO 255 96 0 0
+SetField HudGlobals[2].FriendlyWaypoint 9 255 0 0
 setfield hudglobals[0].hudattributes[0].motionsensoroffset 76 1018
 setfield hudglobals[0].hudattributes[0].motionsensorradius 72
 setfield hudglobals[0].hudattributes[0].motionsensorscale 3
@@ -1180,6 +1182,11 @@ setfield MicroTextureTileAmount 56
 setfield sprintfovmultiplier 1
 setfield sprintfovtransitionintime 0.5
 setfield sprintfoxtransitionouttime 1
+savetagchanges
+exit
+
+edittag ui\chud\spartan.chdt
+setfield hudwidgets[20].TextWidgets[0].placementdata[0].offset 0 45
 savetagchanges
 exit
 
@@ -2128,72 +2135,294 @@ SetField HUDWidgets[3].BitmapWidgets[1].PlacementData[0].Scale 2 2
 SaveTagChanges
 Exitto tags
 
+EditTag ui\chud\assault_rifle.chdt
+Setfield HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\battle_rifle.chdt
+SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\beam_rifle.chdt
+SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\brute_shot.chdt
+SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[5].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\carbine.chdt
+SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\excavator.chdt
+SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\flamethrower.chdt
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 1.4 1.4
+SetField HUDWidgets[3].BitmapWidgets[0].PlacementData[0].Scale 1.2 1.2
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\fuel_rod_cannon.chdt
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\hammer.chdt
+SetField HUDWidgets[3].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\machinegun_turret.chdt
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 1.45 1.45
+SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.45 1.45
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\magnum.chdt
+SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\missile.chdt
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[1].BitmapWidgets[1].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[1].BitmapWidgets[2].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[1].BitmapWidgets[3].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[1].BitmapWidgets[4].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[1].BitmapWidgets[5].PlacementData[0].Scale 1.5 1.5
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\needler.chdt
+SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[5].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\plasma_pistol.chdt
+SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\plasma_rifle.chdt
+SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\plasma_turret.chdt
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 1.4 1.4
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\rocket.chdt
+SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\sentinel_beam.chdt
+SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\shotgun.chdt
+SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[5].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\smg.chdt
+SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\sniper_rifle.chdt
+SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\spartan_laser.chdt
+SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[2].BitmapWidgets[1].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[2].BitmapWidgets[2].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[2].BitmapWidgets[2].PlacementData[0].MirrorOffset 0 -10
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[6].BitmapWidgets[1].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[6].BitmapWidgets[2].PlacementData[0].Scale 0 0
+SaveTagChanges
+Exitto tags
+EditTag ui\chud\spike_rifle.chdt
+SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\sword.chdt
+SetField HUDWidgets[3].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\unarmed.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\v_wraith.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.45 1.45
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\v_wraith_anti_air.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.45 1.45
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\v_chaingun.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.45 1.45
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\v_gaussturret.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.45 1.45
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\v_hornet.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.45 1.45
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\v_mongoose.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.45 1.45
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\v_ghost.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.45 1.45
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\v_driver.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.45 1.45
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\v_shade.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.45 1.45
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\v_chopper.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.45 1.45
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\v_banshee.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.45 1.45
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\v_scorpion.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.45 1.45
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\v_scorpionturret.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.45 1.45
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\v_wraithturret.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.45 1.45
+SaveTagChanges
+ExitTo Tags
+Edittag ui\chud\dmr.chdt
+SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.05 1.05
+SetField HUDWidgets[2].BitmapWidgets[2].PlacementData[0].Scale 1.5 1.5
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\excavator_v6.chdt
+SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SaveTagChanges
+ExitTo Tags
+
 Edittag ui\chud\multiplayer_intro\summary_editor.chdt
-Setfield HudWidgets[0].PlacementData[0].Scale 1.6 1.6
-Setfield HudWidgets[1].PlacementData[0].Scale 1.6 1.6
+Setfield HudWidgets[0].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[1].PlacementData[0].Scale 1.5 1.5
 Savetagchanges
 Exit
 Edittag ui\chud\multiplayer_intro\summary_infection.chdt
-Setfield HudWidgets[0].PlacementData[0].Scale 1.6 1.6
-Setfield HudWidgets[1].PlacementData[0].Scale 1.6 1.6
+Setfield HudWidgets[0].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[1].PlacementData[0].Scale 1.5 1.5
 SaveTagChanges
 Exit
 Edittag ui\chud\multiplayer_intro\summary_juggernaut.chdt
-Setfield HudWidgets[0].PlacementData[0].Scale 1.6 1.6
-Setfield HudWidgets[1].PlacementData[0].Scale 1.6 1.6
+Setfield HudWidgets[0].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[1].PlacementData[0].Scale 1.5 1.5
 SaveTagChanges
 Exit
 Edittag ui\chud\multiplayer_intro\summary_king.chdt
-Setfield HudWidgets[0].PlacementData[0].Scale 1.6 1.6
-Setfield HudWidgets[1].PlacementData[0].Scale 1.6 1.6
-Setfield HudWidgets[2].PlacementData[0].Scale 1.6 1.6
-SetField HudWidgets[3].PlacementData[0].Scale 1.6 1.6
+Setfield HudWidgets[0].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[1].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[2].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[3].PlacementData[0].Scale 1.5 1.5
 Savetagchanges
 Exit
 Edittag ui\chud\multiplayer_intro\summary_oddball.chdt
-Setfield HudWidgets[0].PlacementData[0].Scale 1.6 1.6
-Setfield HudWidgets[1].PlacementData[0].Scale 1.6 1.6
-Setfield HudWidgets[2].PlacementData[0].Scale 1.6 1.6
-Setfield HudWidgets[3].PlacementData[0].Scale 1.6 1.6
+Setfield HudWidgets[0].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[1].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[2].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[3].PlacementData[0].Scale 1.5 1.5
 Savetagchanges
 Exit
 Edittag ui\chud\multiplayer_intro\summary_slayer.chdt
-Setfield HudWidgets[0].PlacementData[0].Scale 1.6 1.6
-Setfield HudWidgets[1].PlacementData[0].Scale 1.6 1.6
-Setfield HudWidgets[2].PlacementData[0].Scale 1.6 1.6
-SetField HudWidgets[3].PlacementData[0].Scale 1.6 1.6
+Setfield HudWidgets[0].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[1].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[2].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[3].PlacementData[0].Scale 1.5 1.5
 Savetagchanges
 Exit
 Edittag ui\chud\multiplayer_intro\summary_territories.chdt
-Setfield HudWidgets[0].PlacementData[0].Scale 1.6 1.6
-Setfield HudWidgets[1].PlacementData[0].Scale 1.6 1.6
-Setfield HudWidgets[2].PlacementData[0].Scale 1.6 1.6
-SetField HudWidgets[3].PlacementData[0].Scale 1.6 1.6
+Setfield HudWidgets[0].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[1].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[2].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[3].PlacementData[0].Scale 1.5 1.5
 Savetagchanges
 Exit
 Edittag ui\chud\multiplayer_intro\summary_vip.chdt
-Setfield HudWidgets[0].PlacementData[0].Scale 1.6 1.6
-Setfield HudWidgets[1].PlacementData[0].Scale 1.6 1.6
-Setfield HudWidgets[2].PlacementData[0].Scale 1.6 1.6
-SetField HudWidgets[3].PlacementData[0].Scale 1.6 1.6
-SetField HudWidgets[4].PlacementData[0].Scale 1.6 1.6
-SetField HudWidgets[5].PlacementData[0].Scale 1.6 1.6
+Setfield HudWidgets[0].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[1].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[2].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[3].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[4].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[5].PlacementData[0].Scale 1.5 1.5
 Savetagchanges
 Exit
 Edittag 0x00005726
-Setfield HudWidgets[0].PlacementData[0].Scale 1.6 1.6
-Setfield HudWidgets[1].PlacementData[0].Scale 1.6 1.6
-Setfield HudWidgets[2].PlacementData[0].Scale 1.6 1.6
-SetField HudWidgets[3].PlacementData[0].Scale 1.6 1.6
+Setfield HudWidgets[0].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[1].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[2].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[3].PlacementData[0].Scale 1.5 1.5
 Savetagchanges
 Exit
 Edittag 0x00005727
-Setfield HudWidgets[0].PlacementData[0].Scale 1.6 1.6
-Setfield HudWidgets[1].PlacementData[0].Scale 1.6 1.6
-Setfield HudWidgets[2].PlacementData[0].Scale 1.6 1.6
-SetField HudWidgets[3].PlacementData[0].Scale 1.6 1.6
+Setfield HudWidgets[0].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[1].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[2].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[3].PlacementData[0].Scale 1.5 1.5
 Savetagchanges
 Exit
+
+Edittag ui\chud\dmr.chdt
+Editblock hudwidgets[2]
+Copyblockelements BitmapWidgets
+ExitTo tags
+Edittag ui\chud\dmr_v1.chdt
+Editblock hudwidgets[2]
+Removeblockelements BitmapWidgets 0 *
+Pasteblockelements BitmapWidgets
+SaveTagChanges
+Exitto tags
+Edittag ui\chud\dmr_v2.chdt
+Editblock hudwidgets[2]
+Removeblockelements BitmapWidgets 0 *
+Pasteblockelements BitmapWidgets
+SaveTagChanges
+Exitto tags
+Edittag ui\chud\dmr_v3.chdt
+Editblock hudwidgets[2]
+Removeblockelements BitmapWidgets 0 *
+Pasteblockelements BitmapWidgets
+SaveTagChanges
+Exitto tags
+Edittag ui\chud\dmr_v4.chdt
+Editblock hudwidgets[2]
+Removeblockelements BitmapWidgets 0 *
+Pasteblockelements BitmapWidgets
+SaveTagChanges
+Exitto tags
+Edittag ui\chud\dmr_v6.chdt
+Editblock hudwidgets[2]
+Removeblockelements BitmapWidgets 0 *
+Pasteblockelements BitmapWidgets
+SaveTagChanges
+Exitto tags
 
 Edittag ui\chud\battle_rifle.chdt
 Editblock hudwidgets[2]
