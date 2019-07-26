@@ -1,0 +1,23 @@
+ECHO Installing Freelancer CC Map
+
+
+color 0c
+
+if exist mods\tagMods\FreelancerCC (
+	GOTO Label0
+) else (
+	GOTO Label1
+)
+
+:Label0
+
+cd mods\tagMods\FreelancerCC
+Type Freelancer_CC.cmds | TagTool.exe ../../../maps/tags.dat
+
+ECHO Installation Complete ...
+
+GOTO End
+
+:Label1
+ECHO FMM_OUTPUT WARNING Mod is not in the correct location.
+ECHO FMM_OUTPUT Install at: /mods/tagMods/
