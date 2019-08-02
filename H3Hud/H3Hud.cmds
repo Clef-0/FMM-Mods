@@ -1,3 +1,85 @@
+edittag ui\chud\globals.chgd
+setfield hudglobals[0].grenadescematicsspacing 76
+setfield hudglobals[0].DualEquipmentScematicOffsetY 60
+setfield hudglobals[0].EquipmentScematicOffsetY 20
+setfield hudglobals[0].Unknown9 45
+setfield hudglobals[1].Unknown9 45
+Setfield hudglobals[0].ScoreboardLeaderOffsetY 37
+Setfield hudglobals[1].ScoreboardLeaderOffsetY 37
+Setfield hudglobals[2].ScoreboardLeaderOffsetY 37
+SetField HudGlobals[0].HudAttributes[0].HorizontalScale 0.87
+SetField HudGlobals[0].HudAttributes[0].VerticalScale 0.87
+SetField HudGlobals[0].HudAttributes[1].HorizontalScale 0.87
+SetField HudGlobals[0].HudAttributes[1].VerticalScale 0.87
+setfield hudglobals[0].hudattributes[0].motionsensoroffset 76 1018
+setfield hudglobals[0].hudattributes[0].motionsensorradius 72
+setfield hudglobals[0].hudattributes[0].motionsensorscale 2.7
+setfield hudglobals[0].hudattributes[0].NotificationScale 1.6
+setfield hudglobals[0].hudattributes[0].NotificationLineSpacing 37.5
+setfield hudglobals[0].hudattributes[0].NotificationOffsetY_HO 0.72
+setfield hudglobals[0].hudattributes[0].PickupDialogScale 1.6
+setfield hudglobals[0].hudattributes[0].PickupDialogOffset 0 0.16
+setfield hudglobals[0].hudattributes[0].Unknown29 1.5
+setfield hudglobals[0].hudattributes[0].MedalsOffset 0.64 2
+Setfield HudGlobals[0].hudattributes[0].Unknown30 84
+setfield hudglobals[1].hudattributes[0].NotificationScale 1.6
+setfield hudglobals[1].hudattributes[0].NotificationLineSpacing 37.5
+setfield hudglobals[1].hudattributes[0].PickupDialogScale 1.6
+setfield hudglobals[1].hudattributes[0].PickupDialogOffset 0.01 0.2
+setfield hudglobals[1].hudattributes[0].Unknown29 1.5
+setfield hudglobals[1].hudattributes[0].MedalsOffset 0.64 2
+Setfield HudGlobals[1].hudattributes[0].Unknown30 84
+setfield hudglobals[2].hudattributes[0].NotificationScale 1.6
+setfield hudglobals[2].hudattributes[0].NotificationLineSpacing 37
+setfield hudglobals[2].hudattributes[0].PickupDialogScale 1.6
+setfield hudglobals[2].hudattributes[0].PickupDialogOffset 0 0.16
+setfield hudglobals[2].hudattributes[0].motionsensoroffset 82.5 992
+setfield hudglobals[2].hudattributes[0].motionsensorradius 72
+setfield hudglobals[2].hudattributes[0].motionsensorscale 6
+setfield hudglobals[2].hudattributes[0].Unknown29 1.5
+setfield hudglobals[2].hudattributes[0].MedalsOffset 0.64 2
+Setfield HudGlobals[2].hudattributes[0].Unknown30 84
+setfield MediumSensorBlipScale 3
+setfield SmallSensorBlipScale 1.5
+setfield LargeSensorBlipScale 4.5
+setfield SensorBlipGlowAmount 1.5
+setfield SensorBlipGlowRadius 1
+setfield SensorBlipGlowOpacity 1
+setfield MicroTextureTileAmount 56
+setfield sprintfovmultiplier 1
+setfield sprintfovtransitionintime 0.5
+setfield sprintfoxtransitionouttime 1
+savetagchanges
+exit
+Edittag ui\chud\bitmaps\sensor_blips.bitm
+Importbitmap 0 tags\ui\chud\bitmaps\sensor_blips.dds
+SetField Sequences[0].Sprites[0].Left 0
+SetField Sequences[0].Sprites[0].Right 0.3046875
+SetField Sequences[5].Sprites[0].Left 0
+SetField Sequences[5].Sprites[0].Right 0.3046875
+SaveTagChanges
+Exit
+edittag ui\chud\bitmaps\chud_directional_arrow_new.bitm
+importbitmap 0 tags\ui\chud\bitmaps\chud_directional_arrow.dds
+savetagchanges
+exit
+EditTag ui\chud\bitmaps\medals\campaign_medals.bitm
+importbitmap 0 tags\ui\chud\bitmaps\medals\campaign_medals.dds
+SaveTagChanges
+Exit
+EditTag ui\chud\bitmaps\medals\medals.bitm
+importbitmap 0 tags\ui\chud\bitmaps\medals\medals.dds
+SaveTagChanges
+Exit
+EditTag ui\chud\bitmaps\chud_microtexture.bitm
+importbitmap 0 tags\ui\chud\bitmaps\chud_microtexture.dds
+SaveTagChanges
+Exit
+Edittag 0x00012bc
+Importbitmap 0 tags\ui\chud\bitmaps\000012BC.dds
+Savetagchanges
+Exit
+
 CreateTag "bitm" 0x5ADF
 NameTag 0x5ADF ui\chud\bitmaps\posession
 ImportTag 0x5ADF "tags\ui\chud\bitmaps\posession.bitmap"
@@ -5,54 +87,6 @@ ImportTag 0x5ADF "tags\ui\chud\bitmaps\posession.bitmap"
 CreateTag "bitm" 0x5AE0
 NameTag 0x5AE0 ui\chud\bitmaps\arming_meter
 ImportTag 0x5AE0 "tags\ui\chud\bitmaps\arming_meter.bitmap"
-
-CreateTag "bitm" 0x12BB
-NameTag 0x12BB ui\chud\bitmaps\waypoints
-ImportTag 0x12BB "tags\ui\chud\bitmaps\waypoints.bitmap"
-
-CreateTag "chdt" 0x12BD
-NameTag 0x12BD ui\chud\scoreboard
-ImportTag 0x12BD "tags\ui\chud\scoreboard.chud_definition"
-
-CreateTag "bitm" 0x131A
-NameTag 0x131A ui\chud\bitmaps\scoreboard_meter
-ImportTag 0x131A "tags\ui\chud\bitmaps\scoreboard_meter.bitmap"
-
-CreateTag "chad" 0x5B02
-NameTag 0x5B02 ui\chud\animations\ctf_scoreboard
-ImportTag 0x5B02 "tags\ui\chud\animations\ctf_scoreboard.chud_animation_definition"
-
-CreateTag "chad" 0x5B03
-NameTag 0x5B03 ui\chud\animations\ctf_notify_noflash
-ImportTag 0x5B03 "tags\ui\chud\animations\ctf_notify_noflash.chud_animation_definition"
-
-CreateTag "bitm" 0x5B04
-NameTag 0x5B04 ui\chud\bitmaps\variant_items\ctf_icon
-ImportTag 0x5B04 "tags\ui\chud\bitmaps\variant_items\ctf_icon.bitmap"
-
-CreateTag "chad" 0x5B05
-NameTag 0x5B05 ui\chud\animations\ctf_notify
-ImportTag 0x5B05 "tags\ui\chud\animations\ctf_notify.chud_animation_definition"
-
-CreateTag "chad" 0x5B06
-NameTag 0x5B06 ui\chud\animations\flicker
-ImportTag 0x5B06 "tags\ui\chud\animations\flicker.chud_animation_definition"
-
-CreateTag "chad" 0x5B07
-NameTag 0x5B07 ui\chud\animations\enlarge_broadcast
-ImportTag 0x5B07 "tags\ui\chud\animations\enlarge_broadcast.chud_animation_definition"
-
-CreateTag "bitm" 0x0C40
-NameTag 0x0C40 ui\chud\bitmaps\vox
-ImportTag 0x0C40 "tags\ui\chud\bitmaps\vox.bitmap"
-
-CreateTag "chad" 0x5B08
-NameTag 0x5B08 ui\chud\animations\ready_antenna
-ImportTag 0x5B08 "tags\ui\chud\animations\ready_antenna.chud_animation_definition"
-
-CreateTag "chad" 0x5B09
-NameTag 0x5B09 ui\chud\animations\ready_ptt
-ImportTag 0x5B09 "tags\ui\chud\animations\ready_ptt.chud_animation_definition"
 
 CreateTag "chdt" 0x0C1E
 NameTag 0x0C1E ui\chud\spartan
@@ -125,6 +159,10 @@ ImportTag 0x0C3E "tags\ui\chud\animations\motion_tracker_ping.chud_animation_def
 CreateTag "chad" 0x0C3F
 NameTag 0x0C3F ui\chud\animations\vox1
 ImportTag 0x0C3F "tags\ui\chud\animations\vox1.chud_animation_definition"
+
+CreateTag "bitm" 0x0C40
+NameTag 0x0C40 ui\chud\bitmaps\vox
+ImportTag 0x0C40 "tags\ui\chud\bitmaps\vox.bitmap"
 
 CreateTag "chad" 0x0C41
 NameTag 0x0C41 ui\chud\animations\vox2
@@ -264,6 +302,50 @@ ImportTag 0x0C85 "tags\0x0C85.bitmap"
 
 CreateTag "bitm" 0x0C86
 ImportTag 0x0C86 "tags\0x0C86.bitmap"
+
+CreateTag "chdt" 0x12BD
+NameTag 0x12BD ui\chud\scoreboard
+ImportTag 0x12BD "tags\ui\chud\scoreboard.chud_definition"
+
+CreateTag "bitm" 0x131A
+NameTag 0x131A ui\chud\bitmaps\scoreboard_meter
+ImportTag 0x131A "tags\ui\chud\bitmaps\scoreboard_meter.bitmap"
+
+CreateTag "chad" 0x5B02
+NameTag 0x5B02 ui\chud\animations\ctf_scoreboard
+ImportTag 0x5B02 "tags\ui\chud\animations\ctf_scoreboard.chud_animation_definition"
+
+CreateTag "chad" 0x5B03
+NameTag 0x5B03 ui\chud\animations\ctf_notify_noflash
+ImportTag 0x5B03 "tags\ui\chud\animations\ctf_notify_noflash.chud_animation_definition"
+
+CreateTag "bitm" 0x5B04
+NameTag 0x5B04 ui\chud\bitmaps\variant_items\ctf_icon
+ImportTag 0x5B04 "tags\ui\chud\bitmaps\variant_items\ctf_icon.bitmap"
+
+CreateTag "chad" 0x5B05
+NameTag 0x5B05 ui\chud\animations\ctf_notify
+ImportTag 0x5B05 "tags\ui\chud\animations\ctf_notify.chud_animation_definition"
+
+CreateTag "bitm" 0x12BB
+NameTag 0x12BB ui\chud\bitmaps\waypoints
+ImportTag 0x12BB "tags\ui\chud\bitmaps\waypoints.bitmap"
+
+CreateTag "chad" 0x5B06
+NameTag 0x5B06 ui\chud\animations\flicker
+ImportTag 0x5B06 "tags\ui\chud\animations\flicker.chud_animation_definition"
+
+CreateTag "chad" 0x5B07
+NameTag 0x5B07 ui\chud\animations\enlarge_broadcast
+ImportTag 0x5B07 "tags\ui\chud\animations\enlarge_broadcast.chud_animation_definition"
+
+CreateTag "chad" 0x5B08
+NameTag 0x5B08 ui\chud\animations\ready_antenna
+ImportTag 0x5B08 "tags\ui\chud\animations\ready_antenna.chud_animation_definition"
+
+CreateTag "chad" 0x5B09
+NameTag 0x5B09 ui\chud\animations\ready_ptt
+ImportTag 0x5B09 "tags\ui\chud\animations\ready_ptt.chud_animation_definition"
 
 CreateTag "chdt" 0x12C1
 NameTag 0x12C1 ui\chud\sandbox
@@ -685,30 +767,6 @@ SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\arming_meter_ima
 SaveTagChanges
 ExitTo tags
 
-EditTag 0x12BB
-SetField Resources[0].Resource.Page.Index -1
-SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\waypoints_image.bitmap_texture_interop_resource"
-SaveTagChanges
-ExitTo tags
-
-EditTag 0x131A
-SetField Resources[0].Resource.Page.Index -1
-SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\scoreboard_meter_image.bitmap_texture_interop_resource"
-SaveTagChanges
-ExitTo tags
-
-EditTag 0x5B04
-SetField Resources[0].Resource.Page.Index -1
-SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\variant_items\ctf_icon_image.bitmap_texture_interop_resource"
-SaveTagChanges
-ExitTo tags
-
-EditTag 0x0C40
-SetField Resources[0].Resource.Page.Index -1
-SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\vox_image.bitmap_texture_interop_resource"
-SaveTagChanges
-ExitTo tags
-
 EditTag 0x5AE1
 SetField Resources[0].Resource.Page.Index -1
 SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\top_edge_image.bitmap_texture_interop_resource"
@@ -754,6 +812,12 @@ ExitTo tags
 EditTag 0x0C3C
 SetField Resources[0].Resource.Page.Index -1
 SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\motion_tracker_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x0C40
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\vox_image.bitmap_texture_interop_resource"
 SaveTagChanges
 ExitTo tags
 
@@ -868,6 +932,24 @@ ExitTo tags
 EditTag 0x0C86
 SetField Resources[0].Resource.Page.Index -1
 SetField Resources[0].Resource ResourcesB "tags\0x0C86_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x131A
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\scoreboard_meter_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B04
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\variant_items\ctf_icon_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x12BB
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\waypoints_image.bitmap_texture_interop_resource"
 SaveTagChanges
 ExitTo tags
 
@@ -1122,112 +1204,6 @@ SetField Resources[0].Resource.Page.Index -1
 SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\hud_vehicle_reticles_image.bitmap_texture_interop_resource"
 SaveTagChanges
 ExitTo tags
-
-edittag ui\chud\globals.chgd
-SetField HudGlobals[0].HUDDisabled 56 28 3 0
-SetField HudGlobals[0].HUDPrimary 255 139 36 0
-SetField HudGlobals[0].HUDForeground 255 169 93 0
-SetField HudGlobals[0].NeutralReticule 255 149 55 0
-SetField HudGlobals[0].BlueWaypoint_HO 255 96 0 0
-SetField HudGlobals[0].FriendlyWaypoint 9 255 0 0
-setfield hudglobals[0].Unknown9 45
-setfield hudglobals[1].Unknown9 45
-Setfield hudglobals[0].ScoreboardLeaderOffsetY 37
-Setfield hudglobals[1].ScoreboardLeaderOffsetY 37
-Setfield hudglobals[2].ScoreboardLeaderOffsetY 37
-SetField HudGlobals[2].HUDDisabled 56 28 3 0
-SetField HudGlobals[2].HUDPrimary 255 139 36 0
-SetField HudGlobals[2].HUDForeground 255 169 93 0
-SetField HudGlobals[2].NeutralReticule 255 149 55 0
-SetField HudGlobals[2].BlueWaypoint_HO 255 96 0 0
-SetField HudGlobals[2].FriendlyWaypoint 9 255 0 0
-setfield hudglobals[0].hudattributes[0].motionsensoroffset 76 1018
-setfield hudglobals[0].hudattributes[0].motionsensorradius 72
-setfield hudglobals[0].hudattributes[0].motionsensorscale 3
-setfield hudglobals[0].hudattributes[0].NotificationScale 1.5
-setfield hudglobals[0].hudattributes[0].NotificationLineSpacing 37
-setfield hudglobals[0].hudattributes[0].NotificationOffsetY_HO 0.72
-setfield hudglobals[0].hudattributes[0].PickupDialogScale 1.5
-setfield hudglobals[0].hudattributes[0].PickupDialogOffset 0 0.17
-setfield hudglobals[0].hudattributes[0].Unknown29 1
-setfield hudglobals[0].hudattributes[0].MedalsOffset 0.64 2
-setfield hudglobals[0].grenadescematicsspacing 65
-setfield hudglobals[0].DualEquipmentScematicOffsetY 51
-setfield hudglobals[0].EquipmentScematicOffsetY 20
-setfield hudglobals[1].hudattributes[0].NotificationScale 1.5
-setfield hudglobals[1].hudattributes[0].NotificationLineSpacing 37
-setfield hudglobals[1].hudattributes[0].PickupDialogScale 1.5
-setfield hudglobals[1].hudattributes[0].PickupDialogOffset 0 0.17
-setfield hudglobals[1].hudattributes[0].Unknown29 1
-setfield hudglobals[1].hudattributes[0].MedalsOffset 0.64 2
-setfield hudglobals[2].hudattributes[0].NotificationScale 1.5
-setfield hudglobals[2].hudattributes[0].NotificationLineSpacing 37
-setfield hudglobals[2].hudattributes[0].PickupDialogScale 1.4
-setfield hudglobals[2].hudattributes[0].PickupDialogOffset 0 0.17
-setfield hudglobals[2].hudattributes[0].Unknown29 1
-setfield hudglobals[2].hudattributes[0].MedalsOffset 0.64 2
-setfield hudglobals[2].hudattributes[0].motionsensoroffset 82.5 992
-setfield hudglobals[2].hudattributes[0].motionsensorradius 72
-setfield hudglobals[2].hudattributes[0].motionsensorscale 7
-Setfield HudGlobals[0].hudattributes[0].Unknown30 84
-Setfield HudGlobals[1].hudattributes[0].Unknown30 84
-Setfield HudGlobals[2].hudattributes[0].Unknown30 84
-setfield MediumSensorBlipScale 3
-setfield SmallSensorBlipScale 1.5
-setfield LargeSensorBlipScale 4.5
-setfield SensorBlipGlowAmount 1.5
-setfield SensorBlipGlowRadius 1
-setfield SensorBlipGlowOpacity 1
-setfield MicroTextureTileAmount 56
-setfield sprintfovmultiplier 1
-setfield sprintfovtransitionintime 0.5
-setfield sprintfoxtransitionouttime 1
-savetagchanges
-exit
-
-edittag ui\chud\spartan.chdt
-setfield hudwidgets[20].TextWidgets[0].placementdata[0].offset 0 45
-savetagchanges
-exit
-
-edittag ui\chud\bitmaps\sensor_blips.bitm
-importbitmap 0 tags\ui\chud\bitmaps\sensor_blips.dds
-SetField Sequences[0].Sprites[0].Left 0
-SetField Sequences[0].Sprites[0].Right 0.3046875
-SetField Sequences[5].Sprites[0].Left 0
-SetField Sequences[5].Sprites[0].Right 0.3046875
-SaveTagChanges
-Exit
-EditTag 0x00005740.bitm
-importbitmap 0 tags\ui\chud\bitmaps\equipment_scematics.dds
-Setfield Images[0].Width 380
-Setfield Images[0].Height 380
-SaveTagChanges
-Exit
-edittag ui\chud\bitmaps\chud_directional_arrow.bitm
-importbitmap 0 tags\ui\chud\bitmaps\chud_directional_arrow.dds
-savetagchanges
-exit
-edittag ui\chud\bitmaps\chud_directional_arrow_new.bitm
-importbitmap 0 tags\ui\chud\bitmaps\chud_directional_arrow.dds
-savetagchanges
-exit
-EditTag ui\chud\bitmaps\medals\campaign_medals.bitm
-importbitmap 0 tags\ui\chud\bitmaps\medals\campaign_medals.dds
-Setfield Images[0].Width 743
-Setfield Images[0].Height 743
-SaveTagChanges
-Exit
-EditTag ui\chud\bitmaps\medals\medals.bitm
-importbitmap 0 tags\ui\chud\bitmaps\medals\medals.dds
-Setfield Images[0].Width 743
-Setfield Images[0].Height 743
-SaveTagChanges
-Exit
-Edittag 0x00012bc
-Importbitmap 0 tags\ui\chud\bitmaps\000012BC.dds
-Savetagchanges
-Exit
 
 Edittag ui\chud\plasma_rifle_v6.chdt
 Setfield HudWidgets[0].BitmapWidgets[0].placementdata[0].Offset -126 66
@@ -2127,201 +2103,6 @@ Setfield HudWidgets[7].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.
 SaveTagChanges
 Exit
 
-Edittag ui\chud\monitor.chdt
-SetField HUDWidgets[3].BitmapWidgets[0].PlacementData[0].Offset 0 -550
-SetField HUDWidgets[3].BitmapWidgets[0].PlacementData[0].Scale 2 2
-SetField HUDWidgets[3].BitmapWidgets[1].PlacementData[0].Offset 0 -30
-SetField HUDWidgets[3].BitmapWidgets[1].PlacementData[0].Scale 2 2
-SaveTagChanges
-Exitto tags
-
-EditTag ui\chud\assault_rifle.chdt
-Setfield HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\battle_rifle.chdt
-SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\beam_rifle.chdt
-SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\brute_shot.chdt
-SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
-SetField HUDWidgets[5].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\carbine.chdt
-SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
-SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\excavator.chdt
-SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
-SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\flamethrower.chdt
-SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 1.4 1.4
-SetField HUDWidgets[3].BitmapWidgets[0].PlacementData[0].Scale 1.2 1.2
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\fuel_rod_cannon.chdt
-SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\hammer.chdt
-SetField HUDWidgets[3].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\machinegun_turret.chdt
-SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 1.45 1.45
-SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.45 1.45
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\magnum.chdt
-SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\missile.chdt
-SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
-SetField HUDWidgets[1].BitmapWidgets[1].PlacementData[0].Scale 1.5 1.5
-SetField HUDWidgets[1].BitmapWidgets[2].PlacementData[0].Scale 1.5 1.5
-SetField HUDWidgets[1].BitmapWidgets[3].PlacementData[0].Scale 1.5 1.5
-SetField HUDWidgets[1].BitmapWidgets[4].PlacementData[0].Scale 1.5 1.5
-SetField HUDWidgets[1].BitmapWidgets[5].PlacementData[0].Scale 1.5 1.5
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\needler.chdt
-SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
-SetField HUDWidgets[5].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\plasma_pistol.chdt
-SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
-SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\plasma_rifle.chdt
-SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\plasma_turret.chdt
-SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 1.4 1.4
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\rocket.chdt
-SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\sentinel_beam.chdt
-SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\shotgun.chdt
-SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
-SetField HUDWidgets[5].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\smg.chdt
-SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\sniper_rifle.chdt
-SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
-SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\spartan_laser.chdt
-SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
-SetField HUDWidgets[2].BitmapWidgets[1].PlacementData[0].Scale 1.5 1.5
-SetField HUDWidgets[2].BitmapWidgets[2].PlacementData[0].Scale 1.5 1.5
-SetField HUDWidgets[2].BitmapWidgets[2].PlacementData[0].MirrorOffset 0 -10
-SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
-SetField HUDWidgets[6].BitmapWidgets[1].PlacementData[0].Scale 1.5 1.5
-SetField HUDWidgets[6].BitmapWidgets[2].PlacementData[0].Scale 0 0
-SaveTagChanges
-Exitto tags
-EditTag ui\chud\spike_rifle.chdt
-SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
-SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\sword.chdt
-SetField HUDWidgets[3].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\unarmed.chdt
-SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\v_wraith.chdt
-SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.45 1.45
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\v_wraith_anti_air.chdt
-SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.45 1.45
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\v_chaingun.chdt
-SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.45 1.45
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\v_gaussturret.chdt
-SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.45 1.45
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\v_hornet.chdt
-SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.45 1.45
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\v_mongoose.chdt
-SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.45 1.45
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\v_ghost.chdt
-SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.45 1.45
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\v_driver.chdt
-SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.45 1.45
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\v_shade.chdt
-SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.45 1.45
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\v_chopper.chdt
-SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.45 1.45
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\v_banshee.chdt
-SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.45 1.45
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\v_scorpion.chdt
-SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.45 1.45
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\v_scorpionturret.chdt
-SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.45 1.45
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\v_wraithturret.chdt
-SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.45 1.45
-SaveTagChanges
-ExitTo Tags
-Edittag ui\chud\dmr.chdt
-SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.05 1.05
-SetField HUDWidgets[2].BitmapWidgets[2].PlacementData[0].Scale 1.5 1.5
-SaveTagChanges
-ExitTo Tags
-EditTag ui\chud\excavator_v6.chdt
-SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
-SaveTagChanges
-ExitTo Tags
-
 Edittag ui\chud\multiplayer_intro\summary_editor.chdt
 Setfield HudWidgets[0].PlacementData[0].Scale 1.5 1.5
 Setfield HudWidgets[1].PlacementData[0].Scale 1.5 1.5
@@ -2388,6 +2169,16 @@ Setfield HudWidgets[2].PlacementData[0].Scale 1.5 1.5
 SetField HudWidgets[3].PlacementData[0].Scale 1.5 1.5
 Savetagchanges
 Exit
+
+Edittag ui\chud\dmr.chdt
+SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.2 1.2
+SetField HUDWidgets[2].BitmapWidgets[2].PlacementData[0].Scale 1.7 1.7
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\excavator_v6.chdt
+SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.6 1.6
+SaveTagChanges
+ExitTo Tags
 
 Edittag ui\chud\dmr.chdt
 Editblock hudwidgets[2]
@@ -2606,4 +2397,3 @@ Exitto tags
 SaveTagNames
 DumpLog H3Hud.txt
 Exit
-
