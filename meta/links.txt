@@ -28,3 +28,4 @@ https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/GlowySword/GlowySwords.
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Halo3Shields/H3Shields.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/UpdatedBRSounds/UpdatedBRSounds.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/FreelancerCC/Freelancer_CC.ini
+https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/HeadshotPop/HeadshotPop.ini
