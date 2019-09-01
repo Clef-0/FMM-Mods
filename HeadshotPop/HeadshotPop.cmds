@@ -10,7 +10,7 @@ nametag * sound\game_sfx\ui\headshot_indicator\headshot_indicator
 tagdependency add objects\characters\masterchief\mp_masterchief\headshot_effect.effe *
 savetagnames
 restart
-importtag sound\game_sfx\ui\headshot_indicator\headshot_indicator.snd! data\resources\headshot_sound.sound
+importtag sound\game_sfx\ui\headshot_indicator\headshot_indicator.snd! data\resources\headshot_sound.snd!
 
 edittag sound\game_sfx\ui\headshot_indicator\headshot_indicator.snd!
 ResourceData import audio.dat data\resources\headshot_sound.mp3
