@@ -1,0 +1,14 @@
+ImportTag 0x572F data\resources\0x572F.sound
+edittag 0x572F
+resourcedata import audio.dat data\resources\monks.mp3
+SaveTagChanges
+exit
+
+ImportTag 0x5730 data\resources\0x5730.sound
+edittag 0x5730
+resourcedata import audio.dat data\resources\main.mp3
+SaveTagChanges
+exit
+
+dumplog Restore.txt
+exit
