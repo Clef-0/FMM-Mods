@@ -1,0 +1,25 @@
+EditTag 0x572F
+EditBlock PitchRanges[0]
+RemoveBlockElements Permutations *
+SaveTagChanges
+exitTo tags
+
+EditTag 0x5730
+resourcedata import audio.dat data\resources\beta.mp3
+EditBlock PitchRanges[0]
+RemoveBlockElements Permutations 1 *
+exit
+EditBlock ExtraInfo[0].LanguagePermutations[0]
+RemoveBlockElements RawInfo 1 *
+exit
+exit
+SetField PitchRanges[0].PermutationCount 1
+SetField Promotion.TotalSampleSize 17011584
+SetField PitchRanges[0].Permutations[0].PermutationChunks[0].EncodedSize 78734464
+SetField PitchRanges[0].Permutations[0].SampleSize 17011584
+SetField ExtraInfo[0].LanguagePermutations[0].RawInfo[0].SampleCount 17011584
+SetField ExtraInfo[0].LanguagePermutations[0].RawInfo[0].ResourceSampleSize 17011584
+SaveTagChanges
+exitTo tags
+dumplog HOMusicLog.txt
+exit
