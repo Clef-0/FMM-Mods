@@ -3,17 +3,14 @@ setfield hudglobals[0].grenadescematicsspacing 76
 setfield hudglobals[0].DualEquipmentScematicOffsetY 60
 setfield hudglobals[0].EquipmentScematicOffsetY 20
 setfield hudglobals[0].Unknown9 45
-setfield hudglobals[1].Unknown9 45
 Setfield hudglobals[0].ScoreboardLeaderOffsetY 37
-Setfield hudglobals[1].ScoreboardLeaderOffsetY 37
-Setfield hudglobals[2].ScoreboardLeaderOffsetY 37
 SetField HudGlobals[0].HudAttributes[0].HorizontalScale 0.87
 SetField HudGlobals[0].HudAttributes[0].VerticalScale 0.87
 SetField HudGlobals[0].HudAttributes[1].HorizontalScale 0.87
 SetField HudGlobals[0].HudAttributes[1].VerticalScale 0.87
 setfield hudglobals[0].hudattributes[0].motionsensoroffset 76 1018
 setfield hudglobals[0].hudattributes[0].motionsensorradius 72
-setfield hudglobals[0].hudattributes[0].motionsensorscale 2.7
+setfield hudglobals[0].hudattributes[0].motionsensorscale 2.5
 setfield hudglobals[0].hudattributes[0].NotificationScale 1.6
 setfield hudglobals[0].hudattributes[0].NotificationLineSpacing 37.5
 setfield hudglobals[0].hudattributes[0].NotificationOffsetY_HO 0.72
@@ -22,20 +19,26 @@ setfield hudglobals[0].hudattributes[0].PickupDialogOffset 0 0.16
 setfield hudglobals[0].hudattributes[0].Unknown29 1.5
 setfield hudglobals[0].hudattributes[0].MedalsOffset 0.64 2
 Setfield HudGlobals[0].hudattributes[0].Unknown30 84
+Setfield hudglobals[1].ScoreboardLeaderOffsetY 37
+setfield hudglobals[1].Unknown9 45
+setfield hudglobals[1].Unknown25 994352038
+setfield hudglobals[1].DualEquipmentScematicOffsetY 41
 setfield hudglobals[1].hudattributes[0].NotificationScale 1.6
 setfield hudglobals[1].hudattributes[0].NotificationLineSpacing 37.5
+setfield hudglobals[1].hudattributes[0].motionsensorscale 2.5
 setfield hudglobals[1].hudattributes[0].PickupDialogScale 1.6
-setfield hudglobals[1].hudattributes[0].PickupDialogOffset 0.01 0.2
+setfield hudglobals[1].hudattributes[0].PickupDialogOffset 0.016 0.16
 setfield hudglobals[1].hudattributes[0].Unknown29 1.5
 setfield hudglobals[1].hudattributes[0].MedalsOffset 0.64 2
 Setfield HudGlobals[1].hudattributes[0].Unknown30 84
+Setfield hudglobals[2].ScoreboardLeaderOffsetY 37
 setfield hudglobals[2].hudattributes[0].NotificationScale 1.6
-setfield hudglobals[2].hudattributes[0].NotificationLineSpacing 37
+setfield hudglobals[2].hudattributes[0].NotificationLineSpacing 37.5
 setfield hudglobals[2].hudattributes[0].PickupDialogScale 1.6
 setfield hudglobals[2].hudattributes[0].PickupDialogOffset 0 0.16
 setfield hudglobals[2].hudattributes[0].motionsensoroffset 82.5 992
 setfield hudglobals[2].hudattributes[0].motionsensorradius 72
-setfield hudglobals[2].hudattributes[0].motionsensorscale 6
+setfield hudglobals[2].hudattributes[0].motionsensorscale 3.5
 setfield hudglobals[2].hudattributes[0].Unknown29 1.5
 setfield hudglobals[2].hudattributes[0].MedalsOffset 0.64 2
 Setfield HudGlobals[2].hudattributes[0].Unknown30 84
@@ -2169,6 +2172,15 @@ Setfield HudWidgets[2].PlacementData[0].Scale 1.5 1.5
 SetField HudWidgets[3].PlacementData[0].Scale 1.5 1.5
 Savetagchanges
 Exit
+
+EditTag 0x53B1
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.6 1.6
+SaveTagChanges
+ExitTo Tags
+EditTag 0x541A
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.6 1.6
+SaveTagChanges
+ExitTo Tags
 
 Edittag ui\chud\dmr.chdt
 SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.2 1.2
