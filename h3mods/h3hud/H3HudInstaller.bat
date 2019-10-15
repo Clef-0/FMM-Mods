@@ -22,14 +22,14 @@ ECHO
 ECHO   H3 Hud By Satomi#7010
 color 0A
 
-if exist ..\..\..\maps\tags.dat (
+if exist ..\..\..\..\..\maps\tags.dat (
 	GOTO Label0
 ) else (
 	GOTO Label1
 )
 
 :Label0
-Type H3Hud.cmds | TagTool.exe ../../../maps/tags.dat
+Type H3Hud.cmds | TagTool.exe ..\..\..\..\..\maps\tags.dat
 ECHO Installation Complete.
 pause
 GOTO End
