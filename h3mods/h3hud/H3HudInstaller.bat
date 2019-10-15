@@ -17,9 +17,9 @@ ECHO                    -/-`    :/osyhddddhhyso/:`  .:+sdNMMMMMMMMMMNy-
 ECHO                  .yMMMMNdhyso++///::///++osyhmNMMMMMMMMMMMMMmy/`               
 ECHO                  :oydNNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNdy+-                   
 ECHO                       `.:/+syyhddNMMMMMMMMMMMMMMNmhyo/-`                       
-ECHO                                  /sssssooo+/:-.`                                                                                                                                           *&&&%%%%%%%%%&%(                                          
-ECHO   H3 Hud By Satomi#7010                                                                                                               .,.                       
-
+ECHO                                  /sssssooo+/:-.`
+ECHO
+ECHO   H3 Hud By Satomi#7010
 color 0A
 
 if exist ..\..\..\maps\tags.dat (
