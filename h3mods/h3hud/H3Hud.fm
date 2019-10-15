@@ -5,7 +5,7 @@ if exist mods\tagmods\h3mods\h3hud (
 	GOTO Label1
 )
 :Label0
-cd mods\tagmods\H3Hud
+cd mods\tagmods\h3mods\h3hud
 Type H3Hud.cmds | TagTool.exe ..\..\..\..\..\maps\tags.dat
 FOR %%f IN (fonts) DO copy %%f ..\..\..\..\..\maps\fonts
 ECHO FMM_OUTPUT Halo 3 Hud by Satomi#7010 has been installed!
