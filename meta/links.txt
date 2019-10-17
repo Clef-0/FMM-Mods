@@ -12,7 +12,7 @@ https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/H3_Beta_Armors/H3BA.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/reachMods/reachShotgun/reachShotgun.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/reachMods/reachWeapons/reachSniper/reachSniper.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/reachMods/reachSounds/reachSniperSounds/reachSniperSounds.ini
-https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/H3Hud/H3Hud.ini
+https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/h3mods/h3hud/H3Hud.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/h3mods/h3visors/h3visors.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/h3mods/h3sounds/h3BRsound/h3BRsound.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/h3mods/h3sounds/h3shotgunSound/h3shotgunSound.ini
@@ -28,3 +28,5 @@ https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/GlowySword/GlowySwords.
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Halo3Shields/H3Shields.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/UpdatedBRSounds/UpdatedBRSounds.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/FreelancerCC/Freelancer_CC.ini
+https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/HeadshotPop/HeadshotPop.ini
+https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/HOMusic V2/HOMusic V2.ini
