@@ -1,15 +1,3 @@
-CreateTag "bitm" 0x5ADF
-NameTag 0x5ADF ui\chud\bitmaps\posession
-ImportTag 0x5ADF "tags\ui\chud\bitmaps\posession.bitmap"
-
-CreateTag "bitm" 0x5AE0
-NameTag 0x5AE0 ui\chud\bitmaps\arming_meter
-ImportTag 0x5AE0 "tags\ui\chud\bitmaps\arming_meter.bitmap"
-
-CreateTag "bitm" 0x12BB
-NameTag 0x12BB ui\chud\bitmaps\waypoints
-ImportTag 0x12BB "tags\ui\chud\bitmaps\waypoints.bitmap"
-
 CreateTag "chdt" 0x0C1E
 NameTag 0x0C1E ui\chud\spartan
 ImportTag 0x0C1E "tags\ui\chud\spartan.chud_definition"
@@ -289,6 +277,14 @@ CreateTag "bitm" 0x131A
 NameTag 0x131A ui\chud\bitmaps\scoreboard_meter
 ImportTag 0x131A "tags\ui\chud\bitmaps\scoreboard_meter.bitmap"
 
+CreateTag "bitm" 0x5ADF
+NameTag 0x5ADF ui\chud\bitmaps\posession
+ImportTag 0x5ADF "tags\ui\chud\bitmaps\posession.bitmap"
+
+CreateTag "bitm" 0x5AE0
+NameTag 0x5AE0 ui\chud\bitmaps\arming_meter
+ImportTag 0x5AE0 "tags\ui\chud\bitmaps\arming_meter.bitmap"
+
 CreateTag "chad" 0x5B10
 NameTag 0x5B10 ui\chud\animations\ctf_scoreboard
 ImportTag 0x5B10 "tags\ui\chud\animations\ctf_scoreboard.chud_animation_definition"
@@ -304,6 +300,10 @@ ImportTag 0x5B12 "tags\ui\chud\bitmaps\variant_items\ctf_icon.bitmap"
 CreateTag "chad" 0x5B13
 NameTag 0x5B13 ui\chud\animations\ctf_notify
 ImportTag 0x5B13 "tags\ui\chud\animations\ctf_notify.chud_animation_definition"
+
+CreateTag "bitm" 0x12BB
+NameTag 0x12BB ui\chud\bitmaps\waypoints
+ImportTag 0x12BB "tags\ui\chud\bitmaps\waypoints.bitmap"
 
 CreateTag "chad" 0x5B14
 NameTag 0x5B14 ui\chud\animations\flicker
@@ -753,24 +753,6 @@ CreateTag "chdt" 0x37AF
 NameTag 0x37AF ui\chud\v_wraith_anti_air
 ImportTag 0x37AF "tags\ui\chud\v_wraith_anti_air.chud_definition"
 
-EditTag 0x5ADF
-SetField Resources[0].Resource.Page.Index -1
-SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\posession_image.bitmap_texture_interop_resource"
-SaveTagChanges
-ExitTo tags
-
-EditTag 0x5AE0
-SetField Resources[0].Resource.Page.Index -1
-SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\arming_meter_image.bitmap_texture_interop_resource"
-SaveTagChanges
-ExitTo tags
-
-EditTag 0x12BB
-SetField Resources[0].Resource.Page.Index -1
-SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\waypoints_image.bitmap_texture_interop_resource"
-SaveTagChanges
-ExitTo tags
-
 EditTag 0x5AE1
 SetField Resources[0].Resource.Page.Index -1
 SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\top_edge_image.bitmap_texture_interop_resource"
@@ -1011,9 +993,27 @@ SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\scoreboard_meter
 SaveTagChanges
 ExitTo tags
 
+EditTag 0x5ADF
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\posession_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5AE0
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\arming_meter_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
 EditTag 0x5B12
 SetField Resources[0].Resource.Page.Index -1
 SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\variant_items\ctf_icon_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x12BB
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\waypoints_image.bitmap_texture_interop_resource"
 SaveTagChanges
 ExitTo tags
 
@@ -1281,12 +1281,6 @@ SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\hud_vehicle_reti
 SaveTagChanges
 ExitTo tags
 
-Edittag ui\chud\spartan.chdt
-Setfield Hudwidgets[26].Placementdata[0].Offset 26 -28
-Setfield Hudwidgets[26].Placementdata[0].Scale -1.55 -1.55
-Savetagchanges
-Exit
-
 EditTag ui\chud\bitmaps\sensor_blips.bitm
 Importbitmap 0 tags\ui\chud\bitmaps\sensor_blips.dds
 SetField Sequences[0].Sprites[0].Left 0
@@ -1320,6 +1314,18 @@ Edittag 0x00012bc
 Importbitmap 0 tags\ui\chud\bitmaps\000012BC.dds
 Savetagchanges
 Exit
+EditTag 0x0000C86
+Importbitmap 0 tags\ui\chud\bitmaps\00000C86.dds
+Savetagchanges
+Exit
+EditTag 0x0000C85
+Importbitmap 0 tags\ui\chud\bitmaps\00000E79.dds
+Savetagchanges
+Exit
+EditTag 0x0000C84
+Importbitmap 0 tags\ui\chud\bitmaps\00000E7A.dds
+Savetagchanges
+Exit
 
 edittag ui\chud\globals.chgd
 setfield hudglobals[0].grenadescematicsspacing 79.5
@@ -1338,7 +1344,7 @@ setfield hudglobals[0].hudattributes[0].motionsensorscale 2.5
 setfield hudglobals[0].hudattributes[0].NotificationScale 1.6
 setfield hudglobals[0].hudattributes[0].NotificationLineSpacing 37.5
 setfield hudglobals[0].hudattributes[0].NotificationOffsetY_HO 0.72
-setfield hudglobals[0].hudattributes[0].PickupDialogScale 1.6
+setfield hudglobals[0].hudattributes[0].PickupDialogScale 1.7
 setfield hudglobals[0].hudattributes[0].PickupDialogOffset 0 0.16
 setfield hudglobals[0].hudattributes[0].Unknown28 -1
 setfield hudglobals[0].hudattributes[0].Unknown29 1.5
@@ -1351,7 +1357,7 @@ setfield hudglobals[1].DualEquipmentScematicOffsetY 41
 setfield hudglobals[1].hudattributes[0].NotificationScale 1.6
 setfield hudglobals[1].hudattributes[0].NotificationLineSpacing 37.5
 setfield hudglobals[1].hudattributes[0].motionsensorscale 2.5
-setfield hudglobals[1].hudattributes[0].PickupDialogScale 1.6
+setfield hudglobals[1].hudattributes[0].PickupDialogScale 1.7
 setfield hudglobals[1].hudattributes[0].PickupDialogOffset 0.016 0.16
 setfield hudglobals[1].hudattributes[0].Unknown29 1.5
 setfield hudglobals[1].hudattributes[0].MedalsOffset 0.64 2
@@ -1361,7 +1367,7 @@ Setfield hudglobals[2].ScoreboardLeaderOffsetY 37
 SetField HudGlobals[2].DirectionalArrow ui\chud\bitmaps\chud_directional_arrow.bitmap
 setfield hudglobals[2].hudattributes[0].NotificationScale 1.6
 setfield hudglobals[2].hudattributes[0].NotificationLineSpacing 37.5
-setfield hudglobals[2].hudattributes[0].PickupDialogScale 1.6
+setfield hudglobals[2].hudattributes[0].PickupDialogScale 1.7
 setfield hudglobals[2].hudattributes[0].PickupDialogOffset 0 0.16
 setfield hudglobals[2].hudattributes[0].motionsensoroffset 82.5 992
 setfield hudglobals[2].hudattributes[0].motionsensorradius 72
