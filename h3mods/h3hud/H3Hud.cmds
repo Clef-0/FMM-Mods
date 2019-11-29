@@ -2370,6 +2370,10 @@ EditTag 0x541A
 SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.6 1.6
 SaveTagChanges
 ExitTo Tags
+EditTag 0x30A9
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.6 1.6
+SaveTagChanges
+ExitTo Tags
 Edittag ui\chud\dmr.chdt
 SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.2 1.2
 SetField HUDWidgets[2].BitmapWidgets[2].PlacementData[0].Scale 1.7 1.7
