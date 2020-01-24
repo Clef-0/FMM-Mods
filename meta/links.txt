@@ -29,3 +29,4 @@ https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Halo3Shields/H3Shields.
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/UpdatedBRSounds/UpdatedBRSounds.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/FreelancerCC/Freelancer_CC.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/HeadshotPop/HeadshotPop.ini
+https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/HOMusic V2/HOMusic V2.ini
