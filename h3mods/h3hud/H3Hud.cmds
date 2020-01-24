@@ -1,0 +1,2603 @@
+CreateTag "chdt" 0x0C1E
+NameTag 0x0C1E ui\chud\spartan
+ImportTag 0x0C1E "tags\ui\chud\spartan.chud_definition"
+
+CreateTag "chad" 0x0C87
+NameTag 0x0C87 ui\chud\animations\dimming
+ImportTag 0x0C87 "tags\ui\chud\animations\dimming.chud_animation_definition"
+
+CreateTag "chad" 0x0C45
+NameTag 0x0C45 ui\chud\animations\dim_lines
+ImportTag 0x0C45 "tags\ui\chud\animations\dim_lines.chud_animation_definition"
+
+CreateTag "bitm" 0x5AE1
+NameTag 0x5AE1 ui\chud\bitmaps\top_edge
+ImportTag 0x5AE1 "tags\ui\chud\bitmaps\top_edge.bitmap"
+
+CreateTag "chad" 0x5AE2
+NameTag 0x5AE2 ui\chud\animations\center_dimming
+ImportTag 0x5AE2 "tags\ui\chud\animations\center_dimming.chud_animation_definition"
+
+CreateTag "chad" 0x5AE3
+NameTag 0x5AE3 ui\chud\animations\center_hack
+ImportTag 0x5AE3 "tags\ui\chud\animations\center_hack.chud_animation_definition"
+
+CreateTag "bitm" 0x5AE4
+NameTag 0x5AE4 ui\chud\bitmaps\top_middle
+ImportTag 0x5AE4 "tags\ui\chud\bitmaps\top_middle.bitmap"
+
+CreateTag "chad" 0x0C32
+NameTag 0x0C32 ui\chud\animations\invisible
+ImportTag 0x0C32 "tags\ui\chud\animations\invisible.chud_animation_definition"
+
+CreateTag "chad" 0x0C33
+NameTag 0x0C33 ui\chud\animations\shields_out
+ImportTag 0x0C33 "tags\ui\chud\animations\shields_out.chud_animation_definition"
+
+CreateTag "bitm" 0x5AE5
+NameTag 0x5AE5 ui\chud\bitmaps\shield_flash_bleed
+ImportTag 0x5AE5 "tags\ui\chud\bitmaps\shield_flash_bleed.bitmap"
+
+CreateTag "chad" 0x5AE6
+NameTag 0x5AE6 ui\chud\animations\shield_dimming
+ImportTag 0x5AE6 "tags\ui\chud\animations\shield_dimming.chud_animation_definition"
+
+CreateTag "bitm" 0x5AE7
+NameTag 0x5AE7 ui\chud\bitmaps\shield_border
+ImportTag 0x5AE7 "tags\ui\chud\bitmaps\shield_border.bitmap"
+
+CreateTag "bitm" 0x5AE8
+NameTag 0x5AE8 ui\chud\bitmaps\shield_meter
+ImportTag 0x5AE8 "tags\ui\chud\bitmaps\shield_meter.bitmap"
+
+CreateTag "bitm" 0x5AE9
+NameTag 0x5AE9 ui\chud\bitmaps\bottom_edge
+ImportTag 0x5AE9 "tags\ui\chud\bitmaps\bottom_edge.bitmap"
+
+CreateTag "bitm" 0x5AEA
+NameTag 0x5AEA ui\chud\bitmaps\bottom_middle
+ImportTag 0x5AEA "tags\ui\chud\bitmaps\bottom_middle.bitmap"
+
+CreateTag "bitm" 0x0C3C
+NameTag 0x0C3C ui\chud\bitmaps\motion_tracker
+ImportTag 0x0C3C "tags\ui\chud\bitmaps\motion_tracker.bitmap"
+
+CreateTag "chad" 0x0C3E
+NameTag 0x0C3E ui\chud\animations\motion_tracker_ping
+ImportTag 0x0C3E "tags\ui\chud\animations\motion_tracker_ping.chud_animation_definition"
+
+CreateTag "chad" 0x0C3F
+NameTag 0x0C3F ui\chud\animations\vox1
+ImportTag 0x0C3F "tags\ui\chud\animations\vox1.chud_animation_definition"
+
+CreateTag "bitm" 0x0C40
+NameTag 0x0C40 ui\chud\bitmaps\vox
+ImportTag 0x0C40 "tags\ui\chud\bitmaps\vox.bitmap"
+
+CreateTag "chad" 0x0C41
+NameTag 0x0C41 ui\chud\animations\vox2
+ImportTag 0x0C41 "tags\ui\chud\animations\vox2.chud_animation_definition"
+
+CreateTag "bitm" 0x0E6D
+NameTag 0x0E6D ui\chud\bitmaps\motion_tracker_meters
+ImportTag 0x0E6D "tags\ui\chud\bitmaps\motion_tracker_meters.bitmap"
+
+CreateTag "bitm" 0x5AEB
+NameTag 0x5AEB ui\chud\bitmaps\grenade_scematics
+ImportTag 0x5AEB "tags\ui\chud\bitmaps\grenade_scematics.bitmap"
+
+CreateTag "chad" 0x5AEC
+NameTag 0x5AEC ui\chud\animations\kudos
+ImportTag 0x5AEC "tags\ui\chud\animations\kudos.chud_animation_definition"
+
+CreateTag "bitm" 0x0C49
+NameTag 0x0C49 ui\chud\bitmaps\hud_reticles
+ImportTag 0x0C49 "tags\ui\chud\bitmaps\hud_reticles.bitmap"
+
+CreateTag "chad" 0x5AED
+NameTag 0x5AED ui\chud\animations\init_wipe_horizontal
+ImportTag 0x5AED "tags\ui\chud\animations\init_wipe_horizontal.chud_animation_definition"
+
+CreateTag "bitm" 0x5AEE
+NameTag 0x5AEE ui\chud\bitmaps\init_lines
+ImportTag 0x5AEE "tags\ui\chud\bitmaps\init_lines.bitmap"
+
+CreateTag "chad" 0x5AEF
+NameTag 0x5AEF ui\chud\animations\init_wipe_vertical
+ImportTag 0x5AEF "tags\ui\chud\animations\init_wipe_vertical.chud_animation_definition"
+
+CreateTag "bitm" 0x5AF0
+NameTag 0x5AF0 ui\chud\bitmaps\init_lines_vert
+ImportTag 0x5AF0 "tags\ui\chud\bitmaps\init_lines_vert.bitmap"
+
+CreateTag "chad" 0x5AF1
+NameTag 0x5AF1 ui\chud\animations\vip_notify
+ImportTag 0x5AF1 "tags\ui\chud\animations\vip_notify.chud_animation_definition"
+
+CreateTag "bitm" 0x5AF2
+NameTag 0x5AF2 ui\chud\bitmaps\variant_items\vip_icon
+ImportTag 0x5AF2 "tags\ui\chud\bitmaps\variant_items\vip_icon.bitmap"
+
+CreateTag "chad" 0x5AF3
+NameTag 0x5AF3 ui\chud\animations\vip_aura_pulsate
+ImportTag 0x5AF3 "tags\ui\chud\animations\vip_aura_pulsate.chud_animation_definition"
+
+CreateTag "chad" 0x5AF4
+NameTag 0x5AF4 ui\chud\animations\vip_aura_center
+ImportTag 0x5AF4 "tags\ui\chud\animations\vip_aura_center.chud_animation_definition"
+
+CreateTag "chad" 0x5AF5
+NameTag 0x5AF5 ui\chud\animations\vip_notify_text
+ImportTag 0x5AF5 "tags\ui\chud\animations\vip_notify_text.chud_animation_definition"
+
+CreateTag "bitm" 0x5AF6
+NameTag 0x5AF6 ui\chud\bitmaps\scopes\human_binoculars
+ImportTag 0x5AF6 "tags\ui\chud\bitmaps\scopes\human_binoculars.bitmap"
+
+CreateTag "chad" 0x5AF7
+NameTag 0x5AF7 ui\chud\animations\yaw_slide
+ImportTag 0x5AF7 "tags\ui\chud\animations\yaw_slide.chud_animation_definition"
+
+CreateTag "bitm" 0x5AF8
+NameTag 0x5AF8 ui\chud\bitmaps\rulers_h
+ImportTag 0x5AF8 "tags\ui\chud\bitmaps\rulers_h.bitmap"
+
+CreateTag "chad" 0x5AF9
+NameTag 0x5AF9 ui\chud\animations\pitch_slide
+ImportTag 0x5AF9 "tags\ui\chud\animations\pitch_slide.chud_animation_definition"
+
+CreateTag "bitm" 0x5AFA
+NameTag 0x5AFA ui\chud\bitmaps\rulers_v
+ImportTag 0x5AFA "tags\ui\chud\bitmaps\rulers_v.bitmap"
+
+CreateTag "bitm" 0x5AFB
+NameTag 0x5AFB ui\chud\bitmaps\scopes\box_tiny
+ImportTag 0x5AFB "tags\ui\chud\bitmaps\scopes\box_tiny.bitmap"
+
+CreateTag "chad" 0x5AFC
+NameTag 0x5AFC ui\chud\animations\zoom_scope
+ImportTag 0x5AFC "tags\ui\chud\animations\zoom_scope.chud_animation_definition"
+
+CreateTag "bitm" 0x5AFD
+NameTag 0x5AFD ui\chud\bitmaps\variant_items\jug_icon
+ImportTag 0x5AFD "tags\ui\chud\bitmaps\variant_items\jug_icon.bitmap"
+
+CreateTag "bitm" 0x0C5F
+NameTag 0x0C5F ui\chud\bitmaps\help
+ImportTag 0x0C5F "tags\ui\chud\bitmaps\help.bitmap"
+
+CreateTag "bitm" 0x5AFE
+NameTag 0x5AFE ui\chud\bitmaps\variant_items\infection_icon
+ImportTag 0x5AFE "tags\ui\chud\bitmaps\variant_items\infection_icon.bitmap"
+
+CreateTag "chad" 0x5AFF
+NameTag 0x5AFF ui\chud\animations\fade_in_slow
+ImportTag 0x5AFF "tags\ui\chud\animations\fade_in_slow.chud_animation_definition"
+
+CreateTag "chad" 0x5B00
+NameTag 0x5B00 ui\chud\animations\fade_out_slow
+ImportTag 0x5B00 "tags\ui\chud\animations\fade_out_slow.chud_animation_definition"
+
+CreateTag "bitm" 0x5B01
+NameTag 0x5B01 ui\chud\bitmaps\objectives
+ImportTag 0x5B01 "tags\ui\chud\bitmaps\objectives.bitmap"
+
+CreateTag "cprl" 0x0C43
+ImportTag 0x0C43 "tags\0x0C43.chud_widget_parallax_data"
+
+CreateTag "chad" 0x1933
+NameTag 0x1933 ui\chud\animations\equipment_kablam
+ImportTag 0x1933 "tags\ui\chud\animations\equipment_kablam.chud_animation_definition"
+
+CreateTag "bitm" 0x5740
+ImportTag 0x5740 "tags\0x5740.bitmap"
+
+CreateTag "bitm" 0x130B
+ImportTag 0x130B "tags\0x130B.bitmap"
+
+CreateTag "cprl" 0x0C31
+ImportTag 0x0C31 "tags\0x0C31.chud_widget_parallax_data"
+
+CreateTag "chad" 0x0C82
+ImportTag 0x0C82 "tags\0x0C82.chud_animation_definition"
+
+CreateTag "chad" 0x0C83
+ImportTag 0x0C83 "tags\0x0C83.chud_animation_definition"
+
+CreateTag "bitm" 0x0C84
+ImportTag 0x0C84 "tags\0x0C84.bitmap"
+
+CreateTag "bitm" 0x0C85
+ImportTag 0x0C85 "tags\0x0C85.bitmap"
+
+CreateTag "bitm" 0x0C86
+ImportTag 0x0C86 "tags\0x0C86.bitmap"
+
+CreateTag "chdt" 0x5B02
+NameTag 0x5B02 ui\chud\elite
+ImportTag 0x5B02 "tags\ui\chud\elite.chud_definition"
+
+CreateTag "bitm" 0x5B03
+NameTag 0x5B03 ui\chud\bitmaps\elite_corner
+ImportTag 0x5B03 "tags\ui\chud\bitmaps\elite_corner.bitmap"
+
+CreateTag "bitm" 0x5B04
+NameTag 0x5B04 ui\chud\bitmaps\elite_middle
+ImportTag 0x5B04 "tags\ui\chud\bitmaps\elite_middle.bitmap"
+
+CreateTag "bitm" 0x5B05
+NameTag 0x5B05 ui\chud\bitmaps\elite_left_480_corner
+ImportTag 0x5B05 "tags\ui\chud\bitmaps\elite_left_480_corner.bitmap"
+
+CreateTag "bitm" 0x5B06
+NameTag 0x5B06 ui\chud\bitmaps\elite_480_middle
+ImportTag 0x5B06 "tags\ui\chud\bitmaps\elite_480_middle.bitmap"
+
+CreateTag "bitm" 0x5B07
+NameTag 0x5B07 ui\chud\bitmaps\elite_shield_flash_bleed
+ImportTag 0x5B07 "tags\ui\chud\bitmaps\elite_shield_flash_bleed.bitmap"
+
+CreateTag "bitm" 0x5B08
+NameTag 0x5B08 ui\chud\bitmaps\elite_shield_border
+ImportTag 0x5B08 "tags\ui\chud\bitmaps\elite_shield_border.bitmap"
+
+CreateTag "bitm" 0x5B09
+NameTag 0x5B09 ui\chud\bitmaps\elite_shield_meter
+ImportTag 0x5B09 "tags\ui\chud\bitmaps\elite_shield_meter.bitmap"
+
+CreateTag "bitm" 0x5B0A
+NameTag 0x5B0A ui\chud\bitmaps\elite_wipe
+ImportTag 0x5B0A "tags\ui\chud\bitmaps\elite_wipe.bitmap"
+
+CreateTag "bitm" 0x5B0B
+NameTag 0x5B0B ui\chud\bitmaps\scopes\elite_binocs
+ImportTag 0x5B0B "tags\ui\chud\bitmaps\scopes\elite_binocs.bitmap"
+
+CreateTag "chad" 0x5B0C
+NameTag 0x5B0C ui\chud\animations\clockwise
+ImportTag 0x5B0C "tags\ui\chud\animations\clockwise.chud_animation_definition"
+
+CreateTag "bitm" 0x5B0D
+NameTag 0x5B0D ui\chud\bitmaps\scopes\elite_compass
+ImportTag 0x5B0D "tags\ui\chud\bitmaps\scopes\elite_compass.bitmap"
+
+CreateTag "chad" 0x5B0E
+NameTag 0x5B0E ui\chud\animations\counterclockwise
+ImportTag 0x5B0E "tags\ui\chud\animations\counterclockwise.chud_animation_definition"
+
+CreateTag "bitm" 0x5B0F
+NameTag 0x5B0F ui\chud\bitmaps\scopes\elite_pitch
+ImportTag 0x5B0F "tags\ui\chud\bitmaps\scopes\elite_pitch.bitmap"
+
+CreateTag "chdt" 0x12BD
+NameTag 0x12BD ui\chud\scoreboard
+ImportTag 0x12BD "tags\ui\chud\scoreboard.chud_definition"
+
+CreateTag "bitm" 0x131A
+NameTag 0x131A ui\chud\bitmaps\scoreboard_meter
+ImportTag 0x131A "tags\ui\chud\bitmaps\scoreboard_meter.bitmap"
+
+CreateTag "bitm" 0x5ADF
+NameTag 0x5ADF ui\chud\bitmaps\posession
+ImportTag 0x5ADF "tags\ui\chud\bitmaps\posession.bitmap"
+
+CreateTag "bitm" 0x5AE0
+NameTag 0x5AE0 ui\chud\bitmaps\arming_meter
+ImportTag 0x5AE0 "tags\ui\chud\bitmaps\arming_meter.bitmap"
+
+CreateTag "chad" 0x5B10
+NameTag 0x5B10 ui\chud\animations\ctf_scoreboard
+ImportTag 0x5B10 "tags\ui\chud\animations\ctf_scoreboard.chud_animation_definition"
+
+CreateTag "chad" 0x5B11
+NameTag 0x5B11 ui\chud\animations\ctf_notify_noflash
+ImportTag 0x5B11 "tags\ui\chud\animations\ctf_notify_noflash.chud_animation_definition"
+
+CreateTag "bitm" 0x5B12
+NameTag 0x5B12 ui\chud\bitmaps\variant_items\ctf_icon
+ImportTag 0x5B12 "tags\ui\chud\bitmaps\variant_items\ctf_icon.bitmap"
+
+CreateTag "chad" 0x5B13
+NameTag 0x5B13 ui\chud\animations\ctf_notify
+ImportTag 0x5B13 "tags\ui\chud\animations\ctf_notify.chud_animation_definition"
+
+CreateTag "bitm" 0x12BB
+NameTag 0x12BB ui\chud\bitmaps\waypoints
+ImportTag 0x12BB "tags\ui\chud\bitmaps\waypoints.bitmap"
+
+CreateTag "chad" 0x5B14
+NameTag 0x5B14 ui\chud\animations\flicker
+ImportTag 0x5B14 "tags\ui\chud\animations\flicker.chud_animation_definition"
+
+CreateTag "chad" 0x5B15
+NameTag 0x5B15 ui\chud\animations\enlarge_broadcast
+ImportTag 0x5B15 "tags\ui\chud\animations\enlarge_broadcast.chud_animation_definition"
+
+CreateTag "chad" 0x5B16
+NameTag 0x5B16 ui\chud\animations\ready_antenna
+ImportTag 0x5B16 "tags\ui\chud\animations\ready_antenna.chud_animation_definition"
+
+CreateTag "chad" 0x5B17
+NameTag 0x5B17 ui\chud\animations\ready_ptt
+ImportTag 0x5B17 "tags\ui\chud\animations\ready_ptt.chud_animation_definition"
+
+CreateTag "chdt" 0x12BE
+NameTag 0x12BE ui\chud\metagame_scoreboard
+ImportTag 0x12BE "tags\ui\chud\metagame_scoreboard.chud_definition"
+
+CreateTag "chad" 0x12C4
+NameTag 0x12C4 ui\chud\animations\medal_animation
+ImportTag 0x12C4 "tags\ui\chud\animations\medal_animation.chud_animation_definition"
+
+CreateTag "bitm" 0x12FC
+NameTag 0x12FC ui\chud\bitmaps\medals\campaign_medals
+ImportTag 0x12FC "tags\ui\chud\bitmaps\medals\campaign_medals.bitmap"
+
+CreateTag "chad" 0x5B18
+NameTag 0x5B18 ui\chud\animations\metagame_in
+ImportTag 0x5B18 "tags\ui\chud\animations\metagame_in.chud_animation_definition"
+
+CreateTag "chad" 0x5B19
+NameTag 0x5B19 ui\chud\animations\metagame_score_bonus
+ImportTag 0x5B19 "tags\ui\chud\animations\metagame_score_bonus.chud_animation_definition"
+
+CreateTag "bitm" 0x131B
+NameTag 0x131B ui\chud\bitmaps\emblem_dummy
+ImportTag 0x131B "tags\ui\chud\bitmaps\emblem_dummy.bitmap"
+
+CreateTag "chad" 0x5B1A
+NameTag 0x5B1A ui\chud\animations\metagame_dimming
+ImportTag 0x5B1A "tags\ui\chud\animations\metagame_dimming.chud_animation_definition"
+
+CreateTag "chdt" 0x12C1
+NameTag 0x12C1 ui\chud\sandbox
+ImportTag 0x12C1 "tags\ui\chud\sandbox.chud_definition"
+
+CreateTag "bitm" 0x132D
+NameTag 0x132D ui\chud\bitmaps\hud_editor_reticles
+ImportTag 0x132D "tags\ui\chud\bitmaps\hud_editor_reticles.bitmap"
+
+CreateTag "chdt" 0x25F4
+NameTag 0x25F4 ui\chud\monitor
+ImportTag 0x25F4 "tags\ui\chud\monitor.chud_definition"
+
+CreateTag "bitm" 0x5B1B
+NameTag 0x5B1B ui\chud\bitmaps\monitor_shield_flash_bleed
+ImportTag 0x5B1B "tags\ui\chud\bitmaps\monitor_shield_flash_bleed.bitmap"
+
+CreateTag "bitm" 0x5B1C
+NameTag 0x5B1C ui\chud\bitmaps\monitor_shield_border
+ImportTag 0x5B1C "tags\ui\chud\bitmaps\monitor_shield_border.bitmap"
+
+CreateTag "bitm" 0x5B1D
+NameTag 0x5B1D ui\chud\bitmaps\monitor_shield_meter
+ImportTag 0x5B1D "tags\ui\chud\bitmaps\monitor_shield_meter.bitmap"
+
+CreateTag "bitm" 0x25FA
+NameTag 0x25FA ui\chud\bitmaps\monitor_edges
+ImportTag 0x25FA "tags\ui\chud\bitmaps\monitor_edges.bitmap"
+
+CreateTag "bitm" 0x25FB
+NameTag 0x25FB ui\chud\bitmaps\monitor_distortion
+ImportTag 0x25FB "tags\ui\chud\bitmaps\monitor_distortion.bitmap"
+
+CreateTag "bitm" 0x5B1E
+NameTag 0x5B1E ui\chud\bitmaps\scopes\monitor
+ImportTag 0x5B1E "tags\ui\chud\bitmaps\scopes\monitor.bitmap"
+
+CreateTag "bitm" 0x5B1F
+NameTag 0x5B1F ui\chud\bitmaps\scopes\monitor_chunkstif
+ImportTag 0x5B1F "tags\ui\chud\bitmaps\scopes\monitor_chunkstif.bitmap"
+
+CreateTag "chdt" 0x31FC
+NameTag 0x31FC ui\chud\hammer
+ImportTag 0x31FC "tags\ui\chud\hammer.chud_definition"
+
+CreateTag "chad" 0x1322
+NameTag 0x1322 ui\chud\animations\warning_flash
+ImportTag 0x1322 "tags\ui\chud\animations\warning_flash.chud_animation_definition"
+
+CreateTag "bitm" 0x1C86
+NameTag 0x1C86 ui\chud\bitmaps\red_flash
+ImportTag 0x1C86 "tags\ui\chud\bitmaps\red_flash.bitmap"
+
+CreateTag "bitm" 0x1C87
+NameTag 0x1C87 ui\chud\bitmaps\elite_corner_flash
+ImportTag 0x1C87 "tags\ui\chud\bitmaps\elite_corner_flash.bitmap"
+
+CreateTag "chad" 0x5B20
+NameTag 0x5B20 ui\chud\animations\fade_in
+ImportTag 0x5B20 "tags\ui\chud\animations\fade_in.chud_animation_definition"
+
+CreateTag "bitm" 0x5B21
+NameTag 0x5B21 ui\chud\bitmaps\weapon_scematics
+ImportTag 0x5B21 "tags\ui\chud\bitmaps\weapon_scematics.bitmap"
+
+CreateTag "bitm" 0x1328
+NameTag 0x1328 ui\chud\bitmaps\divider
+ImportTag 0x1328 "tags\ui\chud\bitmaps\divider.bitmap"
+
+CreateTag "bitm" 0x5B22
+NameTag 0x5B22 ui\chud\bitmaps\energy_meters
+ImportTag 0x5B22 "tags\ui\chud\bitmaps\energy_meters.bitmap"
+
+CreateTag "bitm" 0x5B23
+NameTag 0x5B23 ui\chud\bitmaps\energy_borders
+ImportTag 0x5B23 "tags\ui\chud\bitmaps\energy_borders.bitmap"
+
+CreateTag "chad" 0x5B24
+NameTag 0x5B24 ui\chud\animations\flash_test
+ImportTag 0x5B24 "tags\ui\chud\animations\flash_test.chud_animation_definition"
+
+CreateTag "chad" 0x5B25
+NameTag 0x5B25 ui\chud\animations\backpack_warning_flash
+ImportTag 0x5B25 "tags\ui\chud\animations\backpack_warning_flash.chud_animation_definition"
+
+CreateTag "chad" 0x5B26
+NameTag 0x5B26 ui\chud\animations\backpack_test
+ImportTag 0x5B26 "tags\ui\chud\animations\backpack_test.chud_animation_definition"
+
+CreateTag "chad" 0x5B27
+NameTag 0x5B27 ui\chud\animations\backpack_unready
+ImportTag 0x5B27 "tags\ui\chud\animations\backpack_unready.chud_animation_definition"
+
+CreateTag "chdt" 0x2439
+NameTag 0x2439 ui\chud\sword
+ImportTag 0x2439 "tags\ui\chud\sword.chud_definition"
+
+CreateTag "chdt" 0x208E
+NameTag 0x208E ui\chud\excavator
+ImportTag 0x208E "tags\ui\chud\excavator.chud_definition"
+
+CreateTag "bitm" 0x5B28
+NameTag 0x5B28 ui\chud\bitmaps\ballistic_meters
+ImportTag 0x5B28 "tags\ui\chud\bitmaps\ballistic_meters.bitmap"
+
+CreateTag "chdt" 0x20BC
+NameTag 0x20BC ui\chud\magnum
+ImportTag 0x20BC "tags\ui\chud\magnum.chud_definition"
+
+CreateTag "chdt" 0x20ED
+NameTag 0x20ED ui\chud\needler
+ImportTag 0x20ED "tags\ui\chud\needler.chud_definition"
+
+CreateTag "chdt" 0x225A
+NameTag 0x225A ui\chud\plasma_pistol
+ImportTag 0x225A "tags\ui\chud\plasma_pistol.chud_definition"
+
+CreateTag "bitm" 0x5B29
+NameTag 0x5B29 ui\chud\bitmaps\energy_meter_left
+ImportTag 0x5B29 "tags\ui\chud\bitmaps\energy_meter_left.bitmap"
+
+CreateTag "bitm" 0x5B2A
+NameTag 0x5B2A ui\chud\bitmaps\energy_meter_right
+ImportTag 0x5B2A "tags\ui\chud\bitmaps\energy_meter_right.bitmap"
+
+CreateTag "chdt" 0x1B8D
+NameTag 0x1B8D ui\chud\assault_rifle
+ImportTag 0x1B8D "tags\ui\chud\assault_rifle.chud_definition"
+
+CreateTag "chdt" 0x1D87
+NameTag 0x1D87 ui\chud\battle_rifle
+ImportTag 0x1D87 "tags\ui\chud\battle_rifle.chud_definition"
+
+CreateTag "bitm" 0x5B2B
+NameTag 0x5B2B ui\chud\bitmaps\scopes\battle_rifle_scope
+ImportTag 0x5B2B "tags\ui\chud\bitmaps\scopes\battle_rifle_scope.bitmap"
+
+CreateTag "bitm" 0x5B2C
+NameTag 0x5B2C ui\chud\bitmaps\scopes\battle_rifle_scope_elements
+ImportTag 0x5B2C "tags\ui\chud\bitmaps\scopes\battle_rifle_scope_elements.bitmap"
+
+CreateTag "chdt" 0x2459
+NameTag 0x2459 ui\chud\beam_rifle
+ImportTag 0x2459 "tags\ui\chud\beam_rifle.chud_definition"
+
+CreateTag "bitm" 0x5B2D
+NameTag 0x5B2D ui\chud\bitmaps\scopes\beam_rifle_flash
+ImportTag 0x5B2D "tags\ui\chud\bitmaps\scopes\beam_rifle_flash.bitmap"
+
+CreateTag "bitm" 0x5B2E
+NameTag 0x5B2E ui\chud\bitmaps\scopes\beam_rifle_blur
+ImportTag 0x5B2E "tags\ui\chud\bitmaps\scopes\beam_rifle_blur.bitmap"
+
+CreateTag "bitm" 0x5B2F
+NameTag 0x5B2F ui\chud\bitmaps\scopes\beam_rifle_scope
+ImportTag 0x5B2F "tags\ui\chud\bitmaps\scopes\beam_rifle_scope.bitmap"
+
+CreateTag "chad" 0x5B30
+NameTag 0x5B30 ui\chud\animations\beam_rifle_meter_right
+ImportTag 0x5B30 "tags\ui\chud\animations\beam_rifle_meter_right.chud_animation_definition"
+
+CreateTag "bitm" 0x5B31
+NameTag 0x5B31 ui\chud\bitmaps\scopes\beam_rifle_meter_r
+ImportTag 0x5B31 "tags\ui\chud\bitmaps\scopes\beam_rifle_meter_r.bitmap"
+
+CreateTag "bitm" 0x5B32
+NameTag 0x5B32 ui\chud\bitmaps\beam_rifle_scope_meter_border
+ImportTag 0x5B32 "tags\ui\chud\bitmaps\beam_rifle_scope_meter_border.bitmap"
+
+CreateTag "chad" 0x5B33
+NameTag 0x5B33 ui\chud\animations\beam_rifle_meter_left
+ImportTag 0x5B33 "tags\ui\chud\animations\beam_rifle_meter_left.chud_animation_definition"
+
+CreateTag "bitm" 0x5B34
+NameTag 0x5B34 ui\chud\bitmaps\scopes\beam_rifle_meter_l
+ImportTag 0x5B34 "tags\ui\chud\bitmaps\scopes\beam_rifle_meter_l.bitmap"
+
+CreateTag "bitm" 0x5B35
+NameTag 0x5B35 ui\chud\bitmaps\scopes\beam_rifle_scope_overheat_border
+ImportTag 0x5B35 "tags\ui\chud\bitmaps\scopes\beam_rifle_scope_overheat_border.bitmap"
+
+CreateTag "chdt" 0x1DBA
+NameTag 0x1DBA ui\chud\carbine
+ImportTag 0x1DBA "tags\ui\chud\carbine.chud_definition"
+
+CreateTag "bitm" 0x5B36
+NameTag 0x5B36 ui\chud\bitmaps\scopes\carbine_scope
+ImportTag 0x5B36 "tags\ui\chud\bitmaps\scopes\carbine_scope.bitmap"
+
+CreateTag "chad" 0x5B37
+NameTag 0x5B37 ui\chud\animations\carbine_crosshair
+ImportTag 0x5B37 "tags\ui\chud\animations\carbine_crosshair.chud_animation_definition"
+
+CreateTag "bitm" 0x5B38
+NameTag 0x5B38 ui\chud\bitmaps\scopes\carbine_scope_elements
+ImportTag 0x5B38 "tags\ui\chud\bitmaps\scopes\carbine_scope_elements.bitmap"
+
+CreateTag "chad" 0x5B39
+NameTag 0x5B39 ui\chud\animations\carbine_crosshair2
+ImportTag 0x5B39 "tags\ui\chud\animations\carbine_crosshair2.chud_animation_definition"
+
+CreateTag "bitm" 0x5B3A
+NameTag 0x5B3A ui\chud\bitmaps\scopes\carbine_distortion
+ImportTag 0x5B3A "tags\ui\chud\bitmaps\scopes\carbine_distortion.bitmap"
+
+CreateTag "chdt" 0x1E48
+NameTag 0x1E48 ui\chud\plasma_rifle
+ImportTag 0x1E48 "tags\ui\chud\plasma_rifle.chud_definition"
+
+CreateTag "chdt" 0x1EFE
+NameTag 0x1EFE ui\chud\shotgun
+ImportTag 0x1EFE "tags\ui\chud\shotgun.chud_definition"
+
+CreateTag "chdt" 0x1F50
+NameTag 0x1F50 ui\chud\smg
+ImportTag 0x1F50 "tags\ui\chud\smg.chud_definition"
+
+CreateTag "chdt" 0x1F90
+NameTag 0x1F90 ui\chud\sniper_rifle
+ImportTag 0x1F90 "tags\ui\chud\sniper_rifle.chud_definition"
+
+CreateTag "bitm" 0x5B3B
+NameTag 0x5B3B ui\chud\bitmaps\scopes\sniper_rifle_scope
+ImportTag 0x5B3B "tags\ui\chud\bitmaps\scopes\sniper_rifle_scope.bitmap"
+
+CreateTag "bitm" 0x5B3C
+NameTag 0x5B3C ui\chud\bitmaps\scopes\sniper_rifle_scope_elements
+ImportTag 0x5B3C "tags\ui\chud\bitmaps\scopes\sniper_rifle_scope_elements.bitmap"
+
+CreateTag "chad" 0x5B3D
+NameTag 0x5B3D ui\chud\animations\sniper_slide
+ImportTag 0x5B3D "tags\ui\chud\animations\sniper_slide.chud_animation_definition"
+
+CreateTag "chdt" 0x2057
+NameTag 0x2057 ui\chud\spike_rifle
+ImportTag 0x2057 "tags\ui\chud\spike_rifle.chud_definition"
+
+CreateTag "chdt" 0x21DE
+NameTag 0x21DE ui\chud\fuel_rod_cannon
+ImportTag 0x21DE "tags\ui\chud\fuel_rod_cannon.chud_definition"
+
+CreateTag "bitm" 0x5B3E
+NameTag 0x5B3E ui\chud\bitmaps\scopes\rocket_distortion_scope
+ImportTag 0x5B3E "tags\ui\chud\bitmaps\scopes\rocket_distortion_scope.bitmap"
+
+CreateTag "bitm" 0x5B3F
+NameTag 0x5B3F ui\chud\bitmaps\scopes\rocket_scope
+ImportTag 0x5B3F "tags\ui\chud\bitmaps\scopes\rocket_scope.bitmap"
+
+CreateTag "chdt" 0x1C9F
+NameTag 0x1C9F ui\chud\rocket
+ImportTag 0x1C9F "tags\ui\chud\rocket.chud_definition"
+
+CreateTag "bitm" 0x5B40
+NameTag 0x5B40 ui\chud\bitmaps\scopes\rocket__launcher_scope
+ImportTag 0x5B40 "tags\ui\chud\bitmaps\scopes\rocket__launcher_scope.bitmap"
+
+CreateTag "bitm" 0x5B41
+NameTag 0x5B41 ui\chud\bitmaps\scopes\rocket_dimming
+ImportTag 0x5B41 "tags\ui\chud\bitmaps\scopes\rocket_dimming.bitmap"
+
+CreateTag "chdt" 0x24AB
+NameTag 0x24AB ui\chud\spartan_laser
+ImportTag 0x24AB "tags\ui\chud\spartan_laser.chud_definition"
+
+CreateTag "bitm" 0x250C
+NameTag 0x250C ui\chud\bitmaps\scopes\spartan_laser_scope_overheat
+ImportTag 0x250C "tags\ui\chud\bitmaps\scopes\spartan_laser_scope_overheat.bitmap"
+
+CreateTag "chad" 0x5B42
+NameTag 0x5B42 ui\chud\animations\laser_charge
+ImportTag 0x5B42 "tags\ui\chud\animations\laser_charge.chud_animation_definition"
+
+CreateTag "bitm" 0x5B43
+NameTag 0x5B43 ui\chud\bitmaps\scopes\spartan_laser_reticule
+ImportTag 0x5B43 "tags\ui\chud\bitmaps\scopes\spartan_laser_reticule.bitmap"
+
+CreateTag "chad" 0x5B44
+NameTag 0x5B44 ui\chud\animations\laser_zoom_level
+ImportTag 0x5B44 "tags\ui\chud\animations\laser_zoom_level.chud_animation_definition"
+
+CreateTag "bitm" 0x5B45
+NameTag 0x5B45 ui\chud\bitmaps\scopes\spartan_laser_meter_bkd
+ImportTag 0x5B45 "tags\ui\chud\bitmaps\scopes\spartan_laser_meter_bkd.bitmap"
+
+CreateTag "bitm" 0x5B46
+NameTag 0x5B46 ui\chud\bitmaps\scopes\spartan_laser_meter
+ImportTag 0x5B46 "tags\ui\chud\bitmaps\scopes\spartan_laser_meter.bitmap"
+
+CreateTag "bitm" 0x5B47
+NameTag 0x5B47 ui\chud\bitmaps\scopes\spartan_laser_overheat_bkd
+ImportTag 0x5B47 "tags\ui\chud\bitmaps\scopes\spartan_laser_overheat_bkd.bitmap"
+
+CreateTag "chad" 0x5B48
+NameTag 0x5B48 ui\chud\animations\laser_unzoom_level
+ImportTag 0x5B48 "tags\ui\chud\animations\laser_unzoom_level.chud_animation_definition"
+
+CreateTag "bitm" 0x5B49
+NameTag 0x5B49 ui\chud\bitmaps\spartan_outerring
+ImportTag 0x5B49 "tags\ui\chud\bitmaps\spartan_outerring.bitmap"
+
+CreateTag "chad" 0x5B4A
+NameTag 0x5B4A ui\chud\animations\laser_zoom_fade_level
+ImportTag 0x5B4A "tags\ui\chud\animations\laser_zoom_fade_level.chud_animation_definition"
+
+CreateTag "chdt" 0x1D19
+NameTag 0x1D19 ui\chud\brute_shot
+ImportTag 0x1D19 "tags\ui\chud\brute_shot.chud_definition"
+
+CreateTag "chdt" 0x322C
+NameTag 0x322C ui\chud\sentinel_beam
+ImportTag 0x322C "tags\ui\chud\sentinel_beam.chud_definition"
+
+CreateTag "chdt" 0x219D
+NameTag 0x219D ui\chud\machinegun_turret
+ImportTag 0x219D "tags\ui\chud\machinegun_turret.chud_definition"
+
+CreateTag "bitm" 0x21D4
+NameTag 0x21D4 ui\chud\bitmaps\hud_vehicle_reticles
+ImportTag 0x21D4 "tags\ui\chud\bitmaps\hud_vehicle_reticles.bitmap"
+
+CreateTag "chdt" 0x2527
+NameTag 0x2527 ui\chud\plasma_turret
+ImportTag 0x2527 "tags\ui\chud\plasma_turret.chud_definition"
+
+CreateTag "chdt" 0x215A
+NameTag 0x215A ui\chud\missile
+ImportTag 0x215A "tags\ui\chud\missile.chud_definition"
+
+CreateTag "chad" 0x2197
+NameTag 0x2197 ui\chud\animations\lock_flash
+ImportTag 0x2197 "tags\ui\chud\animations\lock_flash.chud_animation_definition"
+
+CreateTag "chdt" 0x31C5
+NameTag 0x31C5 ui\chud\flamethrower
+ImportTag 0x31C5 "tags\ui\chud\flamethrower.chud_definition"
+
+CreateTag "chdt" 0x2522
+NameTag 0x2522 ui\chud\t_machinegun
+ImportTag 0x2522 "tags\ui\chud\t_machinegun.chud_definition"
+
+CreateTag "chdt" 0x2556
+NameTag 0x2556 ui\chud\t_plasmaturret
+ImportTag 0x2556 "tags\ui\chud\t_plasmaturret.chud_definition"
+
+CreateTag "chdt" 0x3676
+NameTag 0x3676 ui\chud\v_banshee
+ImportTag 0x3676 "tags\ui\chud\v_banshee.chud_definition"
+
+CreateTag "chdt" 0x251A
+NameTag 0x251A ui\chud\v_chaingun
+ImportTag 0x251A "tags\ui\chud\v_chaingun.chud_definition"
+
+CreateTag "chdt" 0x38BE
+NameTag 0x38BE ui\chud\v_chopper
+ImportTag 0x38BE "tags\ui\chud\v_chopper.chud_definition"
+
+CreateTag "chdt" 0x3649
+NameTag 0x3649 ui\chud\v_driver
+ImportTag 0x3649 "tags\ui\chud\v_driver.chud_definition"
+
+CreateTag "chdt" 0x2557
+NameTag 0x2557 ui\chud\v_gaussturret
+ImportTag 0x2557 "tags\ui\chud\v_gaussturret.chud_definition"
+
+CreateTag "chdt" 0x384E
+NameTag 0x384E ui\chud\v_ghost
+ImportTag 0x384E "tags\ui\chud\v_ghost.chud_definition"
+
+CreateTag "chdt" 0x5B4B
+NameTag 0x5B4B ui\chud\v_grinderdriver
+ImportTag 0x5B4B "tags\ui\chud\v_grinderdriver.chud_definition"
+
+CreateTag "chdt" 0x5B4C
+NameTag 0x5B4C ui\chud\v_grinderturret
+ImportTag 0x5B4C "tags\ui\chud\v_grinderturret.chud_definition"
+
+CreateTag "chdt" 0x2CA3
+NameTag 0x2CA3 ui\chud\v_hornet
+ImportTag 0x2CA3 "tags\ui\chud\v_hornet.chud_definition"
+
+CreateTag "chdt" 0x3101
+NameTag 0x3101 ui\chud\v_mongoose
+ImportTag 0x3101 "tags\ui\chud\v_mongoose.chud_definition"
+
+CreateTag "chdt" 0x28E0
+NameTag 0x28E0 ui\chud\v_scorpion
+ImportTag 0x28E0 "tags\ui\chud\v_scorpion.chud_definition"
+
+CreateTag "chdt" 0x2930
+NameTag 0x2930 ui\chud\v_scorpionturret
+ImportTag 0x2930 "tags\ui\chud\v_scorpionturret.chud_definition"
+
+CreateTag "chdt" 0x3759
+NameTag 0x3759 ui\chud\v_wraith
+ImportTag 0x3759 "tags\ui\chud\v_wraith.chud_definition"
+
+CreateTag "chdt" 0x3798
+NameTag 0x3798 ui\chud\v_wraithturret
+ImportTag 0x3798 "tags\ui\chud\v_wraithturret.chud_definition"
+
+CreateTag "chdt" 0x37AF
+NameTag 0x37AF ui\chud\v_wraith_anti_air
+ImportTag 0x37AF "tags\ui\chud\v_wraith_anti_air.chud_definition"
+
+EditTag 0x5AE1
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\top_edge_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5AE4
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\top_middle_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5AE5
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\shield_flash_bleed_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5AE7
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\shield_border_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5AE8
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\shield_meter_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5AE9
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\bottom_edge_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5AEA
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\bottom_middle_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x0C3C
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\motion_tracker_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x0C40
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\vox_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x0E6D
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\motion_tracker_meters_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5AEB
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\grenade_scematics_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x0C49
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\hud_reticles_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5AEE
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\init_lines_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5AF0
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\init_lines_vert_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5AF2
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\variant_items\vip_icon_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5AF6
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\scopes\human_binoculars_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5AF8
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\rulers_h_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5AFA
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\rulers_v_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5AFB
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\scopes\box_tiny_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5AFD
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\variant_items\jug_icon_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x0C5F
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\help_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5AFE
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\variant_items\infection_icon_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B01
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\objectives_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5740
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\0x5740_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x130B
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\0x130B_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x0C84
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\0x0C84_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x0C85
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\0x0C85_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x0C86
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\0x0C86_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B03
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\elite_corner_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B04
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\elite_middle_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B05
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\elite_left_480_corner_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B06
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\elite_480_middle_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B07
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\elite_shield_flash_bleed_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B08
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\elite_shield_border_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B09
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\elite_shield_meter_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B0A
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\elite_wipe_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B0B
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\scopes\elite_binocs_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B0D
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\scopes\elite_compass_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B0F
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\scopes\elite_pitch_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x131A
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\scoreboard_meter_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5ADF
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\posession_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5AE0
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\arming_meter_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B12
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\variant_items\ctf_icon_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x12BB
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\waypoints_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x12FC
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\medals\campaign_medals_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x131B
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\emblem_dummy_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x132D
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\hud_editor_reticles_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B1B
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\monitor_shield_flash_bleed_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B1C
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\monitor_shield_border_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B1D
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\monitor_shield_meter_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x25FA
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\monitor_edges_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x25FB
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\monitor_distortion_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B1E
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\scopes\monitor_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B1F
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\scopes\monitor_chunkstif_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x1C86
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\red_flash_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x1C87
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\elite_corner_flash_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B21
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\weapon_scematics_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x1328
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\divider_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B22
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\energy_meters_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B23
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\energy_borders_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B28
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\ballistic_meters_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B29
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\energy_meter_left_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B2A
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\energy_meter_right_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B2B
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\scopes\battle_rifle_scope_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B2C
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\scopes\battle_rifle_scope_elements_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B2D
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\scopes\beam_rifle_flash_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B2E
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\scopes\beam_rifle_blur_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B2F
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\scopes\beam_rifle_scope_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B31
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\scopes\beam_rifle_meter_r_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B32
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\beam_rifle_scope_meter_border_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B34
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\scopes\beam_rifle_meter_l_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B35
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\scopes\beam_rifle_scope_overheat_border_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B36
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\scopes\carbine_scope_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B38
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\scopes\carbine_scope_elements_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B3A
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\scopes\carbine_distortion_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B3B
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\scopes\sniper_rifle_scope_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B3C
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\scopes\sniper_rifle_scope_elements_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B3E
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\scopes\rocket_distortion_scope_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B3F
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\scopes\rocket_scope_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B40
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\scopes\rocket__launcher_scope_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B41
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\scopes\rocket_dimming_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x250C
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\scopes\spartan_laser_scope_overheat_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B43
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\scopes\spartan_laser_reticule_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B45
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\scopes\spartan_laser_meter_bkd_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B46
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\scopes\spartan_laser_meter_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B47
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\scopes\spartan_laser_overheat_bkd_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5B49
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\spartan_outerring_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x21D4
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\ui\chud\bitmaps\hud_vehicle_reticles_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag ui\chud\bitmaps\sensor_blips.bitm
+Importbitmap 0 tags\ui\chud\bitmaps\sensor_blips.dds
+SetField Sequences[0].Sprites[0].Left 0
+SetField Sequences[0].Sprites[0].Right 0.3046875
+SetField Sequences[5].Sprites[0].Left 0
+SetField Sequences[5].Sprites[0].Right 0.3046875
+SaveTagChanges
+Exit
+
+EditTag 0x00005740.bitm
+importbitmap 0 tags\ui\chud\bitmaps\equipment_scematics.dds
+SaveTagChanges
+Exit
+edittag ui\chud\bitmaps\chud_directional_arrow.bitm
+importbitmap 0 tags\ui\chud\bitmaps\chud_directional_arrow.dds
+savetagchanges
+exit
+EditTag ui\chud\bitmaps\medals\campaign_medals.bitm
+importbitmap 0 tags\ui\chud\bitmaps\medals\campaign_medals.dds
+SaveTagChanges
+Exit
+EditTag ui\chud\bitmaps\medals\medals.bitm
+importbitmap 0 tags\ui\chud\bitmaps\medals\medals.dds
+SaveTagChanges
+Exit
+EditTag ui\chud\bitmaps\chud_microtexture.bitm
+importbitmap 0 tags\ui\chud\bitmaps\chud_microtexture.dds
+SaveTagChanges
+Exit
+Edittag 0x00012bc
+Importbitmap 0 tags\ui\chud\bitmaps\000012BC.dds
+Savetagchanges
+Exit
+EditTag 0x0000C86
+Importbitmap 0 tags\ui\chud\bitmaps\00000C86.dds
+Savetagchanges
+Exit
+EditTag 0x0000C85
+Importbitmap 0 tags\ui\chud\bitmaps\00000E79.dds
+Savetagchanges
+Exit
+EditTag 0x0000C84
+Importbitmap 0 tags\ui\chud\bitmaps\00000E7A.dds
+Savetagchanges
+Exit
+
+edittag ui\chud\globals.chgd
+setfield hudglobals[0].grenadescematicsspacing 79.5
+setfield hudglobals[0].DualEquipmentScematicOffsetY 95
+setfield hudglobals[0].EquipmentScematicOffsetY 47
+setfield hudglobals[0].Unknown9 45
+SetField HudGlobals[0].DirectionalArrow ui\chud\bitmaps\chud_directional_arrow.bitmap
+Setfield hudglobals[0].ScoreboardLeaderOffsetY 37
+SetField HudGlobals[0].HudAttributes[0].HorizontalScale 0.87
+SetField HudGlobals[0].HudAttributes[0].VerticalScale 0.87
+SetField HudGlobals[0].HudAttributes[1].HorizontalScale 0.87
+SetField HudGlobals[0].HudAttributes[1].VerticalScale 0.87
+setfield hudglobals[0].hudattributes[0].motionsensoroffset 82.5 991.5
+setfield hudglobals[0].hudattributes[0].motionsensorradius 87
+setfield hudglobals[0].hudattributes[0].motionsensorscale 2.5
+setfield hudglobals[0].hudattributes[0].NotificationScale 1.6
+setfield hudglobals[0].hudattributes[0].NotificationLineSpacing 37.5
+setfield hudglobals[0].hudattributes[0].NotificationOffsetY_HO 0.72
+setfield hudglobals[0].hudattributes[0].PickupDialogScale 1.7
+setfield hudglobals[0].hudattributes[0].PickupDialogOffset 0 0.16
+setfield hudglobals[0].hudattributes[0].Unknown28 -1
+setfield hudglobals[0].hudattributes[0].Unknown29 1.5
+setfield hudglobals[0].hudattributes[0].MedalsOffset 0.64 1
+Setfield HudGlobals[0].hudattributes[0].Unknown30 84
+Setfield hudglobals[1].ScoreboardLeaderOffsetY 37
+setfield hudglobals[1].Unknown9 45
+setfield hudglobals[1].Unknown25 994352038
+setfield hudglobals[1].DualEquipmentScematicOffsetY 41
+setfield hudglobals[1].hudattributes[0].NotificationScale 1.6
+setfield hudglobals[1].hudattributes[0].NotificationLineSpacing 37.5
+setfield hudglobals[1].hudattributes[0].motionsensorscale 2.5
+setfield hudglobals[1].hudattributes[0].PickupDialogScale 1.7
+setfield hudglobals[1].hudattributes[0].PickupDialogOffset 0.016 0.16
+setfield hudglobals[1].hudattributes[0].Unknown29 1.5
+setfield hudglobals[1].hudattributes[0].MedalsOffset 0.64 2
+Setfield HudGlobals[1].hudattributes[0].Unknown30 84
+SetField HudGlobals[1].DirectionalArrow ui\chud\bitmaps\chud_directional_arrow.bitmap
+Setfield hudglobals[2].ScoreboardLeaderOffsetY 37
+SetField HudGlobals[2].DirectionalArrow ui\chud\bitmaps\chud_directional_arrow.bitmap
+setfield hudglobals[2].hudattributes[0].NotificationScale 1.6
+setfield hudglobals[2].hudattributes[0].NotificationLineSpacing 37.5
+setfield hudglobals[2].hudattributes[0].PickupDialogScale 1.7
+setfield hudglobals[2].hudattributes[0].PickupDialogOffset 0 0.16
+setfield hudglobals[2].hudattributes[0].motionsensoroffset 82.5 992
+setfield hudglobals[2].hudattributes[0].motionsensorradius 72
+setfield hudglobals[2].hudattributes[0].motionsensorscale 3.5
+setfield hudglobals[2].hudattributes[0].Unknown29 1.5
+setfield hudglobals[2].hudattributes[0].MedalsOffset 0.64 2
+Setfield HudGlobals[2].hudattributes[0].Unknown30 84
+Setfield Unknown3 2
+Setfield Unknown4 1
+Setfield CampaignMedalScale 0.8
+Setfield CampaignMedalSpacing 48
+Setfield CampaignMedalOffsetX -270
+Setfield CampaignMedalOffsetY -115
+Setfield CampaignMedals ui\chud\bitmaps\medals\medals.bitmap
+setfield MediumSensorBlipScale 3
+setfield SmallSensorBlipScale 1.5
+setfield LargeSensorBlipScale 4.5
+setfield SensorBlipGlowAmount 1.5
+setfield SensorBlipGlowRadius 1
+setfield SensorBlipGlowOpacity 1
+setfield MicroTextureTileAmount 56
+setfield sprintfovmultiplier 1
+setfield sprintfovtransitionintime 0.5
+setfield sprintfoxtransitionouttime 1
+savetagchanges
+exit
+
+Edittag ui\chud\plasma_rifle_v6.chdt
+Setfield HudWidgets[0].BitmapWidgets[0].placementdata[0].Offset -126 66
+Setfield HudWidgets[0].BitmapWidgets[0].placementdata[0].Scale 2.04 2.04
+Setfield HudWidgets[0].BitmapWidgets[1].placementdata[0].Offset -126 66
+Setfield HudWidgets[0].BitmapWidgets[1].placementdata[0].Scale 2.04 2.04
+Setfield HudWidgets[0].BitmapWidgets[2].placementdata[0].Offset 139.5 67.5
+Setfield HudWidgets[0].BitmapWidgets[2].placementdata[0].Scale -2.04 2.04
+Setfield HudWidgets[0].BitmapWidgets[3].placementdata[0].Anchor TopLeft
+Setfield HudWidgets[0].BitmapWidgets[3].placementdata[0].Offset 139.5 67.5
+Setfield HudWidgets[0].BitmapWidgets[3].placementdata[0].Scale -2.04 2.04
+Setfield HudWidgets[1].BitmapWidgets[0].placementdata[0].Offset -22.5 -28.5
+Setfield HudWidgets[1].BitmapWidgets[0].placementdata[0].Scale 3.6 3.75
+Setfield HudWidgets[1].BitmapWidgets[1].placementdata[0].Offset -22.5 -28.5
+Setfield HudWidgets[1].BitmapWidgets[1].placementdata[0].Scale 3.6 3.75
+Setfield HudWidgets[1].BitmapWidgets[2].placementdata[0].Offset 42 -25.5
+Setfield HudWidgets[1].BitmapWidgets[2].placementdata[0].Scale -3.45 3.75
+Setfield HudWidgets[1].BitmapWidgets[3].placementdata[0].Offset 42 -25.5
+Setfield HudWidgets[1].BitmapWidgets[3].placementdata[0].Scale -3.45 3.75
+Setfield HudWidgets[3].placementdata[0].Scale 1.5 1.5
+Setfield HudWidgets[3].placementdata[0].Offset -18 -12
+Setfield HudWidgets[3].TextWidgets[0].Font Conduit18
+Setfield HudWidgets[3].TextWidgets[0].WidgetIndex 15
+Setfield HudWidgets[3].TextWidgets[0].placementdata[0].MirrorOffset 0 0
+Setfield HudWidgets[3].TextWidgets[0].placementdata[0].Offset 153 19
+Setfield HudWidgets[3].BitmapWidgets[0].WidgetIndex 10
+Setfield HudWidgets[3].BitmapWidgets[0].BitmapSpriteIndex 45
+Setfield HudWidgets[3].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+Setfield HudWidgets[3].BitmapWidgets[0].placementdata[0].Offset 8 3
+Setfield HudWidgets[3].BitmapWidgets[0].placementdata[0].Scale -1 1
+Setfield HudWidgets[3].BitmapWidgets[0].placementdata[0].MirrorOffset 1 -1
+Setfield HudWidgets[3].BitmapWidgets[1].WidgetIndex 11
+Setfield HudWidgets[3].BitmapWidgets[1].placementdata[0].Offset 123 7
+Setfield HudWidgets[3].BitmapWidgets[1].placementdata[0].Scale 1 1
+Setfield HudWidgets[3].BitmapWidgets[1].placementdata[0].MirrorOffset -1 -1
+Setfield HudWidgets[3].BitmapWidgets[2].WidgetIndex 9
+Setfield HudWidgets[3].BitmapWidgets[2].Bitmap ui\chud\bitmaps\energy_meter_left.bitm
+Setfield HudWidgets[3].BitmapWidgets[2].placementdata[0].Offset 7 47
+Setfield HudWidgets[3].BitmapWidgets[2].placementdata[0].Scale 1 1
+Setfield HudWidgets[3].BitmapWidgets[3].WidgetIndex 12
+Setfield HudWidgets[3].BitmapWidgets[3].Bitmap ui\chud\bitmaps\energy_borders.bitm
+Setfield HudWidgets[3].BitmapWidgets[3].placementdata[0].Offset 7 47
+Setfield HudWidgets[3].BitmapWidgets[3].placementdata[0].MirrorOffset 1 0
+Setfield HudWidgets[3].BitmapWidgets[4].Name meter_border_flash_left
+Setfield HudWidgets[3].BitmapWidgets[4].WidgetIndex 13
+Setfield HudWidgets[3].BitmapWidgets[4].Bitmap ui\chud\bitmaps\energy_borders.bitm
+Setfield HudWidgets[3].BitmapWidgets[4].placementdata[0].Offset 7 47
+Setfield HudWidgets[3].BitmapWidgets[4].placementdata[0].MirrorOffset 1 0
+Setfield HudWidgets[3].BitmapWidgets[5].Name meter_border_lowbatt_left
+Setfield HudWidgets[3].BitmapWidgets[5].WidgetIndex 14
+Setfield HudWidgets[3].BitmapWidgets[5].Bitmap ui\chud\bitmaps\energy_borders.bitm
+Setfield HudWidgets[3].BitmapWidgets[5].placementdata[0].Offset 7 47
+Setfield HudWidgets[3].BitmapWidgets[5].placementdata[0].MirrorOffset 1 0
+Setfield HudWidgets[4].placementdata[0].Scale 1.5 1.5
+Setfield HudWidgets[4].BitmapWidgets[0].WidgetIndex 16
+Setfield HudWidgets[4].BitmapWidgets[0].BitmapSpriteIndex 45
+Setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+Setfield HudWidgets[4].BitmapWidgets[0].placementdata[0].Offset 23 72
+Setfield HudWidgets[4].BitmapWidgets[0].placementdata[0].Scale 0.7 0.7
+Setfield HudWidgets[5].placementdata[0].Offset 18 -12
+Setfield HudWidgets[5].placementdata[0].Scale 1.5 1.5
+Setfield HudWidgets[5].TextWidgets[0].Font Conduit18
+Setfield HudWidgets[5].TextWidgets[0].WidgetIndex 23
+Setfield HudWidgets[5].TextWidgets[0].placementdata[0].MirrorOffset 0 0
+Setfield HudWidgets[5].TextWidgets[0].placementdata[0].Offset -155 19
+Setfield HudWidgets[5].BitmapWidgets[0].WidgetIndex 18
+Setfield HudWidgets[5].BitmapWidgets[1].WidgetIndex 19
+Setfield HudWidgets[5].BitmapWidgets[2].WidgetIndex 17
+Setfield HudWidgets[5].BitmapWidgets[3].WidgetIndex 20
+Setfield HudWidgets[5].BitmapWidgets[4].WidgetIndex 21
+Setfield HudWidgets[5].BitmapWidgets[5].WidgetIndex 22
+Setfield HudWidgets[5].BitmapWidgets[0].BitmapSpriteIndex 45
+Setfield HudWidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+Setfield HudWidgets[5].BitmapWidgets[2].Bitmap ui\chud\bitmaps\energy_meter_right.bitm
+Setfield HudWidgets[5].BitmapWidgets[3].Bitmap ui\chud\bitmaps\energy_borders.bitm
+Setfield HudWidgets[5].BitmapWidgets[4].Bitmap ui\chud\bitmaps\energy_borders.bitm
+Setfield HudWidgets[5].BitmapWidgets[5].Bitmap ui\chud\bitmaps\energy_borders.bitm
+Setfield HudWidgets[5].BitmapWidgets[0].placementdata[0].Offset -8 3
+Setfield HudWidgets[5].BitmapWidgets[0].placementdata[0].Scale 1 1
+Setfield HudWidgets[5].BitmapWidgets[1].placementdata[0].MirrorOffset -1 -1
+Setfield HudWidgets[5].BitmapWidgets[1].placementdata[0].Offset -126 7
+Setfield HudWidgets[5].BitmapWidgets[1].placementdata[0].Scale 1 1
+Setfield HudWidgets[5].BitmapWidgets[2].placementdata[0].MirrorOffset 1 0
+Setfield HudWidgets[5].BitmapWidgets[2].placementdata[0].Offset -7 47
+Setfield HudWidgets[5].BitmapWidgets[3].placementdata[0].MirrorOffset 1 0
+Setfield HudWidgets[5].BitmapWidgets[3].placementdata[0].Offset -7 47
+Setfield HudWidgets[5].BitmapWidgets[4].placementdata[0].MirrorOffset 1 0
+Setfield HudWidgets[5].BitmapWidgets[4].placementdata[0].Offset -7 47
+Setfield HudWidgets[5].BitmapWidgets[5].placementdata[0].MirrorOffset 1 0
+Setfield HudWidgets[5].BitmapWidgets[5].placementdata[0].Offset -7 47
+SaveTagChanges
+Exitto tags
+
+EditTag ui\chud\plasma_pistol_v6.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Offset -126 66
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 2.04 2.04
+SetField HUDWidgets[0].BitmapWidgets[1].PlacementData[0].Offset -126 66
+SetField HUDWidgets[0].BitmapWidgets[1].PlacementData[0].Scale 2.04 2.04
+SetField HUDWidgets[0].BitmapWidgets[2].PlacementData[0].Offset 139.5 67.5
+SetField HUDWidgets[0].BitmapWidgets[2].PlacementData[0].Scale -2.04 2.04
+SetField HUDWidgets[0].BitmapWidgets[3].PlacementData[0].Offset 139.5 67.5
+SetField HUDWidgets[0].BitmapWidgets[3].PlacementData[0].Scale -2.04 2.04
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Offset -22.5 -28.5
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 3.6 3.75
+SetField HUDWidgets[1].BitmapWidgets[1].PlacementData[0].Offset -22.5 -28.5
+SetField HUDWidgets[1].BitmapWidgets[1].PlacementData[0].Scale 3.6 3.75
+SetField HUDWidgets[1].BitmapWidgets[2].PlacementData[0].Offset 42 -25.5
+SetField HUDWidgets[1].BitmapWidgets[2].PlacementData[0].Scale -3.45 3.75
+SetField HUDWidgets[1].BitmapWidgets[3].PlacementData[0].Offset 42 -25.5
+SetField HUDWidgets[1].BitmapWidgets[3].PlacementData[0].Scale -3.45 3.75
+Setfield HudWidgets[3].TextWidgets[0].Offset 153 19
+Setfield HudWidgets[3].TextWidgets[0].MirrorOffset 0 0
+Setfield HudWidgets[3].TextWidgets[0].Scale 1 1
+Setfield HudWidgets[3].TextWidgets[0].Font Conduit18
+Setfield HudWidgets[3].TextWidgets[0].WidgetIndex 16
+Setfield HudWidgets[3].PlacementData[0].Offset -18 -12
+Setfield HudWidgets[3].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[3].BitmapWidgets[0].WidgetIndex 11
+Setfield HudWidgets[3].BitmapWidgets[0].BitmapSpriteIndex 47
+Setfield HudWidgets[3].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HUDWidgets[3].BitmapWidgets[0].PlacementData[0].Offset 10 3
+SetField HUDWidgets[3].BitmapWidgets[0].PlacementData[0].Scale -1 1
+SetField HUDWidgets[3].BitmapWidgets[0].PlacementData[0].MirrorOffset 1 -1
+Setfield HudWidgets[3].BitmapWidgets[1].WidgetIndex 12
+SetField HUDWidgets[3].BitmapWidgets[1].PlacementData[0].MirrorOffset -1 -1
+SetField HUDWidgets[3].BitmapWidgets[1].PlacementData[0].Offset 123 7
+SetField HUDWidgets[3].BitmapWidgets[1].PlacementData[0].Scale 1 1
+Setfield HudWidgets[3].BitmapWidgets[2].WidgetIndex 10
+Setfield HudWidgets[3].BitmapWidgets[2].Bitmap ui\chud\bitmaps\energy_meter_left.bitm
+SetField HUDWidgets[3].BitmapWidgets[2].PlacementData[0].Offset 7 47
+SetField HUDWidgets[3].BitmapWidgets[2].PlacementData[0].Scale 1 1
+SetField HUDWidgets[3].BitmapWidgets[2].PlacementData[0].MirrorOffset -1 0
+Setfield HudWidgets[3].BitmapWidgets[3].WidgetIndex 13
+Setfield HudWidgets[3].BitmapWidgets[3].Bitmap ui\chud\bitmaps\energy_borders.bitm
+SetField HUDWidgets[3].BitmapWidgets[3].PlacementData[0].MirrorOffset 1 0
+SetField HUDWidgets[3].BitmapWidgets[3].PlacementData[0].Offset 7 47
+SetField HUDWidgets[3].BitmapWidgets[3].PlacementData[0].Scale -1 1
+Setfield HudWidgets[3].BitmapWidgets[4].Name meter_border_flash_left
+Setfield HudWidgets[3].BitmapWidgets[4].WidgetIndex 14
+Setfield HudWidgets[3].BitmapWidgets[4].Bitmap ui\chud\bitmaps\energy_borders.bitm
+SetField HUDWidgets[3].BitmapWidgets[4].PlacementData[0].MirrorOffset 1 0
+SetField HUDWidgets[3].BitmapWidgets[4].PlacementData[0].Offset 7 47
+SetField HUDWidgets[3].BitmapWidgets[4].PlacementData[0].Scale -1 1
+Setfield HudWidgets[3].BitmapWidgets[5].Name meter_border_lowbatt_left
+Setfield HudWidgets[3].BitmapWidgets[5].WidgetIndex 15
+Setfield HudWidgets[3].BitmapWidgets[5].Bitmap ui\chud\bitmaps\energy_borders.bitm
+SetField HUDWidgets[3].BitmapWidgets[5].PlacementData[0].MirrorOffset 1 0
+SetField HUDWidgets[3].BitmapWidgets[5].PlacementData[0].Offset 7 47
+SetField HUDWidgets[3].BitmapWidgets[5].PlacementData[0].Scale -1 1
+Setfield HudWidgets[4].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[4].TextWidgets[0].WidgetIndex 24
+Setfield HudWidgets[4].BitmapWidgets[0].WidgetIndex 17
+Setfield HudWidgets[4].BitmapWidgets[0].BitmapSpriteIndex 47
+Setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Offset 24 72
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.75 0.75
+SetField HudWidgets[5].PlacementData[0].Offset 18 -12
+SetField HudWidgets[5].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[5].BitmapWidgets[0].WidgetIndex 18
+Setfield HudWidgets[5].BitmapWidgets[0].BitmapSpriteIndex 47
+Setfield HudWidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+Setfield HudWidgets[5].TextWidgets[0].Offset -155 19
+Setfield HudWidgets[5].TextWidgets[0].MirrorOffset 0 0
+Setfield HudWidgets[5].TextWidgets[0].Scale 1 1
+Setfield HudWidgets[5].TextWidgets[0].Font Conduit18
+Setfield HudWidgets[5].TextWidgets[0].WidgetIndex 24
+SetField HudWidgets[5].BitmapWidgets[0].WidgetIndex 19
+Setfield HudWidgets[4].BitmapWidgets[0].BitmapSpriteIndex 47
+Setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HudWidgets[5].BitmapWidgets[0].PlacementData[0].Scale 1 1
+SetField HudWidgets[5].BitmapWidgets[0].PlacementData[0].Offset -10 3
+SetField HudWidgets[5].BitmapWidgets[0].PlacementData[0].MirrorOffset 1 -1
+SetField HudWidgets[5].BitmapWidgets[1].WidgetIndex 20
+SetField HudWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 1 1
+SetField HudWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -126 7
+SetField HudWidgets[5].BitmapWidgets[1].PlacementData[0].MirrorOffset -1 -1
+SetField HudWidgets[5].BitmapWidgets[2].WidgetIndex 18
+Setfield HudWidgets[5].BitmapWidgets[2].Bitmap ui\chud\bitmaps\energy_meter_right.bitm
+SetField HudWidgets[5].BitmapWidgets[2].PlacementData[0].Scale 1 1
+SetField HudWidgets[5].BitmapWidgets[2].PlacementData[0].Offset -7 47
+SetField HudWidgets[5].BitmapWidgets[2].PlacementData[0].MirrorOffset 1 0
+SetField HudWidgets[5].BitmapWidgets[3].WidgetIndex 21
+Setfield HudWidgets[5].BitmapWidgets[3].Bitmap ui\chud\bitmaps\energy_borders.bitm
+SetField HudWidgets[5].BitmapWidgets[3].PlacementData[0].Scale 1 1
+SetField HudWidgets[5].BitmapWidgets[3].PlacementData[0].Offset -7 47
+SetField HudWidgets[5].BitmapWidgets[3].PlacementData[0].MirrorOffset 1 0
+SetField HudWidgets[5].BitmapWidgets[4].WidgetIndex 22
+Setfield HudWidgets[5].BitmapWidgets[4].Bitmap ui\chud\bitmaps\energy_borders.bitm
+SetField HudWidgets[5].BitmapWidgets[4].PlacementData[0].Scale 1 1
+SetField HudWidgets[5].BitmapWidgets[4].PlacementData[0].Offset -7 47
+SetField HudWidgets[5].BitmapWidgets[4].PlacementData[0].MirrorOffset 1 0
+SetField HudWidgets[5].BitmapWidgets[5].WidgetIndex 23
+Setfield HudWidgets[5].BitmapWidgets[5].Bitmap ui\chud\bitmaps\energy_borders.bitm
+SetField HudWidgets[5].BitmapWidgets[5].PlacementData[0].Scale 1 1
+SetField HudWidgets[5].BitmapWidgets[5].PlacementData[0].Offset -7 47
+SetField HudWidgets[5].BitmapWidgets[5].PlacementData[0].MirrorOffset 1 0
+SaveTagChanges
+Exit
+
+EditTag ui\chud\excavator_v6.chdt
+SetField HudWidgets[0].BitmapWidgets[0].PlacementData[0].Offset -126 66
+SetField HudWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 2.04 2.04
+SetField HudWidgets[0].BitmapWidgets[1].PlacementData[0].Offset 139.5 67.5
+SetField HudWidgets[0].BitmapWidgets[1].PlacementData[0].Scale -2.04 2.04
+SetField HudWidgets[1].BitmapWidgets[0].PlacementData[0].Offset -22.5 -28.5
+SetField HudWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 3.6 3.75
+SetField HudWidgets[1].BitmapWidgets[1].PlacementData[0].Offset 42 -25.5
+SetField HudWidgets[1].BitmapWidgets[1].PlacementData[0].Scale -3.45 3.75
+SetField HudWidgets[3].PlacementData[0].Offset -18 -12
+SetField HudWidgets[3].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[3].BitmapWidgets[0].WidgetIndex 6
+Setfield HudWidgets[3].BitmapWidgets[0].BitmapSpriteIndex 43
+Setfield HudWidgets[3].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HudWidgets[3].BitmapWidgets[0].PlacementData[0].Offset 5 3
+SetField HudWidgets[3].BitmapWidgets[0].PlacementData[0].Scale -1 1
+Setfield HudWidgets[4].BitmapWidgets[0].BitmapSpriteIndex 43
+Setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HudWidgets[4].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset 20 72
+SetField HudWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.75 0.75
+SetField HudWidgets[7].PlacementData[0].Offset 18 -12
+SetField HudWidgets[7].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[7].BitmapWidgets[0].WidgetIndex 12
+Setfield HudWidgets[7].BitmapWidgets[0].BitmapSpriteIndex 43
+Setfield HudWidgets[7].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HudWidgets[7].BitmapWidgets[0].PlacementData[0].Offset -5 3
+SetField HudWidgets[7].BitmapWidgets[0].PlacementData[0].Scale 1 1
+SaveTagChanges
+Exit
+
+Edittag ui\chud\battle_rifle_v1.chdt
+SetField HudWidgets[0].BitmapWidgets[0].PlacementData[0].Offset -126 66
+SetField HudWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 2.04 2.04
+SetField HudWidgets[1].BitmapWidgets[0].PlacementData[0].Offset -22.5 -28.5
+SetField HudWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 3.6 3.75
+SetField HudWidgets[5].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[5].PlacementData[0].Offset 18 -12
+SetField HudWidgets[6].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[5].BitmapWidgets[0].WidgetIndex 10
+Setfield HudWidgets[5].BitmapWidgets[0].BitmapSpriteIndex 25
+Setfield HudWidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HudWidgets[5].BitmapWidgets[0].PlacementData[0].Offset -8 3
+SetField HudWidgets[5].BitmapWidgets[0].PlacementData[0].Scale 1 1
+SetField HudWidgets[6].BitmapWidgets[0].WidgetIndex 8
+Setfield HudWidgets[6].BitmapWidgets[0].BitmapSpriteIndex 25
+Setfield HudWidgets[6].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HudWidgets[6].BitmapWidgets[0].PlacementData[0].Offset 0 72
+SetField HudWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 0.6 0.6
+SaveTagChanges
+Exit
+Edittag ui\chud\battle_rifle_v2.chdt
+SetField HudWidgets[0].BitmapWidgets[0].PlacementData[0].Offset -126 66
+SetField HudWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 2.04 2.04
+SetField HudWidgets[1].BitmapWidgets[0].PlacementData[0].Offset -22.5 -28.5
+SetField HudWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 3.6 3.75
+SetField HudWidgets[4].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[4].PlacementData[0].Offset 0 0
+SetField HudWidgets[5].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[5].PlacementData[0].Offset 18 -12
+SetField HudWidgets[4].BitmapWidgets[0].WidgetIndex 10
+Setfield HudWidgets[4].BitmapWidgets[0].BitmapSpriteIndex 25
+Setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HudWidgets[4].BitmapWidgets[0].PlacementData[0].Offset 0 72
+SetField HudWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.6 0.6
+SetField HudWidgets[5].BitmapWidgets[0].WidgetIndex 8
+Setfield HudWidgets[5].BitmapWidgets[0].BitmapSpriteIndex 25
+Setfield HudWidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HudWidgets[5].BitmapWidgets[0].PlacementData[0].Offset -8 3
+SetField HudWidgets[5].BitmapWidgets[0].PlacementData[0].Scale 1 1
+SaveTagChanges
+Exit
+Edittag ui\chud\battle_rifle_v3.chdt
+SetField HudWidgets[0].BitmapWidgets[0].PlacementData[0].Offset -126 66
+SetField HudWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 2.04 2.04
+SetField HudWidgets[1].BitmapWidgets[0].PlacementData[0].Offset -22.5 -28.5
+SetField HudWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 3.6 3.75
+SetField HudWidgets[5].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[5].PlacementData[0].Offset 18 -12
+SetField HudWidgets[6].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[5].BitmapWidgets[0].WidgetIndex 10
+Setfield HudWidgets[5].BitmapWidgets[0].BitmapSpriteIndex 29
+Setfield HudWidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HudWidgets[5].BitmapWidgets[0].PlacementData[0].Offset -8 3
+SetField HudWidgets[5].BitmapWidgets[0].PlacementData[0].Scale 1 1
+SetField HudWidgets[6].BitmapWidgets[0].WidgetIndex 8
+Setfield HudWidgets[6].BitmapWidgets[0].BitmapSpriteIndex 29
+Setfield HudWidgets[6].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HudWidgets[6].BitmapWidgets[0].PlacementData[0].Offset 0 72
+SetField HudWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 0.6 0.6
+SaveTagChanges
+Exit
+Edittag ui\chud\battle_rifle_v4.chdt
+SetField HudWidgets[0].BitmapWidgets[0].PlacementData[0].Offset -126 66
+SetField HudWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 2.04 2.04
+SetField HudWidgets[1].BitmapWidgets[0].PlacementData[0].Offset -22.5 -28.5
+SetField HudWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 3.6 3.75
+SetField HudWidgets[5].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[5].PlacementData[0].Offset 18 -12
+SetField HudWidgets[6].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[5].BitmapWidgets[0].WidgetIndex 10
+Setfield HudWidgets[5].BitmapWidgets[0].BitmapSpriteIndex 29
+Setfield HudWidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HudWidgets[5].BitmapWidgets[0].PlacementData[0].Offset -8 3
+SetField HudWidgets[5].BitmapWidgets[0].PlacementData[0].Scale 1 1
+SetField HudWidgets[6].BitmapWidgets[0].WidgetIndex 8
+Setfield HudWidgets[6].BitmapWidgets[0].BitmapSpriteIndex 29
+Setfield HudWidgets[6].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HudWidgets[6].BitmapWidgets[0].PlacementData[0].Offset 0 72
+SetField HudWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 0.6 0.6
+SaveTagChanges
+Exit
+Edittag ui\chud\battle_rifle_v5.chdt
+SetField HudWidgets[0].BitmapWidgets[0].PlacementData[0].Offset -126 66
+SetField HudWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 2.04 2.04
+SetField HudWidgets[1].BitmapWidgets[0].PlacementData[0].Offset -22.5 -28.5
+SetField HudWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 3.6 3.75
+SetField HudWidgets[5].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[5].PlacementData[0].Offset 18 -12
+SetField HudWidgets[6].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[5].BitmapWidgets[0].WidgetIndex 10
+Setfield HudWidgets[5].BitmapWidgets[0].BitmapSpriteIndex 27
+Setfield HudWidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HudWidgets[5].BitmapWidgets[0].PlacementData[0].Offset -8 3
+SetField HudWidgets[5].BitmapWidgets[0].PlacementData[0].Scale 1 1
+SetField HudWidgets[6].BitmapWidgets[0].WidgetIndex 8
+Setfield HudWidgets[6].BitmapWidgets[0].BitmapSpriteIndex 27
+Setfield HudWidgets[6].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HudWidgets[6].BitmapWidgets[0].PlacementData[0].Offset 0 72
+SetField HudWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 0.6 0.6
+SaveTagChanges
+Exit
+Edittag ui\chud\battle_rifle_v6.chdt
+SetField HudWidgets[0].BitmapWidgets[0].PlacementData[0].Offset -126 66
+SetField HudWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 2.04 2.04
+SetField HudWidgets[1].BitmapWidgets[0].PlacementData[0].Offset -22.5 -28.5
+SetField HudWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 3.6 3.75
+SetField HudWidgets[5].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[5].PlacementData[0].Offset 18 -12
+SetField HudWidgets[6].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[5].BitmapWidgets[0].WidgetIndex 10
+Setfield HudWidgets[5].BitmapWidgets[0].BitmapSpriteIndex 27
+Setfield HudWidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HudWidgets[5].BitmapWidgets[0].PlacementData[0].Offset -8 3
+SetField HudWidgets[5].BitmapWidgets[0].PlacementData[0].Scale 1 1
+SetField HudWidgets[6].BitmapWidgets[0].WidgetIndex 8
+Setfield HudWidgets[6].BitmapWidgets[0].BitmapSpriteIndex 27
+Setfield HudWidgets[6].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HudWidgets[6].BitmapWidgets[0].PlacementData[0].Offset 0 72
+SetField HudWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 0.6 0.6
+SaveTagChanges
+Exit
+
+Edittag ui\chud\smg_v2.chdt
+SetField HUDWidgets[3].PlacementData[0].Offset -18 -12
+SetField HUDWidgets[3].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[4].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[3].BitmapWidgets[0].PlacementData[0].Offset -8 3
+SetField HUDWidgets[3].BitmapWidgets[0].PlacementData[0].Scale -1 1
+SetField HudWidgets[3].BitmapWidgets[0].WidgetIndex 6
+Setfield HudWidgets[3].BitmapWidgets[0].BitmapSpriteIndex 48
+Setfield HudWidgets[3].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Offset 12 72
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.65 0.65
+SetField HudWidgets[4].BitmapWidgets[0].WidgetIndex 10
+Setfield HudWidgets[4].BitmapWidgets[0].BitmapSpriteIndex 48
+Setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HUDWidgets[6].PlacementData[0].Offset 18 -12
+SetField HUDWidgets[6].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Offset -8 3
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 1 1
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].MirrorOffset 1 -1
+SetField HudWidgets[6].BitmapWidgets[0].WidgetIndex 12
+Setfield HudWidgets[6].BitmapWidgets[0].BitmapSpriteIndex 48
+Setfield HudWidgets[6].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Offset -126 66
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 2.04 2.04
+SetField HUDWidgets[0].BitmapWidgets[1].PlacementData[0].Offset 139.5 67.5
+SetField HUDWidgets[0].BitmapWidgets[1].PlacementData[0].Scale -2.04 2.04
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Offset -22.5 -28.5
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 3.6 3.75
+SetField HUDWidgets[1].BitmapWidgets[1].PlacementData[0].Offset 42 -25.5
+SetField HUDWidgets[1].BitmapWidgets[1].PlacementData[0].Scale -3.45 3.75
+SaveTagChanges
+Exit
+Edittag ui\chud\smg_v3.chdt
+SetField HUDWidgets[2].PlacementData[0].Offset -18 -12
+SetField HUDWidgets[2].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[3].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Offset -8 3
+SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale -1 1
+SetField HudWidgets[2].BitmapWidgets[0].WidgetIndex 6
+Setfield HudWidgets[2].BitmapWidgets[0].BitmapSpriteIndex 52
+Setfield HudWidgets[2].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HUDWidgets[3].BitmapWidgets[0].PlacementData[0].Offset 12 72
+SetField HUDWidgets[3].BitmapWidgets[0].PlacementData[0].Scale 0.65 0.65
+SetField HudWidgets[3].BitmapWidgets[0].WidgetIndex 10
+Setfield HudWidgets[3].BitmapWidgets[0].BitmapSpriteIndex 52
+Setfield HudWidgets[3].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HUDWidgets[5].PlacementData[0].Offset 18 -12
+SetField HUDWidgets[5].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[5].BitmapWidgets[0].PlacementData[0].Offset -8 3
+SetField HUDWidgets[5].BitmapWidgets[0].PlacementData[0].Scale 1 1
+SetField HUDWidgets[5].BitmapWidgets[0].PlacementData[0].MirrorOffset 1 -1
+SetField HudWidgets[5].BitmapWidgets[0].WidgetIndex 12
+Setfield HudWidgets[5].BitmapWidgets[0].BitmapSpriteIndex 52
+Setfield HudWidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Offset -126 66
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 2.04 2.04
+SetField HUDWidgets[6].BitmapWidgets[1].PlacementData[0].Offset 139.5 67.5
+SetField HUDWidgets[6].BitmapWidgets[1].PlacementData[0].Scale -2.04 2.04
+SetField HUDWidgets[7].BitmapWidgets[0].PlacementData[0].Offset -22.5 -28.5
+SetField HUDWidgets[7].BitmapWidgets[0].PlacementData[0].Scale 3.6 3.75
+SetField HUDWidgets[7].BitmapWidgets[1].PlacementData[0].Offset 42 -25.5
+SetField HUDWidgets[7].BitmapWidgets[1].PlacementData[0].Scale -3.45 3.75
+SaveTagChanges
+Exit
+Edittag ui\chud\smg_v4.chdt
+SetField HUDWidgets[3].PlacementData[0].Offset -18 -12
+SetField HUDWidgets[3].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[4].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[3].BitmapWidgets[0].PlacementData[0].Offset -8 3
+SetField HUDWidgets[3].BitmapWidgets[0].PlacementData[0].Scale -1 1
+SetField HudWidgets[3].BitmapWidgets[0].WidgetIndex 6
+Setfield HudWidgets[3].BitmapWidgets[0].BitmapSpriteIndex 52
+Setfield HudWidgets[3].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Offset 12 72
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.65 0.65
+SetField HudWidgets[4].BitmapWidgets[0].WidgetIndex 10
+Setfield HudWidgets[4].BitmapWidgets[0].BitmapSpriteIndex 52
+Setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HUDWidgets[6].PlacementData[0].Offset 18 -12
+SetField HUDWidgets[6].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Offset -8 3
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 1 1
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].MirrorOffset 1 -1
+SetField HudWidgets[6].BitmapWidgets[0].WidgetIndex 12
+Setfield HudWidgets[6].BitmapWidgets[0].BitmapSpriteIndex 52
+Setfield HudWidgets[6].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Offset -126 66
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 2.04 2.04
+SetField HUDWidgets[0].BitmapWidgets[1].PlacementData[0].Offset 139.5 67.5
+SetField HUDWidgets[0].BitmapWidgets[1].PlacementData[0].Scale -2.04 2.04
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Offset -22.5 -28.5
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 3.6 3.75
+SetField HUDWidgets[1].BitmapWidgets[1].PlacementData[0].Offset 42 -25.5
+SetField HUDWidgets[1].BitmapWidgets[1].PlacementData[0].Scale -3.45 3.75
+SaveTagChanges
+Exit
+Edittag ui\chud\smg_v6.chdt
+SetField HUDWidgets[2].PlacementData[0].Offset -18 -12
+SetField HUDWidgets[2].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[3].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Offset -8 3
+SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale -1 1
+SetField HudWidgets[2].BitmapWidgets[0].WidgetIndex 6
+Setfield HudWidgets[2].BitmapWidgets[0].BitmapSpriteIndex 49
+Setfield HudWidgets[2].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HUDWidgets[3].BitmapWidgets[0].PlacementData[0].Offset 12 72
+SetField HUDWidgets[3].BitmapWidgets[0].PlacementData[0].Scale 0.65 0.65
+SetField HudWidgets[3].BitmapWidgets[0].WidgetIndex 10
+Setfield HudWidgets[3].BitmapWidgets[0].BitmapSpriteIndex 49
+Setfield HudWidgets[3].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HUDWidgets[5].PlacementData[0].Offset 18 -12
+SetField HUDWidgets[5].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[5].BitmapWidgets[0].PlacementData[0].Offset -8 3
+SetField HUDWidgets[5].BitmapWidgets[0].PlacementData[0].Scale 1 1
+SetField HUDWidgets[5].BitmapWidgets[0].PlacementData[0].MirrorOffset 1 -1
+SetField HudWidgets[5].BitmapWidgets[0].WidgetIndex 12
+Setfield HudWidgets[5].BitmapWidgets[0].BitmapSpriteIndex 49
+Setfield HudWidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Offset -126 66
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 2.04 2.04
+SetField HUDWidgets[6].BitmapWidgets[1].PlacementData[0].Offset 139.5 67.5
+SetField HUDWidgets[6].BitmapWidgets[1].PlacementData[0].Scale -2.04 2.04
+SetField HUDWidgets[7].BitmapWidgets[0].PlacementData[0].Offset -22.5 -28.5
+SetField HUDWidgets[7].BitmapWidgets[0].PlacementData[0].Scale 3.6 3.75
+SetField HUDWidgets[7].BitmapWidgets[1].PlacementData[0].Offset 42 -25.5
+SetField HUDWidgets[7].BitmapWidgets[1].PlacementData[0].Scale -3.45 3.75
+SaveTagChanges
+Exit
+
+Edittag ui\chud\carbine_v1.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Offset -126 66
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 2.04 2.04
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Offset -22.5 -28.5
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 3.6 3.75
+SetField HUDWidgets[5].BitmapWidgets[0].PlacementData[0].Offset 18 -12
+SetField HUDWidgets[5].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[4].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[4].BitmapWidgets[0].WidgetIndex 12
+Setfield HudWidgets[4].BitmapWidgets[0].BitmapSpriteIndex 32
+Setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Offset 5 72
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.65 0.65
+SetField HudWidgets[5].BitmapWidgets[0].WidgetIndex 14
+Setfield HudWidgets[5].BitmapWidgets[0].BitmapSpriteIndex 32
+Setfield HudWidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HUDWidgets[5].BitmapWidgets[0].PlacementData[0].Offset -12 3
+SetField HUDWidgets[5].BitmapWidgets[0].PlacementData[0].Scale 1 1
+SetField HUDWidgets[5].BitmapWidgets[1].PlacementData[0].Offset -126 7
+SetField HUDWidgets[5].BitmapWidgets[1].PlacementData[0].Scale 1 1
+SetField HUDWidgets[5].BitmapWidgets[1].PlacementData[0].MirrorOffset -1 -1
+SetField HudWidgets[5].BitmapWidgets[2].WidgetIndex 17
+Setfield HudWidgets[5].BitmapWidgets[2].Bitmap ui\chud\bitmaps\energy_meter_right.bitm
+SetField HUDWidgets[5].BitmapWidgets[2].PlacementData[0].Offset -7 47
+SetField HUDWidgets[5].BitmapWidgets[2].PlacementData[0].Scale 1 1
+SetField HUDWidgets[5].BitmapWidgets[2].PlacementData[0].MirrorOffset 1 0
+SetField HudWidgets[5].BitmapWidgets[3].WidgetIndex 20
+Setfield HudWidgets[5].BitmapWidgets[3].Bitmap ui\chud\bitmaps\energy_borders.bitm
+SetField HUDWidgets[5].BitmapWidgets[3].PlacementData[0].Offset -7 47
+SetField HUDWidgets[5].BitmapWidgets[3].PlacementData[0].Scale 1 1
+SetField HUDWidgets[5].BitmapWidgets[3].PlacementData[0].MirrorOffset 1 0
+SetField HudWidgets[5].BitmapWidgets[4].WidgetIndex 21
+Setfield HudWidgets[5].BitmapWidgets[4].Bitmap ui\chud\bitmaps\energy_borders.bitm
+SetField HUDWidgets[5].BitmapWidgets[4].PlacementData[0].Offset -7 47
+SetField HUDWidgets[5].BitmapWidgets[4].PlacementData[0].Scale 1 1
+SetField HUDWidgets[5].BitmapWidgets[4].PlacementData[0].MirrorOffset 1 0
+SetField HudWidgets[5].BitmapWidgets[5].WidgetIndex 22
+Setfield HudWidgets[5].BitmapWidgets[5].Bitmap ui\chud\bitmaps\energy_borders.bitm
+SetField HUDWidgets[5].BitmapWidgets[5].PlacementData[0].Offset -7 47
+SetField HUDWidgets[5].BitmapWidgets[5].PlacementData[0].Scale 1 1
+SetField HUDWidgets[5].BitmapWidgets[5].PlacementData[0].MirrorOffset 1 0
+SetField HUDWidgets[5].TextWidgets[0].PlacementData[0].MirrorOffset 1 0
+SetField HUDWidgets[5].TextWidgets[0].PlacementData[0].Offset -134 20
+SetField HUDWidgets[5].TextWidgets[0].PlacementData[0].Scale 1 1
+SetField HUDWidgets[5].TextWidgets[0].Font Conduit18
+SetField HudWidgets[5].TextWidgets[0].WidgetIndex 23
+SetField HUDWidgets[5].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[5].PlacementData[0].Offset 18 -12
+SaveTagChanges
+Exit
+Edittag ui\chud\carbine_v2.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Offset -126 66
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 2.04 2.04
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Offset -22.5 -28.5
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 3.6 3.75
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Offset 18 -12
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[4].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[4].BitmapWidgets[0].WidgetIndex 12
+Setfield HudWidgets[4].BitmapWidgets[0].BitmapSpriteIndex 31
+Setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Offset 5 72
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.65 0.65
+SetField HudWidgets[6].BitmapWidgets[0].WidgetIndex 14
+Setfield HudWidgets[6].BitmapWidgets[0].BitmapSpriteIndex 31
+Setfield HudWidgets[6].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Offset -12 3
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 1 1
+SetField HUDWidgets[6].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[6].PlacementData[0].Offset 18 -12
+SaveTagChanges
+Exit
+Edittag ui\chud\carbine_v3.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Offset -126 66
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 2.04 2.04
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Offset -22.5 -28.5
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 3.6 3.75
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Offset 18 -12
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[4].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[4].BitmapWidgets[0].WidgetIndex 12
+Setfield HudWidgets[4].BitmapWidgets[0].BitmapSpriteIndex 32
+Setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Offset 5 72
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.65 0.65
+SetField HudWidgets[6].BitmapWidgets[0].WidgetIndex 14
+Setfield HudWidgets[6].BitmapWidgets[0].BitmapSpriteIndex 32
+Setfield HudWidgets[6].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Offset -12 3
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 1 1
+SetField HUDWidgets[6].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[6].PlacementData[0].Offset 18 -12
+SaveTagChanges
+Exit
+Edittag ui\chud\carbine_v4.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Offset -126 66
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 2.04 2.04
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Offset -22.5 -28.5
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 3.6 3.75
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Offset 18 -12
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[4].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[4].BitmapWidgets[0].WidgetIndex 12
+Setfield HudWidgets[4].BitmapWidgets[0].BitmapSpriteIndex 35
+Setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Offset 5 72
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.65 0.65
+SetField HudWidgets[6].BitmapWidgets[0].WidgetIndex 14
+Setfield HudWidgets[6].BitmapWidgets[0].BitmapSpriteIndex 35
+Setfield HudWidgets[6].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Offset -12 3
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 1 1
+SetField HUDWidgets[6].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[6].PlacementData[0].Offset 18 -12
+SaveTagChanges
+Exit
+Edittag ui\chud\carbine_v5.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Offset -126 66
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 2.04 2.04
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Offset -22.5 -28.5
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 3.6 3.75
+SetField HUDWidgets[7].BitmapWidgets[0].PlacementData[0].Offset 18 -12
+SetField HUDWidgets[7].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[3].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[3].BitmapWidgets[0].WidgetIndex 12
+Setfield HudWidgets[3].BitmapWidgets[0].BitmapSpriteIndex 35
+Setfield HudWidgets[3].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HUDWidgets[3].BitmapWidgets[0].PlacementData[0].Offset 5 72
+SetField HUDWidgets[3].BitmapWidgets[0].PlacementData[0].Scale 0.65 0.65
+SetField HudWidgets[7].BitmapWidgets[0].WidgetIndex 14
+Setfield HudWidgets[7].BitmapWidgets[0].BitmapSpriteIndex 35
+Setfield HudWidgets[7].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HUDWidgets[7].BitmapWidgets[0].PlacementData[0].Offset -12 3
+SetField HUDWidgets[7].BitmapWidgets[0].PlacementData[0].Scale 1 1
+SetField HUDWidgets[7].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[7].PlacementData[0].Offset 18 -12
+SaveTagChanges
+Exit
+Edittag ui\chud\carbine_v6.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Offset -126 66
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 2.04 2.04
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Offset -22.5 -28.5
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 3.6 3.75
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Offset 18 -12
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[4].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[4].BitmapWidgets[0].WidgetIndex 12
+Setfield HudWidgets[4].BitmapWidgets[0].BitmapSpriteIndex 33
+Setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Offset 5 72
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.65 0.65
+SetField HudWidgets[6].BitmapWidgets[0].WidgetIndex 14
+Setfield HudWidgets[6].BitmapWidgets[0].BitmapSpriteIndex 33
+Setfield HudWidgets[6].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Offset -12 3
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 1 1
+SetField HUDWidgets[6].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[6].PlacementData[0].Offset 18 -12
+SaveTagChanges
+Exit
+
+Edittag ui\chud\dmr.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Offset -126 66
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 2.04 2.04
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Offset -22.5 -28.5
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 3.6 3.75
+SetField HUDWidgets[4].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Offset 5 72
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.65 0.65
+Setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+Setfield HudWidgets[4].BitmapWidgets[0].BitmapSpriteIndex 49
+SetField HUDWidgets[6].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[6].PlacementData[0].Offset 18 -12
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Offset -12 3
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 1 1
+Setfield HudWidgets[6].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+Setfield HudWidgets[6].BitmapWidgets[0].BitmapSpriteIndex 49
+SaveTagChanges
+Exit
+Edittag ui\chud\dmr_v1.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Offset -126 66
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 2.04 2.04
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Offset -22.5 -28.5
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 3.6 3.75
+SetField HUDWidgets[4].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Offset 5 72
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.65 0.65
+Setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+Setfield HudWidgets[4].BitmapWidgets[0].BitmapSpriteIndex 39
+SetField HUDWidgets[6].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[6].PlacementData[0].Offset 18 -12
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Offset -12 3
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 1 1
+Setfield HudWidgets[6].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+Setfield HudWidgets[6].BitmapWidgets[0].BitmapSpriteIndex 39
+SaveTagChanges
+Exit
+Edittag ui\chud\dmr_v2.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Offset -126 66
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 2.04 2.04
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Offset -22.5 -28.5
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 3.6 3.75
+SetField HUDWidgets[4].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Offset 5 72
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.65 0.65
+Setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+Setfield HudWidgets[4].BitmapWidgets[0].BitmapSpriteIndex 41
+SetField HUDWidgets[6].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[6].PlacementData[0].Offset 18 -12
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Offset -12 3
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 1 1
+Setfield HudWidgets[6].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+Setfield HudWidgets[6].BitmapWidgets[0].BitmapSpriteIndex 41
+SaveTagChanges
+Exit
+Edittag ui\chud\dmr_v3.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Offset -126 66
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 2.04 2.04
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Offset -22.5 -28.5
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 3.6 3.75
+SetField HUDWidgets[3].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[3].BitmapWidgets[0].PlacementData[0].Offset 5 72
+SetField HUDWidgets[3].BitmapWidgets[0].PlacementData[0].Scale 0.65 0.65
+Setfield HudWidgets[3].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+Setfield HudWidgets[3].BitmapWidgets[0].BitmapSpriteIndex 37
+SetField HUDWidgets[5].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[5].PlacementData[0].Offset 18 -12
+SetField HUDWidgets[5].BitmapWidgets[0].PlacementData[0].Offset -12 3
+SetField HUDWidgets[5].BitmapWidgets[0].PlacementData[0].Scale 1 1
+Setfield HudWidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+Setfield HudWidgets[5].BitmapWidgets[0].BitmapSpriteIndex 37
+SaveTagChanges
+Exit
+Edittag ui\chud\dmr_v4.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Offset -126 66
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 2.04 2.04
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Offset -22.5 -28.5
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 3.6 3.75
+SetField HUDWidgets[4].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Offset 5 72
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.65 0.65
+Setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+Setfield HudWidgets[4].BitmapWidgets[0].BitmapSpriteIndex 39
+SetField HUDWidgets[6].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[6].PlacementData[0].Offset 18 -12
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Offset -12 3
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 1 1
+Setfield HudWidgets[6].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+Setfield HudWidgets[6].BitmapWidgets[0].BitmapSpriteIndex 39
+SaveTagChanges
+Exit
+Edittag ui\chud\dmr_v6.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Offset -126 66
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 2.04 2.04
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Offset -22.5 -28.5
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 3.6 3.75
+SetField HUDWidgets[4].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Offset 5 72
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.65 0.65
+Setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+Setfield HudWidgets[4].BitmapWidgets[0].BitmapSpriteIndex 39
+SetField HUDWidgets[6].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[6].PlacementData[0].Offset 18 -12
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Offset -12 3
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 1 1
+Setfield HudWidgets[6].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+Setfield HudWidgets[6].BitmapWidgets[0].BitmapSpriteIndex 39
+SaveTagChanges
+Exit
+
+EditTag ui\chud\assault_rifle_v2.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Offset -126 66
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 2.04 2.04
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Offset -22.5 -28.5
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 3.6 3.75
+SetField HUDWidgets[2].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Offset 0 72
+SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 0.7 0.7
+SetField HudWidgets[2].BitmapWidgets[0].WidgetIndex 3
+Setfield HudWidgets[2].BitmapWidgets[0].BitmapSpriteIndex 22
+Setfield HudWidgets[2].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HUDWidgets[4].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[4].PlacementData[0].Offset 18 -12
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -7 3
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 1 1
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].MirrorOffset 1 -1
+SetField HudWidgets[4].BitmapWidgets[0].WidgetIndex 4
+Setfield HudWidgets[4].BitmapWidgets[0].BitmapSpriteIndex 22
+Setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SaveTagChanges
+Exit
+EditTag ui\chud\assault_rifle_v3.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Offset -126 66
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 2.04 2.04
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Offset -22.5 -28.5
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 3.6 3.75
+SetField HUDWidgets[2].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Offset 0 72
+SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 0.7 0.7
+SetField HudWidgets[2].BitmapWidgets[0].WidgetIndex 3
+Setfield HudWidgets[2].BitmapWidgets[0].BitmapSpriteIndex 21
+Setfield HudWidgets[2].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HUDWidgets[4].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[4].PlacementData[0].Offset 18 -12
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -7 3
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 1 1
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].MirrorOffset 1 -1
+SetField HudWidgets[4].BitmapWidgets[0].WidgetIndex 4
+Setfield HudWidgets[4].BitmapWidgets[0].BitmapSpriteIndex 21
+Setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SaveTagChanges
+Exit
+EditTag ui\chud\assault_rifle_v4.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Offset -126 66
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 2.04 2.04
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Offset -22.5 -28.5
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 3.6 3.75
+SetField HUDWidgets[2].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Offset 0 72
+SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 0.7 0.7
+SetField HudWidgets[2].BitmapWidgets[0].WidgetIndex 3
+Setfield HudWidgets[2].BitmapWidgets[0].BitmapSpriteIndex 22
+Setfield HudWidgets[2].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HUDWidgets[4].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[4].PlacementData[0].Offset 18 -12
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -7 3
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 1 1
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].MirrorOffset 1 -1
+SetField HudWidgets[4].BitmapWidgets[0].WidgetIndex 4
+Setfield HudWidgets[4].BitmapWidgets[0].BitmapSpriteIndex 22
+Setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SaveTagChanges
+Exit
+EditTag ui\chud\assault_rifle_v6.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Offset -126 66
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 2.04 2.04
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Offset -22.5 -28.5
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 3.6 3.75
+SetField HUDWidgets[2].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Offset 0 72
+SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 0.7 0.7
+SetField HudWidgets[2].BitmapWidgets[0].WidgetIndex 3
+Setfield HudWidgets[2].BitmapWidgets[0].BitmapSpriteIndex 21
+Setfield HudWidgets[2].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HUDWidgets[4].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[4].PlacementData[0].Offset 18 -12
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Offset -7 3
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 1 1
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].MirrorOffset 1 -1
+SetField HudWidgets[4].BitmapWidgets[0].WidgetIndex 4
+Setfield HudWidgets[4].BitmapWidgets[0].BitmapSpriteIndex 21
+Setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SaveTagChanges
+Exit
+
+EditTag ui\chud\magnum_v2.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Offset -126 66
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 2.04 2.04
+SetField HUDWidgets[0].BitmapWidgets[1].PlacementData[0].Offset 139.5 67.5
+SetField HUDWidgets[0].BitmapWidgets[1].PlacementData[0].Scale -2.04 2.04
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Offset -22.5 -28.5
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 3.6 3.75
+SetField HUDWidgets[1].BitmapWidgets[1].PlacementData[0].Offset 42 -25.5
+SetField HUDWidgets[1].BitmapWidgets[1].PlacementData[0].Scale -3.45 3.75
+SetField HUDWidgets[3].PlacementData[0].Offset -18 -12
+SetField HUDWidgets[3].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[3].BitmapWidgets[0].PlacementData[0].Offset 8 3
+SetField HUDWidgets[3].BitmapWidgets[0].PlacementData[0].Scale -1 1
+SetField HudWidgets[3].BitmapWidgets[0].WidgetIndex 7
+Setfield HudWidgets[3].BitmapWidgets[0].BitmapSpriteIndex 45
+Setfield HudWidgets[3].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HUDWidgets[4].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Offset 22 72
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.7 0.7
+SetField HudWidgets[4].BitmapWidgets[0].WidgetIndex 11
+Setfield HudWidgets[4].BitmapWidgets[0].BitmapSpriteIndex 45
+Setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HUDWidgets[6].PlacementData[0].Offset 18 -12
+SetField HUDWidgets[6].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Offset -8 3
+SetField HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 1 1
+SetField HudWidgets[6].BitmapWidgets[0].WidgetIndex 13
+Setfield HudWidgets[6].BitmapWidgets[0].BitmapSpriteIndex 45
+Setfield HudWidgets[6].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SaveTagChanges
+Exit
+EditTag ui\chud\magnum_v6.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Offset -126 66
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 2.04 2.04
+SetField HUDWidgets[0].BitmapWidgets[1].PlacementData[0].Offset 139.5 67.5
+SetField HUDWidgets[0].BitmapWidgets[1].PlacementData[0].Scale -2.04 2.04
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Offset -22.5 -28.5
+SetField HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 3.6 3.75
+SetField HUDWidgets[1].BitmapWidgets[1].PlacementData[0].Offset 42 -25.5
+SetField HUDWidgets[1].BitmapWidgets[1].PlacementData[0].Scale -3.45 3.75
+SetField HUDWidgets[3].PlacementData[0].Offset -18 -12
+SetField HUDWidgets[3].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[3].BitmapWidgets[0].PlacementData[0].Offset 8 3
+SetField HUDWidgets[3].BitmapWidgets[0].PlacementData[0].Scale -1 1
+SetField HudWidgets[3].BitmapWidgets[0].WidgetIndex 7
+Setfield HudWidgets[3].BitmapWidgets[0].BitmapSpriteIndex 45
+Setfield HudWidgets[3].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HUDWidgets[4].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Offset 22 72
+SetField HUDWidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.7 0.7
+SetField HudWidgets[4].BitmapWidgets[0].WidgetIndex 11
+Setfield HudWidgets[4].BitmapWidgets[0].BitmapSpriteIndex 45
+Setfield HudWidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SetField HUDWidgets[7].PlacementData[0].Offset 18 -12
+SetField HUDWidgets[7].PlacementData[0].Scale 1.5 1.5
+SetField HUDWidgets[7].BitmapWidgets[0].PlacementData[0].Offset -8 3
+SetField HUDWidgets[7].BitmapWidgets[0].PlacementData[0].Scale 1 1
+SetField HudWidgets[7].BitmapWidgets[0].WidgetIndex 13
+Setfield HudWidgets[7].BitmapWidgets[0].BitmapSpriteIndex 45
+Setfield HudWidgets[7].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+SaveTagChanges
+Exit
+
+Echo Scaling Game Intros
+Edittag ui\chud\multiplayer_intro\summary_editor.chdt
+Setfield HudWidgets[0].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[1].PlacementData[0].Scale 1.5 1.5
+Savetagchanges
+Exit
+Edittag ui\chud\multiplayer_intro\summary_infection.chdt
+Setfield HudWidgets[0].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[1].PlacementData[0].Scale 1.5 1.5
+SaveTagChanges
+Exit
+Edittag ui\chud\multiplayer_intro\summary_juggernaut.chdt
+Setfield HudWidgets[0].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[1].PlacementData[0].Scale 1.5 1.5
+SaveTagChanges
+Exit
+Edittag ui\chud\multiplayer_intro\summary_king.chdt
+Setfield HudWidgets[0].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[1].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[2].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[3].PlacementData[0].Scale 1.5 1.5
+Savetagchanges
+Exit
+Edittag ui\chud\multiplayer_intro\summary_oddball.chdt
+Setfield HudWidgets[0].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[1].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[2].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[3].PlacementData[0].Scale 1.5 1.5
+Savetagchanges
+Exit
+Edittag ui\chud\multiplayer_intro\summary_slayer.chdt
+Setfield HudWidgets[0].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[1].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[2].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[3].PlacementData[0].Scale 1.5 1.5
+Savetagchanges
+Exit
+Edittag ui\chud\multiplayer_intro\summary_territories.chdt
+Setfield HudWidgets[0].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[1].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[2].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[3].PlacementData[0].Scale 1.5 1.5
+Savetagchanges
+Exit
+Edittag ui\chud\multiplayer_intro\summary_vip.chdt
+Setfield HudWidgets[0].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[1].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[2].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[3].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[4].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[5].PlacementData[0].Scale 1.5 1.5
+Savetagchanges
+Exit
+Edittag 0x00005726
+Setfield HudWidgets[0].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[1].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[2].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[3].PlacementData[0].Scale 1.5 1.5
+Savetagchanges
+Exit
+Edittag 0x00005727
+Setfield HudWidgets[0].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[1].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[2].PlacementData[0].Scale 1.5 1.5
+SetField HudWidgets[3].PlacementData[0].Scale 1.5 1.5
+Savetagchanges
+Exit
+
+echo Crosshair Fixes
+EditTag 0x53B1
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.6 1.6
+SaveTagChanges
+ExitTo Tags
+EditTag 0x541A
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.6 1.6
+SaveTagChanges
+ExitTo Tags
+EditTag 0x30A9
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 1.6 1.6
+SaveTagChanges
+ExitTo Tags
+Edittag ui\chud\dmr.chdt
+SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.2 1.2
+SetField HUDWidgets[2].BitmapWidgets[2].PlacementData[0].Scale 1.7 1.7
+SaveTagChanges
+ExitTo Tags
+EditTag ui\chud\excavator_v6.chdt
+SetField HUDWidgets[2].BitmapWidgets[0].PlacementData[0].Scale 1.7 1.7
+SaveTagChanges
+ExitTo Tags
+
+Edittag ui\chud\dmr.chdt
+Editblock hudwidgets[2]
+Copyblockelements BitmapWidgets
+ExitTo tags
+Edittag ui\chud\dmr_v1.chdt
+Editblock hudwidgets[2]
+Removeblockelements BitmapWidgets 0 *
+Pasteblockelements BitmapWidgets
+SaveTagChanges
+Exitto tags
+Edittag ui\chud\dmr_v2.chdt
+Editblock hudwidgets[2]
+Removeblockelements BitmapWidgets 0 *
+Pasteblockelements BitmapWidgets
+SaveTagChanges
+Exitto tags
+Edittag ui\chud\dmr_v3.chdt
+Editblock hudwidgets[2]
+Removeblockelements BitmapWidgets 0 *
+Pasteblockelements BitmapWidgets
+SaveTagChanges
+Exitto tags
+Edittag ui\chud\dmr_v4.chdt
+Editblock hudwidgets[2]
+Removeblockelements BitmapWidgets 0 *
+Pasteblockelements BitmapWidgets
+SaveTagChanges
+Exitto tags
+Edittag ui\chud\dmr_v6.chdt
+Editblock hudwidgets[2]
+Removeblockelements BitmapWidgets 0 *
+Pasteblockelements BitmapWidgets
+SaveTagChanges
+Exitto tags
+
+Edittag ui\chud\battle_rifle.chdt
+Editblock hudwidgets[2]
+Copyblockelements BitmapWidgets
+ExitTo tags
+Edittag ui\chud\battle_rifle_v1.chdt
+Editblock hudwidgets[2]
+Removeblockelements BitmapWidgets 0 *
+Pasteblockelements BitmapWidgets
+SaveTagChanges
+Exitto tags
+Edittag ui\chud\battle_rifle_v2.chdt
+Editblock hudwidgets[2]
+Removeblockelements BitmapWidgets 0 *
+Pasteblockelements BitmapWidgets
+SaveTagChanges
+Exitto tags
+Edittag ui\chud\battle_rifle_v3.chdt
+Editblock hudwidgets[2]
+Removeblockelements BitmapWidgets 0 *
+Pasteblockelements BitmapWidgets
+SaveTagChanges
+Exitto tags
+Edittag ui\chud\battle_rifle_v4.chdt
+Editblock hudwidgets[2]
+Removeblockelements BitmapWidgets 0 *
+Pasteblockelements BitmapWidgets
+SaveTagChanges
+Exitto tags
+Edittag ui\chud\battle_rifle_v5.chdt
+Editblock hudwidgets[2]
+Removeblockelements BitmapWidgets 0 *
+Pasteblockelements BitmapWidgets
+SaveTagChanges
+Exitto tags
+Edittag ui\chud\battle_rifle_v6.chdt
+Editblock hudwidgets[2]
+Removeblockelements BitmapWidgets 0 *
+Pasteblockelements BitmapWidgets
+SaveTagChanges
+Exitto tags
+
+EditTag ui\chud\assault_rifle.chdt
+Editblock hudwidgets[2]
+Copyblockelements BitmapWidgets
+ExitTo tags
+EditTag ui\chud\assault_rifle_v2.chdt
+Editblock hudwidgets[5]
+Removeblockelements BitmapWidgets 0 *
+Pasteblockelements BitmapWidgets
+SaveTagChanges
+Exitto tags
+EditTag ui\chud\assault_rifle_v3.chdt
+Editblock hudwidgets[5]
+Removeblockelements BitmapWidgets 0 *
+Pasteblockelements BitmapWidgets
+SaveTagChanges
+Exitto tags
+EditTag ui\chud\assault_rifle_v4.chdt
+Editblock hudwidgets[5]
+Removeblockelements BitmapWidgets 0 *
+Pasteblockelements BitmapWidgets
+SaveTagChanges
+Exitto tags
+EditTag ui\chud\assault_rifle_v6.chdt
+Editblock hudwidgets[5]
+Removeblockelements BitmapWidgets 0 *
+Pasteblockelements BitmapWidgets
+SaveTagChanges
+Exitto tags
+
+Edittag ui\chud\carbine.chdt
+Editblock hudwidgets[2]
+Copyblockelements BitmapWidgets
+ExitTo tags
+EditTag ui\chud\carbine_v1.chdt
+Editblock hudwidgets[2]
+Removeblockelements BitmapWidgets 0 *
+Pasteblockelements BitmapWidgets
+SaveTagChanges
+Exitto tags
+EditTag ui\chud\carbine_v2.chdt
+Editblock hudwidgets[2]
+Removeblockelements BitmapWidgets 0 *
+Pasteblockelements BitmapWidgets
+SaveTagChanges
+Exitto tags
+EditTag ui\chud\carbine_v3.chdt
+Editblock hudwidgets[2]
+Removeblockelements BitmapWidgets 0 *
+Pasteblockelements BitmapWidgets
+SaveTagChanges
+Exitto tags
+EditTag ui\chud\carbine_v4.chdt
+Editblock hudwidgets[2]
+Removeblockelements BitmapWidgets 0 *
+Pasteblockelements BitmapWidgets
+SaveTagChanges
+Exitto tags
+EditTag ui\chud\carbine_v5.chdt
+Editblock hudwidgets[2]
+Removeblockelements BitmapWidgets 0 *
+Pasteblockelements BitmapWidgets
+SaveTagChanges
+Exitto tags
+EditTag ui\chud\carbine_v6.chdt
+Editblock hudwidgets[2]
+Removeblockelements BitmapWidgets 0 *
+Pasteblockelements BitmapWidgets
+SaveTagChanges
+Exitto tags
+
+Edittag ui\chud\smg.chdt
+Editblock hudwidgets[2]
+Copyblockelements BitmapWidgets
+ExitTo tags
+EditTag ui\chud\smg_v2.chdt
+Editblock hudwidgets[2]
+Removeblockelements BitmapWidgets 0 *
+Pasteblockelements BitmapWidgets
+SaveTagChanges
+Exitto tags
+EditTag ui\chud\smg_v3.chdt
+Editblock hudwidgets[1]
+Removeblockelements BitmapWidgets 0 *
+Pasteblockelements BitmapWidgets
+SaveTagChanges
+Exitto tags
+EditTag ui\chud\smg_v4.chdt
+Editblock hudwidgets[2]
+Removeblockelements BitmapWidgets 0 *
+Pasteblockelements BitmapWidgets
+SaveTagChanges
+Exitto tags
+EditTag ui\chud\smg_v6.chdt
+Editblock hudwidgets[1]
+Removeblockelements BitmapWidgets 0 *
+Pasteblockelements BitmapWidgets
+SaveTagChanges
+Exitto tags
+
+Edittag ui\chud\magnum.chdt
+Editblock hudwidgets[2]
+Copyblockelements BitmapWidgets
+ExitTo tags
+EditTag ui\chud\magnum_v2.chdt
+Editblock hudwidgets[2]
+Removeblockelements BitmapWidgets 0 *
+Pasteblockelements BitmapWidgets
+SaveTagChanges
+Exitto tags
+EditTag ui\chud\magnum_v6.chdt
+Editblock hudwidgets[2]
+Removeblockelements BitmapWidgets 0 *
+Pasteblockelements BitmapWidgets
+SaveTagChanges
+Exitto tags
+
+Edittag ui\chud\plasma_pistol.chdt
+Editblock hudwidgets[2]
+Copyblockelements BitmapWidgets
+ExitTo tags
+EditTag ui\chud\plasma_pistol_v6.chdt
+Editblock hudwidgets[2]
+Removeblockelements BitmapWidgets 0 *
+Pasteblockelements BitmapWidgets
+SaveTagChanges
+Exitto tags
+
+EditTag ui\chud\plasma_rifle.chdt
+Editblock hudwidgets[2]
+Copyblockelements BitmapWidgets
+ExitTo tags
+EditTag ui\chud\plasma_rifle_v6.chdt
+Editblock hudwidgets[2]
+Removeblockelements BitmapWidgets 0 *
+Pasteblockelements BitmapWidgets
+SaveTagChanges
+Exitto tags
+
+SaveTagNames
+DumpLog Halo3Hud.txt
+Exit
