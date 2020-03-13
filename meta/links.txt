@@ -13,8 +13,8 @@ https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/reachMods/reachWeapons/
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/reachMods/reachWeapons/reachSniper/reachSniper.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/reachMods/reachSounds/reachSniperSounds/reachSniperSounds.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/h3mods/h3hud/H3Hud.ini
-https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/h3mods/h3vehicles/H3vehicles.ini
-https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/h3mods/h3weapons/H3weapons.ini
+https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/h3mods/h3vehicles/H3Vehicles.ini
+https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/h3mods/h3weapons/H3Weapons.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/h3mods/h3visors/h3visors.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/h3mods/h3sounds/h3BRsound/h3BRsound.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/h3mods/h3sounds/h3shotgunSound/h3shotgunSound.ini
