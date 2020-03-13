@@ -1,0 +1,67 @@
+Tag Tool [1.5.6338.16883]
+
+Please report any bugs and/or feature requests at
+<https://gitlab.com/TheGuardians/TagTool/issues>.
+
+Enter "help" to list available commands. Enter "exit" to quit.
+
+tags> echo   Installing H3 Style Brute Weapons
+Installing H3 Style Brute Weapons 
+tags> 
+
+tags> SetLocale US
+
+tags> 
+
+tags> importtag 0x1186 tags\mauler01.shader
+Imported 0xF60 bytes.
+
+tags> importtag 0x3202 tags\hammer02.shader
+Imported 0x5C0 bytes.
+
+tags> importtag 0x1D1C tags\bruteshot00.shader
+Imported 0xBC0 bytes.
+
+tags> 
+
+tags> edittag 0x1189
+Tag (0x1189) self_illum.bitmap has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x1189) self_illum.bitmap> importbitmap 0 DDS\mauler.dds
+Importing image data...
+Done!
+
+tags\(0x1189) self_illum.bitmap> savetagchanges
+Done!
+
+tags\(0x1189) self_illum.bitmap> exit
+
+tags> 
+
+tags> importtag 0x205A tags\spiker00.shader
+Imported 0xAF0 bytes.
+
+tags> importtag 0x205B tags\spiker01.shader
+Imported 0xAF0 bytes.
+
+tags> 
+
+tags> edittag 0x205E
+Tag (0x205E) self_illum.bitmap has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\(0x205E) self_illum.bitmap> importbitmap 0 DDS\spiker.dds
+Importing image data...
+Done!
+
+tags\(0x205E) self_illum.bitmap> savetagchanges
+Done!
+
+tags\(0x205E) self_illum.bitmap> exit
+
+tags> 
+
+tags> dumplog H3Brute.log

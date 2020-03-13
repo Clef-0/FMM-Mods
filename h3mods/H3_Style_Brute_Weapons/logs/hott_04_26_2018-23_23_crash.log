@@ -1,0 +1,29 @@
+Tag Tool [1.5.6338.16883]
+
+Please report any bugs and/or feature requests at
+<https://gitlab.com/TheGuardians/TagTool/issues>.
+
+Enter "help" to list available commands. Enter "exit" to quit.
+
+tags> echo   Installing H3 Style Brute Weapons
+Installing H3 Style Brute Weapons 
+tags> 
+
+tags> SetLocale US
+
+tags> 
+
+tags> importtag 0x1189 tags\mauler_self_illum.bitm
+ERROR: Could not find file 'C:\Users\Charlie Watkins\Documents\My Games\Eldewrito 0.6\Halo Online\mods\tagmods\H3_Style_Brute_Weapons\tags\mauler_self_illum.bitm'.
+
+tags> importtag 0x1186 tags\mauler01.shader
+Imported 0xF60 bytes.
+
+tags> importtag 0x3202 tags\hammer02.shader
+Imported 0x5C0 bytes.
+
+tags> importtag 0x1D1C tags\bruteshot00.shader
+Imported 0xBC0 bytes.
+
+tags> importtag 0x205E tags\spiker_self_illum.bitm
+ERROR: Could not find file 'C:\Users\Charlie Watkins\Documents\My Games\Eldewrito 0.6\Halo Online\mods\tagmods\H3_Style_Brute_Weapons\tags\spiker_self_illum.bitm'.

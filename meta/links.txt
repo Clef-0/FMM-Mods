@@ -5,14 +5,16 @@ https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Minimal_Hud/Mhud.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/snowhalla/Snowhalla.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/snowtrap/snowtrap.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/RedSword/RedSword.ini
-https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/H3_Style_Brute_Weapons/H3Brute.ini
+https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/h3mods/H3_Style_Brute_Weapons/H3Brute.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/reachMods/reachWeapons/reachBR/reachBR.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/ceMagnum/ceMagnum.ini
-https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/H3_Beta_Armors/H3BA.ini
-https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/reachMods/reachShotgun/reachShotgun.ini
+https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/h3mods/H3_Beta_Armors/H3BA.ini
+https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/reachMods/reachWeapons/reachShotgun/reachShotgun.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/reachMods/reachWeapons/reachSniper/reachSniper.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/reachMods/reachSounds/reachSniperSounds/reachSniperSounds.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/h3mods/h3hud/H3Hud.ini
+https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/h3mods/h3vehicles/H3vehicles.ini
+https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/h3mods/h3weapons/H3weapons.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/h3mods/h3visors/h3visors.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/h3mods/h3sounds/h3BRsound/h3BRsound.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/h3mods/h3sounds/h3shotgunSound/h3shotgunSound.ini
@@ -25,8 +27,8 @@ https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Weapon_Skins_pack/Weapo
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/JumpingAnimations/JumpingAnimations.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/RegeneratorShield/RegeneratorShield.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/GlowySword/GlowySwords.ini
-https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Halo3Shields/H3Shields.ini
+https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/h3mods/Halo3Shields/H3Shields.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/UpdatedBRSounds/UpdatedBRSounds.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/FreelancerCC/Freelancer_CC.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/HeadshotPop/HeadshotPop.ini
-https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/HOMusic V2/HOMusic V2.ini
+https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/HOMusic_V2/HOMusic_V2.ini

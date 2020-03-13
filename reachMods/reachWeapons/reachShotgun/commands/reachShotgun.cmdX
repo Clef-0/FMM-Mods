@@ -1,0 +1,67 @@
+// Halo Reach Shotgun local cosmetic mod for Halo Online Eldewrito MS23 build; made by Bungie; ported by dany5639 using Shockfire's tagtool and Camden's commands;
+========
+XXXX
+ XXXX 
+echo
+//
+========
+========
+1EF5
+hlmtHRSH
+1EFB
+modeHRSHfp
+1F3F
+modeHRSH3d
+========
+========
+0000
+bitmHRSHbase
+0000
+bitmHRSHbump
+0000
+bitmHRSHillu
+0000
+bitmHRSHdeca
+========
+========
+0000
+shadHRSHcomp
+0000
+shadHRSHmeta
+0000
+shadHRSHshin
+0000
+shadHRSHrubb
+0000
+shadHRSHdeca
+0000
+shadHRSHillu
+STOP
+
+resourcedata import resources.dat 0108 tags/HRShotgun.raw
+
+importbitmap bitmHRSHbase DDS/shotgun_diffuse.dds    
+importbitmap bitmHRSHbump DDS/shotgun_zbump.dds      
+importbitmap bitmHRSHillu DDS/shotgun_flat_illum.dds 
+importbitmap bitmHRSHdeca DDS/unsc_decals_diffuse.dds
+
+import hlmtHRSH tags/hlmt_HRSH
+import modeHRSH3d tags/mode_HRSH3d
+import modeHRSHfp tags/mode_HRSHfp
+import shadHRSHcomp tags/shad_HRSHcomp
+import shadHRSHdeca tags/shad_HRSHdeca
+import shadHRSHillu tags/shad_HRSHillu
+import shadHRSHmeta tags/shad_HRSHmeta
+import shadHRSHrubb tags/shad_HRSHrubb
+import shadHRSHshin tags/shad_HRSHshin
+
+edit shadHRSHcomp XXXX SpecifyBitmaps XXXX bitmHRSHbase XXXX 0343 XXXX bitmHRSHbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX 0379 XXXX exitTo tags.dat
+edit shadHRSHmeta XXXX SpecifyBitmaps XXXX bitmHRSHbase XXXX 0343 XXXX bitmHRSHbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX 0379 XXXX exitTo tags.dat
+edit shadHRSHshin XXXX SpecifyBitmaps XXXX bitmHRSHbase XXXX 0343 XXXX bitmHRSHbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX 0379 XXXX exitTo tags.dat
+edit shadHRSHrubb XXXX SpecifyBitmaps XXXX bitmHRSHbase XXXX 0343 XXXX bitmHRSHbump XXXX 0376 XXXX 02B7 XXXX 02B9 XXXX 0379 XXXX exitTo tags.dat
+edit shadHRSHdeca XXXX SpecifyBitmaps XXXX bitmHRSHdeca XXXX 0343 XXXX exitTo tags.dat
+edit shadHRSHillu XXXX SpecifyBitmaps XXXX bitmHRSHillu XXXX 0343 XXXX exitTo tags.dat
+edit modeHRSHfp XXXX SpecifyShaders XXXX shadHRSHcomp XXXX shadHRSHmeta XXXX shadHRSHshin XXXX shadHRSHrubb XXXX shadHRSHdeca XXXX shadHRSHillu XXXX exitTo tags.dat
+edit modeHRSH3d XXXX SpecifyShaders XXXX shadHRSHcomp XXXX shadHRSHmeta XXXX shadHRSHshin XXXX shadHRSHrubb XXXX shadHRSHdeca XXXX shadHRSHillu XXXX exitTo tags.dat
+
+dumplog reachShotgun.log XXXX exit XXXX exit
