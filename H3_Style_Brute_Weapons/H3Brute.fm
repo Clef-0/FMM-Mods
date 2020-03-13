@@ -1,7 +1,0 @@
-ECHO FMM_OUTPUT Installing H3 Style Brute Weapons...
-
-cd mods\tagMods\H3_Style_Brute_Weapons
-
-Type H3Brute.cmds | TagTool.exe ../../../maps/tags.dat
-
-ECHO FMM_OUTPUT H3 Style Brute Weapons installed! 

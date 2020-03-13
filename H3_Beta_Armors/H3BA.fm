@@ -1,7 +1,0 @@
-ECHO FMM_OUTPUT Installing Halo 3 Beta Armor...
-
-cd mods\tagMods\H3_Beta_Armors
-
-Type H3BA.cmds | TagTool.exe ../../../maps/tags.dat
-
-ECHO FMM_OUTPUT Halo 3 Beta Armor installed! 
