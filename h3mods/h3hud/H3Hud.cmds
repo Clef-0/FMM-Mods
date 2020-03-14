@@ -1,2 +1,66 @@
 Applymodpackage Pak\Halo3hud.pak
 Savetagnames
+
+Edittag 0x00005726
+Setfield HUDWidgets[0].PlacementData[0].Scale 1.5 1.5
+Setfield HUDWidgets[1].PlacementData[0].Scale 1.5 1.5
+Setfield HUDWidgets[2].PlacementData[0].Scale 1.5 1.5
+Setfield HUDWidgets[3].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[2].TextWidgets[0].PlacementData[0].Scale 0.75 0.75
+Setfield HudWidgets[2].TextWidgets[0].Font Conduit32
+Setfield HudWidgets[2].TextWidgets[1].PlacementData[0].Scale 0.65 0.65
+Setfield HudWidgets[2].TextWidgets[1].Font Conduit32
+Setfield HudWidgets[2].TextWidgets[2].PlacementData[0].Scale 0.65 0.65
+Setfield HudWidgets[2].TextWidgets[2].Font Conduit32
+Setfield HudWidgets[2].TextWidgets[3].PlacementData[0].Scale 0.8 0.8
+Setfield HudWidgets[2].TextWidgets[3].Font Conduit32
+Setfield HudWidgets[2].TextWidgets[4].PlacementData[0].Scale 0.8 0.8
+Setfield HudWidgets[2].TextWidgets[4].Font Conduit32
+Setfield HudWidgets[3].TextWidgets[0].PlacementData[0].Scale 0.75 0.75
+Setfield HudWidgets[3].TextWidgets[0].Font Conduit32
+Setfield HudWidgets[3].TextWidgets[1].PlacementData[0].Scale 0.65 0.65
+Setfield HudWidgets[3].TextWidgets[1].Font Conduit32
+Savetagchanges
+Exit
+Edittag 0x00005727
+Setfield HUDWidgets[0].PlacementData[0].Scale 1.5 1.5
+Setfield HUDWidgets[1].PlacementData[0].Scale 1.5 1.5
+Setfield HUDWidgets[2].PlacementData[0].Scale 1.5 1.5
+Setfield HUDWidgets[3].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[2].TextWidgets[0].PlacementData[0].Scale 0.75 0.75
+Setfield HudWidgets[2].TextWidgets[0].Font Conduit32
+Setfield HudWidgets[2].TextWidgets[1].PlacementData[0].Scale 0.65 0.65
+Setfield HudWidgets[2].TextWidgets[1].Font Conduit32
+Setfield HudWidgets[2].TextWidgets[2].PlacementData[0].Scale 0.65 0.65
+Setfield HudWidgets[2].TextWidgets[2].Font Conduit32
+Setfield HudWidgets[2].TextWidgets[3].PlacementData[0].Scale 0.8 0.8
+Setfield HudWidgets[2].TextWidgets[3].Font Conduit32
+Setfield HudWidgets[2].TextWidgets[4].PlacementData[0].Scale 0.8 0.8
+Setfield HudWidgets[2].TextWidgets[4].Font Conduit32
+Setfield HudWidgets[3].TextWidgets[0].PlacementData[0].Scale 0.75 0.75
+Setfield HudWidgets[3].TextWidgets[0].Font Conduit32
+Setfield HudWidgets[3].TextWidgets[1].PlacementData[0].Scale 0.65 0.65
+Setfield HudWidgets[3].TextWidgets[1].Font Conduit32
+Savetagchanges
+Exit
+Edittag 0x00005741
+Setfield HUDWidgets[0].PlacementData[0].Scale 1.5 1.5
+Setfield HUDWidgets[1].PlacementData[0].Scale 1.5 1.5
+Setfield HUDWidgets[2].PlacementData[0].Scale 1.5 1.5
+Setfield HUDWidgets[3].PlacementData[0].Scale 1.5 1.5
+Setfield HudWidgets[2].TextWidgets[0].PlacementData[0].Scale 0.75 0.75
+Setfield HudWidgets[2].TextWidgets[0].Font Conduit32
+Setfield HudWidgets[2].TextWidgets[1].PlacementData[0].Scale 0.65 0.65
+Setfield HudWidgets[2].TextWidgets[1].Font Conduit32
+Setfield HudWidgets[2].TextWidgets[2].PlacementData[0].Scale 0.65 0.65
+Setfield HudWidgets[2].TextWidgets[2].Font Conduit32
+Setfield HudWidgets[2].TextWidgets[3].PlacementData[0].Scale 0.8 0.8
+Setfield HudWidgets[2].TextWidgets[3].Font Conduit32
+Setfield HudWidgets[2].TextWidgets[4].PlacementData[0].Scale 0.8 0.8
+Setfield HudWidgets[2].TextWidgets[4].Font Conduit32
+Setfield HudWidgets[3].TextWidgets[0].PlacementData[0].Scale 0.75 0.75
+Setfield HudWidgets[3].TextWidgets[0].Font Conduit32
+Setfield HudWidgets[3].TextWidgets[1].PlacementData[0].Scale 0.65 0.65
+Setfield HudWidgets[3].TextWidgets[1].Font Conduit32
+Savetagchanges
+Exit
