@@ -1,2 +1,4 @@
-Applymodpackage Pak\halo3weapons.pak
+NameTag 0x0000288A objects\weapons\turret\machinegun_turret\machinegun_turret_vehicle\garbage\machinegun_turret_tripod_mp\machinegun_turret_tripod_mp
 Savetagnames
+
+Applymodpackage Pak\halo3weapons.pak
