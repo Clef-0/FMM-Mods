@@ -1,0 +1,358 @@
+Echo BR Textures
+
+CreateTag bitm
+NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body
+EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.bitmap
+ImportBitmap 0 Bitmaps\br_body.dds
+SaveTagChanges
+ExitTo tags
+
+CreateTag bitm
+NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_bump
+EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_bump.bitmap
+ImportBitmap 0 Bitmaps\br_body_bump.dds
+SaveTagChanges
+ExitTo tags
+
+CreateTag bitm
+NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_illumination_map
+EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_illumination_map.bitmap
+ImportBitmap 0 Bitmaps\br_illumination_map.dds
+SaveTagChanges
+ExitTo tags
+
+CreateTag bitm
+NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\mat
+EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\mat.bitmap
+ImportBitmap 0 Bitmaps\mat.dds
+SaveTagChanges
+ExitTo tags
+
+CreateTag bitm
+NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_blue
+EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_blue.bitm
+ImportBitmap 0 Bitmaps\blue.dds
+SaveTagChanges
+ExitTo tags
+
+CreateTag bitm
+NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_purple
+EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_purple.bitm
+ImportBitmap 0 Bitmaps\purple.dds
+SaveTagChanges
+ExitTo tags
+
+CreateTag bitm
+NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_orange
+EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_orange.bitm
+ImportBitmap 0 Bitmaps\orange.dds
+SaveTagChanges
+ExitTo tags
+
+CreateTag bitm
+NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_green
+EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_green.bitm
+ImportBitmap 0 Bitmaps\green.dds
+SaveTagChanges
+ExitTo tags
+
+CreateTag bitm
+NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_gold
+EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_gold.bitm
+ImportBitmap 0 Bitmaps\gold.dds
+SaveTagChanges
+ExitTo tags
+
+CreateTag bitm
+NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_red
+EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_red.bitm
+ImportBitmap 0 Bitmaps\red.dds
+SaveTagChanges
+ExitTo tags
+Savetagnames
+
+Echo BR Bitmaps Setup
+
+DuplicateTag objects\weapons\rifle\smg\fp_smg\fp_smg_v1\shaders\[00]_rmsh.shader
+NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader
+Savetagnames
+
+EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader.shader
+Setfield ShaderProperties[0].ShaderMaps[0].Bitmap objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.bitmap
+Setfield ShaderProperties[0].ShaderMaps[3].Bitmap objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_bump.bitmap
+Setfield ShaderProperties[0].ShaderMaps[5].Bitmap objects\weapons\rifle\battle_rifle\h2a_battle_rifle\mat.bitmap
+Setfield ShaderProperties[0].ShaderMaps[6].Bitmap objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_illumination_map.bitmap
+Setargument base_map 1 1 0 0
+Setargument color_mask_map 0 0 0 0
+Setargument albedo_color 0.5 0.5 1 1
+Setargument albedo_color2 1 1 1 1
+Setargument albedo_color3 1 1 1 1
+Setargument bump_detail_map 0 0 0 0
+Setargument bump_detail_coefficient 1 1 1 1
+Setargument specular_tint 0.8352942 0.9607844 1 1
+Setargument use_fresnel_color_environment 1 1 1 1
+Setargument fresnel_color_environment 0.8078432 0.8784314 1 1
+Setargument roughness 0.8 0.8 0.8 0.8
+Setargument area_specular_contribution 0.12 0.12 0.12 0.12
+Setargument analytical_specular_contribution 0.65 0.65 0.65 0.65
+Setargument environment_map_specular_contribution 0.33 0.33 0.33 0.33
+Setargument albedo_blend 0.98 0.98 0.98 0.98
+Setargument env_roughness_scale 0 0 0 0
+Setargument self_illum_color 1 0 0 1
+Setargument self_illum_intensity 11 11 11 11
+SaveTagChanges
+ExitTo tags
+
+DuplicateTag objects\weapons\rifle\dmr\dmr\shaders\[02]_rmsh.shader
+NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope
+Savetagnames
+
+EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope.shader
+Setfield ShaderProperties[0].ShaderMaps[0].Bitmap objects\weapons\rifle\sniper_rifle\sniper_rifle\bitmaps\[03]_rmsh\base.bitm
+Setfield ShaderProperties[0].ShaderMaps[1].Bitmap shaders\default_bitmaps\bitmaps\default_detail.bitm
+Setfield ShaderProperties[0].ShaderMaps[2].Bitmap shaders\default_bitmaps\bitmaps\gray_50_percent.bitm
+Setargument analytical_specular_contribution 0 0 0 0
+Setargument env_tint_color 0.05 0.05 0.3 1
+SaveTagChanges
+ExitTo tags
+
+Echo BR Ammo Counter
+
+EditTag objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle\bitmaps\[08]_rmsh\self_illum_primary_ammunition_tens.bitm
+importbitmap 0 Bitmaps\Numerology\0.dds
+importbitmap 1 Bitmaps\Numerology\1.dds
+importbitmap 2 Bitmaps\Numerology\2.dds
+importbitmap 3 Bitmaps\Numerology\3.dds
+importbitmap 4 Bitmaps\Numerology\4.dds
+importbitmap 5 Bitmaps\Numerology\5.dds
+importbitmap 6 Bitmaps\Numerology\6.dds
+importbitmap 7 Bitmaps\Numerology\7.dds
+importbitmap 8 Bitmaps\Numerology\8.dds
+importbitmap 9 Bitmaps\Numerology\9.dds
+SaveTagChanges
+ExitTo tags
+
+EditTag objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle\bitmaps\[07]_rmsh\self_illum_primary_ammunition_ones.bitm
+importbitmap 0 Bitmaps\Numerology\0.dds
+importbitmap 1 Bitmaps\Numerology\1.dds
+importbitmap 2 Bitmaps\Numerology\2.dds
+importbitmap 3 Bitmaps\Numerology\3.dds
+importbitmap 4 Bitmaps\Numerology\4.dds
+importbitmap 5 Bitmaps\Numerology\5.dds
+importbitmap 6 Bitmaps\Numerology\6.dds
+importbitmap 7 Bitmaps\Numerology\7.dds
+importbitmap 8 Bitmaps\Numerology\8.dds
+importbitmap 9 Bitmaps\Numerology\9.dds
+SaveTagChanges
+ExitTo tags
+
+Echo BR Model and Materials
+
+EditTag objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle.render_model
+ReplaceRenderGeometry Tags\Models\battle_rifle.dae
+setfield materials[0].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope.shader
+setfield materials[1].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader.shader
+setfield materials[2].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope.shader
+setfield materials[3].rendermethod objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle\shaders\[07]_rmsh.shader
+setfield materials[4].rendermethod objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle\shaders\[08]_rmsh.shader
+SaveTagChanges
+ExitTo tags
+
+EditTag objects\weapons\rifle\battle_rifle\battle_rifle.render_model
+ReplaceRenderGeometry Tags\Models\battle_rifle.dae
+setfield materials[0].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope.shader
+setfield materials[1].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader.shader
+setfield materials[2].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope.shader
+setfield materials[3].rendermethod objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle\shaders\[07]_rmsh.shader
+setfield materials[4].rendermethod objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle\shaders\[08]_rmsh.shader
+SaveTagChanges
+ExitTo tags
+
+Echo Battle Rifle Halo 3 Inherited Animation
+
+createtag jmad
+nametag * objects\characters\masterchief\fp\weapons\rifle\fp_battle_rifle\fp_battle_rifle_halo_3
+importtag * tags/animations/fp_battle_rifle_halo_3.model_animation_graph
+edittag objects\characters\masterchief\fp\weapons\rifle\fp_battle_rifle\fp_battle_rifle_halo_3.model_animation_graph
+resourcedata import resources_b 0 tags/animations/fp_battle_rifle_halo_3.model_animation_graph_resource
+savetagchanges
+exitto tags
+importtag objects\characters\masterchief\fp\weapons\rifle\fp_battle_rifle\fp_battle_rifle.model_animation_graph tags/animations/fp_battle_rifle_halo_3_inherited.model_animation_graph
+edittag objects\characters\masterchief\fp\weapons\rifle\fp_battle_rifle\fp_battle_rifle.model_animation_graph
+setfield InheritanceList[0].InheritedGraph objects\characters\masterchief\fp\weapons\rifle\fp_battle_rifle\fp_battle_rifle_halo_3.model_animation_graph
+savetagchanges
+exitto tags
+
+Echo Battle Rifle Variants
+
+Duplicatetag objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle.render_model
+Nametag * objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle_r1
+Duplicatetag objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle.render_model
+Nametag * objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle_r2
+Duplicatetag objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle.render_model
+Nametag * objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle_r3
+Duplicatetag objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle.render_model
+Nametag * objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle_r4
+Duplicatetag objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle.render_model
+Nametag * objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle_r5
+Duplicatetag objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle.render_model
+Nametag * objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle_r6
+Savetagnames
+
+Duplicatetag objects\weapons\rifle\battle_rifle\battle_rifle.render_model
+Nametag * objects\weapons\rifle\battle_rifle\battle_rifle_v1
+Duplicatetag objects\weapons\rifle\battle_rifle\battle_rifle.render_model
+Nametag * objects\weapons\rifle\battle_rifle\battle_rifle_v2
+Duplicatetag objects\weapons\rifle\battle_rifle\battle_rifle.render_model
+Nametag * objects\weapons\rifle\battle_rifle\battle_rifle_v3
+Duplicatetag objects\weapons\rifle\battle_rifle\battle_rifle.render_model
+Nametag * objects\weapons\rifle\battle_rifle\battle_rifle_v4
+Duplicatetag objects\weapons\rifle\battle_rifle\battle_rifle.render_model
+Nametag * objects\weapons\rifle\battle_rifle\battle_rifle_v5
+Duplicatetag objects\weapons\rifle\battle_rifle\battle_rifle.render_model
+Nametag * objects\weapons\rifle\battle_rifle\battle_rifle_v6
+Savetagnames
+
+Edittag objects\weapons\rifle\battle_rifle\battle_rifle_v1.model
+Setfield RenderModel objects\weapons\rifle\battle_rifle\battle_rifle_v1.render_model
+Savetagchanges
+Exit
+Edittag objects\weapons\rifle\battle_rifle\battle_rifle_v2.model
+Setfield RenderModel objects\weapons\rifle\battle_rifle\battle_rifle_v3.render_model
+Savetagchanges
+Exit
+Edittag objects\weapons\rifle\battle_rifle\battle_rifle_v3.model
+Setfield RenderModel objects\weapons\rifle\battle_rifle\battle_rifle_v4.render_model
+Savetagchanges
+Exit
+Edittag objects\weapons\rifle\battle_rifle\battle_rifle_v4.model
+Setfield RenderModel objects\weapons\rifle\battle_rifle\battle_rifle_v5.render_model
+Savetagchanges
+Exit
+Edittag objects\weapons\rifle\battle_rifle\battle_rifle_v5.model
+Setfield RenderModel objects\weapons\rifle\battle_rifle\battle_rifle_v2.render_model
+Savetagchanges
+Exit
+Edittag objects\weapons\rifle\battle_rifle\battle_rifle_v6.model
+Setfield RenderModel objects\weapons\rifle\battle_rifle\battle_rifle_v6.render_model
+Savetagchanges
+Exit
+
+DuplicateTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader.shader
+NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader_v1
+DuplicateTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader.shader
+NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader_v2
+DuplicateTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader.shader
+NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader_v3
+DuplicateTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader.shader
+NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader_v4
+DuplicateTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader.shader
+NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader_v5
+DuplicateTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader.shader
+NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader_v6
+Savetagnames
+
+EditTag objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle_r1.render_model
+setfield materials[1].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader_v1.shader
+SaveTagChanges
+ExitTo tags
+EditTag objects\weapons\rifle\battle_rifle\battle_rifle_v1.render_model
+setfield materials[1].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader_v1.shader
+SaveTagChanges
+ExitTo tags
+
+EditTag objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle_r2.render_model
+setfield materials[1].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader_v2.shader
+SaveTagChanges
+ExitTo tags
+EditTag objects\weapons\rifle\battle_rifle\battle_rifle_v2.render_model
+setfield materials[1].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader_v2.shader
+SaveTagChanges
+ExitTo tags
+
+EditTag objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle_r3.render_model
+setfield materials[1].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader_v3.shader
+SaveTagChanges
+ExitTo tags
+EditTag objects\weapons\rifle\battle_rifle\battle_rifle_v3.render_model
+setfield materials[1].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader_v3.shader
+SaveTagChanges
+ExitTo tags
+
+EditTag objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle_r4.render_model
+setfield materials[1].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader_v4.shader
+SaveTagChanges
+ExitTo tags
+EditTag objects\weapons\rifle\battle_rifle\battle_rifle_v4.render_model
+setfield materials[1].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader_v4.shader
+SaveTagChanges
+ExitTo tags
+
+EditTag objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle_r5.render_model
+setfield materials[1].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader_v5.shader
+SaveTagChanges
+ExitTo tags
+EditTag objects\weapons\rifle\battle_rifle\battle_rifle_v5.render_model
+setfield materials[1].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader_v5.shader
+SaveTagChanges
+ExitTo tags
+
+EditTag objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle_r6.render_model
+setfield materials[1].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader_v6.shader
+SaveTagChanges
+ExitTo tags
+EditTag objects\weapons\rifle\battle_rifle\battle_rifle_v6.render_model
+setfield materials[1].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader_v6.shader
+SaveTagChanges
+ExitTo tags
+
+EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader_v1.shader
+Setfield ShaderProperties[0].ShaderMaps[0].Bitmap objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_blue.bitmap
+SaveTagChanges
+ExitTo tags
+EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader_v2.shader
+Setfield ShaderProperties[0].ShaderMaps[0].Bitmap objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_purple.bitmap
+SaveTagChanges
+ExitTo tags
+EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader_v3.shader
+Setfield ShaderProperties[0].ShaderMaps[0].Bitmap objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_red.bitmap
+SaveTagChanges
+ExitTo tags
+EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader_v4.shader
+Setfield ShaderProperties[0].ShaderMaps[0].Bitmap objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_green.bitmap
+SaveTagChanges
+ExitTo tags
+EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader_v5.shader
+Setfield ShaderProperties[0].ShaderMaps[0].Bitmap objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_orange.bitmap
+SaveTagChanges
+ExitTo tags
+EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_shader_v6.shader
+Setfield ShaderProperties[0].ShaderMaps[0].Bitmap objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_gold.bitmap
+SaveTagChanges
+ExitTo tags
+
+Edittag objects\weapons\rifle\battle_rifle\battle_rifle_accuracy.weap
+Setfield firstperson[0].FirstPersonModel objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle_r4.render_model
+Savetagchanges
+Exit
+Edittag objects\weapons\rifle\battle_rifle\battle_rifle_ammo.weap
+Setfield firstperson[0].FirstPersonModel objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle_r1.render_model
+Savetagchanges
+Exit
+Edittag objects\weapons\rifle\battle_rifle\battle_rifle_damage.weap
+Setfield firstperson[0].FirstPersonModel objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle_r3.render_model
+Savetagchanges
+Exit
+Edittag objects\weapons\rifle\battle_rifle\battle_rifle_power.weap
+Setfield firstperson[0].FirstPersonModel objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle_r6.render_model
+Savetagchanges
+Exit
+Edittag objects\weapons\rifle\battle_rifle\battle_rifle_range.weap
+Setfield firstperson[0].FirstPersonModel objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle_r2.render_model
+Savetagchanges
+Exit
+Edittag objects\weapons\rifle\battle_rifle\battle_rifle_rof.weap
+Setfield firstperson[0].FirstPersonModel objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle_r5.render_model
+Savetagchanges
+Exit
+Dumplog H2a_BR.txt

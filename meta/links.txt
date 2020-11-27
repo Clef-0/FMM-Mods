@@ -8,6 +8,7 @@ https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/RedSword/RedSword.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/h3mods/H3_Style_Brute_Weapons/H3Brute.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/reachMods/reachWeapons/reachBR/reachBR.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/ceMagnum/ceMagnum.ini
+https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/h2amods/H2aBR/H2aBR.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/h3mods/H3_Beta_Armors/H3BA.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/reachMods/reachWeapons/reachShotgun/reachShotgun.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/reachMods/reachWeapons/reachSniper/reachSniper.ini

@@ -1,0 +1,15 @@
+ECHO FMM_OUTPUT Installing Halo 2 Anniversary Battle Rifle...
+if exist mods\tagmods\h2amods\H2aBR (
+	GOTO Label0
+) else (
+	GOTO Label1
+)
+:Label0
+cd mods\tagmods\h2amods\H2aBR
+Type H2aBR.cmds | TagTool.exe ..\..\..\..\maps\tags.dat
+ECHO FMM_OUTPUT Halo 2 Anniversary Battle Rifle has been installed!
+GOTO End
+
+:Label1
+ECHO WARNING Mod is not in the correct location.
+ECHO Install at: /mods/tagMods/h2amods
