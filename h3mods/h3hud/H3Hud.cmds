@@ -1,4 +1,7 @@
 Applymodpackage Pak\Halo3hud.pak
+Nametag 0x000012BC ui\chud\player_waypoints
+Nametag 0x000012B9 ui\chud\grenade_waypoints
+Nametag 0x0000130B ui\chud\equipment_charge_meter
 Savetagnames
 
 Echo // Game Summary Intro Cards
@@ -55,4 +58,26 @@ EditTag 0x541A
 SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.3 0.3
 SetField HUDWidgets[0].BitmapWidgets[0].Bitmap ui\chud\bitmaps\hud_vehicle_reticles.bitm
 SaveTagChanges
-ExitTo Tags 
+ExitTo Tags
+
+Echo // Fix Vision Mode Equipment Bitmap
+Importtag 0x00005A81 Bitmaps/vision.bitm
+Edittag 0x00005A81
+ImportBitmap 0 Bitmaps/vision.dds
+Savetagchanges
+ExitTo Tags
+
+Edittag ui\chud\spartan.chdt
+Setfield HudWidgets[22].BitmapWidgets[1].Bitmap ui\chud\equipment_charge_meter.bitm
+Savetagchanges
+ExitTo Tags
+
+Edittag ui\chud\globals.chgd
+Setfield HudGlobals[0].PlayerWaypoints ui\chud\player_waypoints.bitm
+Setfield HudGlobals[0].GrenadeWaypoint ui\chud\grenade_waypoints.bitm
+Setfield HudGlobals[1].PlayerWaypoints ui\chud\player_waypoints.bitm
+Setfield HudGlobals[1].GrenadeWaypoint ui\chud\grenade_waypoints.bitm
+Setfield HudGlobals[2].PlayerWaypoints ui\chud\player_waypoints.bitm
+Setfield HudGlobals[2].GrenadeWaypoint ui\chud\grenade_waypoints.bitm
+Savetagchanges
+ExitTo Tags
