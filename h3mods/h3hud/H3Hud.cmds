@@ -4,6 +4,12 @@ Nametag 0x000012B9 ui\chud\grenade_waypoints
 Nametag 0x0000130B ui\chud\equipment_charge_meter
 Savetagnames
 
+Echo // H3 Player Waypoint Import
+Edittag ui\chud\player_waypoints.bitm
+ImportBitmap 0 Bitmaps/waypoints.dds
+SaveTagChanges
+ExitTo Tags
+
 Echo // Game Summary Intro Cards
 Edittag 0x00005726
 Setfield HUDWidgets[0].PlacementData[0].Scale 1.5 1.5
