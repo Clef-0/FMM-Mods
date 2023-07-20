@@ -1,0 +1,9 @@
+color 0A
+cd mods\tagMods\PURPLE_FX_SWORD
+ECHO FMM_OUTPUT Installing Halo 2 FX Sword...
+
+Type "booga booga" | Install.bat
+timeout 1
+
+
+ECHO FMM_OUTPUT Halo 2 FX Sword Has been installed Succesfully.

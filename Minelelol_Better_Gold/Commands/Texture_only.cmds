@@ -1,0 +1,133 @@
+ECHO DDS DDS DDS DDS DDS DDS DDS DDS DDS DDS DDS DDS DDS DDS DDS DDS DDS DDS DDS DDS DDS DDS DDS DDS DDS DDS DDS DDS DDS DDS DDS DDS DDS DDS DDS DDS DDS DDS DDS DDS DDS DDS DDS
+
+ECHO ASSAULT RIFFLE
+edittag 0x00000F6C
+importbitmap 0 DDS\AR\00000F6C.dds
+savetagchanges
+exitto tags
+
+edittag 0x00000F66
+importbitmap 0 DDS\AR\00000F66.dds
+savetagchanges
+exitto tags
+
+
+ECHO BATTLE RIFFLE ----------------------------------------------------------
+edittag 0x00000FEB
+importbitmap 0 DDS\BR\00000FEB.dds
+savetagchanges
+exitto tags
+
+edittag 0x00000FEE
+importbitmap 0 DDS\BR\00000FEE.dds
+savetagchanges
+exitto tags
+
+ECHO CARBINE -----------------------------------------------------------------
+edittag 0x000010C6
+importbitmap 0 DDS\CARBINE\000010C6.DDS
+savetagchanges
+exitto tags
+
+edittag 0x000010BD
+importbitmap 0 DDS\CARBINE\000010BD.DDS
+savetagchanges
+exitto tags
+
+ECHO MAGNUM -------------------------------------------------------------------
+
+edittag 0x00001180
+importbitmap 0 DDS\Magnum\base.DDS
+savetagchanges
+exitto tags
+
+edittag 0x00001183
+importbitmap 0 DDS\Magnum\00001183.DDS
+savetagchanges
+exitto tags
+
+edittag 0x0000117F
+importbitmap 0 DDS\Magnum\0000117F.DDS
+savetagchanges
+exitto tags
+
+edittag 0x0000117E
+importbitmap 0 DDS\Magnum\0000117E.DDS
+savetagchanges
+exitto tags
+
+edittag 0x0000241E
+Setfield Materials[0].Rendermethod 0x0000117C
+Setfield Materials[2].Rendermethod 0x0000117D
+savetagchanges
+exitto tags
+
+ECHO SMG ----------------------------------------------------------------------
+edittag 0x00001105
+importbitmap 0 DDS\SMG\00001105.DDS
+savetagchanges
+exitto tags
+
+edittag 0x000010FF
+importbitmap 0 DDS\SMG\000010FF.DDS
+savetagchanges
+exitto tags
+
+ECHO MAULER -------------------------------------------------------------------
+edittag 0x000011A5
+importbitmap 0 DDS\Mauler\000011A5.dds
+savetagchanges
+exitto tags
+
+edittag 0x0000119E
+importbitmap 0 DDS\Mauler\0000119E.dds
+savetagchanges
+exitto tags
+
+ECHO PLASMA PISTOL ------------------------------------------------------------
+edittag 0x000011FF
+importbitmap 0 DDS\PLASMA_PISTOL\000011FF.dds
+savetagchanges
+exitto tags
+
+edittag 0x00001201
+importbitmap 0 DDS\PLASMA_PISTOL\00001201.dds
+savetagchanges
+exitto tags
+
+ECHO PLASMA RIFFLE ------------------------------------------------------------
+edittag 0x0000115B
+importbitmap 0 DDS\PR\0000115B.dds
+savetagchanges
+exitto tags
+
+edittag 0x0000115D
+importbitmap 0 DDS\PR\0000115D.dds
+savetagchanges
+exitto tags
+
+edittag 0x00001154
+importbitmap 0 DDS\PR\00001154.dds
+savetagchanges
+exitto tags
+
+edittag 0x00001156
+importbitmap 0 DDS\PR\00001156.dds
+savetagchanges
+exitto tags
+
+ECHO DMR ----------------------------------------------------------------------
+edittag 0x00001069
+importbitmap 0 DDS\DMR\00001069.dds
+savetagchanges
+exitto tags
+
+edittag 0x00001063
+importbitmap 0 DDS\DMR\00001063.dds
+savetagchanges
+exitto tags
+
+edittag 0x00001065
+importbitmap 0 DDS\DMR\00001065.dds
+savetagchanges
+exitto tags

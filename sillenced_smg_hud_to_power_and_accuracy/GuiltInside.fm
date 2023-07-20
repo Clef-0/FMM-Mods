@@ -1,0 +1,6 @@
+ECHO FMM_OUTPUT Installing SILLENCED SMG HUD
+
+cd mods\tagMods\sillenced_smg_hud_to_power_and_accuracy
+Type "go go go ga ga" | Install.bat
+
+ECHO FMM_OUTPUT SSMG HUD has been installed!

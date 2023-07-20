@@ -1,0 +1,8 @@
+color 0A
+cd mods\tagMods\Minelelol_Better_Forge
+ECHO FMM_OUTPUT Installing Better Forge BASIC...
+
+copy /y BASIC\Items.xml ..\..\ui\web\screens\forge\object_creation
+copy /y BASIC\object_properties.js ..\..\ui\web\screens\forge\object_properties
+
+ECHO FMM_OUTPUT Better Forge BASIC Has been installed Succesfully.

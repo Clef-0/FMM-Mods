@@ -1,0 +1,28 @@
+edittag 0x00000F7F
+importbitmap 0 DDS/BR2.dds
+savetagchanges
+exitto tags
+
+echo DAMAGE
+edittag 0x00000FCE
+importbitmap 0 DDS/00000FCE.dds
+savetagchanges
+exitto tags
+
+echo AMMO
+edittag 0x00000FC1
+importbitmap 0 DDS/00000FC1.dds
+savetagchanges
+exitto tags
+
+echo ACCURACY AND RANGE
+edittag 0x00000FA4
+importbitmap 0 DDS/BRSCOPE.dds
+savetagchanges
+exitto tags
+
+echo POWER
+edittag 0x00000FD5
+importbitmap 0 DDS/00000FD5.dds
+savetagchanges
+exitto tags

@@ -1,0 +1,1 @@
+TYPE Commands\MCC.cmds | TagTool.exe ..\..\..\maps\tags.dat

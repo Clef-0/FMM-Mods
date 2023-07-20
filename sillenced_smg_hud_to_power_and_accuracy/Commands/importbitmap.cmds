@@ -1,0 +1,201 @@
+
+echo importing stuff
+
+edittag 0x0000131F
+importbitmap 0 DDS\ssmg_rim.dds
+savetagchanges
+exitto tags
+
+edittag 0x1321
+importbitmap 0 DDS\SMG.dds
+addblockelements Sequences
+removeblockelements Sequences 1 *
+addblockelements Sequences[0].Sprites
+removeblockelements Sequences[0].Sprites 1 *
+setfield Sequences[0].BitmapCount 1
+setfield Sequences[0].Sprites[0].Left 0.8515625
+setfield Sequences[0].Sprites[0].Right 0.9960938
+setfield Sequences[0].Sprites[0].top 0.2070313
+setfield Sequences[0].Sprites[0].Bottom 0.3515625
+setfield Sequences[0].Sprites[0].RegistrationPoint 0.07226563 0.7226563
+savetagchanges
+exitto tags
+
+edittag 0x0000131B
+importbitmap 0 DDS\SCOPE.DDS
+addblockelements sequences 2
+removeblockelements sequences 2 *
+addblockelements sequences[0].Sprites 1
+addblockelements sequences[1].Sprites 1
+removeblockelements sequences[0].Sprites 1 *
+removeblockelements sequences[1].Sprites 1 *
+setfield Sequences[0].BitmapCount 1
+setfield Sequences[0].Sprites[0].Left 0
+setfield Sequences[0].Sprites[0].Right 0.7578125
+setfield Sequences[0].Sprites[0].top 0.75
+setfield Sequences[0].Sprites[0].Bottom 0.984375
+setfield Sequences[0].Sprites[0].RegistrationPoint 0.3789063 0.1171875
+
+setfield Sequences[1].BitmapCount 1
+setfield Sequences[1].Sprites[0].Left 0
+setfield Sequences[1].Sprites[0].Right 0.1640625
+setfield Sequences[1].Sprites[0].top 0
+setfield Sequences[1].Sprites[0].Bottom 0.75
+setfield Sequences[1].Sprites[0].RegistrationPoint 0.08203125 0.375
+savetagchanges
+exitto tags
+
+echo betrayed by trust forever left to scream
+
+echo smg chdt
+edittag 0x23EA
+editblock HUDWidgets[1]
+editblock BitmapWidgets[0]
+editblock AnimationData[0]
+editblock Active
+setfield Animation null
+savetagchanges
+exit
+exit
+exit
+exit
+editblock Hudwidgets[0]
+editblock bitmapwidgets[0]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exit
+exit
+exit
+exit
+editblock Hudwidgets[0]
+editblock bitmapwidgets[3]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exit
+exit
+exit
+exit
+
+Setfield HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Origin -1 -1
+Setfield HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Offset 0 0
+Setfield HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 2.25 2.25
+
+Setfield HUDWidgets[0].BitmapWidgets[1].Bitmap 0x0000131B
+Setfield HUDWidgets[0].BitmapWidgets[1].PlacementData[0].Origin 1.67 0
+Setfield HUDWidgets[0].BitmapWidgets[1].PlacementData[0].Offset 0 10.5
+Setfield HUDWidgets[0].BitmapWidgets[1].PlacementData[0].Scale 2.25 2.25
+
+Setfield HUDWidgets[0].BitmapWidgets[2].Bitmap 0x0000131B
+Setfield HUDWidgets[0].BitmapWidgets[2].PlacementData[0].Origin 0 1.7
+Setfield HUDWidgets[0].BitmapWidgets[2].PlacementData[0].Offset 0 0
+Setfield HUDWidgets[0].BitmapWidgets[2].PlacementData[0].Scale 2.25 2.25
+
+Setfield HUDWidgets[0].BitmapWidgets[3].Bitmap 0x0000131F
+Setfield HUDWidgets[0].BitmapWidgets[3].PlacementData[0].Origin -1.02 -1.0195
+Setfield HUDWidgets[0].BitmapWidgets[3].PlacementData[0].Offset 0 0
+Setfield HUDWidgets[0].BitmapWidgets[3].PlacementData[0].Scale 2.25 2.25
+Setfield HUDWidgets[0].BitmapWidgets[3].BitmapSequenceIndex 32
+Setfield HUDWidgets[0].BitmapWidgets[3].Flags MirrorHorizontally,MirrorVertically
+savetagchanges
+
+Setfield HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 0.4425 0.4425
+Setfield HUDWidgets[1].BitmapWidgets[0].PlacementData[0].origin 0 0
+Setfield HUDWidgets[1].BitmapWidgets[0].Bitmap 0x1321
+Setfield HUDWidgets[1].BitmapWidgets[0].BitmapSequenceIndex 0
+Setfield HUDWidgets[1].BitmapWidgets[0].flags none
+Setfield HUDWidgets[1].BitmapWidgets[0].RenderData[0].Rangeinput Zero
+Setfield HUDWidgets[1].BitmapWidgets[1].Bitmap null
+Setfield HUDWidgets[1].BitmapWidgets[2].Bitmap null
+Setfield HUDWidgets[1].BitmapWidgets[3].Bitmap null
+Setfield HUDWidgets[1].BitmapWidgets[4].Bitmap null
+Setfield HUDWidgets[1].BitmapWidgets[5].Bitmap null
+Setfield HUDWidgets[1].BitmapWidgets[6].Bitmap null
+Setfield HUDWidgets[1].BitmapWidgets[7].Bitmap null
+Setfield HUDWidgets[1].BitmapWidgets[8].Bitmap null
+savetagchanges
+exitto tags
+
+edittag 0x000023D7
+editblock HUDWidgets[1]
+editblock BitmapWidgets[0]
+editblock AnimationData[0]
+editblock Active
+setfield Animation null
+savetagchanges
+exit
+exit
+exit
+exit
+editblock Hudwidgets[0]
+editblock bitmapwidgets[0]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exit
+exit
+exit
+exit
+editblock Hudwidgets[0]
+editblock bitmapwidgets[3]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exit
+exit
+exit
+exit
+
+Setfield HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Origin -1 -1
+Setfield HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Offset 0 0
+Setfield HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 2.25 2.25
+
+Setfield HUDWidgets[0].BitmapWidgets[1].Bitmap 0x0000131B
+Setfield HUDWidgets[0].BitmapWidgets[1].PlacementData[0].Origin 1.67 0
+Setfield HUDWidgets[0].BitmapWidgets[1].PlacementData[0].Offset 0 10.5
+Setfield HUDWidgets[0].BitmapWidgets[1].PlacementData[0].Scale 2.25 2.25
+
+Setfield HUDWidgets[0].BitmapWidgets[2].Bitmap 0x0000131B
+Setfield HUDWidgets[0].BitmapWidgets[2].PlacementData[0].Origin 0 1.7
+Setfield HUDWidgets[0].BitmapWidgets[2].PlacementData[0].Offset 0 0
+Setfield HUDWidgets[0].BitmapWidgets[2].PlacementData[0].Scale 2.25 2.25
+
+Setfield HUDWidgets[0].BitmapWidgets[3].Bitmap 0x0000131F
+Setfield HUDWidgets[0].BitmapWidgets[3].PlacementData[0].Origin -1.02 -1.0195
+Setfield HUDWidgets[0].BitmapWidgets[3].PlacementData[0].Offset 0 0
+Setfield HUDWidgets[0].BitmapWidgets[3].PlacementData[0].Scale 2.25 2.25
+Setfield HUDWidgets[0].BitmapWidgets[3].BitmapSequenceIndex 32
+Setfield HUDWidgets[0].BitmapWidgets[3].Flags MirrorHorizontally,MirrorVertically
+savetagchanges
+
+Setfield HUDWidgets[1].BitmapWidgets[0].PlacementData[0].Scale 0.4425 0.4425
+Setfield HUDWidgets[1].BitmapWidgets[0].PlacementData[0].origin 0 0
+Setfield HUDWidgets[1].BitmapWidgets[0].Bitmap 0x1321
+Setfield HUDWidgets[1].BitmapWidgets[0].BitmapSequenceIndex 0
+Setfield HUDWidgets[1].BitmapWidgets[0].flags none
+Setfield HUDWidgets[1].BitmapWidgets[0].RenderData[0].Rangeinput Zero
+Setfield HUDWidgets[1].BitmapWidgets[1].Bitmap null
+Setfield HUDWidgets[1].BitmapWidgets[2].Bitmap null
+Setfield HUDWidgets[1].BitmapWidgets[3].Bitmap null
+Setfield HUDWidgets[1].BitmapWidgets[4].Bitmap null
+Setfield HUDWidgets[1].BitmapWidgets[5].Bitmap null
+Setfield HUDWidgets[1].BitmapWidgets[6].Bitmap null
+Setfield HUDWidgets[1].BitmapWidgets[7].Bitmap null
+Setfield HUDWidgets[1].BitmapWidgets[8].Bitmap null
+savetagchanges
+exitto tags
+
+dumplog

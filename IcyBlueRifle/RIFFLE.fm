@@ -1,0 +1,7 @@
+ECHO FMM_OUTPUT Installing IcyBlueRifle...
+cd mods\tagMods\IcyBlueRifle
+Type "You got that boom, chika, boom, boom, boom, boom" | FMM.bat
+
+
+
+ECHO FMM_OUTPUT IcyBlueRifle Has been installed Succesfully have fun with the skin :)

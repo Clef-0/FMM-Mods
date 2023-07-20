@@ -1,0 +1,179 @@
+########################
+#    ASSAULT RIFLE     #
+########################
+
+#BASE
+edittag objects\weapons\rifle\assault_rifle\assault_rifle.render_model
+setfield Materials[4].RenderMethod 0x0EEC
+setfield Materials[5].RenderMethod 0x0EEB
+savetagchanges
+exitto tags
+
+#ACC
+edittag 0x00002347
+setfield Materials[4].RenderMethod 0x0F5E
+setfield Materials[5].RenderMethod 0x0F5D
+savetagchanges
+exitto tags
+
+#DMG
+edittag 0x00002329
+setfield Materials[13].RenderMethod 0x0F2C
+setfield Materials[14].RenderMethod 0x0F2D
+savetagchanges
+exitto tags
+
+#POW
+edittag 0x00002358
+setfield Materials[5].RenderMethod 0x0EEB
+setfield Materials[6].RenderMethod 0x0EEC
+savetagchanges
+exitto tags
+
+#ROF
+edittag 0x0000233A
+setfield Materials[12].RenderMethod 0x0F3C
+setfield Materials[13].RenderMethod 0x0F3D
+savetagchanges
+exitto tags
+
+########################
+#     BATTLE RIFLE     #
+########################
+
+#BASE
+edittag objects\weapons\rifle\battle_rifle\battle_rifle.render_model
+setfield Materials[6].RenderMethod 0x0F79
+setfield Materials[7].RenderMethod 0x0F7A
+savetagchanges
+exitto tags
+
+#AMMO
+edittag 0x00002368
+setfield Materials[10].RenderMethod 0x0FBE
+setfield Materials[11].RenderMethod 0x0FBF
+savetagchanges
+exitto tags
+
+#DMG
+edittag 0x00002375
+setfield Materials[2].RenderMethod 0x0FCB
+setfield Materials[3].RenderMethod 0x0FCA
+savetagchanges
+exitto tags
+
+#POW
+edittag 0x00002386
+setfield Materials[5].RenderMethod 0x0FE5
+setfield Materials[6].RenderMethod 0x0FE6
+savetagchanges
+exitto tags
+########################
+#       CARBINE        #
+########################
+
+#BASE
+edittag 0x00001DF6
+setfield Materials[3].RenderMethod 0x00001072
+setfield Materials[4].RenderMethod 0x00001072
+savetagchanges
+exitto tags
+
+########################
+#         DMR          #
+########################
+
+#BASE
+edittag 0x00000FF9
+setfield SortLayer PostPass
+savetagchanges
+exitto tags
+
+edittag 0x00000FFA
+setfield SortLayer PostPass
+savetagchanges
+exitto tags
+
+#ACC
+Deletetag surely\noone\will\name\the\same\tag\as\this\dmraccuracy.mode
+Duplicatetag objects\weapons\rifle\dmr\fp_dmr\fp_dmr_v2.mode
+nametag * surely\noone\will\name\the\same\tag\as\this\dmraccuracy.mode
+savetagnames
+edittag surely\noone\will\name\the\same\tag\as\this\dmraccuracy.mode
+setfield Nodes[2].DefaultTranslation 0.007463333 0.003885493 0.05554584
+setfield Nodes[2].DefaultRotation 0.5728752 -3.94E-08 -2.75E-08 -0.8196426
+setfield Nodes[2].InverseForward 1 -9.022291E-08 3.30797E-08
+setfield Nodes[2].InverseLeft -6.222223E-11 0.343628 0.9391059
+setfield Nodes[2].InverseUp -9.609597E-08 -0.9391059 0.343628
+setfield Nodes[2].InversePosition -0.007463328 0.05082826 -0.02273599
+setfield Nodes[2].DistanceFromParent 0.05617952
+savetagchanges
+exitto tags
+
+edittag 0x00002391
+setfield RenderModel surely\noone\will\name\the\same\tag\as\this\dmraccuracy.mode
+savetagchanges
+exitto tags
+
+#DMG
+Deletetag surely\noone\will\name\the\same\tag\as\this\dmrdamage.mode
+Duplicatetag objects\weapons\rifle\dmr\fp_dmr\fp_dmr_v4.mode
+nametag * surely\noone\will\name\the\same\tag\as\this\dmrdamage.mode
+savetagnames
+edittag surely\noone\will\name\the\same\tag\as\this\dmrdamage.mode
+setfield Nodes[2].DefaultTranslation 0.007463333 0.003885493 0.05554584
+setfield Nodes[2].DefaultRotation 0.5728752 -3.94E-08 -2.75E-08 -0.8196426
+setfield Nodes[2].InverseForward 1 -9.022291E-08 3.30797E-08
+setfield Nodes[2].InverseLeft -6.222223E-11 0.343628 0.9391059
+setfield Nodes[2].InverseUp -9.609597E-08 -0.9391059 0.343628
+setfield Nodes[2].InversePosition -0.007463328 0.05082826 -0.02273599
+setfield Nodes[2].DistanceFromParent 0.05617952
+savetagchanges
+exitto tags
+
+edittag 0x000023B0
+setfield RenderModel surely\noone\will\name\the\same\tag\as\this\dmrdamage.mode
+savetagchanges
+exitto tags
+
+#POW
+Deletetag surely\noone\will\name\the\same\tag\as\this\dmrpower.mode
+Duplicatetag objects\weapons\rifle\dmr\fp_dmr\fp_dmr_v6.mode
+nametag * surely\noone\will\name\the\same\tag\as\this\dmrpower.mode
+savetagnames
+edittag surely\noone\will\name\the\same\tag\as\this\dmrpower.mode
+setfield Nodes[2].DefaultTranslation 0.007463333 0.003885493 0.05554584
+setfield Nodes[2].DefaultRotation 0.5728752 -3.94E-08 -2.75E-08 -0.8196426
+setfield Nodes[2].InverseForward 1 -9.022291E-08 3.30797E-08
+setfield Nodes[2].InverseLeft -6.222223E-11 0.343628 0.9391059
+setfield Nodes[2].InverseUp -9.609597E-08 -0.9391059 0.343628
+setfield Nodes[2].InversePosition -0.007463328 0.05082826 -0.02273599
+setfield Nodes[2].DistanceFromParent 0.05617952
+savetagchanges
+exitto tags
+
+edittag 0x000023BF
+setfield RenderModel surely\noone\will\name\the\same\tag\as\this\dmrpower.mode
+savetagchanges
+exitto tags
+
+#ROF
+Deletetag surely\noone\will\name\the\same\tag\as\this\dmrrofl.mode
+Duplicatetag objects\weapons\rifle\dmr\fp_dmr\fp_dmr_v3.mode
+nametag * surely\noone\will\name\the\same\tag\as\this\dmrrofl.mode
+savetagnames
+edittag surely\noone\will\name\the\same\tag\as\this\dmrrofl.mode
+setfield Nodes[2].DefaultTranslation 0.007463333 0.003885493 0.05554584
+setfield Nodes[2].DefaultRotation 0.5728752 -3.94E-08 -2.75E-08 -0.8196426
+setfield Nodes[2].InverseForward 1 -9.022291E-08 3.30797E-08
+setfield Nodes[2].InverseLeft -6.222223E-11 0.343628 0.9391059
+setfield Nodes[2].InverseUp -9.609597E-08 -0.9391059 0.343628
+setfield Nodes[2].InversePosition -0.007463328 0.05082826 -0.02273599
+setfield Nodes[2].DistanceFromParent 0.05617952
+savetagchanges
+exitto tags
+
+edittag 0x000023A4
+setfield RenderModel surely\noone\will\name\the\same\tag\as\this\dmrrofl.mode
+savetagchanges
+exitto tags

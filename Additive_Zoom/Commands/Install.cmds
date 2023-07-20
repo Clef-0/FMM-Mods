@@ -1,0 +1,490 @@
+edittag 0x00001D87
+editblock Hudwidgets[3]
+editblock bitmapwidgets[0]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exitto tags
+
+edittag 0x00002361
+editblock Hudwidgets[3]
+editblock bitmapwidgets[0]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exitto tags
+
+edittag 0x0000258B
+editblock Hudwidgets[3]
+editblock bitmapwidgets[0]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exitto tags
+
+edittag 0x00002581
+editblock Hudwidgets[3]
+editblock bitmapwidgets[0]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exitto tags
+
+edittag 0x00002595
+editblock Hudwidgets[3]
+editblock bitmapwidgets[0]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exitto tags
+
+edittag 0x00002381
+editblock Hudwidgets[3]
+editblock bitmapwidgets[0]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exitto tags
+
+ECHO BEAM RIFLE
+edittag 0x00002459
+editblock Hudwidgets[3]
+editblock bitmapwidgets[0]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exit
+exit
+exit
+editblock bitmapwidgets[1]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exitto tags
+
+
+ECHO CARBINE
+edittag 0x00001DBA
+editblock Hudwidgets[3]
+editblock bitmapwidgets[0]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exit
+exit
+exit
+editblock Hudwidgets[3]
+editblock bitmapwidgets[5]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exit
+exit
+exit
+editblock Hudwidgets[3]
+editblock bitmapwidgets[6]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exit
+exit
+exit
+editblock Hudwidgets[3]
+editblock bitmapwidgets[7]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exitto tags
+
+edittag 0x000025BA
+editblock Hudwidgets[3]
+editblock bitmapwidgets[0]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exit
+exit
+exit
+editblock Hudwidgets[3]
+editblock bitmapwidgets[5]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exit
+exit
+exit
+editblock Hudwidgets[3]
+editblock bitmapwidgets[6]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exit
+exit
+exit
+editblock Hudwidgets[3]
+editblock bitmapwidgets[7]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exitto tags
+
+edittag 0x000025CC
+editblock Hudwidgets[3]
+editblock bitmapwidgets[0]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exit
+exit
+exit
+editblock Hudwidgets[3]
+editblock bitmapwidgets[5]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exit
+exit
+exit
+editblock Hudwidgets[3]
+editblock bitmapwidgets[6]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exit
+exit
+exit
+editblock Hudwidgets[3]
+editblock bitmapwidgets[7]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exitto tags
+
+edittag 0x000025D5
+editblock Hudwidgets[3]
+editblock bitmapwidgets[0]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exit
+exit
+exit
+editblock Hudwidgets[3]
+editblock bitmapwidgets[5]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exit
+exit
+exit
+editblock Hudwidgets[3]
+editblock bitmapwidgets[6]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exit
+exit
+exit
+editblock Hudwidgets[3]
+editblock bitmapwidgets[7]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exitto tags
+
+edittag 0x000025B1
+editblock Hudwidgets[3]
+editblock bitmapwidgets[0]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exit
+exit
+exit
+editblock Hudwidgets[3]
+editblock bitmapwidgets[5]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exit
+exit
+exit
+editblock Hudwidgets[3]
+editblock bitmapwidgets[6]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exit
+exit
+exit
+editblock Hudwidgets[3]
+editblock bitmapwidgets[7]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exitto tags
+
+edittag 0x000025C3
+editblock Hudwidgets[5]
+editblock bitmapwidgets[0]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exit
+exit
+exit
+editblock Hudwidgets[5]
+editblock bitmapwidgets[1]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exitto tags
+
+edittag 0x000023FE
+editblock Hudwidgets[3]
+editblock bitmapwidgets[0]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exit
+exit
+exit
+editblock Hudwidgets[3]
+editblock bitmapwidgets[5]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exit
+exit
+exit
+editblock Hudwidgets[3]
+editblock bitmapwidgets[6]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exit
+exit
+exit
+editblock Hudwidgets[3]
+editblock bitmapwidgets[7]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exitto tags
+
+ECHO DMR
+edittag 0x00001E11
+editblock Hudwidgets[3]
+editblock bitmapwidgets[0]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exitto tags
+
+edittag 0x0000259E
+editblock Hudwidgets[3]
+editblock bitmapwidgets[0]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exitto tags
+
+edittag 0x00002392
+editblock Hudwidgets[3]
+editblock bitmapwidgets[0]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exitto tags
+
+edittag 0x000023A5
+editblock Hudwidgets[3]
+editblock bitmapwidgets[0]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exitto tags
+
+edittag 0x000023C0
+editblock Hudwidgets[3]
+editblock bitmapwidgets[0]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exitto tags
+
+ECHO MAGNUM
+edittag 0x0000241B
+editblock Hudwidgets[6]
+editblock bitmapwidgets[0]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exitto tags
+
+Echo ROCKET
+edittag 0x00001C9F
+editblock Hudwidgets[3]
+editblock bitmapwidgets[0]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exitto tags
+
+ECHO SMG
+edittag 0x000023D7
+editblock Hudwidgets[0]
+editblock bitmapwidgets[0]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exitto tags
+
+Edittag 0x000023EA
+editblock Hudwidgets[0]
+editblock bitmapwidgets[0]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exitto tags
+
+ECHO SNIPER
+edittag 0x00001F90
+editblock Hudwidgets[3]
+editblock bitmapwidgets[0]
+addblockelements Animationdata
+removeblockelements Animationdata 1 *
+editblock Animationdata[0]
+editblock active
+Setfield Animation 0x0c5D
+savetagchanges
+exitto tags

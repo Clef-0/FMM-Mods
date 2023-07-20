@@ -1,0 +1,14 @@
+edittag 0x2494
+importbitmap 0 DDS\FIX\FIX2.dds
+savetagchanges
+exit
+
+edittag 0x249D
+importbitmap 0 DDS\FIX\FIX1.dds
+savetagchanges
+exit
+
+edittag 0x250C
+importbitmap 0 DDS\FIX\FIX3.dds
+savetagchanges
+exit

@@ -1,0 +1,12 @@
+1.2 :
+Now that I have a new hardware I can play mcc and extract its texture
+now the MCC Crosshair is almost completed
+
+MCC crosshair changed:
+Carbine, Spartan Laser, Shotgun, Beam Rifle, Sentinel beam, and Mauler.
+
+Added custom Crosshair.
+
+Reduced the File size to the image by using the BC2 Compression
+
+Removed Jalex Advanced install because I see no purpose on it tbh

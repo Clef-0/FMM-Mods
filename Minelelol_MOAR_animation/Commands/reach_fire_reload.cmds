@@ -1,0 +1,26 @@
+echo --------------------------------------------------------------------------------------------------------
+echo I                                              MAGNUM                                                  I
+echo --------------------------------------------------------------------------------------------------------
+echo Magnum_Pistol Hell yea finally some content
+edittag objects\characters\masterchief\fp\weapons\pistol\magnum\fp_magnum\fp_magnum.jmad
+swapblockelements animations 20 46
+swapblockelements animations 21 47
+swapblockelements animations 22 48
+
+setfield animations[20].weight 0.4
+setfield animations[20].animationdata.NextAnimation 21
+setfield animations[20].animationdata.NodeListChecksum -461227299
+setfield animations[20].animationdata.ProductionChecksum 487999161
+setfield animations[20].animationdata.InternalFlags ValidProductionChecksum
+setfield animations[21].weight 0.65
+setfield animations[21].animationdata.NextAnimation 22
+setfield animations[21].animationdata.NodeListChecksum -461227299
+setfield animations[21].animationdata.ProductionChecksum 487999161
+setfield animations[21].animationdata.InternalFlags ValidProductionChecksum
+setfield animations[22].weight 1
+setfield animations[22].animationdata.ParentAnimation 20
+setfield animations[22].animationdata.NodeListChecksum -461227299
+setfield animations[22].animationdata.ProductionChecksum 487999161
+setfield animations[22].animationdata.InternalFlags ValidProductionChecksum
+savetagchanges
+exitto tags

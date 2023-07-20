@@ -1,0 +1,9 @@
+color 0A
+cd mods\tagMods\Clean_Halo_Online_HUD
+ECHO FMM_OUTPUT Installing Clean_Halo_Online_HUD ...
+
+Type commands\importbitmap.cmds | TagTool.exe ..\..\..\maps\tags.dat
+timeout 1
+
+
+ECHO FMM_OUTPUT The lines are now removed :)

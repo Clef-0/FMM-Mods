@@ -1,0 +1,6 @@
+ECHO FMM_OUTPUT Installing the crosshair
+
+cd mods\tagMods\Halo3_Crosshair
+Type "sorry sat" | Install.bat
+
+ECHO FMM_OUTPUT Crosshair Mods has been installed!

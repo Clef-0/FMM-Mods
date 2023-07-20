@@ -1,0 +1,5 @@
+ECHO FMM_OUTPUT Installing Extreme HUD Shake
+cd mods\tagMods\Extreme_HUD_Shake
+Type "Hay" | Install.bat
+
+ECHO FMM_OUTPUT Extreme HUD Shake has been installed!

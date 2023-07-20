@@ -1,0 +1,19 @@
+edittag objects\characters\masterchief\masterchief.jmad
+removeblockelements modes[2].weaponclass 6 *
+addblockelements modes[2].weaponclass
+setfield modes[2].weaponclass[6].label support
+addblockelements modes[2].weaponclass[6].weapontype
+setfield modes[2].weaponclass[6].weapontype[0].label any
+editblock modes[2].weaponclass[6].weapontype[0].set
+addblockelements Actions 1
+setfield actions[0].Label move_front
+setfield actions[0].GraphIndex -1
+setfield actions[0].Animation 1050
+exitto objects\characters\masterchief\masterchief.model_animation_graph
+swapblockelements modes[2].weaponclass 6 5
+swapblockelements modes[2].weaponclass 5 4
+swapblockelements modes[2].weaponclass 4 3
+swapblockelements modes[2].weaponclass 3 2
+swapblockelements modes[2].weaponclass 2 1
+savetagchanges
+exitto tags

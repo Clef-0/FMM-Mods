@@ -1,0 +1,12 @@
+edittag 0x2305
+setfield Shaderproperties[0].Realconstants[5].Values 0.53561 0.2 1 1.2
+setfield Shaderproperties[0].Realconstants[6].Values 0.5 0.4019608 1 60
+setfield Shaderproperties[0].Realconstants[7].Values 0.3921569 0.68549 10 1.4
+setfield Shaderproperties[0].Realconstants[11].Values 15.02 15 15 5
+savetagchanges
+exitto tags
+
+edittag 0x00002306
+importbitmap 0 DDS\00002306.dds
+savetagchanges
+exit

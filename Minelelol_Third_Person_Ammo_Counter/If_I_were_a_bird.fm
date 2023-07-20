@@ -1,0 +1,5 @@
+ECHO FMM_OUTPUT Installing Third Person Ammo Counter
+cd mods\tagMods\Minelelol_Third_Person_Ammo_Counter
+Type "Hay" | Install.bat
+
+ECHO FMM_OUTPUT Third Person Weapon Ammo Counter has been installed!

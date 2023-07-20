@@ -1,0 +1,23 @@
+edittag 0x00000C31.cprl
+setfield Unknown 0.07
+setfield Unknown2 0.075
+savetagchanges
+exitto tags
+
+edittag 0x00000C43.cprl
+setfield Unknown 0.05
+setfield Unknown2 0.075
+savetagchanges
+exitto tags
+
+edittag 0x00000C51.cprl
+setfield Unknown 0.08
+setfield Unknown2 0.075
+savetagchanges
+exitto tags
+
+edittag 0x00001313.cprl
+setfield Unknown 0.03
+setfield Unknown2 0.075
+savetagchanges
+exitto tags

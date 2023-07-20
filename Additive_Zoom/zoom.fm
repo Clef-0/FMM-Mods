@@ -1,0 +1,6 @@
+ECHO FMM_OUTPUT Installing Additive Zoom
+
+cd mods\tagMods\Additive_Zoom
+Type "go go go ga ga" | Install.bat
+
+ECHO FMM_OUTPUT Additive Zoom has been installed!
