@@ -216,74 +216,28 @@ setfield angles -90 0 0
 savetagchanges
 exitto tags
 
-ECHO : BLOATED CMDS I KNOW :"(, not in the mood to make it setfield command as i am having stress with spartan laser, you can modify it as you wish including all of the cmds (remember if the command are public, its anyone game)
-
-echo (Spartan Laser Tag) I stole satomi value yes I know I'm an criminal (satomi I'm sorry, talk to me on disc if you want it this mod to be removed Minelelol™#2688)
+echo (Spartan Laser Tag)
 edittag 0x000024AB
-
-editblock HUDWidgets[2]
-editblock BitmapWidgets[6]
-editblock AnimationData[0]
-editblock Active
-Setfield inputtype Time
-Setfield flags 0
-savetagchanges
-exit
-exit
-exit
-editblock BitmapWidgets[3]
-editblock AnimationData[0]
-editblock Active
-Setfield flags 0
-Setfield inputtype Time
-savetagchanges
-exit
-exit
-exit
-
-editblock BitmapWidgets[3]
-editblock AnimationData[0]
-editblock Active
-Setfield flags 0
-Setfield inputtype Time
-savetagchanges
-exit
-exit
-exit
-
-
-editblock BitmapWidgets[2]
-editblock AnimationData[0]
-editblock Active
-Setfield flags 0
-savetagchanges
-exit
-exit
-exit
-exit
-
-editblock HUDWidgets[2]
-editblock BitmapWidgets[2]
-editblock Renderdata[0]
-setfield shadertype Simple
-setfield LocalScalarD 0
-setfield OutputColorA HighlightForeground 
-setfield OutputColorB LocalA 
-setfield OutputColorC LocalA 
-setfield OutputColorD LocalD 
-setfield OutputColorE LocalA 
-setfield OutputColorF LocalA 
-setfield OutputScalarA Input 
-setfield OutputScalarB Input 
-setfield OutputScalarC Input 
-setfield OutputScalarD Input 
-setfield OutputScalarE Input 
-setfield OutputScalarF Input 
-savetagchanges
-exit
-exit
-exit
-
+setfield HudWidgets[2].BitmapWidgets[6].AnimationData[0].Active.InputType Time
+setfield HudWidgets[2].BitmapWidgets[6].AnimationData[0].Active.Flags 0
+setfield HudWidgets[2].BitmapWidgets[3].AnimationData[0].Active.InputType Time
+setfield HudWidgets[2].BitmapWidgets[3].AnimationData[0].Active.Flags 0
+setfield HudWidgets[2].BitmapWidgets[2].AnimationData[0].Active.InputType Time
+setfield HudWidgets[2].BitmapWidgets[2].AnimationData[0].Active.Flags 0
+setfield HudWidgets[2].BitmapWidgets[2].RenderData[0].Shadertype Simple
+setfield HudWidgets[2].BitmapWidgets[2].RenderData[0].LocalScalarD 0
+setfield HudWidgets[2].BitmapWidgets[2].RenderData[0].OutputColorA HighlightForeground 
+setfield HudWidgets[2].BitmapWidgets[2].RenderData[0].OutputColorB LocalA 
+setfield HudWidgets[2].BitmapWidgets[2].RenderData[0].OutputColorC LocalA 
+setfield HudWidgets[2].BitmapWidgets[2].RenderData[0].OutputColorD LocalD 
+setfield HudWidgets[2].BitmapWidgets[2].RenderData[0].OutputColorE LocalA 
+setfield HudWidgets[2].BitmapWidgets[2].RenderData[0].OutputColorF LocalA 
+setfield HudWidgets[2].BitmapWidgets[2].RenderData[0].OutputScalarA Input 
+setfield HudWidgets[2].BitmapWidgets[2].RenderData[0].OutputScalarB Input 
+setfield HudWidgets[2].BitmapWidgets[2].RenderData[0].OutputScalarC Input 
+setfield HudWidgets[2].BitmapWidgets[2].RenderData[0].OutputScalarD Input 
+setfield HudWidgets[2].BitmapWidgets[2].RenderData[0].OutputScalarE Input 
+setfield HudWidgets[2].BitmapWidgets[2].RenderData[0].OutputScalarF Input 
 
 Setfield HUDWidgets[0].BitmapWidgets[2].PlacementData[0].Origin 1 -1
 Setfield HUDWidgets[0].BitmapWidgets[2].PlacementData[0].Offset -57 -52.5
@@ -340,7 +294,6 @@ Setfield HUDWidgets[2].BitmapWidgets[3].RenderData[0].OutputScalarD RangeInput
 Setfield HUDWidgets[2].BitmapWidgets[3].RenderData[0].OutputScalarE RangeInput
 Setfield HUDWidgets[2].BitmapWidgets[3].RenderData[0].OutputScalarF RangeInput
 Setfield HUDWidgets[2].BitmapWidgets[3].StateData[0].Unitzoomflags BinocularsEnabled
-
 Setfield HUDWidgets[2].BitmapWidgets[6].Bitmap 0x22F7
 Setfield HUDWidgets[2].BitmapWidgets[6].PlacementData[0].Scale 0.75 0.75
 Setfield HUDWidgets[2].BitmapWidgets[6].PlacementData[0].Origin 0 0
@@ -348,12 +301,10 @@ Setfield HUDWidgets[2].BitmapWidgets[6].RenderData[0].Rangeinput Autoaim
 Setfield HUDWidgets[2].BitmapWidgets[6].StateData[0].Unitzoomflags Unitiszoomedlevel1
 savetagchanges
 
-Echo Scope (pain)
+Echo Scope
 
 Setfield HUDWidgets[6].TextWidgets[0].PlacementData[0].Offset 0 186
 Setfield HUDWidgets[6].TextWidgets[0].PlacementData[0].Scale 1.2 1.2
-Savetagchanges
-
 Setfield HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Scale 1.65 1.65
 Setfield HUDWidgets[6].BitmapWidgets[0].PlacementData[0].Origin -1 -1
 Setfield HUDWidgets[6].BitmapWidgets[0].RenderData[0].Rangeinput Zero

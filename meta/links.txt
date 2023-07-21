@@ -34,10 +34,9 @@ https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/FreelancerCC/Freelancer
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/HeadshotPop/HeadshotPop.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/HOMusic_V2/HOMusic_V2.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Additive_Zoom/zoom.ini
-https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/BubbleShield_Fix/BEGONE.ini
-https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/BubbleShield_Fix/Infrange.ini
+https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/BubbleShield_Fix/Bubble.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Clean_Halo_Online_HUD/HUD.ini
-https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Extreme_HUD_Shake/World_Deppression.ini
+https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Extreme_HUD_Shake/ExtremeHud.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Halo3_Crosshair/pain.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/IcyBlueRifle/RIFFLE.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Inspired_aka_ripoff_warthog_halo3_mods/HIDING.ini
