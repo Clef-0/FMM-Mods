@@ -1,6 +1,6 @@
 ECHO FMM_OUTPUT Installing the crosshair
 
 cd mods\tagMods\Halo3_Crosshair
-Type "havin good time, we're hooked in a line just cant tell which way is up" | Install_MCC.bat
+Type "havin good time, we're hooked in a line just cant tell which way is up" | Install_Custom.bat
 
 ECHO FMM_OUTPUT Crosshair Mods has been installed!
