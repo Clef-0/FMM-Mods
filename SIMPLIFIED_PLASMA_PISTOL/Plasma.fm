@@ -3,7 +3,5 @@ cd mods\tagMods\SIMPLIFIED_PLASMA_PISTOL
 ECHO FMM_OUTPUT Installing Simplified Plasma Pistol...
 
 Type commands\importbitmap.cmds | TagTool.exe ..\..\..\maps\tags.dat
-timeout 1
-
 
 ECHO FMM_OUTPUT Simplified Plasma Pistol Has been installed Succesfully.

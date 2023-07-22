@@ -16,6 +16,26 @@ savetagchanges
 exitto tags
 
 echo ACCURACY AND RANGE
+deletetag thelegpleasev3[11].rmsh
+deletetag thelegpleasev3[11].rmsh
+duplicatetag 0x00000FC0
+nametag * thelegpleasev3[11]
+edittag thelegpleasev3[11].rmsh
+setfield Parameters[0].bitmap 0x00000FA4
+setfield Shaderproperties[0].Realconstants[3].Values 0.065 0.6 0.18 1
+savetagchanges
+exitto tags
+
+edittag 0x00002591
+setfield Materials[8].rendermethod thelegpleasev3[11].rmsh
+savetagchanges
+exitto tags
+
+edittag 0x00000FAE
+setfield Materials[5].rendermethod thelegpleasev3[11].rmsh
+savetagchanges
+exitto tags
+
 edittag 0x00000FA4
 importbitmap 0 DDS/BRSCOPE.dds
 savetagchanges
