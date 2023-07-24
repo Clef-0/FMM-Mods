@@ -40,6 +40,7 @@ https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Extreme_HUD_Shake/Extre
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Halo3_Crosshair/pain.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/IcyBlueRifle/RIFFLE.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Inspired_aka_ripoff_warthog_halo3_mods/Wart.ini
+https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Inspired_Ripoff_Chopper_halo3/Chop.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Minelelol_Better_Forge/ForgeBasic.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Minelelol_Better_Gold/Gold.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Minelelol_Halo3_Inspired_HUD/HUD.ini

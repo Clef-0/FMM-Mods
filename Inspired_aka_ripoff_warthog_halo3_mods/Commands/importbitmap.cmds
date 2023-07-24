@@ -37,3 +37,13 @@ edittag 0x00004375
 importbitmap 0 DDS\00004375.dds
 savetagchanges
 exitto tags
+
+CreateTag bitm
+deletetag dlc01_gauss_warthog_overlay.bitm
+NameTag * dlc01_gauss_warthog_overlay
+savetagnames
+EditTag *
+ImportBitmap 0 DDS\overlay.dds
+ExitTo tags
+
+ImportTag 0x2A47 DDS\1F97.rmhg
