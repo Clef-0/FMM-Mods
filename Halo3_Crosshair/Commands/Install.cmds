@@ -1738,3 +1738,37 @@ Setfield HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.375 0.375
 savetagchanges
 exitto tags
 
+edittag 0x00001E3D
+importbitmap 0 DDS\00001E3D.dds
+savetagchanges
+exitto tags
+
+edittag 0x00001E3E
+importbitmap 0 DDS\00001E3E.dds
+savetagchanges
+exitto tags
+
+edittag 0x00001E11
+Setfield HUDWidgets[3].BitmapWidgets[7].PlacementData[0].Origin -40 0
+savetagchanges
+exitto tags
+
+edittag 0x0000259E
+Setfield HUDWidgets[3].BitmapWidgets[7].PlacementData[0].Origin -40 0
+savetagchanges
+exitto tags
+
+edittag 0x00002392
+Setfield HUDWidgets[3].BitmapWidgets[7].PlacementData[0].Origin -40 0
+savetagchanges
+exitto tags
+
+edittag 0x000023A5
+Setfield HUDWidgets[3].BitmapWidgets[7].PlacementData[0].Origin -40 0
+savetagchanges
+exitto tags
+
+edittag 0x000023C0
+Setfield HUDWidgets[3].BitmapWidgets[7].PlacementData[0].Origin -40 0
+savetagchanges
+exitto tags
