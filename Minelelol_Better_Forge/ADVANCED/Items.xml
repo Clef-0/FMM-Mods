@@ -1002,19 +1002,55 @@
 		      <item type="prop" name="Plasma Cannon Tripod Front" tagindex="0x3097" />
 		</category>
         </category>
-    <category name="SkyBox [BUGGY]" id="Skybox"  help="If collision is buggy save and reload the map or uninstall the mods">
-        <item type="Skybox" name="DIAMONDBACK" tagindex="0x3A13"/>
-        <item type="Skybox" name="EDGE" tagindex="0x3DDE"/>
-        <item type="Skybox" name="GUARDIAN" tagindex="0x2E8F"/>
-        <item type="Skybox" name="HIGH GROUND" tagindex="0x5301"/>
-        <item type="Skybox" name="ICEBOX" tagindex="0x41E8"/>
-        <item type="Skybox" name="LAST RESORT" tagindex="0x50A6"/>
-        <item type="Skybox" name="NARROWS" tagindex="0x4B0F"/>
-        <item type="Skybox" name="REACTOR" tagindex="0x3F88"/>
-        <item type="Skybox" name="SANDTRAP" tagindex="0x5599"/>
-        <item type="Skybox" name="STANDOFF" tagindex="0x4CD6"/>
-        <item type="Skybox" name="THE PIT" tagindex="0x45DD"/>
-        <item type="Skybox" name="VALHALLA" tagindex="0x348D"/>
+    <category name="SkyBoxes" id="Skybox"  help="If collision is buggy save and reload the map or uninstall the mods">
+        <item type="prop" name="DIAMONDBACK" tagindex="0x3A13">
+        <!-- tag phased by default ONLY -->
+        <setter target="physics" value="1" type="int" hidden="true" />
+      </item>
+        <item type="prop" name="EDGE" tagindex="0x3DDE">
+        <!-- tag phased by default ONLY -->
+        <setter target="physics" value="1" type="int" hidden="true" />
+      </item>
+        <item type="prop" name="GUARDIAN" tagindex="0x2E8F">
+        <!-- tag phased by default ONLY -->
+        <setter target="physics" value="1" type="int" hidden="true" />
+      </item>
+        <item type="prop" name="HIGH GROUND" tagindex="0x5301">
+        <!-- tag phased by default ONLY -->
+        <setter target="physics" value="1" type="int" hidden="true" />
+      </item>
+        <item type="prop" name="ICEBOX" tagindex="0x41E8">
+        <!-- tag phased by default ONLY -->
+        <setter target="physics" value="1" type="int" hidden="true" />
+      </item>
+        <item type="prop" name="LAST RESORT" tagindex="0x50A6">
+        <!-- tag phased by default ONLY -->
+        <setter target="physics" value="1" type="int" hidden="true" />
+      </item>
+        <item type="prop" name="NARROWS" tagindex="0x4B0F">
+        <!-- tag phased by default ONLY -->
+        <setter target="physics" value="1" type="int" hidden="true" />
+      </item>
+        <item type="prop" name="REACTOR" tagindex="0x3F88">
+        <!-- tag phased by default ONLY -->
+        <setter target="physics" value="1" type="int" hidden="true" />
+      </item>
+        <item type="prop" name="SANDTRAP" tagindex="0x5599">
+        <!-- tag phased by default ONLY -->
+        <setter target="physics" value="1" type="int" hidden="true" />
+      </item>
+        <item type="prop" name="STANDOFF" tagindex="0x4CD6">
+        <!-- tag phased by default ONLY -->
+        <setter target="physics" value="1" type="int" hidden="true" />
+      </item>
+        <item type="prop" name="THE PIT" tagindex="0x45DD">
+        <!-- tag phased by default ONLY -->
+        <setter target="physics" value="1" type="int" hidden="true" />
+      </item>
+        <item type="prop" name="VALHALLA" tagindex="0x348D">
+        <!-- tag phased by default ONLY -->
+        <setter target="physics" value="1" type="int" hidden="true" />
+      </item>
     </category>
     <category name="Diamondback">
         <item type="prop" name="Smoke 1 FX" tagindex="0x3A23"/>
