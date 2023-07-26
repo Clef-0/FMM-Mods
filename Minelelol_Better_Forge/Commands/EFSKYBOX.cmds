@@ -5827,7 +5827,7 @@ addblockelements MultiplayerObject 1
 savetagchanges
 exitto tags
 edittag levels\dlc\bunkerworld\sky\sky_bunkerworld.model
-setfield PhysicsModel ReForge\Block_1x1x1.physics_model
+setfield PhysicsModel objects\multi\models\ff_inital_camera\ff_inital_camera.phmo
 savetagchanges
 exitto tags
 
@@ -5838,7 +5838,7 @@ addblockelements MultiplayerObject 1
 savetagchanges
 exitto tags
 edittag levels\multi\chill\sky\sky.model
-setfield PhysicsModel ReForge\Block_1x1x1.physics_model
+setfield PhysicsModel objects\multi\models\ff_inital_camera\ff_inital_camera.phmo
 savetagchanges
 exitto tags
 
@@ -5849,7 +5849,7 @@ addblockelements MultiplayerObject 1
 savetagchanges
 exitto tags
 edittag levels\multi\cyberdyne\sky\sky.model
-setfield PhysicsModel ReForge\Block_1x1x1.physics_model
+setfield PhysicsModel objects\multi\models\ff_inital_camera\ff_inital_camera.phmo
 savetagchanges
 exitto tags
 
@@ -5860,7 +5860,7 @@ addblockelements MultiplayerObject 1
 savetagchanges
 exitto tags
 edittag levels\multi\deadlock\sky\deadlock.model
-setfield PhysicsModel ReForge\Block_1x1x1.physics_model
+setfield PhysicsModel objects\multi\models\ff_inital_camera\ff_inital_camera.phmo
 savetagchanges
 exitto tags
 
@@ -5871,7 +5871,7 @@ addblockelements MultiplayerObject 1
 savetagchanges
 exitto tags
 edittag levels\multi\guardian\sky\sky.model
-setfield PhysicsModel ReForge\Block_1x1x1.physics_model
+setfield PhysicsModel objects\multi\models\ff_inital_camera\ff_inital_camera.phmo
 savetagchanges
 exitto tags
 
@@ -5882,7 +5882,7 @@ addblockelements MultiplayerObject 1
 savetagchanges
 exitto tags
 edittag levels\multi\riverworld\sky\riverworld.model
-setfield PhysicsModel ReForge\Block_1x1x1.physics_model
+setfield PhysicsModel objects\multi\models\ff_inital_camera\ff_inital_camera.phmo
 savetagchanges
 exitto tags
 
@@ -5893,7 +5893,7 @@ addblockelements MultiplayerObject 1
 savetagchanges
 exitto tags
 edittag 0x3C4E.model
-setfield PhysicsModel ReForge\Block_1x1x1.physics_model
+setfield PhysicsModel objects\multi\models\ff_inital_camera\ff_inital_camera.phmo
 savetagchanges
 exitto tags
 
@@ -5904,7 +5904,7 @@ addblockelements MultiplayerObject 1
 savetagchanges
 exitto tags
 edittag 0x3F01.model
-setfield PhysicsModel ReForge\Block_1x1x1.physics_model
+setfield PhysicsModel objects\multi\models\ff_inital_camera\ff_inital_camera.phmo
 savetagchanges
 exitto tags
 
@@ -5915,7 +5915,7 @@ addblockelements MultiplayerObject 1
 savetagchanges
 exitto tags
 edittag 0x40CE.model
-setfield PhysicsModel ReForge\Block_1x1x1.physics_model
+setfield PhysicsModel objects\multi\models\ff_inital_camera\ff_inital_camera.phmo
 savetagchanges
 exitto tags
 
@@ -5926,7 +5926,7 @@ addblockelements MultiplayerObject 1
 savetagchanges
 exitto tags
 edittag 0x42E6.model
-setfield PhysicsModel ReForge\Block_1x1x1.physics_model
+setfield PhysicsModel objects\multi\models\ff_inital_camera\ff_inital_camera.phmo
 savetagchanges
 exitto tags
 
@@ -5937,7 +5937,7 @@ addblockelements MultiplayerObject 1
 savetagchanges
 exitto tags
 edittag levels\multi\shrine\sky\sky.model
-setfield PhysicsModel ReForge\Block_1x1x1.physics_model
+setfield PhysicsModel objects\multi\models\ff_inital_camera\ff_inital_camera.phmo
 savetagchanges
 exitto tags
 
@@ -5948,7 +5948,7 @@ addblockelements MultiplayerObject 1
 savetagchanges
 exitto tags
 edittag levels\multi\zanzibar\sky\sky.model
-setfield PhysicsModel ReForge\Block_1x1x1.physics_model
+setfield PhysicsModel objects\multi\models\ff_inital_camera\ff_inital_camera.phmo
 savetagchanges
 exitto tags
 
