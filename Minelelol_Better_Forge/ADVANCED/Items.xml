@@ -806,6 +806,7 @@
 		</category>
         <category name="Vehicle Parts">
             <category name="Scorpion">
+                <item type="prop" name="Scorpion, Main Cannon" tagindex="0x28C6"/>
                 <item type="prop" name="Scorpion, Drivers Hatch" tagindex="0x2996"/>
                 <item type="prop" name="Scorpion, Duffle Bag" tagindex="0x2988"/>
                 <item type="prop" name="Scorpion, Engine Panel" tagindex="0x2989"/>
@@ -1026,6 +1027,8 @@
         <item type="prop" name="Gas Leak Continuous" tagindex="0x3A26"/>
         <item type="prop" name="Man Cannon FX" tagindex="0x3A2B"/>
         <item type="prop" name="Water Leaking Falling" tagindex="0x3A2A"/>
+        <item type="prop" name="Bird Quadwing" tagindex="0x3AA7"/>
+        <item type="prop" name="Bird Seagull" tagindex="0x3AA8"/>
         <item type="prop" name="Dead Bird Quadwing" tagindex="0x345A"/>
         <item type="prop" name="Quadwing Wing Big" tagindex="0x345B"/>
         <item type="prop" name="Quadwing Wing Small" tagindex="0x345C"/>
@@ -1072,6 +1075,9 @@
         <item type="prop" name="Jittery Hologram 2" tagindex="0x2ee0"/>
         <item type="prop" name="Jittery Hologram 3" tagindex="0x2ee2"/>
         <item type="prop" name="Jittery Hologram 4" tagindex="0x2ee3"/>
+        <item type="prop" name="Bird Quadwing" tagindex="0x2EF5"/>
+        <item type="prop" name="Glowbug" tagindex="0x2EF6"/>
+        <item type="prop" name="Glowfly" tagindex="0x2EF7"/>
         <item type="prop" name="Dead Bird Quadwing" tagindex="0x345A"/>
         <item type="prop" name="Quadwing Wing Big" tagindex="0x345B"/>
         <item type="prop" name="Quadwing Wing Small" tagindex="0x345C"/>
@@ -1118,6 +1124,16 @@
     <category name="Narrows">
         <item type="prop" name="Gravlift" tagindex="0x4BC8"/>
         <item type="prop" name="Narrows Man Cannon FX" tagindex="0x4BA1"/>
+        <item type="prop" name="Heavy Wind [SOUND]" tagindex="0x4B81"/>
+        <item type="prop" name="Energy Beams [SOUND]" tagindex="0x4B88"/>
+        <item type="prop" name="Waterfall [SOUND]" tagindex="0x4B8B"/>
+        <item type="prop" name="Waterfall Ambient [SOUND]" tagindex="0x4B8F"/>
+        <item type="prop" name="Waterfall Far [SOUND]" tagindex="0x4B85"/>
+        <item type="prop" name="Waterfall Far Obstructed [SOUND]" tagindex="0x4B9B"/>
+        <item type="prop" name="Waterfall Inside [SOUND]" tagindex="0x4B9E"/>
+        <item type="prop" name="Blue Beams 1# [SOUND]" tagindex="0x4B92"/>
+        <item type="prop" name="Blue Beams 2# [SOUND]" tagindex="0x4B95"/>
+        <item type="prop" name="Blue Beams 3# [SOUND]" tagindex="0x4B98"/>
     </category>
     <category name="Reactor">
         <item type="prop" name="Pelican" tagindex="0x27C7">
@@ -1161,8 +1177,16 @@
         <item type="prop" name="Satellite *#" tagindex="0x4D54"/>
         <item type="prop" name="Door Shutter Hang" tagindex="0x4DA6"/>
         <item type="prop" name="UNSC Monitor" tagindex="0x4DBA"/>
+        <item type="prop" name="Bird Guira" tagindex="0x49BA"/>
+        <item type="prop" name="Bird Yellow" tagindex="0x49F2"/>
         <item type="prop" name="Dead Bird Guira" tagindex="0x49C3"/>
         <item type="prop" name="Dead Bird Yellow" tagindex="0x49FB"/>
+        <item type="prop" name="Leaves [SOUND]" tagindex="0x4DCA"/>
+        <item type="prop" name="Computer 1# [SOUND]" tagindex="0x4DCD"/>
+        <item type="prop" name="Computer 2# [SOUND]" tagindex="0x4DD0"/>
+        <item type="prop" name="Computer 3# [SOUND]" tagindex="0x4DD4"/>
+        <item type="prop" name="ServerLoop [SOUND]" tagindex="0x4DD7"/>
+        <item type="prop" name="Antenna Hum [SOUND]" tagindex="0x4DDB"/>
     </category>
     <category name="The Pit">
         <item type="prop" name="Camera" tagindex="0x4703">
@@ -1176,12 +1200,22 @@
         <item type="prop" name="Ground Fan FX" tagindex="0x47AD"/>
         <item type="prop" name="Target, Brute" tagindex="0x477A"/>
         <item type="prop" name="Target, Jackal *" tagindex="0x4791"/>
+        <item type="prop" name="Bird Cockatoo" tagindex="0x49A1"/>
+        <item type="prop" name="Bird Guira" tagindex="0x49BA"/>
+        <item type="prop" name="Bird Yellow" tagindex="0x49F2"/>
+        <item type="prop" name="Bird Hornbill" tagindex="0x49CA"/>
+        <item type="prop" name="Bird Multi" tagindex="0x49E4"/>
         <item type="prop" name="Dead Bird Cockatoo" tagindex="0x49B1"/>
         <item type="prop" name="Dead Bird Guira" tagindex="0x49C3"/>
         <item type="prop" name="Dead Bird Yellow" tagindex="0x49FB"/>
         <item type="prop" name="Dead Bird Hornbill" tagindex="0x49DE"/>
         <item type="prop" name="Bird Hornbill Wing Left" tagindex="0x49D9"/>
         <item type="prop" name="Bird Hornbill Wing Right" tagindex="0x49D3"/>
+        <item type="prop" name="Bird Verb [SOUND]" tagindex="0x479E"/>
+        <item type="prop" name="Distant Flyby [SOUND]" tagindex="0x47A1"/>
+        <item type="prop" name="Distant Explosion [SOUND]" tagindex="0x47A4"/>
+        <item type="prop" name="Flourescent Light [SOUND]" tagindex="0x47A7"/>
+        <item type="prop" name="Fan Wind [SOUND]" tagindex="0x47AA"/>
     </category>
     <category name="Valhalla">
         <item type="prop" name="Mancannon" tagindex="0x34BE"/>
