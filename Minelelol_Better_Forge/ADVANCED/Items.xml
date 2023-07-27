@@ -1088,6 +1088,7 @@
         <item type="prop" name="Waterfall Smoke Bottom 2 FX" tagindex="0x3DE6"/>
         <item type="prop" name="Red Smoke 1" tagindex="0x3DE2"/>
         <item type="prop" name="Red Smoke 2" tagindex="0x3DE3"/>
+        <item type="prop" name="Waterfall [SOUND]" tagindex="0x3DDF"/>
     </category>
     <category name="Guardian">
         <item type="prop" name="Guardian Gold Lift" tagindex="0x2ED9"/>
@@ -1119,12 +1120,20 @@
         <item type="prop" name="Quadwing Wing Small" tagindex="0x345C"/>
     </category>
     <category name="High Ground">
-        <item type="prop" name="Chain link Gate 2" tagindex="0x54A2" >
+        <item type="prop" name="Chain link Gate 2" tagindex="0x54D7" >
         <!-- tag phased by default ONLY -->
         <setter target="physics" value="0" type="int" hidden="true" />
       </item>
         <item type="prop" name="Metal Gate" tagindex="0x535F"/>
+        <item type="prop" name="Fish ElephantNose" tagindex="0x34CB"/>
         <item type="prop" name="Dead Fish ElephantNose" tagindex="0x3A02"/>
+        <item type="prop" name="Baby Bird Kookaburra [SOUND]" tagindex="0x536C"/>
+        <item type="prop" name="Cicadas [SOUND]" tagindex="0x536F"/>
+        <item type="prop" name="Water Dripping [SOUND]" tagindex="0x5372"/>
+        <item type="prop" name="Water Flowing + Breeze Lakeside [SOUND]" tagindex="0x537D"/>
+        <item type="prop" name="Breeze Lakeside [SOUND]" tagindex="0x537A"/>
+        <item type="prop" name="Computer Beeps [SOUND]" tagindex="0x5375"/>
+        <item type="prop" name="FlyBy [SOUND]" tagindex="0x5378"/>
     </category>
     <category name="Icebox">
         <item type="prop" name="Antenna" tagindex="0x41EA"/>
@@ -1263,7 +1272,24 @@
         <item type="prop" name="Waterfall, Bottom #" tagindex="0x3495"/>
         <item type="prop" name="Tower Pulse *#" tagindex="0x348F"/>
         <item type="prop" name="Tower Light" tagindex="0x360E"/>
+        <item type="prop" name="ButterFly 1#" tagindex="0x34C8"/>
+        <item type="prop" name="ButterFly 2#" tagindex="0x34C9"/>
+        <item type="prop" name="ButterFly 3#" tagindex="0x34CA"/>
+        <item type="prop" name="Fish ElephantNose" tagindex="0x34CB"/>
         <item type="prop" name="Dead Fish ElephantNose" tagindex="0x3A02"/>
+
+        <item type="prop" name="Waterfall Creek [SOUND]" tagindex="0x3498"/>
+        <item type="prop" name="Waterfall Far [SOUND]" tagindex="0x3499"/>
+        <item type="prop" name="Waterfall Brook [SOUND]" tagindex="0x349C"/>
+        <item type="prop" name="Waterfall Close [SOUND]" tagindex="0x349A"/>
+        <item type="prop" name="Waterfall Close Churning [SOUND]" tagindex="0x349D"/>
+        <item type="prop" name="Waterfall Inside [SOUND]" tagindex="0x34A3"/>
+        <item type="prop" name="Water Against Surface [SOUND]" tagindex="0x349B"/>
+        <item type="prop" name="Water Rapid Flowing [SOUND]" tagindex="0x34A2"/>
+        <item type="prop" name="Eagle [SOUND]" tagindex="0x349E"/>
+        <item type="prop" name="Open Breeze [SOUND]" tagindex="0x349F"/>
+        <item type="prop" name="Generator Flood [SOUND]" tagindex="0x34A0"/>
+        <item type="prop" name="Flood Lamp [SOUND]" tagindex="0x34A1"/>
     </category>
   </category>
     <category name="REFORGE UNUSED" id="reforgeunused"  help="ummm these block has Respawn Rate">
