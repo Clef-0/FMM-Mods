@@ -6128,6 +6128,12 @@ removeblockelements MultiplayerObject 0 *
 addblockelements MultiplayerObject
 savetagchanges
 exit
+
+edittag 0x2EF5
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
 #####################################################################
 # Edit Skybox scen and hlmt tags to allow for spawning and grabbing #
 #####################################################################

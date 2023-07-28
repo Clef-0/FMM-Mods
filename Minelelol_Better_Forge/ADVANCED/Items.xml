@@ -1171,7 +1171,7 @@
         <item type="prop" name="Barriers" tagindex="0x511C"/>
         <item type="prop" name="Control Panel" tagindex="0x512b"/>
         <item type="prop" name="Dome Light" tagindex="0x50E0"/>
-        <item type="prop" name="Seagull" tagindex="0x5230"/>
+        <item type="prop" name="Bird Seagull" tagindex="0x5230"/>
         <item type="prop" name="Dead Seagull" tagindex="0x5239"/>
         <item type="prop" name="Big Wheel Fan Center [SOUND]" tagindex="0x5138"/>
         <item type="prop" name="Big Wheel Fan Moving [SOUND]" tagindex="0x515C"/>
