@@ -1,0 +1,8 @@
+color 0A
+cd mods\tagMods\Weed_SMG
+ECHO FMM_OUTPUT Installing Weed SMG...
+
+Type "WEEED" | FMM.bat
+
+
+ECHO FMM_OUTPUT Weed Has been installed Succesfully have fun :)

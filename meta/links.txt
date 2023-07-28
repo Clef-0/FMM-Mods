@@ -53,3 +53,4 @@ https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/SIMPLIFIED_PLASMA_PISTO
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Slightly_more_detailed_magnum/h4.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Third_Person_Sprint/Sprint.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/sillenced_smg_hud_to_power_and_accuracy/SSMG.ini
+https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Weed_SMG/Weed.ini
