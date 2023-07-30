@@ -54,3 +54,5 @@ https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Slightly_more_detailed_
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Third_Person_Sprint/Sprint.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/sillenced_smg_hud_to_power_and_accuracy/SSMG.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Weed_SMG/Weed.ini
+https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Minelelol_More_Custom_Powerup/Power.ini
+
