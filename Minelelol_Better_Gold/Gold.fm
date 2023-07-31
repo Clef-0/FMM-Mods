@@ -1,0 +1,6 @@
+ECHO FMM_OUTPUT Installing Better Gold Texture Mods
+
+cd mods\tagMods\Minelelol_Better_Gold
+Type "go go go ga ga" | Install.bat
+
+ECHO FMM_OUTPUT Better Gold Texture has been installed!

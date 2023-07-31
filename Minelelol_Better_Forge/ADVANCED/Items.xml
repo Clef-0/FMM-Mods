@@ -806,6 +806,7 @@
 		</category>
         <category name="Vehicle Parts">
             <category name="Scorpion">
+                <item type="prop" name="Scorpion, Main Cannon" tagindex="0x28C6"/>
                 <item type="prop" name="Scorpion, Drivers Hatch" tagindex="0x2996"/>
                 <item type="prop" name="Scorpion, Duffle Bag" tagindex="0x2988"/>
                 <item type="prop" name="Scorpion, Engine Panel" tagindex="0x2989"/>
@@ -1001,19 +1002,55 @@
 		      <item type="prop" name="Plasma Cannon Tripod Front" tagindex="0x3097" />
 		</category>
         </category>
-    <category name="SkyBox [BUGGY]" id="Skybox"  help="If collision is buggy save and reload the map or uninstall the mods">
-        <item type="Skybox" name="DIAMONDBACK" tagindex="0x3A13"/>
-        <item type="Skybox" name="EDGE" tagindex="0x3DDE"/>
-        <item type="Skybox" name="GUARDIAN" tagindex="0x2E8F"/>
-        <item type="Skybox" name="HIGH GROUND" tagindex="0x5301"/>
-        <item type="Skybox" name="ICEBOX" tagindex="0x41E8"/>
-        <item type="Skybox" name="LAST RESORT" tagindex="0x50A6"/>
-        <item type="Skybox" name="NARROWS" tagindex="0x4B0F"/>
-        <item type="Skybox" name="REACTOR" tagindex="0x3F88"/>
-        <item type="Skybox" name="SANDTRAP" tagindex="0x5599"/>
-        <item type="Skybox" name="STANDOFF" tagindex="0x4CD6"/>
-        <item type="Skybox" name="THE PIT" tagindex="0x45DD"/>
-        <item type="Skybox" name="VALHALLA" tagindex="0x348D"/>
+    <category name="SkyBoxes" id="Skybox"  help="If collision is buggy save and reload the map or uninstall the mods">
+        <item type="prop" name="DIAMONDBACK" tagindex="0x3A13">
+        <!-- tag phased by default ONLY -->
+        <setter target="physics" value="1" type="int" hidden="true" />
+      </item>
+        <item type="prop" name="EDGE" tagindex="0x3DDE">
+        <!-- tag phased by default ONLY -->
+        <setter target="physics" value="1" type="int" hidden="true" />
+      </item>
+        <item type="prop" name="GUARDIAN" tagindex="0x2E8F">
+        <!-- tag phased by default ONLY -->
+        <setter target="physics" value="1" type="int" hidden="true" />
+      </item>
+        <item type="prop" name="HIGH GROUND" tagindex="0x5301">
+        <!-- tag phased by default ONLY -->
+        <setter target="physics" value="1" type="int" hidden="true" />
+      </item>
+        <item type="prop" name="ICEBOX" tagindex="0x41E8">
+        <!-- tag phased by default ONLY -->
+        <setter target="physics" value="1" type="int" hidden="true" />
+      </item>
+        <item type="prop" name="LAST RESORT" tagindex="0x50A6">
+        <!-- tag phased by default ONLY -->
+        <setter target="physics" value="1" type="int" hidden="true" />
+      </item>
+        <item type="prop" name="NARROWS" tagindex="0x4B0F">
+        <!-- tag phased by default ONLY -->
+        <setter target="physics" value="1" type="int" hidden="true" />
+      </item>
+        <item type="prop" name="REACTOR" tagindex="0x3F88">
+        <!-- tag phased by default ONLY -->
+        <setter target="physics" value="1" type="int" hidden="true" />
+      </item>
+        <item type="prop" name="SANDTRAP" tagindex="0x5599">
+        <!-- tag phased by default ONLY -->
+        <setter target="physics" value="1" type="int" hidden="true" />
+      </item>
+        <item type="prop" name="STANDOFF" tagindex="0x4CD6">
+        <!-- tag phased by default ONLY -->
+        <setter target="physics" value="1" type="int" hidden="true" />
+      </item>
+        <item type="prop" name="THE PIT" tagindex="0x45DD">
+        <!-- tag phased by default ONLY -->
+        <setter target="physics" value="1" type="int" hidden="true" />
+      </item>
+        <item type="prop" name="VALHALLA" tagindex="0x348D">
+        <!-- tag phased by default ONLY -->
+        <setter target="physics" value="1" type="int" hidden="true" />
+      </item>
     </category>
     <category name="Diamondback">
         <item type="prop" name="Smoke 1 FX" tagindex="0x3A23"/>
@@ -1026,6 +1063,8 @@
         <item type="prop" name="Gas Leak Continuous" tagindex="0x3A26"/>
         <item type="prop" name="Man Cannon FX" tagindex="0x3A2B"/>
         <item type="prop" name="Water Leaking Falling" tagindex="0x3A2A"/>
+        <item type="prop" name="Bird Quadwing" tagindex="0x3AA7"/>
+        <item type="prop" name="Bird Seagull" tagindex="0x3AA8"/>
         <item type="prop" name="Dead Bird Quadwing" tagindex="0x345A"/>
         <item type="prop" name="Quadwing Wing Big" tagindex="0x345B"/>
         <item type="prop" name="Quadwing Wing Small" tagindex="0x345C"/>
@@ -1038,8 +1077,10 @@
     </category>
     <category name="Edge">
         <item type="prop" name="Edge Gold Lift" tagindex="0x3E08"/>
-        <item type="prop" name="Constructor Body Damaged" tagindex="0x3F60"/>
-        <item type="prop" name="Constructor Head Damaged" tagindex="0x3F61"/>
+        <item type="prop" name="Sentinel Constructor Flashing Light" tagindex="0x3E0B"/>
+        <item type="prop" name="Sentinel Constructor With Ambience Sound" tagindex="0x3E0C"/>
+        <item type="prop" name="Sentinel Constructor Body Damaged" tagindex="0x3F60"/>
+        <item type="prop" name="Sentinel Constructor Head Damaged" tagindex="0x3F61"/>
         <item type="prop" name="Smoke High FX" tagindex="0x3A22"/>
         <item type="prop" name="Smoke Low FX" tagindex="0x3A27"/>
         <item type="prop" name="Waterfall Top FX" tagindex="0x3DE4"/>
@@ -1049,6 +1090,7 @@
         <item type="prop" name="Waterfall Smoke Bottom 2 FX" tagindex="0x3DE6"/>
         <item type="prop" name="Red Smoke 1" tagindex="0x3DE2"/>
         <item type="prop" name="Red Smoke 2" tagindex="0x3DE3"/>
+        <item type="prop" name="Waterfall [SOUND]" tagindex="0x3DDF"/>
     </category>
     <category name="Guardian">
         <item type="prop" name="Guardian Gold Lift" tagindex="0x2ED9"/>
@@ -1072,17 +1114,28 @@
         <item type="prop" name="Jittery Hologram 2" tagindex="0x2ee0"/>
         <item type="prop" name="Jittery Hologram 3" tagindex="0x2ee2"/>
         <item type="prop" name="Jittery Hologram 4" tagindex="0x2ee3"/>
+        <item type="prop" name="Bird Quadwing" tagindex="0x2EF5"/>
+        <item type="prop" name="Glowbug" tagindex="0x2EF6"/>
+        <item type="prop" name="Glowfly" tagindex="0x2EF7"/>
         <item type="prop" name="Dead Bird Quadwing" tagindex="0x345A"/>
         <item type="prop" name="Quadwing Wing Big" tagindex="0x345B"/>
         <item type="prop" name="Quadwing Wing Small" tagindex="0x345C"/>
     </category>
     <category name="High Ground">
-        <item type="prop" name="Chain link Gate 2" tagindex="0x54A2" >
+        <item type="prop" name="Chain link Gate 2" tagindex="0x54D7" >
         <!-- tag phased by default ONLY -->
         <setter target="physics" value="0" type="int" hidden="true" />
       </item>
         <item type="prop" name="Metal Gate" tagindex="0x535F"/>
+        <item type="prop" name="Fish ElephantNose" tagindex="0x34CB"/>
         <item type="prop" name="Dead Fish ElephantNose" tagindex="0x3A02"/>
+        <item type="prop" name="Baby Bird Kookaburra [SOUND]" tagindex="0x536C"/>
+        <item type="prop" name="Cicadas [SOUND]" tagindex="0x536F"/>
+        <item type="prop" name="Water Dripping [SOUND]" tagindex="0x5372"/>
+        <item type="prop" name="Water Flowing + Breeze Lakeside [SOUND]" tagindex="0x537D"/>
+        <item type="prop" name="Breeze Lakeside [SOUND]" tagindex="0x537A"/>
+        <item type="prop" name="Computer Beeps [SOUND]" tagindex="0x5375"/>
+        <item type="prop" name="FlyBy [SOUND]" tagindex="0x5378"/>
     </category>
     <category name="Icebox">
         <item type="prop" name="Antenna" tagindex="0x41EA"/>
@@ -1098,6 +1151,7 @@
         <item type="prop" name="Water Leak Falling" tagindex="0x41FC"/>
         <item type="prop" name="Water Leak Falling Loud" tagindex="0x41FD"/>
         <item type="prop" name="Water Splashing" tagindex="0x3FA6"/>
+        <item type="prop" name="Rat" tagindex="0x27F4"/>
         <item type="prop" name="Dead Rat" tagindex="0x2E61"/>
         <item type="prop" name="Tarp Small" tagindex="0x41F3"/>
         <item type="prop" name="Tarp Medium" tagindex="0x41F5"/>
@@ -1106,24 +1160,53 @@
         <item type="prop" name="Light, Red" tagindex="0x3A1E"/>
         <item type="prop" name="Light, Orange" tagindex="0x3FA0"/>
         <item type="prop" name="Blinking Light, Red" tagindex="0x3FA5"/>
+        <item type="prop" name="Water Splashing [SOUND]" tagindex="0x41F6"/>
+        <item type="prop" name="Water Splashing Agaisnt Metal [SOUND]" tagindex="0x41F7"/>
+        <item type="prop" name="Energy Barrier [SOUND]" tagindex="0x41F8"/>
+        <item type="prop" name="Vent Humming [SOUND]" tagindex="0x41F9"/>
     </category>
     <category name="Last Resort">
-        <item type="prop" name="Big Wheel" tagindex="0x510D"/>
+        <item type="prop" name="Big Wheel Fan" tagindex="0x510D"/>
         <item type="prop" name="Barriers" tagindex="0x5102"/>
         <item type="prop" name="Barriers" tagindex="0x511C"/>
         <item type="prop" name="Control Panel" tagindex="0x512b"/>
         <item type="prop" name="Dome Light" tagindex="0x50E0"/>
+        <item type="prop" name="Bird Seagull" tagindex="0x5230"/>
         <item type="prop" name="Dead Seagull" tagindex="0x5239"/>
+        <item type="prop" name="Big Wheel Fan Center [SOUND]" tagindex="0x5138"/>
+        <item type="prop" name="Big Wheel Fan Moving [SOUND]" tagindex="0x515C"/>
+        <item type="prop" name="Water Waves [SOUND]" tagindex="0x514E"/>
+        <item type="prop" name="Water Agaisnt Surfaces [SOUND]" tagindex="0x515F"/>
+        <item type="prop" name="Breeze Wind [SOUND]" tagindex="0x5162"/>
+        <item type="prop" name="Distant Explosion [SOUND]" tagindex="0x513B"/>
+        <item type="prop" name="Lamp Noise [SOUND]" tagindex="0x5148"/>
+        <item type="prop" name="Bird Noise [SOUND]" tagindex="0x514B"/>
+        <item type="prop" name="Flourescent Light [SOUND]" tagindex="0x5150"/>
+        <item type="prop" name="Turbine Generator Close [SOUND]" tagindex="0x5153"/>
+        <item type="prop" name="Control Panel Power High Power [SOUND]" tagindex="0x5156"/>
+        <item type="prop" name="Control Panel Power Low Power [SOUND]" tagindex="0x5159"/>
     </category>
     <category name="Narrows">
         <item type="prop" name="Gravlift" tagindex="0x4BC8"/>
         <item type="prop" name="Narrows Man Cannon FX" tagindex="0x4BA1"/>
+        <item type="prop" name="Heavy Wind [SOUND]" tagindex="0x4B81"/>
+        <item type="prop" name="Energy Beams [SOUND]" tagindex="0x4B88"/>
+        <item type="prop" name="Waterfall [SOUND]" tagindex="0x4B8B"/>
+        <item type="prop" name="Waterfall Ambient [SOUND]" tagindex="0x4B8F"/>
+        <item type="prop" name="Waterfall Far [SOUND]" tagindex="0x4B85"/>
+        <item type="prop" name="Waterfall Far Obstructed [SOUND]" tagindex="0x4B9B"/>
+        <item type="prop" name="Waterfall Inside [SOUND]" tagindex="0x4B9E"/>
+        <item type="prop" name="Blue Beams 1# [SOUND]" tagindex="0x4B92"/>
+        <item type="prop" name="Blue Beams 2# [SOUND]" tagindex="0x4B95"/>
+        <item type="prop" name="Blue Beams 3# [SOUND]" tagindex="0x4B98"/>
     </category>
     <category name="Reactor">
         <item type="prop" name="Pelican" tagindex="0x27C7">
          <!-- tag phased by default ONLY -->
-        <setter target="physics" value="0" type="int" hidden="true" />
+        <setter target="physics" value="1" type="int" hidden="true" />
       </item>
+        <item type="prop" name="LOW DETAIL Pelican" tagindex="0x3FD9"/>
+        <item type="prop" name="LOW DETAIL Hornet" tagindex="0x3FDA"/>
         <item type="prop" name="Frigate *#" tagindex="0x3F89"/>
         <item type="prop" name="Hexagon Pillar" tagindex="0x3F95"/>
         <item type="prop" name="Lightning Bolt" tagindex="0x3F96"/>
@@ -1144,6 +1227,9 @@
         <item type="prop" name="Light, Red *#" tagindex="0x3F8A"/>
         <item type="prop" name="Light, Blue *#" tagindex="0x3F8B"/>
         <item type="prop" name="Light, Yellow *#" tagindex="0x3F8C"/>
+        <item type="prop" name="Inside Breeze [SOUND]" tagindex="0x3F97"/>
+        <item type="prop" name="Water Dripping [SOUND]" tagindex="0x3F98"/>
+        <item type="prop" name="Walking [SOUND]" tagindex="0x3F99"/>
     </category>
     <category name="Sandtrap">
         <item type="prop" name="Jump Pad Lift" tagindex="0x56F5"/>
@@ -1151,6 +1237,9 @@
         <item type="prop" name="Davinci Egg" tagindex="0x5699"/>
         <item type="prop" name="Frigate *#" tagindex="0x55EE"/>
         <item type="vehicle" name="Sticky Elephant" tagindex="0x5628"/>
+        <item type="prop" name="Ancient Artifact Humming 1# [SOUND]" tagindex="0x56CF"/>
+        <item type="prop" name="Ancient Artifact Humming 2# [SOUND]" tagindex="0x56D5"/>
+        <item type="prop" name="Breeze [SOUND]" tagindex="0x56D2"/>
     </category>
     <category name="Standoff">
         <item type="prop" name="Bunker Door" tagindex="0x4D7D"/>
@@ -1161,8 +1250,16 @@
         <item type="prop" name="Satellite *#" tagindex="0x4D54"/>
         <item type="prop" name="Door Shutter Hang" tagindex="0x4DA6"/>
         <item type="prop" name="UNSC Monitor" tagindex="0x4DBA"/>
+        <item type="prop" name="Bird Guira" tagindex="0x49BA"/>
+        <item type="prop" name="Bird Yellow" tagindex="0x49F2"/>
         <item type="prop" name="Dead Bird Guira" tagindex="0x49C3"/>
         <item type="prop" name="Dead Bird Yellow" tagindex="0x49FB"/>
+        <item type="prop" name="Leaves [SOUND]" tagindex="0x4DCA"/>
+        <item type="prop" name="Computer 1# [SOUND]" tagindex="0x4DCD"/>
+        <item type="prop" name="Computer 2# [SOUND]" tagindex="0x4DD0"/>
+        <item type="prop" name="Computer 3# [SOUND]" tagindex="0x4DD4"/>
+        <item type="prop" name="ServerLoop [SOUND]" tagindex="0x4DD7"/>
+        <item type="prop" name="Antenna Hum [SOUND]" tagindex="0x4DDB"/>
     </category>
     <category name="The Pit">
         <item type="prop" name="Camera" tagindex="0x4703">
@@ -1176,12 +1273,22 @@
         <item type="prop" name="Ground Fan FX" tagindex="0x47AD"/>
         <item type="prop" name="Target, Brute" tagindex="0x477A"/>
         <item type="prop" name="Target, Jackal *" tagindex="0x4791"/>
+        <item type="prop" name="Bird Cockatoo" tagindex="0x49A1"/>
+        <item type="prop" name="Bird Guira" tagindex="0x49BA"/>
+        <item type="prop" name="Bird Yellow" tagindex="0x49F2"/>
+        <item type="prop" name="Bird Hornbill" tagindex="0x49CA"/>
+        <item type="prop" name="Bird Multi" tagindex="0x49E4"/>
         <item type="prop" name="Dead Bird Cockatoo" tagindex="0x49B1"/>
         <item type="prop" name="Dead Bird Guira" tagindex="0x49C3"/>
         <item type="prop" name="Dead Bird Yellow" tagindex="0x49FB"/>
         <item type="prop" name="Dead Bird Hornbill" tagindex="0x49DE"/>
         <item type="prop" name="Bird Hornbill Wing Left" tagindex="0x49D9"/>
         <item type="prop" name="Bird Hornbill Wing Right" tagindex="0x49D3"/>
+        <item type="prop" name="Bird Verb [SOUND]" tagindex="0x479E"/>
+        <item type="prop" name="Distant FlyBy [SOUND]" tagindex="0x47A1"/>
+        <item type="prop" name="Distant Explosion [SOUND]" tagindex="0x47A4"/>
+        <item type="prop" name="Flourescent Light [SOUND]" tagindex="0x47A7"/>
+        <item type="prop" name="Fan Wind [SOUND]" tagindex="0x47AA"/>
     </category>
     <category name="Valhalla">
         <item type="prop" name="Mancannon" tagindex="0x34BE"/>
@@ -1193,7 +1300,24 @@
         <item type="prop" name="Waterfall, Bottom #" tagindex="0x3495"/>
         <item type="prop" name="Tower Pulse *#" tagindex="0x348F"/>
         <item type="prop" name="Tower Light" tagindex="0x360E"/>
+        <item type="prop" name="ButterFly 1#" tagindex="0x34C8"/>
+        <item type="prop" name="ButterFly 2#" tagindex="0x34C9"/>
+        <item type="prop" name="ButterFly 3#" tagindex="0x34CA"/>
+        <item type="prop" name="Fish ElephantNose" tagindex="0x34CB"/>
         <item type="prop" name="Dead Fish ElephantNose" tagindex="0x3A02"/>
+
+        <item type="prop" name="Waterfall Creek [SOUND]" tagindex="0x3498"/>
+        <item type="prop" name="Waterfall Far [SOUND]" tagindex="0x3499"/>
+        <item type="prop" name="Waterfall Brook [SOUND]" tagindex="0x349C"/>
+        <item type="prop" name="Waterfall Close [SOUND]" tagindex="0x349A"/>
+        <item type="prop" name="Waterfall Close Churning [SOUND]" tagindex="0x349D"/>
+        <item type="prop" name="Waterfall Inside [SOUND]" tagindex="0x34A3"/>
+        <item type="prop" name="Water Against Surface [SOUND]" tagindex="0x349B"/>
+        <item type="prop" name="Water Rapid Flowing [SOUND]" tagindex="0x34A2"/>
+        <item type="prop" name="Eagle [SOUND]" tagindex="0x349E"/>
+        <item type="prop" name="Open Breeze [SOUND]" tagindex="0x349F"/>
+        <item type="prop" name="Generator Flood [SOUND]" tagindex="0x34A0"/>
+        <item type="prop" name="Flood Lamp [SOUND]" tagindex="0x34A1"/>
     </category>
   </category>
     <category name="REFORGE UNUSED" id="reforgeunused"  help="ummm these block has Respawn Rate">

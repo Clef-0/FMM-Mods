@@ -1,0 +1,589 @@
+edittag 0x0AAF
+removeblockelements Strings 981 *
+setstring english time_seconds_35 "35 Seconds"
+setstring english time_seconds_50 "50 Seconds"
+setstring english time_seconds_75 "75 Seconds"
+setstring english time_seconds_80 "80 Seconds"
+setstring english time_seconds_85 "85 Seconds"
+setstring english time_seconds_100 "100 Seconds"
+setstring english time_seconds_105 "105 Seconds"
+setstring english time_seconds_110 "110 Seconds"
+setstring english time_seconds_120 "120 Seconds"
+setstring english time_minutes_11 "11 Minutes"
+setstring english time_minutes_13 "13 Minutes"
+setstring english time_minutes_14 "14 Minutes"
+setstring english time_minutes_16 "16 Minutes"
+setstring english time_minutes_17 "17 Minutes"
+setstring english time_minutes_18 "18 Minutes"
+setstring english time_minutes_19 "19 Minutes"
+setstring english time_minutes_21 "21 Minutes"
+setstring english time_minutes_22 "22 Minutes"
+setstring english time_minutes_23 "23 Minutes"
+setstring english time_minutes_24 "24 Minutes"
+setstring english time_minutes_25 "25 Minutes"
+setstring english time_minutes_26 "26 Minutes"
+setstring english time_minutes_27 "27 Minutes"
+setstring english time_minutes_28 "28 Minutes"
+setstring english time_minutes_29 "29 Minutes"
+setstring english time_minutes_35 "35 Minutes"
+setstring english time_minutes_40 "40 Minutes"
+setstring english time_minutes_50 "50 Minutes"
+savetagchanges
+exitto tags
+
+edittag multiplayer\game_variant_settings\global_options\round_time_limit.sily
+removeblockelements TextValuePairs 0 *
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 1
+setfield TextValuePairs[*].Name time_minutes_1
+setfield TextValuePairs[*].Description rounds_time_limit_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 2
+setfield TextValuePairs[*].Name time_minutes_2
+setfield TextValuePairs[*].Description rounds_time_limit_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 3
+setfield TextValuePairs[*].Name time_minutes_3
+setfield TextValuePairs[*].Description rounds_time_limit_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 4
+setfield TextValuePairs[*].Name time_minutes_4
+setfield TextValuePairs[*].Description rounds_time_limit_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 5
+setfield TextValuePairs[*].Name time_minutes_5
+setfield TextValuePairs[*].Description rounds_time_limit_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 6
+setfield TextValuePairs[*].Name time_minutes_6
+setfield TextValuePairs[*].Description rounds_time_limit_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 7
+setfield TextValuePairs[*].Name time_minutes_7
+setfield TextValuePairs[*].Description rounds_time_limit_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 8
+setfield TextValuePairs[*].Name time_minutes_8
+setfield TextValuePairs[*].Description rounds_time_limit_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 9
+setfield TextValuePairs[*].Name time_minutes_9
+setfield TextValuePairs[*].Description rounds_time_limit_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 10
+setfield TextValuePairs[*].Name time_minutes_10
+setfield TextValuePairs[*].Description rounds_time_limit_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 11
+setfield TextValuePairs[*].Name time_minutes_11
+setfield TextValuePairs[*].Description rounds_time_limit_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 12
+setfield TextValuePairs[*].Name time_minutes_12
+setfield TextValuePairs[*].Description rounds_time_limit_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 13
+setfield TextValuePairs[*].Name time_minutes_13
+setfield TextValuePairs[*].Description rounds_time_limit_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 14
+setfield TextValuePairs[*].Name time_minutes_14
+setfield TextValuePairs[*].Description rounds_time_limit_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 15
+setfield TextValuePairs[*].Name time_minutes_15
+setfield TextValuePairs[*].Description rounds_time_limit_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 16
+setfield TextValuePairs[*].Name time_minutes_16
+setfield TextValuePairs[*].Description rounds_time_limit_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 17
+setfield TextValuePairs[*].Name time_minutes_17
+setfield TextValuePairs[*].Description rounds_time_limit_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 18
+setfield TextValuePairs[*].Name time_minutes_18
+setfield TextValuePairs[*].Description rounds_time_limit_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 19
+setfield TextValuePairs[*].Name time_minutes_19
+setfield TextValuePairs[*].Description rounds_time_limit_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 20
+setfield TextValuePairs[*].Name time_minutes_20
+setfield TextValuePairs[*].Description rounds_time_limit_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 21
+setfield TextValuePairs[*].Name time_minutes_21
+setfield TextValuePairs[*].Description rounds_time_limit_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 22
+setfield TextValuePairs[*].Name time_minutes_22
+setfield TextValuePairs[*].Description rounds_time_limit_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 23
+setfield TextValuePairs[*].Name time_minutes_23
+setfield TextValuePairs[*].Description rounds_time_limit_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 24
+setfield TextValuePairs[*].Name time_minutes_24
+setfield TextValuePairs[*].Description rounds_time_limit_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 25
+setfield TextValuePairs[*].Name time_minutes_25
+setfield TextValuePairs[*].Description rounds_time_limit_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 26
+setfield TextValuePairs[*].Name time_minutes_26
+setfield TextValuePairs[*].Description rounds_time_limit_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 27
+setfield TextValuePairs[*].Name time_minutes_27
+setfield TextValuePairs[*].Description rounds_time_limit_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 28
+setfield TextValuePairs[*].Name time_minutes_28
+setfield TextValuePairs[*].Description rounds_time_limit_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 29
+setfield TextValuePairs[*].Name time_minutes_29
+setfield TextValuePairs[*].Description rounds_time_limit_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 30
+setfield TextValuePairs[*].Name time_minutes_30
+setfield TextValuePairs[*].Description rounds_time_limit_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 35
+setfield TextValuePairs[*].Name time_minutes_35
+setfield TextValuePairs[*].Description rounds_time_limit_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 40
+setfield TextValuePairs[*].Name time_minutes_40
+setfield TextValuePairs[*].Description rounds_time_limit_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 45
+setfield TextValuePairs[*].Name time_minutes_45
+setfield TextValuePairs[*].Description rounds_time_limit_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 50
+setfield TextValuePairs[*].Name time_minutes_50
+setfield TextValuePairs[*].Description rounds_time_limit_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 60
+setfield TextValuePairs[*].Name time_minutes_60
+setfield TextValuePairs[*].Description rounds_time_limit_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 0
+setfield TextValuePairs[*].Name time_no_limit
+setfield TextValuePairs[*].Flags DefaultSetting
+setfield TextValuePairs[*].Description rounds_time_limit_nolimit_desc
+savetagchanges
+exitto tags
+
+
+edittag multiplayer\game_variant_settings\map_overrides\map_overrides_powerup_traits_yellow_duration.sily
+removeblockelements TextValuePairs 0 *
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 0
+setfield TextValuePairs[*].Name none
+setfield TextValuePairs[*].Description traits_duration_none_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 1
+setfield TextValuePairs[*].Name time_seconds_1
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 3
+setfield TextValuePairs[*].Name time_seconds_3
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 4
+setfield TextValuePairs[*].Name time_seconds_4
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 5
+setfield TextValuePairs[*].Name time_seconds_5
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 6
+setfield TextValuePairs[*].Name time_seconds_6
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 7
+setfield TextValuePairs[*].Name time_seconds_7
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 8
+setfield TextValuePairs[*].Name time_seconds_8
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 10
+setfield TextValuePairs[*].Name time_seconds_10
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 15
+setfield TextValuePairs[*].Name time_seconds_15
+setfield TextValuePairs[*].Flags DefaultSetting
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 20
+setfield TextValuePairs[*].Name time_seconds_20
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 25
+setfield TextValuePairs[*].Name time_seconds_25
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 30
+setfield TextValuePairs[*].Name time_seconds_30
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 35
+setfield TextValuePairs[*].Name time_seconds_35
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 45
+setfield TextValuePairs[*].Name time_seconds_45
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 50
+setfield TextValuePairs[*].Name time_seconds_50
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 60
+setfield TextValuePairs[*].Name time_seconds_60
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 75
+setfield TextValuePairs[*].Name time_seconds_75
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 80
+setfield TextValuePairs[*].Name time_seconds_80
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 85
+setfield TextValuePairs[*].Name time_seconds_85
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 90
+setfield TextValuePairs[*].Name time_seconds_90
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 100
+setfield TextValuePairs[*].Name time_seconds_100
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 105
+setfield TextValuePairs[*].Name time_seconds_105
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 110
+setfield TextValuePairs[*].Name time_seconds_110
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 120
+setfield TextValuePairs[*].Name time_seconds_120
+setfield TextValuePairs[*].Description traits_duration_value_desc
+savetagchanges
+exitto tags
+
+deletetag multiplayer\game_variant_settings\map_overrides\map_overrides_powerup_traits_red_duration.sily
+duplicatetag multiplayer\game_variant_settings\map_overrides\map_overrides_powerup_traits_yellow_duration.sily
+nametag * multiplayer\game_variant_settings\map_overrides\map_overrides_powerup_traits_red_duration.sily
+edittag multiplayer\game_variant_settings\map_overrides\map_overrides_powerup_traits_red_duration.sily
+setfield Parameter IntGlobalRedTraitsDuration
+savetagchanges
+exitto tags
+
+deletetag multiplayer\game_variant_settings\map_overrides\map_overrides_powerup_traits_blue_duration.sily
+duplicatetag multiplayer\game_variant_settings\map_overrides\map_overrides_powerup_traits_yellow_duration.sily
+nametag * multiplayer\game_variant_settings\map_overrides\map_overrides_powerup_traits_blue_duration.sily
+edittag multiplayer\game_variant_settings\map_overrides\map_overrides_powerup_traits_blue_duration.sily
+setfield Parameter IntGlobalBlueTraitsDuration
+savetagchanges
+exitto tags
+
+deletetag multiplayer\game_variant_settings\map_overrides\map_overrides_powerup_traits_red.goof
+duplicatetag multiplayer\game_variant_settings\map_overrides\map_overrides_powerup_traits_yellow.goof
+nametag * multiplayer\game_variant_settings\map_overrides\map_overrides_powerup_traits_red
+
+edittag multiplayer\game_variant_settings\map_overrides\map_overrides_powerup_traits_red.goof
+setfield GameEngineSettings[0].Name map_overrides_powerup_traits_red
+setfield GameEngineSettings[0].SettingCategory GlobalPowerupsRedTraitsMain
+setfield GameEngineSettings[0].Options[0].ValuePairs multiplayer\game_variant_settings\map_overrides\map_overrides_powerup_traits_red_duration.sily
+setfield GameEngineSettings[0].Options[1].SubmenuSettingCategory GlobalPowerupsRedTraitsHealth
+setfield GameEngineSettings[0].Options[2].SubmenuSettingCategory GlobalPowerupsRedTraitsWeapons
+setfield GameEngineSettings[0].Options[3].SubmenuSettingCategory GlobalPowerupsRedTraitsMovement
+setfield GameEngineSettings[0].Options[4].SubmenuSettingCategory GlobalPowerupsRedTraitsSensors
+setfield GameEngineSettings[0].Options[5].SubmenuSettingCategory GlobalPowerupsRedTraitsAppearance
+savetagchanges
+exitto tags
+
+deletetag multiplayer\game_variant_settings\map_overrides\map_overrides_powerup_traits_blue.goof
+duplicatetag multiplayer\game_variant_settings\map_overrides\map_overrides_powerup_traits_yellow.goof
+nametag * multiplayer\game_variant_settings\map_overrides\map_overrides_powerup_traits_blue
+
+edittag multiplayer\game_variant_settings\map_overrides\map_overrides_powerup_traits_blue.goof
+setfield GameEngineSettings[0].Name map_overrides_powerup_traits_blue
+setfield GameEngineSettings[0].SettingCategory GlobalPowerupsBlueTraitsMain
+setfield GameEngineSettings[0].Options[0].ValuePairs multiplayer\game_variant_settings\map_overrides\map_overrides_powerup_traits_blue_duration.sily
+setfield GameEngineSettings[0].Options[1].SubmenuSettingCategory GlobalPowerupsBlueTraitsHealth
+setfield GameEngineSettings[0].Options[2].SubmenuSettingCategory GlobalPowerupsBlueTraitsWeapons
+setfield GameEngineSettings[0].Options[3].SubmenuSettingCategory GlobalPowerupsBlueTraitsMovement
+setfield GameEngineSettings[0].Options[4].SubmenuSettingCategory GlobalPowerupsBlueTraitsSensors
+setfield GameEngineSettings[0].Options[5].SubmenuSettingCategory GlobalPowerupsBlueTraitsAppearance
+savetagchanges
+exitto tags
+
+edittag multiplayer\game_variant_settings\global_options\map_overrides.goof
+removeblockelements GameEngineSettings[0].Options 7 *
+addblockelements GameEngineSettings[0].Options 2
+setfield GameEngineSettings[0].Options[7].ExplicitSubmenu multiplayer\game_variant_settings\map_overrides\map_overrides_powerup_traits_red.goof
+setfield GameEngineSettings[0].Options[7].SubmenuName map_overrides_powerup_traits_red
+setfield GameEngineSettings[0].Options[7].SubmenuDescription map_overrides_powerup_traits_red_desc
+
+setfield GameEngineSettings[0].Options[8].ExplicitSubmenu multiplayer\game_variant_settings\map_overrides\map_overrides_powerup_traits_blue.goof
+setfield GameEngineSettings[0].Options[8].SubmenuName map_overrides_powerup_traits_blue
+setfield GameEngineSettings[0].Options[8].SubmenuDescription map_overrides_powerup_traits_blue_desc
+savetagchanges
+exitto tags
+
+edittag multiplayer\game_variant_settings\respawn_options\respawn_traits_duration.sily
+removeblockelements TextValuePairs 0 *
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 0
+setfield TextValuePairs[*].Name none
+setfield TextValuePairs[*].Description traits_duration_none_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 1
+setfield TextValuePairs[*].Name time_seconds_1
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 2
+setfield TextValuePairs[*].Name time_seconds_2
+setfield TextValuePairs[*].Flags DefaultSetting
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 3
+setfield TextValuePairs[*].Name time_seconds_3
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 4
+setfield TextValuePairs[*].Name time_seconds_4
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 5
+setfield TextValuePairs[*].Name time_seconds_5
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 6
+setfield TextValuePairs[*].Name time_seconds_6
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 7
+setfield TextValuePairs[*].Name time_seconds_7
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 8
+setfield TextValuePairs[*].Name time_seconds_8
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 10
+setfield TextValuePairs[*].Name time_seconds_10
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 15
+setfield TextValuePairs[*].Name time_seconds_15
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 20
+setfield TextValuePairs[*].Name time_seconds_20
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 25
+setfield TextValuePairs[*].Name time_seconds_25
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 30
+setfield TextValuePairs[*].Name time_seconds_30
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 35
+setfield TextValuePairs[*].Name time_seconds_35
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 45
+setfield TextValuePairs[*].Name time_seconds_45
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 50
+setfield TextValuePairs[*].Name time_seconds_50
+setfield TextValuePairs[*].Description traits_duration_value_desc
+
+addblockelements TextValuePairs 1
+setfield TextValuePairs[*].ExpectedValueType IntegerIndex
+setfield TextValuePairs[*].EnumeratedValue 60
+setfield TextValuePairs[*].Name time_seconds_60
+setfield TextValuePairs[*].Description traits_duration_value_desc
+savetagchanges
+exitto tags

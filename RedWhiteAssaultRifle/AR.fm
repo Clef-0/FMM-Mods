@@ -3,4 +3,7 @@ cd mods\tagMods\RedWhiteAssaultRifle
 ECHO FMM_OUTPUT Installing Red Arrow Assault Rifle...
 
 Type "You got that boom, chika, boom, boom, boom, boom" | FMM.bat
+timeout 1
+
+
 ECHO FMM_OUTPUT Red Arrow Assault Rifle Has been installed Succesfully have fun :)

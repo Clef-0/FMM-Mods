@@ -1,0 +1,7 @@
+ECHO FMM_OUTPUT Installing the hotfix ...
+
+cd mods\tagMods\OVERLAP_METER_FIX
+
+Type commands\fix.cmds | TagTool.exe ../../../maps/tags.dat
+
+ECHO FMM_OUTPUT Spartan Laser And Beam Rifle overlapping fix has been installed. ...

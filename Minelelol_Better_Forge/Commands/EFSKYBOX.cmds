@@ -1219,7 +1219,6 @@ savetagchanges
 exit
 
 
-
 echo   Editing the Scenery Tag of Last resort
 edittag 0x4F14
 
@@ -5626,6 +5625,515 @@ addblockelements MultiplayerObject
 savetagchanges
 exit
 
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x00002EF6 
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x00002EF7
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x00003AA7
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x00003AA8
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x49F2
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x49BA
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x4DCA
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x4DCD
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x4DD0
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x4DD4
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x4DD7
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x4DDB
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+#CHILL SOUND
+edittag 0x4B81
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x4B85
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x4B88
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x4B8B
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x4B8F
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x4B92
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x4B95
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x4B98
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x4B9B
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x4B9E
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x49A1
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x49CA
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x49E4
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x479E
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x47A1
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x47A4
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x47A7
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x47AA
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x28C6
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x34CB
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x536C
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x536F
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x5372
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x5375
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x5378
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x537A
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x537D
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x34C8
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x34C9
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x34CA
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x3498
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x3499
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x349A
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x349B
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x349C
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x349D
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x349E
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x349F
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x34A0
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x34A1
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x34A2
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x34A3
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x3DDF
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x3E0B
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x3E0C
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x3FD9
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x3FDA
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x3F97
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x3F98
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x3F99
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x27F4
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x41F6
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x41F7
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x41F8
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x41F9
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x56CF
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x56D2
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x56D5
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x5230
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x5138
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x513B
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x5148
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x514B
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x514E
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x5150
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x5153
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x5156
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x5159
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x515C
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x515F
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x5162
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
+
+edittag 0x2EF5
+removeblockelements MultiplayerObject 0 *
+addblockelements MultiplayerObject
+savetagchanges
+exit
 #####################################################################
 # Edit Skybox scen and hlmt tags to allow for spawning and grabbing #
 #####################################################################
@@ -5637,7 +6145,7 @@ addblockelements MultiplayerObject 1
 savetagchanges
 exitto tags
 edittag levels\dlc\bunkerworld\sky\sky_bunkerworld.model
-setfield PhysicsModel ReForge\Block_1x1x1.physics_model
+setfield PhysicsModel objects\multi\models\ff_inital_camera\ff_inital_camera.phmo
 savetagchanges
 exitto tags
 
@@ -5648,7 +6156,7 @@ addblockelements MultiplayerObject 1
 savetagchanges
 exitto tags
 edittag levels\multi\chill\sky\sky.model
-setfield PhysicsModel ReForge\Block_1x1x1.physics_model
+setfield PhysicsModel objects\multi\models\ff_inital_camera\ff_inital_camera.phmo
 savetagchanges
 exitto tags
 
@@ -5659,7 +6167,7 @@ addblockelements MultiplayerObject 1
 savetagchanges
 exitto tags
 edittag levels\multi\cyberdyne\sky\sky.model
-setfield PhysicsModel ReForge\Block_1x1x1.physics_model
+setfield PhysicsModel objects\multi\models\ff_inital_camera\ff_inital_camera.phmo
 savetagchanges
 exitto tags
 
@@ -5670,7 +6178,7 @@ addblockelements MultiplayerObject 1
 savetagchanges
 exitto tags
 edittag levels\multi\deadlock\sky\deadlock.model
-setfield PhysicsModel ReForge\Block_1x1x1.physics_model
+setfield PhysicsModel objects\multi\models\ff_inital_camera\ff_inital_camera.phmo
 savetagchanges
 exitto tags
 
@@ -5681,7 +6189,7 @@ addblockelements MultiplayerObject 1
 savetagchanges
 exitto tags
 edittag levels\multi\guardian\sky\sky.model
-setfield PhysicsModel ReForge\Block_1x1x1.physics_model
+setfield PhysicsModel objects\multi\models\ff_inital_camera\ff_inital_camera.phmo
 savetagchanges
 exitto tags
 
@@ -5692,7 +6200,7 @@ addblockelements MultiplayerObject 1
 savetagchanges
 exitto tags
 edittag levels\multi\riverworld\sky\riverworld.model
-setfield PhysicsModel ReForge\Block_1x1x1.physics_model
+setfield PhysicsModel objects\multi\models\ff_inital_camera\ff_inital_camera.phmo
 savetagchanges
 exitto tags
 
@@ -5703,7 +6211,7 @@ addblockelements MultiplayerObject 1
 savetagchanges
 exitto tags
 edittag 0x3C4E.model
-setfield PhysicsModel ReForge\Block_1x1x1.physics_model
+setfield PhysicsModel objects\multi\models\ff_inital_camera\ff_inital_camera.phmo
 savetagchanges
 exitto tags
 
@@ -5714,7 +6222,7 @@ addblockelements MultiplayerObject 1
 savetagchanges
 exitto tags
 edittag 0x3F01.model
-setfield PhysicsModel ReForge\Block_1x1x1.physics_model
+setfield PhysicsModel objects\multi\models\ff_inital_camera\ff_inital_camera.phmo
 savetagchanges
 exitto tags
 
@@ -5725,7 +6233,7 @@ addblockelements MultiplayerObject 1
 savetagchanges
 exitto tags
 edittag 0x40CE.model
-setfield PhysicsModel ReForge\Block_1x1x1.physics_model
+setfield PhysicsModel objects\multi\models\ff_inital_camera\ff_inital_camera.phmo
 savetagchanges
 exitto tags
 
@@ -5736,7 +6244,7 @@ addblockelements MultiplayerObject 1
 savetagchanges
 exitto tags
 edittag 0x42E6.model
-setfield PhysicsModel ReForge\Block_1x1x1.physics_model
+setfield PhysicsModel objects\multi\models\ff_inital_camera\ff_inital_camera.phmo
 savetagchanges
 exitto tags
 
@@ -5747,7 +6255,7 @@ addblockelements MultiplayerObject 1
 savetagchanges
 exitto tags
 edittag levels\multi\shrine\sky\sky.model
-setfield PhysicsModel ReForge\Block_1x1x1.physics_model
+setfield PhysicsModel objects\multi\models\ff_inital_camera\ff_inital_camera.phmo
 savetagchanges
 exitto tags
 
@@ -5758,7 +6266,7 @@ addblockelements MultiplayerObject 1
 savetagchanges
 exitto tags
 edittag levels\multi\zanzibar\sky\sky.model
-setfield PhysicsModel ReForge\Block_1x1x1.physics_model
+setfield PhysicsModel objects\multi\models\ff_inital_camera\ff_inital_camera.phmo
 savetagchanges
 exitto tags
 
@@ -5802,6 +6310,22 @@ addblockelements SandboxTeleporters 1
 setfield SandboxTeleporters[*].object 0x49C3
 addblockelements SandboxTeleporters 1
 setfield SandboxTeleporters[*].object 0x49FB
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x49F2
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x49BA
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x4DCA
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x4DCD
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x4DD0
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x4DD4
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x4DD7
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x4DDB
 
 removeblockelements SandboxEquipment 24 *
 addblockelements SandboxEquipment 4
@@ -5809,6 +6333,8 @@ setfield SandboxEquipment[24].object 0x20EE
 setfield SandboxEquipment[25].object 0x1CA0
 setfield SandboxEquipment[26].object 0x1EFF
 setfield SandboxEquipment[27].object 0x1F91
+addblockelements SandboxGoalObjects 1
+setfield SandboxGoalObjects[*].object 0x28C6
 savetagchanges
 exitto tags
 
@@ -5842,6 +6368,26 @@ addblockelements SandboxTeleporters 1
 setfield SandboxTeleporters[*].object levels\multi\zanzibar\sky\sky.scenery
 addblockelements SandboxTeleporters 1
 setfield SandboxTeleporters[*].object 0x4BA1
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x4B81
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x4B85
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x4B88
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x4B8B
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x4B8F
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x4B92
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x4B95
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x4B98
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x4B9B
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x4B9E
 
 removeblockelements SandboxEquipment 24 *
 addblockelements SandboxEquipment 4
@@ -5849,6 +6395,8 @@ setfield SandboxEquipment[24].object 0x20EE
 setfield SandboxEquipment[25].object 0x1CA0
 setfield SandboxEquipment[26].object 0x1EFF
 setfield SandboxEquipment[27].object 0x1F91
+addblockelements SandboxGoalObjects 1
+setfield SandboxGoalObjects[*].object 0x28C6
 savetagchanges
 exitto tags
 
@@ -5888,6 +6436,37 @@ addblockelements SandboxTeleporters 1
 setfield SandboxTeleporters[*].object 0x49D3
 addblockelements SandboxTeleporters 1
 setfield SandboxTeleporters[*].object 0x49FB
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x49A1
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x49BA
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x49F2
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x49CA
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x49E4
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x49A1
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x49BA
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x49F2
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x49CA
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x49E4
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x479E
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x47A1
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x47A4
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x47A7
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x47AA
+
 
 
 removeblockelements SandboxEquipment 24 *
@@ -5896,6 +6475,8 @@ setfield SandboxEquipment[24].object 0x20EE
 setfield SandboxEquipment[25].object 0x1CA0
 setfield SandboxEquipment[26].object 0x1EFF
 setfield SandboxEquipment[27].object 0x1F91
+addblockelements SandboxGoalObjects 1
+setfield SandboxGoalObjects[*].object 0x28C6
 savetagchanges
 exitto tags
 
@@ -5929,6 +6510,22 @@ addblockelements SandboxTeleporters 1
 setfield SandboxTeleporters[*].object levels\multi\zanzibar\sky\sky.scenery
 addblockelements SandboxTeleporters 1
 setfield SandboxTeleporters[*].object 0x3A02
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x34CB
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x536C
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x536F
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x5372
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x5375
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x5378
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x537A
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x537D
 
 removeblockelements SandboxEquipment 24 *
 addblockelements SandboxEquipment 4
@@ -5936,6 +6533,8 @@ setfield SandboxEquipment[24].object 0x20EE
 setfield SandboxEquipment[25].object 0x1CA0
 setfield SandboxEquipment[26].object 0x1EFF
 setfield SandboxEquipment[27].object 0x1F91
+addblockelements SandboxGoalObjects 1
+setfield SandboxGoalObjects[*].object 0x28C6
 savetagchanges
 exitto tags
 
@@ -5973,6 +6572,12 @@ addblockelements SandboxTeleporters 1
 setfield SandboxTeleporters[*].object 0x345B
 addblockelements SandboxTeleporters 1
 setfield SandboxTeleporters[*].object 0x345C
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x2EF5
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x2EF6
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x2EF7
 
 removeblockelements SandboxEquipment 24 *
 addblockelements SandboxEquipment 4
@@ -5980,6 +6585,8 @@ setfield SandboxEquipment[24].object 0x20EE
 setfield SandboxEquipment[25].object 0x1CA0
 setfield SandboxEquipment[26].object 0x1EFF
 setfield SandboxEquipment[27].object 0x1F91
+addblockelements SandboxGoalObjects 1
+setfield SandboxGoalObjects[*].object 0x28C6
 savetagchanges
 exitto tags
 
@@ -6013,6 +6620,38 @@ addblockelements SandboxTeleporters 1
 setfield SandboxTeleporters[*].object levels\multi\zanzibar\sky\sky.scenery
 addblockelements SandboxTeleporters 1
 setfield SandboxTeleporters[*].object 0x3A02
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x34C8
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x34C9
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x34CA
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x34CB
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x3498
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x3499
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x349A
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x349B
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x349C
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x349D
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x349E
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x349F
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x34A0
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x34A1
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x34A2
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x34A3
 
 removeblockelements SandboxEquipment 24 *
 addblockelements SandboxEquipment 4
@@ -6020,6 +6659,8 @@ setfield SandboxEquipment[24].object 0x20EE
 setfield SandboxEquipment[25].object 0x1CA0
 setfield SandboxEquipment[26].object 0x1EFF
 setfield SandboxEquipment[27].object 0x1F91
+addblockelements SandboxGoalObjects 1
+setfield SandboxGoalObjects[*].object 0x28C6
 savetagchanges
 exitto tags
 
@@ -6073,6 +6714,10 @@ addblockelements SandboxTeleporters 1
 setfield SandboxTeleporters[*].object 0x3A2A
 addblockelements SandboxTeleporters 1
 setfield SandboxTeleporters[*].object 0x3A2B
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x3AA7
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x3AA8
 
 removeblockelements SandboxEquipment 24 *
 addblockelements SandboxEquipment 4
@@ -6080,6 +6725,8 @@ setfield SandboxEquipment[24].object 0x20EE
 setfield SandboxEquipment[25].object 0x1CA0
 setfield SandboxEquipment[26].object 0x1EFF
 setfield SandboxEquipment[27].object 0x1F91
+addblockelements SandboxGoalObjects 1
+setfield SandboxGoalObjects[*].object 0x28C6
 savetagchanges
 exitto tags
 
@@ -6133,6 +6780,12 @@ addblockelements SandboxTeleporters 1
 setfield SandboxTeleporters[*].object 0x3DE5
 addblockelements SandboxTeleporters 1
 setfield SandboxTeleporters[*].object 0x3DE6
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x3DDF
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x3E0B
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x3E0C
 
 removeblockelements SandboxEquipment 24 *
 addblockelements SandboxEquipment 4
@@ -6140,6 +6793,8 @@ setfield SandboxEquipment[24].object 0x20EE
 setfield SandboxEquipment[25].object 0x1CA0
 setfield SandboxEquipment[26].object 0x1EFF
 setfield SandboxEquipment[27].object 0x1F91
+addblockelements SandboxGoalObjects 1
+setfield SandboxGoalObjects[*].object 0x28C6
 savetagchanges
 exitto tags
 
@@ -6203,6 +6858,16 @@ addblockelements SandboxTeleporters 1
 setfield SandboxTeleporters[*].object 0x3FAA
 addblockelements SandboxTeleporters 1
 setfield SandboxTeleporters[*].object 0x3FAB
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x3FD9
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x3FDA
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x3F97
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x3F98
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x3F99
 
 removeblockelements SandboxEquipment 24 *
 addblockelements SandboxEquipment 4
@@ -6210,6 +6875,8 @@ setfield SandboxEquipment[24].object 0x20EE
 setfield SandboxEquipment[25].object 0x1CA0
 setfield SandboxEquipment[26].object 0x1EFF
 setfield SandboxEquipment[27].object 0x1F91
+addblockelements SandboxGoalObjects 1
+setfield SandboxGoalObjects[*].object 0x28C6
 savetagchanges
 exitto tags
 
@@ -6271,6 +6938,16 @@ addblockelements SandboxTeleporters 1
 setfield SandboxTeleporters[*].object 0x3FA6
 addblockelements SandboxTeleporters 1
 setfield SandboxTeleporters[*].object 0x41FD
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x27F4
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x41F6
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x41F7
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x41F8
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x41F9
 
 removeblockelements SandboxEquipment 24 *
 addblockelements SandboxEquipment 4
@@ -6278,6 +6955,8 @@ setfield SandboxEquipment[24].object 0x20EE
 setfield SandboxEquipment[25].object 0x1CA0
 setfield SandboxEquipment[26].object 0x1EFF
 setfield SandboxEquipment[27].object 0x1F91
+addblockelements SandboxGoalObjects 1
+setfield SandboxGoalObjects[*].object 0x28C6
 savetagchanges
 exitto tags
 
@@ -6311,6 +6990,13 @@ addblockelements SandboxTeleporters 1
 setfield SandboxTeleporters[*].object levels\multi\zanzibar\sky\sky.scenery
 addblockelements SandboxTeleporters 1
 setfield SandboxTeleporters[*].object 0x56D8
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x56CF
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x56D2
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x56D5
+
 
 removeblockelements SandboxEquipment 24 *
 addblockelements SandboxEquipment 4
@@ -6324,6 +7010,8 @@ setfield SandboxVehicles[22].Cost 0
 
 setfield SandboxVehicles[23].MaxAllowed 0
 setfield SandboxVehicles[23].Cost 0
+addblockelements SandboxGoalObjects 1
+setfield SandboxGoalObjects[*].object 0x28C6
 savetagchanges
 exitto tags
 
@@ -6357,6 +7045,32 @@ addblockelements SandboxTeleporters 1
 setfield SandboxTeleporters[*].object levels\multi\zanzibar\sky\sky.scenery
 addblockelements SandboxTeleporters 1
 setfield SandboxTeleporters[*].object 0x50E0
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x5230
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x5138
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x513B
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x5148
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x514B
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x514E
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x5150
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x5153
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x5156
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x5159
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x515C
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x515F
+addblockelements SandboxTeleporters 1
+setfield SandboxTeleporters[*].object 0x5162
 
 removeblockelements SandboxEquipment 24 *
 addblockelements SandboxEquipment 4
@@ -6364,6 +7078,8 @@ setfield SandboxEquipment[24].object 0x20EE
 setfield SandboxEquipment[25].object 0x1CA0
 setfield SandboxEquipment[26].object 0x1EFF
 setfield SandboxEquipment[27].object 0x1F91
+addblockelements SandboxGoalObjects 1
+setfield SandboxGoalObjects[*].object 0x28C6
 savetagchanges
 exitto tags
 
