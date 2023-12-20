@@ -739,7 +739,7 @@ setstring english rocket_lock_available "Hold \uE44A to lock on"
 
 setstring english scorpion_board "\uE461\uE45F to board enemy Scorpion"
 setstring english scorpion_enter_driver "\uE461\uE45F to drive Scorpion"
-setstring english scorpion_enter_passenger "\\uE461\uE45F to operate Scorpion turret"
+setstring english scorpion_enter_passenger "\uE461\uE45F to operate Scorpion turret"
 setstring english scorpion_flip "\uE461\uE45F to flip Scorpion"
 
 setstring english sen_b_pickup "\uE461\uE45F to pick up|n|r\uE12E"
