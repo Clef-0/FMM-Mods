@@ -61,3 +61,4 @@ https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/mcmods/MCPickaxe/MCPick
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/mcmods/MCAxe/MCAxe.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/mcmods/MCBlock/MCBlock.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/mcmods/MCTNT/MCTNT.ini
+https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/saomods/Elucidator/Elucidator.ini
