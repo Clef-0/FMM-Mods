@@ -1,0 +1,16 @@
+ECHO FMM_OUTPUT Installing Halo Reach Shotgun...
+if exist mods\tagmods\reachmods\reachshotgun (
+	GOTO Label0
+) else (
+	GOTO Label1
+)
+:Label0
+cd mods\tagmods\reachmods\reachshotgun
+Type reachshotgun.cmds | TagTool.exe ..\..\..\..\maps\tags.dat
+FOR %%f IN (fonts) DO copy %%f ..\..\..\..\maps\fonts
+ECHO FMM_OUTPUT Halo Reach Shotgun has been installed!
+GOTO End
+
+:Label1
+ECHO WARNING Mod is not in the correct location.
+ECHO Install at: /mods/tagMods/reachmods

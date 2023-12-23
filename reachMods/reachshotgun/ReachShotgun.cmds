@@ -1,0 +1,183 @@
+CreateTag "mode" 0x1EFB
+NameTag 0x1EFB objects\weapons\rifle\shotgun\fp_shotgun\fp_shotgun
+ImportTag 0x1EFB "tags\objects\weapons\rifle\shotgun\fp_shotgun\fp_shotgun.render_model"
+
+CreateTag "rmsh" 0x5D19
+NameTag 0x5D19 objects\weapons\rifle\shotgun\shaders\shotgun_composite
+ImportTag 0x5D19 "tags\0x5D19.shader"
+
+CreateTag "rmsh" 0x5D1A
+NameTag 0x5D1A objects\weapons\rifle\shotgun\shaders\shotgun_decal
+ImportTag 0x5D1A "tags\0x5D1A.shader"
+
+CreateTag "rmsh" 0x5D1B
+NameTag 0x5D1B objects\weapons\rifle\shotgun\shaders\shotgun_new_aim_illum
+ImportTag 0x5D1B "tags\0x5D1B.shader"
+
+CreateTag "rmsh" 0x5D1C
+NameTag 0x5D1C objects\weapons\rifle\shotgun\shaders\shotgun_metal
+ImportTag 0x5D1C "tags\0x5D1C.shader"
+
+CreateTag "rmsh" 0x5D1D
+NameTag 0x5D1D objects\weapons\rifle\shotgun\shaders\shotgun_rubber
+ImportTag 0x5D1D "tags\0x5D1D.shader"
+
+CreateTag "rmsh" 0x5D1E
+NameTag 0x5D1E objects\weapons\rifle\shotgun\shaders\shotgun_metal_shiny
+ImportTag 0x5D1E "tags\0x5D1E.shader"
+
+CreateTag "bitm" 0x5D15
+NameTag 0x5D15 objects\weapons\rifle\shotgun\bitmaps\shotgun_diffuse
+ImportTag 0x5D15 "tags\0x5D15.bitmap"
+
+CreateTag "bitm" 0x5D16
+NameTag 0x5D16 objects\weapons\rifle\shotgun\bitmaps\shotgun_zbump
+ImportTag 0x5D16 "tags\0x5D16.bitmap"
+
+CreateTag "bitm" 0x0379
+NameTag 0x0379 shaders\default_bitmaps\bitmaps\default_dynamic_cube_map
+ImportTag 0x0379 "tags\shaders\default_bitmaps\bitmaps\default_dynamic_cube_map.bitmap"
+
+CreateTag "bitm" 0x0376
+NameTag 0x0376 shaders\default_bitmaps\bitmaps\default_vector
+ImportTag 0x0376 "tags\shaders\default_bitmaps\bitmaps\default_vector.bitmap"
+
+CreateTag "bitm" 0x02B9
+NameTag 0x02B9 shaders\default_bitmaps\bitmaps\color_white
+ImportTag 0x02B9 "tags\shaders\default_bitmaps\bitmaps\color_white.bitmap"
+
+CreateTag "bitm" 0x0343
+NameTag 0x0343 shaders\default_bitmaps\bitmaps\default_detail
+ImportTag 0x0343 "tags\shaders\default_bitmaps\bitmaps\default_detail.bitmap"
+
+CreateTag "bitm" 0x02B7
+NameTag 0x02B7 shaders\default_bitmaps\bitmaps\gray_50_percent
+ImportTag 0x02B7 "tags\shaders\default_bitmaps\bitmaps\gray_50_percent.bitmap"
+
+CreateTag "bitm" 0x5D18
+NameTag 0x5D18 objects\weapons\rifle\shotgun\bitmaps\shotgun_flat_illum
+ImportTag 0x5D18 "tags\0x5D18.bitmap"
+
+CreateTag "bitm" 0x5D17
+NameTag 0x5D17 objects\weapons\rifle\shotgun\bitmaps\unsc_decals_diffuse
+ImportTag 0x5D17 "tags\0x5D17.bitmap"
+
+CreateTag "hlmt" 0x1EF5
+NameTag 0x1EF5 objects\weapons\rifle\shotgun\shotgun
+ImportTag 0x1EF5 "tags\objects\weapons\rifle\shotgun\shotgun.model"
+
+CreateTag "mode" 0x1F3F
+NameTag 0x1F3F objects\weapons\rifle\shotgun\shotgun
+ImportTag 0x1F3F "tags\objects\weapons\rifle\shotgun\shotgun.render_model"
+
+CreateTag "coll" 0x1F40
+NameTag 0x1F40 objects\weapons\rifle\shotgun\shotgun
+ImportTag 0x1F40 "tags\objects\weapons\rifle\shotgun\shotgun.collision_model"
+
+CreateTag "jmad" 0x1F41
+NameTag 0x1F41 objects\weapons\rifle\shotgun\shotgun
+ImportTag 0x1F41 "tags\objects\weapons\rifle\shotgun\shotgun.model_animation_graph"
+
+CreateTag "phmo" 0x1F42
+NameTag 0x1F42 objects\weapons\rifle\shotgun\shotgun
+ImportTag 0x1F42 "tags\objects\weapons\rifle\shotgun\shotgun.physics_model"
+
+CreateTag "mode" 0x1F43
+NameTag 0x1F43 objects\weapons\lod\lod_shotgun\lod_shotgun
+ImportTag 0x1F43 "tags\objects\weapons\lod\lod_shotgun\lod_shotgun.render_model"
+
+CreateTag "rmsh" 0x1F44
+NameTag 0x1F44 objects\weapons\lod\lod_shotgun\lod_shotgun\shaders\[00]_rmsh
+ImportTag 0x1F44 "tags\objects\weapons\lod\lod_shotgun\lod_shotgun\shaders\[00]_rmsh.shader"
+
+CreateTag "bitm" 0x1F45
+NameTag 0x1F45 objects\weapons\lod\lod_shotgun\lod_shotgun\bitmaps\[00]_rmsh\alpha_test
+ImportTag 0x1F45 "tags\objects\weapons\lod\lod_shotgun\lod_shotgun\bitmaps\[00]_rmsh\alpha_test.bitmap"
+
+EditTag 0x1EFB
+SetField Geometry.Resource.Page.Index -1
+SetField Geometry.Resource ResourcesB "tags\objects\weapons\rifle\shotgun\fp_shotgun\fp_shotgun_geometry.render_geometry_api_resource_definition"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5D15
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\0x5D15_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5D16
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\0x5D16_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x0379
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\shaders\default_bitmaps\bitmaps\default_dynamic_cube_map_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x0376
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\shaders\default_bitmaps\bitmaps\default_vector_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x02B9
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\shaders\default_bitmaps\bitmaps\color_white_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x0343
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\shaders\default_bitmaps\bitmaps\default_detail_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x02B7
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\shaders\default_bitmaps\bitmaps\gray_50_percent_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5D18
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\0x5D18_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x5D17
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\0x5D17_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x1F3F
+SetField Geometry.Resource.Page.Index -1
+SetField Geometry.Resource ResourcesB "tags\objects\weapons\rifle\shotgun\shotgun_geometry.render_geometry_api_resource_definition"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x1F41
+SetField ResourceGroups[0].Resource.Page.Index -1
+SetField ResourceGroups[0].Resource ResourcesB "tags\objects\weapons\rifle\shotgun\shotgun_group.model_animation_tag_resource"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x1F43
+SetField Geometry.Resource.Page.Index -1
+SetField Geometry.Resource ResourcesB "tags\objects\weapons\lod\lod_shotgun\lod_shotgun_geometry.render_geometry_api_resource_definition"
+SaveTagChanges
+ExitTo tags
+
+EditTag 0x1F45
+SetField Resources[0].Resource.Page.Index -1
+SetField Resources[0].Resource ResourcesB "tags\objects\weapons\lod\lod_shotgun\lod_shotgun\bitmaps\[00]_rmsh\alpha_test_image.bitmap_texture_interop_resource"
+SaveTagChanges
+ExitTo tags
+
+SaveTagNames
+DumpLog ReachShotgun.txt
+Exit
