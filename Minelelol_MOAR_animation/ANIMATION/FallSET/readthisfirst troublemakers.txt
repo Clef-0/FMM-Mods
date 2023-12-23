@@ -1,0 +1,28 @@
+1 = Intended for hammer
+2 = Intended for pistol class
+3 = Intended for rifle class
+4 = Intended for low_rifle class
+5 = Intended for support class
+6 = Intended for needler
+7 = Intended for sniper
+8 = Intended for bruteshot
+            %##########-==  
+         %############### -==           
+       %###################*-:::-       
+      %############**=-::::::--:::      
+     ###########*::::::::::::::-:-      
+   %#%#######*::::::::::::::::::-       
+  #####%##*::::::::::::::::-::::-       
+  #####%%+:::::::::::-##                
+  ##%##%=::::::::-=+                    
+ @###%#:::::::-=                        
+ @###+:::::::=                          
+ @##*::::::-+                           
+ %###-::::-                             
+ %##%=::-=                              
+=-*-- =-=                               
+:::::-                                  
+:::::-                                  
+=:::- 
+
+-Minelelol
