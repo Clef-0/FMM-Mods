@@ -1,0 +1,205 @@
+Echo Setup Bitmaps
+CreateTag bitm
+NameTag * objects\weapons\rifle\dmr\bitmaps\dmr_diffuse
+Edittag objects\weapons\rifle\dmr\bitmaps\dmr_diffuse.bitm
+ImportBitmap 0 Tags\Bitmaps\dmr_diffuse.dds
+SaveTagChanges
+Exit
+
+CreateTag bitm
+NameTag * objects\weapons\rifle\dmr\bitmaps\dmr_normal
+Edittag objects\weapons\rifle\dmr\bitmaps\dmr_normal.bitm
+ImportBitmap 0 Tags\Bitmaps\dmr_normal.dds
+SaveTagChanges
+Exit
+
+CreateTag bitm
+NameTag * objects\weapons\rifle\dmr\bitmaps\dmr_illumination_map
+Edittag objects\weapons\rifle\dmr\bitmaps\dmr_illumination_map.bitm
+ImportBitmap 0 Tags\Bitmaps\dmr_illumination_map.dds
+SaveTagChanges
+Exit
+
+CreateTag bitm
+NameTag * objects\weapons\rifle\dmr\bitmaps\unsc_decals_diffuse
+Edittag objects\weapons\rifle\dmr\bitmaps\unsc_decals_diffuse.bitm
+ImportBitmap 0 Tags\Bitmaps\unsc_decals_diffuse.dds
+SaveTagChanges
+Exit
+
+Duplicatetag objects\weapons\rifle\dmr\fp_dmr\fp_dmr\bitmaps\[05]_rmsh\self_illum_primary_ammunition_ones.bitm 
+NameTag * objects\weapons\rifle\dmr\bitmaps\dmr_numerology
+EditTag objects\weapons\rifle\dmr\bitmaps\dmr_numerology.bitm
+importbitmap 0 Tags\Bitmaps\Numerology\0.dds
+importbitmap 1 Tags\Bitmaps\Numerology\1.dds
+importbitmap 2 Tags\Bitmaps\Numerology\2.dds
+importbitmap 3 Tags\Bitmaps\Numerology\3.dds
+importbitmap 4 Tags\Bitmaps\Numerology\4.dds
+importbitmap 5 Tags\Bitmaps\Numerology\5.dds
+importbitmap 6 Tags\Bitmaps\Numerology\6.dds
+importbitmap 7 Tags\Bitmaps\Numerology\7.dds
+importbitmap 8 Tags\Bitmaps\Numerology\8.dds
+importbitmap 9 Tags\Bitmaps\Numerology\9.dds
+SaveTagChanges
+Exit
+
+Savetagnames
+
+Echo // Setup Shaders
+
+Duplicatetag objects\weapons\rifle\spike_rifle\fp_spike_rifle\fp_spike_rifle\shaders\[00]_rmsh.shader
+Nametag * objects\weapons\rifle\dmr\shaders\dmr_composite
+Edittag objects\weapons\rifle\dmr\shaders\dmr_composite.shader
+Removeblockelements ImportData 0 *
+SetField ShaderProperties[0].Shadermaps[0].Bitmap objects\weapons\rifle\dmr\bitmaps\dmr_diffuse.bitm
+SetField ShaderProperties[0].Shadermaps[1].Bitmap shaders\default_bitmaps\bitmaps\default_detail.bitmap
+SetField ShaderProperties[0].Shadermaps[2].Bitmap objects\weapons\rifle\dmr\bitmaps\dmr_normal.bitm
+SetField ShaderProperties[0].Shadermaps[3].Bitmap shaders\default_bitmaps\bitmaps\default_vector.bitmap
+SetField ShaderProperties[0].Shadermaps[4].Bitmap shaders\default_bitmaps\bitmaps\gray_50_percent.bitmap
+SetField ShaderProperties[0].Shadermaps[5].Bitmap shaders\default_bitmaps\bitmaps\color_white.bitmap
+SetField ShaderProperties[0].Shadermaps[6].Bitmap objects\weapons\rifle\dmr\bitmaps\dmr_illumination_map.bitm
+Setargument base_map 1 1 0 0
+Setargument detail_map 3 3 0 0
+Setargument albedo_color 1 1 1 1
+Setargument bump_map 1 1 0 0
+Setargument bump_detail_map 6 6 0 0
+Setargument bump_detail_coefficient 1 1 1 1
+Setargument diffuse_coefficient 1 1 1 1
+Setargument specular_coefficient 0.2 1 1 1
+Setargument specular_tint 0.8431373 0.854902 1 1
+Setargument fresnel_color 0.5019608 0.5019608 0.5019608 1
+Setargument use_fresnel_color_environment 0 0 0 0
+Setargument fresnel_color_environment 0.5019608 0.5019608 0.5019608 1
+Setargument fresnel_power 0 0 0 0
+Setargument roughness 0.3 0.3 0.3 0.3
+Setargument area_specular_contribution 0 0 0 0
+Setargument analytical_specular_contribution 0.8 0.8 0.8 0.8
+Setargument environment_map_specular_contribution 0.5 0.5 0.5 0.5
+Setargument material_texture 1 1 0 0
+Setargument albedo_blend_with_specular_tint 0 0 0 0
+Setargument albedo_blend 0 0 0 0
+Setargument analytical_anti_shadow_control 0 0 0 0
+Setargument rim_fresnel_coefficient 0 0 0 0
+Setargument rim_fresnel_color 1 1 1 1
+Setargument rim_fresnel_power 2 2 2 2
+Setargument rim_fresnel_albedo_blend 0 0 0 0
+Setargument env_tint_color 0 0 0 1
+Setargument env_roughness_scale 1 1 1 1
+Setargument self_illum_map 1 1 0 0
+Setargument self_illum_color 0.4941177 0.2941177 0.03529412 1
+Setargument self_illum_intensity 0 0 0 0
+SaveTagChanges
+Exit
+
+Duplicatetag objects\weapons\rifle\dmr\shaders\dmr_composite.shader
+NameTag * objects\weapons\rifle\dmr\shaders\dmr_metal
+Duplicatetag objects\weapons\rifle\dmr\shaders\dmr_composite.shader
+NameTag * objects\weapons\rifle\dmr\shaders\dmr_metal_shiny
+Duplicatetag objects\weapons\rifle\dmr\shaders\dmr_composite.shader
+Nametag * objects\weapons\rifle\dmr\shaders\dmr_rubber
+
+Duplicatetag fx\null_object\null_up\null_up\shaders\[00]_rmsh.shader
+NameTag * objects\weapons\rifle\dmr\shaders\dmr_lens
+EditTag objects\weapons\rifle\dmr\shaders\dmr_lens.shader
+Removeblockelements ImportData 0 *
+Setargument albedo_color 0.7529413 0.7529413 0.7529413 0
+SaveTagChanges
+Exit
+
+Duplicatetag objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle_v2\shaders\[11]_rmsh.shader
+NameTag * objects\weapons\rifle\dmr\shaders\dmr_lens_glass
+EditTag objects\weapons\rifle\dmr\shaders\dmr_lens_glass.shader
+Removeblockelements ImportData 0 *
+SetField ShaderProperties[0].Shadermaps[0].Bitmap shaders\default_bitmaps\bitmaps\alpha_grey50.bitmap
+SetField ShaderProperties[0].Shadermaps[0].Bitmap shaders\default_bitmaps\bitmaps\default_detail.bitmap
+SetField ShaderProperties[0].Shadermaps[0].Bitmap objects\weapons\rifle\dmr\bitmaps\dmr_diffuse.bitm
+SetField ShaderProperties[0].Shadermaps[0].Bitmap shaders\default_bitmaps\bitmaps\alpha_grey50.bitmap
+setargument base_map 1 1 0 0
+setargument detail_map 1 1 0 0
+setargument albedo_color 0.25 0.35 0.15 1
+setargument specular_mask_texture 1 1 0 0
+setargument diffuse_coefficient 1 1 1 1
+setargument specular_coefficient 0.05 0.05 0.05 0.05
+setargument fresnel_coefficient 0.05 0.05 0.05 0.05
+setargument fresnel_curve_steepness 15 15 15 15
+setargument fresnel_curve_bias 1 1 1 1
+setargument roughness 1 1 1 1
+setargument analytical_specular_contribution 0 0 0 0
+setargument area_specular_contribution 0 0 0 0
+setargument env_tint_color 1 1 1 1
+setargument env_roughness_scale 0.3 0.3 0.3 0.3
+setargument self_illum_map 1 1 0 0
+setargument self_illum_color 1 1 1 1
+setargument self_illum_intensity 0 0 0 0
+SaveTagChanges
+Exit
+
+Duplicatetag objects\weapons\rifle\dmr\fp_dmr\fp_dmr_v2\shaders\[12]_rmsh.shader
+Nametag * objects\shaders\decals\shaders\unsc_decals_fp
+EditTag objects\shaders\decals\shaders\unsc_decals_fp.shader
+SetField ShaderProperties[0].Shadermaps[0].Bitmap objects\weapons\rifle\dmr\bitmaps\unsc_decals_diffuse.bitm
+SetField ShaderProperties[0].Shadermaps[1].Bitmap shaders\default_bitmaps\bitmaps\default_detail.bitmap
+Setargument base_map 1 1 0 0
+Setargument detail_map 1 1 0 0
+Setargument albedo_color 1 1 1 1
+SaveTagChanges
+Exit
+
+Duplicatetag objects\weapons\rifle\assault_rifle\fp_assault_rifle\fp_assault_rifle_v5\shaders\[12]_rmsh.shader
+NameTag * objects\weapons\rifle\dmr\bitmaps\dmr_ones
+Edittag objects\weapons\rifle\dmr\bitmaps\dmr_ones.shader
+Removeblockelements ImportData 0 *
+SetField ShaderProperties[0].Shadermaps[0].Bitmap objects\weapons\rifle\dmr\bitmaps\dmr_numerology.bitm
+Setargument self_illum_color 1 1 1 1
+SaveTagChanges
+Exit
+Duplicatetag objects\weapons\rifle\assault_rifle\fp_assault_rifle\fp_assault_rifle_v5\shaders\[13]_rmsh.shader
+NameTag * objects\weapons\rifle\dmr\bitmaps\dmr_tens
+Edittag objects\weapons\rifle\dmr\bitmaps\dmr_tens.shader
+Removeblockelements ImportData 0 *
+SetField ShaderProperties[0].Shadermaps[0].Bitmap objects\weapons\rifle\dmr\bitmaps\dmr_numerology.bitm
+Setargument self_illum_color 1 1 1 1
+SaveTagChanges
+Exit
+Savetagnames
+
+Echo // Setup First Person DMR Model
+Importtag objects\weapons\rifle\dmr\fp_dmr\fp_dmr.render_model Tags\fp_dmr.render_model
+Edittag objects\weapons\rifle\dmr\fp_dmr\fp_dmr.render_model
+Replacerendergeometry Tags\Models\dmr.dae
+Setfield Materials[0].RenderMethod objects\weapons\rifle\dmr\shaders\dmr_composite.shader
+Setfield Materials[1].RenderMethod objects\weapons\rifle\dmr\shaders\dmr_lens.shader
+Setfield Materials[2].RenderMethod objects\weapons\rifle\dmr\shaders\dmr_lens_glass.shader
+Setfield Materials[3].RenderMethod objects\weapons\rifle\dmr\shaders\dmr_metal_shiny.shader
+Setfield Materials[4].RenderMethod objects\weapons\rifle\dmr\shaders\dmr_rubber.shader
+Setfield Materials[5].RenderMethod objects\weapons\rifle\dmr\shaders\dmr_metal.shader
+Setfield Materials[6].RenderMethod objects\weapons\rifle\dmr\bitmaps\dmr_ones.shader
+Setfield Materials[7].RenderMethod objects\weapons\rifle\dmr\bitmaps\dmr_tens.shader
+Setfield Materials[8].RenderMethod objects\shaders\decals\shaders\unsc_decals_fp.shader
+Savetagchanges
+Exit
+
+Echo // Setup Third Person DMR Model
+Importtag objects\weapons\rifle\dmr\dmr.render_model Tags\dmr.render_model
+Edittag objects\weapons\rifle\dmr\dmr.render_model
+Replacerendergeometry Tags\Models\dmr.dae
+Setfield Materials[0].RenderMethod objects\weapons\rifle\dmr\shaders\dmr_composite.shader
+Setfield Materials[1].RenderMethod objects\weapons\rifle\dmr\shaders\dmr_lens.shader
+Setfield Materials[2].RenderMethod objects\weapons\rifle\dmr\shaders\dmr_lens_glass.shader
+Setfield Materials[3].RenderMethod objects\weapons\rifle\dmr\shaders\dmr_metal_shiny.shader
+Setfield Materials[4].RenderMethod objects\weapons\rifle\dmr\shaders\dmr_rubber.shader
+Setfield Materials[5].RenderMethod objects\weapons\rifle\dmr\shaders\dmr_metal.shader
+Setfield Materials[6].RenderMethod objects\weapons\rifle\dmr\bitmaps\dmr_ones.shader
+Setfield Materials[7].RenderMethod objects\weapons\rifle\dmr\bitmaps\dmr_tens.shader
+Setfield Materials[8].RenderMethod objects\shaders\decals\shaders\unsc_decals_fp.shader
+Savetagchanges
+Exit
+
+Echo // Fix Lod Model
+Edittag objects\weapons\rifle\dmr\dmr.model
+Setfield LodModel null
+Savetagchanges
+Exit
+
+Savetagnames
+Dumplog Reachdmr.txt
