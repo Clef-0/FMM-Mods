@@ -29,7 +29,8 @@ if exist ..\..\..\..\maps\tags.dat (
 )
 
 :Label0
-Type H3Hud.cmds | TagTool.exe ..\..\..\..\maps\tags.dat
+Type H3Hud.cmds | Tagtool\TagTool.exe ..\..\..\..\maps\tags.dat
+Type Hud_Update.cmds | Tagtool\TagTool.exe ..\..\..\..\maps\tags.dat
 ECHO Installation Complete.
 pause
 GOTO End

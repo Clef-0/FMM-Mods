@@ -1,17 +1,30 @@
-Applymodpackage Pak\Halo3hud.pak
+Openmodpackage Tags\Pak\Halo3hud.pak
+Applymodpackage
+Exit
 Nametag 0x000012BC ui\chud\player_waypoints
 Nametag 0x000012B9 ui\chud\grenade_waypoints
 Nametag 0x0000130B ui\chud\equipment_charge_meter
+Nametag 0x00000C31 ui\chud\parallax\spartan
+Nametag 0x00000C48 ui\chud\parallax\vehicles
+Nametag 0x00000C43 ui\chud\parallax\weapons
+Nametag 0x00000C51 ui\chud\parallax\weapons_2
+Nametag 0x00001313 ui\chud\parallax\weapons_3
+Nametag 0x00000C71 ui\chud\animations\hit_marker1
+Nametag 0x00000C73 ui\chud\animations\hit_marker2
+Nametag 0x00000C72 ui\chud\bitmaps\hit_marker
+Nametag 0x00005727 ui\chud\multiplayer_intro\summary_assault
+Nametag 0x00005726 ui\chud\multiplayer_intro\summary_ctf
+Nametag 0x00005A81 ui\chud\vision_mode
 Savetagnames
 
 Echo // H3 Player Waypoint Import
 Edittag ui\chud\player_waypoints.bitm
-ImportBitmap 0 Bitmaps/waypoints.dds
+ImportBitmap 0 Tags\Bitmaps\waypoints.dds
 SaveTagChanges
 ExitTo Tags
 
 Echo // Game Summary Intro Cards
-Edittag 0x00005726
+Edittag ui\chud\multiplayer_intro\summary_ctf.chdt
 Setfield HUDWidgets[0].PlacementData[0].Scale 1.5 1.5
 Setfield HUDWidgets[1].PlacementData[0].Scale 1.5 1.5
 Setfield HUDWidgets[2].PlacementData[0].Scale 1.5 1.5
@@ -32,7 +45,7 @@ Setfield HudWidgets[3].TextWidgets[1].PlacementData[0].Scale 0.65 0.65
 Setfield HudWidgets[3].TextWidgets[1].Font Conduit32
 Savetagchanges
 Exit
-Edittag 0x00005727
+Edittag ui\chud\multiplayer_intro\summary_assault.chdt
 Setfield HUDWidgets[0].PlacementData[0].Scale 1.5 1.5
 Setfield HUDWidgets[1].PlacementData[0].Scale 1.5 1.5
 Setfield HUDWidgets[2].PlacementData[0].Scale 1.5 1.5
@@ -55,26 +68,162 @@ Savetagchanges
 Exit
 
 Echo // Prowler Crosshairs
-EditTag 0x53B1
-SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.375 0.375
+Edittag objects\vehicles\mauler\anti_infantry\anti_infantry.vehi
+Setfield Seats[0].UnitHudInterface[0].UnitHudInterface ui\chud\v_grinderturret.chdt
+SaveTagChanges
+Exit
+Edittag objects\vehicles\mauler\mauler.vehi
+Setfield Seats[0].UnitHudInterface[0].UnitHudInterface ui\chud\v_grinderdriver.chdt
+SaveTagChanges
+Exit
+EditTag ui\chud\v_grinderturret.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.75 0.75
 SetField HUDWidgets[0].BitmapWidgets[0].Bitmap ui\chud\bitmaps\hud_vehicle_reticles.bitm
 SaveTagChanges
 ExitTo Tags
-EditTag 0x541A
-SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.3 0.3
+EditTag ui\chud\v_grinderdriver.chdt
+SetField HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.75 0.75
 SetField HUDWidgets[0].BitmapWidgets[0].Bitmap ui\chud\bitmaps\hud_vehicle_reticles.bitm
 SaveTagChanges
 ExitTo Tags
 
 Echo // Fix Vision Mode Equipment Bitmap
-Importtag 0x00005A81 Bitmaps/vision.bitm
-Edittag 0x00005A81
-ImportBitmap 0 Bitmaps/vision.dds
+Importtag ui\chud\vision_mode.bitm Tags\Bitmaps\vision.bitm
+Edittag ui\chud\vision_mode.bitm
+ImportBitmap 0 Tags\Bitmaps\vision.dds
 Savetagchanges
 ExitTo Tags
 
+Echo // Restore tag data for hitmarkers
 Edittag ui\chud\spartan.chdt
+Addblockelements HudWidgets
 Setfield HudWidgets[22].BitmapWidgets[1].Bitmap ui\chud\equipment_charge_meter.bitm
+SetField HudWidgets[36].Name hit_marker
+SetField HudWidgets[36].SpecialHudType CrosshairAndScope
+SetField HudWidgets[36].Unknown2 5
+AddBlockElements HudWidgets[36].StateData 1
+AddBlockElements HudWidgets[36].PlacementData 1
+SetField HudWidgets[36].PlacementData[0].Anchor Center
+SetField HudWidgets[36].PlacementData[0].Scale 1.75 1.75
+SetField HudWidgets[36].ParallaxData ui\chud\parallax\vehicles.chud_widget_parallax_data
+AddBlockElements HudWidgets[36].BitmapWidgets 3
+SetField HudWidgets[36].BitmapWidgets[0].Name hit_marker_low
+SetField HudWidgets[36].BitmapWidgets[0].SpecialHudType Unspecial
+SetField HudWidgets[36].BitmapWidgets[0].Unknown2 2
+AddBlockElements HudWidgets[36].BitmapWidgets[0].StateData 1
+SetField HudWidgets[36].BitmapWidgets[0].StateData[0].ResolutionFlags "WideFull, WideHalf, NativeFull, StandardFull, WideQuarter, StandardHalf, NativeQuarter, StandardQuarter"
+AddBlockElements HudWidgets[36].BitmapWidgets[0].PlacementData 1
+SetField HudWidgets[36].BitmapWidgets[0].PlacementData[0].Anchor HealthAndShield
+SetField HudWidgets[36].BitmapWidgets[0].PlacementData[0].MirrorOffset -3 3
+SetField HudWidgets[36].BitmapWidgets[0].PlacementData[0].Scale 1 1
+AddBlockElements HudWidgets[36].BitmapWidgets[0].AnimationData 1
+SetField HudWidgets[36].BitmapWidgets[0].AnimationData[0].HUDInitializeFunction Default
+SetField HudWidgets[36].BitmapWidgets[0].AnimationData[0].IdleFunction Default
+SetField HudWidgets[36].BitmapWidgets[0].AnimationData[0].Idle ui\chud\animations\invisible.chud_animation_definition
+SetField HudWidgets[36].BitmapWidgets[0].AnimationData[0].SpecialStateFunction Default
+SetField HudWidgets[36].BitmapWidgets[0].AnimationData[0].TransitionInFunction Default
+SetField HudWidgets[36].BitmapWidgets[0].AnimationData[0].TransitionOutFunction Default
+SetField HudWidgets[36].BitmapWidgets[0].AnimationData[0].BriefStateFunction Default
+SetField HudWidgets[36].BitmapWidgets[0].AnimationData[0].BriefState ui\chud\animations\hit_marker1.chud_animation_definition
+AddBlockElements HudWidgets[36].BitmapWidgets[0].RenderData 1
+SetField HudWidgets[36].BitmapWidgets[0].RenderData[0].ShaderIndex Crosshair
+SetField HudWidgets[36].BitmapWidgets[0].RenderData[0].Input_HO UnitAutoaimed
+SetField HudWidgets[36].BitmapWidgets[0].RenderData[0].RangeInput_HO Zero
+SetField HudWidgets[36].BitmapWidgets[0].RenderData[0].OutputColorA_HO GlobalDynamic5
+SetField HudWidgets[36].BitmapWidgets[0].RenderData[0].OutputColorB_HO GlobalDynamic5
+SetField HudWidgets[36].BitmapWidgets[0].RenderData[0].OutputColorC_HO GlobalDynamic6
+SetField HudWidgets[36].BitmapWidgets[0].RenderData[0].OutputColorD_HO LocalA
+SetField HudWidgets[36].BitmapWidgets[0].RenderData[0].OutputColorE_HO LocalA
+SetField HudWidgets[36].BitmapWidgets[0].RenderData[0].OutputColorF_HO LocalA
+SetField HudWidgets[36].BitmapWidgets[0].RenderData[0].OutputScalarA Input
+SetField HudWidgets[36].BitmapWidgets[0].RenderData[0].OutputScalarB RangeInput
+SetField HudWidgets[36].BitmapWidgets[0].RenderData[0].OutputScalarC RangeInput
+SetField HudWidgets[36].BitmapWidgets[0].RenderData[0].OutputScalarD RangeInput
+SetField HudWidgets[36].BitmapWidgets[0].RenderData[0].OutputScalarE RangeInput
+SetField HudWidgets[36].BitmapWidgets[0].RenderData[0].OutputScalarF RangeInput
+SetField HudWidgets[36].BitmapWidgets[0].WidgetIndex 102
+SetField HudWidgets[36].BitmapWidgets[0].Flags MirrorHorizontally,MirrorVertically
+SetField HudWidgets[36].BitmapWidgets[0].Bitmap ui\chud\bitmaps\hit_marker.bitmap
+SetField HudWidgets[36].BitmapWidgets[0].BitmapSpriteIndex 2
+SetField HudWidgets[36].BitmapWidgets[1].Name hit_marker_med
+SetField HudWidgets[36].BitmapWidgets[1].SpecialHudType Unspecial
+SetField HudWidgets[36].BitmapWidgets[1].Unknown2 2
+AddBlockElements HudWidgets[36].BitmapWidgets[1].StateData 1
+SetField HudWidgets[36].BitmapWidgets[1].StateData[0].ResolutionFlags "WideFull, WideHalf, NativeFull, StandardFull, WideQuarter, StandardHalf, NativeQuarter, StandardQuarter"
+SetField HudWidgets[36].BitmapWidgets[1].StateData[0].SurvivalLivesFlags None
+SetField HudWidgets[36].BitmapWidgets[1].StateData[0].SurvivalDifficultyFlags None
+SetField HudWidgets[36].BitmapWidgets[1].StateData[0].GeneralKudosFlags HitMarkerMedium
+AddBlockElements HudWidgets[36].BitmapWidgets[1].PlacementData 1
+SetField HudWidgets[36].BitmapWidgets[1].PlacementData[0].Anchor HealthAndShield
+SetField HudWidgets[36].BitmapWidgets[1].PlacementData[0].MirrorOffset -6.5 0
+SetField HudWidgets[36].BitmapWidgets[1].PlacementData[0].Scale 1 1
+AddBlockElements HudWidgets[36].BitmapWidgets[1].AnimationData 1
+SetField HudWidgets[36].BitmapWidgets[1].AnimationData[0].HUDInitializeFunction Default
+SetField HudWidgets[36].BitmapWidgets[1].AnimationData[0].IdleFunction Default
+SetField HudWidgets[36].BitmapWidgets[1].AnimationData[0].Idle ui\chud\animations\invisible.chud_animation_definition
+SetField HudWidgets[36].BitmapWidgets[1].AnimationData[0].SpecialStateFunction Default
+SetField HudWidgets[36].BitmapWidgets[1].AnimationData[0].TransitionInFunction Default
+SetField HudWidgets[36].BitmapWidgets[1].AnimationData[0].TransitionOutFunction Default
+SetField HudWidgets[36].BitmapWidgets[1].AnimationData[0].BriefStateFunction Default
+SetField HudWidgets[36].BitmapWidgets[1].AnimationData[0].BriefState ui\chud\animations\hit_marker2.chud_animation_definition
+AddBlockElements HudWidgets[36].BitmapWidgets[1].RenderData 1
+SetField HudWidgets[36].BitmapWidgets[1].RenderData[0].ShaderIndex Crosshair
+SetField HudWidgets[36].BitmapWidgets[1].RenderData[0].Input_HO UnitAutoaimed
+SetField HudWidgets[36].BitmapWidgets[1].RenderData[0].RangeInput_HO Zero
+SetField HudWidgets[36].BitmapWidgets[1].RenderData[0].OutputColorA_HO GlobalDynamic5
+SetField HudWidgets[36].BitmapWidgets[1].RenderData[0].OutputColorB_HO GlobalDynamic5
+SetField HudWidgets[36].BitmapWidgets[1].RenderData[0].OutputColorC_HO GlobalDynamic6
+SetField HudWidgets[36].BitmapWidgets[1].RenderData[0].OutputColorD_HO LocalA
+SetField HudWidgets[36].BitmapWidgets[1].RenderData[0].OutputColorE_HO LocalA
+SetField HudWidgets[36].BitmapWidgets[1].RenderData[0].OutputColorF_HO LocalA
+SetField HudWidgets[36].BitmapWidgets[1].RenderData[0].OutputScalarA Input
+SetField HudWidgets[36].BitmapWidgets[1].RenderData[0].OutputScalarB RangeInput
+SetField HudWidgets[36].BitmapWidgets[1].RenderData[0].OutputScalarC RangeInput
+SetField HudWidgets[36].BitmapWidgets[1].RenderData[0].OutputScalarD RangeInput
+SetField HudWidgets[36].BitmapWidgets[1].RenderData[0].OutputScalarE RangeInput
+SetField HudWidgets[36].BitmapWidgets[1].RenderData[0].OutputScalarF RangeInput
+SetField HudWidgets[36].BitmapWidgets[1].WidgetIndex 103
+SetField HudWidgets[36].BitmapWidgets[1].Flags MirrorHorizontally
+SetField HudWidgets[36].BitmapWidgets[1].Bitmap ui\chud\bitmaps\hit_marker.bitmap
+SetField HudWidgets[36].BitmapWidgets[1].BitmapSpriteIndex 1
+SetField HudWidgets[36].BitmapWidgets[2].Name hit_marker_high
+SetField HudWidgets[36].BitmapWidgets[2].SpecialHudType Unspecial
+SetField HudWidgets[36].BitmapWidgets[2].Unknown2 2
+AddBlockElements HudWidgets[36].BitmapWidgets[2].StateData 1
+SetField HudWidgets[36].BitmapWidgets[2].StateData[0].ResolutionFlags "WideFull, WideHalf, NativeFull, StandardFull, WideQuarter, StandardHalf, NativeQuarter, StandardQuarter"
+SetField HudWidgets[36].BitmapWidgets[2].StateData[0].GeneralKudosFlags HitMarkerHigh
+AddBlockElements HudWidgets[36].BitmapWidgets[2].PlacementData 1
+SetField HudWidgets[36].BitmapWidgets[2].PlacementData[0].Anchor HealthAndShield
+SetField HudWidgets[36].BitmapWidgets[2].PlacementData[0].MirrorOffset -5 0
+SetField HudWidgets[36].BitmapWidgets[2].PlacementData[0].Scale 1 1
+AddBlockElements HudWidgets[36].BitmapWidgets[2].AnimationData 1
+SetField HudWidgets[36].BitmapWidgets[2].AnimationData[0].HUDInitializeFunction Default
+SetField HudWidgets[36].BitmapWidgets[2].AnimationData[0].IdleFunction Default
+SetField HudWidgets[36].BitmapWidgets[2].AnimationData[0].Idle ui\chud\animations\invisible.chud_animation_definition
+SetField HudWidgets[36].BitmapWidgets[2].AnimationData[0].SpecialStateFunction Default
+SetField HudWidgets[36].BitmapWidgets[2].AnimationData[0].TransitionInFunction Default
+SetField HudWidgets[36].BitmapWidgets[2].AnimationData[0].TransitionOutFunction Default
+SetField HudWidgets[36].BitmapWidgets[2].AnimationData[0].BriefStateFunction Default
+SetField HudWidgets[36].BitmapWidgets[2].AnimationData[0].BriefState ui\chud\animations\hit_marker2.chud_animation_definition
+AddBlockElements HudWidgets[36].BitmapWidgets[2].RenderData 1
+SetField HudWidgets[36].BitmapWidgets[2].RenderData[0].ShaderIndex Crosshair
+SetField HudWidgets[36].BitmapWidgets[2].RenderData[0].Input_HO UnitAutoaimed
+SetField HudWidgets[36].BitmapWidgets[2].RenderData[0].RangeInput_HO Zero
+SetField HudWidgets[36].BitmapWidgets[2].RenderData[0].OutputColorA_HO GlobalDynamic5
+SetField HudWidgets[36].BitmapWidgets[2].RenderData[0].OutputColorB_HO GlobalDynamic5
+SetField HudWidgets[36].BitmapWidgets[2].RenderData[0].OutputColorC_HO GlobalDynamic6
+SetField HudWidgets[36].BitmapWidgets[2].RenderData[0].OutputColorD_HO LocalA
+SetField HudWidgets[36].BitmapWidgets[2].RenderData[0].OutputColorE_HO LocalA
+SetField HudWidgets[36].BitmapWidgets[2].RenderData[0].OutputColorF_HO LocalA
+SetField HudWidgets[36].BitmapWidgets[2].RenderData[0].OutputScalarA Input
+SetField HudWidgets[36].BitmapWidgets[2].RenderData[0].OutputScalarB RangeInput
+SetField HudWidgets[36].BitmapWidgets[2].RenderData[0].OutputScalarC RangeInput
+SetField HudWidgets[36].BitmapWidgets[2].RenderData[0].OutputScalarD RangeInput
+SetField HudWidgets[36].BitmapWidgets[2].RenderData[0].OutputScalarE RangeInput
+SetField HudWidgets[36].BitmapWidgets[2].RenderData[0].OutputScalarF RangeInput
+SetField HudWidgets[36].BitmapWidgets[2].WidgetIndex 104
+SetField HudWidgets[36].BitmapWidgets[2].Flags MirrorHorizontally
+SetField HudWidgets[36].BitmapWidgets[2].Bitmap ui\chud\bitmaps\hit_marker.bitmap
 Savetagchanges
 ExitTo Tags
 

@@ -29,7 +29,7 @@ if exist ..\..\..\..\maps\tags.dat (
 )
 
 :Label0
-Type H3Vehicles.cmds | TagTool.exe ..\..\..\..\maps\tags.dat
+Type H3Vehicles.cmds | Tagtool\TagTool.exe ..\..\..\..\maps\tags.dat
 ECHO Installation Complete.
 pause
 GOTO End
