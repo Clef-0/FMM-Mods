@@ -1,0 +1,66 @@
+Echo Create Bitmaps
+Createtag bitm
+Nametag * objects\weapons\melee\diamond_axe\bitmaps\diffuse
+Savetagnames
+Edittag objects\weapons\melee\diamond_axe\bitmaps\diffuse.bitm
+Importbitmap 0 Tags\diffuse.dds
+Savetagchanges
+Exit
+
+Echo Setup Third Person Model
+Duplicatetag objects\weapons\melee\energy_blade\fp_energy_blade\fp_energy_blade.render_model
+Nametag * objects\weapons\melee\diamond_axe\diamond_axe
+Duplicatetag objects\weapons\melee\energy_blade\fp_energy_blade\fp_energy_blade\shaders\[01]_rmsh.rmsh
+Nametag * objects\weapons\melee\diamond_axe\diamond_axe\shaders\diffuse
+Savetagnames
+
+Edittag objects\weapons\melee\diamond_axe\diamond_axe\shaders\diffuse.rmsh
+Setfield ShaderProperties[0].TextureConstants[0].Bitmap objects\weapons\melee\diamond_axe\bitmaps\diffuse.bitm
+SetArgument albedo_color 1 1 1 1
+SetArgument self_illum_color 0.1 0.1 0.1 0.1
+Savetagchanges
+Exit
+
+Edittag objects\weapons\melee\diamond_axe\diamond_axe.render_model
+ReplaceRenderGeometry Tags\axe3p.dae
+Setfield Nodes[0].Name hammer
+Setfield Nodes[1].Name shaft
+Setfield Nodes[1].DefaultScale 1
+Setfield RuntimeNodeOrientations[0].Translation 0 0.005 0
+Setfield Materials[0].RenderMethod objects\weapons\melee\diamond_axe\diamond_axe\shaders\diffuse.rmsh
+Setfield Materials[1].RenderMethod objects\weapons\melee\diamond_axe\diamond_axe\shaders\diffuse.rmsh
+Savetagchanges
+Exit
+
+Edittag objects\weapons\melee\gravity_hammer\gravity_hammer.model
+Setfield RenderModel objects\weapons\melee\diamond_axe\diamond_axe.render_model
+Setfield LodModel null
+Savetagchanges
+Exit
+
+Edittag objects\weapons\melee\gravity_hammer\fp_gravity_hammer\fp_gravity_hammer.render_model
+Copyblockelements MarkerGroups 0 *
+Exit
+
+Echo Setup First Person Model
+Duplicatetag objects\weapons\melee\energy_blade\fp_energy_blade\fp_energy_blade.render_model
+Nametag * objects\weapons\melee\diamond_axe\fp_diamond_axe\fp_diamond_axe
+Savetagnames
+Edittag objects\weapons\melee\diamond_axe\fp_diamond_axe\fp_diamond_axe.render_model
+ReplaceRenderGeometry Tags\axe.dae
+Removeblockelements MarkerGroups 0 *
+Pasteblockelements MarkerGroups
+Setfield Nodes[0].DefaultTranslation 0.006102035 -0.02029557 0.02489493
+Setfield Nodes[0].InversePosition 0.006 0.02 0.04
+Setfield Nodes[0].Name hammer
+Setfield Nodes[1].Name shaft
+Setfield Nodes[1].DefaultScale 0
+Setfield Materials[0].RenderMethod objects\weapons\melee\diamond_axe\diamond_axe\shaders\diffuse.rmsh
+Setfield Materials[1].RenderMethod objects\weapons\melee\diamond_axe\diamond_axe\shaders\diffuse.rmsh
+Savetagchanges
+Exit
+
+Edittag objects\weapons\melee\gravity_hammer\gravity_hammer.weapon
+Setfield FirstPerson[0].FirstPersonModel objects\weapons\melee\diamond_axe\fp_diamond_axe\fp_diamond_axe.render_model
+Savetagchanges
+Exit
