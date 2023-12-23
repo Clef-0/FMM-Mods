@@ -1,0 +1,28 @@
+Echo \\ Shotgun Fix
+
+Echo \\ Bitmap Imports
+Edittag objects\weapons\rifle\shotgun\fp_shotgun\fp_shotgun\bitmaps\[00]_rmsh\base.bitm
+Importbitmap 0 Tags\Bitmaps\base_map.dds
+Savetagchanges
+Exit
+
+Edittag objects\weapons\rifle\shotgun\fp_shotgun\fp_shotgun\bitmaps\[00]_rmsh\bump.bitm
+Importbitmap 0 Tags\Bitmaps\bump_map.dds
+Savetagchanges
+Exit
+
+Edittag objects\weapons\rifle\shotgun\fp_shotgun\fp_shotgun\bitmaps\[00]_rmsh\bump_detail_mask.bitm
+Importbitmap 0 Tags\Bitmaps\bump_detail_map.dds
+Savetagchanges
+Exit
+
+Echo \\ Shader Edits
+Edittag objects\weapons\rifle\shotgun\fp_shotgun\fp_shotgun\shaders\[01]_rmsh.rmsh
+Setargument environment_map_specular_contribution 0.01 0.01 0.01 0.01
+Savetagchanges
+Exit
+
+Edittag objects\weapons\rifle\shotgun\fp_shotgun\fp_shotgun\shaders\[00]_rmsh.rmsh
+Setargument environment_map_specular_contribution 0.02 0.02 0.02 0.02
+Savetagchanges
+Exit
