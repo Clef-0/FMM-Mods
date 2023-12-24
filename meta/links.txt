@@ -43,7 +43,7 @@ https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Inspired_aka_ripoff_war
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Inspired_Ripoff_Chopper_halo3/Chop.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Minelelol_Better_Forge/ForgeBasic.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Minelelol_Better_Gold/Gold.ini
-https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Minelelol_Halo3_Inspired_HUD/HUD.ini
+https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Minelelol_Halo3_Inspired_HUD/H3InspiredHUD.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Minelelol_MOAR_animation/Animation.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Minelelol_Third_Person_Ammo_Counter/Ammo.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/OVERLAP_METER_FIX/Fix.ini
