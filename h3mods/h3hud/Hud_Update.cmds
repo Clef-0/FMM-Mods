@@ -1,11 +1,122 @@
 Echo \\ Bitmap Imports
 
-Createtag *.bitm
-Nametag ui\chud\bitmaps\weapon_scematics_h3
-Savetagnames
 Importtag ui\chud\bitmaps\weapon_scematics_h3.bitm Tags\Bitmaps\weapon_scematics_h3.bitm 
 Edittag ui\chud\bitmaps\weapon_scematics_h3.bitm
 Importbitmap 0 Tags\bitmaps\weapon_scematics_h3.dds
+Savetagchanges
+Exit
+
+Createtag bitm
+Nametag * ui\chud\bitmaps\variant_meters\excavator\power
+Createtag bitm
+Nametag * ui\chud\bitmaps\variant_meters\magnum\damage
+Createtag bitm
+Nametag * ui\chud\bitmaps\variant_meters\carbine\power_rof
+Createtag bitm
+Nametag * ui\chud\bitmaps\variant_meters\carbine\accuracy_damage
+Createtag bitm
+Nametag * ui\chud\bitmaps\variant_meters\battle_rifle\power
+Createtag bitm
+Nametag * ui\chud\bitmaps\variant_meters\battle_rifle\ammo
+Createtag bitm
+Nametag * ui\chud\bitmaps\variant_meters\battle_rifle\accuracy_damage
+Createtag bitm
+Nametag * ui\chud\bitmaps\variant_meters\assault_rifle\damage
+Createtag bitm
+Nametag * ui\chud\bitmaps\variant_meters\assault_rifle\power
+Createtag bitm
+Nametag * ui\chud\bitmaps\variant_meters\smg\damage
+Createtag bitm
+Nametag * ui\chud\bitmaps\variant_meters\smg\rof
+Createtag bitm
+Nametag * ui\chud\bitmaps\variant_meters\dmr\ammo
+Createtag bitm
+Nametag * ui\chud\bitmaps\variant_meters\dmr\damage
+Createtag bitm
+Nametag * ui\chud\bitmaps\variant_meters\dmr\power
+Createtag bitm
+Nametag * ui\chud\bitmaps\variant_meters\dmr\rof_accuracy
+Createtag bitm
+Nametag * ui\chud\bitmaps\variant_meters\dmr
+Savetagnames
+
+Edittag ui\chud\bitmaps\variant_meters\excavator\power.bitm
+Importbitmap 0 Tags\bitmaps\ballistic_meters\mauler_power.dds linear
+Savetagchanges
+Exit
+
+Edittag ui\chud\bitmaps\variant_meters\magnum\damage.bitm
+Importbitmap 0 Tags\bitmaps\ballistic_meters\magnum_damage.dds linear
+Savetagchanges
+Exit
+
+Edittag ui\chud\bitmaps\variant_meters\carbine\power_rof.bitm
+Importbitmap 0 Tags\bitmaps\ballistic_meters\carbine_power_rof.dds linear
+Savetagchanges
+Exit
+
+Edittag ui\chud\bitmaps\variant_meters\carbine\accuracy_damage.bitm
+Importbitmap 0 Tags\bitmaps\ballistic_meters\carbine_accuracy_damage.dds linear
+Savetagchanges
+Exit
+
+Edittag ui\chud\bitmaps\variant_meters\battle_rifle\power.bitm
+Importbitmap 0 Tags\bitmaps\ballistic_meters\battle_rifle_power.dds linear
+Savetagchanges
+Exit
+
+Edittag ui\chud\bitmaps\variant_meters\battle_rifle\ammo.bitm
+Importbitmap 0 Tags\bitmaps\ballistic_meters\battle_rifle_ammo.dds linear
+Savetagchanges
+Exit
+
+Edittag ui\chud\bitmaps\variant_meters\battle_rifle\accuracy_damage.bitm
+Importbitmap 0 Tags\bitmaps\ballistic_meters\battle_rifle_accuracy_damage.dds linear
+Savetagchanges
+Exit
+
+Edittag ui\chud\bitmaps\variant_meters\assault_rifle\damage.bitm
+Importbitmap 0 Tags\bitmaps\ballistic_meters\assault_rifle_damage.dds linear
+Savetagchanges
+Exit
+
+Edittag ui\chud\bitmaps\variant_meters\assault_rifle\power.bitm
+Importbitmap 0 Tags\bitmaps\ballistic_meters\assault_rifle_power.dds linear
+Savetagchanges
+Exit
+
+Edittag ui\chud\bitmaps\variant_meters\smg\damage.bitm
+Importbitmap 0 Tags\bitmaps\ballistic_meters\smg_damage.dds linear
+Savetagchanges
+Exit
+
+Edittag ui\chud\bitmaps\variant_meters\smg\rof.bitm
+Importbitmap 0 Tags\bitmaps\ballistic_meters\smg_rof.dds linear
+Savetagchanges
+Exit
+
+Edittag ui\chud\bitmaps\variant_meters\dmr\ammo.bitm
+Importbitmap 0 Tags\bitmaps\ballistic_meters\dmr_ammo.dds linear
+Savetagchanges
+Exit
+
+Edittag ui\chud\bitmaps\variant_meters\dmr\damage.bitm
+Importbitmap 0 Tags\bitmaps\ballistic_meters\dmr_damage.dds linear
+Savetagchanges
+Exit
+
+Edittag ui\chud\bitmaps\variant_meters\dmr\power.bitm
+Importbitmap 0 Tags\bitmaps\ballistic_meters\dmr_power.dds linear
+Savetagchanges
+Exit
+
+Edittag ui\chud\bitmaps\variant_meters\dmr\rof_accuracy.bitm
+Importbitmap 0 Tags\bitmaps\ballistic_meters\dmr_rof_accuracy.dds linear
+Savetagchanges
+Exit
+
+Edittag ui\chud\bitmaps\variant_meters\dmr.bitm
+Importbitmap 0 Tags\bitmaps\ballistic_meters\dmr.dds linear
 Savetagchanges
 Exit
 
@@ -121,7 +232,9 @@ Exit
 Edittag ui\chud\assault_rifle_v2.chdt
 Setfield Hudwidgets[3].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
 Setfield Hudwidgets[4].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
-Setfield Hudwidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.5 0.5
+Setfield Hudwidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.75 0.75
+Setfield Hudwidgets[4].BitmapWidgets[0].WidgetIndex 1
+Setfield Hudwidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\variant_meters\assault_rifle\damage.bitm
 Savetagchanges
 Exit
 Edittag ui\chud\assault_rifle_v3.chdt
@@ -139,7 +252,10 @@ Exit
 Edittag ui\chud\assault_rifle_v6.chdt
 Setfield Hudwidgets[3].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
 Setfield Hudwidgets[4].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
-Setfield Hudwidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.5 0.5
+Setfield Hudwidgets[4].BitmapWidgets[0].PlacementData[0].Scale 0.75 0.75
+Setfield Hudwidgets[4].BitmapWidgets[0].PlacementData[0].Offset -4 55
+Setfield Hudwidgets[4].BitmapWidgets[0].WidgetIndex 1
+Setfield Hudwidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\variant_meters\assault_rifle\power.bitm
 Savetagchanges
 Exit
 Edittag ui\chud\battle_rifle.chdt
@@ -151,19 +267,26 @@ Exit
 Edittag ui\chud\battle_rifle_v1.chdt
 Setfield Hudwidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
 Setfield Hudwidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
-Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Scale 0.5 0.5
+Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Scale 0.75 0.75
+Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Offset -4 55
+Setfield Hudwidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\variant_meters\battle_rifle\ammo.bitm
+Setfield Hudwidgets[5].BitmapWidgets[0].WidgetIndex 1
 Savetagchanges
 Exit
 Edittag ui\chud\battle_rifle_v2.chdt
 Setfield Hudwidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
 Setfield Hudwidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
-Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Scale 0.5 0.5
+Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Scale 0.75 0.75
+Setfield Hudwidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\variant_meters\battle_rifle\accuracy_damage.bitm
+Setfield Hudwidgets[5].BitmapWidgets[0].WidgetIndex 1
 Savetagchanges
 Exit
 Edittag ui\chud\battle_rifle_v3.chdt
 Setfield Hudwidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
 Setfield Hudwidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
-Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Scale 0.5 0.5
+Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Scale 0.75 0.75
+Setfield Hudwidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\variant_meters\battle_rifle\accuracy_damage.bitm
+Setfield Hudwidgets[5].BitmapWidgets[0].WidgetIndex 1
 Savetagchanges
 Exit
 Edittag ui\chud\battle_rifle_v4.chdt
@@ -181,7 +304,10 @@ Exit
 Edittag ui\chud\battle_rifle_v6.chdt
 Setfield Hudwidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
 Setfield Hudwidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
-Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Scale 0.5 0.5
+Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Scale 0.75 0.75
+Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Offset -4 55
+Setfield Hudwidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\variant_meters\battle_rifle\power.bitm
+Setfield Hudwidgets[5].BitmapWidgets[0].WidgetIndex 1
 Savetagchanges
 Exit
 Edittag ui\chud\brute_shot.chdt
@@ -198,26 +324,32 @@ Savetagchanges
 Exit
 Edittag ui\chud\carbine_v1.chdt
 Setfield Hudwidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
-Setfield Hudwidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
+Setfield Hudwidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
 Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Scale 0.5 0.5
 Savetagchanges
 Exit
 Edittag ui\chud\carbine_v2.chdt
 Setfield Hudwidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
 Setfield Hudwidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
-Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Scale 0.5 0.5
+Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Scale 0.75 0.75
+Setfield Hudwidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\variant_meters\carbine\accuracy_damage.bitm
+Setfield Hudwidgets[5].BitmapWidgets[0].WidgetIndex 1
 Savetagchanges
 Exit
 Edittag ui\chud\carbine_v3.chdt
 Setfield Hudwidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
 Setfield Hudwidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
-Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Scale 0.5 0.5
+Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Scale 0.75 0.75
+Setfield Hudwidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\variant_meters\carbine\accuracy_damage.bitm
+Setfield Hudwidgets[5].BitmapWidgets[0].WidgetIndex 1
 Savetagchanges
 Exit
 Edittag ui\chud\carbine_v4.chdt
 Setfield Hudwidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
 Setfield Hudwidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
-Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Scale 0.5 0.5
+Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Scale 0.75 0.75
+Setfield Hudwidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\variant_meters\carbine\power_rof.bitm
+Setfield Hudwidgets[5].BitmapWidgets[0].WidgetIndex 1
 Savetagchanges
 Exit
 Edittag ui\chud\carbine_v5.chdt
@@ -229,7 +361,9 @@ Exit
 Edittag ui\chud\carbine_v6.chdt
 Setfield Hudwidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
 Setfield Hudwidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
-Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Scale 0.5 0.5
+Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Scale 0.75 0.75
+Setfield Hudwidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\variant_meters\carbine\power_rof.bitm
+Setfield Hudwidgets[5].BitmapWidgets[0].WidgetIndex 1
 Savetagchanges
 Exit
 Edittag ui\chud\excavator.chdt
@@ -243,9 +377,13 @@ Exit
 Edittag ui\chud\excavator_v6.chdt
 Setfield Hudwidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
 Setfield Hudwidgets[3].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
+Setfield Hudwidgets[3].BitmapWidgets[0].Bitmap ui\chud\bitmaps\variant_meters\excavator\power.bitm
+Setfield Hudwidgets[3].BitmapWidgets[0].WidgetIndex 1
+Setfield Hudwidgets[3].BitmapWidgets[0].PlacementData[0].Scale -0.75 0.75
 Setfield Hudwidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
-Setfield Hudwidgets[3].BitmapWidgets[0].PlacementData[0].Scale -0.5 0.5
-Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Scale 0.5 0.5
+Setfield Hudwidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\variant_meters\excavator\power.bitm
+Setfield Hudwidgets[5].BitmapWidgets[0].WidgetIndex 1
+Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Scale 0.75 0.75
 Savetagchanges
 Exit
 Edittag ui\chud\fuel_rod_cannon.chdt
@@ -269,10 +407,14 @@ Savetagchanges
 Exit
 Edittag ui\chud\magnum_v2.chdt
 Setfield Hudwidgets[3].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
+Setfield Hudwidgets[3].BitmapWidgets[0].PlacementData[0].Scale -0.75 0.75
+Setfield Hudwidgets[3].BitmapWidgets[0].Bitmap ui\chud\bitmaps\variant_meters\magnum\damage.bitm
+Setfield Hudwidgets[3].BitmapWidgets[0].WidgetIndex 1
 Setfield Hudwidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
 Setfield Hudwidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
-Setfield Hudwidgets[3].BitmapWidgets[0].PlacementData[0].Scale -0.5 0.5
-Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Scale 0.5 0.5
+Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Scale 0.75 0.75
+Setfield Hudwidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\variant_meters\magnum\damage.bitm
+Setfield Hudwidgets[5].BitmapWidgets[0].WidgetIndex 1
 Savetagchanges
 Exit
 Edittag ui\chud\magnum_v6.chdt
@@ -322,9 +464,13 @@ Exit
 Edittag ui\chud\smg_v2.chdt
 Setfield Hudwidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
 Setfield Hudwidgets[3].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
+Setfield Hudwidgets[3].BitmapWidgets[0].PlacementData[0].Scale -0.75 0.75
+Setfield Hudwidgets[3].BitmapWidgets[0].Bitmap ui\chud\bitmaps\variant_meters\smg\damage.bitm
+Setfield Hudwidgets[3].BitmapWidgets[0].WidgetIndex 1
 Setfield Hudwidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
-Setfield Hudwidgets[3].BitmapWidgets[0].PlacementData[0].Scale -0.5 0.5
-Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Scale 0.5 0.5
+Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Scale 0.75 0.75
+Setfield Hudwidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\variant_meters\smg\damage.bitm
+Setfield Hudwidgets[5].BitmapWidgets[0].WidgetIndex 1
 Savetagchanges
 Exit
 Edittag ui\chud\smg_v3.chdt
@@ -338,9 +484,13 @@ Exit
 Edittag ui\chud\smg_v4.chdt
 Setfield Hudwidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
 Setfield Hudwidgets[3].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
+Setfield Hudwidgets[3].BitmapWidgets[0].PlacementData[0].Scale -0.75 0.75
+Setfield Hudwidgets[3].BitmapWidgets[0].Bitmap ui\chud\bitmaps\variant_meters\smg\rof.bitm
+Setfield Hudwidgets[3].BitmapWidgets[0].WidgetIndex 1
 Setfield Hudwidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
-Setfield Hudwidgets[3].BitmapWidgets[0].PlacementData[0].Scale -0.5 0.5
-Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Scale 0.5 0.5
+Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Scale 0.75 0.75
+Setfield Hudwidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\variant_meters\smg\rof.bitm
+Setfield Hudwidgets[5].BitmapWidgets[0].WidgetIndex 1
 Savetagchanges
 Exit
 Edittag ui\chud\smg_v6.chdt
@@ -367,7 +517,7 @@ Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Scale 0.5 0.5
 Savetagchanges
 Exit
 Edittag ui\chud\spartan_laser.chdt
-Setfield Hudwidgets[3].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
+Setfield Hudwidgets[4].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
 Setfield Hudwidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
 Savetagchanges
 Exit
@@ -382,7 +532,7 @@ Setfield Hudwidgets[3].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics_
 Savetagchanges
 Exit
 Edittag ui\chud\hammer.chdt
-Setfield Hudwidgets[2].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
+Setfield Hudwidgets[2].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
 Setfield Hudwidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
 Savetagchanges
 Exit
@@ -393,6 +543,133 @@ Exit
 Edittag ui\chud\beam_rifle.chdt
 Setfield Hudwidgets[6].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
 Setfield Hudwidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
+Savetagchanges
+Exit
+Edittag ui\chud\battle_rifle.chdt
+Copyblockelements Hudwidgets 0 *
+Exit
+Edittag ui\chud\dmr.chdt
+Removeblockelements Hudwidgets 0 2
+Removeblockelements Hudwidgets 2 *
+Pasteblockelements Hudwidgets
+Removeblockelements Hudwidgets 4 2
+Setfield Hudwidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+Setfield Hudwidgets[4].BitmapWidgets[0].WidgetIndex 13
+Setfield Hudwidgets[4].BitmapWidgets[0].BitmapSpriteIndex 49
+Setfield Hudwidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\variant_meters\dmr.bitm
+Setfield Hudwidgets[5].BitmapWidgets[0].WidgetIndex 1
+Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Scale 1 1
+Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Offset -5 65
+Setfield Hudwidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+Setfield Hudwidgets[5].BitmapWidgets[1].WidgetIndex 13
+Setfield Hudwidgets[5].BitmapWidgets[1].BitmapSpriteIndex 49
+Savetagchanges
+Exit
+Edittag ui\chud\dmr_v1.chdt
+Removeblockelements Hudwidgets 0 2
+Removeblockelements Hudwidgets 2 *
+Pasteblockelements Hudwidgets
+Removeblockelements Hudwidgets 4 2
+Setfield Hudwidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+Setfield Hudwidgets[4].BitmapWidgets[0].WidgetIndex 13
+Setfield Hudwidgets[4].BitmapWidgets[0].BitmapSpriteIndex 49
+Setfield Hudwidgets[4].BitmapWidgets[0].RenderData[0].OutputColorA_HO GlobalDynamic30
+Setfield Hudwidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\variant_meters\dmr\ammo.bitm
+Setfield Hudwidgets[5].BitmapWidgets[0].WidgetIndex 1
+Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Scale 1 1
+Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Offset -5 65
+Setfield Hudwidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+Setfield Hudwidgets[5].BitmapWidgets[1].WidgetIndex 13
+Setfield Hudwidgets[5].BitmapWidgets[1].BitmapSpriteIndex 49
+Setfield Hudwidgets[5].BitmapWidgets[1].RenderData[0].OutputColorA_HO GlobalDynamic30
+Savetagchanges
+Exit
+Edittag ui\chud\dmr_v2.chdt
+Removeblockelements Hudwidgets 0 2
+Removeblockelements Hudwidgets 2 *
+Pasteblockelements Hudwidgets
+Removeblockelements Hudwidgets 4 2
+Setfield Hudwidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+Setfield Hudwidgets[4].BitmapWidgets[0].WidgetIndex 13
+Setfield Hudwidgets[4].BitmapWidgets[0].BitmapSpriteIndex 49
+Setfield Hudwidgets[4].BitmapWidgets[0].RenderData[0].OutputColorA_HO GlobalDynamic32
+Setfield Hudwidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\variant_meters\dmr\rof_accuracy.bitm
+Setfield Hudwidgets[5].BitmapWidgets[0].WidgetIndex 1
+Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Scale 1 1
+Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Offset -5 65
+Setfield Hudwidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+Setfield Hudwidgets[5].BitmapWidgets[1].WidgetIndex 13
+Setfield Hudwidgets[5].BitmapWidgets[1].BitmapSpriteIndex 49
+Setfield Hudwidgets[5].BitmapWidgets[1].RenderData[0].OutputColorA_HO GlobalDynamic32
+Savetagchanges
+Exit
+Edittag ui\chud\dmr_v3.chdt
+Removeblockelements Hudwidgets 0 2
+Removeblockelements Hudwidgets 1 *
+Pasteblockelements Hudwidgets
+Removeblockelements Hudwidgets 3 2
+Setfield Hudwidgets[3].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+Setfield Hudwidgets[3].BitmapWidgets[0].WidgetIndex 13
+Setfield Hudwidgets[3].BitmapWidgets[0].BitmapSpriteIndex 49
+Setfield Hudwidgets[3].BitmapWidgets[0].RenderData[0].OutputColorA_HO GlobalDynamic31
+Setfield Hudwidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\variant_meters\dmr\damage.bitm
+Setfield Hudwidgets[4].BitmapWidgets[0].WidgetIndex 1
+Setfield Hudwidgets[4].BitmapWidgets[0].PlacementData[0].Scale 1 1
+Setfield Hudwidgets[4].BitmapWidgets[0].PlacementData[0].Offset -5 65
+Setfield Hudwidgets[4].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+Setfield Hudwidgets[4].BitmapWidgets[1].WidgetIndex 13
+Setfield Hudwidgets[4].BitmapWidgets[1].BitmapSpriteIndex 49
+Setfield Hudwidgets[4].BitmapWidgets[1].RenderData[0].OutputColorA_HO GlobalDynamic31
+Savetagchanges
+Exit
+Edittag ui\chud\dmr_v4.chdt
+Removeblockelements Hudwidgets 0 2
+Removeblockelements Hudwidgets 2 *
+Pasteblockelements Hudwidgets
+Removeblockelements Hudwidgets 4 2
+Setfield Hudwidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+Setfield Hudwidgets[4].BitmapWidgets[0].WidgetIndex 13
+Setfield Hudwidgets[4].BitmapWidgets[0].BitmapSpriteIndex 49
+Setfield Hudwidgets[4].BitmapWidgets[0].RenderData[0].OutputColorA_HO GlobalDynamic33
+Setfield Hudwidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\variant_meters\dmr\rof_accuracy.bitm
+Setfield Hudwidgets[5].BitmapWidgets[0].WidgetIndex 1
+Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Scale 1 1
+Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Offset -5 65
+Setfield Hudwidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+Setfield Hudwidgets[5].BitmapWidgets[1].WidgetIndex 13
+Setfield Hudwidgets[5].BitmapWidgets[1].BitmapSpriteIndex 49
+Setfield Hudwidgets[5].BitmapWidgets[1].RenderData[0].OutputColorA_HO GlobalDynamic33
+Savetagchanges
+Exit
+Edittag ui\chud\dmr_v6.chdt
+Removeblockelements Hudwidgets 0 2
+Removeblockelements Hudwidgets 2 *
+Pasteblockelements Hudwidgets
+Removeblockelements Hudwidgets 4 2
+Setfield Hudwidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+Setfield Hudwidgets[4].BitmapWidgets[0].WidgetIndex 13
+Setfield Hudwidgets[4].BitmapWidgets[0].BitmapSpriteIndex 49
+Setfield Hudwidgets[4].BitmapWidgets[0].RenderData[0].OutputColorA_HO GlobalDynamic35
+Setfield Hudwidgets[5].BitmapWidgets[0].Bitmap ui\chud\bitmaps\variant_meters\dmr\power.bitm
+Setfield Hudwidgets[5].BitmapWidgets[0].WidgetIndex 1
+Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Scale 1 1
+Setfield Hudwidgets[5].BitmapWidgets[0].PlacementData[0].Offset -5 65
+Setfield Hudwidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics.bitm
+Setfield Hudwidgets[5].BitmapWidgets[1].WidgetIndex 13
+Setfield Hudwidgets[5].BitmapWidgets[1].BitmapSpriteIndex 49
+Setfield Hudwidgets[5].BitmapWidgets[1].RenderData[0].OutputColorA_HO GlobalDynamic35
+Savetagchanges
+Exit
+Edittag ui\chud\plasma_pistol.chdt
+Setfield Hudwidgets[3].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
+Setfield Hudwidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
+Setfield Hudwidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
+Savetagchanges
+Exit
+Edittag ui\chud\plasma_pistol_v6.chdt
+Setfield Hudwidgets[3].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
+Setfield Hudwidgets[4].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
+Setfield Hudwidgets[5].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
 Savetagchanges
 Exit
 
