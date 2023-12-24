@@ -686,7 +686,7 @@ setfield animations[22].animationdata.Frameevents[1].TypeHO SecondaryKeyframe
 setfield animations[22].animationdata.Frameevents[1].Frame 15
 setfield animations[22].animationdata.Frameevents[2].TypeHO AllowInterruption
 setfield animations[22].animationdata.Frameevents[2].Frame 15
-setfield animations[22].PlaybackFlags DisableWeaponAim1stPerson
+setfield animations[22].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 addanimation Animation\FallSET\1
 swapblockelements Animations 25 0
 removeblockelements Animations 25 *
