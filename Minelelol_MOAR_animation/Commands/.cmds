@@ -933,16 +933,57 @@ setfield modes[0].weaponclass[0].weapontype[0].set.overlays[0].Animation 8
 setfield modes[0].weaponclass[0].weapontype[0].set.overlays[1].Animation 7
 setfield modes[0].weaponclass[0].weapontype[0].set.overlays[6].Animation 6
 setfield modes[0].weaponclass[0].weapontype[0].set.overlays[7].Animation 1
+savetagchanges
+removeblockelements animations 25 *
+addanimation Animation\NEEDLER\replace
+swapblockelements animations 25 0
+swapblockelements animations 26 2
+swapblockelements animations 27 3
+swapblockelements animations 28 4
+swapblockelements animations 29 5
+swapblockelements animations 30 9
+swapblockelements animations 31 13
+swapblockelements animations 32 14
+swapblockelements animations 33 15
+swapblockelements animations 34 16
+swapblockelements animations 35 19
+swapblockelements animations 36 20
+swapblockelements animations 37 21
+swapblockelements animations 38 22
+
+setfield animations[2].weight 0.5
+setfield animations[2].animationdata.NextAnimation 3
+setfield animations[3].weight 0.75
+setfield animations[3].animationdata.ParentAnimation 2
+setfield animations[3].animationdata.NextAnimation 4
+setfield animations[4].weight 1
+setfield animations[4].animationdata.ParentAnimation 2
+
+addblockelements animations[13].animationdata.SoundEvents 1
+setfield animations[13].animationdata.Soundevents[0].Sound 1
+setfield animations[13].weight 0.65
+setfield animations[13].animationdata.NextAnimation 14
+
+addblockelements animations[14].animationdata.SoundEvents 1
+setfield animations[14].animationdata.Soundevents[0].Sound 2
+setfield animations[14].weight 0.65
+setfield animations[14].weight 1
+setfield animations[14].animationdata.ParentAnimation 13
+
+removeblockelements animations 25 *
+addanimation Animation\NEEDLER\old
+addblockelements animations[16].animationdata.SoundEvents 1
+setfield animations[16].animationdata.Soundevents[0].Sound 3
+setfield animations[16].weight 0.555
+setfield animations[16].animationdata.NextAnimation 27
+setfield animations[16].animationdata.NodeListChecksum 1635012550
+setfield animations[16].animationdata.ProductionChecksum -684544162
+setfield animations[16].animationdata.InternalFlags ValidProductionChecksum
+setfield animations[16].animationdata.Productionflags VerifySoundEvents
 setfield animations[19].PlaybackFlags ForceWeaponIkOn
 setfield animations[20].PlaybackFlags ForceWeaponIkOn
 setfield animations[21].PlaybackFlags ForceWeaponIkOn
 setfield animations[22].PlaybackFlags ForceWeaponIkOn
-savetagchanges
-removeblockelements animations 25 *
-addanimation Animation\NEEDLER
-
-setfield animations[16].weight 0.555
-setfield animations[16].animationdata.NextAnimation 27
 addblockelements animations[27].animationdata.SoundEvents 1
 setfield animations[27].animationdata.NodeListChecksum 1635012550
 setfield animations[27].animationdata.ProductionChecksum -684544162
@@ -951,6 +992,7 @@ setfield animations[27].animationdata.Productionflags VerifySoundEvents
 setfield animations[27].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 setfield animations[27].weight 1
 setfield animations[27].animationdata.ParentAnimation 16
+setfield animations[27].animationdata.Soundevents[0].Frame 1
 setfield animations[27].animationdata.Soundevents[0].Sound 3
 
 swapblockelements animations 23 28
@@ -1002,6 +1044,16 @@ setfield animations[18].animationdata.Frameevents[0].Frame 25
 setfield animations[18].animationdata.Frameevents[1].TypeHO AllowInterruption
 setfield animations[18].animationdata.Frameevents[1].Frame 34
 
+
+addblockelements animations[9].animationdata.FrameEvents 3
+addblockelements animations[9].animationdata.SoundEvents 1
+setfield animations[9].animationdata.Soundevents[0].Sound 0
+setfield animations[9].animationdata.Frameevents[0].Frame 4
+setfield animations[9].animationdata.Frameevents[1].TypeHO SecondaryKeyframe
+setfield animations[9].animationdata.Frameevents[1].Frame 28
+setfield animations[9].animationdata.Frameevents[2].TypeHO AllowInterruption
+setfield animations[9].animationdata.Frameevents[2].Frame 22
+setfield animations[9].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 setfield animations[9].weight 0.444
 setfield animations[9].animationdata.NextAnimation 25
 
