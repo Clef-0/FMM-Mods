@@ -315,9 +315,9 @@ setfield animations[20].PlaybackFlags ForceWeaponIkOn
 setfield animations[21].PlaybackFlags DisableWeaponAim1stPerson,ForceWeaponIkOn
 setfield animations[22].PlaybackFlags ForceWeaponIkOn
 
-setfield animations[23].animationdata.NodeListChecksum 288679712
-setfield animations[23].animationdata.ProductionChecksum 153786287
-setfield animations[23].animationdata.InternalFlags ValidProductionChecksum
+setfield animations[14].animationdata.NodeListChecksum 288679712
+setfield animations[14].animationdata.ProductionChecksum 153786287
+setfield animations[14].animationdata.InternalFlags ValidProductionChecksum
 
 setfield animations[23].animationdata.NodeListChecksum 288679712
 setfield animations[23].animationdata.ProductionChecksum -2013369692
