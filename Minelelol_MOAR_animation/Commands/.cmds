@@ -1437,7 +1437,7 @@ setfield animations[27].animationdata.InternalFlags ValidProductionChecksum
 setfield animations[27].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 setfield animations[27].animationdata.Productionflags VerifySoundEvents
 removeblockelements animations 29 *
-addanimation Animation\FallSET\4
+addanimation Animation\FallSET\5
 swapblockelements Animations 29 0
 removeblockelements Animations 29 *
 savetagchanges
