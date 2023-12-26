@@ -1211,7 +1211,7 @@ addblockelements animations[56].animationdata.SoundEvents 1
 setfield animations[56].animationdata.NodeListChecksum 737305646
 setfield animations[56].animationdata.ProductionChecksum 907937396
 setfield animations[56].animationdata.InternalFlags ValidProductionChecksum
-setfield animations[56].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+setfield animations[56].PlaybackFlags DisableWeaponIk
 setfield animations[56].weight 1
 setfield animations[56].animationdata.ParentAnimation 44
 setfield animations[56].animationdata.Soundevents[0].Sound 21
