@@ -1,0 +1,106 @@
+Echo Create Bitmaps
+Createtag bitm
+Nametag * objects\weapons\melee\elucidator\bitmaps\base_color
+Createtag bitm
+Nametag * objects\weapons\melee\elucidator\bitmaps\normal
+Createtag bitm
+Nametag * objects\weapons\melee\elucidator\bitmaps\roughness
+Savetagnames
+
+Edittag objects\weapons\melee\elucidator\bitmaps\base_color.bitm
+Importbitmap 0 Tags\base_color.dds
+Savetagchanges
+Exit
+Edittag objects\weapons\melee\elucidator\bitmaps\normal.bitm
+Importbitmap 0 Tags\normal.dds
+Savetagchanges
+Exit
+Edittag objects\weapons\melee\elucidator\bitmaps\roughness.bitm
+Importbitmap 0 Tags\roughness.dds
+Savetagchanges
+Exit
+
+Echo Setup Third Person Model
+Duplicatetag objects\weapons\melee\energy_blade\fp_energy_blade\fp_energy_blade.render_model
+Nametag * objects\weapons\melee\energy_blade\energy_blade
+Savetagnames
+
+Edittag objects\weapons\melee\energy_blade\energy_blade.model
+Setfield RenderModel objects\weapons\melee\energy_blade\energy_blade.render_model
+Savetagchanges
+Exit
+
+Duplicatetag objects\equipment\shaders\gravlift_shell.rmsh
+Nametag * objects\weapons\melee\elucidator\elucidator\shaders\kirito
+Savetagnames
+
+Edittag objects\weapons\melee\energy_blade\energy_blade.render_model
+ReplaceRenderGeometry Tags\elucidator.dae
+Setfield Nodes[0].InversePosition 0.083 0 -0.1
+Setfield Nodes[1].DefaultScale 0
+Setfield MarkerGroups[9].Markers[0].Translation 0.02 0.02 0.2
+Setfield MarkerGroups[9].Markers[0].Rotation -1 -2 -1 1
+Setfield Materials[0].RenderMethod objects\weapons\melee\elucidator\elucidator\shaders\kirito.rmsh
+Setfield Materials[1].RenderMethod objects\weapons\melee\elucidator\elucidator\shaders\kirito.rmsh
+Savetagchanges
+Exit
+
+Echo Setup First Person Model
+Edittag objects\weapons\melee\energy_blade\fp_energy_blade\fp_energy_blade.render_model
+ReplaceRenderGeometry Tags\elucidator.dae
+Removeblockelements MarkerGroups 5 3
+Setfield Nodes[0].InversePosition 0.083 0 -0.1
+Setfield Nodes[1].DefaultScale 0
+Setfield Materials[0].RenderMethod objects\weapons\melee\elucidator\elucidator\shaders\kirito.rmsh
+Setfield Materials[1].RenderMethod objects\weapons\melee\elucidator\elucidator\shaders\kirito.rmsh
+Savetagchanges
+Exit
+
+Echo Shader / Effect Setup
+Edittag objects\weapons\melee\elucidator\elucidator\shaders\kirito.rmsh
+Setfield ShaderProperties[0].TextureConstants[0].Bitmap objects\weapons\melee\elucidator\bitmaps\base_color.bitm
+Setfield ShaderProperties[0].TextureConstants[1].Bitmap shaders\default_bitmaps\bitmaps\default_detail.bitm
+Setfield ShaderProperties[0].TextureConstants[2].Bitmap objects\weapons\melee\elucidator\bitmaps\normal.bitm
+Setfield ShaderProperties[0].TextureConstants[3].Bitmap objects\weapons\melee\elucidator\bitmaps\roughness.bitm
+SetArgument base_map 1 1 0 0
+SetArgument detail_map 1 1 0 0
+SetArgument albedo_color 1 1 1 1
+SetArgument bump_map 1 1 0 0
+SetArgument diffuse_coefficient 1 1 1 1
+SetArgument specular_coefficient 1 1 1 1
+SetArgument normal_specular_power 2 2 2 2
+SetArgument normal_specular_tint 1 1 1 1
+SetArgument glancing_specular_power 1 1 1 1
+SetArgument glancing_specular_tint 1 1 1 1
+SetArgument fresnel_curve_steepness 0.75 0.75 0.75 0.75
+SetArgument area_specular_contribution 0 0 0 0
+SetArgument analytical_specular_contribution 0 0 0 0
+SetArgument environment_map_specular_contribution 0.75 0.75 0.75 0.75
+SetArgument albedo_specular_tint_blend 1 1 1 1
+SetArgument analytical_anti_shadow_control 0 0 0 0
+SetArgument env_tint_color 0.15 0.15 0.15 0.15
+SetArgument env_roughness_scale 1 1 1 1
+SetArgument self_illum_map 1 1 0 0
+SetArgument self_illum_color 0.1 0.1 0.1 0.1
+SetArgument self_illum_intensity 0 0 0 0
+SetArgument order3_area_specular 0 0 0 0
+Savetagchanges
+Exit
+
+Edittag objects\weapons\melee\energy_blade\fx\blade_activate.effe
+Removeblockelements Events 1 *
+Savetagchanges
+Exit
+
+Edittag objects\weapons\melee\energy_blade\energy_blade.weap
+Removeblockelements Functions 2
+Setfield Attachments[2].Type null
+Setfield Attachments[4].Type null
+Setfield WeaponHolsterMarker weapon_back
+Savetagchanges
+Exit
+Edittag objects\weapons\melee\energy_blade\unarmed.weap
+Setfield FirstPerson[0].FirstPersonModel objects\weapons\melee\energy_blade\energy_blade.render_model
+Setfield WeaponHolsterMarker weapon_back
+Savetagchanges
+Exit

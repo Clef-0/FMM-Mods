@@ -19,7 +19,7 @@ ECHO                  :oydNNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNdy+-
 ECHO                       `.:/+syyhddNMMMMMMMMMMMMMMNmhyo/-`                       
 ECHO                                  /sssssooo+/:-.`
 ECHO
-ECHO   H3 Weapons By Satomi#7010
+ECHO   H3 Weapons By Satomi
 color 0A
 
 if exist ..\..\..\..\maps\tags.dat (
@@ -29,7 +29,7 @@ if exist ..\..\..\..\maps\tags.dat (
 )
 
 :Label0
-Type H3Vehicles.cmds | TagTool.exe ..\..\..\..\maps\tags.dat
+Type H3Weapons.cmds | Tagtool\TagTool.exe ..\..\..\..\maps\tags.dat
 ECHO Installation Complete.
 pause
 GOTO End

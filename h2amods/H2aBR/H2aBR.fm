@@ -6,7 +6,7 @@ if exist mods\tagmods\h2amods\H2aBR (
 )
 :Label0
 cd mods\tagmods\h2amods\H2aBR
-Type H2aBR.cmds | TagTool.exe ..\..\..\..\maps\tags.dat
+Type H2aBR.cmds | Tagtool\TagTool.exe ..\..\..\..\maps\tags.dat
 ECHO FMM_OUTPUT Halo 2 Anniversary Battle Rifle has been installed!
 GOTO End
 

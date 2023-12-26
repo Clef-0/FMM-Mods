@@ -1,0 +1,42 @@
+Echo Create Bitmap
+Createtag bitm
+Nametag * objects\weapons\minecraft_grassblock\minecraft_grassblock
+Savetagnames
+Edittag objects\weapons\minecraft_grassblock\minecraft_grassblock.bitm
+Importbitmap 0 Tags\grassblock.dds
+Savetagchanges
+Exit
+
+Echo Setup Shaders
+Duplicatetag objects\weapons\melee\energy_blade\fp_energy_blade\fp_energy_blade\shaders\[01]_rmsh.rmsh
+Nametag * objects\weapons\melee\minecraft_grassblock\minecraft_grassblock
+Savetagnames
+Edittag objects\weapons\melee\minecraft_grassblock\minecraft_grassblock.rmsh
+Setfield ShaderProperties[0].TextureConstants[0].Bitmap objects\weapons\minecraft_grassblock\minecraft_grassblock.bitm
+SetArgument albedo_color 1 1 1 1
+SetArgument self_illum_color 0.15 0.15 0.15 0.15
+Savetagchanges
+Exit
+
+Echo Setup Third Person Model
+Edittag objects\weapons\multiplayer\ball\ball.render_model
+ReplaceRenderGeometry Tags\grassblock.dae
+Setfield Nodes[0].DefaultScale 3.1
+Setfield Nodes[0].InversePosition 0 0.03200751 -0.01230588
+Setfield Materials[0].RenderMethod objects\weapons\melee\minecraft_grassblock\minecraft_grassblock.rmsh
+Savetagchanges
+Exit
+
+Echo Setup First Person Model
+Edittag objects\weapons\multiplayer\ball\fp_ball\fp_ball.render_model
+ReplaceRenderGeometry Tags\grassblockfp.dae
+Setfield Nodes[0].DefaultScale 2.3
+Setfield Nodes[0].InversePosition 0.01 0 -0.01
+Setfield Materials[0].RenderMethod objects\weapons\melee\minecraft_grassblock\minecraft_grassblock.rmsh
+Savetagchanges
+Exit
+
+Edittag objects\weapons\multiplayer\ball\ball.model
+Setfield LodModel null
+Savetagchanges
+Exit

@@ -1,0 +1,93 @@
+Echo Create Bitmap
+Createtag bitm
+Nametag * objects\weapons\minecraft_tnt\minecraft_tnt
+Savetagnames
+Edittag objects\weapons\minecraft_tnt\minecraft_tnt.bitm
+Importbitmap 0 Tags\tnt.dds
+Savetagchanges
+Exit
+
+Echo Sound Importing 
+Duplicatetag sound\effe\hum_damage_large1.snd!
+Nametag * sound\effe\minecraft_tnt\explosion
+Duplicatetag sound\effe\phantom_destroyed_mono_lod.snd!
+Nametag * sound\effe\minecraft_tnt\explosion_lod
+Savetagnames
+
+Edittag sound\effe\minecraft_tnt\explosion.snd!
+ImportSound 
+1
+1
+1
+2
+1
+Tags\explode.mp3
+1
+Setfield PlaybackParameters.GainBase 5
+Setfield PitchRanges[0].Permutations[0].GainHO 20
+Savetagchanges
+Exit
+
+Edittag sound\effe\minecraft_tnt\explosion_lod.snd!
+ImportSound 
+1
+1
+1
+2
+1
+Tags\explode_lod.mp3
+1
+Setfield PlaybackParameters.GainBase 5
+Setfield PitchRanges[0].Permutations[0].GainHO 15
+Savetagchanges
+Exit
+
+Echo Fix Scorpion Duplicate Effect
+Duplicatetag fx\scenery_fx\explosions\human_explosion_huge\human_explosion_huge.effe
+Nametag * fx\scenery_fx\explosions\human_explosion_huge\human_explosion_huge_scorpion
+Savetagnames
+Edittag objects\vehicles\scorpion\scorpion.model
+Setfield NewDamageInfo[0].DamageSections[1].InstantResponses[0].PrimaryTransitionEffect fx\scenery_fx\explosions\human_explosion_huge\human_explosion_huge_scorpion.effe
+Savetagchanges
+Exit
+
+Edittag fx\scenery_fx\explosions\human_explosion_huge\human_explosion_huge.effe
+Setfield Events[0].Parts[3].Type sound\effe\minecraft_tnt\explosion.snd!
+Setfield Events[0].Parts[4].Type sound\effe\minecraft_tnt\explosion_lod.snd!
+Savetagchanges
+Exit
+
+Echo Setup Shaders
+Duplicatetag objects\weapons\melee\energy_blade\fp_energy_blade\fp_energy_blade\shaders\[01]_rmsh.rmsh
+Nametag * objects\weapons\melee\minecraft_tnt\minecraft_tnt
+Savetagnames
+Edittag objects\weapons\melee\minecraft_tnt\minecraft_tnt.rmsh
+Setfield ShaderProperties[0].TextureConstants[0].Bitmap objects\weapons\minecraft_tnt\minecraft_tnt.bitm
+SetArgument albedo_color 1 1 1 1
+SetArgument self_illum_color 0.15 0.15 0.15 0.15
+Savetagchanges
+Exit
+
+Echo Setup Third Person Model
+Edittag objects\weapons\multiplayer\assault_bomb\assault_bomb.render_model
+ReplaceRenderGeometry Tags\tnt.dae
+Setfield Nodes[0].DefaultScale 0.55
+Setfield Nodes[0].InversePosition 0 0 -0.04
+Setfield Materials[0].RenderMethod objects\weapons\melee\minecraft_tnt\minecraft_tnt.rmsh
+Setfield Materials[1].RenderMethod objects\weapons\melee\minecraft_tnt\minecraft_tnt.rmsh
+Savetagchanges
+Exit
+
+Echo Setup First Person Model
+Edittag objects\weapons\multiplayer\assault_bomb\fp_assault_bomb\fp_assault_bomb.render_model
+ReplaceRenderGeometry Tags\tntfp.dae
+Setfield Nodes[0].DefaultScale 0.4
+Setfield Nodes[0].InversePosition 0.001 -0.03 -0.009
+Setfield Materials[0].RenderMethod objects\weapons\melee\minecraft_tnt\minecraft_tnt.rmsh
+Savetagchanges
+Exit
+
+Edittag objects\weapons\multiplayer\assault_bomb\assault_bomb.model
+Setfield LodModel null
+Savetagchanges
+Exit

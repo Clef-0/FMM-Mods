@@ -1,0 +1,1692 @@
+Tag Tool [1.5.7006.30799]
+
+Please report any bugs and/or feature requests at
+<https://github.com/TheGuardians-CI/TagTool/issues>.
+
+Enter "help" to list available commands. Enter "exit" to quit.
+
+tags> Echo BR Textures
+BR Textures 
+tags> 
+
+tags> CreateTag bitm
+[Index: 0x5ADF, Offset: 0x06282D30, Size: 0x00F0] 0x5ADF.bitmap
+
+tags> NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body
+[Index: 0x5ADF, Offset: 0x06282D30, Size: 0x00F0] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.bitmap
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.bitmap
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.bitmap has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.bitmap> ImportBitmap 0 Bitmaps\br_body.dds
+Importing image data...
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.bitmap> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.bitmap> ExitTo tags
+
+tags> 
+
+tags> CreateTag bitm
+[Index: 0x5AE0, Offset: 0x06282F30, Size: 0x00F0] 0x5AE0.bitmap
+
+tags> NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_bump
+[Index: 0x5AE0, Offset: 0x06282F30, Size: 0x00F0] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_bump.bitmap
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_bump.bitmap
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_bump.bitmap has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_bump.bitmap> ImportBitmap 0 ..\Tags\Bitmaps\br_body_bump.dds
+Importing image data...
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_bump.bitmap> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_bump.bitmap> ExitTo tags
+
+tags> 
+
+tags> CreateTag bitm
+[Index: 0x5AE1, Offset: 0x06283130, Size: 0x00F0] 0x5AE1.bitmap
+
+tags> NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_illumination_map
+[Index: 0x5AE1, Offset: 0x06283130, Size: 0x00F0] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_illumination_map.bitmap
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_illumination_map.bitmap
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_illumination_map.bitmap has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_illumination_map.bitmap> ImportBitmap 0 Bitmaps\br_illumination_map.dds
+Importing image data...
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_illumination_map.bitmap> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_illumination_map.bitmap> ExitTo tags
+
+tags> 
+
+tags> CreateTag bitm
+[Index: 0x5AE2, Offset: 0x06283330, Size: 0x00F0] 0x5AE2.bitmap
+
+tags> NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\mat
+[Index: 0x5AE2, Offset: 0x06283330, Size: 0x00F0] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\mat.bitmap
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\mat.bitmap
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\mat.bitmap has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\mat.bitmap> ImportBitmap 0 ..\Tags\Bitmaps\mat.dds
+Importing image data...
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\mat.bitmap> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\mat.bitmap> ExitTo tags
+
+tags> 
+
+tags> CreateTag bitm
+[Index: 0x5AE3, Offset: 0x06283530, Size: 0x00F0] 0x5AE3.bitmap
+
+tags> NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_blue
+[Index: 0x5AE3, Offset: 0x06283530, Size: 0x00F0] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_blue.bitmap
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_blue.bitm
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_blue.bitmap has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_blue.bitmap> ImportBitmap 0 ..\Tags\Bitmaps\blue.dds
+Importing image data...
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_blue.bitmap> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_blue.bitmap> ExitTo tags
+
+tags> 
+
+tags> CreateTag bitm
+[Index: 0x5AE4, Offset: 0x06283730, Size: 0x00F0] 0x5AE4.bitmap
+
+tags> NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_purple
+[Index: 0x5AE4, Offset: 0x06283730, Size: 0x00F0] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_purple.bitmap
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_purple.bitm
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_purple.bitmap has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_purple.bitmap> ImportBitmap 0 ..\Tags\Bitmaps\purple.dds
+Importing image data...
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_purple.bitmap> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_purple.bitmap> ExitTo tags
+
+tags> 
+
+tags> CreateTag bitm
+[Index: 0x5AE5, Offset: 0x06283930, Size: 0x00F0] 0x5AE5.bitmap
+
+tags> NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_orange
+[Index: 0x5AE5, Offset: 0x06283930, Size: 0x00F0] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_orange.bitmap
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_orange.bitm
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_orange.bitmap has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_orange.bitmap> ImportBitmap 0 ..\Tags\Bitmaps\orange.dds
+Importing image data...
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_orange.bitmap> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_orange.bitmap> ExitTo tags
+
+tags> 
+
+tags> CreateTag bitm
+[Index: 0x5AE6, Offset: 0x06283B30, Size: 0x00F0] 0x5AE6.bitmap
+
+tags> NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_green
+[Index: 0x5AE6, Offset: 0x06283B30, Size: 0x00F0] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_green.bitmap
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_green.bitm
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_green.bitmap has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_green.bitmap> ImportBitmap 0 ..\Tags\Bitmaps\green.dds
+Importing image data...
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_green.bitmap> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_green.bitmap> ExitTo tags
+
+tags> 
+
+tags> CreateTag bitm
+[Index: 0x5AE7, Offset: 0x06283D30, Size: 0x00F0] 0x5AE7.bitmap
+
+tags> NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_gold
+[Index: 0x5AE7, Offset: 0x06283D30, Size: 0x00F0] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_gold.bitmap
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_gold.bitm
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_gold.bitmap has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_gold.bitmap> ImportBitmap 0 ..\Tags\Bitmaps\gold.dds
+Importing image data...
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_gold.bitmap> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_gold.bitmap> ExitTo tags
+
+tags> 
+
+tags> CreateTag bitm
+[Index: 0x5AE8, Offset: 0x06283F30, Size: 0x00F0] 0x5AE8.bitmap
+
+tags> NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_red
+[Index: 0x5AE8, Offset: 0x06283F30, Size: 0x00F0] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_red.bitmap
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_red.bitm
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_red.bitmap has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_red.bitmap> ImportBitmap 0 ..\Tags\Bitmaps\red.dds
+Importing image data...
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_red.bitmap> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_red.bitmap> ExitTo tags
+
+tags> Savetagnames
+
+tags> 
+
+tags> Echo BR Bitmaps Setup
+BR Bitmaps Setup 
+tags> 
+
+tags> DuplicateTag objects\weapons\rifle\smg\fp_smg\fp_smg_v1\shaders\[00]_rmsh.shader
+Tag duplicated successfully!
+New tag: rmsh 00005AE9 [Offset = 0x6284130, Size = 0xD70]
+
+tags> NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body
+[Index: 0x5AE9, Offset: 0x06284130, Size: 0x0D70] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader
+
+tags> Savetagnames
+
+tags> 
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader> Setfield ShaderProperties[0].ShaderMaps[0].Bitmap objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.bitmap
+Bitmap: CachedTagInstance = [0x5ADF] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.bitmap 
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader> Setfield ShaderProperties[0].ShaderMaps[3].Bitmap objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_bump.bitmap
+Bitmap: CachedTagInstance = [0x5AE0] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_bump.bitmap 
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader> Setfield ShaderProperties[0].ShaderMaps[5].Bitmap objects\weapons\rifle\battle_rifle\h2a_battle_rifle\mat.bitmap
+Bitmap: CachedTagInstance = [0x5AE2] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\mat.bitmap 
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader> Setfield ShaderProperties[0].ShaderMaps[6].Bitmap objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_illumination_map.bitmap
+Bitmap: CachedTagInstance = [0x5AE1] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_illumination_map.bitmap 
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader> Setargument base_map 1 1 0 0
+
+base_map:
+	X Scale: 1
+	Y Scale: 1
+	X Offset: 0
+	Y Offset: 0
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader> Setargument color_mask_map 0 0 0 0
+
+color_mask_map:
+	X Scale: 0
+	Y Scale: 0
+	X Offset: 0
+	Y Offset: 0
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader> Setargument albedo_color 0.5 0.5 1 1
+
+albedo_color:
+	X: 0.5
+	Y: 0.5
+	Z: 1
+	W: 1
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader> Setargument albedo_color2 1 1 1 1
+
+albedo_color2:
+	X: 1
+	Y: 1
+	Z: 1
+	W: 1
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader> Setargument albedo_color3 1 1 1 1
+
+albedo_color3:
+	X: 1
+	Y: 1
+	Z: 1
+	W: 1
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader> Setargument bump_detail_map 0 0 0 0
+
+bump_detail_map:
+	X Scale: 0
+	Y Scale: 0
+	X Offset: 0
+	Y Offset: 0
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader> Setargument bump_detail_coefficient 1 1 1 1
+
+bump_detail_coefficient:
+	X: 1
+	Y: 1
+	Z: 1
+	W: 1
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader> Setargument specular_tint 0.8352942 0.9607844 1 1
+
+specular_tint:
+	X: 0.8352942
+	Y: 0.9607844
+	Z: 1
+	W: 1
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader> Setargument use_fresnel_color_environment 1 1 1 1
+
+use_fresnel_color_environment:
+	X: 1
+	Y: 1
+	Z: 1
+	W: 1
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader> Setargument fresnel_color_environment 0.8078432 0.8784314 1 1
+
+fresnel_color_environment:
+	X: 0.8078432
+	Y: 0.8784314
+	Z: 1
+	W: 1
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader> Setargument roughness 0.8 0.8 0.8 0.8
+
+roughness:
+	X: 0.8
+	Y: 0.8
+	Z: 0.8
+	W: 0.8
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader> Setargument area_specular_contribution 0.12 0.12 0.12 0.12
+
+area_specular_contribution:
+	X: 0.12
+	Y: 0.12
+	Z: 0.12
+	W: 0.12
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader> Setargument analytical_specular_contribution 0.65 0.65 0.65 0.65
+
+analytical_specular_contribution:
+	X: 0.65
+	Y: 0.65
+	Z: 0.65
+	W: 0.65
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader> Setargument environment_map_specular_contribution 0.33 0.33 0.33 0.33
+
+environment_map_specular_contribution:
+	X: 0.33
+	Y: 0.33
+	Z: 0.33
+	W: 0.33
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader> Setargument albedo_blend 0.98 0.98 0.98 0.98
+
+albedo_blend:
+	X: 0.98
+	Y: 0.98
+	Z: 0.98
+	W: 0.98
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader> Setargument env_roughness_scale 0 0 0 0
+
+env_roughness_scale:
+	X: 0
+	Y: 0
+	Z: 0
+	W: 0
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader> Setargument self_illum_color 1 0 0 1
+
+self_illum_color:
+	X: 1
+	Y: 0
+	Z: 0
+	W: 1
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader> Setargument self_illum_intensity 11 11 11 11
+
+self_illum_intensity:
+	X: 11
+	Y: 11
+	Z: 11
+	W: 11
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader> ExitTo tags
+
+tags> 
+
+tags> DuplicateTag objects\weapons\rifle\dmr\dmr\shaders\[02]_rmsh.shader
+Tag duplicated successfully!
+New tag: rmsh 00005AEA [Offset = 0x6284EB0, Size = 0xE50]
+
+tags> NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope
+[Index: 0x5AEA, Offset: 0x06284EB0, Size: 0x0E50] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope.shader
+
+tags> Savetagnames
+
+tags> 
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope.shader
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope.shader> Setfield ShaderProperties[0].ShaderMaps[0].Bitmap objects\weapons\rifle\sniper_rifle\sniper_rifle\bitmaps\[03]_rmsh\base.bitm
+Bitmap: CachedTagInstance = [0x1E2D] objects\weapons\rifle\sniper_rifle\sniper_rifle\bitmaps\[03]_rmsh\base.bitmap 
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope.shader> Setfield ShaderProperties[0].ShaderMaps[1].Bitmap shaders\default_bitmaps\bitmaps\default_detail.bitm
+Bitmap: CachedTagInstance = [0x0343] shaders\default_bitmaps\bitmaps\default_detail.bitmap 
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope.shader> Setfield ShaderProperties[0].ShaderMaps[2].Bitmap shaders\default_bitmaps\bitmaps\gray_50_percent.bitm
+Bitmap: CachedTagInstance = [0x02B7] shaders\default_bitmaps\bitmaps\gray_50_percent.bitmap 
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope.shader> Setargument analytical_specular_contribution 0 0 0 0
+
+analytical_specular_contribution:
+	X: 0
+	Y: 0
+	Z: 0
+	W: 0
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope.shader> Setargument env_tint_color 0.05 0.05 0.3 1
+
+env_tint_color:
+	X: 0.05
+	Y: 0.05
+	Z: 0.3
+	W: 1
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope.shader> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope.shader> ExitTo tags
+
+tags> 
+
+tags> Echo BR Ammo Counter
+BR Ammo Counter 
+tags> 
+
+tags> DuplicateTag objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle\shaders\[07]_rmsh.shader
+Tag duplicated successfully!
+New tag: rmsh 00005AEB [Offset = 0x6285D10, Size = 0x4E0]
+
+tags> NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones
+[Index: 0x5AEB, Offset: 0x06285D10, Size: 0x04E0] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones.shader
+
+tags> DuplicateTag objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle\shaders\[08]_rmsh.shader
+Tag duplicated successfully!
+New tag: rmsh 00005AEC [Offset = 0x62861F0, Size = 0x4E0]
+
+tags> NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens
+[Index: 0x5AEC, Offset: 0x062861F0, Size: 0x04E0] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens.shader
+
+tags> DuplicateTag objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle\bitmaps\[08]_rmsh\self_illum_primary_ammunition_tens.bitm
+Tag duplicated successfully!
+New tag: bitm 00005AED [Offset = 0x62866D0, Size = 0xC30]
+
+tags> NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens
+[Index: 0x5AED, Offset: 0x062866D0, Size: 0x0C30] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens.bitmap
+
+tags> DuplicateTag objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle\bitmaps\[07]_rmsh\self_illum_primary_ammunition_ones.bitm
+Tag duplicated successfully!
+New tag: bitm 00005AEE [Offset = 0x6287300, Size = 0xC30]
+
+tags> NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones
+[Index: 0x5AEE, Offset: 0x06287300, Size: 0x0C30] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones.bitmap
+
+tags> Savetagnames
+
+tags> 
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones.shader
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones.shader> Setfield ShaderProperties[0].ShaderMaps[0].Bitmap objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones.bitm
+Bitmap: CachedTagInstance = [0x5AEE] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones.bitmap 
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones.shader> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones.shader> ExitTo tags
+
+tags> 
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens.shader
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens.shader> Setfield ShaderProperties[0].ShaderMaps[0].Bitmap objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens.bitm
+Bitmap: CachedTagInstance = [0x5AED] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens.bitmap 
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens.shader> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens.shader> ExitTo tags
+
+tags> 
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens.bitm
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens.bitmap has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens.bitmap> importbitmap 0 Bitmaps\Numerology\0.dds
+Importing image data...
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens.bitmap> importbitmap 1 Bitmaps\Numerology\1.dds
+Importing image data...
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens.bitmap> importbitmap 2 Bitmaps\Numerology\2.dds
+Importing image data...
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens.bitmap> importbitmap 3 Bitmaps\Numerology\3.dds
+Importing image data...
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens.bitmap> importbitmap 4 Bitmaps\Numerology\4.dds
+Importing image data...
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens.bitmap> importbitmap 5 Bitmaps\Numerology\5.dds
+Importing image data...
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens.bitmap> importbitmap 6 Bitmaps\Numerology\6.dds
+Importing image data...
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens.bitmap> importbitmap 7 Bitmaps\Numerology\7.dds
+Importing image data...
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens.bitmap> importbitmap 8 Bitmaps\Numerology\8.dds
+Importing image data...
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens.bitmap> importbitmap 9 Bitmaps\Numerology\9.dds
+Importing image data...
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens.bitmap> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens.bitmap> ExitTo tags
+
+tags> 
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones.bitm
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones.bitmap has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones.bitmap> importbitmap 0 Bitmaps\Numerology\0.dds
+Importing image data...
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones.bitmap> importbitmap 1 Bitmaps\Numerology\1.dds
+Importing image data...
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones.bitmap> importbitmap 2 Bitmaps\Numerology\2.dds
+Importing image data...
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones.bitmap> importbitmap 3 Bitmaps\Numerology\3.dds
+Importing image data...
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones.bitmap> importbitmap 4 Bitmaps\Numerology\4.dds
+Importing image data...
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones.bitmap> importbitmap 5 Bitmaps\Numerology\5.dds
+Importing image data...
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones.bitmap> importbitmap 6 Bitmaps\Numerology\6.dds
+Importing image data...
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones.bitmap> importbitmap 7 Bitmaps\Numerology\7.dds
+Importing image data...
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones.bitmap> importbitmap 8 Bitmaps\Numerology\8.dds
+Importing image data...
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones.bitmap> importbitmap 9 Bitmaps\Numerology\9.dds
+Importing image data...
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones.bitmap> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones.bitmap> ExitTo tags
+
+tags> 
+
+tags> Echo BR Model and Materials
+BR Model and Materials 
+tags> 
+
+tags> EditTag objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle.render_model
+Tag objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle.render_model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle.render_model> ReplaceRenderGeometry ..\Tags\Models\battle_rifle.dae
+Building render_geometry...done.
+Writing render_model tag data...done.
+Replaced render_geometry successfully.
+
+tags\objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle.render_model> setfield materials[0].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope.shader
+RenderMethod: CachedTagInstance = [0x5AEA] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope.shader 
+
+tags\objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle.render_model> setfield materials[1].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader
+RenderMethod: CachedTagInstance = [0x5AE9] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader 
+
+tags\objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle.render_model> setfield materials[2].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope.shader
+RenderMethod: CachedTagInstance = [0x5AEA] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope.shader 
+
+tags\objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle.render_model> setfield materials[3].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones.shader
+RenderMethod: CachedTagInstance = [0x5AEB] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones.shader 
+
+tags\objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle.render_model> setfield materials[4].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens.shader
+RenderMethod: CachedTagInstance = [0x5AEC] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens.shader 
+
+tags\objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle.render_model> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle.render_model> ExitTo tags
+
+tags> 
+
+tags> EditTag objects\weapons\rifle\battle_rifle\battle_rifle.render_model
+Tag objects\weapons\rifle\battle_rifle\battle_rifle.render_model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle.render_model> ReplaceRenderGeometry ..\Tags\Models\battle_rifle.dae
+Building render_geometry...done.
+Writing render_model tag data...done.
+Replaced render_geometry successfully.
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle.render_model> setfield materials[0].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope.shader
+RenderMethod: CachedTagInstance = [0x5AEA] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope.shader 
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle.render_model> setfield materials[1].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader
+RenderMethod: CachedTagInstance = [0x5AE9] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader 
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle.render_model> setfield materials[2].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope.shader
+RenderMethod: CachedTagInstance = [0x5AEA] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_scope.shader 
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle.render_model> setfield materials[3].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones.shader
+RenderMethod: CachedTagInstance = [0x5AEB] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones.shader 
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle.render_model> setfield materials[4].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens.shader
+RenderMethod: CachedTagInstance = [0x5AEC] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens.shader 
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle.render_model> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle.render_model> ExitTo tags
+
+tags> 
+
+tags> Echo Battle Rifle Halo 3 Inherited Animation
+Battle Rifle Halo 3 Inherited Animation 
+tags> 
+
+tags> createtag jmad
+[Index: 0x5AEF, Offset: 0x062877C0, Size: 0x0140] 0x5AEF.model_animation_graph
+
+tags> nametag * objects\characters\masterchief\fp\weapons\rifle\fp_battle_rifle\fp_battle_rifle_halo_3
+[Index: 0x5AEF, Offset: 0x062877C0, Size: 0x0140] objects\characters\masterchief\fp\weapons\rifle\fp_battle_rifle\fp_battle_rifle_halo_3.model_animation_graph
+
+tags> importtag * ../tags/animations/fp_battle_rifle_halo_3.model_animation_graph
+Imported 0x1650 bytes.
+
+tags> edittag objects\characters\masterchief\fp\weapons\rifle\fp_battle_rifle\fp_battle_rifle_halo_3.model_animation_graph
+Tag objects\characters\masterchief\fp\weapons\rifle\fp_battle_rifle\fp_battle_rifle_halo_3.model_animation_graph has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\characters\masterchief\fp\weapons\rifle\fp_battle_rifle\fp_battle_rifle_halo_3.model_animation_graph> resourcedata import resources_b 0 ../tags/animations/fp_battle_rifle_halo_3.model_animation_graph_resource
+New resource info: Index 0x0004, Index 00000004, Compressed size: 0x00010E28, Decompressed size: 0x0001A864, 
+
+tags\objects\characters\masterchief\fp\weapons\rifle\fp_battle_rifle\fp_battle_rifle_halo_3.model_animation_graph> savetagchanges
+Done!
+
+tags\objects\characters\masterchief\fp\weapons\rifle\fp_battle_rifle\fp_battle_rifle_halo_3.model_animation_graph> exitto tags
+
+tags> importtag objects\characters\masterchief\fp\weapons\rifle\fp_battle_rifle\fp_battle_rifle.model_animation_graph ../tags/animations/fp_battle_rifle_halo_3_inherited.model_animation_graph
+Imported 0x1CE0 bytes.
+
+tags> edittag objects\characters\masterchief\fp\weapons\rifle\fp_battle_rifle\fp_battle_rifle.model_animation_graph
+Tag objects\characters\masterchief\fp\weapons\rifle\fp_battle_rifle\fp_battle_rifle.model_animation_graph has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\characters\masterchief\fp\weapons\rifle\fp_battle_rifle\fp_battle_rifle.model_animation_graph> setfield InheritanceList[0].InheritedGraph objects\characters\masterchief\fp\weapons\rifle\fp_battle_rifle\fp_battle_rifle_halo_3.model_animation_graph
+InheritedGraph: CachedTagInstance = [0x5AEF] objects\characters\masterchief\fp\weapons\rifle\fp_battle_rifle\fp_battle_rifle_halo_3.model_animation_graph 
+
+tags\objects\characters\masterchief\fp\weapons\rifle\fp_battle_rifle\fp_battle_rifle.model_animation_graph> savetagchanges
+Done!
+
+tags\objects\characters\masterchief\fp\weapons\rifle\fp_battle_rifle\fp_battle_rifle.model_animation_graph> exitto tags
+
+tags> 
+
+tags> Echo Battle Rifle Variants
+Battle Rifle Variants 
+tags> 
+
+tags> Duplicatetag objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle.render_model
+Tag duplicated successfully!
+New tag: mode 00005AF0 [Offset = 0x6288E10, Size = 0x8E0]
+
+tags> Nametag * objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_ammo
+[Index: 0x5AF0, Offset: 0x06288E10, Size: 0x08E0] objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_ammo.render_model
+
+tags> Duplicatetag objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle.render_model
+Tag duplicated successfully!
+New tag: mode 00005AF1 [Offset = 0x62896F0, Size = 0x8E0]
+
+tags> Nametag * objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_range
+[Index: 0x5AF1, Offset: 0x062896F0, Size: 0x08E0] objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_range.render_model
+
+tags> Duplicatetag objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle.render_model
+Tag duplicated successfully!
+New tag: mode 00005AF2 [Offset = 0x6289FD0, Size = 0x8E0]
+
+tags> Nametag * objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_damage
+[Index: 0x5AF2, Offset: 0x06289FD0, Size: 0x08E0] objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_damage.render_model
+
+tags> Duplicatetag objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle.render_model
+Tag duplicated successfully!
+New tag: mode 00005AF3 [Offset = 0x628A8B0, Size = 0x8E0]
+
+tags> Nametag * objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_accuracy
+[Index: 0x5AF3, Offset: 0x0628A8B0, Size: 0x08E0] objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_accuracy.render_model
+
+tags> Duplicatetag objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle.render_model
+Tag duplicated successfully!
+New tag: mode 00005AF4 [Offset = 0x628B190, Size = 0x8E0]
+
+tags> Nametag * objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_rof
+[Index: 0x5AF4, Offset: 0x0628B190, Size: 0x08E0] objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_rof.render_model
+
+tags> Duplicatetag objects\weapons\rifle\battle_rifle\fp_battle_rifle\fp_battle_rifle.render_model
+Tag duplicated successfully!
+New tag: mode 00005AF5 [Offset = 0x628BA70, Size = 0x8E0]
+
+tags> Nametag * objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_power
+[Index: 0x5AF5, Offset: 0x0628BA70, Size: 0x08E0] objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_power.render_model
+
+tags> Savetagnames
+
+tags> 
+
+tags> Duplicatetag objects\weapons\rifle\battle_rifle\battle_rifle.render_model
+Tag duplicated successfully!
+New tag: mode 00005AF6 [Offset = 0x628C350, Size = 0x8E0]
+
+tags> Nametag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v1
+[Index: 0x5AF6, Offset: 0x0628C350, Size: 0x08E0] objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v1.render_model
+
+tags> Duplicatetag objects\weapons\rifle\battle_rifle\battle_rifle.render_model
+Tag duplicated successfully!
+New tag: mode 00005AF7 [Offset = 0x628CC30, Size = 0x8E0]
+
+tags> Nametag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v2
+[Index: 0x5AF7, Offset: 0x0628CC30, Size: 0x08E0] objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v2.render_model
+
+tags> Duplicatetag objects\weapons\rifle\battle_rifle\battle_rifle.render_model
+Tag duplicated successfully!
+New tag: mode 00005AF8 [Offset = 0x628D510, Size = 0x8E0]
+
+tags> Nametag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v3
+[Index: 0x5AF8, Offset: 0x0628D510, Size: 0x08E0] objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v3.render_model
+
+tags> Duplicatetag objects\weapons\rifle\battle_rifle\battle_rifle.render_model
+Tag duplicated successfully!
+New tag: mode 00005AF9 [Offset = 0x628DDF0, Size = 0x8E0]
+
+tags> Nametag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v4
+[Index: 0x5AF9, Offset: 0x0628DDF0, Size: 0x08E0] objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v4.render_model
+
+tags> Duplicatetag objects\weapons\rifle\battle_rifle\battle_rifle.render_model
+Tag duplicated successfully!
+New tag: mode 00005AFA [Offset = 0x628E6D0, Size = 0x8E0]
+
+tags> Nametag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v5
+[Index: 0x5AFA, Offset: 0x0628E6D0, Size: 0x08E0] objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v5.render_model
+
+tags> Duplicatetag objects\weapons\rifle\battle_rifle\battle_rifle.render_model
+Tag duplicated successfully!
+New tag: mode 00005AFB [Offset = 0x628EFB0, Size = 0x8E0]
+
+tags> Nametag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v6
+[Index: 0x5AFB, Offset: 0x0628EFB0, Size: 0x08E0] objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v6.render_model
+
+tags> Savetagnames
+
+tags> 
+
+tags> Edittag objects\weapons\rifle\battle_rifle\battle_rifle_v1.model
+Tag objects\weapons\rifle\battle_rifle\battle_rifle_v1.model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_v1.model> Setfield RenderModel objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v1.render_model
+RenderModel: CachedTagInstance = [0x5AF6] objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v1.render_model 
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_v1.model> Setfield LodModel null
+LodModel: CachedTagInstance = null 
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_v1.model> Savetagchanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_v1.model> Exit
+
+tags> Edittag objects\weapons\rifle\battle_rifle\battle_rifle_v2.model
+Tag objects\weapons\rifle\battle_rifle\battle_rifle_v2.model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_v2.model> Setfield RenderModel objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v3.render_model
+RenderModel: CachedTagInstance = [0x5AF8] objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v3.render_model 
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_v2.model> Setfield LodModel null
+LodModel: CachedTagInstance = null 
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_v2.model> Savetagchanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_v2.model> Exit
+
+tags> Edittag objects\weapons\rifle\battle_rifle\battle_rifle_v3.model
+Tag objects\weapons\rifle\battle_rifle\battle_rifle_v3.model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_v3.model> Setfield RenderModel objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v4.render_model
+RenderModel: CachedTagInstance = [0x5AF9] objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v4.render_model 
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_v3.model> Setfield LodModel null
+LodModel: CachedTagInstance = null 
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_v3.model> Savetagchanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_v3.model> Exit
+
+tags> Edittag objects\weapons\rifle\battle_rifle\battle_rifle_v4.model
+Tag objects\weapons\rifle\battle_rifle\battle_rifle_v4.model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_v4.model> Setfield RenderModel objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v5.render_model
+RenderModel: CachedTagInstance = [0x5AFA] objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v5.render_model 
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_v4.model> Setfield LodModel null
+LodModel: CachedTagInstance = null 
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_v4.model> Savetagchanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_v4.model> Exit
+
+tags> Edittag objects\weapons\rifle\battle_rifle\battle_rifle_v5.model
+Tag objects\weapons\rifle\battle_rifle\battle_rifle_v5.model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_v5.model> Setfield RenderModel objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v2.render_model
+RenderModel: CachedTagInstance = [0x5AF7] objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v2.render_model 
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_v5.model> Setfield LodModel null
+LodModel: CachedTagInstance = null 
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_v5.model> Savetagchanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_v5.model> Exit
+
+tags> Edittag objects\weapons\rifle\battle_rifle\battle_rifle_v6.model
+Tag objects\weapons\rifle\battle_rifle\battle_rifle_v6.model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_v6.model> Setfield RenderModel objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v6.render_model
+RenderModel: CachedTagInstance = [0x5AFB] objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v6.render_model 
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_v6.model> Setfield LodModel null
+LodModel: CachedTagInstance = null 
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_v6.model> Savetagchanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_v6.model> Exit
+
+tags> 
+
+tags> DuplicateTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader
+Tag duplicated successfully!
+New tag: rmsh 00005AFC [Offset = 0x628F890, Size = 0xD80]
+
+tags> NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v1
+[Index: 0x5AFC, Offset: 0x0628F890, Size: 0x0D80] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v1.shader
+
+tags> DuplicateTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader
+Tag duplicated successfully!
+New tag: rmsh 00005AFD [Offset = 0x6290610, Size = 0xD80]
+
+tags> NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v2
+[Index: 0x5AFD, Offset: 0x06290610, Size: 0x0D80] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v2.shader
+
+tags> DuplicateTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader
+Tag duplicated successfully!
+New tag: rmsh 00005AFE [Offset = 0x6291390, Size = 0xD80]
+
+tags> NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v3
+[Index: 0x5AFE, Offset: 0x06291390, Size: 0x0D80] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v3.shader
+
+tags> DuplicateTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader
+Tag duplicated successfully!
+New tag: rmsh 00005AFF [Offset = 0x6292110, Size = 0xD80]
+
+tags> NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v4
+[Index: 0x5AFF, Offset: 0x06292110, Size: 0x0D80] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v4.shader
+
+tags> DuplicateTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader
+Tag duplicated successfully!
+New tag: rmsh 00005B00 [Offset = 0x6292E90, Size = 0xD80]
+
+tags> NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v5
+[Index: 0x5B00, Offset: 0x06292E90, Size: 0x0D80] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v5.shader
+
+tags> DuplicateTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body.shader
+Tag duplicated successfully!
+New tag: rmsh 00005B01 [Offset = 0x6293C10, Size = 0xD80]
+
+tags> NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v6
+[Index: 0x5B01, Offset: 0x06293C10, Size: 0x0D80] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v6.shader
+
+tags> DuplicateTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones.shader
+Tag duplicated successfully!
+New tag: rmsh 00005B02 [Offset = 0x6294990, Size = 0x4F0]
+
+tags> NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v1
+[Index: 0x5B02, Offset: 0x06294990, Size: 0x04F0] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v1.shader
+
+tags> DuplicateTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones.shader
+Tag duplicated successfully!
+New tag: rmsh 00005B03 [Offset = 0x6294E80, Size = 0x4F0]
+
+tags> NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v2
+[Index: 0x5B03, Offset: 0x06294E80, Size: 0x04F0] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v2.shader
+
+tags> DuplicateTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones.shader
+Tag duplicated successfully!
+New tag: rmsh 00005B04 [Offset = 0x6295370, Size = 0x4F0]
+
+tags> NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v3
+[Index: 0x5B04, Offset: 0x06295370, Size: 0x04F0] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v3.shader
+
+tags> DuplicateTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones.shader
+Tag duplicated successfully!
+New tag: rmsh 00005B05 [Offset = 0x6295860, Size = 0x4F0]
+
+tags> NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v4
+[Index: 0x5B05, Offset: 0x06295860, Size: 0x04F0] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v4.shader
+
+tags> DuplicateTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones.shader
+Tag duplicated successfully!
+New tag: rmsh 00005B06 [Offset = 0x6295D50, Size = 0x4F0]
+
+tags> NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v5
+[Index: 0x5B06, Offset: 0x06295D50, Size: 0x04F0] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v5.shader
+
+tags> DuplicateTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones.shader
+Tag duplicated successfully!
+New tag: rmsh 00005B07 [Offset = 0x6296240, Size = 0x4F0]
+
+tags> NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v6
+[Index: 0x5B07, Offset: 0x06296240, Size: 0x04F0] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v6.shader
+
+tags> DuplicateTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens.shader
+Tag duplicated successfully!
+New tag: rmsh 00005B08 [Offset = 0x6296730, Size = 0x4F0]
+
+tags> NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v1
+[Index: 0x5B08, Offset: 0x06296730, Size: 0x04F0] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v1.shader
+
+tags> DuplicateTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens.shader
+Tag duplicated successfully!
+New tag: rmsh 00005B09 [Offset = 0x6296C20, Size = 0x4F0]
+
+tags> NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v2
+[Index: 0x5B09, Offset: 0x06296C20, Size: 0x04F0] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v2.shader
+
+tags> DuplicateTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens.shader
+Tag duplicated successfully!
+New tag: rmsh 00005B0A [Offset = 0x6297110, Size = 0x4F0]
+
+tags> NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v3
+[Index: 0x5B0A, Offset: 0x06297110, Size: 0x04F0] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v3.shader
+
+tags> DuplicateTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens.shader
+Tag duplicated successfully!
+New tag: rmsh 00005B0B [Offset = 0x6297600, Size = 0x4F0]
+
+tags> NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v4
+[Index: 0x5B0B, Offset: 0x06297600, Size: 0x04F0] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v4.shader
+
+tags> DuplicateTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens.shader
+Tag duplicated successfully!
+New tag: rmsh 00005B0C [Offset = 0x6297AF0, Size = 0x4F0]
+
+tags> NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v5
+[Index: 0x5B0C, Offset: 0x06297AF0, Size: 0x04F0] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v5.shader
+
+tags> DuplicateTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens.shader
+Tag duplicated successfully!
+New tag: rmsh 00005B0D [Offset = 0x6297FE0, Size = 0x4F0]
+
+tags> NameTag * objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v6
+[Index: 0x5B0D, Offset: 0x06297FE0, Size: 0x04F0] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v6.shader
+
+tags> Savetagnames
+
+tags> 
+
+tags> EditTag objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_ammo.render_model
+Tag objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_ammo.render_model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_ammo.render_model> setfield materials[1].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v1.shader
+RenderMethod: CachedTagInstance = [0x5AFC] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v1.shader 
+
+tags\objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_ammo.render_model> setfield materials[3].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v1.shader
+RenderMethod: CachedTagInstance = [0x5B02] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v1.shader 
+
+tags\objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_ammo.render_model> setfield materials[4].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v1.shader
+RenderMethod: CachedTagInstance = [0x5B08] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v1.shader 
+
+tags\objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_ammo.render_model> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_ammo.render_model> ExitTo tags
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v1.render_model
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v1.render_model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v1.render_model> setfield materials[1].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v1.shader
+RenderMethod: CachedTagInstance = [0x5AFC] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v1.shader 
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v1.render_model> setfield materials[3].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v1.shader
+RenderMethod: CachedTagInstance = [0x5B02] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v1.shader 
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v1.render_model> setfield materials[4].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v1.shader
+RenderMethod: CachedTagInstance = [0x5B08] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v1.shader 
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v1.render_model> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v1.render_model> ExitTo tags
+
+tags> 
+
+tags> EditTag objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_range.render_model
+Tag objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_range.render_model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_range.render_model> setfield materials[1].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v2.shader
+RenderMethod: CachedTagInstance = [0x5AFD] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v2.shader 
+
+tags\objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_range.render_model> setfield materials[3].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v2.shader
+RenderMethod: CachedTagInstance = [0x5B03] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v2.shader 
+
+tags\objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_range.render_model> setfield materials[4].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v2.shader
+RenderMethod: CachedTagInstance = [0x5B09] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v2.shader 
+
+tags\objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_range.render_model> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_range.render_model> ExitTo tags
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v2.render_model
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v2.render_model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v2.render_model> setfield materials[1].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v2.shader
+RenderMethod: CachedTagInstance = [0x5AFD] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v2.shader 
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v2.render_model> setfield materials[3].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v2.shader
+RenderMethod: CachedTagInstance = [0x5B03] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v2.shader 
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v2.render_model> setfield materials[4].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v2.shader
+RenderMethod: CachedTagInstance = [0x5B09] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v2.shader 
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v2.render_model> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v2.render_model> ExitTo tags
+
+tags> 
+
+tags> EditTag objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_damage.render_model
+Tag objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_damage.render_model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_damage.render_model> setfield materials[1].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v3.shader
+RenderMethod: CachedTagInstance = [0x5AFE] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v3.shader 
+
+tags\objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_damage.render_model> setfield materials[3].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v3.shader
+RenderMethod: CachedTagInstance = [0x5B04] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v3.shader 
+
+tags\objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_damage.render_model> setfield materials[4].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v3.shader
+RenderMethod: CachedTagInstance = [0x5B0A] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v3.shader 
+
+tags\objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_damage.render_model> SaveTagChanges                                                                                  
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_damage.render_model> ExitTo tags                                                                                     
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v3.render_model                         
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v3.render_model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v3.render_model> setfield materials[1].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v3.shader
+RenderMethod: CachedTagInstance = [0x5AFE] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v3.shader 
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v3.render_model> setfield materials[3].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v3.shader
+RenderMethod: CachedTagInstance = [0x5B04] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v3.shader 
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v3.render_model> setfield materials[4].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v3.shader
+RenderMethod: CachedTagInstance = [0x5B0A] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v3.shader 
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v3.render_model> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v3.render_model> ExitTo tags
+
+tags> 
+
+tags> EditTag objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_accuracy.render_model
+Tag objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_accuracy.render_model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_accuracy.render_model> setfield materials[1].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v4.shader
+RenderMethod: CachedTagInstance = [0x5AFF] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v4.shader 
+
+tags\objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_accuracy.render_model> setfield materials[3].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v4.shader
+RenderMethod: CachedTagInstance = [0x5B05] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v4.shader 
+
+tags\objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_accuracy.render_model> setfield materials[4].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v4.shader
+RenderMethod: CachedTagInstance = [0x5B0B] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v4.shader 
+
+tags\objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_accuracy.render_model> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_accuracy.render_model> ExitTo tags
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v4.render_model
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v4.render_model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v4.render_model> setfield materials[1].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v4.shader
+RenderMethod: CachedTagInstance = [0x5AFF] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v4.shader 
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v4.render_model> setfield materials[3].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v4.shader
+RenderMethod: CachedTagInstance = [0x5B05] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v4.shader 
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v4.render_model> setfield materials[4].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v4.shader
+RenderMethod: CachedTagInstance = [0x5B0B] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v4.shader 
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v4.render_model> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v4.render_model> ExitTo tags
+
+tags> 
+
+tags> EditTag objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_rof.render_model
+Tag objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_rof.render_model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_rof.render_model> setfield materials[1].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v5.shader
+RenderMethod: CachedTagInstance = [0x5B00] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v5.shader 
+
+tags\objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_rof.render_model> setfield materials[3].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v5.shader
+RenderMethod: CachedTagInstance = [0x5B06] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v5.shader 
+
+tags\objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_rof.render_model> setfield materials[4].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v5.shader
+RenderMethod: CachedTagInstance = [0x5B0C] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v5.shader 
+
+tags\objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_rof.render_model> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_rof.render_model> ExitTo tags
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v5.render_model
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v5.render_model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v5.render_model> setfield materials[1].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v5.shader
+RenderMethod: CachedTagInstance = [0x5B00] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v5.shader 
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v5.render_model> setfield materials[3].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v5.shader
+RenderMethod: CachedTagInstance = [0x5B06] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v5.shader 
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v5.render_model> setfield materials[4].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v5.shader
+RenderMethod: CachedTagInstance = [0x5B0C] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v5.shader 
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v5.render_model> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v5.render_model> ExitTo tags
+
+tags> 
+
+tags> EditTag objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_power.render_model
+Tag objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_power.render_model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_power.render_model> setfield materials[1].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v6.shader
+RenderMethod: CachedTagInstance = [0x5B01] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v6.shader 
+
+tags\objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_power.render_model> setfield materials[3].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v6.shader
+RenderMethod: CachedTagInstance = [0x5B07] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v6.shader 
+
+tags\objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_power.render_model> setfield materials[4].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v6.shader
+RenderMethod: CachedTagInstance = [0x5B0D] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v6.shader 
+
+tags\objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_power.render_model> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_power.render_model> ExitTo tags
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v6.render_model
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v6.render_model has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v6.render_model> setfield materials[1].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v6.shader
+RenderMethod: CachedTagInstance = [0x5B01] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v6.shader 
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v6.render_model> setfield materials[3].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v6.shader
+RenderMethod: CachedTagInstance = [0x5B07] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v6.shader 
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v6.render_model> setfield materials[4].rendermethod objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v6.shader
+RenderMethod: CachedTagInstance = [0x5B0D] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v6.shader 
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v6.render_model> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle_v6.render_model> ExitTo tags
+
+tags> 
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v1.shader
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v1.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v1.shader> Setfield ShaderProperties[0].ShaderMaps[0].Bitmap objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_blue.bitmap
+Bitmap: CachedTagInstance = [0x5AE3] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_blue.bitmap 
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v1.shader> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v1.shader> ExitTo tags
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v2.shader
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v2.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v2.shader> Setfield ShaderProperties[0].ShaderMaps[0].Bitmap objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_purple.bitmap
+Bitmap: CachedTagInstance = [0x5AE4] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_purple.bitmap 
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v2.shader> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v2.shader> ExitTo tags
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v3.shader
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v3.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v3.shader> Setfield ShaderProperties[0].ShaderMaps[0].Bitmap objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_red.bitmap
+Bitmap: CachedTagInstance = [0x5AE8] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_red.bitmap 
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v3.shader> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v3.shader> ExitTo tags
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v4.shader
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v4.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v4.shader> Setfield ShaderProperties[0].ShaderMaps[0].Bitmap objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_green.bitmap
+Bitmap: CachedTagInstance = [0x5AE6] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_green.bitmap 
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v4.shader> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v4.shader> ExitTo tags
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v5.shader
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v5.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v5.shader> Setfield ShaderProperties[0].ShaderMaps[0].Bitmap objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_orange.bitmap
+Bitmap: CachedTagInstance = [0x5AE5] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_orange.bitmap 
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v5.shader> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v5.shader> ExitTo tags
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v6.shader
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v6.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v6.shader> Setfield ShaderProperties[0].ShaderMaps[0].Bitmap objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_gold.bitmap
+Bitmap: CachedTagInstance = [0x5AE7] objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_gold.bitmap 
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v6.shader> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_body_v6.shader> ExitTo tags
+
+tags> 
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v1.shader
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v1.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v1.shader> Setargument self_illum_color 0 0.5 3 1
+
+self_illum_color:
+	X: 0
+	Y: 0.5
+	Z: 3
+	W: 1
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v1.shader> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v1.shader> ExitTo Tags
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v2.shader
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v2.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v2.shader> Setargument self_illum_color 0.5568628 0 2 1
+
+self_illum_color:
+	X: 0.5568628
+	Y: 0
+	Z: 2
+	W: 1
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v2.shader> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v2.shader> ExitTo Tags
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v3.shader
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v3.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v3.shader> Setargument self_illum_color 1 0 0.025 1
+
+self_illum_color:
+	X: 1
+	Y: 0
+	Z: 0.025
+	W: 1
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v3.shader> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v3.shader> ExitTo Tags
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v4.shader
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v4.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v4.shader> Setargument self_illum_color 0 2 0 1
+
+self_illum_color:
+	X: 0
+	Y: 2
+	Z: 0
+	W: 1
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v4.shader> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v4.shader> ExitTo Tags
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v5.shader
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v5.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v5.shader> Setargument self_illum_color 10 0.15 0 1
+
+self_illum_color:
+	X: 10
+	Y: 0.15
+	Z: 0
+	W: 1
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v5.shader> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v5.shader> ExitTo Tags
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v6.shader
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v6.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v6.shader> Setargument self_illum_color 10 1.3 0 1
+
+self_illum_color:
+	X: 10
+	Y: 1.3
+	Z: 0
+	W: 1
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v6.shader> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_ones_v6.shader> ExitTo Tags
+
+tags> 
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v1.shader
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v1.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v1.shader> Setargument self_illum_color 0 0.5 3 1
+
+self_illum_color:
+	X: 0
+	Y: 0.5
+	Z: 3
+	W: 1
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v1.shader> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v1.shader> ExitTo Tags
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v2.shader
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v2.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v2.shader> Setargument self_illum_color 0.5568628 0 2 1
+
+self_illum_color:
+	X: 0.5568628
+	Y: 0
+	Z: 2
+	W: 1
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v2.shader> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v2.shader> ExitTo Tags
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v3.shader
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v3.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v3.shader> Setargument self_illum_color 1 0 0.025 1
+
+self_illum_color:
+	X: 1
+	Y: 0
+	Z: 0.025
+	W: 1
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v3.shader> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v3.shader> ExitTo Tags
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v4.shader
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v4.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v4.shader> Setargument self_illum_color 0 2 0 1
+
+self_illum_color:
+	X: 0
+	Y: 2
+	Z: 0
+	W: 1
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v4.shader> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v4.shader> ExitTo Tags
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v5.shader
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v5.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v5.shader> Setargument self_illum_color 10 0.15 0 1
+
+self_illum_color:
+	X: 10
+	Y: 0.15
+	Z: 0
+	W: 1
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v5.shader> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v5.shader> ExitTo Tags
+
+tags> EditTag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v6.shader
+Tag objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v6.shader has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v6.shader> Setargument self_illum_color 10 1.3 0 1
+
+self_illum_color:
+	X: 10
+	Y: 1.3
+	Z: 0
+	W: 1
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v6.shader> SaveTagChanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\h2a_battle_rifle\br_tens_v6.shader> ExitTo Tags
+
+tags> 
+
+tags> Edittag objects\weapons\rifle\battle_rifle\battle_rifle_accuracy.weap
+Tag objects\weapons\rifle\battle_rifle\battle_rifle_accuracy.weapon has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_accuracy.weapon> Setfield firstperson[0].FirstPersonModel objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_accuracy.render_model
+FirstPersonModel: CachedTagInstance = [0x5AF3] objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_accuracy.render_model 
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_accuracy.weapon> Savetagchanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_accuracy.weapon> Exit
+
+tags> Edittag objects\weapons\rifle\battle_rifle\battle_rifle_ammo.weap
+Tag objects\weapons\rifle\battle_rifle\battle_rifle_ammo.weapon has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_ammo.weapon> Setfield firstperson[0].FirstPersonModel objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_ammo.render_model
+FirstPersonModel: CachedTagInstance = [0x5AF0] objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_ammo.render_model 
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_ammo.weapon> Savetagchanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_ammo.weapon> Exit
+
+tags> Edittag objects\weapons\rifle\battle_rifle\battle_rifle_damage.weap
+Tag objects\weapons\rifle\battle_rifle\battle_rifle_damage.weapon has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_damage.weapon> Setfield firstperson[0].FirstPersonModel objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_damage.render_model
+FirstPersonModel: CachedTagInstance = [0x5AF2] objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_damage.render_model 
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_damage.weapon> Savetagchanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_damage.weapon> Exit
+
+tags> Edittag objects\weapons\rifle\battle_rifle\battle_rifle_power.weap
+Tag objects\weapons\rifle\battle_rifle\battle_rifle_power.weapon has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_power.weapon> Setfield firstperson[0].FirstPersonModel objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_power.render_model
+FirstPersonModel: CachedTagInstance = [0x5AF5] objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_power.render_model 
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_power.weapon> Savetagchanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_power.weapon> Exit
+
+tags> Edittag objects\weapons\rifle\battle_rifle\battle_rifle_range.weap
+Tag objects\weapons\rifle\battle_rifle\battle_rifle_range.weapon has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_range.weapon> Setfield firstperson[0].FirstPersonModel objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_range.render_model
+FirstPersonModel: CachedTagInstance = [0x5AF1] objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_range.render_model 
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_range.weapon> Savetagchanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_range.weapon> Exit
+
+tags> Edittag objects\weapons\rifle\battle_rifle\battle_rifle_rof.weap
+Tag objects\weapons\rifle\battle_rifle\battle_rifle_rof.weapon has been opened for editing.
+New commands are now available. Enter "help" to view them.
+Use "exit" to return to tags.
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_rof.weapon> Setfield firstperson[0].FirstPersonModel objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_rof.render_model
+FirstPersonModel: CachedTagInstance = [0x5AF4] objects\weapons\rifle\battle_rifle\fp_h2a_battle_rifle\fp_h2a_battle_rifle_rof.render_model 
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_rof.weapon> Savetagchanges
+Done!
+
+tags\objects\weapons\rifle\battle_rifle\battle_rifle_rof.weapon> Exit
+
+tags> Dumplog H2a_BR.txt
+Successfully dumped log to 'H2a_BR.txt'.
+
+tags> Dumplog H2a_BR_h3.txt
