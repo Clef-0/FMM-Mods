@@ -12,8 +12,8 @@ Nametag 0x00001313 ui\chud\parallax\weapons_3
 Nametag 0x00000C71 ui\chud\animations\hit_marker1
 Nametag 0x00000C73 ui\chud\animations\hit_marker2
 Nametag 0x00000C72 ui\chud\bitmaps\hit_marker
-Nametag 0x00005727 ui\chud\multiplayer_intro\summary_assault
-Nametag 0x00005726 ui\chud\multiplayer_intro\summary_ctf
+Nametag 0x00005727 ui\chud\multiplayer_intro\summary_ctf
+Nametag 0x00005726 ui\chud\multiplayer_intro\summary_assault
 Nametag 0x00005A81 ui\chud\vision_mode
 Savetagnames
 
@@ -22,50 +22,6 @@ Edittag ui\chud\player_waypoints.bitm
 ImportBitmap 0 Tags\Bitmaps\waypoints.dds
 SaveTagChanges
 ExitTo Tags
-
-Echo // Game Summary Intro Cards
-Edittag ui\chud\multiplayer_intro\summary_ctf.chdt
-Setfield HUDWidgets[0].PlacementData[0].Scale 1.5 1.5
-Setfield HUDWidgets[1].PlacementData[0].Scale 1.5 1.5
-Setfield HUDWidgets[2].PlacementData[0].Scale 1.5 1.5
-Setfield HUDWidgets[3].PlacementData[0].Scale 1.5 1.5
-Setfield HudWidgets[2].TextWidgets[0].PlacementData[0].Scale 0.75 0.75
-Setfield HudWidgets[2].TextWidgets[0].Font Conduit32
-Setfield HudWidgets[2].TextWidgets[1].PlacementData[0].Scale 0.65 0.65
-Setfield HudWidgets[2].TextWidgets[1].Font Conduit32
-Setfield HudWidgets[2].TextWidgets[2].PlacementData[0].Scale 0.65 0.65
-Setfield HudWidgets[2].TextWidgets[2].Font Conduit32
-Setfield HudWidgets[2].TextWidgets[3].PlacementData[0].Scale 0.8 0.8
-Setfield HudWidgets[2].TextWidgets[3].Font Conduit32
-Setfield HudWidgets[2].TextWidgets[4].PlacementData[0].Scale 0.8 0.8
-Setfield HudWidgets[2].TextWidgets[4].Font Conduit32
-Setfield HudWidgets[3].TextWidgets[0].PlacementData[0].Scale 0.75 0.75
-Setfield HudWidgets[3].TextWidgets[0].Font Conduit32
-Setfield HudWidgets[3].TextWidgets[1].PlacementData[0].Scale 0.65 0.65
-Setfield HudWidgets[3].TextWidgets[1].Font Conduit32
-Savetagchanges
-Exit
-Edittag ui\chud\multiplayer_intro\summary_assault.chdt
-Setfield HUDWidgets[0].PlacementData[0].Scale 1.5 1.5
-Setfield HUDWidgets[1].PlacementData[0].Scale 1.5 1.5
-Setfield HUDWidgets[2].PlacementData[0].Scale 1.5 1.5
-Setfield HUDWidgets[3].PlacementData[0].Scale 1.5 1.5
-Setfield HudWidgets[2].TextWidgets[0].PlacementData[0].Scale 0.75 0.75
-Setfield HudWidgets[2].TextWidgets[0].Font Conduit32
-Setfield HudWidgets[2].TextWidgets[1].PlacementData[0].Scale 0.65 0.65
-Setfield HudWidgets[2].TextWidgets[1].Font Conduit32
-Setfield HudWidgets[2].TextWidgets[2].PlacementData[0].Scale 0.65 0.65
-Setfield HudWidgets[2].TextWidgets[2].Font Conduit32
-Setfield HudWidgets[2].TextWidgets[3].PlacementData[0].Scale 0.8 0.8
-Setfield HudWidgets[2].TextWidgets[3].Font Conduit32
-Setfield HudWidgets[2].TextWidgets[4].PlacementData[0].Scale 0.8 0.8
-Setfield HudWidgets[2].TextWidgets[4].Font Conduit32
-Setfield HudWidgets[3].TextWidgets[0].PlacementData[0].Scale 0.75 0.75
-Setfield HudWidgets[3].TextWidgets[0].Font Conduit32
-Setfield HudWidgets[3].TextWidgets[1].PlacementData[0].Scale 0.65 0.65
-Setfield HudWidgets[3].TextWidgets[1].Font Conduit32
-Savetagchanges
-Exit
 
 Echo // Prowler Crosshairs
 Edittag objects\vehicles\mauler\anti_infantry\anti_infantry.vehi
