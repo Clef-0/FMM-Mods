@@ -1,6 +1,6 @@
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/BlueShield/BlueShield.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/DMRCrosshairFix/DMRCrosshairFix.ini
-https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Extra_Medal_Packs\Extra Medal Packs.ini
+https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Extra_Medal_Packs/Extra Medal Packs.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/Minimal_Hud/Mhud.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/snowhalla/Snowhalla.ini
 https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/snowtrap/snowtrap.ini
