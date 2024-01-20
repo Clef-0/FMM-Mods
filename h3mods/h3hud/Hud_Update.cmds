@@ -145,8 +145,15 @@ Importbitmap 0 Tags\bitmaps\grenade_scematics.dds
 Savetagchanges
 Exit
 
+Importtag ui\chud\bitmaps\hud_reticles_h3.bitm Bitmaps\hud_reticles_h3.bitm
 Edittag ui\chud\bitmaps\hud_reticles.bitm
 Importbitmap 0 Tags\bitmaps\hud_reticles.dds
+Savetagchanges
+Exit
+
+Importtag ui\chud\bitmaps\hud_reticles_h3.bitm Bitmaps\hud_reticles_h3.bitm
+Edittag ui\chud\bitmaps\hud_reticles_h3.bitm
+Importbitmap 0 Tags\Bitmaps\hud_reticles.dds
 Savetagchanges
 Exit
 
@@ -191,7 +198,6 @@ Savetagchanges
 Exit
 
 Echo \\ Tag Setup
-
 Edittag ui\chud\spartan.chdt
 Setfield Hudwidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.5 0.5
 Setfield Hudwidgets[0].BitmapWidgets[0].PlacementData[0].MirrorOffset 3.91 -1.232
@@ -211,6 +217,8 @@ Setfield Hudwidgets[6].BitmapWidgets[0].PlacementData[0].Scale 0.5 0.5
 Setfield Hudwidgets[6].BitmapWidgets[1].PlacementData[0].Scale 0.5 0.5
 Setfield Hudwidgets[7].BitmapWidgets[0].PlacementData[0].Scale 0.5 0.5
 Setfield Hudwidgets[7].BitmapWidgets[1].PlacementData[0].Scale 0.5 0.5
+SetField Hudwidgets[8].Bitmapwidgets[0].PlacementData[0].Scale 1 1
+SetField Hudwidgets[8].Bitmapwidgets[0].Bitmap ui\chud\bitmaps\hud_reticles_h3.bitm
 Setfield Hudwidgets[4].TextWidgets[0].PlacementData[0].Offset 25 24
 Setfield Hudwidgets[5].TextWidgets[0].PlacementData[0].Offset 25 24
 Setfield Hudwidgets[6].TextWidgets[0].PlacementData[0].Offset 25 24
@@ -223,6 +231,16 @@ Setfield Hudwidgets[7].BitmapWidgets[3].PlacementData[0].offset 0 5
 Savetagchanges
 Exit
 
+Edittag ui\chud\assault_bomb.chdt
+SetField Hudwidgets[0].Bitmapwidgets[0].Bitmap ui\chud\bitmaps\hud_reticles_h3.bitm
+SetField Hudwidgets[0].Bitmapwidgets[0].PlacementData[0].Scale 1 1
+Savetagchanges
+Exit
+Edittag ui\chud\unarmed.chdt
+SetField Hudwidgets[0].Bitmapwidgets[0].Bitmap ui\chud\bitmaps\hud_reticles_h3.bitm
+SetField Hudwidgets[0].Bitmapwidgets[0].PlacementData[0].Scale 1 1
+Savetagchanges
+Exit
 Edittag ui\chud\assault_rifle.chdt
 Setfield Hudwidgets[3].BitmapWidgets[0].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
 Setfield Hudwidgets[4].BitmapWidgets[1].Bitmap ui\chud\bitmaps\weapon_scematics_h3.bitm
@@ -731,21 +749,55 @@ Savetagchanges
 Exit
 
 Edittag ui\chud\multiplayer_intro\summary_assault.chdt
+Setfield HUDWidgets[0].PlacementData[0].Scale 1.5 1.5
+Setfield HUDWidgets[1].PlacementData[0].Scale 1.5 1.5
+Setfield HUDWidgets[2].PlacementData[0].Scale 1.5 1.5
+Setfield HUDWidgets[3].PlacementData[0].Scale 1.5 1.5
 Setfield Hudwidgets[0].BitmapWidgets[0].PlacementData[0].Scale 13.85 0.5
 Setfield Hudwidgets[0].BitmapWidgets[1].PlacementData[0].Scale 0.5 0.5
+Setfield Hudwidgets[0].BitmapWidgets[1].PlacementData[0].Offset 249 0
 Setfield Hudwidgets[0].BitmapWidgets[2].PlacementData[0].Scale 0.5 0.5
+Setfield Hudwidgets[0].BitmapWidgets[2].PlacementData[0].Offset -249 0
 Setfield Hudwidgets[1].BitmapWidgets[0].PlacementData[0].Scale 13.85 0.5
+Setfield Hudwidgets[1].BitmapWidgets[1].PlacementData[0].Offset 249 0
 Setfield Hudwidgets[1].BitmapWidgets[1].PlacementData[0].Scale 0.5 0.5
 Setfield Hudwidgets[1].BitmapWidgets[2].PlacementData[0].Scale 0.5 0.5
+Setfield Hudwidgets[1].BitmapWidgets[2].PlacementData[0].Offset -249 0
+Setfield Hudwidgets[2].BitmapWidgets[1].PlacementData[0].Offset -175 0
+Setfield Hudwidgets[2].BitmapWidgets[2].PlacementData[0].Offset -175 0
+Setfield HudWidgets[2].TextWidgets[0].PlacementData[0].Scale 0.75 0.75
+Setfield HudWidgets[2].TextWidgets[1].PlacementData[0].Scale 0.65 0.65
+Setfield HudWidgets[2].TextWidgets[2].PlacementData[0].Scale 0.65 0.65
+Setfield HudWidgets[2].TextWidgets[3].PlacementData[0].Scale 0.8 0.8
+Setfield HudWidgets[2].TextWidgets[4].PlacementData[0].Scale 0.8 0.8
+Setfield HudWidgets[3].TextWidgets[0].PlacementData[0].Scale 0.75 0.75
+Setfield HudWidgets[3].TextWidgets[1].PlacementData[0].Scale 0.65 0.65
 Savetagchanges
 Exit
 Edittag ui\chud\multiplayer_intro\summary_ctf.chdt
+Setfield HUDWidgets[0].PlacementData[0].Scale 1.5 1.5
+Setfield HUDWidgets[1].PlacementData[0].Scale 1.5 1.5
+Setfield HUDWidgets[2].PlacementData[0].Scale 1.5 1.5
+Setfield HUDWidgets[3].PlacementData[0].Scale 1.5 1.5
 Setfield Hudwidgets[0].BitmapWidgets[0].PlacementData[0].Scale 13.85 0.5
 Setfield Hudwidgets[0].BitmapWidgets[1].PlacementData[0].Scale 0.5 0.5
+Setfield Hudwidgets[0].BitmapWidgets[1].PlacementData[0].Offset 249 0
 Setfield Hudwidgets[0].BitmapWidgets[2].PlacementData[0].Scale 0.5 0.5
+Setfield Hudwidgets[0].BitmapWidgets[2].PlacementData[0].Offset -249 0
 Setfield Hudwidgets[1].BitmapWidgets[0].PlacementData[0].Scale 13.85 0.5
+Setfield Hudwidgets[1].BitmapWidgets[1].PlacementData[0].Offset 249 0
 Setfield Hudwidgets[1].BitmapWidgets[1].PlacementData[0].Scale 0.5 0.5
 Setfield Hudwidgets[1].BitmapWidgets[2].PlacementData[0].Scale 0.5 0.5
+Setfield Hudwidgets[1].BitmapWidgets[2].PlacementData[0].Offset -249 0
+Setfield Hudwidgets[2].BitmapWidgets[1].PlacementData[0].Offset -175 0
+Setfield Hudwidgets[2].BitmapWidgets[2].PlacementData[0].Offset -175 0
+Setfield HudWidgets[2].TextWidgets[0].PlacementData[0].Scale 0.75 0.75
+Setfield HudWidgets[2].TextWidgets[1].PlacementData[0].Scale 0.65 0.65
+Setfield HudWidgets[2].TextWidgets[2].PlacementData[0].Scale 0.65 0.65
+Setfield HudWidgets[2].TextWidgets[3].PlacementData[0].Scale 0.8 0.8
+Setfield HudWidgets[2].TextWidgets[4].PlacementData[0].Scale 0.8 0.8
+Setfield HudWidgets[3].TextWidgets[0].PlacementData[0].Scale 0.75 0.75
+Setfield HudWidgets[3].TextWidgets[1].PlacementData[0].Scale 0.65 0.65
 Savetagchanges
 Exit
 Edittag ui\chud\multiplayer_intro\summary_editor.chdt
@@ -798,14 +850,20 @@ Savetagchanges
 Exit
 Edittag ui\chud\multiplayer_intro\summary_vip.chdt
 Setfield Hudwidgets[0].BitmapWidgets[0].PlacementData[0].Scale 13.85 0.5
+Setfield Hudwidgets[0].BitmapWidgets[1].PlacementData[0].Offset 249 0
 Setfield Hudwidgets[0].BitmapWidgets[1].PlacementData[0].Scale 0.5 0.5
+Setfield Hudwidgets[0].BitmapWidgets[2].PlacementData[0].Offset -249 0
 Setfield Hudwidgets[0].BitmapWidgets[2].PlacementData[0].Scale 0.5 0.5
 Setfield Hudwidgets[1].BitmapWidgets[0].PlacementData[0].Scale 13.85 0.5
 Setfield Hudwidgets[1].BitmapWidgets[1].PlacementData[0].Scale 0.5 0.5
 Setfield Hudwidgets[1].BitmapWidgets[2].PlacementData[0].Scale 0.5 0.5
+Setfield HudWidgets[2].BitmapWidgets[1].PlacementData[0].Offset -175 0
+Setfield HudWidgets[2].BitmapWidgets[2].PlacementData[0].Offset -175 0
 Setfield Hudwidgets[4].BitmapWidgets[0].PlacementData[0].Scale 13.85 0.5
 Setfield Hudwidgets[4].BitmapWidgets[1].PlacementData[0].Scale 0.5 0.5
 Setfield Hudwidgets[4].BitmapWidgets[2].PlacementData[0].Scale 0.5 0.5
+Setfield HudWidgets[2].TextWidgets[3].PlacementData[0].Offset -175 0
+Setfield HudWidgets[2].TextWidgets[4].PlacementData[0].Offset -175 0
 Savetagchanges
 Exit
 Edittag ui\chud\multiplayer_intro\summary_juggernaut.chdt
