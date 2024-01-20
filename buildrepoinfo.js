@@ -7,6 +7,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const os = require('os');
 
 // Make sure there is an empty RepoInfo folder
 fs.rmSync('RepoInfo', { recursive: true, force: true });
@@ -40,7 +41,15 @@ function linkstxtParse(linkstxt) {
 
     // Read the links.txt file, split it in to an array.
     const data = fs.readFileSync(linkstxt, {encoding: 'utf-8'});
-    const urls = data.split('\r\n');
+
+    var urls;
+
+    if ( os.platform() == "win32") {
+        urls = data.split('\r\n');
+    }
+    else {
+        urls = data.split('\n');
+    }
 
     // Array to store directories
     var arr = [];
