@@ -32,34 +32,69 @@ function fileLister(dir) {
 }
 
 /*
+* Parse links.txt to get directories
+*/
+function linkstxtParse(linkstxt) {
+
+    const urlPrefix = "https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/"; // Prefix of the URLs
+
+    // Read the links.txt file, split it in to an array.
+    const data = fs.readFileSync(linkstxt, {encoding: 'utf-8'});
+    const urls = data.split('\r\n');
+
+    // Array to store directories
+    var arr = [];
+
+    // Remove un-needed information from each url, and then push the value in to the array.
+    urls.forEach((url) => {
+        const noPrefix = url.substring(urlPrefix.length)
+        const lastSlash = noPrefix.lastIndexOf("/");
+
+        const val = noPrefix.substring(0, lastSlash)
+
+        arr.push(val);
+    })
+
+    return arr;
+
+}
+
+/*
 * Core app function - create list of files in JSON.
 */
 function app() {
 
-    let dir = ".";
+    let baseDir = ".";
+    let linksFilePath = "meta/links2.txt";
+    let linksList = linkstxtParse(linksFilePath);
 
-    let dirList = []
-    fs.readdirSync(dir).forEach((file) => {
-        const fullPath = path.join(dir, file);
+    linksList.forEach((directory) => {
 
-        // Files that are meant to be hidden can stay hidden :)
-        if ( file.charAt(0) == '.' ) {
-            // do nothing
-        }
+        const fullPath = path.join(baseDir, directory);
 
-        // Don't need to make information about itself
-        else if ( file == "RepoInfo") {
-            // do nothing
-        }
-
-        // Ok, if it's a directory, create a file with the list of files.
-        else if ( fs.lstatSync(fullPath).isDirectory() ) {
+        if ( fs.lstatSync(fullPath).isDirectory() ) {
             out = fileLister(fullPath);
-            fs.writeFileSync("RepoInfo/" + file + ".json", JSON.stringify(out), 'utf8');
+            
+            // Check if a new directory is needed
+            const lastSlash = directory.lastIndexOf("/");
+
+            // If a new directory is needed for the file, create it
+            if ( lastSlash != -1 ) {
+                const newDirName = directory.substring(0, lastSlash);
+                fs.mkdirSync("RepoInfo/" + newDirName, {recursive: true});
+            }
+
+            // Write the file
+            out = fileLister(fullPath);
+            fs.writeFileSync("RepoInfo/" + directory + ".json", JSON.stringify(out), 'utf8');
+
         }
-    })
+
+
+    });
 
 }
 
 // Run the application
 app();
+
