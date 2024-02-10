@@ -1636,10 +1636,6 @@ ECHO ----------
 ECHO |VEHICLES|
 ECHO ----------
 
-nametag 0x000053B1 ui\chud\v_prowler_gunner
-nametag 0x0000541A ui\chud\v_prowler_driver
-savetagnames
-
 ECHO BANSHEE
 Edittag 0x00003676
 Setfield HUDWidgets[0].BitmapWidgets[0].PlacementData[0].Scale 0.375 0.375
