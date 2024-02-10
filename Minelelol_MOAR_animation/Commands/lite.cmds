@@ -24,7 +24,7 @@ setfield animations[12].PlaybackFlags DisableWeaponAim1stPerson
 setfield animations[13].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 setfield animations[14].PlaybackFlags DisableWeaponAim1stPerson
 removeblockelements Animations 15 *
-addanimation Animation\FallSET\6
+addanimation Animation\FallSET\lite\6
 swapblockelements Animations 15 0
 removeblockelements Animations 15 *
 savetagchanges
@@ -54,7 +54,7 @@ setfield animations[7].PlaybackFlags DisableWeaponAim1stPerson
 setfield animations[12].PlaybackFlags DisableWeaponAim1stPerson
 setfield animations[15].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 removeblockelements Animations 16 *
-addanimation Animation\FallSET\6
+addanimation Animation\FallSET\lite\6
 addanimation Animation\Oddball
 swapblockelements Animations 16 0
 swapblockelements Animations 17 9
@@ -85,7 +85,7 @@ setfield animations[6].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 setfield animations[12].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 setfield animations[13].PlaybackFlags DisableWeaponIk
 removeblockelements Animations 14 *
-addanimation Animation\FallSET\9
+addanimation Animation\FallSET\lite\9
 addanimation Animation\Flag
 swapblockelements Animations 14 0
 swapblockelements Animations 15 2
@@ -188,7 +188,7 @@ setfield animations[27].animationdata.Frameevents[2].Frame 23
 setfield animations[28].weight 1
 setfield animations[28].animationdata.ParentAnimation 17
 setfield animations[28].animationdata.Soundevents[0].Sound 1
-addanimation Animation\FallSET\4
+addanimation Animation\FallSET\lite\4
 swapblockelements Animations 29 0
 removeblockelements Animations 29 *
 savetagchanges
@@ -266,7 +266,7 @@ setfield animations[26].animationdata.Frameevents[1].Frame 14
 setfield animations[26].animationdata.Frameevents[2].TypeHO AllowInterruption
 setfield animations[26].animationdata.Frameevents[2].Frame 23
 setfield animations[26].PlaybackFlags DisableWeaponAim1stPerson
-addanimation Animation\FallSET\4
+addanimation Animation\FallSET\lite\4
 swapblockelements Animations 28 0
 removeblockelements Animations 28 *
 savetagchanges
@@ -281,7 +281,7 @@ setfield modes[0].weaponclass[0].weapontype[0].set.overlays[1].Animation 6
 setfield modes[0].weaponclass[0].weapontype[0].set.overlays[5].Animation 5
 setfield modes[0].weaponclass[0].weapontype[0].set.overlays[6].Animation 0
 setfield animations[23].PlaybackFlags DisableWeaponAim1stPerson
-addanimation Animation\FallSET\8
+addanimation Animation\FallSET\lite\8
 swapblockelements Animations 25 0
 removeblockelements Animations 25 *
 savetagchanges
@@ -331,7 +331,7 @@ setfield animations[13].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 setfield animations[16].PlaybackFlags DisableWeaponIk
 setfield animations[17].PlaybackFlags DisableWeaponIk
 setfield animations[26].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
-addanimation Animation\FallSET\3
+addanimation Animation\FallSET\lite\3
 swapblockelements Animations 27 0
 removeblockelements Animations 27 *
 savetagchanges
@@ -379,7 +379,7 @@ setfield animations[10].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 setfield animations[11].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 setfield animations[12].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 setfield animations[27].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
-addanimation Animation\FallSET\4
+addanimation Animation\FallSET\lite\4
 swapblockelements Animations 29 0
 removeblockelements Animations 29 *
 savetagchanges
@@ -538,7 +538,7 @@ setfield animations[26].animationdata.Frameevents[1].Frame 14
 setfield animations[26].animationdata.Frameevents[2].TypeHO AllowInterruption
 setfield animations[26].animationdata.Frameevents[2].Frame 23
 setfield animations[26].PlaybackFlags DisableWeaponAim1stPerson
-addanimation Animation\FallSET\4
+addanimation Animation\FallSET\lite\4
 swapblockelements Animations 28 0
 removeblockelements Animations 28 *
 savetagchanges
@@ -611,7 +611,7 @@ setfield animations[22].PlaybackFlags DisableWeaponIk
 setfield animations[23].PlaybackFlags DisableWeaponIk
 
 removeblockelements animations 25 *
-addanimation Animation\FallSET\5
+addanimation Animation\FallSET\lite\5
 swapblockelements Animations 25 0
 removeblockelements Animations 25 *
 savetagchanges
@@ -688,7 +688,7 @@ setfield animations[22].animationdata.Frameevents[1].Frame 15
 setfield animations[22].animationdata.Frameevents[2].TypeHO AllowInterruption
 setfield animations[22].animationdata.Frameevents[2].Frame 15
 setfield animations[22].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
-addanimation Animation\FallSET\1
+addanimation Animation\FallSET\lite\1
 swapblockelements Animations 25 0
 removeblockelements Animations 25 *
 savetagchanges
@@ -803,7 +803,7 @@ setfield animations[50].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 setfield animations[50].animationdata.NodeListChecksum -461227299
 setfield animations[50].animationdata.ProductionChecksum -278704124
 setfield animations[50].animationdata.InternalFlags ValidProductionChecksum
-addanimation Animation\FallSET\2
+addanimation Animation\FallSET\lite\2
 swapblockelements Animations 56 19
 removeblockelements Animations 56 *
 
@@ -892,7 +892,7 @@ setfield animations[43].PlaybackFlags DisableWeaponAim1stPerson
 setfield animations[43].animationdata.NodeListChecksum 336995582
 setfield animations[43].animationdata.ProductionChecksum -898242189
 setfield animations[43].animationdata.InternalFlags ValidProductionChecksum
-addanimation Animation\FallSET\2
+addanimation Animation\FallSET\lite\2
 swapblockelements Animations 44 17
 removeblockelements Animations 44 *
 
@@ -1088,7 +1088,7 @@ setfield animations[26].animationdata.NodeListChecksum 1635012550
 setfield animations[26].animationdata.ProductionChecksum 2027831419
 setfield animations[26].animationdata.InternalFlags ValidProductionChecksum
 removeblockelements animations 28 *
-addanimation Animation\FallSET\6
+addanimation Animation\FallSET\lite\6
 swapblockelements Animations 28 1
 removeblockelements Animations 28 *
 savetagchanges
@@ -1250,7 +1250,7 @@ setfield animations[55].PlaybackFlags DisableWeaponAim1stPerson
 setfield animations[55].animationdata.NodeListChecksum 737305646
 setfield animations[55].animationdata.ProductionChecksum -1383331415
 setfield animations[55].animationdata.InternalFlags ValidProductionChecksum
-addanimation Animation\FallSET\3
+addanimation Animation\FallSET\lite\3
 swapblockelements Animations 57 23
 removeblockelements Animations 57 *
 setfield modes[0].weaponclass[1].weapontype[0].set.overlays[0].Label land_soft
@@ -1348,7 +1348,7 @@ setfield animations[43].PlaybackFlags DisableWeaponAim1stPerson
 setfield animations[44].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 
 removeblockelements animations 47 *
-addanimation Animation\FallSET\5
+addanimation Animation\FallSET\lite\5
 swapblockelements Animations 47 18
 removeblockelements Animations 47 *
 setfield modes[0].weaponclass[1].weapontype[0].set.overlays[0].Label land_soft
@@ -1438,7 +1438,7 @@ setfield animations[27].animationdata.InternalFlags ValidProductionChecksum
 setfield animations[27].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 setfield animations[27].animationdata.Productionflags VerifySoundEvents
 removeblockelements animations 29 *
-addanimation Animation\FallSET\5
+addanimation Animation\FallSET\lite\5
 swapblockelements Animations 29 0
 removeblockelements Animations 29 *
 savetagchanges
@@ -1469,7 +1469,7 @@ removeblockelements animations[14].animationdata.SoundEvents 1 *
 addblockelements animations[14].animationdata.SoundEvents 1
 
 removeblockelements animations 18 *
-addanimation Animation\FallSET\10
+addanimation Animation\FallSET\lite\10
 addanimation animation\sentinel
 
 setfield animations[14].PlaybackFlags ForceWeaponIkOn
@@ -1540,7 +1540,7 @@ setfield modes[0].weaponclass[0].weapontype[0].set.overlays[5].Animation 5
 setfield modes[0].weaponclass[0].weapontype[0].set.overlays[6].Animation 0
 savetagchanges
 removeblockelements animations 26 *
-addanimation Animation\FallSET\3
+addanimation Animation\FallSET\lite\3
 addanimation Animation\Shotgun
 
 swapblockelements animations 0 26
@@ -1754,7 +1754,7 @@ setfield modes[0].weaponclass[0].weapontype[0].set.overlays[6].GraphIndex -1
 setfield modes[0].weaponclass[0].weapontype[0].set.overlays[6].Animation 17
 savetagchanges
 removeblockelements animations 39 *
-addanimation Animation\FallSET\3
+addanimation Animation\FallSET\lite\3
 swapblockelements animations 39 17
 removeblockelements animations 39
 addanimation Animation\SMG
@@ -1954,7 +1954,7 @@ setfield animations[2].PlaybackFlags ForceWeaponIkOn
 setfield animations[3].PlaybackFlags ForceWeaponIkOn
 
 removeblockelements animations 27 *
-addanimation Animation\FallSET\7
+addanimation Animation\FallSET\lite\7
 swapblockelements Animations 27 0
 removeblockelements Animations 27 *
 savetagchanges
@@ -2030,7 +2030,7 @@ setfield animations[32].animationdata.InternalFlags ValidProductionChecksum
 setfield animations[32].animationdata.Productionflags VerifySoundEvents
 
 removeblockelements animations 33 *
-addanimation Animation\FallSET\4
+addanimation Animation\FallSET\lite\4
 swapblockelements Animations 33 1
 removeblockelements Animations 33 *
 savetagchanges
@@ -2114,7 +2114,7 @@ setfield modes[0].weaponclass[1].weapontype[0].set.overlays[6].Label fall
 setfield modes[0].weaponclass[1].weapontype[0].set.overlays[6].GraphIndex -1
 setfield modes[0].weaponclass[1].weapontype[0].set.overlays[6].Animation 41
 removeblockelements animations 42 *
-addanimation Animation\FallSET\3
+addanimation Animation\FallSET\lite\3
 swapblockelements Animations 42 20
 removeblockelements Animations 42 *
 savetagchanges
@@ -2244,7 +2244,7 @@ setfield animations[31].animationdata.Productionflags VerifySoundEvents
 setfield animations[31].weight 1
 setfield animations[31].animationdata.ParentAnimation 18
 removeblockelements animations 32 *
-addanimation Animation\FallSET\1
+addanimation Animation\FallSET\lite\1
 swapblockelements Animations 32 0
 removeblockelements Animations 32 *
 savetagchanges

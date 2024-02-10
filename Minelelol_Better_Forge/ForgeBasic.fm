@@ -4,5 +4,7 @@ ECHO FMM_OUTPUT Installing Better Forge BASIC...
 
 copy /y BASIC\Items.xml ..\..\ui\web\screens\forge\object_creation
 copy /y BASIC\object_properties.js ..\..\ui\web\screens\forge\object_properties
+copy /y BASIC\For_troublemakers.md ..\..\forge
+copy /y BASIC\magnets.json ..\..\forge
 
 ECHO FMM_OUTPUT Better Forge BASIC Has been installed Succesfully.
