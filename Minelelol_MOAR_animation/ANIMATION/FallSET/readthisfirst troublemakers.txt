@@ -6,6 +6,8 @@
 6 = Intended for needler
 7 = Intended for sniper
 8 = Intended for bruteshot
+9 = Intended for flag
+10 = Intended for sentinel
             %##########-==  
          %############### -==           
        %###################*-:::-       
@@ -24,5 +26,5 @@
 :::::-                                  
 :::::-                                  
 =:::- 
-
+Oh btw, I extracted the model using newer tagtool that export the filetype as amf, put the scaling at 30.
 -Minelelol
