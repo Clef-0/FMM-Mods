@@ -1,0 +1,10 @@
+Echo #Tagtool from enash mods
+Echo #For some reason newer tagtool cannot import resource correctly possible due to {REDACTED}
+
+importtag objects\characters\masterchief\fp\weapons\support_high\fp_rocket_launcher\fp_rocket_launcher.jmad "ANIMATION\H3\Rocket\Resources\fp_rocket_launcher.model_animation_graph"
+edittag objects\characters\masterchief\fp\weapons\support_high\fp_rocket_launcher\fp_rocket_launcher.jmad
+setfield ResourceGroups[0].Resource.Page.Index -1
+setfield ResourceGroups[0].Resource ResourcesB "ANIMATION\H3\Rocket\Resources\fp_rocket_launcher.model_animation_tag_resource"
+savetagchanges
+exitto tags
+exit
