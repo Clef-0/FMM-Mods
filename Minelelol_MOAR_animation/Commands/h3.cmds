@@ -290,7 +290,10 @@ setfield MarkerGroups[1].Markers[0].Translation 0.2303063 0.0216339 -0.0251892
 setfield MarkerGroups[1].Markers[0].Rotation 0.34786 -0.1997311 -0.02808897 0.918385
 savetagchanges
 exitto tags
+importtag objects\characters\masterchief\fp\weapons\support_high\fp_rocket_launcher\fp_rocket_launcher.jmad "ANIMATION\H3\Rocket\Resources\fp_rocket_launcher.model_animation_graph"
 edittag objects\characters\masterchief\fp\weapons\support_high\fp_rocket_launcher\fp_rocket_launcher.jmad
+setfield ResourceGroups[0].ResourceReference.HaloOnlinePageableResource.Page.Index -1
+setfield ResourceGroups[0].ResourceReference.HaloOnlinePageableResource ResourcesB "ANIMATION\H3\Rocket\Resources\fp_rocket_launcher.model_animation_tag_resource"
 removeblockelements animations 17 *
 addanimation Animation\FallSET\lite\5
 addanimation Animation\H3\Rocket\Animation
