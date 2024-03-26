@@ -227,6 +227,7 @@ setfield animations[16].weight 0.555
 setfield animations[16].animationdata.NextAnimation 27
 setfield animations[16].animationdata.Soundevents[0].Sound 2
 setfield modes[0].weaponclass[0].weapontype[0].set.actions[4].GraphIndex -1
+setfield modes[0].weaponclass[0].weapontype[0].set.actions[4].Animation 16
 
 addblockelements animations[27].animationdata.SoundEvents 1
 setfield animations[27].animationdata.NodeListChecksum 1037822178
@@ -324,13 +325,12 @@ setfield animations[23].animationdata.NodeListChecksum 288679712
 setfield animations[23].animationdata.ProductionChecksum -2013369692
 setfield animations[23].animationdata.InternalFlags ValidProductionChecksum
 
-setfield animations[10].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
-setfield animations[11].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
-setfield animations[12].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
-setfield animations[13].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+setfield animations[11].PlaybackFlags DisableWeaponIk
+setfield animations[12].PlaybackFlags DisableWeaponIk
+setfield animations[13].PlaybackFlags DisableWeaponIk
 setfield animations[16].PlaybackFlags DisableWeaponIk
 setfield animations[17].PlaybackFlags DisableWeaponIk
-setfield animations[26].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
+setfield animations[26].PlaybackFlags DisableWeaponIk
 addanimation Animation\FallSET\3
 swapblockelements Animations 27 0
 removeblockelements Animations 27 *
@@ -1156,7 +1156,8 @@ swapblockelements animations 25 56
 swapblockelements animations 26 57
 swapblockelements animations 37 58
 swapblockelements animations 39 59
-swapblockelements animations 52 60
+swapblockelements animations 50 60
+swapblockelements animations 52 61
 removeblockelements animations 53 *
 addanimation animation\PP\new
 
@@ -1198,6 +1199,12 @@ setfield animations[35].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 setfield animations[37].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 setfield animations[38].PlaybackFlags DisableWeaponIk,DisableWeaponAim1stPerson
 setfield animations[49].PlaybackFlags DisableWeaponIk
+
+addblockelements animations[50].animationdata.FrameEvents 1
+setfield animations[50].animationdata.Frameevents[0].Frame 12
+setfield animations[50].animationdata.NodeListChecksum 737305646
+setfield animations[50].animationdata.ProductionChecksum -1802527840
+setfield animations[50].animationdata.InternalFlags ValidProductionChecksum
 
 addblockelements animations[52].animationdata.FrameEvents 1
 setfield animations[52].animationdata.Frameevents[0].Frame 10
@@ -1862,6 +1869,13 @@ setfield Pitchranges[0].Permutations[2].Importname sniper_rifle_reload_3
 savetagchanges
 exitto tags
 
+edittag objects\weapons\rifle\sniper_rifle\fp_sniper_rifle\fp_sniper_rifle.mode
+setfield MarkerGroups[1].Name left_hand
+setfield MarkerGroups[1].Markers[0].Translation 0.06916446 -0.003040792 -0.02955528
+setfield MarkerGroups[1].Markers[0].Rotation -0.6945807 0.150886 -0.3370411 0.6174093
+savetagchanges
+exitto tags
+
 edittag objects\characters\masterchief\fp\weapons\rifle\fp_sniper_rifle\fp_sniper_rifle.jmad
 setfield modes[0].weaponclass[0].weapontype[0].set.overlays[0].Animation 7
 setfield modes[0].weaponclass[0].weapontype[0].set.overlays[1].Animation 6
@@ -1884,9 +1898,14 @@ swapblockelements animations 5 31
 swapblockelements animations 6 32
 swapblockelements animations 7 33
 swapblockelements animations 10 34
+swapblockelements animations 19 35
 setfield animations[10].animationdata.NodeListChecksum -2062464963
 setfield animations[10].animationdata.ProductionChecksum -1170450785
 setfield animations[10].animationdata.InternalFlags ValidProductionChecks
+setfield animations[19].animationdata.NodeListChecksum -2062464963
+setfield animations[19].animationdata.ProductionChecksum -1721825982
+setfield animations[19].animationdata.InternalFlags ValidProductionChecksum
+setfield animations[19].PlaybackFlags ForceWeaponIkOn
 setfield animations[20].animationdata.NodeListChecksum -2062464963
 setfield animations[20].animationdata.ProductionChecksum 1623284803
 setfield animations[20].animationdata.InternalFlags ValidProductionChecksum
