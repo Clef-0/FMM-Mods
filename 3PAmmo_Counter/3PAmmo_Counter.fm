@@ -1,0 +1,11 @@
+@ECHO off
+ECHO FMM_OUTPUT Installing Better 3rd Person Ammo Counter...
+
+cd mods\tagMods\3PAmmo_Counter
+set setvar=setvariable moddir "%cd%"
+
+(
+	echo %setvar%
+	type 3PAmmo_Counter.cmds
+
+) | ..\..\..\FMM\TagTool\TagTool.exe ..\..\..\maps\tags.dat

@@ -1,6 +1,0 @@
-REM Grunt Birthday Party Installer.
-
-cd mods/tagmods/Grunt_Birthday_Party
-TYPE Grunt_Birthday_Party.cmds | TagTool.exe ../../../maps/tags.dat
-
-EXIT /B 0

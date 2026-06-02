@@ -1,0 +1,11 @@
+@ECHO off
+ECHO FMM_OUTPUT Installing Carbine Variant Fixup...
+
+cd mods\tagMods\Carbine_VariantFixup
+set setvar=setvariable moddir "%cd%"
+
+(
+	echo %setvar%
+	type Carbine_VariantFixup.cmds
+
+) | ..\..\..\FMM\TagTool\TagTool.exe ..\..\..\maps\tags.dat

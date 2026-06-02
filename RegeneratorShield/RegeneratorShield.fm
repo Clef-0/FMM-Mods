@@ -1,6 +1,0 @@
-ECHO FMM_OUTPUT installing RegeneratorShield...
-
-cd mods\tagmods\RegeneratorShield
-Type RegeneratorShield.cmds | TagTool.exe ../../../maps/tags.dat
-
-ECHO FMM_OUTPUT RegeneratorShield installed!

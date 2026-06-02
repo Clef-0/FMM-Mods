@@ -1,0 +1,4 @@
+openmodpackage moddir\Rookie_Voice_Replacement.pak
+ApplyModPackage
+exitmodpackage
+Exit

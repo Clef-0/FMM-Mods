@@ -1,0 +1,11 @@
+@ECHO off
+ECHO FMM_OUTPUT Installing Halo 3 Inspired HUD...
+
+cd mods\tagMods\Minelelol_Halo3InspiredHUD
+set setvar=setvariable moddir "%cd%"
+
+(
+	echo %setvar%
+	type Minelelol_Halo3InspiredHUD.cmds
+
+) | ..\..\..\FMM\TagTool\TagTool.exe ..\..\..\maps\tags.dat

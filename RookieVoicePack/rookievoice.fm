@@ -1,0 +1,11 @@
+@ECHO off
+ECHO FMM_OUTPUT Installing Rookie Voice Replacement...
+
+cd mods\tagMods\RookieVoicePack
+set setvar=setvariable moddir "%cd%"
+
+(
+	echo %setvar%
+	type rookievoice.cmds
+
+) | ..\..\..\FMM\TagTool\TagTool.exe ..\..\..\maps\tags.dat

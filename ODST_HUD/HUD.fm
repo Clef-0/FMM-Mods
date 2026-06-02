@@ -1,4 +1,0 @@
-ECHO FMM_OUTPUT Installing ODST HUD ...
-cd mods\tagMods\ODST_HUD
-
-Type import.cmds | HaloOnlineTagTool.exe ..\..\..\maps\tags.dat

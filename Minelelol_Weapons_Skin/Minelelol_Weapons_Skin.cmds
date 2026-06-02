@@ -1,0 +1,4 @@
+openmodpackage moddir\Minelelol_Weapons_Skin.pak
+ApplyModPackage
+exitmodpackage
+Exit

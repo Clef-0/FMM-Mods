@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/FMMUpdateNeeded/FMMUpdateNeeded.ini
+https://raw.githubusercontent.com/dirkkane/FMM-Mods/master/FMMUpdateNeeded/FMMUpdateNeeded.ini

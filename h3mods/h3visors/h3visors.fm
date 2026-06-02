@@ -1,7 +1,0 @@
-ECHO FMM_OUTPUT Installing Halo 3 Golden Visors ...
-
-cd mods\tagmods\h3mods\h3visors
-
-Type commands\h3visors.cmds | TagTool.exe ..\..\..\..\maps\tags.dat
-
-ECHO FMM_OUTPUT Halo 3 Golden Visors Installation Complete!

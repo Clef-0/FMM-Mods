@@ -1,6 +1,0 @@
-REM Reach Styled Frags Mod Installer.
-
-cd mods/tagmods/Reach_Styled_Frags
-TYPE Reach_Styled_Frags.cmds | TagTool.exe ../../../maps/tags.dat
-
-EXIT /B 0

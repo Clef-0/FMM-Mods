@@ -1,5 +1,0 @@
-ECHO FMM_OUTPUT Installing More Custom Powerup
-cd mods\tagMods\Minelelol_More_Custom_Powerup
-Type "Invader must die" | CantRunTWICE.bat
-
-ECHO FMM_OUTPUT More Custom Powerup has been installed!

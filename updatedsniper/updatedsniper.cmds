@@ -1,7 +1,0 @@
-edittag 0x1FA0
-importbitmap 0 00001ABA.dds
-exit
-edittag 0x1FA1
-importbitmap 0 00001ABB.dds
-exit
-dumplog updatedsniper.txt

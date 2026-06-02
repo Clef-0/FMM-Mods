@@ -1,0 +1,4 @@
+openmodpackage moddir\ExtremeHUDShake.pak
+ApplyModPackage
+exitmodpackage
+Exit

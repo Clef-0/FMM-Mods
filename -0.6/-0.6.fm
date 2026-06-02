@@ -1,8 +1,0 @@
-ECHO FMM_OUTPUT Installing...
-cd "mods\tagMods\-0.6"
-
-color 0A
-
-Type "-0.6.bat" | TagTool.exe ../../../maps/tags.dat
-
-ECHO FMM_OUTPUT Installation Complete ...

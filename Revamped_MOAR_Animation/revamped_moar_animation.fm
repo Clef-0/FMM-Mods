@@ -1,0 +1,11 @@
+@ECHO off
+ECHO FMM_OUTPUT Installing Revamped MOAR Animation...
+
+cd mods\tagMods\Revamped_MOAR_Animation
+set setvar=setvariable moddir "%cd%"
+
+(
+	echo %setvar%
+	type revamped_moar_animation.cmds
+
+) | ..\..\..\FMM\TagTool\TagTool.exe ..\..\..\maps\tags.dat

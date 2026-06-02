@@ -1,0 +1,4 @@
+openmodpackage moddir\20_20_Vision.pak
+ApplyModPackage
+exitmodpackage
+Exit

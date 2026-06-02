@@ -1,0 +1,11 @@
+@ECHO off
+ECHO FMM_OUTPUT Installing Minelelol Weapon Skins...
+
+cd mods\tagMods\Minelelol_Weapons_Skin
+set setvar=setvariable moddir "%cd%"
+
+(
+	echo %setvar%
+	type Minelelol_Weapons_Skin.cmds
+
+) | ..\..\..\FMM\TagTool\TagTool.exe ..\..\..\maps\tags.dat

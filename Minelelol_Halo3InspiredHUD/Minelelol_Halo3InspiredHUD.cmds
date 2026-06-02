@@ -1,0 +1,4 @@
+openmodpackage moddir\Minelelol_Halo3InspiredHUD.pak
+ApplyModPackage
+exitmodpackage
+Exit

@@ -1,7 +1,0 @@
-edit 01AD
-setfield Attachments[0].Attachment2 1B3A
-savechanges
-dumplog test.log
-exit
-exitto tags.dat
-exit

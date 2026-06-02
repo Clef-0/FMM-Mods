@@ -1,8 +1,0 @@
-ECHO FMM_OUTPUT Installing ShieldDownFix ...
-cd mods\tagMods\ShieldDownFix
-
-color 0A
-
-Type ShieldDownFix.cmds | TagTool.exe ../../../maps/tags.dat
-
-ECHO FMM_OUTPUT Installation Complete ...

@@ -1,6 +1,0 @@
-ECHO FMM_OUTPUT Installing Bubble Shield Fix LOW DETAIL
-
-cd mods\tagMods\BubbleShield_Fix
-Type "go go go ga ga" | LowDetail.bat
-
-ECHO FMM_OUTPUT Bubble Shield Fix LOW DETAIL has been installed!

@@ -1,0 +1,11 @@
+@ECHO off
+ECHO FMM_OUTPUT Installing RipOFF Halo 3 Warthog...
+
+cd mods\tagMods\RipOFFH3Warthog
+set setvar=setvariable moddir "%cd%"
+
+(
+	echo %setvar%
+	type RipOFFH3Warthog.cmds
+
+) | ..\..\..\FMM\TagTool\TagTool.exe ..\..\..\maps\tags.dat

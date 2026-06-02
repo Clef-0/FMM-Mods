@@ -1,0 +1,4 @@
+openmodpackage moddir\Carbine_VariantFixup.pak
+ApplyModPackage
+exitmodpackage
+Exit

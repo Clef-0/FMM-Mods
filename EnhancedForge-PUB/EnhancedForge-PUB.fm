@@ -1,9 +1,0 @@
-ECHO FMM_OUTPUT Installing the PUBLIC EnhancedForge mod... [this will take a while]
-
-cd mods\tagMods\EnhancedForge-PUB
-
-START /WAIT commands\TTCC.exe commands\EnhancedForge.cmdX
-
-Type commands\EnhancedForge.cmds | TagTool.exe ../../../maps/tags.dat
-
-ECHO FMM_OUTPUT EnhancedForge installed! NOTE: THIS IS OUTDATED! A BETA VERSION OF THE MOD WITH NEWER ITEMS IS IN BETA TESTING. STAY ALERT 

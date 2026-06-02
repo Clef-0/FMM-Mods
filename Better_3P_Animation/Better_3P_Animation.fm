@@ -1,0 +1,11 @@
+@ECHO off
+ECHO FMM_OUTPUT Installing Better 3rd Person Animation...
+
+cd mods\tagMods\Better_3P_Animation
+set setvar=setvariable moddir "%cd%"
+
+(
+	echo %setvar%
+	type Better_3P_Animation.cmds
+
+) | ..\..\..\FMM\TagTool\TagTool.exe ..\..\..\maps\tags.dat

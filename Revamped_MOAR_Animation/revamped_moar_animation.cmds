@@ -1,0 +1,4 @@
+openmodpackage moddir\REVAMPED_MOAR_Animation.pak
+ApplyModPackage
+exitmodpackage
+Exit

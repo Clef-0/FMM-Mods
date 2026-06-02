@@ -1,3 +1,0 @@
-ECHO FMM_OUTPUT Installing Centered Crosshair View Model Fix.....
-cd mods\tagMods\CenteredCrosshairs
-Type install.cmds | TagTool.exe ..\..\..\maps\tags.dat

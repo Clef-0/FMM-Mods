@@ -1,7 +1,0 @@
-EditTag 0x1596
-SetField Seats[0].Flags 262172
-SaveTagChanges
-Exit
-ImportTag 0x000030FF Gungoose.weap
-DumpLog log.log
-exit

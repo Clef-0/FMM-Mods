@@ -1,6 +1,0 @@
-ECHO FMM_OUTPUT Installing Halo 3 Inspired HUD
-
-cd mods\tagMods\Minelelol_Halo3_Inspired_HUD
-Type "I'm here, here to conquer near and far" | Install.bat
-
-ECHO FMM_OUTPUT Halo 3 Inspired HUD has been installed!

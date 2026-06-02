@@ -1,8 +1,0 @@
-import 41E4 resources\tags\s3d_turf.scnr full
-import 41E5 resources\tags\s3d_turf.sbsp full
-import 443E resources\tags\s3d_turf.Lbsp full
-import 4228 resources\tags\s3d_turf.cfxs full
-import 4229 resources\tags\s3d_turf.skya full
-import 4232 resources\tags\s3d_turf.rm full
-
-dumplog turf.log

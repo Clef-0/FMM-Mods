@@ -1,0 +1,4 @@
+openmodpackage moddir\RipOFFH3Warthog.pak
+ApplyModPackage
+exitmodpackage
+Exit

@@ -1,5 +1,0 @@
-edittag 0x1348
-setfield NewDamageInfo[0].DamageSections[1].InstantResponses[0].SecondaryTransitionEffect null
-savetagchanges
-exit
-dumplog HeadshotSoundRemover.log

@@ -1,8 +1,0 @@
-ECHO FMM_OUTPUT Installing Updated BR Sounds
-cd mods\tagMods\UpdatedBRSounds
-
-color 0A
-
-Type UpdatedBRSounds.cmds | TagTool.exe ../../../maps/tags.dat
-
-ECHO FMM_OUTPUT Updated BR Sounds Installed.

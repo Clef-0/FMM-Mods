@@ -1,7 +1,0 @@
-ECHO FMM_OUTPUT Installing Weapon Skins pack...
-cd mods\tagMods\Weapon_Skins_pack
-
-Type Weapon_Skins_pack.cmds | TagTool.exe ..\..\..\..\maps\tags.dat
-
-
-ECHO FMM_OUTPUT Weapon Skins Installation completed.

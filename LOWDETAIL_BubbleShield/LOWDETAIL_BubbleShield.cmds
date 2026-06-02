@@ -1,0 +1,4 @@
+openmodpackage moddir\LOWDETAIL_BubbleShield.pak
+ApplyModPackage
+exitmodpackage
+Exit

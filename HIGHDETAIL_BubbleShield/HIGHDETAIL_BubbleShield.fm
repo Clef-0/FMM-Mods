@@ -1,0 +1,11 @@
+@ECHO off
+ECHO FMM_OUTPUT Installing High Detail Bubble Shield...
+
+cd mods\tagMods\HIGHDETAIL_BubbleShield
+set setvar=setvariable moddir "%cd%"
+
+(
+	echo %setvar%
+	type HIGHDETAIL_BubbleShield.cmds
+
+) | ..\..\..\FMM\TagTool\TagTool.exe ..\..\..\maps\tags.dat

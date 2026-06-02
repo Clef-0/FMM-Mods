@@ -1,6 +1,0 @@
-importtag 0x00001351 BlueShieldTP
-
-importtag 0x00001352 BlueShieldFP
-
-dumplog BlueShield.log
-exit

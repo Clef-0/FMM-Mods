@@ -1,0 +1,11 @@
+@ECHO off
+ECHO FMM_OUTPUT Installing H2A Beam Rifle...
+
+cd mods\tagMods\H2A_BeamRifle
+set setvar=setvariable moddir "%cd%"
+
+(
+	echo %setvar%
+	type h2a_beamrifle.cmds
+
+) | ..\..\..\FMM\TagTool\TagTool.exe ..\..\..\maps\tags.dat

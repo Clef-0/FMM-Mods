@@ -1,8 +1,0 @@
-ECHO FMM_OUTPUT Installing Snow Camo Vehicles...
-cd mods\tagMods\Snowverhaul\SnowverhaulVehicle
-
-
-Type SnowverhaulVEHICLE.cmds | TagTool.exe ..\..\..\..\maps\tags.dat
-
-
-ECHO FMM_OUTPUT Snow Camo Vehicles completed.

@@ -1,0 +1,11 @@
+@ECHO off
+ECHO FMM_OUTPUT Installing Better Weapon Gold Variant Texture...
+
+cd mods\tagMods\Minelelol_BetterGOLD
+set setvar=setvariable moddir "%cd%"
+
+(
+	echo %setvar%
+	type Minelelol_BetterGOLD.cmds
+
+) | ..\..\..\FMM\TagTool\TagTool.exe ..\..\..\maps\tags.dat

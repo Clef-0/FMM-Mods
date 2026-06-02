@@ -1,0 +1,11 @@
+@ECHO off
+ECHO FMM_OUTPUT Installing Extreme HUD Shake...
+
+cd mods\tagMods\ExtremeHUDShake
+set setvar=setvariable moddir "%cd%"
+
+(
+	echo %setvar%
+	type ExtremeHUDShake.cmds
+
+) | ..\..\..\FMM\TagTool\TagTool.exe ..\..\..\maps\tags.dat

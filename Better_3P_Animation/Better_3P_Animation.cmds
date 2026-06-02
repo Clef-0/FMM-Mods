@@ -1,0 +1,4 @@
+openmodpackage moddir\Better_3PPerson_Animation.pak
+ApplyModPackage
+exitmodpackage
+Exit

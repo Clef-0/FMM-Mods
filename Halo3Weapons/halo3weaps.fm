@@ -1,0 +1,11 @@
+@ECHO off
+ECHO FMM_OUTPUT Installing Halo 3 Weapons...
+
+cd mods\tagMods\Halo3Weapons
+set setvar=setvariable moddir "%cd%"
+
+(
+	echo %setvar%
+	type halo3weaps.cmds
+
+) | ..\..\..\FMM\TagTool\TagTool.exe ..\..\..\maps\tags.dat

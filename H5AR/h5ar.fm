@@ -1,0 +1,11 @@
+@ECHO off
+ECHO FMM_OUTPUT Installing Halo 5 Assault Rifle...
+
+cd mods\tagMods\H5AR
+set setvar=setvariable moddir "%cd%"
+
+(
+	echo %setvar%
+	type h5ar.cmds
+
+) | ..\..\..\FMM\TagTool\TagTool.exe ..\..\..\maps\tags.dat

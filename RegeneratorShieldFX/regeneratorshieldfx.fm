@@ -1,0 +1,11 @@
+@ECHO off
+ECHO FMM_OUTPUT Installing Regenerator Shield Effect for First Person...
+
+cd mods\tagMods\RegeneratorShieldFX
+set setvar=setvariable moddir "%cd%"
+
+(
+	echo %setvar%
+	type regeneratorshieldfx.cmds
+
+) | ..\..\..\FMM\TagTool\TagTool.exe ..\..\..\maps\tags.dat

@@ -1,8 +1,0 @@
---EXPORT_BinCMP--
-extract 6D83 x_Forge\bridge_2x1.mode
-extract 6D84 x_Forge\bridge_2x2.mode
-extract 6D85 x_Forge\bridge_2x3.mode
-extract 6D86 x_Forge\bridge_2x5.mode
-extract 6D87 x_Forge\window_2x1.mode
-extract 6D88 x_Forge\window_2x2.mode
-exit

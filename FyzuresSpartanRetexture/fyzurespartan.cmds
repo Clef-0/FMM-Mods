@@ -1,0 +1,4 @@
+openmodpackage moddir\mean_in_green_cosmetic_texture.pak
+ApplyModPackage
+exitmodpackage
+Exit

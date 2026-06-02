@@ -1,0 +1,11 @@
+@ECHO off
+ECHO FMM_OUTPUT Installing Noble Six Voice Replacement...
+
+cd mods\tagMods\NobleSixVoicePack
+set setvar=setvariable moddir "%cd%"
+
+(
+	echo %setvar%
+	type noblesixvoice.cmds
+
+) | ..\..\..\FMM\TagTool\TagTool.exe ..\..\..\maps\tags.dat

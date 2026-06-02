@@ -1,9 +1,0 @@
-import 6E41 Station/station_scnr
-import 6EBB Station/skya_skya
-
-import 6EEA Station/SDDT
-import 6EEB Station/SBSP
-
-dep add 6E41 6E24
-dep add 6E41 6E25
-dep add 6E41 6EBB

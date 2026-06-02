@@ -1,8 +1,0 @@
-color 0A
-cd mods\tagmods\snowtrap\
-
-ECHO FMM_OUTPUT Installing...
-
-Type commands\snowtrap.cmds | TagTool.exe ..\..\..\maps\tags.dat
-
-ECHO FMM_OUTPUT SNOWTRAP successfully installed!

@@ -1,0 +1,11 @@
+@ECHO off
+ECHO FMM_OUTPUT Fyzure's Spartan Retexture...
+
+cd mods\tagMods\FyzuresSpartanRetexture
+set setvar=setvariable moddir "%cd%"
+
+(
+	echo %setvar%
+	type fyzurespartan.cmds
+
+) | ..\..\..\FMM\TagTool\TagTool.exe ..\..\..\maps\tags.dat

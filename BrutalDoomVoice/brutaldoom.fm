@@ -1,0 +1,11 @@
+@ECHO off
+ECHO FMM_OUTPUT Installing Brutal Doom Voice Replacement...
+
+cd mods\tagMods\BrutalDoomVoice
+set setvar=setvariable moddir "%cd%"
+
+(
+	echo %setvar%
+	type brutaldoom.cmds
+
+) | ..\..\..\FMM\TagTool\TagTool.exe ..\..\..\maps\tags.dat

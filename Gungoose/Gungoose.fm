@@ -1,7 +1,0 @@
-ECHO Sending your Mongeese to The Spartan Research Lab to get weapons installed...
-
-cd mods\tagMods\Gungoose
-
-Type Gungoose.cmds | TagTool.exe ../../../maps/tags.dat
-
-ECHO The Spartan Research Lab shipment with your new Gungeese have returned ...

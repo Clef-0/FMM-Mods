@@ -1,8 +1,0 @@
-edittag 0x00005A90
-importbitmap 0 DDS\RETICLES\CUSTOM\hudh3.dds
-Setfield Sequences[10].Sprites[0].Bottom 0.190211
-Setfield Sequences[14].Sprites[0].Left 0.890605
-savetagchanges
-exit
-
-RunCommands "commands\Install.cmds"

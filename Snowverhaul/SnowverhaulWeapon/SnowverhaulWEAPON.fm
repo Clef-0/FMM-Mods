@@ -1,8 +1,0 @@
-ECHO FMM_OUTPUT Installing Snow Camo Weapons...
-cd mods\tagMods\Snowverhaul\SnowverhaulWeapon
-
-
-Type SnowverhaulWEAPON.cmds | TagTool.exe ..\..\..\..\maps\tags.dat
-
-
-ECHO FMM_OUTPUT Snow Camo Weapons Installation completed.

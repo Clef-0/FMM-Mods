@@ -1,9 +1,0 @@
-color 0A
-cd mods\tagMods\Minelelol_MOAR_animation
-ECHO FMM_OUTPUT Installing MOAR Animation LITE...
-
-Type commands\lite.cmds | TagTool.exe ..\..\..\maps\tags.dat
-timeout 1
-
-
-ECHO FMM_OUTPUT MOAR Animation LITE Has been installed Succesfully.

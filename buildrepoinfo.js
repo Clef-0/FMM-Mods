@@ -37,7 +37,7 @@ function fileLister(dir) {
 */
 function linkstxtParse(linkstxt) {
 
-    const urlPrefix = "https://raw.githubusercontent.com/Clef-0/FMM-Mods/master/"; // Prefix of the URLs
+    const urlPrefix = "https://raw.githubusercontent.com/dirkkane/FMM-Mods/master/"; // Prefix of the URLs
 
     // Read the links.txt file, split it in to an array.
     const data = fs.readFileSync(linkstxt, {encoding: 'utf-8'});

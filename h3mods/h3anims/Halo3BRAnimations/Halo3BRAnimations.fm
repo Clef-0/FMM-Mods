@@ -1,8 +1,0 @@
-ECHO FMM_OUTPUT Installing Halo 3 BR Animations
-cd mods\tagMods\h3mods\h3anims\Halo3BRAnimations
-
-color 0A
-
-Type Halo3BRAnimations.cmds | TagTool.exe ../../../../../maps/tags.dat
-
-ECHO FMM_OUTPUT Halo 3 BR Animations Installed.
